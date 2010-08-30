@@ -1,0 +1,13 @@
+^.*/.installed.cfg
+.*.pyc
+.*.swp
+.*.orig
+.*/bin$
+.*/build$
+.*/develop-eggs$
+.*/dist/.*$
+.*/eggs/.*$
+.*/parts/.*$
+.*.egg-info
+^docs/build/
+
