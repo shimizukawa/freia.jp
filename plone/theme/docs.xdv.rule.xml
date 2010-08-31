@@ -1,0 +1,67 @@
+<rules xmlns="http://namespaces.plone.org/xdv"
+	xmlns:css="http://namespaces.plone.org/xdv+css"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<replace theme="//head/title" content="//head/title"/>
+<prepend theme="/html/head" css:content="head > *"/>
+
+<append theme="/html/head">
+	<style type="text/css">
+		.content h2 {border-bottom: 1px solid green;}
+		a.reference {color: #355F7C;}
+		div.sphinxsidebar {float: none; margin-left: 0; width: 100%; font-size: 80%;}
+		div.sphinxsidebar h3, div.sphinxsidebar h4 {color: black;}
+		div.sphinxsidebar ul {margin-right:0;}
+		div.sphinxsidebarwrapper {padding:4px; overflow:hidden;}
+		ul#nav {background-color: #F7F9FB;}
+		.content {background-color: #F7F9FB; padding: 0.3em;}
+	</style>
+</append>
+
+<replace css:theme="#logo">
+	<a href="/taka" accesskey="1" id="portal-logo">清水川Web</a>
+</replace>
+
+<!--
+<copy css:theme="#menu">
+	<xsl:for-each css:select="#portal-globalnav">
+		<ul>
+			<xsl:copy-of select="li"/>
+		</ul>
+	</xsl:for-each>
+</copy>
+-->
+
+<drop css:theme="#left > *" />
+<copy css:theme="#left">
+	<div class="content">
+		<xsl:copy-of css:select="div.body > *"/>
+	</div>
+</copy>
+
+<drop css:theme="#box > *" />
+<copy css:theme="#nav" css:content=".sphinxsidebar"/>
+
+<drop css:theme=".box" />
+<!--
+
+<prepend css:theme="#right">
+	<div class="box">
+		<xsl:copy-of css:select="#portal-searchbox > *"/>
+	</div>
+</prepend>
+
+<copy css:theme="#right">
+	<xsl:for-each css:select="#portal-column-two .portletWrapper">
+		<div class="box">
+			<xsl:copy-of select="."/>
+		</div>
+	</xsl:for-each>
+</copy>
+
+-->
+
+<replace css:theme="#footer" css:content=".footer"/>
+
+</rules>
+

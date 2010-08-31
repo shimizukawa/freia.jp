@@ -11,6 +11,7 @@ body {
 	background-repeat: repeat-x;
 	font-family: Verdana, Arial, sans-serif;
 	font-size: .9em;
+	font: 69% "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
 }
 
 p {
@@ -20,17 +21,15 @@ p {
 }
 
 h2 {
-	color: #9f9f9f;
+	color: #337733;
 	margin:0px;
 	padding:0px;
-	font-size: 15px;
+	font-size: 120%;
 }
 
 ul {
-	font-size: 10px;
 	margin:0;
 	padding:0;
-	list-style-image: url(../img/bullet.gif);
 }
 
 a {
@@ -83,6 +82,7 @@ blockquote{
 
 #top h2 a {
 	color: white;
+	font-size: 120%;
 	text-decoration: none;
 }
 
@@ -96,11 +96,12 @@ blockquote{
 
 #menu {
 	display: block;
-	float:right;
+	position: absolute;
+	right: 0;
 }
 
 #menu ul {
-	margin: 0;
+	margin: 0 0 0 200px;
 	list-style: none;
 }
 
@@ -124,13 +125,13 @@ blockquote{
 	background: url(../img/bg_menu.gif);
 }
 
-#menu li a.current {
+#menu li.selected a {
 	letter-spacing: 1px;
 	color: gray;
 	background: url(../img/bg_menu.gif);
 }
 
-#menu li a.current:hover {
+#menu li.selected a:hover {
 	color: #fff;
 }
 
@@ -144,8 +145,8 @@ blockquote{
 }
 
 #content h2 {
-	margin: 0;
-	padding: 10px 0 10px 0;
+	margin: 0 0 10px 0;
+	padding: 10px 0 0 0;
 }
 
 
@@ -153,7 +154,7 @@ blockquote{
 
 
 #left ul {
-	padding: 15px 0 15px 35px;
+	padding: 0 0 0 35px;
 	margin:0;
 }
 
@@ -162,10 +163,11 @@ blockquote{
 }
 
 #left {
-	float:left;
-	display: block;
-	margin-left: 20px;
-	margin-right: 300px;
+	float: left;
+	width: 100%;
+}
+#left > div {
+	margin-right: 200px;
 }
 
 
@@ -173,18 +175,18 @@ blockquote{
 
 
 #right {
-	margin-right: -290px;
-	margin-left:  -290px;
-	width: 290px;
+	margin-left: -200px;
+	padding-left: 10px;
+	width: 190px;
 	float: left;
-	display:block;
-	margin-top: 10px;
+	margin-top: 0;
 }
 
 #right .box {
 	background: #F6F9FB;
 	border: 1px solid #E1E1E1;
 	padding:10px 10px 15px 10px;
+	margin-bottom: 1em;
 }
 
 #right .box h2 {
@@ -214,14 +216,15 @@ blockquote{
 }
 
 #nav{
-	list-style: none;
-	margin: 2.0em 0;
+	margin: 0.5em 0;
 }
-#nav li{ padding: 0; margin: 0; }
+#nav li{
+	padding: 0;
+	margin: 0;
+}
 #nav a{
 	display: block;
-	height: 2.0em;
-	padding: 0.3em 0.3em 0.3em 0.8em;
+	padding: 4px;
 	border-bottom: 2px; /*solid #1a1a1a*/
 	border-top: 2px; /*solid #1a1a1a*/
 	color: #93B300;
@@ -235,6 +238,8 @@ blockquote{
 	background: url(../img/bg_t.gif) no-repeat;
 	background-color: #fff;
 	font-weight: bold;
+	padding-left: 6px;
+	margin-left: -2px;
 }
 
 /**** Clear Div ***/

@@ -1,0 +1,46 @@
+<rules xmlns="http://namespaces.plone.org/xdv"
+	xmlns:css="http://namespaces.plone.org/xdv+css"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<replace theme="//head/title" content="//head/title"/>
+<append theme="/html/head" css:content="head > *"/>
+
+<append theme="/html/head">
+	<style type="text/css">
+		a#portal-logo {color: white !important; font-size: 120%;}
+	</style>
+</append>
+
+<replace css:theme="#logo" css:content="#portal-logo"/>
+<copy css:theme="#menu">
+	<xsl:for-each css:select="#portal-globalnav">
+		<ul>
+			<xsl:copy-of select="li"/>
+		</ul>
+	</xsl:for-each>
+</copy>
+
+<drop css:theme="#left > *" />
+<copy css:theme="#left" css:content="#portal-column-content"/>
+<drop css:theme=".box" />
+
+<prepend css:theme="#right">
+	<div class="box">
+		<xsl:copy-of css:select="#portal-searchbox > *"/>
+	</div>
+</prepend>
+
+<copy css:theme="#right">
+	<xsl:for-each css:select="#portal-column-two .portletWrapper">
+		<div class="box">
+			<xsl:copy-of select="."/>
+		</div>
+	</xsl:for-each>
+</copy>
+
+
+<replace css:theme="#footer" css:content="#portal-footer"/>
+<after css:theme="#footer" css:content="#portal-colophon"/>
+
+</rules>
+
