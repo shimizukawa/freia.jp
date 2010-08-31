@@ -65,7 +65,7 @@ blockquote{
 	overflow:hidden;
 }
 
-#top h2 {
+#logo {
 	color: White;
 	letter-spacing: 3px;
 	font-size: 2.4em;
@@ -79,13 +79,13 @@ blockquote{
 	padding-left: 10px;
 }
 
-#top h2 a {
+#logo a {
 	color: white;
 	font-size: 120%;
 	text-decoration: none;
 }
 
-#top h2 a:hover {
+#logo a:hover {
 	color: #93B300;
 }
 

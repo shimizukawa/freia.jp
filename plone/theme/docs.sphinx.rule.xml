@@ -11,7 +11,7 @@
 		.documentbody {font-size: 110%; background-color: #F7F9FB; padding: 0.3em;}
 		.documentbody h2 {border-bottom: 1px solid green;}
 		a.reference {color: #355F7C;}
-		div.sphinxsidebar {float: none; margin-left: 0; width: 100%; font-size: 80%;}
+		div.sphinxsidebar {float: none; margin-left: 0; width: 100%;}
 		div.sphinxsidebar h3, div.sphinxsidebar h4 {color: black;}
 		div.sphinxsidebar ul {margin-right:0;}
 		div.sphinxsidebarwrapper {padding:4px; overflow:hidden;}
@@ -23,9 +23,9 @@
 </append>
 
 <!-- site logo -->
-<replace css:theme="#logo">
+<copy css:theme="#logo">
 	<a href="/taka" accesskey="1" id="portal-logo">清水川Web</a>
-</replace>
+</copy>
 
 <!-- site menu -->
 <copy css:theme="#menu">

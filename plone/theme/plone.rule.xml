@@ -15,7 +15,7 @@
 </append>
 
 <!-- site logo -->
-<replace css:theme="#logo" css:content="#portal-logo"/>
+<copy css:theme="#logo" css:content="#portal-logo"/>
 
 <!-- site menu -->
 <copy css:theme="#menu">
