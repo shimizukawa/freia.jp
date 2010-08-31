@@ -2,6 +2,7 @@
 	xmlns:css="http://namespaces.plone.org/xdv+css"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+<!-- head -->
 <replace theme="//head/title" content="//head/title"/>
 <append theme="/html/head" css:content="head > *"/>
 
@@ -11,7 +12,10 @@
 	</style>
 </append>
 
+<!-- site logo -->
 <replace css:theme="#logo" css:content="#portal-logo"/>
+
+<!-- site menu -->
 <copy css:theme="#menu">
 	<xsl:for-each css:select="#portal-globalnav">
 		<ul>
@@ -20,10 +24,17 @@
 	</xsl:for-each>
 </copy>
 
+<!-- breadcrumb -->
+<!--
+<before css:theme="#content" css:content="#portal-breadcrumbs"/>
+-->
+
+<!-- document body -->
 <drop css:theme="#left > *" />
 <copy css:theme="#left" css:content="#portal-column-content"/>
 <drop css:theme=".box" />
 
+<!-- portlets -->
 <prepend css:theme="#right">
 	<div class="box">
 		<xsl:copy-of css:select="#portal-searchbox > *"/>
@@ -39,6 +50,7 @@
 </copy>
 
 
+<!-- footer -->
 <replace css:theme="#footer" css:content="#portal-footer"/>
 <after css:theme="#footer" css:content="#portal-colophon"/>
 
