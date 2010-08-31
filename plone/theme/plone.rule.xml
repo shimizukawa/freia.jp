@@ -51,7 +51,8 @@
 
 
 <!-- footer -->
-<replace css:theme="#footer" css:content="#portal-footer"/>
+<drop css:content="#portal-footer > address"/>
+<after css:theme="#footer" css:content="#portal-footer"/>
 <after css:theme="#footer" css:content="#portal-colophon"/>
 
 </rules>

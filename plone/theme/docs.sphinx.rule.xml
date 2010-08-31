@@ -18,7 +18,7 @@
 		div.related {background-color: transparent; color: black; line-height: 2em; font-size: 100%;}
 		div.related a {color: #355F7C;}
 		div.related a:hover {text-decoration: underline;}
-		div.footer {background-color: #11303D; font-size: 100%;}
+		div.footer {background-color: #11303D;}
 	</style>
 </append>
 
@@ -73,7 +73,7 @@
 <drop css:theme=".box" />
 
 <!-- footer -->
-<replace css:theme="#footer" css:content=".footer"/>
+<after css:theme="#footer" css:content=".footer"/>
 
 </rules>
 

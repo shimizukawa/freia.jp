@@ -258,16 +258,25 @@ blockquote{
 
 /**** Footer ***/
 
-
 #footer {
-	margin: 40px auto 0 auto;
+	margin: 0;
+	padding: 0.5em;
+	width: 100%;
+	background: #000 url(../img/footer_bg.gif);
+	color: white;
+	font-size: 100%;
 	text-align: center;
-	border-top: dotted 1px gray;
-	padding: 20px 0 20px 0;
-	width: 70%;
+}
+#footer a {
+	color: #93B300;
+}
+
+#footer div {
+	padding: 0.2em;
 }
 
 #footer p {
 	margin: 0px;
 	padding: 0;
 }
+
