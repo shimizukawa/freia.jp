@@ -7,14 +7,14 @@
 
 <append theme="/html/head">
 	<style type="text/css">
+		.content {font-size: 110%; background-color: #F7F9FB; padding: 0.3em;}
 		.content h2 {border-bottom: 1px solid green;}
 		a.reference {color: #355F7C;}
 		div.sphinxsidebar {float: none; margin-left: 0; width: 100%; font-size: 80%;}
 		div.sphinxsidebar h3, div.sphinxsidebar h4 {color: black;}
 		div.sphinxsidebar ul {margin-right:0;}
 		div.sphinxsidebarwrapper {padding:4px; overflow:hidden;}
-		ul#nav {background-color: #F7F9FB;}
-		.content {background-color: #F7F9FB; padding: 0.3em;}
+		div.footer {background-color: #11303D; font-size: 100%;}
 	</style>
 </append>
 

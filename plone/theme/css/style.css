@@ -9,9 +9,8 @@ body {
 	margin: 0px;
 	background: url(../img/top_bg.gif);
 	background-repeat: repeat-x;
-	font-family: Verdana, Arial, sans-serif;
-	font-size: .9em;
-	font: 69% "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+	font-family: "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+	font-size: 69%;
 }
 
 p {
@@ -240,6 +239,9 @@ blockquote{
 	font-weight: bold;
 	padding-left: 6px;
 	margin-left: -2px;
+}
+#nav {
+	background-color: #F7F9FB;
 }
 
 /**** Clear Div ***/
