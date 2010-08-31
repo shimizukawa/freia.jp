@@ -2,26 +2,32 @@
 	xmlns:css="http://namespaces.plone.org/xdv+css"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+<!-- head -->
 <replace theme="//head/title" content="//head/title"/>
 <prepend theme="/html/head" css:content="head > *"/>
 
 <append theme="/html/head">
 	<style type="text/css">
-		.content {font-size: 110%; background-color: #F7F9FB; padding: 0.3em;}
-		.content h2 {border-bottom: 1px solid green;}
+		.documentbody {font-size: 110%; background-color: #F7F9FB; padding: 0.3em;}
+		.documentbody h2 {border-bottom: 1px solid green;}
 		a.reference {color: #355F7C;}
 		div.sphinxsidebar {float: none; margin-left: 0; width: 100%; font-size: 80%;}
 		div.sphinxsidebar h3, div.sphinxsidebar h4 {color: black;}
 		div.sphinxsidebar ul {margin-right:0;}
 		div.sphinxsidebarwrapper {padding:4px; overflow:hidden;}
+		div.related {background-color: transparent; color: black;}
+		div.related a {color: #355F7C;}
+		div.related a:hover {text-decoration: underline;}
 		div.footer {background-color: #11303D; font-size: 100%;}
 	</style>
 </append>
 
+<!-- site logo -->
 <replace css:theme="#logo">
 	<a href="/taka" accesskey="1" id="portal-logo">清水川Web</a>
 </replace>
 
+<!-- site menu -->
 <!--
 <copy css:theme="#menu">
 	<xsl:for-each css:select="#portal-globalnav">
@@ -32,13 +38,19 @@
 </copy>
 -->
 
+<!-- breadcrumb -->
+<before css:theme="#content" content="//div[@class='related'][1]"/>
+<after  css:theme="#content" content="//div[@class='related'][2]"/>
+
+<!-- document body -->
 <drop css:theme="#left > *" />
 <copy css:theme="#left">
-	<div class="content">
+	<div class="documentbody">
 		<xsl:copy-of css:select="div.body > *"/>
 	</div>
 </copy>
 
+<!-- portlets -->
 <drop css:theme="#box > *" />
 <copy css:theme="#nav" css:content=".sphinxsidebar"/>
 
@@ -61,6 +73,7 @@
 
 -->
 
+<!-- footer -->
 <replace css:theme="#footer" css:content=".footer"/>
 
 </rules>
