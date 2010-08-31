@@ -220,6 +220,8 @@ blockquote{
 
 #nav{
 	margin: 0.5em 0;
+	background-color: #F7F9FB;
+	border: 1px solid #E1E1E1;
 }
 #nav li{
 	padding: 0;
@@ -244,9 +246,7 @@ blockquote{
 	padding-left: 6px;
 	margin-left: -2px;
 }
-#nav {
-	background-color: #F7F9FB;
-}
+
 
 /**** Clear Div ***/
 
