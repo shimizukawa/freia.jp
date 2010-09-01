@@ -1,0 +1,16 @@
+<VirtualHost *:80>
+    ServerName ${settings:domain}
+    ServerAlias www.${settings:domain} admin.${settings:domain}
+    ServerAdmin info@stxnext.pl
+    CustomLog /var/log/httpd/${settings:domain}-access.log combined
+    ErrorLog /var/log/httpd/${settings:domain}-error.log
+
+    SetEnvIf Host "([^:]*):?.*" MY_HTTP_HOST=$1
+
+    RewriteEngine on
+    RewriteRule ^/(.*) http://127.0.0.1:${settings-devel:paster-port}/$1 [L,P]
+    RequestHeader add X-Vhm-Host http://%{MY_HTTP_HOST}e
+    RequestHeader add X-Vhm-Root /${settings:plonesite-id}
+    ProxyPreserveHost On
+</VirtualHost>
+
