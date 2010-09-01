@@ -1,0 +1,71 @@
+[composite:main]
+use = egg:Paste#urlmap
+/theme = static
+/taka/docs/xdv = docs.xdv
+/taka/docs/pyhack4 = docs.pyhack4
+/ = plone
+
+[app:static]
+use = egg:Paste#static
+document_root = ${buildout:directory}/theme
+
+;#####################################
+; plone
+
+[pipeline:plone]
+pipeline = egg:Paste#cgitb
+           egg:Paste#httpexceptions
+           plone.theme
+           zope.proxy
+
+[filter:plone.theme]
+use = egg:dv.xdvserver#xdv
+theme = ${buildout:directory}/theme/theme.html
+rules = ${buildout:directory}/theme/plone.rule.xml
+live = true
+absolute_prefix = /theme/
+
+[app:zope.proxy]
+use = egg:Paste#proxy
+address =  http://127.0.0.1:8181/VirtualHostBase/http/www.freia.jp/freia/VirtualHostRoot/
+
+;#####################################
+; docs.xdv
+
+[pipeline:docs.xdv]
+pipeline = egg:Paste#cgitb
+           egg:Paste#httpexceptions
+           docs.xdv.theme
+           docs.xdv.content
+
+[filter:docs.xdv.theme]
+use = egg:dv.xdvserver#xdv
+theme = ${buildout:directory}/theme/theme.html
+rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
+live = true
+absolute_prefix = /theme/
+
+[app:docs.xdv.content]
+use = egg:Paste#static
+document_root = ${buildout:directory}/../xdv/docs/build/html
+
+;#####################################
+; docs.pyhack4
+
+[pipeline:docs.pyhack4]
+pipeline = egg:Paste#cgitb
+           egg:Paste#httpexceptions
+           docs.pyhack4.theme
+           docs.pyhack4.content
+
+[filter:docs.pyhack4.theme]
+use = egg:dv.xdvserver#xdv
+theme = ${buildout:directory}/theme/theme.html
+rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
+live = true
+absolute_prefix = /theme/
+
+[app:docs.pyhack4.content]
+use = egg:Paste#static
+document_root = ${buildout:directory}/../pyhack4/build/html
+

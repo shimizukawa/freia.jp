@@ -10,4 +10,5 @@
 .*/parts/.*$
 .*.egg-info
 ^docs/build/
+^plone/etc/(development|production).ini
 
