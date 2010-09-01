@@ -4,15 +4,15 @@
 
 <!-- head -->
 <replace theme="//head/title" content="//head/title"/>
-<append theme="/html/head" css:content="head > *"/>
+<before theme="//head/meta[@id='theme-css']" css:content="head > *"/>
 
-<append theme="/html/head">
+<before theme="//head/meta[@id='theme-css']">
 	<style type="text/css">
 		a#portal-logo {color: white !important; font-size: 120%;}
 		#portal-breadcrumbs {border-width: 0; padding-left: 0;}
 		#breadcrumbs-you-are-here {display: none;}
 	</style>
-</append>
+</before>
 
 <!-- site logo -->
 <copy css:theme="#logo" css:content="#portal-logo"/>

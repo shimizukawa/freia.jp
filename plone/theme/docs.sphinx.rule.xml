@@ -4,9 +4,9 @@
 
 <!-- head -->
 <replace theme="//head/title" content="//head/title"/>
-<prepend theme="/html/head" css:content="head > *"/>
+<before theme="//head/link[@id='theme-css']" css:content="head > *"/>
 
-<append theme="/html/head">
+<before theme="//head/link[@id='theme-css']">
 	<style type="text/css">
 		.documentbody {font-size: 110%; background-color: #F7F9FB; padding: 0.3em;}
 		.documentbody h2 {border-bottom: 1px solid green;}
@@ -20,7 +20,7 @@
 		div.related a:hover {text-decoration: underline;}
 		div.footer {background-color: #11303D;}
 	</style>
-</append>
+</before>
 
 <!-- site logo -->
 <copy css:theme="#logo">
@@ -54,6 +54,7 @@
 <!-- breadcrumb -->
 <before css:theme="#content">
 	<div class="related">
+		現在位置: 
 		<a href="/taka/">ホーム</a> →
 		<a href="/taka/docs/">ドキュメント</a> →
 	</div>
