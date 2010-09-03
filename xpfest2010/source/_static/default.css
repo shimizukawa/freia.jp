@@ -16,11 +16,21 @@ div.footer {
 	bottom: 0;
 	right: 0;
 	color: gray;
+	font-size: 130%;
 	background-color: black;
+	padding: 0.2em;
 }
 div.footer a {
 	color: orange;
 	text-decoration: none;
+}
+div.footer:hover {
+	font-size: 400%;
+	background-color: white;
+	color: black;
+}
+div.footer:hover a {
+	color: blue;
 }
 
 

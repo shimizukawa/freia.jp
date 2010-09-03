@@ -11,6 +11,7 @@ use = egg:Paste#urlmap
 ${development-ini:urlpath-prefix}/theme = static
 ${development-ini:urlpath-prefix}/docs/xdv = docs.xdv
 ${development-ini:urlpath-prefix}/docs/pyhack4 = docs.pyhack4
+${development-ini:urlpath-prefix}/docs/xpfest2010 = docs.xpfest2010
 ${development-ini:urlpath-prefix} = plone
 
 [app:static]
@@ -76,4 +77,11 @@ absolute_prefix = ${development-ini:urlpath-prefix}/theme/
 [app:docs.pyhack4.content]
 use = egg:Paste#static
 document_root = ${buildout:directory}/../pyhack4/build/html
+
+;#####################################
+; docs.xpfest2010
+
+[app:docs.xpfest2010]
+use = egg:Paste#static
+document_root = ${buildout:directory}/../xpfest2010/build/html
 

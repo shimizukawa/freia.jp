@@ -6,6 +6,7 @@ use = egg:Paste#urlmap
 ${production-ini:urlpath-prefix}/theme = static
 ${production-ini:urlpath-prefix}/docs/xdv = docs.xdv
 ${production-ini:urlpath-prefix}/docs/pyhack4 = docs.pyhack4
+${production-ini:urlpath-prefix}/docs/xpfest2010 = docs.xpfest2010
 ${production-ini:urlpath-prefix} = plone
 
 [app:static]
@@ -69,9 +70,20 @@ absolute_prefix = ${production-ini:urlpath-prefix}/theme/
 use = egg:Paste#static
 document_root = ${buildout:directory}/../pyhack4/build/html
 
+;#####################################
+; docs.xpfest2010
+
+[app:docs.xpfest2010]
+use = egg:Paste#static
+document_root = ${buildout:directory}/../xpfest2010/build/html
 
 
 
+
+
+
+;#####################################
+; logger setting for mod_wsgi app
 
 [loggers]
 keys=root
@@ -96,6 +108,4 @@ args=('python.log', 'w')
 format=F1 %(asctime)s %(levelname)s %(message)s
 datefmt=
 class=logging.Formatter
-
-
 
