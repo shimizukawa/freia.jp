@@ -10,6 +10,15 @@ a.headerlink {
 	visibility: hidden;
 }
 
+div.header a {
+	text-decoration: none;
+	height: 100em;
+	display: block;
+}
+div.header a:hover {
+	color: orange;
+}
+
 div.footer {
 	position: fixed;
 	z-index: 1000;
