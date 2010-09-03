@@ -103,6 +103,10 @@ Pythonで アジャイル 開発サイクル 2010ver.
 
     <script>s6.page({effect: 'fadeScaleFromUpTransparent'});</script>
 
+    <script> s6.page({ styles: { 'div': {width:'30%'}, } }); </script>
+
+
+
 自己紹介3: 翻訳本を出しました.
 ------------------------------
 エキPythonの概要
@@ -122,6 +126,7 @@ Pythonで アジャイル 開発サイクル 2010ver.
     <script>
     s6.page({
         styles: {
+            'div': {width:'30%'},
             'div/img': {opacity:'0.5'},
             'p': {marginTop:'0.1em',marginBottom:'0.1em'},
             'ul': {marginTop:'0.1em'},
@@ -160,6 +165,7 @@ Pythonで アジャイル 開発サイクル 2010ver.
     <script>
     s6.page({
         styles: {
+            'div': {width:'30%'},
             'div/img': {opacity:'0.5'},
             'p[0]': {marginTop:'0.1em',marginBottom:'0.1em',visibility:'hidden'},
             'p[1]': {marginTop:'-3em', display:'none'},
@@ -201,15 +207,26 @@ XPとの出会いは2002年頃、当時は組み込み開発へのxUnit適用と
 アジャイルに必要な自動化
 --------------------------
 
+* ソースコード管理の自動化
 * テストの自動化
 * 環境構築の自動化
 * 継続的インテグレーションの実施
 * ドキュメント生成の自動化
 
+
+ソースコード管理の自動化
+-------------------------
+
+.. raw:: html
+
+    <script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script>
+
+
+
 まずはソースコード管理から
 ---------------------------
 
-何を自動化するにしてもコード管理は必須！
+何を自動化するにしても、まずはコード管理から！
 
 * VCS (Version Controll System)
 * ソースコード等の履歴を管理
@@ -242,10 +259,21 @@ SCM: 使ってみよう2
 -------------------
 
 * 画面閲覧 & リポジトリ公開
-    * :command:`hg serve`
+    * :command:`hg serve -p 8000`
 
-.. todo::
-    ここに画面イメージ
+.. figure:: xpfest-repos.jpg
+
+.. raw:: html
+
+    <script> s6.page({ styles: { 'div': {width:'70%'}, } }); </script>
+
+
+環境構築の自動化
+------------------
+
+.. raw:: html
+
+    <script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script>
 
 
 環境構築って何？
@@ -272,8 +300,6 @@ zc.buildout
 
 * buildout.cfg というini形式のファイルで全て自動化
 * 右の例はZopeとPloneを自動インストールしてプラグインも入れます
-
-.. todo:: 以下のiniを画像にして表示
 
 .. code-block:: ini
 
@@ -312,7 +338,9 @@ zc.buildout
     <script>
     s6.page({
         styles: {
-            ul: {width:'50%'}
+            ul: {width:'40%', float:'left'},
+            div: {width: '45%', position:'absolute', right:'0', marginTop:'1em'},
+            'div/pre': {fontSize:'30%', padding:'1em'}
         }
     });
     </script>
@@ -333,7 +361,12 @@ zc.buildout の実行例
 zc.buildout デモ
 -----------------
 
-.. todo:: デモ？
+GAE環境を作ります。
+
+.. raw:: html
+
+    python25 bootstrap.py --eggs=C:\Project\buildout-eggs init -d
+
 
 zc.buildoutで構築する環境の例
 -------------------------------
@@ -342,6 +375,12 @@ zc.buildoutで構築する環境の例
 * Google App Engine の開発、テスト、デプロイ環境
 * nginx, varnish のビルド、インストール、設定
 
+テストの自動化
+---------------
+
+.. raw:: html
+
+    <script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script>
 
 ユニットテスト
 ---------------
@@ -404,26 +443,30 @@ PythonのDocTest..
 
 
 ここでおしらせです
--------------------
+--------------------
 毎月勉強会などをやってます。
 
 * `Sphinx+翻訳ハッカソン <http://atnd.org/events/7475>`_ (9/5)
 * `エキPy読書会02 <http://atnd.org/events/6954>`_ (9/7)
 * `Python mini Hack-a-thon <http://atnd.org/events/7474>`_ (9/25)
 
-9月はほぼ埋まってしまいました><
+9月はほぼ埋まってしまいました><   10月もやりますよ！
 
 .. raw:: html
 
     <script>s6.page({effect: 'slide'});</script>
 
+    <script>s6.page({styles:});</script>
     <script>
     s6.page({
         styles: {
+            'h2': {textAlign:'center',top:'40%'},
             'ul': {display:'none'},
-            'p[1]': {display:'none'}
+            'p': {display:'none'}
         },
         actions: [
+            ['h2', 'move', '0.3', [0,40],[0,0]],
+            ['p[0]', 'fade in', '0.3'],
             ['ul', 'fade in', '0.3'],
             ['p[1]', 'fade in', '0.3']
         ]
@@ -431,19 +474,95 @@ PythonのDocTest..
     </script>
 
 
-下書き２
---------
-
-* 継続的インテグレ―ション
-    * 自動テストサーバー Buildbot
-* 課題管理システム
-    * Wiki + 課題 + コード = Trac
-* ドキュメンテーション
-    * Sphinx
+継続的インテグレーションの実施
+-------------------------------
 
 .. raw:: html
 
     <script>s6.page({effect: 'slide'});</script>
+    <script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script>
+
+継続的インテグレ―ション
+-------------------------
+自動テストサーバー Buildbot
+
+Buildbotってなに？
+-------------------
+
+* 継続的インテグレーション
+    - Pythonで書かれている
+    - Pythonが動作する->Buildbot動作
+
+* 類似ソフト
+    - Hudson (http://hudson-ci.org/)
+    - Tinderbox (http://www.mozilla.org/tinderbox.html)
+    - CruiseControl (http://cruisecontrol.sourceforge.net/)
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            'ul/li[1]': {fontSize:'60%',marginTop:'2em'}
+        }
+    });
+    </script>
+
+Buildbotってなに？
+-------------------
+
+* テスト自動化 (Python開発合宿2008冬)
+  http://www.slideshare.net/shimizukawa/python-autotest-pdc2008w
+
+buildbot on slideshare
+-----------------------
+.. raw:: html
+
+    <object id="__sse5125068"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=autotestpdc2008w-100903152901-phpapp02&stripped_title=python-autotest-pdc2008w" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5125068" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=autotestpdc2008w-100903152901-phpapp02&stripped_title=python-autotest-pdc2008w" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+    <script>
+    s6.page({
+        styles: {
+            h2: {display:'none'},
+            object: {width:'100%', height:'100%'},
+            'object/embed': {width:'100%', height:'100%'}
+        }
+    });
+    </script>
+
+
+Buildbotを使っているツール類
+-----------------------------
+Buildbot, Python, Webkit, Mozilla, Google Chromium XEmacs, MongoDB, Wireshark
+ILM, Boost, Zope, Twisted, SpamAssassin, OpenID, KDE, GHC, Subversion, OpenOffice, Jython ...
+
+http://buildbot.net/trac/wiki/SuccessStories
+
+ドキュメント生成の自動化
+-------------------------
+
+.. raw:: html
+
+    <script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script>
+
+ドキュメンテーション
+---------------------
+Sphinx
+
+
+ついでに
+---------
+
+.. raw:: html
+
+    <script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script>
+
+
+課題管理システム
+------------------
+Wiki + 課題 + コード = Trac
+
+
 
 
 質問タイム？
