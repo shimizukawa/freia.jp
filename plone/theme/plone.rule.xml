@@ -10,7 +10,6 @@
 	<style type="text/css">
 		a#portal-logo {color: white !important; font-size: 120%;}
 		#portal-breadcrumbs {border-width: 0; padding-left: 0;}
-		#breadcrumbs-you-are-here {display: none;}
 	</style>
 </before>
 
