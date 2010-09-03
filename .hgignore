@@ -11,4 +11,5 @@
 .*.egg-info
 ^docs/build/
 ^plone/etc/(development|production).ini
+^plone/etc/apache-vhost.conf
 
