@@ -77,6 +77,7 @@ s6.attach(s6, 'ready', function ready() {
         isIframe = true;
     }
 
+    s6.attach(document,   'click', 'step', 0, pr);
     s6.attach(document,   'keypress Right', 'step', 0, pr);
     s6.attach(document,   'keypress Left',  'prev', 0, pr);
     s6.attach(document,   'keypress Up',    function() { pr.go('index') });
