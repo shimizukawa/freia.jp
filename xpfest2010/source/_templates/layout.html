@@ -18,7 +18,8 @@ var bodyStyle = {
 
 s6.css('html', bodyStyle);
 s6.css('body', bodyStyle);
-
+s6.css('.s6 .page.default > h2', {margin:'0'});
+s6.css('.s6 h1', {fontSize:'275%'});
 
 var pr;
 s6.attach(s6, 'ready', function ready() {
@@ -90,12 +91,8 @@ setInterval(function() {
 </script>
 
 <style>
-.s6 h1 {
-    font-size: 275% !important;
-}
 .s6 h2, .s6 h3 {
     background-image: url(_static/title_bg.gif);
-    margin: 0 !important;
     padding: 2% 3% !important;
 }
 .s6.dark .page {
