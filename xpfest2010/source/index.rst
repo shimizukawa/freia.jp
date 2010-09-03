@@ -1,14 +1,7 @@
 Pythonで アジャイル 開発サイクル 2010ver.
 =========================================
 
-.. todo:: 白背景にして、とらドラ！的に「ぱいそん！」を右下に配置、を検討
-
 .. todo:: 幕間に、みのりんを入れる。実行委員長へのリスペクト。
-
-.. todo:: S6をsphinx拡張にする
-
-.. todo::
-    img タグをslimbox対応にする
 
 .. :日時: 2010/9/4(土)
 .. :話す人: 清水川 貴之
@@ -18,7 +11,8 @@ Pythonで アジャイル 開発サイクル 2010ver.
 今日は
 -------
 
-  アジャイル開発をやっていると欲しくなる自動化ツール類を全てPythonでそろえてみよう！
+  アジャイル開発をやっていると欲しくなる自動化ツール類を全て
+  Python でそろえてみよう！
 
 という話をします。
 
@@ -232,9 +226,6 @@ XPとの出会いは2002年頃、当時は組み込み開発へのxUnit適用と
 * ソースコード等の履歴を管理
 * 全ての自動化の基盤
 
-.. todo::
-    VCSのみのブロック図
-
 VCS: 中央集権 vs 分散
 ----------------------
 
@@ -243,7 +234,7 @@ VCS: 中央集権 vs 分散
 
 中央集権と分散, どっちがいいの？
 
-* サーバー不要の **分散** が超おすすめ
+* サーバー不要でも使える **分散** が超おすすめ
 
 VCS: 使ってみよう1
 -------------------
@@ -388,7 +379,7 @@ zc.buildoutで構築する環境の例
 * Python標準のunittestライブラリ
 * Nose や py.test などの高機能版
 * PySpec (RSpecのpython版)
-    * 実行委員長 @shibukawa 作
+    * XP祭り実行委員長 @shibukawa 作
 
 
 PythonのDocTest
@@ -456,7 +447,6 @@ PythonのDocTest..
 
     <script>s6.page({effect: 'slide'});</script>
 
-    <script>s6.page({styles:});</script>
     <script>
     s6.page({
         styles: {
@@ -486,6 +476,12 @@ PythonのDocTest..
 -------------------------
 自動テストサーバー Buildbot
 
+.. figure:: buildbot-logo.png
+
+.. raw:: html
+
+    <script> s6.page({ styles: { 'div': {width:'70%'}, } }); </script>
+
 Buildbotってなに？
 -------------------
 
@@ -498,21 +494,40 @@ Buildbotってなに？
     - Tinderbox (http://www.mozilla.org/tinderbox.html)
     - CruiseControl (http://cruisecontrol.sourceforge.net/)
 
+.. figure:: buildbot-logo.png
+
 .. raw:: html
 
     <script>
     s6.page({
         styles: {
-            'ul/li[1]': {fontSize:'60%',marginTop:'2em'}
+            'ul/li[1]': {fontSize:'60%',marginTop:'2em'},
+            'div': {width:'70%'},
+            'div/img': {opacity: 0.8}
         }
     });
     </script>
+
 
 Buildbotってなに？
 -------------------
 
 * テスト自動化 (Python開発合宿2008冬)
   http://www.slideshare.net/shimizukawa/python-autotest-pdc2008w
+
+.. figure:: buildbot-logo.png
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            'div': {width:'70%'},
+            'div/img': {opacity: 0.8}
+        }
+    });
+    </script>
+
 
 buildbot on slideshare
 -----------------------
@@ -538,6 +553,19 @@ ILM, Boost, Zope, Twisted, SpamAssassin, OpenID, KDE, GHC, Subversion, OpenOffic
 
 http://buildbot.net/trac/wiki/SuccessStories
 
+.. figure:: buildbot-logo.png
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            'div': {width:'70%'},
+            'div/img': {opacity: 0.8}
+        }
+    });
+    </script>
+
 ドキュメント生成の自動化
 -------------------------
 
@@ -545,10 +573,94 @@ http://buildbot.net/trac/wiki/SuccessStories
 
     <script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script>
 
-ドキュメンテーション
----------------------
-Sphinx
+ドキュメンテーション-- --
+--------------------------
 
+ドキュメント作成はさぼってしまいがち
+
+* 開発終了に向かうにつれて時間がない
+* 自分は文章を書くのが苦手だ
+* 誰も見ない文章は書きたくない
+
+こういった状況から・・・
+
+
+ドキュメンテーション++
+-----------------------
+
+ドキュメントを書くのは楽しい！へ
+
+* プロジェクト開始時にプロセスを整備
+* 必要な文章を必要な時に書く
+* ソフトウェアコード同様に成長させていく
+
+ドキュメントを書くのをもっと簡単に！
+
+Sphinxとは何か？
+-----------------
+
+* ドキュメント生成のツール
+* reStructuredText記法(Wikiっぽい?
+* ページ間のリンクを自動生成
+* 強力なコードハイライト
+* HTML, PDF, ePub, htmlhelp, latex, man...
+
+.. figure:: PythonSphinxlogo.png
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            'div': {width:'60%'},
+            'div/img': {opacity: 0.8}
+        }
+    });
+    </script>
+
+Sphinxの記入の例
+------------------
+
+.. code-block:: rst
+
+    Sphinxのサンプル
+    =================
+
+    Sphinxとは何か？
+    -----------------
+    * ドキュメント生成のツール
+    * reStructuredText記法(Wikiっぽい?
+    * ページ間のリンクを自動生成
+    * 強力なコードハイライト
+    * HTML, PDF, ePub, htmlhelp, latex, man...
+
+.. figure:: sphinx-sample.jpg
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            'div[0]': {width: '50%', position:'absolute', left:'0', marginTop:'0.3em'},
+            'div[0]/div/pre': {fontSize:'35%', padding:'1em'},
+            'div[1]': {float:'right', width:'70%'}
+        }
+    });
+    </script>
+
+
+ここでちょっと...
+---------------------
+
+良い資料があるので紹介します。
+
+* `渋日記: Sphinx紹介セッション@BPStudy #30 <http://blog.shibu.jp/article/35729439.html>`_
+
+.. figure:: shibu-sphinx.jpg
+
+.. raw:: html
+
+    <script> s6.page({ styles: { 'div': {width:'40%'}, } }); </script>
 
 ついでに
 ---------
@@ -562,6 +674,18 @@ Sphinx
 ------------------
 Wiki + 課題 + コード = Trac
 
+
+全てをひとつの輪に
+-------------------
+
+* ソースコード管理の自動化
+* テストの自動化
+* 環境構築の自動化
+* 継続的インテグレーションの実施
+* ドキュメント生成の自動化
+
+.. todo::
+    上記5つの繋がりを絵で。
 
 
 
