@@ -19,7 +19,6 @@ var bodyStyle = {
 s6.css('html', bodyStyle);
 s6.css('body', bodyStyle);
 s6.css('.s6 .page.default > h2', {margin:'0'});
-s6.css('.s6 h1', {fontSize:'275%'});
 
 var pr;
 s6.attach(s6, 'ready', function ready() {
@@ -92,6 +91,9 @@ setInterval(function() {
 </script>
 
 <style>
+.s6 h1 {
+    font-size: 275% !important;
+}
 .s6 h2, .s6 h3 {
     background-image: url(_static/title_bg.gif);
     padding: 2% 3% !important;
@@ -114,6 +116,14 @@ setInterval(function() {
 }
 .s6 .page .figure img {
     width: 100%;
+}
+.s6 .page strong {
+    font-weight: bold;
+    font-size: 120%;
+    color: #f66;
+}
+.s6 .page strong.command {
+    color: #0ff;
 }
 
 @media print{

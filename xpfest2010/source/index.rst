@@ -15,27 +15,6 @@ Pythonで アジャイル 開発サイクル 2010ver.
 .. :時間: 50分
 
 
-.. .. raw:: html
-.. 
-..     <script>
-..     s6.page({
-..         styles: {
-..             h1: {color: '#FF0000'}
-..         }
-..         actions: [
-..             ['h2', 'fade in', '0.4'],
-..             ['p', 'move', 0.4, [0, 45], [-8, 45]]
-..         ]
-..     });
-..     </script>
-
-
-.. .. raw:: html
-..
-..     <address>清水川 貴之</address>
-
-.. このページの短縮URLは `http://縮.jp/一燃 <http://縮.jp/一燃>`_ です。
-
 今日は
 -------
 
@@ -219,17 +198,209 @@ XPとの出会いは2002年頃、当時は組み込み開発へのxUnit適用と
 .. todo:: みのりん
 
 
-下書き１
---------
+アジャイルに必要な自動化
+--------------------------
 
-* XPやアジャイルに必要な自動化
-* まずソースコード管理
-    * 中央集権(svn) vs 分散リポジトリ(hg)
-* 環境自動構築・構成管理
-    * buildout
-* ユニットテスト
-    * Nose や py.test
+* テストの自動化
+* 環境構築の自動化
+* 継続的インテグレーションの実施
+* ドキュメント生成の自動化
 
+まずはソースコード管理から
+---------------------------
+
+何を自動化するにしてもコード管理は必須！
+
+* VCS (Version Controll System)
+* ソースコード等の履歴を管理
+* 全ての自動化の基盤
+
+.. todo::
+    VCSのみのブロック図
+
+VCS: 中央集権 vs 分散
+----------------------
+
+* 中央集権と言えば: cvs, svn
+* 分散と言えば: hg, bzr, git
+
+中央集権と分散, どっちがいいの？
+
+* サーバー不要の **分散** が超おすすめ
+
+VCS: 使ってみよう1
+-------------------
+
+* インストール
+    * :command:`easy_install mercurial`
+* 初期化
+    * :command:`hg init`
+* 複製
+    * :command:`hg clone`
+
+SCM: 使ってみよう2
+-------------------
+
+* 画面閲覧 & リポジトリ公開
+    * :command:`hg serve`
+
+.. todo::
+    ここに画面イメージ
+
+
+環境構築って何？
+-----------------
+プログラムはVCSから入手するだけで動くものはほとんどありません。
+
+* 関連プログラムの入手, 配置
+* パスの設定, スクリプトの設置
+* 環境設定ファイルの配置, 変更
+
+
+環境構築の自動化
+-----------------
+.. Pythonのデファクトスタンダードとして :command:`easy_install` があります。
+
+.. :command:`easy_install mercurial` のように1コマンドで済む場合もありますが、大抵、インストール後の手順がたくさん **手順書** に書かれているものと思います。
+
+* **環境構築手順書** ってありますよね
+* プログラムインストールから設定まで全く引っかからずに5分で出来ますか？
+* buildout で自動化しましょう！
+
+zc.buildout
+------------
+
+* buildout.cfg というini形式のファイルで全て自動化
+* 右の例はZopeとPloneを自動インストールしてプラグインも入れます
+
+.. todo:: 以下のiniを画像にして表示
+
+.. code-block:: ini
+
+    [buildout]
+    parts = zope2 instance
+    extends = http://dist.plone.org/release/3.3.4/versions.cfg
+    versions = versions
+
+    find-links =
+        http://dist.plone.org/release/3.3.4
+        http://download.zope.org/ppix/
+        http://download.zope.org/distribution/
+        http://effbot.org/downloads
+
+    eggs =
+        Plone
+        Products.PloneFlashUpload
+        Products.PloneSlimbox
+        Products.ATGoogleMap
+
+    [zope2]
+    recipe = plone.recipe.zope2install
+    fake-zope-eggs = true
+    additional-fake-eggs = ZODB3
+    url = ${versions:zope2-url}
+
+    [instance]
+    recipe = plone.recipe.zope2instance
+    zope2-location = ${zope2:location}
+    eggs = ${buildout:eggs}
+    user = admin:admin
+    http-address = 8080
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            ul: {width:'50%'}
+        }
+    });
+    </script>
+
+
+zc.buildout の実行例
+---------------------
+.. code-block:: bash
+
+    $ hg clone http://xxxxx/ .
+    $ ls
+    bootstrap.py   buildout.cfg
+    $ python bootstrap.py
+    $ bin/buildout
+
+これでZope/Ploneのインストールと環境構築が完了しました！
+
+zc.buildout デモ
+-----------------
+
+.. todo:: デモ？
+
+zc.buildoutで構築する環境の例
+-------------------------------
+
+* Zope/Plone のインストール、プラグイン設定、テスト環境
+* Google App Engine の開発、テスト、デプロイ環境
+* nginx, varnish のビルド、インストール、設定
+
+
+ユニットテスト
+---------------
+
+* Python標準のunittestライブラリ
+* Nose や py.test などの高機能版
+* PySpec (RSpecのpython版)
+    * 実行委員長 @shibukawa 作
+
+
+PythonのDocTest
+----------------
+* 機能の説明文章がそのままテストになるスグレモノ
+
+
+PythonのDocTest.
+------------------
+.. code-block:: python
+
+    def add(x, y):
+        """ 二つの値を足します。
+
+        >>> add(1, 2)
+        3
+        """
+        return x + y
+
+
+PythonのDocTest .
+-----------------
+* 機能の説明文章がそのままテストになるスグレモノ
+* 実際にテストを動かしているところを見てみます
+
+
+PythonのDocTest-2
+------------------
+
+.. raw:: html
+
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" id=""> 
+    <param name="movie" value="_static/20060521_doctest.swf"><param name="quality" value="high"><param name="menu" value="false"><param name="loop" value="1"><embed src="_static/20060521_doctest.swf"loop="1" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" menu="false"></embed></object>
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            h2: {display:'none'},
+            object: {width:'100%', height:'100%'},
+            'object/embed': {width:'100%', height:'100%'}
+        }
+    });
+    </script>
+
+PythonのDocTest..
+-----------------
+* 機能の説明文章がそのままテストになるスグレモノ
+* 実際にテストを動かしているところを見てみます
+    * 続きは **DocTest TDD** で検索！
 
 
 ここでおしらせです
@@ -290,8 +461,18 @@ XPとの出会いは2002年頃、当時は組み込み開発へのxUnit適用と
 
 
 
+おまけ
+-------
+今日のプレゼンテーションは
+
+* Sphinx
+* S6 (c) 2007 Cybozu Labs, Inc.
+
+で作成しました。
+
+
 まとめ
-------
+-------
 
 MercurialHG, Bazaar, PyPI, setuptools, easzy_install, zc.buildout, Paver, Nose, py.test, Buildbot, Trac, Sphinx, ...
 
