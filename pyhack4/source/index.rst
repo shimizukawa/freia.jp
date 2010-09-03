@@ -3,7 +3,7 @@ Python Hack-a-thon 4 ハンズオン 中級コース
 
 担当: 清水川 http://www.freia.jp/taka/
 
-このサイトの短縮URLは `http://縮.jp/一決 <http://縮.jp/一決>`_ です。
+.. このサイトの短縮URLは `http://縮.jp/一決 <http://縮.jp/一決>`_ です。
 
 
 まえがき
