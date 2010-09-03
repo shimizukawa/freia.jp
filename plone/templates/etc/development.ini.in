@@ -1,3 +1,6 @@
+[DEFAULT]
+debug = True
+
 [server:main]
 use = egg:Paste#http
 host = ${development-ini:server-host}
@@ -5,10 +8,10 @@ port = ${development-ini:server-port}
 
 [composite:main]
 use = egg:Paste#urlmap
-/theme = static
-/taka/docs/xdv = docs.xdv
-/taka/docs/pyhack4 = docs.pyhack4
-/ = plone
+${development-ini:urlpath-prefix}/theme = static
+${development-ini:urlpath-prefix}/docs/xdv = docs.xdv
+${development-ini:urlpath-prefix}/docs/pyhack4 = docs.pyhack4
+${development-ini:urlpath-prefix} = plone
 
 [app:static]
 use = egg:Paste#static
@@ -28,7 +31,7 @@ use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/theme.html
 rules = ${buildout:directory}/theme/plone.rule.xml
 live = true
-absolute_prefix = /theme/
+absolute_prefix = ${development-ini:urlpath-prefix}/theme/
 
 [app:zope.proxy]
 use = egg:Paste#proxy
@@ -48,7 +51,7 @@ use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/theme.html
 rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
 live = true
-absolute_prefix = /theme/
+absolute_prefix = ${development-ini:urlpath-prefix}/theme/
 
 [app:docs.xdv.content]
 use = egg:Paste#static
@@ -68,7 +71,7 @@ use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/theme.html
 rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
 live = true
-absolute_prefix = /theme/
+absolute_prefix = ${development-ini:urlpath-prefix}/theme/
 
 [app:docs.pyhack4.content]
 use = egg:Paste#static

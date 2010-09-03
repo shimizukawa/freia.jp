@@ -1,9 +1,12 @@
+[DEFAULT]
+debug = False
+
 [composite:main]
 use = egg:Paste#urlmap
-/theme = static
-/taka/docs/xdv = docs.xdv
-/taka/docs/pyhack4 = docs.pyhack4
-/ = plone
+${production-ini:urlpath-prefix}/theme = static
+${production-ini:urlpath-prefix}/docs/xdv = docs.xdv
+${production-ini:urlpath-prefix}/docs/pyhack4 = docs.pyhack4
+${production-ini:urlpath-prefix} = plone
 
 [app:static]
 use = egg:Paste#static
@@ -22,12 +25,11 @@ pipeline = egg:Paste#cgitb
 use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/theme.html
 rules = ${buildout:directory}/theme/plone.rule.xml
-live = true
-absolute_prefix = /theme/
+absolute_prefix = ${production-ini:urlpath-prefix}/theme/
 
 [app:zope.proxy]
 use = egg:Paste#proxy
-address =  http://127.0.0.1:8181/VirtualHostBase/http/www.freia.jp/freia/VirtualHostRoot/
+address = ${production-ini:backend}
 
 ;#####################################
 ; docs.xdv
@@ -42,8 +44,7 @@ pipeline = egg:Paste#cgitb
 use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/theme.html
 rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
-live = true
-absolute_prefix = /theme/
+absolute_prefix = ${production-ini:urlpath-prefix}/theme/
 
 [app:docs.xdv.content]
 use = egg:Paste#static
@@ -62,10 +63,39 @@ pipeline = egg:Paste#cgitb
 use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/theme.html
 rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
-live = true
-absolute_prefix = /theme/
+absolute_prefix = ${production-ini:urlpath-prefix}/theme/
 
 [app:docs.pyhack4.content]
 use = egg:Paste#static
 document_root = ${buildout:directory}/../pyhack4/build/html
+
+
+
+
+
+[loggers]
+keys=root
+
+[handlers]
+keys=hand01
+
+[formatters]
+keys=form01
+
+[logger_root]
+level=INFO
+handlers=hand01
+
+[handler_hand01]
+class=FileHandler
+level=INFO
+formatter=form01
+args=('python.log', 'w')
+
+[formatter_form01]
+format=F1 %(asctime)s %(levelname)s %(message)s
+datefmt=
+class=logging.Formatter
+
+
 
