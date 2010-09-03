@@ -1,0 +1,143 @@
+{% extends "basic/layout.html" %}
+{%- block linktags -%}{%- endblock -%}
+{% set embedded = True %}
+
+{%- block extrahead %}
+<script type="text/javascript" src="{{ pathto('_static/s6.js', 1) }}"></script>
+<script type="text/javascript">
+// <![CDATA[
+
+var bodyStyle = {
+    width: '100%',
+    height: '100%',
+    padding: '0',
+    margin: '0',
+    overflow: 'hidden',
+    backgroundColor: 'black'
+};
+
+s6.css('html', bodyStyle);
+s6.css('body', bodyStyle);
+
+
+var pr;
+s6.attach(s6, 'ready', function ready() {
+    var html = document.documentElement;
+    var height = html.offsetHeight;
+    var width = html.offsetWidth;
+    var top = 0;
+    var left = 0;
+
+    if (height / width < 0.75) {
+        var originalWidth = width;
+        width = height / 0.75;
+        left = (originalWidth - width) / 2 + 'px';
+    }
+    else {
+        var originalHeight = height;
+        height = width * 0.75;
+        top = (originalHeight - height) / 2 + 'px';
+    }
+
+    var result;
+    if (result = document.cookie.match(/page=(\d+)/)) {
+        var startIndex = +result[1];
+    }
+
+    var container = document.getElementById('python-2010ver');
+    pr = new s6.Presentation({ element: container, width: width, height: height, startIndex: startIndex, fontSize: 0.08 });
+    pr.style.left = left;
+    pr.style.top = top;
+    pr.start();
+
+    var indexNoOutline = false;
+
+    pr.funcPages.index.attachPage('click', function(i, element, wrapper) {
+        indexNoOutline = true;
+        setTimeout(function() {
+            indexNoOutline =false
+        }, 1000);
+        wrapper.style.background = '';
+        pr.go(i);
+    });
+
+    pr.funcPages.index.attachPage('mouseover', function(i, element, wrapper) {
+        if (indexNoOutline) return;
+        wrapper.className += ' selected';
+    });
+    
+    pr.funcPages.index.attachPage('mouseout', function(i, element, wrapper) {
+        wrapper.className = 'wrapper';
+    });
+
+    try {
+        var isIframe = !(window.parent == window);
+    } catch(e) {
+        isIframe = true;
+    }
+
+    s6.attach(document,   'keypress Right', 'step', 0, pr);
+    s6.attach(document,   'keypress Left',  'prev', 0, pr);
+    s6.attach(document,   'keypress Up',    function() { pr.go('index') });
+    s6.attach(document,   'keypress Down',  'back', 0, pr);
+});
+
+// Test
+setInterval(function() {
+    document.cookie = 'page=' + pr.index;
+}, 1000);
+// ]]>
+</script>
+
+<style>
+.s6 h1 {
+    font-size: 275% !important;
+}
+.s6 h2, .s6 h3 {
+    background-image: url(_static/title_bg.gif);
+    margin: 0 !important;
+    padding: 2% 3% !important;
+}
+.s6.dark .page {
+    background-color: black;
+}
+.s6 .index {
+    background-color: gray;
+}
+.s6 .page dd {
+    margin-left: 1em;
+}
+.s6 .page .figure {
+    position: absolute;
+    right: 0.5em;
+    bottom: 0.5em;
+    width: 30%;
+    z-index: 0;
+}
+.s6 .page .figure img {
+    width: 100%;
+}
+
+@media print{
+.s6{
+  top:0 !IMPORTANT;
+  left:0 !IMPORTANT;
+  width:180mm !IMPORTANT;
+  height:265mm !IMPORTANT;
+}
+
+.s6 .index.page .inner.s6 .page .wrapper{
+  width:47% !IMPORTANT;
+  height:32% !IMPORTANT;
+  font-size:40%;
+  line-height:1.2;
+}}
+</style>
+{% endblock %}
+
+{%- block footer %}
+<div class="footer">
+    URL: <a href="http://縮.jp/一燃">http://縮.jp/一燃</a>
+</div>
+{% endblock %}
+

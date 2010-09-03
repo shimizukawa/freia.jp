@@ -1,0 +1,26 @@
+/*************************************
+ * custom styles
+ *************************************/
+
+div.related,
+a.headerlink {
+	display: none;
+}
+#searchbox {
+	visibility: hidden;
+}
+
+div.footer {
+	position: fixed;
+	z-index: 1000;
+	bottom: 0;
+	right: 0;
+	color: gray;
+	background-color: black;
+}
+div.footer a {
+	color: orange;
+	text-decoration: none;
+}
+
+

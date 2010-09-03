@@ -1,0 +1,37 @@
+/*************************************
+ * custom styles
+ *************************************/
+
+div.related {
+	display: none;
+}
+#searchbox {
+	visibility: hidden;
+}
+
+div.documentwrapper {
+	margin-left: 6px;
+	position: absolute;
+	z-index: 10;
+}
+
+div.bodywrapper {
+	margin: 0 0 0 6px;
+	z-index: 0;
+}
+
+div.sphinxsidebar {
+	background-color: #11303D;
+	position: fixed;
+	left: 0;
+	margin: 0;
+	height: 800px;
+	z-index: 0;
+}
+
+div.sphinxsidebar:hover {
+	z-index: 100;
+}
+
+
+
