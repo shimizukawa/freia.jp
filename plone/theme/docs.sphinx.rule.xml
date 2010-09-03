@@ -31,22 +31,22 @@
 <copy css:theme="#menu">
 	<ul>
 		<li class="plain" id="portaltab-index_html">
-			<a title="" href="http://www.freia.jp/taka" target="_blank">ホーム</a>
+			<a title="" href="http://www.freia.jp/taka">ホーム</a>
 		</li>
 		<li class="plain" id="portaltab-blog">
-			<a title="Zope, Python, FreeBSD, その他色々について。つまり日記か。" href="http://www.freia.jp/taka/blog" target="_blank">清水川記</a>
+			<a title="Zope, Python, FreeBSD, その他色々について。つまり日記か。" href="http://www.freia.jp/taka/blog">清水川記</a>
 		</li>
 		<li class="selected" id="portaltab-docs">
-			<a title="ドキュメント類" href="http://www.freia.jp/taka/docs" target="_blank">ドキュメント</a>
+			<a title="ドキュメント類" href="http://www.freia.jp/taka/docs">ドキュメント</a>
 		</li>
 		<li class="plain" id="portaltab-memo">
-			<a title="覚え書きや、作ったものなどをおいてあります。「旧：覚え書き／作ったもの」からの移行中です。" href="http://www.freia.jp/taka/memo" target="_blank">メモ</a>
+			<a title="覚え書きや、作ったものなどをおいてあります。「旧：覚え書き／作ったもの」からの移行中です。" href="http://www.freia.jp/taka/memo">メモ</a>
 		</li>
 		<li class="plain" id="portaltab-file">
-			<a title="配布用だったりいろいろなファイルを置く場所。" href="http://www.freia.jp/taka/file" target="_blank">ファイル</a>
+			<a title="配布用だったりいろいろなファイルを置く場所。" href="http://www.freia.jp/taka/file">ファイル</a>
 		</li>
 		<li class="plain" id="portaltab-photo">
-			<a title="XP,Zope,食,旅行等の各種イベントの写真を置いています。" href="http://www.freia.jp/taka/photo" target="_blank">アルバム</a>
+			<a title="XP,Zope,食,旅行等の各種イベントの写真を置いています。" href="http://www.freia.jp/taka/photo">アルバム</a>
 		</li>
 	</ul>
 </copy>
