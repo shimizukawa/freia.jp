@@ -4,9 +4,9 @@
 
 <!-- head -->
 <replace theme="//head/title" content="//head/title"/>
-<before theme="//head/meta[@id='theme-css']" css:content="head > *"/>
+<before css:theme="#theme-css" css:content="head > *"/>
 
-<before theme="//head/meta[@id='theme-css']">
+<before css:theme="#theme-css">
 	<style type="text/css">
 		a#portal-logo {color: white !important; font-size: 120%;}
 		#portal-breadcrumbs {border-width: 0; padding-left: 0;}
