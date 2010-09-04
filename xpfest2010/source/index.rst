@@ -1,10 +1,6 @@
 Pythonで アジャイル 開発サイクル 2010ver.
 =========================================
 
-.. todo:: 2, 各章で1つディープな話を入れる
-
-.. todo:: 10, 幕間に、みのりんを入れる。実行委員長へのリスペクト。
-
 .. :日時: 2010/9/4(土)
 .. :話す人: 清水川 貴之
 .. :時間: 50分
@@ -24,7 +20,7 @@ Pythonで アジャイル 開発サイクル 2010ver.
     <script>
     s6.page({
         styles: {
-            p: {textAlign: 'right', margin:'0'},
+            p: {textAlign: 'right', margin:'0', marginLeft:'3em'},
             blockquote: {fontSize: '120%'}
         }
     });
@@ -60,7 +56,9 @@ Pythonで アジャイル 開発サイクル 2010ver.
 * 言語:
    * Python, Rails, 昔はC++/C/8086
 
-.. figure:: meishi.jpg
+.. .. figure:: meishi.jpg
+
+.. figure:: sphinxusers.jpg
 
 .. raw:: html
 
@@ -69,8 +67,8 @@ Pythonで アジャイル 開発サイクル 2010ver.
     <script>
     s6.page({
         styles: {
-            'ul': {fontSize:'70%'},
-            'div': {width:'40%'},
+            'ul': {fontSize:'65%'},
+            'div': {width:'60%'},
             'div/img': {opacity: 0.7}
         }
     });
@@ -86,9 +84,9 @@ Pythonで アジャイル 開発サイクル 2010ver.
 
 詳しくは `http://縮.jp/一点 <http://縮.jp/一点>`_ で！
 
-.. todo::
-    * 5, 文字で説明してもわからん！絵を出せ
-    * 6, xdvトップページに画像で簡単なイメージを伝える
+.. .. todo::
+..     * 5, 文字で説明してもわからん！絵を出せ
+..     * 6, xdvトップページに画像で簡単なイメージを伝える
 
 .. raw:: html
 
@@ -196,17 +194,10 @@ XPとの出会いは2002年頃、当時は組み込み開発へのxUnit適用と
     <script>
     s6.page({
         styles: {
-            p: {fontSize:'60%'}
+            p: {fontSize:'100%'}
         }
     });
     </script>
-
-.. todo:: 5, ここを埋める
-
-幕間
------
-
-.. todo:: 10, みのりん
 
 
 アジャイルに必要な自動化
