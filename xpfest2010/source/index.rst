@@ -1,20 +1,22 @@
 Pythonで アジャイル 開発サイクル 2010ver.
 =========================================
 
-.. todo:: 幕間に、みのりんを入れる。実行委員長へのリスペクト。
+.. todo:: 2, 各章で1つディープな話を入れる
+
+.. todo:: 10, 幕間に、みのりんを入れる。実行委員長へのリスペクト。
 
 .. :日時: 2010/9/4(土)
 .. :話す人: 清水川 貴之
 .. :時間: 50分
 
 
-今日は
--------
+このコンテンツのコンテキスト
+-----------------------------
 
   アジャイル開発をやっていると欲しくなる自動化ツール類を全て
   Python でそろえてみよう！
 
-という話をします。
+という **Engineering Practice** な **コンテキスト** で話をします。
 
 
 .. raw:: html
@@ -23,7 +25,7 @@ Pythonで アジャイル 開発サイクル 2010ver.
     s6.page({
         styles: {
             p: {textAlign: 'right', margin:'0'},
-            blockquote: {fontSize: '140%'}
+            blockquote: {fontSize: '120%'}
         }
     });
     </script>
@@ -52,18 +54,27 @@ Pythonで アジャイル 開発サイクル 2010ver.
 * `http://清水川.jp/ <http://清水川.jp/>`_
   `@shimizukawa <http://twitter.com/shimizukawa>`_
 * お仕事:
-   * 6月からフリーランス
+   * Python+Thrift+PHPによる認証サーバーとかCMSとか
 * コミュ:
    * Zope/Plone系, Sphinx系, pyspa系, XP系
 * 言語:
-   * Python, Rails, 昔はC/8086とか
+   * Python, Rails, 昔はC++/C/8086
+
+.. figure:: meishi.jpg
 
 .. raw:: html
 
     <script>s6.page({effect: 'fadeScaleFromUpTransparent'});</script>
 
-.. todo::
-    名刺の画像を入れる？
+    <script>
+    s6.page({
+        styles: {
+            'ul': {fontSize:'70%'},
+            'div': {width:'40%'},
+            'div/img': {opacity: 0.7}
+        }
+    });
+    </script>
 
 
 
@@ -76,8 +87,8 @@ Pythonで アジャイル 開発サイクル 2010ver.
 詳しくは `http://縮.jp/一点 <http://縮.jp/一点>`_ で！
 
 .. todo::
-    * 文字で説明してもわからん！絵を出せ
-    * xdvトップページに画像で簡単なイメージを伝える
+    * 5, 文字で説明してもわからん！絵を出せ
+    * 6, xdvトップページに画像で簡単なイメージを伝える
 
 .. raw:: html
 
@@ -190,12 +201,12 @@ XPとの出会いは2002年頃、当時は組み込み開発へのxUnit適用と
     });
     </script>
 
-.. todo:: ここを埋める
+.. todo:: 5, ここを埋める
 
 幕間
 -----
 
-.. todo:: みのりん
+.. todo:: 10, みのりん
 
 
 アジャイルに必要な自動化
@@ -662,8 +673,8 @@ Sphinxの記入の例
 
     <script> s6.page({ styles: { 'div': {width:'40%'}, } }); </script>
 
-ついでに
----------
+もうひとつ。
+-------------
 
 .. raw:: html
 
@@ -672,10 +683,65 @@ Sphinxの記入の例
 
 課題管理システム
 ------------------
-Wiki + 課題 + コード = Trac
+PythonだとTracが有名ですね。
+
+* Trac = Wiki + 課題管理 + コード管理
 
 
-全てをひとつの輪に
+Tracを使う流れ
+---------------
+
+.. figure:: trac-flow.jpg
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            'div[0]': {width: '75%', margin:'auto', position:'relative'},
+        }
+    });
+    </script>
+
+
+
+Tracを使う流れ.
+----------------
+
+* チケット(課題)を登録
+    * -> #id が決まる(10とか)
+* 課題の実装・テストしてコミット
+    * -> コミットログに #10 と記載
+* チケットに完了リビジョンを記載
+    * -> チケットとコミットが関連付け
+
+.. figure:: trac-flow.jpg
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            'div[0]': {width: '70%'},
+            'div/img': {opacity: '0.5'},
+            'ul': {top:'1000em'}
+        },
+        actions: [
+            ['ul', 'move', '0.5', [0,100],[0,0]],
+        ]
+    });
+    </script>
+
+
+最後に
+------
+
+.. raw:: html
+
+    <script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script>
+
+
+全てをひとつに繋ぐ
 -------------------
 
 * ソースコード管理の自動化
@@ -684,8 +750,36 @@ Wiki + 課題 + コード = Trac
 * 継続的インテグレーションの実施
 * ドキュメント生成の自動化
 
-.. todo::
-    上記5つの繋がりを絵で。
+全てをひとつに繋ぐ.
+-------------------
+
+.. figure:: landscape1.png
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            'div': {bottom:'none', right:'none', width: '80%', zIndex:'200'},
+        },
+    });
+    </script>
+
+
+全てをPythonで。
+----------------
+
+.. figure:: landscape2.png
+
+.. raw:: html
+
+    <script>
+    s6.page({
+        styles: {
+            'div': {bottom:'none', right:'none', width: '80%', zIndex:'200'},
+        },
+    });
+    </script>
 
 
 
