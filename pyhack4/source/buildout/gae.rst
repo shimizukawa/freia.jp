@@ -18,7 +18,7 @@ Python本体にzc.buildoutがインストールしてあれば、とりあえず
 .. code-block:: ini
 
    [buildout]
-   parts = prepare debug app_lib gae_sdk gae_tools
+   parts = prepare debug app_lib gae_sdk gae_tools test
 
    [prepare]
    recipe = iw.recipe.cmd:py
@@ -28,27 +28,40 @@ Python本体にzc.buildoutがインストールしてあれば、とりあえず
       >>> path = os.path.join(buildout_dir, 'app')
       >>> if not os.path.exists(path):
       ...     os.makedirs(os.path.join(buildout_dir, 'app'))
-      ...     open(os.path.join(path, 'app.yaml'), 'at').close()
+      ...     open(os.path.join(path, 'app.yaml'), 'at').write(
+      ...     'application: appname\n'
+      ...     'version: 1\n'
+      ...     'runtime: python\n'
+      ...     'api_version: 1\n'
+      ...     'handlers:\n'
+      ...     '- url: .*\n'
+      ...     '  script: main.py\n'
+      ...     )
       ...     open(os.path.join(path, 'main.py'), 'at').write(
       ...     """import sys; sys.path.insert(0, './distlib.zip')""")
 
    [debug]
    recipe = zc.recipe.egg:script
-   eggs = ${app_lib:eggs}
+   eggs = ipython
    extra-paths =
        ${gae_tools:extra-paths}
-       ${gae_tools:sdk-directory}
+       ${gae_tools:sdk-directory}/lib/django
+       ${gae_tools:sdk-directory}/lib/webob
+       ${gae_tools:sdk-directory}/lib/yaml/lib
+       ${buildout:directory}/app
    interpreter = py
-   
+
    [app_lib]
    recipe = appfy.recipe.gae:app_lib
    lib-directory = app/distlib
    use-zipimport = true
-   
+
    eggs =
-       jinja2
+       Flask
        feedparser
-   
+       twitter
+       BeautifulSoup
+
    ignore-globs =
        *.c
        *.pyc
@@ -58,30 +71,44 @@ Python本体にzc.buildoutがインストールしてあれば、とりあえず
        */testsuite
        */django
        */sqlalchemy
-   
+       simplejson/_speedups.py
+
    ignore-packages =
        distribute
        setuptools
        easy_install
        site
        pkg_resources
-   
-   
+
+
    [gae_sdk]
    recipe = appfy.recipe.gae:sdk
    url = http://googleappengine.googlecode.com/files/google_appengine_1.3.5.zip
-   destination = ${buildout:parts-directory}
-   hash-name = false
    clear-destination = true
-   
-   
+
+
    [gae_tools]
    recipe = appfy.recipe.gae:tools
    sdk-directory = ${gae_sdk:destination}/google_appengine
-   
    extra-paths =
        app/lib
-       app/distlib
+       app/distlib.zip
+
+
+   [test]
+   recipe = pbp.recipe.noserunner
+   eggs =
+       ${app_lib:eggs}
+       nose
+       nosegae
+   extra-paths = ${debug:extra-paths}
+   environment = nose-environment
+   defaults = --gae-application=${buildout:directory}/app
+
+   [nose-environment]
+   NOSE_WITH_GAE = true
+   NOSE_WHERE = ${buildout:directory}/app
+
 
 .. ** vim文字化け回避
 
@@ -90,7 +117,7 @@ Python本体にzc.buildoutがインストールしてあれば、とりあえず
    $ python /tmp/bootstrap.py
    $ bin/buildout
 
-はい、完了。
+はい、完了です。
 
 GoogleAppEngineのパッケージも自動的に最新を取ってきますし、他のPython
 環境に影響することもありません。このプロジェクトではeggsにjinja2と
