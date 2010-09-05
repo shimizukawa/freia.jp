@@ -355,11 +355,12 @@ zc.buildout の実行例
 zc.buildout デモ
 -----------------
 
-GAE環境を作ります。
+GAE環境を作ります。（デモ）
 
-.. raw:: html
+詳しくは `zc.buildout - Python Hack-a-thon 4: ハンズオン <http://www.freia.jp/taka/docs/pyhack4/buildout/>`_ を参照してください。
 
-    python25 bootstrap.py --eggs=C:\Project\buildout-eggs init -d
+
+  あんちょこ :command:`python25 bootstrap.py init -d`
 
 
 zc.buildoutで構築する環境の例
