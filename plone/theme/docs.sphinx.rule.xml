@@ -71,6 +71,7 @@
 
 <!-- portlets -->
 <copy css:theme="#nav" css:content=".sphinxsidebar"/>
+<drop css:theme=".box.sample" />
 
 <!-- footer -->
 <after css:theme="#footer" css:content=".footer"/>

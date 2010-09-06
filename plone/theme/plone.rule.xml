@@ -31,7 +31,6 @@
 <!-- document body -->
 <drop css:theme="#left > *" />
 <copy css:theme="#left" css:content="#portal-column-content"/>
-<drop css:theme=".box" />
 
 <!-- portlets -->
 <prepend css:theme="#right">
@@ -48,6 +47,7 @@
 	</xsl:for-each>
 </copy>
 
+<drop css:theme=".box.sample" />
 
 <!-- footer -->
 <drop css:content="#portal-footer > address"/>
