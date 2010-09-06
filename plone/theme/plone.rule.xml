@@ -46,7 +46,7 @@
 		</div>
 	</xsl:for-each>
 </append>
-
+<drop css:theme="#nav.sample"/>
 <drop css:theme=".box.sample" />
 
 <!-- footer -->
