@@ -294,9 +294,18 @@ blockquote{
 	padding:0px 0 5px 0;
 }
 
+#right .hatena-bookmark-widget-body li {
+	border-bottom: 1px solid #d0d0d0;
+}
+
 #right .hatena-bookmark-widget-title a {
 	color: #337733;
 	line-height: 1.1em;
+}
+
+#right .box span.hatena-bookmark-count {
+	display: block;
+	text-align: right;
 }
 
 #right .box span.hatena-bookmark-count strong a {
