@@ -11,6 +11,14 @@ virtual-python の後継という位置づけのようです。
 
 今回はPython環境を一切変更せずに導入する方法で進めます。
 
+.. note:: 2010/9/8追記
+
+    VirtualEnvでGoogleAppEngineの開発は出来ないらしいと聞いたのですが、
+    だれか成功している人は shimizukawa at gmail.com までご連絡下さい。
+
+    筆者のお勧めはvirtualenvではなくbuildoutを使うことです。
+    詳しくは :doc:`/buildout/gae` を参照
+
 
 virtualenvをゲット
 -------------------
@@ -86,5 +94,4 @@ VirtualenvはPython環境から独立して好きなようにeasy_installでき�
 * `--distribute` オプションを付けるとsetuptoolsの代わりにdistributeを使います。
 * pipも自動的に入っています
 * virtualenv.py のコード内に上記がこっそり同梱されています
-
 

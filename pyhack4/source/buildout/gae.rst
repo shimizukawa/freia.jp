@@ -4,8 +4,9 @@ Google App Engine の開発をbuildoutで行う
 buildoutのrecipeにはGoogleAppEngineの開発用もあります。
 ここではその環境をつくる方法を紹介します。
 
-VirtualEnvでGoogleAppEngineの開発をするのは出来ないらしいと聞いたのですが、
-だれか成功している人は shimizukawa at gmail.com までご連絡下さい。
+.. note::
+    VirtualEnvでGoogleAppEngineの開発は出来ないらしいと聞いたのですが、
+    だれか成功している人は shimizukawa at gmail.com までご連絡下さい。
 
 とりあえずbuildout.cfg
 -----------------------
