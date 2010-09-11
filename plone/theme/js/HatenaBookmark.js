@@ -1,15 +1,51 @@
 /*
+ * Hatena Bookmark count annotation
+ *
  * <script type="text/javascript" src="js/HatenaBookmark.js"></script>
- * FIXME: parmanent_url is wrong (location.href include query, subpath, ..etc).
+ * <script type="text/javascript">
+ * Hatena.Bookmark.SiteConfig = {
+ *   'div.documentbody h1 a.headerlink': {},
+ *   'div.documentbody .toctree-wrapper a': {}
+ * };
+ * </script>
+ *
+ * url as:
+ * - link to: http://b.hatena.ne.jp/entry/[target-url]
+ * - add for: http://b.hatena.ne.jp/entry/add/[target-url]
+ * - counts :http://b.hatena.ne.jp/entry/image/[target-url]
  */
-$(function(){
-	var parmanent_url = location.href;
-	var hatena_url = 'http://b.hatena.ne.jp/entry/' + parmanent_url;
-	var hatena_image_url = 'http://b.hatena.ne.jp/entry/image/' + parmanent_url;
-	var page_title = $('head title')[0].text;
-	var elem1 = '<a href="http://b.hatena.ne.jp/entry/add/' + parmanent_url + '"> <img src="/taka/theme/img/append.gif" width="16" height="12" style="border: none;" alt="このエントリーをはてなブックマークに追加" title="このエントリーをはてなブックマークに追加" /> </a> <a href="http://b.hatena.ne.jp/entry/' + parmanent_url + '"> <img src="/taka/theme/img/entry.gif" width="16" height="12" style="border: none;" alt="このエントリーを含むはてなブックマーク" title="このエントリーを含むはてなブックマーク" /> </a>'
-	var elem2 = '<a href="' + hatena_url + '"><img src="' + hatena_image_url + '" alt="はてなブックマーク - ' + page_title + '" title="はてなブックマーク - ' + page_title + '"></a>';
 
-	$('h1').append(elem1 + elem2);
+if (typeof(Hatena) == 'undefined') {
+	Hatena = {};
+}
+if (typeof(Hatena.Bookmark) == 'undefined') {
+    Hatena.Bookmark = {};
+}
+if (typeof(Hatena.Bookmark.SiteConfig) == 'undefined') {
+    Hatena.Bookmark.SiteConfig = {};
+}
+
+$(function(){
+	var hatena_base_url = 'http://b.hatena.ne.jp/entry/';
+	var hatena_bookmark_count_class = 'hatena-bookmark-count';
+	var elements = Hatena.Bookmark.SiteConfig;
+
+	for(area in elements) {
+		var e = elements[area];
+		$(area).after(function(){
+			var permanent_url = this.href.match(/^[^#\?]*/);
+			if(permanent_url) {
+				permanent_url = permanent_url[0];
+				var link_elem = document.createElement('a');
+				var img_elem = document.createElement('img');
+				link_elem.href = hatena_base_url + permanent_url;
+				link_elem.class = hatena_bookmark_count_class;
+				img_elem.src = hatena_base_url + 'image/' + permanent_url;
+				return $(link_elem).append(img_elem);
+			} else {
+				return null;
+			}
+		});
+	};
 });
 
