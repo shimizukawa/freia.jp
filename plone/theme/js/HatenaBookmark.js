@@ -18,31 +18,31 @@
 if (typeof(Hatena) == 'undefined') {
 	Hatena = {};
 }
-if (typeof(Hatena.Bookmark) == 'undefined') {
-    Hatena.Bookmark = {};
+if (typeof(Hatena.xBookmark) == 'undefined') {
+    Hatena.xBookmark = {};
 }
-if (typeof(Hatena.Bookmark.SiteConfig) == 'undefined') {
-    Hatena.Bookmark.SiteConfig = {};
+if (typeof(Hatena.xBookmark.SiteConfig) == 'undefined') {
+    Hatena.xBookmark.SiteConfig = {};
 }
 
-$(function(){
+jQuery(function(){
 	var hatena_base_url = 'http://b.hatena.ne.jp/entry/';
 	var hatena_bookmark_count_class = 'hatena-bookmark-count';
-	var elements = Hatena.Bookmark.SiteConfig;
+	var elements = Hatena.xBookmark.SiteConfig;
 
 	for(area in elements) {
 		var e = elements[area];
-		$(area).after(function(){
+		jQuery(area).each(function(){
 			var permanent_url = this.href.match(/^[^#\?]*/);
 			if(permanent_url) {
 				permanent_url = permanent_url[0];
 				var link_elem = document.createElement('a');
 				var img_elem = document.createElement('img');
 				link_elem.href = hatena_base_url + permanent_url;
-				link_elem.class = hatena_bookmark_count_class;
+				link_elem.className = hatena_bookmark_count_class;
 				link_elem.target = '_blank';
 				img_elem.src = hatena_base_url + 'image/' + permanent_url;
-				return $(link_elem).append(img_elem);
+				jQuery(this).after(jQuery(link_elem).append(img_elem));
 			} else {
 				return null;
 			}
