@@ -40,6 +40,7 @@ $(function(){
 				var img_elem = document.createElement('img');
 				link_elem.href = hatena_base_url + permanent_url;
 				link_elem.class = hatena_bookmark_count_class;
+				link_elem.target = '_blank';
 				img_elem.src = hatena_base_url + 'image/' + permanent_url;
 				return $(link_elem).append(img_elem);
 			} else {
