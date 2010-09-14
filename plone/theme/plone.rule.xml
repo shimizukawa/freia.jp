@@ -10,6 +10,8 @@
 	<style type="text/css">
 		a#portal-logo {color: white !important; font-size: 120%;}
 		#portal-breadcrumbs {border-width: 0; padding-left: 0;}
+		#content h3 {border-bottom: 1px solid green;}
+		.comment {background-color: #dddddd; border-color: #888888;}
 	</style>
 </before>
 
