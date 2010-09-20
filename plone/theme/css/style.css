@@ -23,8 +23,8 @@ h2, /* original color scheme */
 div.stx h3 /* plone's reST generate h3 instead of h2 */
 {
 	color: #337733;
-	margin:0px;
-	padding:0px;
+	margin: 1em 0;
+	padding: 0;
 	font-size: 120%;
 	border-bottom: 1px solid green;
 }
