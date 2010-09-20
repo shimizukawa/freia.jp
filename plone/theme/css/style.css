@@ -38,7 +38,7 @@ a {
 	color: #355F7C;
 }
 
-a:hover {
+a[href]:hover {
 	color: #ff0000;
 	text-decoration: underline;
 }
