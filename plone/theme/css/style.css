@@ -311,9 +311,18 @@ blockquote{
 	text-align: right;
 }
 
+#right .box span.hatena-bookmark-count em a {
+	color: red;
+	background-color: #ffe8e8;
+	font-weight: normal;
+        font-style: normal;
+	margin: 1px;
+}
+
 #right .box span.hatena-bookmark-count strong a {
 	color: red;
 	background-color: #ffd0d0;
 	font-weight: bold;
+        font-style: normal;
 	margin: 1px;
 }
