@@ -3,6 +3,27 @@
 {% set embedded = True %}
 
 {%- block extrahead %}
+<script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+<script type="text/javascript">
+Hatena.Star.Token = '453373e8033d23906b6c28b1973274117b66ab97';
+Hatena.Star.SiteConfig = {
+  entryNodes: {
+    'div.footer': {
+      uri: 'span a',
+      title: 'span a',
+      container: 'span'
+    }
+  }
+};
+</script>
+
+<script type="text/javascript" src="_static/HatenaBookmark.js"></script>
+<script type="text/javascript">
+Hatena.xBookmark.SiteConfig = {
+  'div.footer span a': {},
+};
+</script>
+
 <script type="text/javascript" src="{{ pathto('_static/s6.js', 1) }}"></script>
 <script type="text/javascript">
 // <![CDATA[
@@ -150,7 +171,7 @@ setInterval(function() {
 
 {%- block footer %}
 <div class="footer">
-    URL: <a href="http://縮.jp/一燃">http://縮.jp/一燃</a>
+    <span><a href="http://www.freia.jp/taka/docs/xpfest2010/">Pythonで アジャイル 開発サイクル 2010ver.</a></span>
 </div>
 {% endblock %}
 
