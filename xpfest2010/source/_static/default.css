@@ -72,4 +72,10 @@ div.footer:hover {
 div.footer:hover a {
 	color: blue;
 }
+div.footer .hatena-bookmark-count {
+        display: none;
+}
+div.footer:hover .hatena-bookmark-count {
+        display: inline;
+}
 
