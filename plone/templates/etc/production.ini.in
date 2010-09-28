@@ -9,6 +9,12 @@ ${production-ini:urlpath-prefix}/docs/pyhack4 = docs.pyhack4
 ${production-ini:urlpath-prefix}/docs/xpfest2010 = docs.xpfest2010
 ${production-ini:urlpath-prefix} = plone
 
+domain m.freia.jp ${production-ini:urlpath-prefix}/theme = static
+domain m.freia.jp ${production-ini:urlpath-prefix}/docs/xdv = m.docs.xdv
+domain m.freia.jp ${production-ini:urlpath-prefix}/docs/pyhack4 = m.docs.pyhack4
+domain m.freia.jp ${production-ini:urlpath-prefix} = m.plone
+
+
 [app:static]
 use = egg:Paste#static
 document_root = ${buildout:directory}/theme
@@ -76,6 +82,61 @@ document_root = ${buildout:directory}/../pyhack4/build/html
 [app:docs.xpfest2010]
 use = egg:Paste#static
 document_root = ${buildout:directory}/../xpfest2010/build/html
+
+
+;#####################################
+; m.plone
+
+[pipeline:m.plone]
+pipeline = egg:Paste#cgitb
+           egg:Paste#httpexceptions
+           m.plone.theme
+           m.zope.proxy
+
+[filter:m.plone.theme]
+use = egg:dv.xdvserver#xdv
+theme = ${buildout:directory}/theme/iphonetheme.html
+rules = ${buildout:directory}/theme/m.plone.rule.xml
+live = true
+absolute_prefix = ${production-ini:urlpath-prefix}/theme/
+
+[app:m.zope.proxy]
+use = egg:Paste#proxy
+address = ${production-ini:backend2}
+
+
+;#####################################
+; m.docs.xdv
+
+[pipeline:m.docs.xdv]
+pipeline = egg:Paste#cgitb
+           egg:Paste#httpexceptions
+           m.docs.xdv.theme
+           docs.xdv.content
+
+[filter:m.docs.xdv.theme]
+use = egg:dv.xdvserver#xdv
+theme = ${buildout:directory}/theme/iphonetheme.html
+rules = ${buildout:directory}/theme/m.docs.sphinx.rule.xml
+live = true
+absolute_prefix = ${production-ini:urlpath-prefix}/theme/
+
+;#####################################
+; m.docs.pyhack4
+
+[pipeline:m.docs.pyhack4]
+pipeline = egg:Paste#cgitb
+           egg:Paste#httpexceptions
+           m.docs.pyhack4.theme
+           docs.pyhack4.content
+
+[filter:m.docs.pyhack4.theme]
+use = egg:dv.xdvserver#xdv
+theme = ${buildout:directory}/theme/iphonetheme.html
+rules = ${buildout:directory}/theme/m.docs.sphinx.rule.xml
+live = true
+absolute_prefix = ${production-ini:urlpath-prefix}/theme/
+
 
 
 
