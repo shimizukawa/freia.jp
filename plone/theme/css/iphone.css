@@ -177,3 +177,7 @@ blockquote{
 	padding: 0;
 }
 
+input {
+        width: 90%;
+}
+
