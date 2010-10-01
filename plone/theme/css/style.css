@@ -19,14 +19,23 @@ p {
 	padding: 0px;
 }
 
-h2, /* original color scheme */
-div.stx h3 /* plone's reST generate h3 instead of h2 */
+h2 /* original color scheme */
 {
 	color: #337733;
 	margin: 1em 0;
 	padding: 0;
 	font-size: 120%;
 	border-bottom: 1px solid green;
+}
+
+h3 /* original color scheme */
+{
+	color: #337733;
+	margin: 1em 0;
+	padding: 0 0 0 0.3em;
+	font-size: 110%;
+	font-weight: normal;
+	border-left: 1em solid green;
 }
 
 ul {
