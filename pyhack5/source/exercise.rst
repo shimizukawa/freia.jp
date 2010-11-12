@@ -1,4 +1,4 @@
-TDDのリズムを身につける
+TDDの考え方を身につける
 ========================
 
 DocTestの有用性と疑問
@@ -216,7 +216,8 @@ ELLIPSIS
         AttributeError: 'Foo' object has no attribute 'baaaaa'
 
 
-それでは実装してみてください。
+それでは実装してみてください。使い方を書いて、リズミカルにRED, GREEN, RED, GREE,
+... と繰り返していきましょう。
 
 
 .. note::
