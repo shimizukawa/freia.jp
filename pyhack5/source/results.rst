@@ -10,7 +10,7 @@ DateEx の例（シンプル版）
 .. literalinclude:: code/dateex1.py
 
 
-DateEx の例（シンプル版）
+DateEx の例（高機能版）
 --------------------------
 .. literalinclude:: code/dateex2.py
 
