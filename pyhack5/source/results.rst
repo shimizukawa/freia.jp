@@ -7,7 +7,12 @@ code1 (add) の例
 
 DateEx の例（シンプル版）
 --------------------------
-.. literalinclude:: code/dateex.py
+.. literalinclude:: code/dateex1.py
+
+
+DateEx の例（シンプル版）
+--------------------------
+.. literalinclude:: code/dateex2.py
 
 
 
