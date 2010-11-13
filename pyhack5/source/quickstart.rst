@@ -19,6 +19,7 @@ DocTest Quickstart
             3
 
         """
+        return 3
 
     if __name__ == '__main__':
         import doctest

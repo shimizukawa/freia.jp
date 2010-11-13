@@ -2,30 +2,7 @@
 	xmlns:css="http://namespaces.plone.org/xdv+css"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<!-- head -->
 <replace theme="//head/title" content="//head/title"/>
-<before css:theme="#theme-css" css:content="head > *"/>
-
-<before css:theme="#theme-css">
-	<style type="text/css">
-		.documentbody {font-size: 110%; background-color: #F7F9FB; padding: 0.3em;}
-		.documentbody h2 {border-bottom: 1px solid green;}
-		a.reference {color: #355F7C;}
-		div.sphinxsidebar {float: none; margin-left: 0; width: 100%; font-size: 100%;}
-		div.sphinxsidebar h3, div.sphinxsidebar h4 {color: black;}
-		div.sphinxsidebar ul {margin-right:0;}
-		div.sphinxsidebarwrapper {padding:4px; overflow:hidden;}
-		div.related {background-color: transparent; color: black; line-height: 2em; font-size: 100%;}
-		div.related a {color: #355F7C;}
-		div.related a:hover {text-decoration: underline;}
-		div.footer {background-color: #11303D;}
-	</style>
-</before>
-
-<!-- site logo -->
-<copy css:theme="#logo">
-	<a href="/taka" accesskey="1" id="portal-logo">清水川Web</a>
-</copy>
 
 <!-- site menu -->
 <copy css:theme="#menu">
@@ -51,30 +28,7 @@
 	</ul>
 </copy>
 
-<!-- breadcrumb -->
-<before css:theme="#content">
-	<div class="related">
-		現在位置: 
-		<a href="/taka/">ホーム</a> →
-		<a href="/taka/docs/">ドキュメント</a> →
-	</div>
-</before>
-<before css:theme="#content" content="//div[@class='related'][1]"/>
-<after  css:theme="#content" content="//div[@class='related'][2]"/>
-
-<!-- document body -->
-<copy css:theme="#left">
-	<div class="documentbody">
-		<xsl:copy-of css:select="div.body > *"/>
-	</div>
-</copy>
-
-<!-- portlets -->
-<copy css:theme="#nav" css:content=".sphinxsidebar"/>
-<drop css:theme=".box.sample" />
-
-<!-- footer -->
-<after css:theme="#footer" css:content=".footer"/>
+<copy css:theme="#left" css:content="div.body > *" />
 
 </rules>
 
