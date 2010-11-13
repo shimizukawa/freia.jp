@@ -13,7 +13,7 @@ def add(x, y):
         'foobar'
 
     """
-    return 3
+    return x + y
 
 if __name__ == '__main__':
     import doctest
