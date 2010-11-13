@@ -15,4 +15,8 @@ DateEx の例（高機能版）
 .. literalinclude:: code/dateex2.py
 
 
+Houganの例
+--------------------------
+.. literalinclude:: code/hougan.py
+
 
