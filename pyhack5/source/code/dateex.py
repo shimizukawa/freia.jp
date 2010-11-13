@@ -39,11 +39,20 @@ class DateEx(date):
 
             >>> d + (-5)
             DateEx(2009, 12, 27)
+
+        if you send timedelta object instead of int, it's work too.
+
+            >>> from datetime import timedelta
+            >>> d + timedelta(days=5)
+            DateEx(2010, 1, 6)
+
         """
         if isinstance(num, int):
             d = self + timedelta(days=num)
-            return self.__class__.fromordinal(d.toordinal())
-        return date.__add__(self, num)
+        elif isinstance(num, timedelta):
+            d = date.__add__(self, num)
+
+        return self.__class__.fromordinal(d.toordinal())
 
     def __sub__(self, num):
         """
