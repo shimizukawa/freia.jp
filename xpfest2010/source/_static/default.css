@@ -63,7 +63,7 @@ div.footer a {
 	text-decoration: none;
 }
 div.footer:hover {
-	font-size: 250%;
+	font-size: 200%;
 	background-color: white;
 	color: black;
 	border: 0 solid orange;
@@ -71,6 +71,12 @@ div.footer:hover {
 }
 div.footer:hover a {
 	color: blue;
+}
+div.footer span.hidden {
+	display: none;
+}
+div.footer:hover span.hidden {
+	display: inline;
 }
 div.footer .hatena-bookmark-count {
         display: none;
