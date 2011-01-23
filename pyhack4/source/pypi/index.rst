@@ -144,7 +144,11 @@ long_description にはreSTでドキュメントを書くことが出来ます�
 あとは実際に register や upload してみてください。
 また、uploadしてあればeasy_installで取ってくることも出来ます。
 
+.. _check:
+
 .. note::
+   (2011/1/23 `@t2yからの指摘 <http://twitter.com/t2y/status/28845059566731265>`_ で追加. ありがとう!)
+
    実際にアップロードしてPyPIのページを確認したときに、long_description
    の内容がHTMLに変換されずにそのままreSTのテキストで表示されてしまう場合、
    reSTの記述にエラーがある可能性があります。この場合、upload前にエラーが
@@ -170,6 +174,7 @@ long_description にはreSTでドキュメントを書くことが出来ます�
 
       warning: check: Could not finish the parsing.
 
+   もう一つの方法として、 `haufe.releaser <http://pypi.python.org/pypi/haufe.releaser/>`_ をインストールするして :command:`python setup.py check_description` のように実行する方法もありそうです(未確認)。
 
 .. warning::
    十分練習したら登録を削除した方が良いでしょう。
