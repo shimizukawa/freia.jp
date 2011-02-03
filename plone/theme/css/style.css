@@ -7,8 +7,6 @@
 
 body {
 	margin: 0px;
-	background: url(../img/top_bg.gif);
-	background-repeat: repeat-x;
 	font-family: "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
 	font-size: 69%;
 }
@@ -61,14 +59,23 @@ blockquote{
 
 /**** Main Container ***/
 
+#site-information {
+	width: 100%;
+	background-color: #00d0d0;
+	color: black;
+	padding: 2px 2px 2px 4px;
+}
 
 #wrap {
-	margin: auto 1em;
+	margin: 0;
+	padding: 0 1em;
+	background: url(../img/top_bg.gif);
+	background-repeat: repeat-x;
+        background-color: white;
 }
 
 
 /**** Top ***/
-
 
 #top {
 	width: 100%;
