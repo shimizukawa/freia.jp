@@ -10,6 +10,7 @@ port = ${development-ini:server-port}
 use = egg:Paste#urlmap
 ${development-ini:urlpath-prefix}/theme = static
 ${development-ini:urlpath-prefix}/docs/xdv = docs.xdv
+${development-ini:urlpath-prefix}/docs/buildout = docs.buildout
 ${development-ini:urlpath-prefix}/docs/pyhack4 = docs.pyhack4
 ${development-ini:urlpath-prefix}/docs/pyhack5 = docs.pyhack5
 ${development-ini:urlpath-prefix}/docs/xpfest2010 = docs.xpfest2010
@@ -17,6 +18,7 @@ ${development-ini:urlpath-prefix} = plone
 
 domain m.freia.jp ${development-ini:urlpath-prefix}/theme = static
 domain m.freia.jp ${development-ini:urlpath-prefix}/docs/xdv = m.docs.xdv
+domain m.freia.jp ${development-ini:urlpath-prefix}/docs/buildout = m.docs.buildout
 domain m.freia.jp ${development-ini:urlpath-prefix}/docs/pyhack4 = m.docs.pyhack4
 domain m.freia.jp ${development-ini:urlpath-prefix}/docs/pyhack5 = m.docs.pyhack5
 domain m.freia.jp ${development-ini:urlpath-prefix} = m.plone
@@ -65,6 +67,26 @@ absolute_prefix = ${development-ini:urlpath-prefix}/theme/
 [app:docs.xdv.content]
 use = egg:Paste#static
 document_root = ${buildout:directory}/../xdv/docs/build/html
+
+;#####################################
+; docs.buildout
+
+[pipeline:docs.buildout]
+pipeline = egg:Paste#cgitb
+           egg:Paste#httpexceptions
+           docs.buildout.theme
+           docs.buildout.content
+
+[filter:docs.buildout.theme]
+use = egg:dv.xdvserver#buildout
+theme = ${buildout:directory}/theme/theme.html
+rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
+live = true
+absolute_prefix = ${development-ini:urlpath-prefix}/theme/
+
+[app:docs.buildout.content]
+use = egg:Paste#static
+document_root = ${buildout:directory}/../buildout/docs/build/html
 
 ;#####################################
 ; docs.pyhack4
@@ -145,6 +167,22 @@ pipeline = egg:Paste#cgitb
            docs.xdv.content
 
 [filter:m.docs.xdv.theme]
+use = egg:dv.xdvserver#xdv
+theme = ${buildout:directory}/theme/iphonetheme.html
+rules = ${buildout:directory}/theme/m.docs.sphinx.rule.xml
+live = true
+absolute_prefix = ${development-ini:urlpath-prefix}/theme/
+
+;#####################################
+; m.docs.buildout
+
+[pipeline:m.docs.buildout]
+pipeline = egg:Paste#cgitb
+           egg:Paste#httpexceptions
+           m.docs.buildout.theme
+           docs.buildout.content
+
+[filter:m.docs.buildout.theme]
 use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/iphonetheme.html
 rules = ${buildout:directory}/theme/m.docs.sphinx.rule.xml
