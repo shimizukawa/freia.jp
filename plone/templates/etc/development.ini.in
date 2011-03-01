@@ -86,7 +86,7 @@ absolute_prefix = ${development-ini:urlpath-prefix}/theme/
 
 [app:docs.buildout.content]
 use = egg:Paste#static
-document_root = ${buildout:directory}/../buildout/docs/build/html
+document_root = ${buildout:directory}/../buildout/build/html
 
 ;#####################################
 ; docs.pyhack4
