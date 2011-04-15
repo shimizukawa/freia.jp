@@ -1,6 +1,123 @@
 WSGIアプリをPasteで組み合わせるなど
 ====================================
 
+シンプルなWSGIアプリを用意
+---------------------------
+まずは環境構築のために以下を実行します。
+
+.. code-block:: bash
+
+    $ python bootstrap.py -d init
+    $ bin/buildout
+
+bucho_ 0.0.5 からwsgiアプリケーション機能を提供しているので、これを使って
+WSGIアプリを起動します。
+
+.. _bucho: http://pypi.python.org/pypi/bucho
+
+buildout.cfg:
+
+.. literalinclude:: code/paste-wsgi/buildout_step1.cfg
+    :language: ini
+
+bin/buildout を実行してbucho環境を構築します。
+
+.. code-block:: bash
+
+    $ bin/buildout
+
+Pythonインタプリタを起動して、以下のようにして実際にサーバー起動させます
+(以下のコードはPython-2.5以降で動作します)。
+
+.. code-block:: python
+
+    $ bin/py
+
+    >>> from wsgiref.simple_server import make_server
+    >>> from bucho.wsgi import wsgi_app
+    >>> make_server('', 8000, wsgi_app).serve_forever()
+
+これで http://localhost:8000/ にアクセスすると、シンプルなテキストでbucho wsgiアプリが提供している機能が表示されます。bucho-0.0.5では以下のように表示されます::
+
+    bucho provide below urls:
+     * /show
+     * /latest_status
+     * /all_status
+     * /torumemo
+
+bucho wsgiアプリが提供するURLが表示されますが、テキストなのでリンクされていません。手でURLを書き換えてアクセスするとそれぞれのページを確認することが出来ます。とりあえずbuildout paste wsgiの説明としてはトップページが表示されれば十分ですね。
+
+`bucho.wsgi.wsgi_app` がどのような作りなのかはコードを見てください。また、Pythonのドキュメントにも有用な情報が多く掲載されています。Python-2.5から導入された wsgiref パッケージのドキュメントを参照してください。
+
+
+paster から起動する
+--------------------
+
+wsgiアプリを起動するために、前述のような `wsgiref.simple_server.make_server` を使った簡単なプログラムを書いても良いのですが、そのあたりもコードを書かずに手軽に動かしたいところです。そこで、PasteDeployを使用してwsgiサーバーを起動してみます(bin/pasterコマンド生成のためPasteScriptも必要)。
+
+buildout.cfg:
+
+.. literalinclude:: code/paste-wsgi/buildout_step2.cfg
+    :language: ini
+
+
+そして環境更新のために以下を実行します。
+
+.. code-block:: bash
+
+    $ bin/buildout
+
+これで bin/paster が作成されました。
+
+bin/paster でwsgiアプリを起動するためには、設定ファイルでどのようなアプリ構成で動かすのかを指定する必要があります。とりあえず動かすために以下のようにiniファイルを作成してください。
+
+app.ini:
+
+.. literalinclude:: code/paste-wsgi/app_step2.ini
+    :language: ini
+
+.. todo:: app.ini の内容を簡単に説明する
+
+あとはサーバー起動するだけです。
+
+.. code-block:: bash
+
+    $ bin/paster serve app.ini
+    Starting server in PID 6536.
+    serving on 0.0.0.0:8080 view at http://127.0.0.1:8080
+
+最初と同じように、 http://localhost:8000/ にアクセスすると、buchoが表示されますね。
+
+paster の引数を設定済みの起動コマンドを作る
+--------------------------------------------
+
+.. todo:: 説明を書く
+
+
+app.ini をbuildoutの設定から半自動生成する
+-------------------------------------------
+
+.. todo:: 説明を書く
+
+
+apacheから接続するためのスクリプトを用意する
+-----------------------------------------------
+.. todo:: 説明を書く
+
+
+apacheから接続するためのテンプレートを用意する
+-----------------------------------------------
+.. todo:: 説明を書く
+
+
+まとめ
+-------
+
+最終的に以下のようになりました。
+
+.. todo:: もうちょっと説明を書く
+
+
 buildout.cfg:
 
 .. literalinclude:: code/paste-wsgi/buildout.cfg
@@ -10,7 +127,6 @@ buildout.cfg:
 
 .. code-block:: bash
 
-    $ python bootstrap.py -d init
     $ touch versions.cfg
     $ bin/buildout
 

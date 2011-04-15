@@ -22,7 +22,10 @@ import sys, os
 extensions = [
         'sphinxcontrib.blockdiag',
         'sphinxcontrib_seqdiag',
+        'sphinx.ext.todo',
         ]
+
+todo_include_todos = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
