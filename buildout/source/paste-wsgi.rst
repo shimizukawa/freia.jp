@@ -76,9 +76,20 @@ app.ini:
 .. literalinclude:: code/paste-wsgi/app_step2.ini
     :language: ini
 
-.. todo:: app.ini の内容を簡単に説明する
+簡単にapp.iniの内容を説明します。
 
-あとはサーバー起動するだけです。
+`[server:main]` は `paster serve` コマンドで実行したときのサーバー設定です。
+use で記載しているのはsetuptoolsのエントリーポイントで、 `use = egg:Paste#http` と指定することでPasteパッケージのserver_runnerセクションにあるhttpエントリーポイントを使うことを宣言しています。
+
+他のパラメータhost,portはPaste#httpで解釈され、サーバーのホスト名、ポート番号として使用されます。
+
+設定ファイルの詳細についてはPasteの以下のドキュメントを参照してください。
+
+* `Paste Script <http://pythonpaste.org/script/>`_
+* `Paste Deployment <http://pythonpaste.org/deploy/>`_
+
+
+サーバー起動は以下のように実行します。
 
 .. code-block:: bash
 
