@@ -13,3 +13,6 @@
 ^plone/etc/(development|production).ini
 ^plone/etc/apache-vhost.conf
 
+syntax: glob
+buildout/source/code/gae/app
+buildout/source/code/paste
