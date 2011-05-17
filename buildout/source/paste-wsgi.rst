@@ -95,14 +95,38 @@ use で記載しているのはsetuptoolsのエントリーポイントで、 `u
 
     $ bin/paster serve app.ini
     Starting server in PID 6536.
-    serving on 0.0.0.0:8080 view at http://127.0.0.1:8080
+    serving on 0.0.0.0:8000 view at http://127.0.0.1:8000
 
 最初と同じように、 http://localhost:8000/ にアクセスすると、buchoが表示されますね。
 
 paster の引数を設定済みの起動コマンドを作る
 --------------------------------------------
 
-.. todo:: 説明を書く
+ところで、毎回 `bin/paster serve app.ini` と入力するのは面倒なものです。
+そこで設定を追加して `bin/server` だけで起動出来るように変更します。
+
+buildout.cfg:
+
+.. literalinclude:: code/paste-wsgi/buildout_step3.cfg
+    :language: ini
+
+上記のようなserverセクションを追加すると、特定のコマンド実行時の引数を指定済みの実行スクリプトをbin/serverとして生成してくれます。entry-pointsに指定している値 `paste.script.command:run` はPasteパッケージの `console_scripts` セクションからコピーして作りました。
+`entry-points =` の書式については `zc.recipe.egg <http://pypi.python.org/pypi/zc.recipe.egg>`_ を参照してください。
+
+buildout.cfgを更新したら環境更新のために以下を実行します。
+
+.. code-block:: bash
+
+    $ bin/buildout
+
+これで、サーバー起動は以下のように実行できるようになりました。簡単ですね。
+
+
+.. code-block:: bash
+
+    $ bin/server
+    Starting server in PID 6536.
+    serving on 0.0.0.0:8000 view at http://127.0.0.1:8000
 
 
 app.ini をbuildoutの設定から半自動生成する
@@ -147,7 +171,7 @@ buildout.cfg:
 
     $ bin/server
     Starting server in PID 6536.
-    serving on 0.0.0.0:8080 view at http://127.0.0.1:8080
+    serving on 0.0.0.0:8000 view at http://127.0.0.1:8000
 
 cat versions.cfg
 
@@ -200,7 +224,7 @@ cat etc/app.ini
     [server:main]
     use = egg:Paste#http
     host = 0.0.0.0
-    port = 8080
+    port = 8000
 
     [composite:main]
     use = egg:Paste#urlmap
