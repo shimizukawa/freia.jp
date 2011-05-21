@@ -9,10 +9,11 @@
     pyhack4/index
     xdv/index
     pyhack5/index
+    buildout/index
 
 
 
-* `zc.buildout メモ <buildout/index>`_
+* :doc:`buildout/index`
 
   buildoutはPythonベースのビルドシステムです。パーツという単位で
   アプリケーションを作成、組み立て、配置などを行い、非Pythonベースのものも
