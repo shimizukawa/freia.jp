@@ -4,8 +4,7 @@ Google App Engine の開発をbuildoutで行う
 .. warning::
 
     このページは古い情報を含んでいます。より新しく書き直した
-    `Google App Engine (GAE/py) の開発環境をつくる <http://www.freia.jp/taka/docs/buildout/gae.html>`_
-    を参照してください。
+    :doc:`../../buildout/gae` を参照してください。
 
 buildoutのrecipeにはGoogleAppEngineの開発用もあります。
 ここではその環境をつくる方法を紹介します。
@@ -156,6 +155,5 @@ GAEにアップロードされるようにしています。サードパーテ�
 .. warning::
 
     このページは古い情報を含んでいます。より新しく書き直した
-    `Google App Engine (GAE/py) の開発環境をつくる <http://www.freia.jp/taka/docs/buildout/gae.html>`_
-    を参照してください。
+    :doc:`../../buildout/gae` を参照してください。
 
