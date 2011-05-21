@@ -8,6 +8,7 @@
 
     pyhack4/index
     xdv/index
+    expertpython/index
     pyhack5/index
     buildout/index
     buildbot/index
@@ -39,6 +40,11 @@
   分散バージョン管理、構成管理、ユニットテスト、継続的インテグレ―ションなどを
   用いた開発サイクルについて、それぞれPythonのツール群(MercurialHG,buildout,
   Buildbot, Noseなど)の活用方法をお話します。
+
+* :doc:`expertpython/index`
+
+  エキスパートPythonプログラミングの紹介、読書会の質疑応答など。
+
 
 * :doc:`xdv/index`
 

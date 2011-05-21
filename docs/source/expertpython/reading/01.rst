@@ -1,0 +1,49 @@
+===============
+エキPy読書会01
+===============
+
+:日時: 2010/08/03 19:30～22:00
+:範囲: 1章: さあ、はじめよう
+
+エキスパートPythonプログラミングの読書会1回目
+
+1章: インストール、インタラクティブモード、setuptools、MinGW、エディタ、IDE
+
+進め方
+=========
+
+* 読み上げは基本的にしません
+* Programing言語を今まで触ったことがない人は2章以降はちょっと厳しいかも
+* 話中に割り込み自由、雑談自由、むしろやって
+
+
+質疑応答（覚えてる範囲）
+========================
+
+* 質問: easy_installとpipはどっちが良いですか？
+    * このへんにまとめてます。
+      http://dl.dropbox.com/u/284189/pyhack4/build/html/environments.html
+
+* 質問: 今後easy_installとかpipとかはどうなっていくんですか？
+    * このへんに予定が書かれています http://bit.ly/9lTLN4 easy_installは廃止、
+      distributeが本家に統合。標準化
+
+* 補足: エディタはTabキーで空白4つになれば大体なんでもOKです
+  PEP8の規約を満たすように書きましょう。和訳が http://bit.ly/anw59k にあります。
+
+* 補足: PEP8チェッカーとして http://bit.ly/chz8ab や http://bit.ly/c0hRMJ
+  があります。このへんは4章でまたでてきます。import os, sys と書くのはNG？
+  すみません..
+
+* 補足: 自分はWindowsなので色々工夫しています。本に記載のあるmsysの他に、
+  Console2というタブ型DOS窓と、nyaosというシェルを使っています。
+  この組み合わせはとっても良いです。
+
+
+参考
+======
+
+* ATND: http://atnd.org/events/6633
+* Twitter LIST: http://twitter.com/shimizukawa/expertpython-reading-01/members
+* Togetter: http://togetter.com/li/39716
+

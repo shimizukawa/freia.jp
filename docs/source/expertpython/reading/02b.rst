@@ -1,0 +1,17 @@
+===================
+エキPy読書会02(再)
+===================
+
+:日時: 2010/09/29 19:30 - 22:00
+:範囲: 2章 構文ベストプラクティス - クラス以外
+
+エキスパートPythonプログラミングの読書会2回目（再）
+
+
+参考
+======
+
+* ATND: http://atnd.org/events/8167
+* Twitter LIST: http://twitter.com/shimizukawa/expertpython-reading-02b/members
+* Togetter: http://togetter.com/li/54984
+

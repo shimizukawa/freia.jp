@@ -1,0 +1,79 @@
+===================
+エキPy読書会 10
+===================
+
+:日時: 2011/3/1 19:30 - 22:00
+:範囲: 7章 2節 リリースと配布(p216～)
+
+エキスパートPythonプログラミングの読書会10回目。
+今回はbuildoutの利用例とそのbuildout.cfgファイルの内容について説明しました。相変わらず本を読まない読書会でした。
+
+
+質疑応答（覚えてる範囲）
+========================
+
+ここ読め！
+http://www.freia.jp/taka/docs/buildout/
+
+* Q: virtualenv と buildout は併用して使うものですか？
+    * A: 併用して使うこともできる
+         virtualenv でやりたいことは buildout でできるので @shimizukawa は併用していません
+         システム環境の site-packages にはインストールせずに各々の buildout 環境に egg をインストールするようにしている
+
+* Q: buildout.cfg の extends で指定したファイルの中で extends で別ファイルを読み込むことはできるの？また再起はできるの？
+    * A: 別ファイルの読み込みはできるよ、再起はエラーになるでしょう
+
+* Q: buildout の処理の中で buildout を実行できるの？
+    * A: できるけれど、あんまりやる意味がないかなー
+
+* Q: Sphinx のリリースバージョンと trunk バージョンを1つの buildout 環境で取得する際にそれぞれのバージョンを別々の場所に置くことはできるの？
+    * A: -c で build.cfg ファイルを切り替えることができるし、ソースの置き場所も指定できます
+
+* Q: on_install = true で初回インストールのときのみに処理されるのは iw.recipe.cmd の中で制御してるの？
+    * A: buildout がどのセクションがインストール済かを .installed.cfg に保存している、セクションを実行する必要があるかどうかは buildout が制御している
+
+* Q: recipe の後ろに :(コロン) を続けて書いているのはどういう意味？
+    * A: たとえば iw.recipe.cmd:py なら py というクラスがあります、後はマニュアルを読んでください
+
+* Q: (質問忘れました)
+    * A: buildout は単なる recipe ラッパーですよ、buildout だけでは何もできないよ！
+
+* Q: recipe はどうやって探しているの？
+    * A: http://pypi.python.org/simple/ で recipe で検索する、
+         PyPI の検索機能を使って検索する、
+         @shimizukawa が個人的に探したものをまとめてある
+         buildout.org にいくつか紹介してある
+
+* Q: appfy.recipe.gae を提供している人はサンプルの buildout.cfg も一緒に公開してるの？
+    * A: そうです、recipe の仕様だけを見て buildout.cfg を書くのは大変ですね
+
+* Q: recipe を作るときはどんなときですか？
+    * A: 目的の recipe を探して見つからなかったときです、あまり自分で作ることはないかなぁ
+
+* Q: buildout でパッケージを配布するときに標準的な方法はどんなの？
+    * A: Plone なら空っぽの buildout.cfg にベースとなる共通設定ファイルを付けておいて、差分は自分の目的にあわせて書き換えてねというやり方があります
+         (質問はちょっと違うかもしれない)
+
+* Q: ./bin/buildout を実行するのに setup.py は必要なの？
+    * A: いりません！setup.py を使う仕組みは完全に別ものです、但し buildout の中で setup.py を実行することはできるよ(blogdiag)
+
+* Q: buildout と似ているツールは何？
+    * A: maven, ant, make とかかなぁ、Java の maven + Jenkins に当たるものが Python だと buildout + buildbot かな
+
+* Q: egg を作ってくれるレシピはあるの？
+    * A: たとえば、Sphinx の trunk からソースをダウンロードしてインストールしてくれるのに gp.vcsdevelop があります
+         本来は easy_install で PyPI に egg を取りにいくところをうまく変更してくれる
+         [buildout]
+         extends = buildout.cfg
+    
+         extensions += gp.vcsdevelop
+         vcs-extend-develop = hg+http://bitbucket.org/birkenfeld/sphinx/@tip#egg=sphinx
+
+
+参考
+======
+
+* ATND: http://atnd.org/events/13194
+* Togetter: http://togetter.com/li/106997
+
+
