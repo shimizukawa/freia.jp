@@ -7,6 +7,7 @@
     :hidden:
 
     pyhack4/index
+    xdv/index
 
 
 
