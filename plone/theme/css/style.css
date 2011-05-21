@@ -8,7 +8,6 @@
 body {
 	margin: 0px;
 	font-family: "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
-	font-size: 69%;
 }
 
 p {
@@ -84,6 +83,7 @@ blockquote{
 	color: #fff;
 	background: #000 url(../img/top_bg.gif);
 	overflow:hidden;
+	font-size: 69%;
 }
 
 #logo {
@@ -102,7 +102,7 @@ blockquote{
 
 #logo a {
 	color: white;
-	font-size: 120%;
+	font-size: 140%;
 	text-decoration: none;
 }
 
@@ -160,6 +160,12 @@ blockquote{
 }
 
 
+/**** breadcrumb ***/
+
+.related {
+	font-size: 69%;
+}
+
 /**** Content Container ***/
 
 
@@ -204,6 +210,7 @@ blockquote{
 	width: 190px;
 	float: left;
 	margin-top: 0;
+	font-size: 69%;
 }
 
 #right .box {
@@ -289,7 +296,7 @@ blockquote{
 	width: 100%;
 	background: #000 url(../img/footer_bg.gif);
 	color: white;
-	font-size: 100%;
+	font-size: 69%;
 	text-align: center;
 }
 #footer a {
