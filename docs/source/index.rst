@@ -10,8 +10,15 @@
     xdv/index
     pyhack5/index
     buildout/index
+    buildbot/index
 
 
+* :doc:`buildbot/index`
+
+  buildbotはPythonベースの継続的インテグレーションシステムです。
+  サーバー・クライアントモデルで構成されており、リポジトリからのソース取得
+  からビルドとテストの実行までを様々なトリガーで実行します。
+  WebUIのみの提供でPythonが動作するプラットフォームであれば動作します。
 
 * :doc:`buildout/index`
 
