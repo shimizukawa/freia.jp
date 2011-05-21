@@ -56,7 +56,6 @@
 	<div class="related">
 		現在位置: 
 		<a href="/taka/">ホーム</a> →
-		<a href="/taka/docs/">ドキュメント</a> →
 	</div>
 </before>
 <before css:theme="#content" content="//div[@class='related'][1]"/>
