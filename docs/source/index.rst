@@ -2,6 +2,14 @@
 ==============
 技術資料、発表資料、翻訳などのドキュメントを公開しています。
 
+
+.. toctree::
+    :hidden:
+
+    pyhack4/index
+
+
+
 * `zc.buildout メモ <buildout/index>`_
 
   buildoutはPythonベースのビルドシステムです。パーツという単位で
@@ -29,7 +37,7 @@
 
   清水川が翻訳している、Pythonパッケージの作成に関するガイドドキュメントです。
 
-* `Python Hack-a-thon 4 ハンズオン 中級コース <pyhack4>`_
+* :doc:`pyhack4/index`
 
   Python Hack-a-thon 4 のハンズオン中級コースで使用した、virtualenv,
   setuptools, PyPI, buildoutを学ぶための資料です。
