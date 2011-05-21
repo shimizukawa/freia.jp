@@ -4,18 +4,12 @@ debug = False
 [composite:main]
 use = egg:Paste#urlmap
 ${production-ini:urlpath-prefix}/theme = static
-${production-ini:urlpath-prefix}/docs/xdv = docs.xdv
-${production-ini:urlpath-prefix}/docs/buildout = docs.buildout
-${production-ini:urlpath-prefix}/docs/pyhack4 = docs.pyhack4
-${production-ini:urlpath-prefix}/docs/pyhack5 = docs.pyhack5
 ${production-ini:urlpath-prefix}/docs/xpfest2010 = docs.xpfest2010
+${production-ini:urlpath-prefix}/docs = docs
 ${production-ini:urlpath-prefix} = plone
 
 domain m.freia.jp ${production-ini:urlpath-prefix}/theme = static
-domain m.freia.jp ${production-ini:urlpath-prefix}/docs/buildout = m.docs.buildout
-domain m.freia.jp ${production-ini:urlpath-prefix}/docs/xdv = m.docs.xdv
-domain m.freia.jp ${production-ini:urlpath-prefix}/docs/pyhack4 = m.docs.pyhack4
-domain m.freia.jp ${production-ini:urlpath-prefix}/docs/pyhack5 = m.docs.pyhack5
+domain m.freia.jp ${production-ini:urlpath-prefix}/docs = m.docs
 domain m.freia.jp ${production-ini:urlpath-prefix} = m.plone
 
 
@@ -43,80 +37,24 @@ use = egg:Paste#proxy
 address = ${production-ini:backend}
 
 ;#####################################
-; docs.xdv
+; docs
 
-[pipeline:docs.xdv]
+[pipeline:docs]
 pipeline = egg:Paste#cgitb
            egg:Paste#httpexceptions
-           docs.xdv.theme
-           docs.xdv.content
+           docs.theme
+           docs.content
 
-[filter:docs.xdv.theme]
+[filter:docs.theme]
 use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/theme.html
 rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
 absolute_prefix = ${production-ini:urlpath-prefix}/theme/
 
-[app:docs.xdv.content]
+[app:docs.content]
 use = egg:Paste#static
 document_root = ${buildout:directory}/../xdv/docs/build/html
 
-;#####################################
-; docs.buildout
-
-[pipeline:docs.buildout]
-pipeline = egg:Paste#cgitb
-           egg:Paste#httpexceptions
-           docs.buildout.theme
-           docs.buildout.content
-
-[filter:docs.buildout.theme]
-use = egg:dv.xdvserver#xdv
-theme = ${buildout:directory}/theme/theme.html
-rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
-absolute_prefix = ${production-ini:urlpath-prefix}/theme/
-
-[app:docs.buildout.content]
-use = egg:Paste#static
-document_root = ${buildout:directory}/../buildout/build/html
-
-;#####################################
-; docs.pyhack4
-
-[pipeline:docs.pyhack4]
-pipeline = egg:Paste#cgitb
-           egg:Paste#httpexceptions
-           docs.pyhack4.theme
-           docs.pyhack4.content
-
-[filter:docs.pyhack4.theme]
-use = egg:dv.xdvserver#xdv
-theme = ${buildout:directory}/theme/theme.html
-rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
-absolute_prefix = ${production-ini:urlpath-prefix}/theme/
-
-[app:docs.pyhack4.content]
-use = egg:Paste#static
-document_root = ${buildout:directory}/../pyhack4/build/html
-
-;#####################################
-; docs.pyhack5
-
-[pipeline:docs.pyhack5]
-pipeline = egg:Paste#cgitb
-           egg:Paste#httpexceptions
-           docs.pyhack5.theme
-           docs.pyhack5.content
-
-[filter:docs.pyhack5.theme]
-use = egg:dv.xdvserver#xdv
-theme = ${buildout:directory}/theme/theme.html
-rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
-absolute_prefix = ${production-ini:urlpath-prefix}/theme/
-
-[app:docs.pyhack5.content]
-use = egg:Paste#static
-document_root = ${buildout:directory}/../pyhack5/build/html
 
 ;#####################################
 ; docs.xpfest2010
@@ -148,68 +86,21 @@ address = ${production-ini:backend2}
 
 
 ;#####################################
-; m.docs.xdv
+; m.docs
 
-[pipeline:m.docs.xdv]
+[pipeline:m.docs]
 pipeline = egg:Paste#cgitb
            egg:Paste#httpexceptions
-           m.docs.xdv.theme
-           docs.xdv.content
+           m.docs.theme
+           docs.content
 
-[filter:m.docs.xdv.theme]
+[filter:m.docs.theme]
 use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/iphonetheme.html
 rules = ${buildout:directory}/theme/m.docs.sphinx.rule.xml
 live = true
 absolute_prefix = ${production-ini:urlpath-prefix}/theme/
 
-;#####################################
-; m.docs.buildout
-
-[pipeline:m.docs.buildout]
-pipeline = egg:Paste#cgitb
-           egg:Paste#httpexceptions
-           m.docs.buildout.theme
-           docs.buildout.content
-
-[filter:m.docs.buildout.theme]
-use = egg:dv.xdvserver#xdv
-theme = ${buildout:directory}/theme/iphonetheme.html
-rules = ${buildout:directory}/theme/m.docs.sphinx.rule.xml
-live = true
-absolute_prefix = ${production-ini:urlpath-prefix}/theme/
-
-;#####################################
-; m.docs.pyhack4
-
-[pipeline:m.docs.pyhack4]
-pipeline = egg:Paste#cgitb
-           egg:Paste#httpexceptions
-           m.docs.pyhack4.theme
-           docs.pyhack4.content
-
-[filter:m.docs.pyhack4.theme]
-use = egg:dv.xdvserver#xdv
-theme = ${buildout:directory}/theme/iphonetheme.html
-rules = ${buildout:directory}/theme/m.docs.sphinx.rule.xml
-live = true
-absolute_prefix = ${production-ini:urlpath-prefix}/theme/
-
-;#####################################
-; m.docs.pyhack5
-
-[pipeline:m.docs.pyhack5]
-pipeline = egg:Paste#cgitb
-           egg:Paste#httpexceptions
-           m.docs.pyhack5.theme
-           docs.pyhack5.content
-
-[filter:m.docs.pyhack5.theme]
-use = egg:dv.xdvserver#xdv
-theme = ${buildout:directory}/theme/iphonetheme.html
-rules = ${buildout:directory}/theme/m.docs.sphinx.rule.xml
-live = true
-absolute_prefix = ${production-ini:urlpath-prefix}/theme/
 
 
 
