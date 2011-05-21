@@ -15,7 +15,7 @@
 		div.sphinxsidebar h3, div.sphinxsidebar h4 {color: black;}
 		div.sphinxsidebar ul {margin-right:0;}
 		div.sphinxsidebarwrapper {padding:4px; overflow:hidden;}
-		div.related {background-color: transparent; color: black; line-height: 2em; font-size: 100%;}
+		div.related {background-color: transparent; color: black; line-height: 2em;}
 		div.related a {color: #355F7C;}
 		div.related a:hover {text-decoration: underline;}
 		div.footer {background-color: #11303D;}

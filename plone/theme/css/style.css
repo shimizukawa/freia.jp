@@ -162,7 +162,7 @@ blockquote{
 
 /**** breadcrumb ***/
 
-.related {
+div.related {
 	font-size: 69%;
 }
 
