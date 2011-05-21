@@ -1,0 +1,30 @@
+<rules xmlns="http://namespaces.plone.org/xdv"
+       xmlns:css="http://namespaces.plone.org/xdv+css">
+
+<append theme="/html/head" css:content="head > *"/>
+<replace theme="//head/title" content="//head/title"/>
+
+<append theme="/html/head">
+	<style type="text/css">
+		body { background-color: #fff; font-size: 11pt; }
+		div.body h2 { background-position: 5px 10px; padding-left: 30px; }
+		div.body h3 { font-size: 120%; }
+		div.body h2, div.body h3 { text-transform: none; }
+		div.navigation { float: none; }
+		div.related { background-color: transparent; color: #006699;}
+		div.related a { color: #006699;}
+		div.footer { color: black; font-size: 100%; }
+		div.footer a { color: #006699; }
+	</style>
+</append>
+
+<drop css:theme="div.header h1" />
+<copy css:theme="div.block_right" content="//h1/text()"/>
+<replace css:theme="div.right_content" css:content="div.body"/>
+<drop content="//h1"/>
+<drop css:theme=".left_content" />
+<copy css:theme="div.navigation" content="//div[@class='related'][1]" />
+<replace css:theme="div.footer" css:content="div.footer" />
+
+</rules>
+

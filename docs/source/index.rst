@@ -29,7 +29,7 @@
   用いた開発サイクルについて、それぞれPythonのツール群(MercurialHG,buildout,
   Buildbot, Noseなど)の活用方法をお話します。
 
-* `xdvチュートリアル <xdv/index>`_
+* :doc:`xdv/index`
 
   HTMLコンテンツ変換ツール xdv のチュートリアルドキュメントです。
 

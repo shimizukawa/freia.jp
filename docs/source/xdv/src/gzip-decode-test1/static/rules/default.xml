@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns="http://namespaces.plone.org/xdv"
+       xmlns:css="http://namespaces.plone.org/xdv+css">
+
+	<append  css:content="ul.about" css:theme="children:#about" />
+	<append  css:content="div.stats" css:theme="children:#stats" />
+	<append  css:content="#following" css:theme="children:#following" />
+	<replace css:content="div.section || div#content" css:theme=".right_content" />
+	<append  css:content="h2.thumb img" css:theme="#about h4" />
+	<replace css:content="children:h2.thumb" css:theme="children:.block_right" />
+
+
+</rules>
+
