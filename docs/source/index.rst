@@ -8,6 +8,7 @@
 
     pyhack4/index
     xdv/index
+    pyhack5/index
 
 
 
@@ -17,7 +18,7 @@
   アプリケーションを作成、組み立て、配置などを行い、非Pythonベースのものも
   構築可能です。
 
-* `DocTestで覚えるTDDのリズム <pyhack5/index>`_
+* :doc:`pyhack5/index`
 
   Python Hack-a-thon 5 ハンズオン中級コース用資料。
   PythonのDocTestを使ってみよう。TDDをDocTestでやってみよう。
