@@ -8,7 +8,7 @@
 
 <before css:theme="#theme-css">
 	<style type="text/css">
-		.documentbody {font-size: 110%; background-color: #F7F9FB; padding: 0.3em;}
+		.documentbody {background-color: #F7F9FB; padding: 0.3em;}
 		.documentbody h2 {border-bottom: 1px solid green;}
 		a.reference {color: #355F7C;}
 		div.sphinxsidebar {float: none; margin-left: 0; width: 100%; font-size: 100%;}
