@@ -60,7 +60,7 @@ absolute_prefix = ${development-ini:urlpath-prefix}/theme/
 
 [app:docs.content]
 use = egg:Paste#static
-document_root = ${buildout:directory}/../xdv/docs/build/html
+document_root = ${buildout:directory}/../docs/build/html
 
 ;#####################################
 ; docs.xpfest2010
