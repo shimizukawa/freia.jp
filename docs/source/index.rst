@@ -6,6 +6,7 @@
 .. toctree::
     :hidden:
 
+    misc/index
     pyhack4/index
     xdv/index
     expertpython/index
@@ -70,4 +71,8 @@
 
   http://plone.jp/documentation/unit-testing
   清水川が翻訳したPloneのユニットテストに関するドキュメントです。
+
+* :doc:`misc/index`
+
+  以前書いたり翻訳したりしたドキュメントなど。
 
