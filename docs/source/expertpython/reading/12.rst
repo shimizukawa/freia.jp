@@ -9,6 +9,48 @@
 
 開発モデルやBTSについて.
 
+読書会中に使用したTracの環境構築手順(buildout編)
+==================================================
+
+.. code-block:: bash
+
+    $ python bootstrap.py -d init
+    $ vi buildout.cfg
+
+buildout.cfg の編集
+
+.. code-block:: init
+
+    [buildout]
+    parts = trac
+
+    [trac]
+    recipe = zc.recipe.egg
+    eggs = trac
+
+環境構築
+
+.. code-block:: bash
+
+    $ bin/buildout
+    $ bin/trac-admin epp initenv
+    $ bin/trac-admin epp
+    Trac [epp]> permission list
+    ...
+    Trac [epp]> permission add anonymous TRAC_ADMIN
+    Trac [epp]> [Ctrl+D]
+
+    $ bin/tracd
+
+.. warning::
+
+    誰でも(anonymousでも)管理権限まで使えるように設定し、80番ポートで起動。
+    これはデモ用に行った内容なので、実際の運用に際しては書籍を参考に
+    適切な設定を行うこと。
+
+ブラウザで http://localhost/epp/ にアクセス
+
+
 
 質疑応答（覚えてる範囲）
 ========================
@@ -36,5 +78,5 @@
 ======
 
 * ATND: http://atnd.org/events/16163
-* Togetter: 
+* Togetter: http://togetter.com/li/145691
 
