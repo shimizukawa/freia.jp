@@ -9,19 +9,65 @@
 
 ドキュメント作成のための戦略について。なお10章は無料配布があります -> `プロジェクトのドキュメント作成 - Sphinx-users.jp <http://sphinx-users.jp/articles/index.html#id3>`_
 
+相変わらず本を読まない読書会を目指したかったのですが、ドキュメントの章だけに文字での概念説明が多かったです＞＜
 
 質疑応答（覚えてる範囲）
 ========================
 
-記載予定
+* 1つめと2つめのステップでツールを変えてます(@togakushi)
 
-.. * Q: ...
-..     * A: ...
+  * MindMapでやって、エディタでやって、3段階使ってます(@togakushi)
+  * Sphinxで見た目変えるだけで誤字や微妙な表現に気づくことも(@shimizukawa)
+
+
+* 書くのは楽しくないよね(@Terapyon)
+
+  * Sphinxにしてから楽しいよ(@togakushi)
+  * テキストで先に書いた方がレバレッジがきくし整理しやすい(@kshigeru)
+  * 「コード見れば分かるよ」と言う人のコードは読みにくい(@kshigeru)
+  * エラー条件とか先に明示したほうが実装もきれいに行ける(@kshigeru)
+  * 仕事でconfig書くよりドキュメント書いた方が楽し(@tanihito)
+  * Sphinx使い始めてからdocstringのカバレッジが上がりました(@shomah4a)
+
+
+* ドキュメントポートフォリオ的なものを持っていますか？
+
+  * Faxの送り状くらいならありますよね(@Terapyon)
+  * 前のドキュメントからコピペはよくやってる(@Terapyon)
+
+    * 参考にして、とか、踏襲して、とか言うことがよくあります(@togakushi)
+    * コピペ多いですが、より新しいコピー元を使うべきなのに古いのを踏襲してしまったり(@kshigeru)
+    * WordやExcelで踏襲元を間違えると大変...
+    * Excelで隠されたシートがあるのに気づかず別のお客さんに出してしまって..
+
+
+* Sphinxでは1つのSphinxプロジェクトで文書を作るのが一般的？
+
+  * 対象者を全て包含したドキュメントを作ってますが、工夫もしてます(@shimizukawa)
+
+    * 対象者毎にディレクトリ階層を分けることで分離しやすくする
+    * Sphinxでは簡単に部分階層のみでドキュメント生成が可能
+
+* Sphinxにはどんな出力形式がありますか?
+
+  * html: singleとかデザイン変更とかはいっぱいある
+  * pickle: pickleで辞書形式になっているのでツールで利用しやすい
+  * json: json形式なのでAJAx的に利用しやすい
+  * htmlhelp: Windowsのchmを生成するための元データを出力
+  * qthelp: QT用？
+  * latex: latexファイル等を生成,ここからPDF作成などを行う
+  * changes: CHANGESのフォーマットかな？
+  * linkcheck: リンク先の404,302,303,等をチェックして一覧化してくれる
+  * doctest: Document中のテストを実行する
+  * azw (開発中): Kindle向け
+  * docx (開発中): Windows向け
+
 
 
 参考
 ======
 
-* ATND: http://atnd.org/events/16163
-* Togetter: 
+* ATND: http://atnd.org/events/16717
+* Togetter: http://togetter.com/li/152554
+
 
