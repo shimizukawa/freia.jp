@@ -22,23 +22,59 @@
 .. .. image:: images/15-2.jpg
 
 
-.. 質疑応答（覚えてる範囲）
-
-前回事前に出ていた質問
+質疑応答（覚えてる範囲）
 =======================
+
+.. _minimock: http://pypi.python.org/pypi/MiniMock
+.. _mock: http://pypi.python.org/pypi/mock
+.. _testfixtures: http://pypi.python.org/pypi/testfixtures
+
+* Q: minimock_ は、機能としてテストスパイの方に近いのではないでしょうか？
+
+  * A: XUnit Test Patterns の定義に従うと、記録をして値を返すだけの動きだとテストスパイと言える
+
+* Q: nose でテストが成功したときに標準出力を見たいときはどうしたら良いでしょうか？
+
+  * A: nose.tools にその用途のツールがあるかも？
+  * テスト実行時に "-s, --nocapture" オプションを与えると標準出力をキャプチャしなくなるのでpdb,pudbなどで扱いやすい(@jbking)
 
 * Q: doctest/unittest/mock/stub を使った自動テストに興味があります。
   ただ Python の mock ライブラリは複雑なイメージがあるので、実際に
   mock ライブラリを使った経験談などが聞けたら嬉しいです。
 
-* Q: 皆さんがどのMock, Stubライブラリをお使いか(できたら理由なども)
-  うかがいたいです。
+  * A: mock をがんばって作り込み過ぎると、実際とは違う動きになって後で大変なことがあります(@aodag)
+
+* Q: 皆さんがどのMock, Stubライブラリをお使いか(できたら理由なども)うかがいたいです。
+
+  * A: Ruby の RSpec に慣れていたら minimock_ よりも mock_ の方が使いやすかった
+  * testfixtures_ というモジュールには色んなテストツールが入っていて良さそうに見える(@jbking)
 
 * Q: Web アプリの開発をするとき、どういうテストを行うのか。
   画面まわり、データ操作系、ビジネスロジックなどがあるが、
   書きやすいテスト、テストの対象からはずすものなどの取捨選択について。
 
+  * A: 自分たちが把握できるアプリケーション内のモジュールの結合までは自動化する(@shimizukawa)
+  * Rails の場合、unit、functional、integration、acceptanceといった4つの分類が標準で提供されている(@shimizukawa)
+  * Pyramid の場合、unit、integration、functionalに分かれていてfunctionalの位置づけがRailsとは異なる(@aodag)
+  * Railsではintegrationは複数のリクエストをまたがるテストで、functionalは1リクエストに対するテスト
+  * integrationとfunctionalはテスト範囲が似ている場合があり、integrationを省略できるケースもある
+  * Pyramidのテストガイドには、1リクエストでできないテストをどうするかについては記述されていない
+  * 探索テスト(ランダムテスト？)は、開発者が認識していないテストを自動化するテスト
+  * 全く想定外のテストは、テスターにお願いするしかない
+  * どこまでテストするかは、プロジェクトにおいて何が大事かによって変わってくる
+
+* Q: Mock/Stub/Fake では対応できない環境依存のロジックのテストは
+  expected value の方を外部設定ファイルから与える方式で対応してますが、
+  それ以外の方法はありますか？
+  外部設定ファイルの内容が正しいかどうかを検証するのが難しいといった状況です
+
+  * A: テストの定義が正しいかどうかをテストするのは無理がある
+  * レビューするしか無いんじゃないか
+
 * Q: python doctestでのユニコード文字列の比較について。
+
+  * A: 日本語関連で問題が出る場合もある
+  * doctestモジュール自体は encoding オプションを指定できるが、例えばnoseのテストランナーがそのオプションを見てくれるかどうかは分からない
 
 
 参考
