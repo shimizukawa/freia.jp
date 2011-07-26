@@ -23,7 +23,7 @@
 
 
 質疑応答（覚えてる範囲）
-=======================
+=========================
 
 .. _minimock: http://pypi.python.org/pypi/MiniMock
 .. _mock: http://pypi.python.org/pypi/mock
