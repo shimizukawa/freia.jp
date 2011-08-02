@@ -100,20 +100,20 @@ eggキャッシュの共有
 ~/.buildout/default.cfg というファイルを作成して、以下のように記載します::
 
    [buildout]
-   eggs-directory = ~/.buldout/buildout-eggs
-   download-cache = ~/.buldout/buildout-downloads
+   eggs-directory = /home/foo/.buildout/buildout-eggs
+   download-cache = /home/foo/.buildout/buildout-downloads
    newest = false
    # index = http://pypi.python.jp/
 
 上記の2つのフォルダは作成しておいて下さい。
 
 この状態でbuildoutを実行するとバージョン更新をチェックせず、取得した
-eggは共有のbuldout-eggsに置くようになります。これによって、繰り返し
+eggは共有のbuildout-eggsに置くようになります。これによって、繰り返し
 buildoutコマンドを実行するような場合でもインターネット通信を行わないため、
 高速に実行することが出来ます。また、複数のbuildout環境でeggを共有する
 ため、良く使うeggはノータイムで実行することが出来るようになります。
 
-buldout-eggsフォルダの中には、同じパッケージの別バージョンが必要に応じて
+buildout-eggsフォルダの中には、同じパッケージの別バージョンが必要に応じて
 置かれていきますが、buildoutは適切なバージョンを選択してくれるので、
 問題にはなりません。
 
