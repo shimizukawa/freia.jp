@@ -45,11 +45,13 @@
    * A: はい。ディクショナリのキーは Immutable なオブジェクトであると
      ドキュメントにも記載されています。
 
-* Q: 1つのキューを使って親子プロセス間で通信するのですか？
+* Q: multiprocessingでは、1つのキューを使って親子プロセス間で通信するのですか？
 
    * A: プロセス間で通信を行う場合、キューを使ったり、パイプを作ったり、
      いろいろなやり方がありますが、基本的には一方向のみの通信になる
      ケースが多いです。共有メモリを使う Array/Value もあります。
+   * multiprocessingの利用はリファレンスだけでは難しい部分もあるので、
+     `Python Module of the Week <http://www.doughellmann.com/PyMOTW-ja/index.html>`_ の `multiprocessing - スレッドのようにプロセスを管理する <http://www.doughellmann.com/PyMOTW-ja/multiprocessing/index.html>`_ も参照してください。
 
 * Q: GIL の良いところは何でしょうか？
 
