@@ -12,15 +12,20 @@
 **日本語版翻訳メンバー(稲田さん)による描き下ろし！！**
 
 
-.. 会場の様子
-.. ============
-.. 
-.. 今回は会議室いっぱいに集まりました。
-.. 
+会場の様子
+============
+
+最終章でかつ自分の執筆した章ということもあり、翻訳者の1人で最終章の執筆者 @methane が参加されました。
+
 .. .. image:: images/15-1.jpg
 .. 
 .. .. image:: images/15-2.jpg
 
+`2011/9/20 エキスパートPythonプログラミング読書会#19 - a set on Flickr <http://www.flickr.com/photos/shimizukawa/sets/72157627594239717/>`_
+
+.. raw:: html
+
+   <object width="400" height="300"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627594239717%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627594239717%2F&set_id=72157627594239717&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=107931"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=107931" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627594239717%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627594239717%2F&set_id=72157627594239717&jump_to=" width="400" height="300"></embed></object>
 
 質疑応答（覚えてる範囲）
 ==========================
