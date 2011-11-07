@@ -9,6 +9,36 @@
 
 開発モデルやBTSについて.
 
+会場の様子
+===========
+今回からアスキーメディアワークスさん引っ越し先(飯田橋)で開催しました。
+
+.. figure:: images/12-1.jpg
+
+   プロジェクターが壁全面ですごい！
+
+.. figure:: images/12-2.jpg
+
+   会議室も広いですね
+
+.. figure:: images/12-3.jpg
+
+   アメニティースペースにはガンダム...?
+
+.. figure:: images/12-4.jpg
+
+   ドリンクとフードの自販機。Suica対応。フードはファミリーマートロゴ入りでした。
+
+.. figure:: images/12-5.jpg
+
+   ドリンク安い！
+
+.. figure:: images/12-6.jpg
+
+   読書会終了後の様子。お疲れ様でした！
+
+
+
 読書会中に使用したTracの環境構築手順(buildout編)
 ==================================================
 
@@ -19,7 +49,7 @@
 
 buildout.cfg の編集
 
-.. code-block:: init
+.. code-block:: ini
 
     [buildout]
     parts = trac
