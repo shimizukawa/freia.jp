@@ -22,7 +22,7 @@
 
 * 質問: easy_installとpipはどっちが良いですか？
     * このへんにまとめてます。
-      http://dl.dropbox.com/u/284189/pyhack4/build/html/environments.html
+      http://www.freia.jp/taka/docs/pyhack4/environments.html
 
 * 質問: 今後easy_installとかpipとかはどうなっていくんですか？
     * このへんに予定が書かれています http://bit.ly/9lTLN4 easy_installは廃止、
