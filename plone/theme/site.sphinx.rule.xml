@@ -36,7 +36,7 @@
 		<li class="plain" id="portaltab-blog">
 			<a title="Zope, Python, FreeBSD, その他色々について。つまり日記か。" href="http://www.freia.jp/taka/blog">清水川記</a>
 		</li>
-		<li class="selected" id="portaltab-docs">
+		<li id="portaltab-docs">
 			<a title="ドキュメント類" href="http://www.freia.jp/taka/docs">ドキュメント</a>
 		</li>
 		<li class="plain" id="portaltab-memo">
