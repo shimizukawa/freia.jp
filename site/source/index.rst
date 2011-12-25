@@ -4,6 +4,11 @@
 
 
 .. toctree::
+   :maxdepth: 1
+
+   blog/index
+
+.. toctree::
    :maxdepth: 2
 
    docs/index
