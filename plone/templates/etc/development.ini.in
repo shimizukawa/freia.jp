@@ -10,57 +10,35 @@ port = ${development-ini:server-port}
 use = egg:Paste#urlmap
 ${development-ini:urlpath-prefix}/theme = static
 ${development-ini:urlpath-prefix}/docs/xpfest2010 = docs.xpfest2010
-${development-ini:urlpath-prefix}/docs = docs
-${development-ini:urlpath-prefix} = plone
+${development-ini:urlpath-prefix} = site
 
 domain m.freia.jp ${development-ini:urlpath-prefix}/theme = static
-domain m.freia.jp ${development-ini:urlpath-prefix}/docs = m.docs
-domain m.freia.jp ${development-ini:urlpath-prefix} = m.plone
+domain m.freia.jp ${development-ini:urlpath-prefix} = m.site
 
 [app:static]
 use = egg:Paste#static
 document_root = ${buildout:directory}/theme
 
-;#####################################
-; plone
 
-[pipeline:plone]
+;#####################################
+; site
+
+[pipeline:site]
 pipeline = egg:Paste#cgitb
            egg:Paste#httpexceptions
-           plone.theme
-           zope.proxy
+           site.theme
+           site.content
 
-[filter:plone.theme]
+[filter:site.theme]
 use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/theme.html
-rules = ${buildout:directory}/theme/plone.rule.xml
+rules = ${buildout:directory}/theme/site.sphinx.rule.xml
 live = true
 absolute_prefix = ${development-ini:urlpath-prefix}/theme/
 
-[app:zope.proxy]
-use = egg:Paste#proxy
-;address = ${development-ini:backend}
-address = http://192.168.1.2:8180/VirtualHostBase/http/localhost:8000/freia/VirtualHostRoot/taka/
-
-;#####################################
-; docs
-
-[pipeline:docs]
-pipeline = egg:Paste#cgitb
-           egg:Paste#httpexceptions
-           docs.theme
-           docs.content
-
-[filter:docs.theme]
-use = egg:dv.xdvserver#xdv
-theme = ${buildout:directory}/theme/theme.html
-rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
-live = true
-absolute_prefix = ${development-ini:urlpath-prefix}/theme/
-
-[app:docs.content]
+[app:site.content]
 use = egg:Paste#static
-document_root = ${buildout:directory}/../docs/build/html
+document_root = ${buildout:directory}/../site/build/html
 
 ;#####################################
 ; docs.xpfest2010
@@ -92,18 +70,18 @@ address = http://192.168.1.2:8180/VirtualHostBase/http/m.freia.jp:8000/freia/Vir
 
 
 ;#####################################
-; m.docs
+; m.site
 
-[pipeline:m.docs]
+[pipeline:m.site]
 pipeline = egg:Paste#cgitb
            egg:Paste#httpexceptions
-           m.docs.theme
-           docs.content
+           m.site.theme
+           site.content
 
-[filter:m.docs.theme]
+[filter:m.site.theme]
 use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/iphonetheme.html
-rules = ${buildout:directory}/theme/m.docs.sphinx.rule.xml
+rules = ${buildout:directory}/theme/m.site.sphinx.rule.xml
 live = true
 absolute_prefix = ${development-ini:urlpath-prefix}/theme/
 

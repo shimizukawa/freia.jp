@@ -5,55 +5,35 @@ debug = False
 use = egg:Paste#urlmap
 ${production-ini:urlpath-prefix}/theme = static
 ${production-ini:urlpath-prefix}/docs/xpfest2010 = docs.xpfest2010
-${production-ini:urlpath-prefix}/docs = docs
-${production-ini:urlpath-prefix} = plone
+${production-ini:urlpath-prefix} = site
 
 domain m.freia.jp ${production-ini:urlpath-prefix}/theme = static
-domain m.freia.jp ${production-ini:urlpath-prefix}/docs = m.docs
-domain m.freia.jp ${production-ini:urlpath-prefix} = m.plone
+domain m.freia.jp ${production-ini:urlpath-prefix} = m.site
 
 
 [app:static]
 use = egg:Paste#static
 document_root = ${buildout:directory}/theme
 
-;#####################################
-; plone
-
-[pipeline:plone]
-pipeline = egg:Paste#cgitb
-           egg:Paste#httpexceptions
-           plone.theme
-           zope.proxy
-
-[filter:plone.theme]
-use = egg:dv.xdvserver#xdv
-theme = ${buildout:directory}/theme/theme.html
-rules = ${buildout:directory}/theme/plone.rule.xml
-absolute_prefix = ${production-ini:urlpath-prefix}/theme/
-
-[app:zope.proxy]
-use = egg:Paste#proxy
-address = ${production-ini:backend}
 
 ;#####################################
-; docs
+; site
 
-[pipeline:docs]
+[pipeline:site]
 pipeline = egg:Paste#cgitb
            egg:Paste#httpexceptions
-           docs.theme
-           docs.content
+           site.theme
+           site.content
 
-[filter:docs.theme]
+[filter:site.theme]
 use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/theme.html
-rules = ${buildout:directory}/theme/docs.sphinx.rule.xml
+rules = ${buildout:directory}/theme/site.sphinx.rule.xml
 absolute_prefix = ${production-ini:urlpath-prefix}/theme/
 
-[app:docs.content]
+[app:site.content]
 use = egg:Paste#static
-document_root = ${buildout:directory}/../docs/build/html
+document_root = ${buildout:directory}/../site/build/html
 
 
 ;#####################################
@@ -86,18 +66,18 @@ address = ${production-ini:backend2}
 
 
 ;#####################################
-; m.docs
+; m.site
 
-[pipeline:m.docs]
+[pipeline:m.site]
 pipeline = egg:Paste#cgitb
            egg:Paste#httpexceptions
-           m.docs.theme
-           docs.content
+           m.site.theme
+           site.content
 
-[filter:m.docs.theme]
+[filter:m.site.theme]
 use = egg:dv.xdvserver#xdv
 theme = ${buildout:directory}/theme/iphonetheme.html
-rules = ${buildout:directory}/theme/m.docs.sphinx.rule.xml
+rules = ${buildout:directory}/theme/m.site.sphinx.rule.xml
 live = true
 absolute_prefix = ${production-ini:urlpath-prefix}/theme/
 
