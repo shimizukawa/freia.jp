@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'清水川 Docs'
+project = u'清水川Web'
 copyright = u'Takayuki SHIMIZUKAWA'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -179,7 +179,7 @@ htmlhelp_basename = 'shimizukawa-doc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'shimizukawa-docs.tex', u'Shimizukawa docs',
+  ('index', 'shimizukawa-web.tex', u'Shimizukawa web',
    u'Takayuki SHIMIZUKAWA', 'manual'),
 ]
 
