@@ -19,7 +19,7 @@
 
 <!-- site logo -->
 <copy css:theme="#logo">
-	<a href="/taka" accesskey="1" id="portal-logo">清水川Web</a>
+	<a href="/taka/" accesskey="1" id="portal-logo">清水川Web</a>
 </copy>
 
 <!-- breadcrumb -->

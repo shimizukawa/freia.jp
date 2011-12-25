@@ -24,14 +24,14 @@
 
 <!-- site logo -->
 <copy css:theme="#logo">
-	<a href="/taka" accesskey="1" id="portal-logo">清水川Web</a>
+	<a href="/taka/" accesskey="1" id="portal-logo">清水川Web</a>
 </copy>
 
 <!-- site menu -->
 <copy css:theme="#menu">
 	<ul>
 		<li class="plain" id="portaltab-index_html">
-			<a title="" href="http://www.freia.jp/taka">ホーム</a>
+			<a title="" href="http://www.freia.jp/taka/">ホーム</a>
 		</li>
 		<li class="plain" id="portaltab-blog">
 			<a title="Zope, Python, FreeBSD, その他色々について。つまり日記か。" href="http://www.freia.jp/taka/blog">清水川記</a>
