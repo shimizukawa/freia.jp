@@ -1,6 +1,8 @@
 清水川記
 ==============
 
+.. .. blogtoctree::
+
 .. toctree::
    :maxdepth: 1
 

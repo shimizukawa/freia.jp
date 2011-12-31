@@ -8,6 +8,7 @@ extensions = [
         'sphinxcontrib.blockdiag',
         'sphinxcontrib.seqdiag',
         'sphinx.ext.todo',
+        #'blogtoctree',
         #'tinkerer.ext.blog',
         #'tinkerer.ext.disqus',
         ]
