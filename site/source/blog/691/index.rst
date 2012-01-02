@@ -2,9 +2,9 @@
 :categories: ['Zope', 'python', 'Plone']
 :body type: text/x-rst
 
-============================================================
-distutils, setuptools, distribute, pip, virtualenv, buildout
-============================================================
+=======================================================================
+2009/12/05 distutils, setuptools, distribute, pip, virtualenv, buildout
+=======================================================================
 
 今日は `(第6回)Zope/Plone開発勉強会`_ に参加しています。
 

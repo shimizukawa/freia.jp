@@ -2,9 +2,9 @@
 :categories: ['food']
 :body type: text/x-rst
 
-================
-ハロウィンカレー
-================
+===========================
+2005/10/31 ハロウィンカレー
+===========================
 
 .. figure:: images/2005halloween_curry/thumb?width=200
   :target: images/2005halloween_curry

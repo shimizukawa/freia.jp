@@ -2,9 +2,9 @@
 :categories: ['Zope']
 :body type: text/x-rst
 
-=================
-ZCatalogでNot検索
-=================
+============================
+2005/02/28 ZCatalogでNot検索
+============================
 
 目的はPloneのRecentItemのPortletから写真関連を除外することだけど、技術的にはZope標準のZCatalogの使い方について。
 

@@ -2,9 +2,9 @@
 :categories: ['WZ']
 :body type: text/x-rst
 
-==
-WZ
-==
+=============
+2005/04/05 WZ
+=============
 
 `WZが悪いんじゃない！Villagecenterが悪いんだ！`__
 

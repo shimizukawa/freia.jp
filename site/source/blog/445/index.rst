@@ -2,9 +2,9 @@
 :categories: ['python', 'turbogears']
 :body type: text/x-rst
 
-=======================
-tgdatacontrollerをegg化
-=======================
+==================================
+2007/04/15 tgdatacontrollerをegg化
+==================================
 
 easy_install
 -------------

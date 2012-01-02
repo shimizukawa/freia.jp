@@ -2,9 +2,9 @@
 :categories: ['python', 'pyspa']
 :body type: text/x-rst
 
-======================================
-Expert Python Programming の目次の和訳
-======================================
+=================================================
+2009/10/25 Expert Python Programming の目次の和訳
+=================================================
 
 Tarek Ziadé 著の Expert Python Programming の目次を和訳しました。Pythonの初心者向けではなく、何かの言語(Python, Ruby, Perl, ...)を理解している人がPythonを取り巻く開発環境、作法などを理解するのにとても良い本だと思います。
 

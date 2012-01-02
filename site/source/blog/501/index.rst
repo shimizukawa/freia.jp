@@ -2,9 +2,9 @@
 :categories: ['Unix', 'ldap']
 :body type: text/x-rst
 
-==========
-RADIUSって
-==========
+=====================
+2007/12/15 RADIUSって
+=====================
 
 `nakagamiさんのblogで言及`_ された！(ちょびっと)
 

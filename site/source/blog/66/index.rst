@@ -2,9 +2,9 @@
 :categories: ['python', 'Programming']
 :body type: text/x-rst
 
-==========
-pyuiの練習
-==========
+=====================
+2004/09/09 pyuiの練習
+=====================
 
 今日はpyuiのmenuをいじってみました::
 

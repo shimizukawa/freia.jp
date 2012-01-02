@@ -2,9 +2,9 @@
 :categories: ['Event', 'Zope']
 :body type: text/x-rst
 
-=============================
-Appleストア銀座でZopeイベント
-=============================
+========================================
+2005/10/05 Appleストア銀座でZopeイベント
+========================================
 
 .. figure:: images/applezope1/thumb?width=320
   :target: images/applezope1/thumb?width=800

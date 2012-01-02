@@ -2,9 +2,9 @@
 :categories: ['Unix']
 :body type: text/x-rst
 
-===========================
-FreeBSDでEnhanced SpeedStep
-===========================
+======================================
+2005/03/16 FreeBSDでEnhanced SpeedStep
+======================================
 
 PentiumM730の動的なクロック変更に成功。
 

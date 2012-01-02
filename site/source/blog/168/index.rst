@@ -2,9 +2,9 @@
 :categories: ['Unix']
 :body type: text/x-rst
 
-=======================================
-vpopmail with LDAP認証 by FreeBSD ports
-=======================================
+==================================================
+2005/03/23 vpopmail with LDAP認証 by FreeBSD ports
+==================================================
 
 vpopmailでldap認証を使うには::
 

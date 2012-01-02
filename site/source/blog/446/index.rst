@@ -2,9 +2,9 @@
 :categories: ['Pattern', 'python', 'turbogears']
 :body type: text/x-rst
 
-==========================
-FormEncodeで複合validation
-==========================
+=====================================
+2007/04/15 FormEncodeで複合validation
+=====================================
 
 TurboGearsのサンプルコードで、validatorの設定方法やvalidators.Schemaを使ったTableFormのvalidationの例はけっこうたくさん見つかるが、複数の条件でバリデーションを行う方法については日本語の情報があまり見つからなかった。FormEncodeのマニュアルを眺めてみたら発見したので、以下使い方。
 

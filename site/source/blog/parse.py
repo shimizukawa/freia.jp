@@ -8,6 +8,7 @@ import os
 import re
 import io
 import unicodedata
+import datetime
 
 field_matcher = re.compile('^:([\w\s_-]+):\s*(.*)\s*$').match
 codeblock_matcher = re.compile('^(\s*.. code-block::)\s+([\w\s_-]+)\s*$').match
@@ -45,6 +46,7 @@ class Entry(object):
         self.body = []
         self.comment = False
         self.body_type = None
+        self.date = None
 
         def field_list_proc(line):
             m = field_matcher(line)
@@ -58,6 +60,8 @@ class Entry(object):
             elif key == 'title':
                 self.title = value
                 line = None
+            elif key == 'date':
+                self.date = datetime.datetime.strptime(value, '%Y-%m-%d %H:%M:%S')
             elif key == 'body type':
                 self.body_type = value
             elif key == 'extend':
@@ -69,12 +73,15 @@ class Entry(object):
                 self.comment = True
             elif key == 'body':
                 line = ''
-                if self.title:
-                    border = '=' * wlen(self.title)
+                title = self.title
+                if title:
+                    if self.date:
+                        title = self.date.strftime('%Y/%m/%d ') + title
+                    border = '=' * wlen(title)
                     line = ''.join([
                         '\n',
                         border+'\n',
-                        self.title+'\n',
+                        title+'\n',
                         border+'\n',
                         '\n',
                     ])

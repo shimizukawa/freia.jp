@@ -2,9 +2,9 @@
 :categories: ['misc']
 :body type: text/x-rst
 
-=============
-TypingMania3β
-=============
+========================
+2007/04/11 TypingMania3β
+========================
 
 - `TypingMania3β - SightSeekerStudio.com`_
 

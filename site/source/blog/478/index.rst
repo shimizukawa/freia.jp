@@ -2,9 +2,9 @@
 :categories: ['python']
 :body type: text/x-rst
 
-====================
-pywin32でSysTrayIcon
-====================
+===============================
+2007/08/18 pywin32でSysTrayIcon
+===============================
 
 keyowrd: systray tasktray trayicon タスクトレイ トレイ アイコン. (自分でこのエントリを見つけやすいように追加 2008/11/18)
 

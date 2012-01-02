@@ -2,9 +2,9 @@
 :categories: ['Windows']
 :body type: text/x-rst
 
-=================
-ckwとnyacusとztop
-=================
+============================
+2008/01/28 ckwとnyacusとztop
+============================
 
 開発にWindowsを使っているとcmd.exeを結構な頻度で使う。Windowsで開発する人はcoLinuxかcygwinを使う人が多そうな気もするけど、ここではそれは置いておく。（cygwinはちょっと苦手...）
 

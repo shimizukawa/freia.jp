@@ -2,9 +2,9 @@
 :categories: ['python', 'Programming']
 :body type: text/x-rst
 
-================
-pythonでHTML解析
-================
+===========================
+2005/03/23 pythonでHTML解析
+===========================
 
 会社の同僚が
 

@@ -2,9 +2,9 @@
 :categories: ['python', 'Game']
 :body type: text/x-rst
 
-============
-Pythonパズル
-============
+=======================
+2005/05/05 Pythonパズル
+=======================
 
 `日本のZope情報`_ に掲載された `Python Challenge`_ に挑戦中です。
 

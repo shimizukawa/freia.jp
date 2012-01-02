@@ -2,9 +2,9 @@
 :categories: ['turbogears']
 :body type: text/x-rst
 
-============
-tgcrudを試す
-============
+=======================
+2007/04/10 tgcrudを試す
+=======================
 
 TurboGearsの周辺プロジェクトが格納されている http://svn.turbogears.org/projects/ を久しぶりに眺めてみたところ、FastData2とかToscaWidgetsとか色々増えてました。その中にtgcrudというのもあり、昨日tgdatacontrollerを公開した身としては気になるところです。
 

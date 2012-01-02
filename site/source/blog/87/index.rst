@@ -2,9 +2,9 @@
 :categories: ['python', 'misc']
 :body type: text/x-rst
 
-=====================
-PythonCE for PocketPC
-=====================
+================================
+2004/12/10 PythonCE for PocketPC
+================================
 
 帰りの電車の中で、PocketPCにインストールしたPythonをいじっていて遭遇したネタ。
 

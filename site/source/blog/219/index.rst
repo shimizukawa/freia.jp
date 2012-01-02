@@ -2,9 +2,9 @@
 :categories: ['Plone', 'Zope']
 :body type: text/x-rst
 
-========================
-plonified用Portlet実験中
-========================
+===================================
+2005/06/01 plonified用Portlet実験中
+===================================
 
 Plone用COREBlogスキン ```plonified``` のためのportletを作ってみました。目的は
 

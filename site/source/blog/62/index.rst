@@ -2,9 +2,9 @@
 :categories: ['Zope', 'python']
 :body type: text/x-rst
 
-==================
-No module named ja
-==================
+=============================
+2004/08/16 No module named ja
+=============================
 
 reST表示でZopeがリブートする問題_ は解決しました。
 
@@ -45,9 +45,9 @@ reST表示でZopeがリブートする問題_ は解決しました。
 :url: http://owa.as.wakwak.ne.jp/zope/coreblog/98
 :date: 2005-11-28 00:47:26
 
-==================
-docutilsのUnitTest
-==================
+=============================
+2005/11/28 docutilsのUnitTest
+=============================
 
 reStructuredText で落ちるのは、 docutils に ja.py
 ファイルが無いためであることの再確認。 docutils-0.3.5.tar.gz

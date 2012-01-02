@@ -2,9 +2,9 @@
 :categories: ['Event']
 :body type: text/x-rst
 
-===========
-FamiComBand
-===========
+======================
+2005/10/04 FamiComBand
+======================
 
 知り合いのバンド(FamiComBand)が今週末日曜日に演奏するそーなので、ご紹介。
 

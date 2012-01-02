@@ -2,9 +2,9 @@
 :categories: ['python', 'Memo']
 :body type: text/x-rst
 
-=======================
-Python Performance Tips
-=======================
+==================================
+2005/02/12 Python Performance Tips
+==================================
 
 メモ。 `Python Performance Tips`_ 。今後コードを書くときにちょっとした指標になるかも？
 

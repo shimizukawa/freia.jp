@@ -2,9 +2,9 @@
 :categories: ['Programming', 'boadgame', 'ruby-on-rails']
 :body type: text/x-rst
 
-==================
-BattleLine RoR (4)
-==================
+=============================
+2009/02/03 BattleLine RoR (4)
+=============================
 
 *注）ここで記載しているBattleLineは、GoogleでたくさんヒットするBattleLine Onlineとは別物です。*%%%%%%%%%------
 

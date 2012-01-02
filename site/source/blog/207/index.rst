@@ -2,9 +2,9 @@
 :categories: ['Plone', 'Programming']
 :body type: text/x-rst
 
-==================
-SilverCityDocument
-==================
+=============================
+2005/05/17 SilverCityDocument
+=============================
 
 コードをSynaxColoringしてくれるPloneドキュメント、 SilverCityDocument を Archetypes の練習がてら作成してみました。 `こんな感じ`_ に表示されます。ついでに覚え書きページを用意しました＞ `SilverCityDocument`_
 

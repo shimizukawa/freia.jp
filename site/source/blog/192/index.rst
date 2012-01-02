@@ -2,9 +2,9 @@
 :categories: ['Zope', 'Plone']
 :body type: text/x-rst
 
-========================
-COREBlog1.2+Plonified0.8
-========================
+===================================
+2005/04/26 COREBlog1.2+Plonified0.8
+===================================
 
 `COREBlog 1.2a1`_ がML限定公開されました。同時にCOREBlogをPloneと融合して表示するためのSkin, Plonified0.8 が公開されています。
 

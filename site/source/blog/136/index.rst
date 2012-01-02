@@ -2,9 +2,9 @@
 :categories: ['Zope', 'Event']
 :body type: text/x-rst
 
-==============
-Zope Weekend 5
-==============
+=========================
+2005/02/19 Zope Weekend 5
+=========================
 
 今日は `Zope Weekend 5`_ が開催されます。今回はお手伝いスタッフとして参加します。
 

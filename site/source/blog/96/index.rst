@@ -2,9 +2,9 @@
 :categories: ['misc']
 :body type: text/x-rst
 
-===========
-MovableType
-===========
+======================
+2004/12/28 MovableType
+======================
 
 会社の同僚が `MovableTypeを始めた`_ らしい。早速トラックバックしてみる。
 

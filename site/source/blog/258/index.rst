@@ -2,9 +2,9 @@
 :categories: ['IT-PC']
 :body type: text/x-rst
 
-==================================================
-Googleの「Personalize your Google homepage」を使う
-==================================================
+=============================================================
+2005/10/14 Googleの「Personalize your Google homepage」を使う
+=============================================================
 
 .. figure:: images/google_personal/thumb?width=200
   :target: images/google_personal

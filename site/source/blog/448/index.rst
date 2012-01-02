@@ -2,9 +2,9 @@
 :categories: ['Event', 'python']
 :body type: text/x-rst
 
-==========
-Python温泉
-==========
+=====================
+2007/04/16 Python温泉
+=====================
 
 清水川Webは、第一回 Python 温泉に参加します！
 

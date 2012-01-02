@@ -2,9 +2,9 @@
 :categories: ['python', 'Zope']
 :body type: text/x-rst
 
-==============
-ZrstAmazon構想
-==============
+=========================
+2005/06/02 ZrstAmazon構想
+=========================
 
 TRIVIAL TECHNOLOGIESで公開されている `ZopeでSyntax Coloring`_ を元ネタに SilverCityDocument_ というPlone用のプロダクトを先日作ってみました。さっそくたかのりさんが `使用レポート`_ を書いてくれています。
 
@@ -51,9 +51,9 @@ ZSilverCity のソースコードを読んでもう一つ、 **docutilsのdirect
 :url: http://sitebites.homeip.net/blog/147
 :date: 2006-09-24 23:40:44
 
-=====================
-ZrstAmazon4公開します
-=====================
+================================
+2006/09/24 ZrstAmazon4公開します
+================================
 
 清水川さんがつくられた ZrstAmazon の改変版を公開します。
 概要 pyAmazon に依存していたのを pyAWS

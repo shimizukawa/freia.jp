@@ -2,9 +2,9 @@
 :categories: ['python', 'Memo']
 :body type: text/x-rst
 
-=============================
-Python UnitTestのドキュメント
-=============================
+========================================
+2005/01/24 Python UnitTestのドキュメント
+========================================
 
 `Python Unit Testing Framework (in Japanese)`_ を発見。これでテスト駆動を始めるきっかけをつかめそう。
 

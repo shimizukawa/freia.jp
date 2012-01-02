@@ -2,9 +2,9 @@
 :categories: ['Event', 'python']
 :body type: text/x-rst
 
-==============================
-Python Developers Camp 2008 冬
-==============================
+=========================================
+2008/02/15 Python Developers Camp 2008 冬
+=========================================
 
 Python Developers Camp 2008 冬 に参加します！
 

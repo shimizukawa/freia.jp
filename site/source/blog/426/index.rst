@@ -2,9 +2,9 @@
 :categories: ['python']
 :body type: text/x-rst
 
-==============
-inspect.getmro
-==============
+=========================
+2007/03/24 inspect.getmro
+=========================
 
 Pythonでクラスにクラス変数を定義する。そのクラスを継承してそこでクラス変数をoverrideする。
 

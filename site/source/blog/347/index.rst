@@ -2,9 +2,9 @@
 :categories: ['python', 'Programming']
 :body type: text/x-rst
 
-==========================
-PythonのDocTestでお手軽TDD
-==========================
+=====================================
+2006/05/21 PythonのDocTestでお手軽TDD
+=====================================
 
 .. epigraph::
 

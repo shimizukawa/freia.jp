@@ -2,9 +2,9 @@
 :categories: ['python', 'Plone']
 :body type: text/x-rst
 
-=======================================
-easy_installでPILをインストールするhack
-=======================================
+==================================================
+2008/02/04 easy_installでPILをインストールするhack
+==================================================
 
 - `setuptoolsでPILをインストール - 三次元日誌`_
 - `Problems Installing (Easy_Install) Pil – martin-geber.com`_
