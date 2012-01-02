@@ -158,7 +158,7 @@ def main():
         print('saving', fn)
         f.write('.. toctree::\n')
         f.write('   :maxdepth: 1\n\n')
-        f.writelines(idx)
+        f.writelines(reversed(idx))
 
 
 if __name__ == '__main__':
