@@ -46,6 +46,7 @@ http://www.pythonware.com/products/pil/
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2011-05-04.5743150465
 .. :title: Re:PILをWindowsで使う場合の問題への対策

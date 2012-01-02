@@ -27,6 +27,7 @@ H11Tは携帯電話型のemobile端末です。PCと接続するとモデムと�
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-04-11.0440500291
 .. :title: Re:emobileのH11TでBluetooth接続

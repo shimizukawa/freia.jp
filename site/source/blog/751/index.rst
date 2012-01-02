@@ -47,3 +47,4 @@ CentOS-5.6でも同じ手順でOKだったみたいです。
 
 .. :extend type: text/x-rst
 .. :extend:
+

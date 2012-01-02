@@ -43,6 +43,7 @@ enumerateを使え、って、それはもうriddleじゃないような...
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-05-16.4930890259
 .. :title: Re:Python riddle 3, 4

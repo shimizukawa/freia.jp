@@ -17,6 +17,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 Zope 2.9.7 -> 2.10.9
 ---------------------
 Plone3系にするにはZope-2.10.xが必要なので、先にZope本体のバージョンを上げておく。

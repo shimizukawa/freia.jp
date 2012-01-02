@@ -45,3 +45,4 @@ COREBlog2/skins/COREBlog2/media_view.pt
 
 .. :extend type: text/html
 .. :extend:
+

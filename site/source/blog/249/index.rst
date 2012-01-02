@@ -17,6 +17,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 .. figure:: images/ibm_x40_101key/thumb?width=240
   :target: images/ibm_x40_101key
   :align: left

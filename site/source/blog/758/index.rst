@@ -195,3 +195,4 @@ nmakeを実行してMeCab.soをビルドします。
 
 .. :extend type: text/x-rst
 .. :extend:
+

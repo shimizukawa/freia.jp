@@ -21,6 +21,7 @@ VirtualPCはUIが使いやすいんで「ちょっと使おう」という気に
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-01-23.7001008004
 .. :title: Re:やっぱりVirtualPCよりVMWareの方が速い

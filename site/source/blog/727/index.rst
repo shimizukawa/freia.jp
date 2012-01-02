@@ -142,3 +142,4 @@ foo.pyのloader()をインタラクティブシェルから呼び出してファ
 
 .. :extend type: text/x-rst
 .. :extend:
+

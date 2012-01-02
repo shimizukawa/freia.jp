@@ -28,6 +28,7 @@ Zope3用が一段落したので、めんどくさいZope2用の作成をしよ�
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2006-04-08.6380364954
 .. :title: Re:全ページにURLのQRコードを表示するZope3アダプタ

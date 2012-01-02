@@ -39,6 +39,7 @@ Windowsのクリップボードに渡す版(タイトルとURL)::
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-12-17.3934052472
 .. :title: Re:AmazonのURLコピーするbookmarklet

@@ -21,6 +21,7 @@ Talks用の準備も今週末には用意しないとなー。
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-02-19.1964895139
 .. :title: Re:また忙しくなる...ピークはDevCampのあたり？

@@ -23,6 +23,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 .. code-block:: cpp
 
     #ifndef __BREW_SHARED_PTR_H__

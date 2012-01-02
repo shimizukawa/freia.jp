@@ -41,3 +41,4 @@ http://svn.freia.jp/open/tgdatacontroller/trunk/patch/sqlobject/tests/
 
 .. :extend type: text/html
 .. :extend:
+

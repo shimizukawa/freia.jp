@@ -23,6 +23,7 @@
 
 .. :extend type: text/plain
 .. :extend:
+
 ▼２杯目はジャヴァー。ソーセージが超ウマ
 
 |german_sausage|

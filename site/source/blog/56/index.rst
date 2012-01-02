@@ -15,6 +15,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 ということで、以下のコードを書いてみました::
 
   #!/usr/local/bin/python

@@ -61,6 +61,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2010-07-18.1278194579
 .. :title: pyreadline-1.6対応

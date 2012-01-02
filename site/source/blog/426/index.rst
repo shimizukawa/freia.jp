@@ -51,3 +51,4 @@ Pythonでクラスにクラス変数を定義する。そのクラスを継承�
 
 .. :extend type: text/html
 .. :extend:
+

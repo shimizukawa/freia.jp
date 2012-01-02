@@ -38,6 +38,7 @@ sourceという名前のScript(Python)::
 .. :extend:
 
 
+
 :Trackbacks:
 :TrackbackID: 2005-11-28.4906685706
 :BlogName: [CD]CoffeeDiary

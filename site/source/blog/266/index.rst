@@ -20,6 +20,7 @@ gadflyのデータファイルの変換方法について `gadflyのデータフ
 
 .. :extend type: text/x-rst
 .. :extend:
+
 .. code-block:: python
 
     import marshal

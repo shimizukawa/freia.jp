@@ -15,3 +15,4 @@ XP祭り2004の感想を書こうと思ったら、撮ってきた写真の掲�
 
 .. :extend type: text/plain
 .. :extend:
+

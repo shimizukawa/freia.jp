@@ -20,6 +20,7 @@ COREBlog2スゲぇ！まだ自分の環境をPlone2.1に移行できていない
 
 .. :extend type: text/x-rst
 .. :extend:
+
 自己紹介の場で、ATBookshelfというCOREBlog2と連携出来る本棚ツールをちょろっと紹介させて頂きました。ATBookshelfについて詳しくは http://www.freia.jp/taka/memo/plone/atbookshelf を参照してください。
 
 .. figure:: /taka/blog/images/coreblog2_and_atbookshelf001/image_thumb

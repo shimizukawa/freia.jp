@@ -23,6 +23,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 以下、環境構築手順ですが、自分の環境用に書いているので設定ファイルの場所はFreeBSDでportsを使用した場合の場所です。と言っても、Linuxの場合は/usr/local/etcを/etcに読み替えるだけで良いような気もします。
 
 サーバー環境

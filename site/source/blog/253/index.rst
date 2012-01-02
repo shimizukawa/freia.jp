@@ -25,3 +25,4 @@ GMailの問題点は、サイトが基本的にAJAXで作られているので�
 
 .. :extend type: text/plain
 .. :extend:
+

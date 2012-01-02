@@ -230,6 +230,7 @@ p1/setup.py のコードはsetuptoolsで拡張されたdistutilsのsetup関数�
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2010-06-22.7583323027
 .. :title: Re:setuptoolsを使ったpluginサンプル

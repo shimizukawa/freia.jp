@@ -24,6 +24,7 @@
 
 .. :extend type: text/structured
 .. :extend:
+
 pythonで計算するために、まずは逆ポーランド計算機を用意。これはgoogleで探したサイトから流用しました::
 
   import string

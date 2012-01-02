@@ -15,3 +15,4 @@ http://www.objectclub.jp/event/2008summer/ 行ってきます。オブLove方面
 
 .. :extend type: text/html
 .. :extend:
+

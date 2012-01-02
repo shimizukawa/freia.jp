@@ -18,3 +18,4 @@ AspireRevo: 我が家初のフルHD液晶は23インチのPC用でした。そ�
 
 .. :extend type: text/html
 .. :extend:
+

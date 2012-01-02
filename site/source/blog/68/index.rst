@@ -14,3 +14,4 @@ blogの各エントリーに、登録時の調布の天気を表示するよう�
 
 .. :extend type: text/plain
 .. :extend:
+

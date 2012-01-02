@@ -64,3 +64,4 @@ DeliveranceとSphinx生成ドキュメントってとっても親和性が高い
 
 .. :extend type: text/html
 .. :extend:
+

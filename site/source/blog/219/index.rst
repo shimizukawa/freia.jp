@@ -23,3 +23,4 @@ Plone用COREBlogスキン ```plonified``` のためのportletを作ってみま�
 
 .. :extend type: text/plain
 .. :extend:
+

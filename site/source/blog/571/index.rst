@@ -56,6 +56,7 @@ utf-8でのHTML作成を依頼したらEUC-JPで送られてきたので自分�
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-05-20.8639529179
 .. :title: Re:文字コード判定して一括でuft-8に変換するPythonスクリプト

@@ -20,6 +20,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 まず、CMFContentPanels-2.3を入手し、Products以下に展開します。Ploneで使えるようにするため、サイト設定の *プロダクトの追加と削除* でCMFContentPanelsを追加しましょう。
 
 次に、任意のフォルダにContentPanelsを追加します。

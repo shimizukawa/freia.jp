@@ -75,6 +75,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2006-01-05.4431619861
 .. :title: Re:pythonで辞書に構造体っぽくアクセスするメモ

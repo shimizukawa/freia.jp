@@ -70,3 +70,4 @@ Python入門 2-3対応
 
 .. :extend type: text/x-rst
 .. :extend:
+

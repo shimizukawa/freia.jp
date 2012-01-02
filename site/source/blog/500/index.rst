@@ -28,3 +28,4 @@ openldapサーバーのインストールとかslapd.conf, 初期のldifの投�
 
 .. :extend type: text/html
 .. :extend:
+

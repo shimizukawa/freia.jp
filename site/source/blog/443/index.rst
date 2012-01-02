@@ -19,3 +19,4 @@ FONの台数は国内で1万を超えたとはいえ、調布駅前近辺は3カ
 
 .. :extend type: text/html
 .. :extend:
+

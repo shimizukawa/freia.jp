@@ -19,3 +19,4 @@ LanguageToolsじゃなくてI18NLayerでした。本文修正しました。
 
 .. :extend type: text/plain
 .. :extend:
+

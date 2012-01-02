@@ -32,6 +32,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 まとめて反省
 ------------
 

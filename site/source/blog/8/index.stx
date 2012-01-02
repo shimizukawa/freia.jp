@@ -17,6 +17,7 @@
 
 .. :extend type: text/plain
 .. :extend:
+
 OperaはmetaタグよりもResponseHeaderを優先するので、Operaユーザーとしては見過ごせません。というかResponseHeaderとmetaタグの記述が一致してないという方が問題ですが。
 
 そこで、Zopeのソースを眺めたり、ZWikiのソースを眺めたり、Zope-MLの過去ログを漁ったり‥‥と色々と調べてみた結果、よく分かりませんでした（笑）。そこでふと思ったのが、「apacheが何かしてるんじゃないか？」という事でした。そういえばサーバー移行のときに *ついでに* FrontEndにapache2を配置したような‥‥。

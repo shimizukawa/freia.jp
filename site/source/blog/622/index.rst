@@ -220,6 +220,7 @@ my_class.rb:
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2009-01-31.1873859753
 .. :title: Re:BattleLine RoR (3) serializeした独自クラスをYAMLからロード時に再読込

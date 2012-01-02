@@ -125,6 +125,7 @@ POKEN
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2009-06-08.8302502082
 .. :title: Re:(第0回)Zope/Plone開発勉強会は大盛況でした

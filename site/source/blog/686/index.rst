@@ -18,6 +18,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 移行後の後始末
 ----------------------
 

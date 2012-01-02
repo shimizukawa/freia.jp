@@ -25,6 +25,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2006-03-31.4919162786
 .. :title: Re:画像に文字列を埋め込むZope3アダプタ

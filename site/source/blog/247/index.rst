@@ -21,6 +21,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 emailモジュールを使っているので、Script(Python)で使えるようにしておく必要があります。
 
 .. code-block:: python

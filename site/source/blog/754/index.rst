@@ -114,3 +114,4 @@ setup.cfgの中身はこんな感じ::
 
 .. :extend type: text/x-rst
 .. :extend:
+

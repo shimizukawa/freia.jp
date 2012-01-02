@@ -28,3 +28,4 @@ Suicaの登録に使ってるケータイメールアドレスは1台にしか�
 
 .. :extend type: text/html
 .. :extend:
+

@@ -130,6 +130,7 @@ cook.pyを実行したときにトレースバックに出てくる情報は以�
 .. :extend:
 
 
+
 :Trackbacks:
 :TrackbackID: 2010-12-02.2417151585
 :BlogName: yanolabの日記

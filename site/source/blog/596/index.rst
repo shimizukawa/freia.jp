@@ -19,6 +19,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-07-06.6415186158
 .. :title: Re:大学恩師の還暦のお祝い

@@ -21,6 +21,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-06-04.3329771886
 .. :title: Re:久々にルイガノ君で野川へ

@@ -18,6 +18,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2005-11-28.4957205019
 .. :title: Re: そして大阪出張

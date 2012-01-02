@@ -64,6 +64,7 @@ http://www.objectclub.jp/event/2004christmas/
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2005-11-28.4564392717
 .. :title: Re: オブジェクト指向実践者の集い

@@ -15,6 +15,7 @@ ZWikiのIssueTrackerは使いにくいと思います。でもZopeの他のプ�
 
 .. :extend type: text/plain
 .. :extend:
+
 IssueTrackerを使えるようにするためには、以下のようにURLを入力します。
 
 - http://..../FrontPage/setupTracker

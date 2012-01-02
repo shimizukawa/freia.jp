@@ -34,6 +34,7 @@ Pytnonのコンソールを終了しようとして::
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2005-11-28.4573602342
 .. :title: Re: PythonCE for PocketPC

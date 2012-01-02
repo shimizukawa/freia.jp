@@ -45,3 +45,4 @@ NoseGAEでのテスト時以外にはこの問題は発生しないのですが�
 
 .. :extend type: text/x-rst
 .. :extend:
+

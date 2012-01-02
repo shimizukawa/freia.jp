@@ -20,6 +20,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2006-04-03.0730375669
 .. :title: Re:インドに行ってきました

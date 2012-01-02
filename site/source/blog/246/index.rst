@@ -16,6 +16,7 @@ Zope3勉強会(第6回)に参加してきました。前回8/7は参加できな
 
 .. :extend type: text/plain
 .. :extend:
+
 今日読んだChapter
 ------------------
 

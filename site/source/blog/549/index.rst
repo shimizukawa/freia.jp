@@ -27,6 +27,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-03-12.3159994271
 .. :title: Re:Python Developers Camp 2008に行ってきました

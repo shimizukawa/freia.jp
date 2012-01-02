@@ -49,3 +49,4 @@ XP祭り2010で、渋川さんの基調LTが行われたのでそのメモです
 
 .. :extend type: text/x-rst
 .. :extend:
+

@@ -14,6 +14,7 @@
 
 .. :extend type: text/plain
 .. :extend:
+
 これについてもResponseHeaderのContent-Typeを調べたとき同様パケットキャプチャーしてみたところ、POSTメソッドでコメント追加を行った後で以下のような応答がサーバーからありました::
 
   HTTP/1.1 302 Moved Temporarily

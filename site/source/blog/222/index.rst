@@ -24,6 +24,7 @@
 
 .. :extend type: text/plain
 .. :extend:
+
 最初、RDFを挿入するだけだろ！と思って replace="structure here/entry_rdf" なんて書いたらNGでした。そりゃそうだ、と思いつつ replace="structure entry/entry_rdf" と書いてまたNG。PATH式はcontextを切り替えてくれないので、entry_rdfをentryに対して実行しているわけではないからです。ならば実行対象のcontextを渡してあげれば、、、という事で上記のコードになりました。
 
 ところで、自分はRDFとPINGの関係について全く知らないので、 ```なぜそれがPING時に困ったことになるのか``` が分かっていません。あとでgoogleで調べてみます。

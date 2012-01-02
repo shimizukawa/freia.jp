@@ -21,6 +21,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-02-09.8220100514
 .. :title: Re:会社に2泊目

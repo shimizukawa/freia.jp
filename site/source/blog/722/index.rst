@@ -182,3 +182,4 @@ sys.pathに追加してからpkg_resourcesを使っています。
 
 .. :extend type: text/x-rst
 .. :extend:
+

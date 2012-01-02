@@ -16,6 +16,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 .. highlights::
 
   この問題の回避策として他にもさまざまなうわさがありますが、

@@ -33,3 +33,4 @@ COREBlog(plonified)のページが表示された場合に、左slotのportlet�
 
 .. :extend type: text/plain
 .. :extend:
+

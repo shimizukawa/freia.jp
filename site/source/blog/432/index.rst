@@ -26,3 +26,4 @@ via `Start Mac体験モニターキャンペーン － takanory.net`_
 
 .. :extend type: text/html
 .. :extend:
+

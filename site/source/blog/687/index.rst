@@ -31,6 +31,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 2. portlet_coreblogcalendar.pt 内でoptionsに頼らずにyear,monthを取得する
 ----------------------------------------------------------------------------
 

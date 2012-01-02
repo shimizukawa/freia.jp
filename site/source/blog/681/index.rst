@@ -85,6 +85,7 @@ Deliveranceとcollective.xdvを比較している英語ドキュメントがあ�
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2009-11-01.7023097508
 .. :title: バックアップスライドのところで

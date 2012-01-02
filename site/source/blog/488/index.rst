@@ -50,3 +50,4 @@ classImplementsはPluggableAuthService.utilsで何かやってるので、まだ
 
 .. :extend type: text/html
 .. :extend:
+

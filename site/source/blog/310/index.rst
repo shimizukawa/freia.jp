@@ -14,6 +14,7 @@ SilverCity-0.9.6がうまく動かない。
 
 .. :extend type: text/x-rst
 .. :extend:
+
 0.9.6を以下のように実行するとexceptする。
 
 .. code-block:: python

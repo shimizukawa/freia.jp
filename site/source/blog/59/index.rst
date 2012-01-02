@@ -16,6 +16,7 @@ datetimeモジュールとtimeモジュールの間でうまく連携する方�
 
 .. :extend type: text/x-rst
 .. :extend:
+
 apacheのログから10分以上アクセスの無い時間帯を検出::
 
   #!/usr/local/bin/python

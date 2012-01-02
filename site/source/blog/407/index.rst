@@ -17,6 +17,7 @@ Python合宿の帰りに、Windowsの動作がちょっととろいなー、と�
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2007-03-05.2598803043
 .. :title: Re:13日間連続稼働ノートPC

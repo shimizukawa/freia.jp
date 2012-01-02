@@ -67,10 +67,10 @@ class Entry(object):
                 self.categories = value.strip('[] \r\n')
             elif key == 'body type':
                 self.body_type = value
-            elif key == 'extend':
-                line = '.. ' + line
             elif key == 'extend type':
                 line = '.. ' + line
+            elif key == 'extend':
+                line = '.. ' + line + '\n'
             elif key == 'comments':
                 line = '.. ' + line
                 self.comment = True

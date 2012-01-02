@@ -17,3 +17,4 @@ ZWeatherAppletかWeatherAppletPluginのインスタンスを作り直したら�
 
 .. :extend type: text/plain
 .. :extend:
+

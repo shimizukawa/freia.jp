@@ -21,6 +21,7 @@ COREBlog2_ はトラックバックの受付と表示について、各エント
 
 .. :extend type: text/x-rst
 .. :extend:
+
 .. code-block:: python
 
     cb = context.blog

@@ -31,6 +31,7 @@ Core2Duoに搭載されている ``Virtualization Technology`` 機能は、Think
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-01-23.9931930167
 .. :title: Re:X61sのIntel VTをOnにしてみた

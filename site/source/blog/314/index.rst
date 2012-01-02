@@ -59,3 +59,4 @@ dict準拠じゃないけどdictには変換できる。その心は‥‥返値
 
 .. :extend type: text/x-rst
 .. :extend:
+

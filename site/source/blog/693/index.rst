@@ -27,3 +27,4 @@ Goの翻訳サイトのデザインを変更しましょう、ということで
 
 .. :extend type: text/x-rst
 .. :extend:
+

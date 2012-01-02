@@ -48,3 +48,4 @@ DIGAの短所(PSXとの比較):
 
 .. :extend type: text/html
 .. :extend:
+

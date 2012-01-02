@@ -138,6 +138,7 @@ Python温泉は技術修練の場です！
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2009-10-10.2084776905
 .. :title: Re:最近の清水川

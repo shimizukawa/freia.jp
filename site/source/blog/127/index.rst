@@ -23,3 +23,4 @@ FreeBSDの4.11-Releaseでは、ICH6がサポートされていないためにSAT
 
 .. :extend type: text/plain
 .. :extend:
+

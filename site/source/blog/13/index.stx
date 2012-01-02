@@ -15,6 +15,7 @@ ZWikiで目次リンクを辿ると、ZWikiコンテンツ一覧が表示され�
 
 .. :extend type: text/plain
 .. :extend:
+
 原因はUtils.pyでURLを決定する部分が間違っているため。pageUrl()を使うべきところでdefaultPageUrl()を使っているため、現在のページではなく常にFrontPageが使われてしまうのでした。
 
 とりあえず、 ZWiki.orgのIssueTrackerに "レポート":http://zwiki.org/IssueNo0809 を上げておきましたが、この調査をしていて気づいたことが。

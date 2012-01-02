@@ -78,3 +78,4 @@ FieldのプレゼンテーションレイヤーとなるWidgetはデフォルト
 
 .. :extend type: text/html
 .. :extend:
+

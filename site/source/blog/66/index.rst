@@ -25,6 +25,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 しかし、これではつまらないので、Menuの選択毎に違う挙動をさせてみたいと思います。本来であれば挙動を定義した関数(上記の例ではonCreate)を複数用意してそれぞれのMenuItemに登録するところですが、ここではlambdaを使って1行で書いてみたいと思います::
 
   import pyui

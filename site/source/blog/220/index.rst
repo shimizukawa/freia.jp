@@ -34,6 +34,7 @@ TRIVIAL TECHNOLOGIESで公開されている `ZopeでSyntax Coloring`_ を元ネ
 
 .. :extend type: text/x-rst
 .. :extend:
+
 ZSilverCity のソースコードを読んでもう一つ、 **docutilsのdirectiveを使えばISBNコードを入れるだけでAmazonのデータを引っ張って来る仕掛けを作れるんじゃないかなぁ** というのを思い付きました。
 
 早速、 pyamazon_ でデータを引っ張ってくる amazon-block directive を作ってみたところ、それなりに動くモノが出来ました。ZSilverCityと比べると、AmazonのIDとか設定が必要なので、もうちょっとコード書かないといけないです。

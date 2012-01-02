@@ -36,6 +36,7 @@ INFOBAR -> talby -> W42H と使ってきて、ハード的にはINFOBARが一番
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-05-31.8550070814
 .. :title: Re:PLAYSTATION3とINFOBAR2を買ってきた

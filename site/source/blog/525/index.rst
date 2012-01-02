@@ -30,6 +30,7 @@ VMWareのHostにするOSの選択に迷い、とりあえずUbuntu Server 7.10�
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-01-27.1497783066
 .. :title: Re:ML115 Challenge! 1

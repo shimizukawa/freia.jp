@@ -22,3 +22,4 @@ PS3の `まいにちいっしょ`_ で紹介されていた ``釜焼きパンケ
 
 .. :extend type: text/html
 .. :extend:
+

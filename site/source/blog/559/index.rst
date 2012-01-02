@@ -28,6 +28,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 .. code-block:: python
 
     In [1]: def check(n):

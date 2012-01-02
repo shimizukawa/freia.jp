@@ -23,6 +23,7 @@ Apache使うのが普通かも。でも今回はExternalMethodでやってみた
 
 .. :extend type: text/plain
 .. :extend:
+
 .. code-block:: python
 
     def feed(self):

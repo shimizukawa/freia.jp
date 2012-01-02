@@ -19,6 +19,7 @@
 
 .. :extend type: text/plain
 .. :extend:
+
 `機械猫モッカー`_ によるTDDの促進
 -----------------------------------
 
@@ -85,7 +86,8 @@ NAgileとはN*（エヌアスタ：NUnit,NAnt,NMock,Cruise Control .NETなど.NE
 -------
 
 新宿西口、ファーストキッチン隣のソフマップの裏で開催されました。せまかった‥‥。
-%%%%%%%%%------
+
+---------------
 
 .. [1] 「高橋メソッド」 という名前のプレゼン技法 http://www.rubycolor.org/takahashi/
 

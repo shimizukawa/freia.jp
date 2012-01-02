@@ -23,6 +23,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 .. Topic:: 課題
 
   指定したディレクトリをルートとして、このディレクトリ以下のすべての java ファイルに対して class のコメントを編集します。

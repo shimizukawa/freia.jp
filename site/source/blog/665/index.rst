@@ -22,3 +22,4 @@ Windowsなんかで開発しなければいいのに、という声が聞こえ�
 
 .. :extend type: text/html
 .. :extend:
+

@@ -333,3 +333,4 @@ dbという変数の部分が増えてますね。あとはcount。このcount�
 
 .. :extend type: text/x-rst
 .. :extend:
+

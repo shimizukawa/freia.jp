@@ -110,3 +110,4 @@ runはsetup.py相当のコマンドっぽい。なるほど。
 
 .. :extend type: text/x-rst
 .. :extend:
+

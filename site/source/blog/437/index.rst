@@ -46,6 +46,7 @@ Screen Castも作ってみました。7分。微妙。YouTubeだと文字が潰�
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2007-04-15.0568224749
 .. :title: Re:TurboGearsのお手軽Controller

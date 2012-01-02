@@ -49,6 +49,7 @@ riddleでは無いな。。
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-05-16.0967177415
 .. :title: Re:Python riddle 1, 2

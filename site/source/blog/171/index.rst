@@ -76,3 +76,4 @@ LDAPに上記のvpopmail.ldifを食わせる::
 
 .. :extend type: text/plain
 .. :extend:
+

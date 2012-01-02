@@ -55,6 +55,7 @@ Plone サイト設定 -> メールの設定:
 
 .. :extend type: text/x-rst
 .. :extend:
+
 そこで、smtp送信を行っているあたりのプログラム(SecureMailHost-1.0.4/mail.py[89-126])を抜粋してPythonの対話モードで試してみたところ、smtp接続を切る段階でたしかにエラーが発生してしまった。
 
 .. code-block:: python

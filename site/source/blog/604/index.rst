@@ -32,6 +32,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-07-27.8741877665
 .. :title: Re:今度は笠谷さんと飲んだ in うまいもの屋

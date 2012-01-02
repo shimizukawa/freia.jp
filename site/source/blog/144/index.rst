@@ -30,3 +30,4 @@ portal_catalog.searchResults()にオブジェクトタイプを指定したま�
 
 .. :extend type: text/plain
 .. :extend:
+

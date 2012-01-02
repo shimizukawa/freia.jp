@@ -16,6 +16,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 .. figure:: images/ajimura1
   :align: left
   :class: visualClear

@@ -20,6 +20,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2005-11-28.5137580391
 .. :title: Re: マンションの総会に初参加

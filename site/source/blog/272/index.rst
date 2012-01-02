@@ -24,6 +24,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2005-11-28.5281437059
 .. :title: Re: 会社の飲み会にて

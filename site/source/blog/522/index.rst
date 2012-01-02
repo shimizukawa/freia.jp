@@ -22,6 +22,7 @@ WZMailのメールボックスは \*.mbx ですが、中身が微妙に独自形
 
 .. :extend type: text/x-rst
 .. :extend:
+
 .. code-block:: python
 
     import os, sys

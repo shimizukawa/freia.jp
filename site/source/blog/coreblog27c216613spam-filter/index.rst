@@ -12,6 +12,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 追加コードは意外と少なくて、portal_skins/COREBlog2/validateCommentを以下のようにカスタマイズする。これでBuzzWordsに引っかかった項目がエラーとなって投稿できない。
 
 ::

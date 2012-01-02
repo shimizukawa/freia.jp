@@ -21,6 +21,7 @@ FreeBSDのパッケージ管理はportupgradeで行っていて、毎日 portver
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2007-02-06.8674717075
 .. :title: Re:portupgradeが動作しなくなってた

@@ -63,6 +63,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-10-29.2767632699
 .. :title: Re:VMWareのUbuntuは複製するとNetwork設定変更が必要

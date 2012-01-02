@@ -26,3 +26,4 @@ http://svn.freia.jp/open/trayicon/
 
 .. :extend type: text/html
 .. :extend:
+

@@ -33,6 +33,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-03-18.2913204830
 .. :title: Re:Joel記事から本購入。誘導されている。

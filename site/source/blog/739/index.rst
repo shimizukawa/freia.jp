@@ -247,3 +247,4 @@ jvm上で動くRubyっぽい性的過多漬け言語 Mirahを紹介
 
 .. :extend type: text/x-rst
 .. :extend:
+

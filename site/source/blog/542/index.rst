@@ -46,6 +46,7 @@ Python Developers Camp 2008 冬 に参加します！
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-02-15.5483601820
 .. :title: Re:Python Developers Camp 2008 冬

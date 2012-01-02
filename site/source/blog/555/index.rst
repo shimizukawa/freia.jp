@@ -48,6 +48,7 @@ aihatena_ が蔵前のインドスパイス専門店 `アンビカトレーデ�
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2008-03-23.0255253246
 .. :title: Re:レトルトカレー大会

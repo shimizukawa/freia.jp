@@ -14,6 +14,7 @@
 
 .. :extend type: text/plain
 .. :extend:
+
 移行はUNIX USER 2003年12月号を参考に行いました。以下、その概要です。
 
 1. slapcat -l samba2.ldif

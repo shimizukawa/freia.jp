@@ -20,6 +20,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 - 今回の前提
 
   - USBキーボードを使っている

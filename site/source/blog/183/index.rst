@@ -16,3 +16,4 @@ ZPhotoSlides_ が復活。よかったよかった。
 
 .. :extend type: text/plain
 .. :extend:
+

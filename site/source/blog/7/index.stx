@@ -13,6 +13,7 @@
 
 .. :extend type: text/plain
 .. :extend:
+
 そこで、"mojix":http://mojix.org/ 氏作の"MJSplitter":http://zope.org/Members/mojix/MJSplitter/ を導入します。このプロタクトは、形態素解析器"MeCab":http://chasen.aist-nara.ac.jp/~taku/software/mecab/ を用いて日本語を解析し、カタログ化するZCTextIndexのパーサーとして機能します。
 
 "MJSplitter":http://zope.org/Members/mojix/MJSplitter/ を手順に従ってインストールすると、ZCTextIndexのWord SplitterとしてMJSplistterを選択できるようになります。COREblogフォルダのcontentsタブでlexiconオブジェクトを削除して、lexiconという名前でZCTextIndexを追加後、EntryタブでRecatalogすると日本語を含むカタログが生成されます。

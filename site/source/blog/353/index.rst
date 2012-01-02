@@ -47,3 +47,4 @@ MIMETextの第二引数はsubtypeなので、 ``text`` じゃなくて ``plain``
 
 .. :extend type: text/html
 .. :extend:
+

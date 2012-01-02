@@ -141,3 +141,4 @@ python setup.py bdist の代わりに ``python setup.py install`` とすれば�
 
 .. :extend type: text/x-rst
 .. :extend:
+

@@ -19,3 +19,4 @@ HTTP GET での certain types of misuse なんだからそっちを修正する�
 
 .. :extend type: text/html
 .. :extend:
+

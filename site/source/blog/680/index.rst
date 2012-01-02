@@ -411,6 +411,7 @@ Tarek自身による紹介文
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2009-10-26.2634175742
 .. :title: Re:Expert Python Programming の目次の和訳

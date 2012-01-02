@@ -57,3 +57,4 @@ Ploneインスタンス追加時にGenericSetupのログに混じって以下の
 
 .. :extend type: text/html
 .. :extend:
+

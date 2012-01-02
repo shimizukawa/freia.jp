@@ -19,3 +19,4 @@ COREBlog2に外部サイトのFlashを貼り付けるための‥‥ぶっちゃ
 
 .. :extend type: text/html
 .. :extend:
+

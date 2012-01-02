@@ -51,3 +51,4 @@ skins/COREBlog2/cbaddComment::
 
 .. :extend type: text/x-rst
 .. :extend:
+

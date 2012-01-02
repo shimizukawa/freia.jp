@@ -25,3 +25,4 @@ Thinkpad X61s を Windows Vista SP1 で使っていますが、いつの頃か�
 
 .. :extend type: text/html
 .. :extend:
+

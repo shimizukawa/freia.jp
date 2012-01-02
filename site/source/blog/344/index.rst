@@ -22,6 +22,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 Viewlet用PageTemplateを作る
 ----------------------------
 CMFContentPanelsでは表示用のパネルをViewletと呼んでいて、CMFContentPanelsインスタンスページに複数並べることが出来ます。この方法を使って、一つのページの上半分をPloneのドキュメント、下半分にCOREBlog2のエントリ一覧表示するといった事が出来るようになります。

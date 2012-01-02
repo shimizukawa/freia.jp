@@ -195,3 +195,4 @@ rule.xml を編集しましょう。例えば以下の行を追加します。
 
 .. :extend type: text/x-rst
 .. :extend:
+

@@ -21,3 +21,4 @@ Pythonのように開発速度の高い言語が増えると、違法性の有�
 
 .. :extend type: text/plain
 .. :extend:
+

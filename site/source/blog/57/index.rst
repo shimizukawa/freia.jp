@@ -29,3 +29,4 @@ WZ使いの `M.Shibataさん`_ のサイトで `python編集用WZマクロの試
 
 .. :extend type: text/plain
 .. :extend:
+

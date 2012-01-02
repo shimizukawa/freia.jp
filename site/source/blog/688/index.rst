@@ -67,6 +67,7 @@ ipythonの機能で、オブジェクトの後ろに `?` を付けると、型�
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2009-12-03.8209297329
 .. :title: Re:Zopeのdebugコンソールをipython化する

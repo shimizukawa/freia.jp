@@ -37,6 +37,7 @@ Expert Python Programming と比べてみると若干厚くて、若干重い。
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2010-05-22.6570038152
 .. :title: Re:エキスパートPythonプログラミングのサンプルが届いた！

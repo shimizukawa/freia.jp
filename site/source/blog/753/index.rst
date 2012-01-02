@@ -227,3 +227,4 @@ intの配列から **文字列を** 取り出そうという考え方が良く�
 
 .. :extend type: text/x-rst
 .. :extend:
+

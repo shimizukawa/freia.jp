@@ -16,3 +16,4 @@ weather_pluginを組み込んでblog入力時の天気を記録するように�
 
 .. :extend type: text/plain
 .. :extend:
+

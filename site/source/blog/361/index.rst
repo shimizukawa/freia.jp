@@ -14,6 +14,7 @@ Tadからメールが来た。FF3DSを買うために前日から新宿ヨドバ
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2006-08-24.5908684912
 .. :title: Re:FF3DSを前日から待つモノたち in 新宿ヨドバシ

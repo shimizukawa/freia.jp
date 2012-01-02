@@ -18,6 +18,7 @@ pythonのインストールから行いました。
 
 .. :extend type: text/x-rst
 .. :extend:
+
 1. Python日本語環境用インストーラ_ (python23jp-20030906.exe)
 2. PyGame_ (pygame-1.6.win32-py2.3.exe)
 3. PyOpenGL_ (PyOpenGL-2.0.1.08.py2.3-numpy23.exe)

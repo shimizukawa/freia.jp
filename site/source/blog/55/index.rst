@@ -13,6 +13,7 @@ Zopeのフロントエンドにapacheを配置して、VirtualHostNameを用い�
 
 .. :extend type: text/x-rst
 .. :extend:
+
 apacheが窓口となる場合、例えば http://www.freia.jp/ というサイトへのアクセスをapacheが受信した際に http://localhost:8080/ へ問い合わせて結果をブラウザへ返すことが出来ます。例えば::
 
   

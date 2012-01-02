@@ -120,3 +120,4 @@ SQLServer用の sqlserver_adapter を使うと、dateを使う！ってdb/migrat
 
 .. :extend type: text/x-rst
 .. :extend:
+

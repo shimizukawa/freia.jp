@@ -79,6 +79,7 @@ http://rubygems.org/gems/rcov から rcov-0.9.10.gem を取得してコマンド
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2011-09-06.2078596857
 .. :title: 誤字 Re:Rubyのrcov-0.9.8 for Windows のビルド

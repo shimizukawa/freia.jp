@@ -17,6 +17,7 @@ Windows2003なActiveDirectoryに格納されているユーザーの認証はう
 
 .. :extend type: text/x-rst
 .. :extend:
+
 以下は最終的にとりあえず落ち着いている設定。
 
 .. code-block:: python

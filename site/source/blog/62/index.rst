@@ -21,6 +21,7 @@ reST表示でZopeがリブートする問題_ は解決しました。
 
 .. :extend type: text/x-rst
 .. :extend:
+
 エラーメッセージは、以下のようなものがreStructuredTextのレンダリング時にコンソールに表示されていました::
 
   No module named ja

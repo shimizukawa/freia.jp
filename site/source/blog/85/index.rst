@@ -19,3 +19,4 @@ FreeBSDのportsで、Zopeが利用するPythonのバージョンが2.4から2.3�
 
 .. :extend type: text/plain
 .. :extend:
+

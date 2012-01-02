@@ -25,6 +25,7 @@
 
 .. :extend type: text/x-rst
 .. :extend:
+
 とりあえず自分で使うのに不便なので実装してデフォルト値対応してみた。
 
 .. code-block:: python

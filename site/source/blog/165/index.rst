@@ -18,6 +18,7 @@
 .. :extend:
 
 
+
 .. :comments:
 .. :comment id: 2005-11-28.4837315171
 .. :title: Re: 福岡・佐賀で震度6弱

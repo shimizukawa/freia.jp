@@ -22,3 +22,4 @@ PloneのArchetypesの場合は ``validators = (...)`` という感じに複数�
 
 .. :extend type: text/html
 .. :extend:
+
