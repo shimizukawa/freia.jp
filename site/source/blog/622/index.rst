@@ -26,8 +26,9 @@ RoR: 命名規則に沿っていないファイル名/クラスを自動ロー�
 
 まずは自動ロード関連ということで active_support/dependencies.rb でapplication.rbを検索。発見っ。Dependencies#loadable_constants_for_path でなんかやってるらしい事が分かったので周辺の実装を読んでいったところ、Dependencies#depend_onでconst_missing時にたどるファイルを追加できる事が分かった。さらにObjectクラスへの追加メソッド Object#require_dependency でdepend_onが呼び出されるようになっている。何という迷路。
 
+active_support/dependencies.rb:
+
 .. code-block:: ruby
-  :title: active_support/dependencies.rb
 
   Object.instance_eval do
     define_method(:require_or_load)     { |file_name| Dependencies.require_or_load(file_name) } unless Object.respond_to?(:require_or_load)
@@ -40,8 +41,9 @@ Rubyのモンキーパッチ的なこういう実装って分かりやすいん�
 
 ということで、このrequire_dependencyを使うことで、自動ロードされない名前を探しに行ってくれるようになった。
 
+lib/foo.rb:
+
 .. code-block:: ruby
-  :title: lib/foo.rb
 
   class Foo
     puts 'class Foo loaded!'
@@ -73,8 +75,9 @@ Rubyのモンキーパッチ的なこういう実装って分かりやすいん�
 
 さらに grepしてみると action_controller/dispatcher.rb で以下のように使っているのを見つけた。
 
+action_controller/dispatcher.rb:
+
 .. code-block:: ruby
-  :title: action_controller/dispatcher.rb
 
   require_dependency 'application' unless defined?(::ApplicationController)
 
@@ -89,8 +92,8 @@ RoR: serializeした独自クラスをYAMLからロード時に再読込
 まず、独自のクラスをYAML化する機能は、以下のように特に何もしなくても提供される。
 
 .. code-block:: ruby
-  :title: ruby script/console
 
+  $ ruby script/console
   >> class MyClass
   >>   def initialize(name=nil)
   >>     @name = name
@@ -109,8 +112,9 @@ RoR: serializeした独自クラスをYAMLからロード時に再読込
 
 で、これをload時にhook出来るようにするにはYAMLモジュールにtypeを追加定義してあげる。
 
+ruby script/console:
+
 .. code-block:: ruby
-  :title: ruby script/console
 
   >> class MyClass
   >>   yaml_as "tag:freia.jp,2009:console"
@@ -123,8 +127,8 @@ RoR: serializeした独自クラスをYAMLからロード時に再読込
 最後に、YAMLのloading機構に登録する。 ``add_domain_type`` の使い方は `YAML::add_domain_type Method`_ を参照。
 
 .. code-block:: ruby
-  :title: ruby script/console
 
+  $ ruby script/console
   >> YAML::add_domain_type( "freia.jp,2009", "console" ) do |type, val|
   ?>   puts type
   >>   puts val.inspect
@@ -140,8 +144,8 @@ RoR: serializeした独自クラスをYAMLからロード時に再読込
 これでシリアライズされたインスタンスをYAMLから戻すときに任意の処理が出来るようになった。さらに継承したクラスについても一括で処理出来るようにもう一工夫。
 
 .. code-block:: ruby
-  :title: ruby script/console
 
+  $ ruby script/console
   >> YAML::add_domain_type( "freia.jp,2009", "console" ) do |type, val|
   ?>   puts type
   >>   puts val.inspect
@@ -156,8 +160,9 @@ RoR: serializeした独自クラスをYAMLからロード時に再読込
 
 以下が完成したmy_class.rbと実行結果。
 
+my_class.rb:
+
 .. code-block:: ruby
-  :title: my_class.rb
 
   class MyClass
     yaml_as "tag:freia.jp,2009:my_class"
@@ -177,8 +182,8 @@ RoR: serializeした独自クラスをYAMLからロード時に再読込
   end
 
 .. code-block:: ruby
-  :title: ruby script/console
 
+  $ ruby script/console
   >> o1 = MyClass.new 'abc'
   => #<MyClass:0x4ed4190 @name="abc">
 

@@ -12,6 +12,7 @@
 自分が普段使っているloggingのテンプレを貼っておきます。複数のloggerオブジェクトを作れるとか色々やった痕跡があったりして、元記事よりもコードがでかいなぁ...。
 
 .. code-block:: python
+
   import sys, logging
   logger = logging.getLogger('foologger')
   

@@ -15,8 +15,9 @@
 
 ストリーミング出力するための仕組みはRailsに備わっていて（少なくとも2.1には）、 ``render :text`` で実現できるようになっています。
 
+log_controller:
+
 .. code-block:: ruby
-    :title: log_controller
 
     render :text => proc { |response, out|
       column_names = ['date','hour','url','status','agent']
@@ -36,8 +37,9 @@
 
 次に、調子に乗ってCSVファイルのアップロードをストリーミングで処理しようと思い、次のようなコードを書いてみました。
 
+log_controller:
+
 .. code-block:: ruby
-   :title: log_controller
 
     upload_io = params[:file_data]
     CSV.parse(upload_io) do |row|
@@ -52,8 +54,9 @@
 
 調べてみると、CSV#parseの実装が以下のようになっていて、互換性のために第一引数が実ファイルへのパスが渡ってくることを想定している処理が入っていました（最初の5行）。
 
+ruby/1.8/csv.rb:
+
 .. code-block:: ruby
-  :title: ruby/1.8/csv.rb
 
   def CSV.parse(str_or_readable, fs = nil, rs = nil, &block)
     if File.exist?(str_or_readable)
@@ -73,8 +76,9 @@
 
 今回はそんな想定は要らないので、CSV.parseを使う代わりに、CSV::Reader.parseを呼び出すようにしたらうまく動作するようになりました。
 
+log_controller:
+
 .. code-block:: ruby
-   :title: log_controller
 
     upload_io = params[:file_data]
     CSV::Reader.parse(upload_io) do |row|

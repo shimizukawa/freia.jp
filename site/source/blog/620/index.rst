@@ -22,8 +22,9 @@ RoR: 命名規約に沿っていないクラスをserializeすると復元出来
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 `BattleLine RoR (1)`_ では部隊カードの山札を格納する変数 troops や戦術カード山札の tactics を以下のように実装していた。
 
+app/models/round.rb:
+
 .. code-block:: ruby
-  :title: app/models/round.rb
 
   class Round < ActiveRecord::Base
     serialize :troops, Array
@@ -38,8 +39,9 @@ RoR: 命名規約に沿っていないクラスをserializeすると復元出来
 
 このままだと色づけのためのスタイルシートclassの設定とか諸々がif文の嵐になってしまうので、Cardクラスを作ってゲームに使用するカードは全てCardクラスの派生クラスとして再実装した。
 
+lib/card.rb:
+
 .. code-block:: ruby
-  :title: lib/card.rb
 
   class Card
     ...
@@ -61,8 +63,9 @@ RoR: 命名規約に沿っていないクラスをserializeすると復元出来
 
 で、改めてround.rbの実装を以下のように書き直した。
 
+app/models/round.rb:
+
 .. code-block:: ruby
-  :title: app/models/round.rb
 
   class Round < ActiveRecord::Base
     serialize :troops, Array
@@ -77,9 +80,10 @@ RoR: 命名規約に沿っていないクラスをserializeすると復元出来
 
 そうしたところ、画面表示にエラーが出るようになってしまったので、script/console で原因を確認したところ、保存してあったRoundレコードを読み込んだときにtroopsが正しくロードされなくなってしまっていた！
 
-.. code-block:: ruby
-  :title: ruby script/console
 
+.. code-block:: ruby
+
+  $ ruby script/console
   >> round = Round.last
   >> round.troops[0]
   => #<YAML::Object:0x5832ad4 @ivars={"name"=>"A1"}, @class="Card">
@@ -91,8 +95,8 @@ RoR: 命名規約に沿っていないクラスをserializeすると復元出来
 round.rb で require 'card' してあげたらちゃんとロード出来るようになった。
 
 .. code-block:: ruby
-  :title: ruby script/console
 
+  $ ruby script/console
   >> round = Round.last
   >> round.troops[0]
   => #<TroopCard:0x4f12a1c @name="A1">
@@ -120,8 +124,9 @@ lib以下のファイル、というよりは特定のクラスの派生クラ�
 
 実際ちゃんと動くかどうか以下のようにして試してみた。
 
+lib/foo.rb:
+
 .. code-block:: ruby
-  :title: lib/foo.rb
 
   class Foo
     puts 'class Foo loaded!'
