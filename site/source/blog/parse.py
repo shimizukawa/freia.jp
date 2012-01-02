@@ -148,7 +148,7 @@ def entry_gen(fobj):
 
 def main():
     idx = []
-    with io.open('_TopPage.txt', 'rU', encoding='utf-8') as f:
+    with io.open('_CoreblogExport.txt', 'rU', encoding='utf-8') as f:
         for entry in entry_gen(f):
             entry.save()
             idx.append('   ' + entry.ref + '\n')

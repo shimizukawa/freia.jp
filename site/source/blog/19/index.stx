@@ -1,0 +1,30 @@
+:date: 2004-06-11 01:08:23
+:categories: ['Zope', 'misc']
+:body type: text/structured
+
+=======================================
+RSSでチェックするサイトが日々増えていく
+=======================================
+
+"日本のZope情報":http://coreblog.org/jp/jzi/ の存在を知ってからというもの、巡回サイトが日々増えていきます。 そんなにたくさん見れません！
+
+ところで、みなさんCOREblogのskinを色だけ変えて使っているようで(自分もそうですが)、並べて眺めるとなかなかカラフルです。
+
+色違いCOREblogサイト集（ "日本のZope情報":http://coreblog.org/jp/jzi/ 他より）
+
+  - "bakaukeBlog":http://bakauke.ddo.jp/
+
+  - "Something Red":http://somethingred.dip.jp/blog/
+
+  - "ZenKai":http://zenkai.atransia.co.jp/blog/
+
+  - "生きてま":http://log.giantech.jp/
+
+  - "渋日記":http://shibu.jp/blog/
+
+  - "清水川記":http://www.freia.jp/taka/blog/
+
+
+
+.. :extend type: text/plain
+.. :extend:

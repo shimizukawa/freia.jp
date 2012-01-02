@@ -1,0 +1,28 @@
+:date: 2004-05-16 19:39:42
+:categories: ['Zope']
+:body type: text/structured
+
+===================
+ZWikiでIssueTracker
+===================
+
+ZWikiのIssueTrackerは使いにくいと思います。でもZopeの他のプロタクトに比べるといくらかましかもしれません。
+
+使いにくい原因の一つとして、Issueの追加画面に利用方法とかを書いておきたいのにカスタマイズがしにくい、という点があります。というか、そもそもIssueTrackerを使えるようにするまでが苦難の道でした‥‥。
+
+
+.. :extend type: text/plain
+.. :extend:
+IssueTrackerを使えるようにするためには、以下のようにURLを入力します。
+
+- http://..../FrontPage/setupTracker
+
+しかし、これではカスタマイズ可能にはなりません。カスタマイズするためにはIssueTrackerページをコンテンツとしてコピーしてこなければいけないのです。そのためには、以下のようにします。
+
+- ZWikiのFolderに'allow_dtml'というAttributeをbooleanで追加し、Trueに設定。
+
+- http://..../FrontPage/setupTracker?pages=1
+
+これで、コンテンツにIssueTracker,FilterIssueが追加されます。
+
+

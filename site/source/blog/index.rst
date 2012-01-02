@@ -6,5 +6,9 @@
 .. toctree::
    :maxdepth: 1
 
-   769/index
    768/index
+   769/index
+
+
+.. include:: _index.out
+

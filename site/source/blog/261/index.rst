@@ -1,0 +1,20 @@
+:date: 2005-10-18 21:02:27
+:categories: ['IT-PC']
+:body type: text/x-rst
+
+===========================
+mixiの新着情報をRSSで取れた
+===========================
+
+`WWW:Mixiの0.40`_ で「mixiの新機能対応HTML」に対応したらしく、正常に取れるようになりました。でも代わりにデバッグ文がコメントアウトされてない問題が。 `0.41`_ で直ってました。更新早いなあ。
+
+今回のmixi側の変更に対応するために、自分でもMixi.pmの中身をいじったけど、mixiのHTMLって解析するの大変だなあ‥‥。アトリビュートのダブルクォートがあったりなかったりするので、マッチさせるための正規表現全部がそういったことを考慮しないといけないとは‥‥。
+
+.. _`WWW:Mixiの0.40`: http://search.cpan.org/~tsukamoto/WWW-Mixi-0.40/
+
+.. _`0.41`: http://search.cpan.org/~tsukamoto/WWW-Mixi-0.41/
+
+
+
+.. :extend type: text/plain
+.. :extend:

@@ -1,0 +1,208 @@
+:date: 2007-12-31 21:15:30
+:categories: ['Zope']
+:body type: text/structured
+
+====================
+年越しZope-2.11.0-b1
+====================
+
+12月28日に "Zope-2.11.0-b1":http://www.zope.org/Products/Zope/2.11.0b1 (β1)がリリースされました。ということで、CHANGELOG.txt を翻訳してみました。MailHostの実装変更はjaMailHostあたりに影響がありそうな気がします(未確認)。
+
+Zope-2.11.0-b1の概要
+
+  - 最新のZopeコンポーネント(Zope-3.4.0)を組み込んでいます
+
+  - BLOB(binary large objects)に対応したZODB 3.8にアップデートしました
+
+  - トランザクション対応のMailHost実装に対応し、非同期でメール送信を行うようになりました
+
+
+
+.. :extend type: text/structured
+.. :extend:
+Zope-2.11.0-b1の変更点
+
+  再構築(Restructuring)
+
+    - メソッド manage_afterAdd, manage_beforeDelete, manage_afterClone の
+      deprecation警告をdiscouraged警告に変更した。これらのメソッドは
+      Zope2.11では削除されないことになったが、近い将来無くなるだろう。イベ
+      ントの仕組みを使うことを強く推奨する。
+
+    - 2つの宣言の実装をFiveから実クラスへ移動した。
+
+    - Document.sequence: zope.sequencesort に置き換えた。
+
+    - 全てのProductsフォルダ(zopeやzope.appフォルダ)はsetuptools名前空間パ
+      ッケージで定義されるようになった。詳しくは以下のURLを参照。
+      http://peak.telecommunity.com/DevCenter/setuptools#namespace-packages
+
+    - ZPT: ZPT警告の画面表示を削除。zope.pagetemplateの実装から削除されたた
+      め。
+
+    - パッチ当て版ではない標準のdocutils 0.4 をZopeに同梱した。Both 
+      trusted and untrusted code are stillprotected against unwanted file 
+      inclusion.
+
+    - ZGadflyDA を削除した(Zope 2.9からdeprecated)。コードは以下から取得可
+      能。 http://svn.zope.org/Products.ZGadflyDA
+
+    - OFS.content_types を削除した(Zope 2.9からdeprecated)。
+
+    - zLOGのdeprecatedを解除。まだ後方互換性のために必要。(which will 
+      remain a backward-compatibilityshim for the Python logging module.)
+
+    - Indexes: 使用されていないパラメータを '_apply_index' メソッドから削除
+
+    - '__ac_permissions__' と 'meta_types' 属性によるプロダクトの初期化の素
+      賞されないサポートを削除。
+
+    - reStructuredText/ZReST: セキュリティー上の理由により、raw_enabled を
+       0 に設定。
+
+    - OFS Image: 画像とファイルでisinstance(data, str)を使うように更新し、
+      unicodeオブジェクトに遭遇した場合はTypeErrorをraiseするようにした。
+
+    - OFS Application: deprecation warnings (推奨しないことを表す警告) を更
+      新した。 '__ac_permissions__' と 'meta_types' サポートをZope 2.11で削
+      除し、 'methods' サポートはまだ残す。
+
+
+  機能追加(Features added)
+
+    - Zope2 startup: ZopeはDatabaseOpendとProcessStartingイベントを起動時に
+      送るようになった。
+
+    - Testing.ZopeTestCase: "ZopeLite" テストレイヤーを導入した。これはZTC
+      と非ZTCテストをより手軽に混在させることが可能とする。
+
+    - Testing/custom_zodb.py: DemoStorage以外のストレージ使用のサポートを追
+      加した。FileStorageは $TEST_FILESTORAGE環境変数によってカスタム
+      Data.fsをマウントできる。ZEOサーバーは$TEST_ZEO_HOSTと$TEST_ZEO_PORT
+      環境変数で設定できる。この新しい機能により、標準のZopeテストランナー
+      で既存のZopeインストール環境のためのテストを書き、実行することが出来
+      るようになる。
+
+    - ZPublisherのHTTPリクエストに、Zope3に相当するdebugとlocaleの属性を持
+      つようになった。debug属性は今までのところ、Zope3 ZPTエンジンを働かせ
+      るようにzope.*名前空間からコードに制限されました。locale属性は
+      zope.i18n.interfaces.locales.ILocaleオブジェクトへの、localeに関連し
+      た情報(日時のフォーマット情報、言語変換、国名など)付きでのアクセスを
+      提供する。Form variables of both debug and locale will shadow
+      these two attributes and their use is therefor discouraged.
+
+    - MailHost: メールの配信にzope.sendmailを使うようになりました。これによ
+      り、MailHostがZopeのトランザクションシステム(コンフリクトエラーでの送
+      信emailの複製を除く)に対応しました。追加で、MailHostが非同期メール配
+      信サポートに対応しました。 'Use queue' コンフィグオプションにより、フ
+      ァイルシステム上に('Queue directory' 以下に)メールキューが作成され、
+      queueスレッドが起動し3秒ごとにqueueをチェックします。これにより、メー
+      ル送信時の衝撃を吸収します。また、MailHostにTLS/SSLによる暗号通信サポ
+      ートが追加されました。
+
+    - ZODB 3.8 にインテグレートしました(BLOBサポート対応)
+  
+    - 最新の Zope3 コンポーネントをインテグレート(Zope 3.4)
+
+    - Windowsでzopectlを使えるようになりました。全てのコマンドがサポートさ
+      れています。また、Windows専用に2つのコマンド install と remove が追加
+      されています。これらはWindows Serviceへの登録と解除を行います。
+      start, stop, restart の各コマンドはWindowsサービスを操作します。これ
+      らのコマンドを使用する前に 'bin\zopectl install' を一度行う必要があり
+      ます。
+
+    - ZCatalog の返値となるobject (catalog brains) は
+      ZCatalog.interfaces.ICatalogBrains インターフェースを持つようになりま
+      した。
+
+    - 新しいモジュール, AccessControl.requestmethod は一つのリクエスト利用
+      にのみメソッドの利用を制限するデコレータファクトリーを提供します。例
+      えば、メソッドを @requestmethod("POST") のようにマーキングすると、
+      publish時にPOSTリクエストでのみ利用できるよう制限されます。いくつかの
+      セキュリティーに関連したメソッドはPOSTのみに制限されます。
+
+    - PythonScripts: Pythonのsetsモジュールを使えるようになりました。
+
+    - 'fast_listen' ディレクティブをetc/zope.confの http-server と 
+      webdav-source-server セクションに追加しました。これにより、起動フェー
+      ズでソケットを開く順番を遅らせます。これはZopeがロードバランサーの背
+      後で動作している場合などの特定の状況で使用します。(patch by Patrick 
+      Gerken)
+
+    - ZopePageTemplate の内部実装にunicodeを使用するようにしました。非
+      unicodeインスタンスはon-the-flyでunicodeに変換されます。ところでこれ
+      が正しく働くのはZPTインスタンスがutf-8かISO-8859-15でエンコードされて
+      いる場合のみです。他のエンコーディングの場合は、環境変数
+      ZPT_REFERRED_ENCODING の値のutf-8とISO-8859-15の前に使用するエンコー
+      ディングを設定してください。
+
+      'output_encodings' プロパティーが、WebDAV/FTP操作での各エンコーディン
+      グとunicodeとの相互変換をコントロールします。
+
+    - ZPTの実装はUnicodeDecodeError時の振る舞いについてコンフィグ出来るよう
+      になりました。カスタム UnicodeEncodingConflictResolver をZCMLで設定す
+      ることが出来ます。詳しくは Products/PageTemplates/(configure.zcml, 
+      unicodeconflictresolver.py, interfaces.py) を参照のこと。
+
+    - AccessControl.Role: 新しいメソッド 
+      manage_getUserRolesAndPermissions() が追加されました。
+
+    - AccessControl: "Security" タブのフォームに新しくユーザーに関連したパ
+      ーミッションとロールのフォームを追加しました。
+
+    - Zope 3 ベースの、Zopeが起こしたいくつかの例外のための例外viewをZCMLで
+      登録できるようになりました。例外Viewを以下のように登録できます::
+
+        <browser:page
+          for="zope.publisher.interfaces.INotFound"
+          class=".view.SomeView"
+          name="index.html"
+          permission="zope.Public" />
+
+      これに関連する、Viewを持っている例外は:
+
+      - zope.interface.common.interfaces.IException
+
+      - zope.publisher.interfaces.INotFound
+
+      - zope.security.interfaces.IForbidden
+
+      - zope.security.interfaces.IUnauthorized
+
+      注意として、例外viewが動作するためには name は 'index.html' でなけれ
+      ばならない。(patch by Sidnei da Silva from Enfold,
+      integration by Martijn Faassen (Startifact) for Infrae)
+
+    - DateTime のタイムゾーンデータに pytz を使うようになりました。これによ
+      って多くのタイムゾーン追加と夏時間情報の更新されました。
+
+
+  バグ修正(Bugs Fixed)
+
+    - "Collector #2113":http://www.zope.org/Collectors/Zope/2113 :
+      'zopectl test' が Ctrl-C をマスクしていて効かない問題.
+
+    - "Collector #2190":http://www.zope.org/Collectors/Zope/2190 :
+      zope.security.management.checkPermission 呼び出しがZope2のセキュリテ
+      ィーポリシーに迂回されていなかった。
+
+      注意: もしあなたがすでにZope2.10のインスタンスを使用しているなら、 イ
+      ンスタンスを作り直すか、以下の数行をetc/site.zcmlファイルに追加する必
+      要がある::
+
+        <securityPolicy
+              component="Products.Five.security.FiveSecurityPolicy" />
+
+    - "Collector #2223":http://www.zope.org/Collectors/Zope/2223 :
+      TALESにおけるboolean評価時のdefaultの扱いについて。
+
+    - "Collector #2213":http://www.zope.org/Collectors/Zope/2213 :
+      "古い" ZopePageTemplateを編集できない問題を修正。
+
+    - "Collector #2235":http://www.zope.org/Collectors/Zope/2235 :
+      いくつかの ZCatalog メソッドがオブジェクトのブール評価行っていたため、
+      Noneではなく__len__で評価されていた。いくつかの 'if not obj' を 'if 
+      obj is None' に置き換えた。
+
+
+参考: "CHANGE.txt":http://www.zope.org/Products/Zope/2.11.0/CHANGES.txt の原文(英語)

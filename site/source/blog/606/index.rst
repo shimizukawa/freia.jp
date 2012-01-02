@@ -1,0 +1,12 @@
+:date: 2008-08-07 01:00:00
+:categories: ['misc']
+:body type: text/x-rst
+
+========
+波状攻撃
+========
+
+ここまでマルチタスクするのは初めて！ってくらい色々あった日であったことよ。
+
+.. :extend type: text/html
+.. :extend:

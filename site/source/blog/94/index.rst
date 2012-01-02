@@ -1,0 +1,16 @@
+:date: 2004-12-17 23:55:37
+:categories: ['misc']
+:body type: text/x-rst
+
+============================
+日本語ドメイン取ってみました
+============================
+
+`http://清水川.jp/` 取りました。
+
+reStructuredText がURLとして見てくれないのが悲しいですが。
+
+
+
+.. :extend type: text/plain
+.. :extend:

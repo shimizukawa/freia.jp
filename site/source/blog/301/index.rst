@@ -1,0 +1,22 @@
+:date: 2006-01-20 10:59:52
+:categories: ['Event', 'Zope']
+:body type: text/x-rst
+
+==========================================
+CMS/Blog EXchange2（飲み会）に行ってきました
+==========================================
+
+昨日、 `CMS/Blog EXchange2`_ というか `DevCamp2006w`_ の事前懇親会(?)に行ってきました。やはりこういう懇親会はかなり濃い話題が飛び交うのでモチベーションがアップして良い感じです。
+
+内容は、DeveloppersCampの歴史を柴田さんがプレゼンしたり、今年のプログラムリーダーがそれぞれ抱負を語ったり、自己紹介したり、という感じでした。 `nagosui`_ のnyusukeさん(skinカスタマイズリーダ)はskype(音声＋映像)での参加で、柴田さんがヘッドセットを付けて音声中継していました。あと、田原さん(Zope3リーダ)が仕事でこれなかったので、抱負として言いそうなことを代わりに言ってみたりしました。
+
+あー、また写真撮るの忘れた‥‥。飲み屋にプロジェクター＆スクリーンを持ち込んでskypeで中継するシーンはそう滅多に見れるものじゃないのになぁ(無線LAN完備の飲み屋もそうそう無いですが)。
+
+.. _`CMS/Blog EXchange2`: http://coreblog.org/jp/events/cms-blog-exchange-2/
+.. _`DevCamp2006w`: http://coreblog.org/camp/2006w/
+.. _`nagosui`: http://nagosui.org:8080/Nagosui/
+
+
+
+.. :extend type: text/x-rst
+.. :extend:
