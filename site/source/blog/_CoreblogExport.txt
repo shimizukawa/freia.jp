@@ -10098,7 +10098,7 @@ Windows    NetDriveでWebDAVフォルダをマウント    NetDriveでWebDAVフ�
 
 :extend type: text/plain
 :extend:
-=============
+
 プレゼン感想
 =============
 
@@ -10169,7 +10169,7 @@ PloneをSNS風味にカスタマイズ
 あくまで、書かされるのではなく自分から情報を発信する、そういう情報発信が最終的にSNSになるのを手助けするための仕組みを用意したい、という印象を受けました。
 
 
-=======
+
 懇親会
 =======
 
@@ -13129,9 +13129,9 @@ Plone2.5 最初のα版が出ました。 `Ploneサイトに掲載されたニ�
 
 :extend type: text/x-rst
 :extend:
-===========================
+
 Plone 2.5 最初のα版をリリース
-===========================
+================================
 2006/1/29 13:21 by Alec Mitchell
 
 PloneチームはPlone2.5の最初の公式プレビューをリリースします。このバージョンはインフラの変更にフォーカスしています。
@@ -27683,7 +27683,7 @@ buildbot の清水川さんでイイと思います:-)
 .. _`Ruby on Rails 逆引きクイックリファレンス Rails 2.0対応`: http://www.amazon.co.jp/dp/4839928266/freiaweb-22
 .. _`随時開催!!Ruby on Railsセミナー | 株式会社ウェブキャリア`: http://www.web-career.com/seminar/entry.html
 
-==================
+
 セミナー参加メモ
 ==================
 
@@ -27990,7 +27990,7 @@ CTC Ruby 教育コース
 * Ruby/Railsトレーニングコース
 
 
-============
+
 参加した感想
 ============
 
@@ -33897,7 +33897,7 @@ Tarek自身による紹介文
 
 `目次(英語) <http://www.packtpub.com/view_popup/page/expert-python-programming-table-of-contents>`_ の内容を和訳しました。1時間ちょっとで訳したので間違い等あると思います。指摘歓迎。
 
-=================================
+
 エキスパートPythonプログラミング
 =================================
 
@@ -38953,7 +38953,7 @@ foo.pyのloader()をインタラクティブシェルから呼び出してファ
 .. _`Deliveranceによるデザインカスタマイズ`: http://plone3d.freia.jp/deliverance/deliverance-presentation/presentation_view
 
 
-=====================
+
 XDV クイックスタート
 =====================
 

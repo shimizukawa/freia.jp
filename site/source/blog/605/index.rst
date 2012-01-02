@@ -15,7 +15,7 @@
 .. _`Ruby on Rails 逆引きクイックリファレンス Rails 2.0対応`: http://www.amazon.co.jp/dp/4839928266/freiaweb-22
 .. _`随時開催!!Ruby on Railsセミナー | 株式会社ウェブキャリア`: http://www.web-career.com/seminar/entry.html
 
-==================
+
 セミナー参加メモ
 ==================
 
@@ -322,7 +322,7 @@ CTC Ruby 教育コース
 * Ruby/Railsトレーニングコース
 
 
-============
+
 参加した感想
 ============
 

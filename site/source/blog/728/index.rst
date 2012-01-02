@@ -17,7 +17,7 @@
 .. _`Deliveranceによるデザインカスタマイズ`: http://plone3d.freia.jp/deliverance/deliverance-presentation/presentation_view
 
 
-=====================
+
 XDV クイックスタート
 =====================
 

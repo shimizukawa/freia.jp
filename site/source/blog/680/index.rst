@@ -23,7 +23,7 @@ Tarek自身による紹介文
 
 `目次(英語) <http://www.packtpub.com/view_popup/page/expert-python-programming-table-of-contents>`_ の内容を和訳しました。1時間ちょっとで訳したので間違い等あると思います。指摘歓迎。
 
-=================================
+
 エキスパートPythonプログラミング
 =================================
 
