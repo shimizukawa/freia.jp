@@ -13,7 +13,9 @@
 - 6/11の `Zope3勉強会`_ メモ。Adapterを制する者はZope3を制す？
 - 6/11に `DELLのX50v`_ 到着。VGA,624MHz,Bluetooth,無線,内蔵Flashストレージ...たまらん
 - SubversionのHookスクリプトをPerlからPythonに移植 [1]_ 。 `Python Workshop 01`_ で森若さんが「PerlとPerlの正規表現処理系は別の言語」と言っていたのが分かる気がする...
-- ADUserFolder_ でZope認証をActiveDirectoryに問い合わせようとしたら無限ループに陥り、対象フォルダ以下リカバリ出来ず...なぜだ!?%%%%%%%%%------
+- ADUserFolder_ でZope認証をActiveDirectoryに問い合わせようとしたら無限ループに陥り、対象フォルダ以下リカバリ出来ず...なぜだ!?
+
+---------------
 
 .. [1] Subversionの配布物にmailer.pyというのが入っているのに今気づいた....orz
 

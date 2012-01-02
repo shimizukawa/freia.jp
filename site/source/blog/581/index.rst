@@ -11,7 +11,9 @@
 zope-usersとplone-usersの日本のMLに流した文面をこちらにも掲載しておきます。
 
 - http://ml.zope.jp/pipermail/zope-users/2008-June/006121.html
-- http://ml.plone.jp/pipermail/plone-users/2008-June/001341.html%%%%%%%%%---------------
+- http://ml.plone.jp/pipermail/plone-users/2008-June/001341.html
+
+------------------------
 
 6月21日にZope-2.11.0がリリースされました。
 様々な機能追加・バグ修正などが行われていますが、同時に古い実装コードの

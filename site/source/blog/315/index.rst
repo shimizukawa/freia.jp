@@ -61,7 +61,9 @@ Zopeから独立したPythonパッケージとして使える ZopeTestBrowser-1.
 `DevCamp2006w`_ 向けにUnitTestを調べてたはずなのに、今回はコレは使えないかも。残念。
 
 .. _`zope/testbrowser/README.txt`: http://svn.zope.org/Zope3/trunk/src/zope/testbrowser/README.txt?rev=41673&view=markup
-.. _`DevCamp2006w`: http://coreblog.org/camp/2006w/%%%%%%%%%-------
+.. _`DevCamp2006w`: http://coreblog.org/camp/2006w/
+
+----------------
 
 追記: 「UnitTestコードを書くときにこれがあるとテストの幅が広がるんじゃないかと思う。」と思ったけど、ZopeUnitTest中のインスタンスにhttpアクセスできないので、そう言う用途には使えないかも。じゃあZope-2.9.0のzope.testbrowserはどういう時に使うんだろう？要調査。
 

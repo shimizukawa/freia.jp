@@ -23,7 +23,9 @@
 .. _`COREBlog1.2リリース記念オフ会`: http://coreblog.org/ats/650
 .. _`ブラッセルズ`: http://www.brussels.co.jp/TOP/top.html
 .. _`takanory.net`: http://takanory.net/
-.. _`自分の記事`: http://www.freia.jp/taka/blog/109%%%%%%%%%--
+.. _`自分の記事`: http://www.freia.jp/taka/blog/109
+
+---------
 
 *#ブドウ違う。チェリーだYO*
 

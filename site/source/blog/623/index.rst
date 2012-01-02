@@ -8,7 +8,9 @@
 
 *Category: 'Programming', 'boadgame', 'ruby-on-rails'*
 
-*注）ここで記載しているBattleLineは、GoogleでたくさんヒットするBattleLine Onlineとは別物です。*%%%%%%%%%------
+*注）ここで記載しているBattleLineは、GoogleでたくさんヒットするBattleLine Onlineとは別物です。*
+
+---------------
 
 最後にプレイしたカードの外枠に色を付けて、いちいち手順履歴を見なくても分かるようにしてみた。
 あと、アレキサンダー vs ダリウス なゲームなので、ALEXANDERを使ったプレーヤーはDARIUSを使えないように判定を入れようと思ったけど、このために ``リーダー使ったflag`` を持たせるのはイヤだなぁ。でもflag持たせないと全履歴サーチしないといけないのでやっぱりroundテーブルにflagを持たせるべきか...。

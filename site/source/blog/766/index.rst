@@ -13,7 +13,9 @@
 .. _`ANS-prog`: http://answer.pythonpath.jp/
 .. _`Stack Overflow`: http://stackoverflow.com/
 
-ということで、以下の質問を出してみた -> http://answer.pythonpath.jp/questions/506/python-m%%%%%%%%%-----------------------------------------------
+ということで、以下の質問を出してみた -> http://answer.pythonpath.jp/questions/506/python-m
+
+--------------------------------------------------------
 
 Pythonは標準モジュールを-mに指定して実行するといろいろな機能を提供してくれるのが便利です。
 
@@ -49,7 +51,9 @@ JSONをバリデーションしてprettyprintする (by Masaki Tsuchiya)::
     $ echo '{ 1.2:3.4}' | python -mjson.tool
     Expecting property name: line 1 column 2 (char 2)
 
-他に、「普段こんな使い方をしていて便利だよ！」というモジュールがあったら教えてください。%%%%%%%%%-----------------------------------------------
+他に、「普段こんな使い方をしていて便利だよ！」というモジュールがあったら教えてください。
+
+--------------------------------------------------------
 
 
 ということで教えてください！ => http://answer.pythonpath.jp/questions/506/python-m

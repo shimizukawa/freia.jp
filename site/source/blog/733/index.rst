@@ -12,7 +12,9 @@
 
 * `Sphinx翻訳ハッカソン(2010/09/05)`_
 
-.. _`Sphinx翻訳ハッカソン(2010/09/05)`: http://sphinx-users.jp/event/20100905_translating_hackathon.html%%%%%%%%%----------------
+.. _`Sphinx翻訳ハッカソン(2010/09/05)`: http://sphinx-users.jp/event/20100905_translating_hackathon.html
+
+-------------------------
 
 以下、自分の記憶メモです。最近物忘れがひどいので。
 
