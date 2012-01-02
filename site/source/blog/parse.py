@@ -24,9 +24,9 @@ filetype = {
 def wlen(text):
     n = 0
     for c in text:
-        if unicodedata.east_asian_width(c) in ('F', 'W'):
+        if unicodedata.east_asian_width(c) in ('F', 'W', 'A'):
             n += 2
-        else:
+        else:  # 'N', 'Na', 'H'
             n += 1
     return n
 
