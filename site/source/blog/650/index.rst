@@ -6,6 +6,8 @@
 2009/06/27 [pyspa5] Python温泉 旅館とかおやつとか食事とか
 =========================================================
 
+*Category: 'Event', 'pyspa'*
+
 `DropBoxに写真あげた`_
 
 .. _`DropBoxに写真あげた`: http://www.getdropbox.com/gallery/284189/1/2009_06_pyspa5?h=bf5252

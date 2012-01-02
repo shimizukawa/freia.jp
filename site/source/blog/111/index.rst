@@ -6,6 +6,8 @@
 2005/01/17 WZの色分け for python
 ================================
 
+*Category: 'WZ', 'python'*
+
 負けました。＜挨拶
 
 `Whining Express`_ より::

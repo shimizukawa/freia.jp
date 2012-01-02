@@ -6,6 +6,8 @@
 2004/08/16 No module named ja
 =============================
 
+*Category: 'Zope', 'python'*
+
 reST表示でZopeがリブートする問題_ は解決しました。
 
 原因は、 StructuredText日本語問題_ に対応するために、DocumentClass.pyなど修正・コンパイルしたせいか、あるいはweather_pluginを入れるためにentry_bodyを修正したせいか、、、。
@@ -48,6 +50,8 @@ reST表示でZopeがリブートする問題_ は解決しました。
 =============================
 2005/11/28 docutilsのUnitTest
 =============================
+
+*Category: 'Zope', 'python'*
 
 reStructuredText で落ちるのは、 docutils に ja.py
 ファイルが無いためであることの再確認。 docutils-0.3.5.tar.gz

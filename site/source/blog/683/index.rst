@@ -6,6 +6,8 @@
 2009/11/14 Deliveranceをインストールする手順  in Python Hack-a-thon #2
 ======================================================================
 
+*Category: 'python'*
+
 今日は `Python Hack-a-thon #2`_ and `Sphinx Hack-a-thon #1`_ (偶然同時開催)で青山のOracleに来ています。会場を提供してくれたOracleさん、ありがとうございます。
 
 とりあえず自分もちょっとだけしゃべる時間をもらったので、Deliveranceの紹介をすることにしました。

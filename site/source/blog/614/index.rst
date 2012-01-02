@@ -6,6 +6,8 @@
 2009/01/22 和訳 [Zope-dev] Plans for Zope 2.12 
 ===============================================
 
+*Category: 'Zope'*
+
 このエントリはZope-dev に流れた以下のメールの和訳です。
 
 http://mail.zope.org/pipermail/zope-dev/2009-January/034150.html%%%%%%%%%---

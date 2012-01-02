@@ -6,6 +6,8 @@
 2009/07/30 buildoutで開発3: easy_install できるように公開する
 =============================================================
 
+*Category: 'python', 'Programming', 'web'*
+
 `eggの作り方が分からない`_, `buildoutで開発1: WSGIアプリをeggで作る`_, `buildoutで開発2: buildoutで環境を整える`_ の続き。buildoutというよりsetuptoolsネタ。
 
 buildoutで自動的にパッケージを取ってくる仕組みは内部的にsetuptools/easy_install.pyを使用していて、setuptoolsはデフォルトでは対象パッケージ名を pypi_ (Python Package Index) に探しに行く。pypiへの登録は ``python setup.py register`` で出来るんだけど、前回作ったようなwsgiappは実験用なので登録したくないし、仕事で作っているパッケージ類は世界に公開してはまずい。ということで、easy_installの ``--find-links (-f)`` オプションでpypi以外のページを指定する方法でpypiに公開しなくても自動インストール出来るようにする。

@@ -6,6 +6,8 @@
 2004/04/24 ZWikiがiso-8859-1で表示される問題
 ============================================
 
+*Category: 'Zope', 'Memo'*
+
 自分はWebサイトをUTF-8で構築しているのですが、なぜかZWikiのページだけがiso-8859-1で表示されてしまっていました。ソースを表示してみると、metaタグでちゃんとcharset=utf-8と書いてあるのですが、パケットキャプチャーしてみたところ、ResponseHeaderに::
 
   Content-Type: text/html; charset=iso-8859-1

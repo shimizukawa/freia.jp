@@ -6,6 +6,8 @@
 2004/04/20 COREBlogのStructuredText
 ===================================
 
+*Category: 'Zope', 'misc'*
+
 ところで、COREBlogのStructuredTextがよく分かりません。URLリンクの指定の仕方とか、普通のStructuredTextと違うんでしょうか？<br>
 <br>
 仕方がないので今はStructuredTextの中にbrとかhrefとか書いてます。めんどくさいなぁ。

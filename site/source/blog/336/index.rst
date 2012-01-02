@@ -6,6 +6,8 @@
 2006/04/25 久しぶりにZope3をupdateしたら色々とDeprecatedに...
 =============================================================
 
+*Category: 'Zope'*
+
 昨日、Zope3のtrunkを久々にupdateしたところ、起動時に4つくらいDeprecationWarningが表示されるようになってしまった。全部ZCMLのディレクティブについてのWarningで、
 
 - content -> class

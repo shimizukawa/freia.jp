@@ -6,6 +6,8 @@
 2005/05/25 COREBlogページだけportletを切り替える
 ================================================
 
+*Category: 'Plone', 'python'*
+
 COREBlog(plonified)のページが表示された場合に、左slotのportletを一部変更するようにしてみました。
 
 簡単にやるためには、COREBlogフォルダのプロパティーにleft_slotsという名前のlines型のフィールドを用意して、表示したいportletマクロを羅列すれば良いのですが、それだと親フォルダで設定したものと別で管理しないといけないので、今回はleft_slotsという名前のScript(Python)を置いて代用しています。

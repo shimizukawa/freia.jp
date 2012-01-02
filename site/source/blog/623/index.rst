@@ -6,6 +6,8 @@
 2009/02/03 BattleLine RoR (4)
 =============================
 
+*Category: 'Programming', 'boadgame', 'ruby-on-rails'*
+
 *注）ここで記載しているBattleLineは、GoogleでたくさんヒットするBattleLine Onlineとは別物です。*%%%%%%%%%------
 
 最後にプレイしたカードの外枠に色を付けて、いちいち手順履歴を見なくても分かるようにしてみた。

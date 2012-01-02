@@ -6,6 +6,8 @@
 2007/08/13 Django勉強会 Disk 4 に参加します
 ===========================================
 
+*Category: 'python', 'django'*
+
 `Disk 4 | Djangoと日本の仲間たち`_
 
 .. _`Disk 4 | Djangoと日本の仲間たち`: http://www.djangoproject.jp/etude/4/

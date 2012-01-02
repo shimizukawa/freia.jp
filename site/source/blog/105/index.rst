@@ -6,6 +6,8 @@
 2005/01/08 LDAPのアカウント管理をZopeProductで
 ==============================================
 
+*Category: 'Zope', 'python'*
+
 昨年末からLDAPのユーザーアカウント管理を Zope_ [1]_ 上で行うためのProduct [2]_ を作成している。Productを作るのは初めてなので、ちょっとしたことが分からずに苦労が多い。
 
 LDAPUserFolder_ というProductはZopeのユーザー管理をLDAPで行うことが出来るが、自分が作ろうとしているのはもうちょっとLDAP全般のアカウントやグループを管理するもの。思いつくところで、samba,unix,zope,apache,qmail,radius....というところか。

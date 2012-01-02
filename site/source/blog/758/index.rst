@@ -6,6 +6,8 @@
 2011/05/04 MeCab-0.98 ruby binding for Windows のビルド
 =======================================================
 
+*Category: 'Windows', 'ruby'*
+
 Rubyで MeCab_ を使用するには `MecCab-rubyバインディング`_ を使用しますが、バンディングはビルド済みのものが提供されていないので、自分でビルドする必要があります。Linuxや*BSDならそれほどはまらないですが(実際CentOSでは簡単に出来た)、Windowsではコンパイル環境があってもはまったので、バインディングビルド手順をメモしておきます(完成物はこちら:  `mecab-ruby-0.98-win32-binary-20110504.zip`_)。
 
 .. _MeCab: http://mecab.sourceforge.net/

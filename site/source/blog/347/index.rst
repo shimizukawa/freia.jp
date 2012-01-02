@@ -6,6 +6,8 @@
 2006/05/21 PythonのDocTestでお手軽TDD
 =====================================
 
+*Category: 'python', 'Programming'*
+
 .. epigraph::
 
   『Python凄いんですか？』

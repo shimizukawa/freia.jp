@@ -6,6 +6,8 @@
 2005/01/25 Plone2.0でreStructuredTextを使う方法
 ===============================================
 
+*Category: 'Zope'*
+
 普通のDocumentの「形式」に追加されるのかと思いきや、reStructuredDocumentというアイテムが増えた。……微妙？
 
 http://www.hashikem.com/zope/Plone/Members/kem/InstallHowTo/SetupReStructuredText

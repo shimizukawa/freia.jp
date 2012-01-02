@@ -6,6 +6,8 @@
 2007/03/24 kidのpy:extendsにはまる
 ==================================
 
+*Category: 'turbogears'*
+
 たとえば
 
 .. code-block:: python

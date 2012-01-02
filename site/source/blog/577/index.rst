@@ -6,6 +6,8 @@
 2008/06/06 IEで「操作は中断されました」の罠にはまる
 ===================================================
 
+*Category: 'Zope', 'web'*
+
 JavaScriptで ``include('foo.js')`` とか書ける様になる include.js というのがあります。
 
 - `JavaScriptMVC - Include`_

@@ -6,6 +6,8 @@
 2005/03/29 YetiSportsおもしろすぎ
 =================================
 
+*Category: 'Game'*
+
 http://cabin.jp/yuukan/1-game-simple15.html
 
 YetiSportsおもしろすぎ！ 刺さる！

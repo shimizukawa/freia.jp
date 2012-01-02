@@ -6,6 +6,8 @@
 2005/03/07 Zope Developers Camp 2005 ネットワーク経由参加
 =========================================================
 
+*Category: 'Zope', 'Event'*
+
 `Zope Developers Camp 2005 Winter`_ お疲れ様でした。＞関係者の皆さん
 
 自分は Skype_ を使ってネットワーク経由参加しましたが、非常に勉強になりました。特に WingIDE_ でのpython/Zopeデバッグは感激モノです！

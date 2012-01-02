@@ -6,6 +6,8 @@
 2007/01/18 WindowsでPython Imaging Library(PIL)をビルドする
 ===========================================================
 
+*Category: 'python', 'Windows'*
+
 python.jpのMLで出た話題。だいぶ前にビルドがうまくいったときにメモっておいたのを、思い出したかのようにBlogに書いてみる。
 
 環境： `WindowsでFreeなCモジュールビルド環境`_ 

@@ -6,6 +6,8 @@
 2010/05/22 エキスパートPythonプログラミング
 ===========================================
 
+*Category: 'python'*
+
 清水川が翻訳に参加した `エキスパートPythonプログラミング`_ (原題 `Expert Python Programming`_) が2010/5/31にアスキーメディアワークスさんより発売されます！
 
 .. _`エキスパートPythonプログラミング`: http://ascii.asciimw.jp/books/books/detail/978-4-04-868629-7.shtml

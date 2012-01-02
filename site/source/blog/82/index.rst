@@ -6,6 +6,8 @@
 2004/11/20 Zopeでナビゲーション２
 ================================
 
+*Category: 'Zope'*
+
 `先ほど`_ 作ったナビゲーション用の仕組みはstandard_html_headerに仕込んでいるのだが、COREblogではstandard_html_headerを読み込まないようになっているようなので、standard_html_headerを読み込むように修正してみた。
 
 と言っても、ごくごく簡単で、blog_headerの中身を::

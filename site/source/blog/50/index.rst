@@ -6,6 +6,8 @@
 2004/08/01 資料公開
 ===================
 
+*Category: 'Zope', 'Event'*
+
 今日発表した資料を公開します。
 
 - LDAPを用いたZope,Samba,FreeBSDシングルサインオン [ ppt_ ] [ pdf_ ]

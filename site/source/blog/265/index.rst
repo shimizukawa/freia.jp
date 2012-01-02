@@ -6,6 +6,8 @@
 2005/10/31 ハロウィンカレー
 ===========================
 
+*Category: 'food'*
+
 .. figure:: images/2005halloween_curry/thumb?width=200
   :target: images/2005halloween_curry
   :align: right

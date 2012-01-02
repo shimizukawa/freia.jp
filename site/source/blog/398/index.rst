@@ -6,6 +6,8 @@
 2007/02/06 portupgradeが動作しなくなってた
 ==========================================
 
+*Category: 'Unix'*
+
 FreeBSDのパッケージ管理はportupgradeで行っていて、毎日 portversion -vL= の結果がメールで送信される仕組みで運用している。で、いくつかのパッケージ更新があったようなのでportupgradeで更新しようとしたら::
 
   missing key: categories: Cannot read the portsdb!

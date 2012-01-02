@@ -6,6 +6,8 @@
 2009/10/24 第6回 Python温泉 に参加中. buildbot と buildout のはなし
 ===================================================================
 
+*Category: 'Zope', 'python', 'Plone', 'pyspa'*
+
 第６回 Python温泉 に参加しています。
 
 buildbot

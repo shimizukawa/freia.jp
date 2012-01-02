@@ -6,6 +6,8 @@
 2005/10/05 Appleストア銀座でZopeイベント
 ========================================
 
+*Category: 'Event', 'Zope'*
+
 .. figure:: images/applezope1/thumb?width=320
   :target: images/applezope1/thumb?width=800
   :align: right

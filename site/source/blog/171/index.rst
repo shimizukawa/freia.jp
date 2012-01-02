@@ -6,6 +6,8 @@
 2005/03/24 vpopmail with LDAP認証 by FreeBSD ports (第2回)
 ==========================================================
 
+*Category: 'Unix'*
+
 `第1回`_ に引き続き、vpopmail-ldapの設定を行う。
 
 README.ldap を読み進めたところ、昨日改造したvldap.hに埋め込まれているDNで重要になるポイントは

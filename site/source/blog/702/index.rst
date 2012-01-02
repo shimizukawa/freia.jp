@@ -6,6 +6,8 @@
 2009/12/16 Rails + SQLServer で data型を扱うとハマる話
 ======================================================
 
+*Category: 'ruby-on-rails'*
+
 はまります。
 
 Rails + SQLServer で data型を使おうとすると、とってもはまります。

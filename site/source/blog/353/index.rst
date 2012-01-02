@@ -6,6 +6,8 @@
 2006/07/04 Python2.4.2と2.4.3でMIMETextの挙動が違う
 ===================================================
 
+*Category: 'python'*
+
 Zope2.9.3をいじってて気づいたんだけど、Python2.4.2と2.4.3とでemail.MIMEText.MIMETextクラスの挙動がちょっと違うっぽい。どう違うかというと、
 
 .. code-block:: python

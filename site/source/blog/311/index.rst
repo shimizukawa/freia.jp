@@ -6,6 +6,8 @@
 2006/02/10 デブサミ2006 ～ ZopeEssentials3
 =========================================
 
+*Category: 'Event'*
+
 今日は `デブサミ`_ 2日目＆ `ZopeEssentials3`_ でした。
 
 Developers Summit 2006

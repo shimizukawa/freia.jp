@@ -6,6 +6,8 @@
 2008/01/21 X61sのIntel VTをOnにしてみた
 =======================================
 
+*Category: 'IT-PC'*
+
 Core2Duoに搭載されている ``Virtualization Technology`` 機能は、ThinkPad X61sのBIOSではデフォルトでOffになっていた。しばらくこれに気づかずにVirtualPC2007を使っていて、X40で動かしてたときに比べてあんまり速くないなー、と思ってました。すみません。
 
 で、BIOSのCPU設定でIntelVTをEnableに変更したところ、VirtualPCの中断データがすべて無効になってしまった。処理の途中だったのに。

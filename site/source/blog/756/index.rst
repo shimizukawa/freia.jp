@@ -6,6 +6,8 @@
 2011/05/01 Python3でzc.buildout-2.0.0a1 を動かしてみた
 ======================================================
 
+*Category: 'python'*
+
 昨夜、4/30の夜に `zc.buildout-2.0.0a1`_ がリリースされたので早速試してみました。
 
 .. _`zc.buildout-2.0.0a1`: http://pypi.python.org/pypi/zc.buildout/2.0.0a1

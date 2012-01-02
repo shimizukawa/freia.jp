@@ -6,6 +6,8 @@
 2007/03/07 動画配信奮闘記2 in Python Developers Camp 2007 冬
 ============================================================
 
+*Category: 'Event', 'python', 'turbogears'*
+
 ちょっと間が開いてしまったが、 `動画配信奮闘記1`_ の続き。
 
 .. _`動画配信奮闘記1`: http://www.freia.jp/taka/blog/406

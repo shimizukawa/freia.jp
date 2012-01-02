@@ -6,6 +6,8 @@
 2005/04/26 COREBlog1.2+Plonified0.8
 ===================================
 
+*Category: 'Zope', 'Plone'*
+
 `COREBlog 1.2a1`_ がML限定公開されました。同時にCOREBlogをPloneと融合して表示するためのSkin, Plonified0.8 が公開されています。
 
 ということで、早速 `実験してみました`_ 。Plone対応という事でCOREBlogオブジェクトのプロパティーが変更になっているため、Plonifiedを使う場合は一度SkinをPlonifiedに切り替えるか、skin/plonified/skin_propertiesを実行する必要があります。また、これまでPloneインスタンス以下にCOREBlogをおいた場合に `ちょっとした問題`_ があったのですが、それも修正されていました。

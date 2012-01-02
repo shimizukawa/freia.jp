@@ -6,6 +6,8 @@
 2011/04/23 packaging (aka Distutils2) のcreateコマンド
 ======================================================
 
+*Category: 'python'*
+
 `(第7回)Python mini Hack-a-thon`_ 夕方の部
 
 .. _`(第7回)Python mini Hack-a-thon`: http://atnd.org/events/14178

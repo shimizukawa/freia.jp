@@ -6,6 +6,8 @@
 2008/05/21 RapidSSLからDebianの例の件でメールが来た
 ===================================================
 
+*Category: 'security'*
+
 ``Urgent SSL security update from RapidSSL for Debian users`` というタイトルで例の件（何？）の脆弱性関連のメールがRapidSSLから届いた。内容は::
 
   Linux Operating System Security Flaws May Have Compromised Your Certificates.

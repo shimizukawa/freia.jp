@@ -6,6 +6,8 @@
 2005/10/14 Googleの「Personalize your Google homepage」を使う
 =============================================================
 
+*Category: 'IT-PC'*
+
 .. figure:: images/google_personal/thumb?width=200
   :target: images/google_personal
   :align: right

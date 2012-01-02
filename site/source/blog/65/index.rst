@@ -6,6 +6,8 @@
 2004/09/06 pyuiをいじってみる
 =============================
 
+*Category: 'python', 'Programming'*
+
 久しぶりのpythonです。今回は pyui_ をいじってみます。 pyui_ はGUI系のライブ
 ラリなので、Xを設定していないFreeBSDではなくWindows上で動かすために、
 pythonのインストールから行いました。

@@ -6,6 +6,8 @@
 2009/12/02 Zopeのdebugコンソールをipython化する
 ===============================================
 
+*Category: 'Zope'*
+
 `Zope/Ploneアドベントカレンダーをtakanoryさんにお願いされた`_ ので2日目を担当します。Zopeのdebugコンソールをipython化します。
 
 とりあえずipythonはインストール済み( easy_install ipython )ということにしておきます。

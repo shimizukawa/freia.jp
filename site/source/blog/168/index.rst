@@ -6,6 +6,8 @@
 2005/03/23 vpopmail with LDAP認証 by FreeBSD ports
 ==================================================
 
+*Category: 'Unix'*
+
 vpopmailでldap認証を使うには::
 
   ./configure --enable-auth-module=ldap

@@ -6,6 +6,8 @@
 2008/07/13 今日のbuildbotマニュアル翻訳
 =======================================
 
+*Category: 'misc'*
+
 毎日30分～1時間翻訳してるけど、まだ全体の2割に行かないくらい。7月中には終わらないな・・・。
 
 http://svn.freia.jp/open/buildbot/docs/buildbot.html

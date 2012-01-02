@@ -6,6 +6,8 @@
 2007/04/22 InstanceManagerでZope/Plone環境自動構築 2
 ====================================================
 
+*Category: 'Zope', 'Plone'*
+
 コマンド一発でZopeのインスタンスを作り、Ploneのtgzを展開し、svnからソースコード取ってきて、zopeを起動してploneのインスタンスを作ってプロダクトの追加までやってくれる便利なライブラリ、instance managerの設定についてのメモです。インストールについては `InstanceManagerでZope/Plone環境自動構築`_ を見てください。
 
 ではさっそく、userdefaults.py の中身について。

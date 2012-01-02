@@ -6,6 +6,8 @@
 2005/07/18 NetDriveというWebDAVをDrive名にマウントするツール
 ============================================================
 
+*Category: 'Zope'*
+
 会社でSubversionを使っている。というか勝手に使い始めた。で、WebDAV使えば、開発しないけどソースは見たい＆丸ごと取得したい、という用途にピッタリだなーと思いながら `Subversion によるバージョン管理`_ を読んでいたところWindowsのWebフォルダはイケテナイらしいと言うことが分かった。
 
 .. _`Subversion によるバージョン管理`: http://subversion.bluegate.org/doc/book.html
@@ -55,6 +57,8 @@ http://support.microsoft.com/?kbid=287402
 2005/11/28 FTP を仮想ドライブ化する無料ソフト NetDrive
 ======================================================
 
+*Category: 'Zope'*
+
 
 
 NetDrive
@@ -77,6 +81,8 @@ NetDrive
 =================================
 2006/05/10 Windows/tools/NetDrive
 =================================
+
+*Category: 'Zope'*
 
 Windows    NetDriveでWebDAVフォルダをマウント    NetDriveでWebDAVフォルダをマウント    MaruhanのM-GISでhalldataサーバをNetDriveでマウントしています http://blog.livedoor.jp/dualcomputer/archives/50255738.html http://www.novell.com/coolsolutions/qna/999....
 

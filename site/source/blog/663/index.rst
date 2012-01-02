@@ -6,6 +6,8 @@
 2009/08/07 Zope Essentials 7 で Deliverance の紹介を聞いてきた
 ==============================================================
 
+*Category: 'Event', 'Zope', 'Plone', 'web'*
+
 昨日8/6に、 `Zope Essentials 7を開催します`_ 、に、行ってきました。ニュージーランドでPloneで仕事をしているTim Knappさんがメイントーカーで、 Deliverance_ について話してくれました。余談ですが、Timさんは `Buildout and Plone`_ というプレゼンも書いていたりします(buildout.orgに載ってます)。
 
 Deliveranceとは:

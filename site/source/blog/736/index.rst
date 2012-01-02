@@ -6,6 +6,8 @@
 2010/09/20 Pythonのコーディング規約pep8チェックをUnitTestに組み込んでみた
 =========================================================================
 
+*Category: 'python', 'testing', 'epp'*
+
 Pythonには PEP_ という仕組みがあり、そのなかの `PEP-0008`_ がPythonのコードを書く上でのコーディング規約を定義しています。
 
 .. _PEP: http://sphinx-users.jp/articles/pep1.html

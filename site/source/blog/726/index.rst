@@ -6,6 +6,8 @@
 2010/07/18 Windowsでpyreadline-1.6を使うとCtrl+H押下で文字削除出来ない問題のパッチ
 ==================================================================================
 
+*Category: 'python', 'Windows'*
+
 Windows上のPythonでreadlineを使えるようにするパッケージ pyreadline_ 1.6 が2010/7/15にリリースされました。pyreadline-1.5ではCtrl+H押下時に以下の問題がありました。
 
 * `Windowsでpyreadlineを使うとCtrl+H押下時にカーソルが進む`_

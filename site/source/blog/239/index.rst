@@ -6,6 +6,8 @@
 2005/08/29 Zopeイベント ３つ
 ===========================
 
+*Category: 'Zope'*
+
 - 9/3(土) `ZopeWeekend6`_
 - 9/4(日) `Zope3勉強会`_
 - 9/30(金)～10/2(日) `Zope Developers Camp 2005 夏`_

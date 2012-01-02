@@ -6,6 +6,8 @@
 2009/01/25 cmd.exe代替アプリckwの改造版をさらに改造してconfig切り替え機能を付けたい
 ===================================================================================
 
+*Category: 'Programming', 'Windows'*
+
 ckwはputtyライクなwindowでdos窓操作ができるアプリです。nyacusと組み合わせるとかなりunixっぽくなります。ckw について詳しくは `ckwとnyacusとztop`_ とか `cmd.exeを超便利にする ckw 0.8.10 を改造した。`_ を参照ください。
 
 で。
@@ -41,6 +43,8 @@ ckw ではAllocConsoleを使ってコンソールWindowを作成しつつ、非�
 =======================
 2009/07/12 Tools@System
 =======================
+
+*Category: 'Programming', 'Windows'*
 
 CommandPrompt    cmd.exe代替アプリckwの改造版をさらに改造してconfig切り替え機能を付けたい - 清水川Web    Bookmarks    cmd.exe代替アプリckwの改造版をさらに改造してconfig切り替え機能を付けたい - 清水川Web Mobile Orz: フォルダの使用量を可視化するソフトを...
 

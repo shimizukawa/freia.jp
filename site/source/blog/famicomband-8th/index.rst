@@ -6,6 +6,8 @@
 2006/07/08 FamiComBand 8th
 ==========================
 
+*Category: 'Event'*
+
 知り合いのバンド(`FamiComBand`_)が今週末日曜日(7/9)に演奏するそーなので、ご紹介。(と `前回のBlog`_ からコピペる‥‥)
 
 http://famicomband.org/live_8th

@@ -6,6 +6,8 @@
 2005/02/28 ZCatalogでNot検索
 ============================
 
+*Category: 'Zope'*
+
 目的はPloneのRecentItemのPortletから写真関連を除外することだけど、技術的にはZope標準のZCatalogの使い方について。
 
 `Zopeユーザー会`_ のMLに質問を出したところ、標準のAPIでは無理、という回答。でも代替案をもらったので、 `Wikiメモに追加`_ 。

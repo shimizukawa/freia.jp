@@ -6,6 +6,8 @@
 2008/01/28 ckwとnyacusとztop
 ============================
 
+*Category: 'Windows'*
+
 開発にWindowsを使っているとcmd.exeを結構な頻度で使う。Windowsで開発する人はcoLinuxかcygwinを使う人が多そうな気もするけど、ここではそれは置いておく。（cygwinはちょっと苦手...）
 
 で、このcmd.exeというやつが結構使いにくくて、

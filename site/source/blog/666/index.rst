@@ -6,6 +6,8 @@
 2009/08/08 buildoutで開発 4: mod_wsgiからegg指定でアプリ起動する
 ================================================================
 
+*Category: 'Event', 'Zope', 'python'*
+
 `buildoutで開発1: WSGIアプリをeggで作る`_ では、以下のようにwsgiappパッケージの中のstartup.pyを直接指定して起動していましたが、もっと取り回しやすくします。（今回はbuildout出てきません）
 
 httpd-wsgi.conf::

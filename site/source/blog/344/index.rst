@@ -6,6 +6,8 @@
 2006/05/17 COREBlog2用のCMFContentPanelsのViewletを作る
 =======================================================
 
+*Category: 'Plone'*
+
 前回のBlogで、 `CMFContentPanelsでトップ画面に複数のCOREBlog2エントリ一覧を表示`_ することが出来るようになりました。しかしこれだけだと何となく寂しい気がします。という無理矢理な導入で、CMFContentPanelsで使えるオリジナルViewletを作ってみましょう。
 
 なお、今回使用したバージョンは、 `CMFContentPanels-2.3`_ と `COREBlog2-0.9b`_ です。

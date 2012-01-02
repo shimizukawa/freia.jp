@@ -47,6 +47,7 @@ class Entry(object):
         self.comment = False
         self.body_type = None
         self.date = None
+        self.categories = None
 
         def field_list_proc(line):
             m = field_matcher(line)
@@ -62,6 +63,8 @@ class Entry(object):
                 line = None
             elif key == 'date':
                 self.date = datetime.datetime.strptime(value, '%Y-%m-%d %H:%M:%S')
+            elif key == 'categories':
+                self.categories = value.strip('[] \r\n')
             elif key == 'body type':
                 self.body_type = value
             elif key == 'extend':
@@ -85,6 +88,8 @@ class Entry(object):
                         border+'\n',
                         '\n',
                     ])
+                if self.categories:
+                    line += '*Category: %s*\n\n' % self.categories
                 if value:
                     line += value
 

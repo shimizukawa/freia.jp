@@ -6,6 +6,8 @@
 2005/04/11 ZPhotoSlidesサイト復活
 =================================
 
+*Category: 'Zope', 'misc'*
+
 ZPhotoSlides_ が復活。よかったよかった。
 
 .. _ZPhotoSlides: http://www.zphotoslides.org/

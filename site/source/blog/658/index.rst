@@ -6,6 +6,8 @@
 2009/07/14 AspireRevo 雑感。 WindowsUpdateしたら無限再起動した...
 =================================================================
 
+*Category: 'IT-PC'*
+
 `AspireRevo`_ について雑感。
 
 * CPUはNetbookだと思えばまあ。OSのGUIも重いけど。

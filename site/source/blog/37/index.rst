@@ -6,6 +6,8 @@
 2004/07/26 COREblogを0.61bから0.73bへ
 =====================================
 
+*Category: 'Zope', 'misc'*
+
 やっと時間を取れるようになったので、サーバーで使っている COREblog_ を0.61bから0.73bへ上げました。
 
 これでやっと reStructuredText_ を使えるようになります。人に説明したり使ってもらうための敷居は StructuredText_ の方が低いのですが、使い込む用途には reStructuredText_ が良いですね。まぁ部分的に StructuredText_ のにある機能が reStructuredText_ に無くて残念だったりすることもありますが（下線とか）。

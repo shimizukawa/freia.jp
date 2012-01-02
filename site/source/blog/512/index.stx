@@ -6,6 +6,8 @@
 2007/12/31 年越しZope-2.11.0-b1
 ===============================
 
+*Category: 'Zope'*
+
 12月28日に "Zope-2.11.0-b1":http://www.zope.org/Products/Zope/2.11.0b1 (β1)がリリースされました。ということで、CHANGELOG.txt を翻訳してみました。MailHostの実装変更はjaMailHostあたりに影響がありそうな気がします(未確認)。
 
 Zope-2.11.0-b1の概要

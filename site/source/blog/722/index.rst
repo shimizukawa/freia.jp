@@ -6,6 +6,8 @@
 2010/06/22 setuptoolsを使ったpluginサンプル(egg編)
 ==================================================
 
+*Category: 'python'*
+
 `setuptoolsを使ったpluginサンプル`_ で作ったpluginの仕組みを
 ちょっとだけ変更して、plugin用フォルダにファイルを追加したら
 pluginとして認識されるようにしてみます。
