@@ -53,7 +53,7 @@ easy_installでインストールしてみる
 ここまでくれば、index.htmlを自動生成するようにwsgiappを改造すれば後々楽になりそう。
 
 wsgiappで動的にPackageIndexページを生成する
-------------------------------------------
+-------------------------------------------
 とりあえずてきとーに、'指定PATH/package名/trunk'を'package名#egg=package名-dev'としてリンクするように、 `buildoutで開発2: buildoutで環境を整える`_ で作成したwsgiapp.scraperに新しい関数を追加する。
 
 

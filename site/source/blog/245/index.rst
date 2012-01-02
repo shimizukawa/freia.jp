@@ -61,7 +61,7 @@ JZUG本多さんのCMS紹介。クラッシュコースというのは日本語�
 
 
 事例紹介:文際アートカレッジ週間bAC
----------------------------------
+----------------------------------
 .. figure:: http://www.freia.jp/taka/photo/zw6/PICT0007.JPG?size=thumb
   :target: http://www.freia.jp/taka/photo/zw6/PICT0007.JPG/zphoto_view
   :align: left

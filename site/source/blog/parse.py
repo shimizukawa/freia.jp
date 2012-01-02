@@ -9,6 +9,7 @@ import re
 import io
 import unicodedata
 import datetime
+import itertools
 
 field_matcher = re.compile('^:([\w\s_-]+):\s*(.*)\s*$').match
 codeblock_matcher = re.compile('^(\s*.. code-block::)\s+([\w\s_-]+)\s*$').match
@@ -48,6 +49,7 @@ class Entry(object):
         self.body_type = None
         self.date = None
         self.categories = None
+        self.prev_wlen = 0  # for correct_shortline_proc
 
         def field_list_proc(line):
             m = field_matcher(line)
@@ -106,13 +108,23 @@ class Entry(object):
             self.body.append("%s %s" % (key, value.lower()))
             return None
 
+        def correct_shortline_proc(line):
+            l = line.rstrip('\r\n ')
+            grouped = list(itertools.groupby(sorted(l)))
+            if len(grouped) == 1:
+                k, g = grouped[0]
+                if k in '#*=-^"~':
+                    if len(l) < self.prev_wlen:
+                        line = k * self.prev_wlen + '\n'
+            self.prev_wlen = wlen(line.rstrip('\r\n '))
+            return line
 
         for line in payload:
             if self.comment:
                 self.body.append('.. ' + line)
                 continue
 
-            for proc in [field_list_proc, codeblock_proc]:
+            for proc in [field_list_proc, codeblock_proc, correct_shortline_proc]:
                 line = proc(line)
                 if line is None:
                     break
