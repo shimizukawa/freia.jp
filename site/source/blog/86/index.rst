@@ -92,40 +92,40 @@ http://www.objectclub.jp/event/2004christmas/
 .. 
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4566696700
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4566696700
 .. :title: クリスマス企画 オブジェクト指向実践者の集い
-.. :BlogName: 翔ソフトウェア (Sho's) Fujiwo の日記
+.. :blog name: 翔ソフトウェア (Sho's) Fujiwo の日記
 .. :url: http://blog.shos.info/archives/2004/12/post_46.html
 .. :date: 2005-11-28 00:47:36
 .. :body:
 .. 上記に参加してきたので、レポートしてみたい。 ■ 詳細             ...
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4567609271
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4567609271
 .. :title: クリスマス企画 オブジェクト指向実践者の集い
-.. :BlogName: 翔ソフトウェア (Sho's) Fujiwo の日記
+.. :blog name: 翔ソフトウェア (Sho's) Fujiwo の日記
 .. :url: http://blog.shos.info/archives/2004/12/post_43.html
 .. :date: 2005-11-28 00:47:36
 .. :body:
 .. 上記に参加してきたので、レポートしてみたい。 ■ 詳細             ...
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4568854107
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4568854107
 .. :title: クリスマス企画 オブジェクト指向実践者の集い
-.. :BlogName: 翔ソフトウェア (Sho's) Fujiwo の日記
+.. :blog name: 翔ソフトウェア (Sho's) Fujiwo の日記
 .. :url: http://blog.shos.info/archives/2004/12/post_46.html
 .. :date: 2005-11-28 00:47:36
 .. :body:
 .. 上記に参加してきたので、レポートしてみたい。 ■ 詳細             ...
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4569762387
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4569762387
 .. :title: クリスマス企画 オブジェクト指向実践者の集い
-.. :BlogName: 翔ソフトウェア (Sho's) Fujiwo の日記
+.. :blog name: 翔ソフトウェア (Sho's) Fujiwo の日記
 .. :url: http://blog.shos.info/archives/2004/12/post_43.html
 .. :date: 2005-11-28 00:47:37
 .. :body:

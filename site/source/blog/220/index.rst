@@ -48,28 +48,23 @@ ZSilverCity のソースコードを読んでもう一つ、 **docutilsのdirect
 
 
 
-:Trackbacks:
-:TrackbackID: 2006-09-24.8441435501
-:BlogName: SiteBites Blog
-:url: http://sitebites.homeip.net/blog/147
-:date: 2006-09-24 23:40:44
-
-================================
-2006/09/24 ZrstAmazon4公開します
-================================
-
-*Category: 'python', 'Zope'*
-
-清水川さんがつくられた ZrstAmazon の改変版を公開します。
-概要 pyAmazon に依存していたのを pyAWS
-ベースで手を入れた自前モジュールに変更。Amazon E-Commerce
-Service(ECS)のAPI Version 2006-09-13
-に準拠(しているはず)。もっとも、pyAmazonベースのオリジナルでも古いAPIで動作はしているみたいです。
-オプションに次が指定可能: :image: 清水川さんがつくられた
-ZrstAmazon の改変版を公開します。 概要 pyAmazon
-に依存していたのを pyAWS
-ベースで手を入れた自前モジュールに変更。Amazon E-Commerce
-Service(ECS)のAPI Version 2006-09-13
-に準拠(しているはず)。もっとも、pyAmazonベースのオリジナルでも古いAPIで動作はしているみたいです。
-オプションに次が指定可能: :image:
-
+.. :trackbacks:
+.. :trackback id: 2006-09-24.8441435501
+.. :title: ZrstAmazon4公開します
+.. :blog name: SiteBites Blog
+.. :url: http://sitebites.homeip.net/blog/147
+.. :date: 2006-09-24 23:40:44
+.. :body:
+.. 清水川さんがつくられた ZrstAmazon の改変版を公開します。
+.. 概要 pyAmazon に依存していたのを pyAWS
+.. ベースで手を入れた自前モジュールに変更。Amazon E-Commerce
+.. Service(ECS)のAPI Version 2006-09-13
+.. に準拠(しているはず)。もっとも、pyAmazonベースのオリジナルでも古いAPIで動作はしているみたいです。
+.. オプションに次が指定可能: :image: 清水川さんがつくられた
+.. ZrstAmazon の改変版を公開します。 概要 pyAmazon
+.. に依存していたのを pyAWS
+.. ベースで手を入れた自前モジュールに変更。Amazon E-Commerce
+.. Service(ECS)のAPI Version 2006-09-13
+.. に準拠(しているはず)。もっとも、pyAmazonベースのオリジナルでも古いAPIで動作はしているみたいです。
+.. オプションに次が指定可能: :image:
+.. 

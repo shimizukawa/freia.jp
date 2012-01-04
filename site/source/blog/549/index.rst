@@ -38,10 +38,10 @@
 .. :body:
 .. ありがたく読ませていただきます:^)
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2008-03-14.7298381049
+.. :trackbacks:
+.. :trackback id: 2008-03-14.7298381049
 .. :title: Solarisも一緒にBuildbot？
-.. :BlogName: 渋日記
+.. :blog name: 渋日記
 .. :url: http://sky.ap.teacup.com/shibu/32.html
 .. :date: 2008-03-14 22:18:50
 .. :body:

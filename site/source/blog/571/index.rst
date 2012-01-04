@@ -80,10 +80,10 @@ utf-8でのHTML作成を依頼したらEUC-JPで送られてきたので自分�
 .. 
 .. まあそれはフルコピーがある前提で。。
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2008-05-20.6678297840
+.. :trackbacks:
+.. :trackback id: 2008-05-20.6678297840
 .. :title: [Python][Mercurial]巡回
-.. :BlogName: 常山日記
+.. :blog name: 常山日記
 .. :url: http://d.hatena.ne.jp/johzan/20080520/1211274627
 .. :date: 2008-05-20 18:11:09
 .. :body:

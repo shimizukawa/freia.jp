@@ -27,19 +27,19 @@
 .. クロスフィールドって駅の構造があーだからかな
 .. ATCTSmallSampleの公開お疲れ様でした
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2006-03-15.6496337560
+.. :trackbacks:
+.. :trackback id: 2006-03-15.6496337560
 .. :title: COREBlog2縺ｮ髢｢騾｣繧ｪ繝悶ず繧ｧ繧ｯ繝医陦ｨ遉ｺ
-.. :BlogName: Blog
+.. :blog name: Blog
 .. :url: http://www.majingaa.com/blog/coreblog2306e95a2902330aa30a730af30c8306e8868793a
 .. :date: 2006-03-15 22:34:11
 .. :body:
 ..  COREBlog2の関連オブジェクトは、文章中の「上部に横に並べる」とか、「左に縦にならべる」などのレイアウトができる。しかし、FireFoxだとちゃんと表示されるのだが、IE6だとなぜかすべて中央に表示されていた。 しらべてみるとIE6がCSSのflo...
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2006-03-15.7435772609
+.. :trackbacks:
+.. :trackback id: 2006-03-15.7435772609
 .. :title: COREBlog2縺ｮ髢｢騾｣繧ｪ繝悶ず繧ｧ繧ｯ繝医陦ｨ遉ｺ
-.. :BlogName: Blog
+.. :blog name: Blog
 .. :url: http://www.majingaa.com/blog/coreblog2306e95a2902330aa30a730af30c8306e8868793a-1
 .. :date: 2006-03-15 23:34:12
 .. :body:

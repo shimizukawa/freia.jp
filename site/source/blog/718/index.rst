@@ -49,10 +49,10 @@ Expert Python Programming と比べてみると若干厚くて、若干重い。
 .. 自分の名前が本に載るのってすごいな。
 .. なにはともあれ、おめでとう。
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2010-05-30.6536916197
+.. :trackbacks:
+.. :trackback id: 2010-05-30.6536916197
 .. :title: [python] エキスパートPythonプログラミング
-.. :BlogName: 彷徨えるフジワラ
+.. :blog name: 彷徨えるフジワラ
 .. :url: http://d.hatena.ne.jp/flying-foozy/20100530/1275155241
 .. :date: 2010-05-30 02:54:14
 .. :body:

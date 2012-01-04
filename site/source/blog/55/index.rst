@@ -95,10 +95,10 @@ apacheが窓口となる場合、例えば http://www.freia.jp/ というサイ�
 .. 
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4438538680
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4438538680
 .. :title: 迷走の日々
-.. :BlogName: 週刊ミケ猫通信
+.. :blog name: 週刊ミケ猫通信
 .. :url: http://blog.livedoor.jp/nadias/archives/18243395.html
 .. :date: 2005-11-28 00:47:23
 .. :body:
@@ -110,10 +110,10 @@ apacheが窓口となる場合、例えば http://www.freia.jp/ というサイ�
 .. あとちょっとという感はあるんだけど、あまりにも情報がすくなすぎ。
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-12-18.6771786076
+.. :trackbacks:
+.. :trackback id: 2005-12-18.6771786076
 .. :title: apacheのアップデート
-.. :BlogName: Ryuji's Note
+.. :blog name: Ryuji's Note
 .. :url: http://ryujisnote.homeunix.org/blog/15
 .. :date: 2005-12-18 03:21:18
 .. :body:

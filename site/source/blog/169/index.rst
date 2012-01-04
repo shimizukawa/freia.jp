@@ -236,10 +236,10 @@ myparser.py::
 .. 
 .. http://www.python.jp/Zope/workshop/200612/index_html?pp=1
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4864045021
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4864045021
 .. :title: Ploneの使い方
-.. :BlogName: PukiWiki/TrackBack 0.1
+.. :blog name: PukiWiki/TrackBack 0.1
 .. :url: http://tokyo.atso-net.jp/sitedev/index.php?Plone%A4%CE%BB%C8%A4%A4%CA%FD
 .. :date: 2005-11-28 00:48:06
 .. :body:

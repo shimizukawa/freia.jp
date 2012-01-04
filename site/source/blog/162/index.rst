@@ -26,16 +26,11 @@
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4825886520
-:BlogName: 快適デジタル空間ショップ
-:url: http://webcreate.blog6.fc2.com/blog-entry-3.html
-:date: 2005-11-28 00:48:02
-
-================================
-2005/11/28 新型PSXまもなく発売！
-================================
-
-*Category: 'misc'*
-
-SONY PSX DESR-5700 4月15日発売大特価  52,800円 (税込55,440円) 送料別 SONY PSX DESR-7700 HDD搭載DVDレコーダー価格  69,800円 (税込73,290円) 送料込 今回発売される「DESR-7700」、「DESR-5700」では、新機能としてメモリースティックに対応しています。これによって、内蔵HDDに記...
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4825886520
+.. :title: 新型PSXまもなく発売！
+.. :blog name: 快適デジタル空間ショップ
+.. :url: http://webcreate.blog6.fc2.com/blog-entry-3.html
+.. :date: 2005-11-28 00:48:02
+.. :body:
+.. SONY PSX DESR-5700 4月15日発売大特価  52,800円 (税込55,440円) 送料別 SONY PSX DESR-7700 HDD搭載DVDレコーダー価格  69,800円 (税込73,290円) 送料込 今回発売される「DESR-7700」、「DESR-5700」では、新機能としてメモリースティックに対応しています。これによって、内蔵HDDに記...

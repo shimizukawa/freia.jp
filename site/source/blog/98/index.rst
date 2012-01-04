@@ -22,16 +22,11 @@ PSX_ をDESR-5000からDESR-7500に買い換えたところ、ゲーム中のみ
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4610046918
-:BlogName: パソコンとカメラの日々
-:url: http://tomoaki.cocolog-nifty.com/pc/2005/01/desr7500.html
-:date: 2005-11-28 00:47:41
-
-========================
-2005/11/28 DESR-7500購入
-========================
-
-*Category: 'Memo', 'misc'*
-
-DESR-7500 - Tom's Wiki SONY PSX 250GB DE
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4610046918
+.. :title: DESR-7500購入
+.. :blog name: パソコンとカメラの日々
+.. :url: http://tomoaki.cocolog-nifty.com/pc/2005/01/desr7500.html
+.. :date: 2005-11-28 00:47:41
+.. :body:
+.. DESR-7500 - Tom's Wiki SONY PSX 250GB DE

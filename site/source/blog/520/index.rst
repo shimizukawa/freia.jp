@@ -55,10 +55,10 @@
 .. :body:
 .. そのトラックバック元のURLはどうなのよ？
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2008-02-07.2142578609
+.. :trackbacks:
+.. :trackback id: 2008-02-07.2142578609
 .. :title: 吉村メモ
-.. :BlogName: PukiWiki Plus! (PukiWiki/TrackBack 0.3)
+.. :blog name: PukiWiki Plus! (PukiWiki/TrackBack 0.3)
 .. :url: https://58.157.52.199:443/localwiki/index.php?%B5%C8%C2%BC%A5%E1%A5%E2
 .. :date: 2008-02-07 17:33:35
 .. :body:

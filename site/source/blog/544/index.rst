@@ -51,10 +51,10 @@ Windows Vista に乗り換えてから、必要に応じて環境を再構築し
 .. 原因が分かりました。
 .. ありがとうございます:)
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2008-02-17.5025776344
+.. :trackbacks:
+.. :trackback id: 2008-02-17.5025776344
 .. :title: [Python]巡回
-.. :BlogName: 常山日記
+.. :blog name: 常山日記
 .. :url: http://d.hatena.ne.jp/johzan/20080217/1203186472
 .. :date: 2008-02-17 03:28:24
 .. :body:

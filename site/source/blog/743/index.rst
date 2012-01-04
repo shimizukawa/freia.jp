@@ -131,17 +131,12 @@ cook.pyを実行したときにトレースバックに出てくる情報は以�
 
 
 
-:Trackbacks:
-:TrackbackID: 2010-12-02.2417151585
-:BlogName: yanolabの日記
-:url: http://d.hatena.ne.jp/yanolab/20101202/1291261115
-:date: 2010-12-02 12:40:41
-
-=========================================
-2010/12/02 [python]pythonで__line__を使う
-=========================================
-
-*Category: 'python', 'testing'*
-
- データの定義位置を取得したいみたいなことを清水川さんのページで見た。pythonにはC言語のマクロみたいに__line__がないので、frameオブジェクトからファイル行数取ってとかを関数でやるのが一般的みたい。また、atsuoishimotoの日記の記事では、簡易DSLみたいな感じで実装
-
+.. :trackbacks:
+.. :trackback id: 2010-12-02.2417151585
+.. :title: [python]pythonで__line__を使う
+.. :blog name: yanolabの日記
+.. :url: http://d.hatena.ne.jp/yanolab/20101202/1291261115
+.. :date: 2010-12-02 12:40:41
+.. :body:
+..  データの定義位置を取得したいみたいなことを清水川さんのページで見た。pythonにはC言語のマクロみたいに__line__がないので、frameオブジェクトからファイル行数取ってとかを関数でやるのが一般的みたい。また、atsuoishimotoの日記の記事では、簡易DSLみたいな感じで実装
+.. 

@@ -73,10 +73,10 @@
 .. :body:
 .. 釜揚げにかきあげは喰いづらぞう(笑)
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2011-03-30.4961186060
+.. :trackbacks:
+.. :trackback id: 2011-03-30.4961186060
 .. :title: 楽釜製麺所の「豚の角煮うどん大」
-.. :BlogName: まろまろ記
+.. :blog name: まろまろ記
 .. :url: http://maromaro.com/archive/2011/02/18/rakugama.php
 .. :date: 2011-03-30 21:01:37
 .. :body:

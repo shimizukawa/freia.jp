@@ -49,10 +49,10 @@
 .. 
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4727732081
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4727732081
 .. :title: DESR-7500でゲーム
-.. :BlogName: パソコンとカメラの日々
+.. :blog name: パソコンとカメラの日々
 .. :url: http://tomoaki.cocolog-nifty.com/pc/2005/02/desr7500.html
 .. :date: 2005-11-28 00:47:52
 .. :body:

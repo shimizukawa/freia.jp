@@ -71,10 +71,10 @@ MindManager形式(mmap)のファイルを見る Viewer_ があります(11MB...)
 .. テストについてはカウボーイテスターな私よりも体系立ってそうで、うらやましい限りです。また色々とお話したいですね。情報収集もかねて(^^
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4428309696
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4428309696
 .. :title: しみずかわさん
-.. :BlogName: t-wadaの日記
+.. :blog name: t-wadaの日記
 .. :url: http://d.hatena.ne.jp/t-wada/20040804#p3
 .. :date: 2005-11-28 00:47:22
 .. :body:

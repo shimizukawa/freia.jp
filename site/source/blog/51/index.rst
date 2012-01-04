@@ -41,17 +41,12 @@
 感想
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4419020386
-:BlogName: Jinbey
-:url: http://jinbey.com:8080/blog/195
-:date: 2005-11-28 00:47:21
-
-================================
-2005/11/28 Zope Weekend 4 Report
-================================
-
-*Category: 'Zope', 'Event'*
-
-Zope Weekend 4
-に参加。関連ページの一覧を作成する予定です...手抜きでごめんなさい。
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4419020386
+.. :title: Zope Weekend 4 Report
+.. :blog name: Jinbey
+.. :url: http://jinbey.com:8080/blog/195
+.. :date: 2005-11-28 00:47:21
+.. :body:
+.. Zope Weekend 4
+.. に参加。関連ページの一覧を作成する予定です...手抜きでごめんなさい。

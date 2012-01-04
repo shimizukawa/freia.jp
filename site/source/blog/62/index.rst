@@ -42,21 +42,16 @@ reST表示でZopeがリブートする問題_ は解決しました。
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4461481004
-:BlogName: 象歩Blog
-:url: http://owa.as.wakwak.ne.jp/zope/coreblog/98
-:date: 2005-11-28 00:47:26
-
-=============================
-2005/11/28 docutilsのUnitTest
-=============================
-
-*Category: 'Zope', 'python'*
-
-reStructuredText で落ちるのは、 docutils に ja.py
-ファイルが無いためであることの再確認。 docutils-0.3.5.tar.gz
-をダウンロードして試してみました。 PYTHONPATH には zope
-のパスを指定します。 $ tar xvzf docutils-0.3.5.tar.gz $ cd
-docutils-0.3.5/test $ export PYTHONPATH="/usr/lib/zope/lib/python" $ python
-test...
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4461481004
+.. :title: docutilsのUnitTest
+.. :blog name: 象歩Blog
+.. :url: http://owa.as.wakwak.ne.jp/zope/coreblog/98
+.. :date: 2005-11-28 00:47:26
+.. :body:
+.. reStructuredText で落ちるのは、 docutils に ja.py
+.. ファイルが無いためであることの再確認。 docutils-0.3.5.tar.gz
+.. をダウンロードして試してみました。 PYTHONPATH には zope
+.. のパスを指定します。 $ tar xvzf docutils-0.3.5.tar.gz $ cd
+.. docutils-0.3.5/test $ export PYTHONPATH="/usr/lib/zope/lib/python" $ python
+.. test...

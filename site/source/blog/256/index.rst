@@ -188,10 +188,10 @@
 .. 
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.5220920963
+.. :trackbacks:
+.. :trackback id: 2005-11-28.5220920963
 .. :title: コメントスパム弾き実験のまとめ
-.. :BlogName: blogSetomits
+.. :blog name: blogSetomits
 .. :url: http://matatabi.homeip.net/blog/setomits/476
 .. :date: 2005-11-28 00:48:42
 .. :body:

@@ -44,19 +44,14 @@ COREBlog関連のポートレットやカスタマイズをぼちぼちやって
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4993996777
-:BlogName: Feel Fine!
-:url: http://forestlaw.ddo.jp/blog/44
-:date: 2005-11-28 00:48:19
-
-================================================================
-2005/11/28 PlonifiedでもFirefoxなどがRSSを見つけられるようにする
-================================================================
-
-*Category: 'Plone'*
-
-COREBlogのRSS用metaタグを追加（清水川記）を参考に Feel Fine!
-でも Mozilla Firefox などが RSS を見つけられるようにした。 Zope で
-Syntax Coloring（TRIVIAL TECHNOLOGIES）もすばらしいなぁ。
-reStructuredTextの書き方が解らないので手を出さなかったのだが、後でやってみよう。
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4993996777
+.. :title: PlonifiedでもFirefoxなどがRSSを見つけられるようにする
+.. :blog name: Feel Fine!
+.. :url: http://forestlaw.ddo.jp/blog/44
+.. :date: 2005-11-28 00:48:19
+.. :body:
+.. COREBlogのRSS用metaタグを追加（清水川記）を参考に Feel Fine!
+.. でも Mozilla Firefox などが RSS を見つけられるようにした。 Zope で
+.. Syntax Coloring（TRIVIAL TECHNOLOGIES）もすばらしいなぁ。
+.. reStructuredTextの書き方が解らないので手を出さなかったのだが、後でやってみよう。

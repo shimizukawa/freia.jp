@@ -73,7 +73,7 @@ class Entry(object):
                 line = '.. ' + line
             elif key == 'extend':
                 line = '.. ' + line + '\n'
-            elif key == 'comments':
+            elif key in ('comments', 'trackbacks'):
                 line = '.. ' + line
                 self.comment = True
             elif key == 'body':

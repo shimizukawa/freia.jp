@@ -61,10 +61,10 @@
 .. 
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.5075336902
+.. :trackbacks:
+.. :trackback id: 2005-11-28.5075336902
 .. :title: COREBlogのplonifiedスキン対策
-.. :BlogName: Pingサーバ開発日記
+.. :blog name: Pingサーバ開発日記
 .. :url: http://ping.glyle.com/blog/5
 .. :date: 2005-11-28 00:48:27
 .. :body:

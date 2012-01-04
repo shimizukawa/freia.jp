@@ -83,10 +83,10 @@ riddleでは無いな。。
 .. :body:
 .. それでいいんだ。でも [::-1]もそうだけど、あまりやると可読性はもうひとつになるよね
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2008-04-23.1537476563
+.. :trackbacks:
+.. :trackback id: 2008-04-23.1537476563
 .. :title: [Python][Mercurial]巡回
-.. :BlogName: 常山日記
+.. :blog name: 常山日記
 .. :url: http://d.hatena.ne.jp/johzan/20080423/1208881139
 .. :date: 2008-04-23 01:19:15
 .. :body:

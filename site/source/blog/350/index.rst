@@ -461,31 +461,21 @@ ApacheのIPアドレス制限
 
 
 
-:Trackbacks:
-:TrackbackID: 2006-06-27.0228277053
-:BlogName: Weboo! Returns.
-:url: http://yamashita.dyndns.org/blog/reject-trackback-spam-by-akismet
-:date: 2006-06-27 23:20:23
-
-====================================================
-2006/06/27 Akismetを使ったトラックバック・スパム対策
-====================================================
-
-*Category: 'Plone'*
-
-いい加減にトラックバック・スパムがうざくなってきたので対策してみました。COREBlog2におけるコメント＆トラックバック・スパム対策に関しては、清水川さんが纏めてくれているので、それを参考にAkismetというWordPress標準の対策機能を使ってSP...
-
-:Trackbacks:
-:TrackbackID: 2006-07-26.3118481816
-:BlogName: Triconf Blog
-:url: http://triconf.net/blog/coreblog2306e30b330e130f330c830b930e030fb30c830e930c330af30c330af30b930e05bfe7b56
-:date: 2006-07-26 16:18:32
-
-==============================================================
-2006/07/26 COREBlog2のコメントスパム・トラックバックスパム対策
-==============================================================
-
-*Category: 'Plone'*
-
- いつかこういう日が来るとは思っていましたが、突如、COREBlog2に対して膨大な量のコメントスパムがつけられるようになってしまいました。 そこでGoogle神に問い合わせますと、以下の清水川さんの記事に行き当たりました。  COREBlog2スパム対策...
-
+.. :trackbacks:
+.. :trackback id: 2006-06-27.0228277053
+.. :title: Akismetを使ったトラックバック・スパム対策
+.. :blog name: Weboo! Returns.
+.. :url: http://yamashita.dyndns.org/blog/reject-trackback-spam-by-akismet
+.. :date: 2006-06-27 23:20:23
+.. :body:
+.. いい加減にトラックバック・スパムがうざくなってきたので対策してみました。COREBlog2におけるコメント＆トラックバック・スパム対策に関しては、清水川さんが纏めてくれているので、それを参考にAkismetというWordPress標準の対策機能を使ってSP...
+.. 
+.. :trackbacks:
+.. :trackback id: 2006-07-26.3118481816
+.. :title: COREBlog2のコメントスパム・トラックバックスパム対策
+.. :blog name: Triconf Blog
+.. :url: http://triconf.net/blog/coreblog2306e30b330e130f330c830b930e030fb30c830e930c330af30c330af30b930e05bfe7b56
+.. :date: 2006-07-26 16:18:32
+.. :body:
+..  いつかこういう日が来るとは思っていましたが、突如、COREBlog2に対して膨大な量のコメントスパムがつけられるようになってしまいました。 そこでGoogle神に問い合わせますと、以下の清水川さんの記事に行き当たりました。  COREBlog2スパム対策...
+.. 

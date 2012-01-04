@@ -42,10 +42,10 @@
 .. 内容の感想は別エントリーで書きます～
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4998963139
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4998963139
 .. :title: 「Zope Essentials 1」 開催しました
-.. :BlogName: Zopeジャンキー日記
+.. :blog name: Zopeジャンキー日記
 .. :url: http://mojix.org/2005/05/10/235226
 .. :date: 2005-11-28 00:48:19
 .. :body:

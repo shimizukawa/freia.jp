@@ -20,17 +20,12 @@
 
 
 
-:Trackbacks:
-:TrackbackID: 2011-01-12.9612030523
-:BlogName: 青春18切符で行く,日本の「城」巡り43
-:url: http://oojijisun43.seesaa.net/article/171911439.html
-:date: 2011-01-12 08:02:42
-
-=================
-2011/01/12 犬山城
-=================
-
-*Category: 'trip'*
-
-oojijisunです,青春18切符で行きます お城巡りを準備中です、参考になります。
-
+.. :trackbacks:
+.. :trackback id: 2011-01-12.9612030523
+.. :title: 犬山城
+.. :blog name: 青春18切符で行く,日本の「城」巡り43
+.. :url: http://oojijisun43.seesaa.net/article/171911439.html
+.. :date: 2011-01-12 08:02:42
+.. :body:
+.. oojijisunです,青春18切符で行きます お城巡りを準備中です、参考になります。
+.. 

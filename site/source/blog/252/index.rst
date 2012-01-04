@@ -88,10 +88,10 @@ Microsoftのサイトにいつのまにか詳細な解説が載ってました�
 .. 別の日本語キーボードをさしたりUSBやらPS2やら切り替えていた長年の問題が解決しました。
 .. 101キーボードを常用している身としては大変助かりました。感謝です。
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2006-04-30.4959006564
+.. :trackbacks:
+.. :trackback id: 2006-04-30.4959006564
 .. :title: 日本語キーボードから英語キーボードへ — 清水川Web
-.. :BlogName: 白い狼の皮を被った黒い羊
+.. :blog name: 白い狼の皮を被った黒い羊
 .. :url: http://herd.txt-nifty.com/blacksheep/2006/04/_web_a00c.html
 .. :date: 2006-04-30 16:34:56
 .. :body:

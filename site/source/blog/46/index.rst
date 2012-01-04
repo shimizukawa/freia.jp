@@ -69,10 +69,10 @@
 .. お返事が遅くなりました。とりあえずRefererPluginのIgnoreに設定してみましたが、うまく働いてないようで‥‥。実害は無いから、放っておきますか。
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4402282208
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4402282208
 .. :title: Zope/Samba/FreeBSDのシングルサインオンか
-.. :BlogName: YasiYasi's Blog
+.. :blog name: YasiYasi's Blog
 .. :url: http://yasi.minidns.net/blog/64
 .. :date: 2005-11-28 00:47:20
 .. :body:

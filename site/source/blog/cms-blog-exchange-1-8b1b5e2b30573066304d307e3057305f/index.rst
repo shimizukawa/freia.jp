@@ -60,10 +60,10 @@
 .. 
 .. 堀田さんの発表が聴けなかったのは残念でしたが（つぎ行ける保証ないし^^;）、結果として２時間フルで個人的にはよかったです。できればテストのところも聴きたかったです～。
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-12-14.6352067286
+.. :trackbacks:
+.. :trackback id: 2005-12-14.6352067286
 .. :title: CMS/Blog Exchange 1
-.. :BlogName: Weboo!Log
+.. :blog name: Weboo!Log
 .. :url: http://yamashita.dyndns.org/blog/376
 .. :date: 2005-12-14 22:23:55
 .. :body:
@@ -71,10 +71,10 @@
 .. もう一昨日(12日)ですけど、参加してきました。またしても、携帯電話を置き忘れたまま家を出てしまいました。私は地図を印刷しない派で、いつもEZナビのお世話になっているので、こういう時は携帯がないと困ります。今回は、1ヶ月くらい前にも行ったことのある場所だったので助かりましたけど…
 .. 内容は、清水川さんによる「COREBlog2と連携する最小プロダクトの作成」というものでした。ソースコードを追いながら基本的なプロダクトの作り方を紹介してくれて、私は細かい所は全然分かってませんが、なんとなくPlon...
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-12-15.1158339450
+.. :trackbacks:
+.. :trackback id: 2005-12-15.1158339450
 .. :title: CMS/Blog EXchange 1 に参加してきました
-.. :BlogName: takanori-log
+.. :blog name: takanori-log
 .. :url: http://takanory.net/takalog/429
 .. :date: 2005-12-15 12:08:36
 .. :body:

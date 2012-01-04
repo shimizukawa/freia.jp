@@ -548,17 +548,12 @@ WindowsクライアントからVPN接続を行い、mpdから認証要請が来�
 
 
 
-:Trackbacks:
-:TrackbackID: 2006-06-15.9254128351
-:BlogName: uep on hayate
-:url: http://uep.hayate.mine.nu/archives/2006/06/_sambaldaptools.php
-:date: 2006-06-15 08:15:26
-
-=============================
-2006/06/15 続 sambaldap-tools
-=============================
-
-*Category: 'Unix', 'Memo'*
-
-pptpの認証もLDAPで行いたいと思い、色々調べてみた。 どうやら、pptp-...
-
+.. :trackbacks:
+.. :trackback id: 2006-06-15.9254128351
+.. :title: 続 sambaldap-tools
+.. :blog name: uep on hayate
+.. :url: http://uep.hayate.mine.nu/archives/2006/06/_sambaldaptools.php
+.. :date: 2006-06-15 08:15:26
+.. :body:
+.. pptpの認証もLDAPで行いたいと思い、色々調べてみた。 どうやら、pptp-...
+.. 

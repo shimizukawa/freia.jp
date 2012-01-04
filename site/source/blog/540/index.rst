@@ -73,10 +73,10 @@ Vista+ATOK2006からVista+ATOK2008へ移行して安定環境！とか思った�
 .. :body:
 .. Amazonでなら時々釣られます...。あ、宅配DVDレンタルではよく辿るなあ。釣られても高々400円。
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2008-04-03.4522790159
+.. :trackbacks:
+.. :trackback id: 2008-04-03.4522790159
 .. :title: ATOK2008を5,000円以下でお得に買う方法
-.. :BlogName: ニートのFXブログ
+.. :blog name: ニートのFXブログ
 .. :url: http://www.fxneet.com/cat7/atok20085000.php
 .. :date: 2008-04-03 15:48:49
 .. :body:

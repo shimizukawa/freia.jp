@@ -105,19 +105,19 @@ PythonのDocTestで手軽にUnitTestを書く事が出来ます。こいつの *
 .. 
 .. 日本ではPythonって何？状態なので、こういう機能が意外と知られてないんですよね‥‥。実際便利ですよー。
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2006-05-21.8311522462
+.. :trackbacks:
+.. :trackback id: 2006-05-21.8311522462
 .. :title: [ruby]RubyでDocTest
-.. :BlogName: 機械猫の日記
+.. :blog name: 機械猫の日記
 .. :url: http://d.hatena.ne.jp/kikaineko/20060521#p1
 .. :date: 2006-05-21 23:13:51
 .. :body:
 ..  一昨日のXPユーザ会でpythonにDocTestなる非常にクールな機能があることを教えてもらった。 詳しくはこちら http://www.python.jp/doc/release/lib/module-doctest.html ↓こちらは清水川さんのフラッシュ付き解説 http://www.freia.jp/taka/blog/347 これならTDD×Rubyの迷
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2006-05-22.8938078777
+.. :trackbacks:
+.. :trackback id: 2006-05-22.8938078777
 .. :title: [Python]PythonのDocTestはすごいらしい :-)
-.. :BlogName: きむだらど〜日記
+.. :blog name: きむだらど〜日記
 .. :url: http://d.hatena.ne.jp/afukui/20060522/1148267741
 .. :date: 2006-05-22 12:18:14
 .. :body:

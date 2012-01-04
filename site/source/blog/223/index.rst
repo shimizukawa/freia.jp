@@ -120,10 +120,10 @@
 .. 連れてった友だち、みんなファンになってました。かくいう私も友達の紹介
 .. んー。
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.5080474802
+.. :trackbacks:
+.. :trackback id: 2005-11-28.5080474802
 .. :title: 餃子 味むら
-.. :BlogName: ペンギン日記♪
+.. :blog name: ペンギン日記♪
 .. :url: http://blog.so-net.ne.jp/chiaki/2005-04-27
 .. :date: 2005-11-28 00:48:28
 .. :body:

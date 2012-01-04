@@ -34,10 +34,10 @@
 .. 年末のDB構築楽しみにしときな！(☆_-)
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4603373559
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4603373559
 .. :title: 今さらブログ始めました。
-.. :BlogName: 三國志図書館Blog
+.. :blog name: 三國志図書館Blog
 .. :url: http://www.akn.to/mt/archives/2004/12/post_3.html
 .. :date: 2005-11-28 00:47:40
 .. :body:

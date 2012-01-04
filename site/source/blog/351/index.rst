@@ -81,19 +81,19 @@
 .. 西国分寺にも沖縄料理のお店ありますよー
 .. 行ったことないけど・・・
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2006-06-30.5090838861
+.. :trackbacks:
+.. :trackback id: 2006-06-30.5090838861
 .. :title: ゴーヤチャンプルー
-.. :BlogName: ロバートのブログ
+.. :blog name: ロバートのブログ
 .. :url: http://www.neohawk.org/Members/rbh-ja/roba-to-no-blog/goya-chanpuru
 .. :date: 2006-06-30 12:18:29
 .. :body:
 ..  先程、ブログブラウジングをやっていたら、同じプロンを使っている 清水川さんがゴーヤチャンプルーの投稿 を発見。それで思い出した。 ありさも既に投稿している が、このあいだ北東オハイオ州ホーキンズ家がゴーヤチャンプルーを作った。というか、ありさが作った...
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2006-10-11.6644585233
+.. :trackbacks:
+.. :trackback id: 2006-10-11.6644585233
 .. :title: 季節に似合わず
-.. :BlogName: 湘南広告屋
+.. :blog name: 湘南広告屋
 .. :url: http://kokokuya.blog62.fc2.com/blog-entry-7.html
 .. :date: 2006-10-11 21:11:04
 .. :body:

@@ -30,10 +30,10 @@
 .. :body:
 .. ポーションが５０ギルだから１ギル１２．６円かな
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2006-03-19.4349202880
+.. :trackbacks:
+.. :trackback id: 2006-03-19.4349202880
 .. :title: ポーション飲んでどうなった？
-.. :BlogName: オキラクでいいよね？
+.. :blog name: オキラクでいいよね？
 .. :url: http://nrsor.blog.ocn.ne.jp/nrsor/2006/03/post_8770.html
 .. :date: 2006-03-19 00:40:36
 .. :body:

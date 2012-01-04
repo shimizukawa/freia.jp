@@ -36,10 +36,10 @@ COREblogのインスタンスをPloneフォルダに移動させたところ、
 .. 追記： 環境依存の可能性は高いと思う。別環境で試してからMLに問い合わせてみよう……。
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4746544401
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4746544401
 .. :title: うわ，ほんとだ(Re: COREBlog in Ploneフォルダ)
-.. :BlogName: TRIVIAL TECHNOLOGIES
+.. :blog name: TRIVIAL TECHNOLOGIES
 .. :url: http://coreblog.org/ats/576
 .. :date: 2005-11-28 00:47:54
 .. :body:
@@ -47,10 +47,10 @@ COREblogのインスタンスをPloneフォルダに移動させたところ、
 .. 多分Ploneインスタンス上にあるattribute(Propertyかなにか)と，COREBlog上のPropertyが衝突して居るんだと思います。明示的にCOREBlogインスタンス上にあるPropertyから...
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4747493431
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4747493431
 .. :title: なんか新しいPLONEとかいうXOOPSみたいなCMS・・・
-.. :BlogName: レトロブログ - retroさんのブログ - RETRO-MANIA
+.. :blog name: レトロブログ - retroさんのブログ - RETRO-MANIA
 .. :url: http://www.retro-mania.net/modules/weblog/details.php?blog_id=28
 .. :date: 2005-11-28 00:47:54
 .. :body:

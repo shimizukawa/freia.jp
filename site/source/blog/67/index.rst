@@ -120,10 +120,10 @@ CUnit_ もXMLを出力することが出来るので、これもXSLTを用意し
 .. 
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4483404550
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4483404550
 .. :title: [プログラミング]
-.. :BlogName: きまぐれのらねこにっき
+.. :blog name: きまぐれのらねこにっき
 .. :url: http://d.hatena.ne.jp/sakuneko/20051109#p3
 .. :date: 2005-11-28 00:47:28
 .. :body:

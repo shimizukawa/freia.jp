@@ -869,10 +869,10 @@ Falcomの新作、 "英雄伝説VI 空の軌跡":http://www.falcom.com/ed6/ を6
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4310868214
+:trackbacks:
+:trackback id: 2005-11-28.4310868214
 :title: 無事終了
-:BlogName: 生きてま
+:blog name: 生きてま
 :url: http://log.giantech.jp/221
 :date: 2005-11-28 00:47:11
 :body:
@@ -1825,10 +1825,10 @@ XP祭り2004の感想を書こうと思ったら、撮ってきた写真の掲�
 お返事が遅くなりました。とりあえずRefererPluginのIgnoreに設定してみましたが、うまく働いてないようで‥‥。実害は無いから、放っておきますか。
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4402282208
+:trackbacks:
+:trackback id: 2005-11-28.4402282208
 :title: Zope/Samba/FreeBSDのシングルサインオンか
-:BlogName: YasiYasi's Blog
+:blog name: YasiYasi's Blog
 :url: http://yasi.minidns.net/blog/64
 :date: 2005-11-28 00:47:20
 :body:
@@ -1980,10 +1980,10 @@ Windows系とUNIX（私の趣味でFreeBSDが主眼）系との連動自体に�
 感想
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4419020386
+:trackbacks:
+:trackback id: 2005-11-28.4419020386
 :title: Zope Weekend 4 Report
-:BlogName: Jinbey
+:blog name: Jinbey
 :url: http://jinbey.com:8080/blog/195
 :date: 2005-11-28 00:47:21
 :body:
@@ -2079,10 +2079,10 @@ MindManager形式(mmap)のファイルを見る Viewer_ があります(11MB...)
 テストについてはカウボーイテスターな私よりも体系立ってそうで、うらやましい限りです。また色々とお話したいですね。情報収集もかねて(^^
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4428309696
+:trackbacks:
+:trackback id: 2005-11-28.4428309696
 :title: しみずかわさん
-:BlogName: t-wadaの日記
+:blog name: t-wadaの日記
 :url: http://d.hatena.ne.jp/t-wada/20040804#p3
 :date: 2005-11-28 00:47:22
 :body:
@@ -2195,10 +2195,10 @@ portupgradeの設定系はほとんど調べてなかったので知りません
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4438538680
+:trackbacks:
+:trackback id: 2005-11-28.4438538680
 :title: 迷走の日々
-:BlogName: 週刊ミケ猫通信
+:blog name: 週刊ミケ猫通信
 :url: http://blog.livedoor.jp/nadias/archives/18243395.html
 :date: 2005-11-28 00:47:23
 :body:
@@ -2210,10 +2210,10 @@ portupgradeの設定系はほとんど調べてなかったので知りません
 あとちょっとという感はあるんだけど、あまりにも情報がすくなすぎ。
 
 
-:Trackbacks:
-:TrackbackID: 2005-12-18.6771786076
+:trackbacks:
+:trackback id: 2005-12-18.6771786076
 :title: apacheのアップデート
-:BlogName: Ryuji's Note
+:blog name: Ryuji's Note
 :url: http://ryujisnote.homeunix.org/blog/15
 :date: 2005-12-18 03:21:18
 :body:
@@ -2506,10 +2506,10 @@ reST表示でZopeがリブートする問題_ は解決しました。
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4461481004
+:trackbacks:
+:trackback id: 2005-11-28.4461481004
 :title: docutilsのUnitTest
-:BlogName: 象歩Blog
+:blog name: 象歩Blog
 :url: http://owa.as.wakwak.ne.jp/zope/coreblog/98
 :date: 2005-11-28 00:47:26
 :body:
@@ -2886,10 +2886,10 @@ CUnit のコード生成のオプションはシングルスレッド(/ML)なの
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4483404550
+:trackbacks:
+:trackback id: 2005-11-28.4483404550
 :title: [プログラミング]
-:BlogName: きまぐれのらねこにっき
+:blog name: きまぐれのらねこにっき
 :url: http://d.hatena.ne.jp/sakuneko/20051109#p3
 :date: 2005-11-28 00:47:28
 :body:
@@ -4053,10 +4053,10 @@ WindowsクライアントからVPN接続を行い、mpdから認証要請が来�
 
 
 
-:Trackbacks:
-:TrackbackID: 2006-06-15.9254128351
+:trackbacks:
+:trackback id: 2006-06-15.9254128351
 :title: 続 sambaldap-tools
-:BlogName: uep on hayate
+:blog name: uep on hayate
 :url: http://uep.hayate.mine.nu/archives/2006/06/_sambaldaptools.php
 :date: 2006-06-15 08:15:26
 :body:
@@ -4133,10 +4133,10 @@ COREBlogのソースを確認してみたところ、rotorを使っているの�
 Pythonと同時にZopeもVerUpしたので*.pycが無効になって、起動時のProductコンパイルで引っかかった‥‥とか？
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4557388537
+:trackbacks:
+:trackback id: 2005-11-28.4557388537
 :title: FreeBSDでのPythonとZopeとの関係修復の状況
-:BlogName: YasiYasi's Blog
+:blog name: YasiYasi's Blog
 :url: http://yasi.minidns.net/blog/117
 :date: 2005-11-28 00:47:35
 :body:
@@ -4257,40 +4257,40 @@ http://www.objectclub.jp/event/2004christmas/
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4566696700
+:trackbacks:
+:trackback id: 2005-11-28.4566696700
 :title: クリスマス企画 オブジェクト指向実践者の集い
-:BlogName: 翔ソフトウェア (Sho's) Fujiwo の日記
+:blog name: 翔ソフトウェア (Sho's) Fujiwo の日記
 :url: http://blog.shos.info/archives/2004/12/post_46.html
 :date: 2005-11-28 00:47:36
 :body:
 上記に参加してきたので、レポートしてみたい。 ■ 詳細             ...
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4567609271
+:trackbacks:
+:trackback id: 2005-11-28.4567609271
 :title: クリスマス企画 オブジェクト指向実践者の集い
-:BlogName: 翔ソフトウェア (Sho's) Fujiwo の日記
+:blog name: 翔ソフトウェア (Sho's) Fujiwo の日記
 :url: http://blog.shos.info/archives/2004/12/post_43.html
 :date: 2005-11-28 00:47:36
 :body:
 上記に参加してきたので、レポートしてみたい。 ■ 詳細             ...
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4568854107
+:trackbacks:
+:trackback id: 2005-11-28.4568854107
 :title: クリスマス企画 オブジェクト指向実践者の集い
-:BlogName: 翔ソフトウェア (Sho's) Fujiwo の日記
+:blog name: 翔ソフトウェア (Sho's) Fujiwo の日記
 :url: http://blog.shos.info/archives/2004/12/post_46.html
 :date: 2005-11-28 00:47:36
 :body:
 上記に参加してきたので、レポートしてみたい。 ■ 詳細             ...
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4569762387
+:trackbacks:
+:trackback id: 2005-11-28.4569762387
 :title: クリスマス企画 オブジェクト指向実践者の集い
-:BlogName: 翔ソフトウェア (Sho's) Fujiwo の日記
+:blog name: 翔ソフトウェア (Sho's) Fujiwo の日記
 :url: http://blog.shos.info/archives/2004/12/post_43.html
 :date: 2005-11-28 00:47:37
 :body:
@@ -4556,10 +4556,10 @@ reStructuredText がURLとして見てくれないのが悲しいですが。
 年末のDB構築楽しみにしときな！(☆_-)
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4603373559
+:trackbacks:
+:trackback id: 2005-11-28.4603373559
 :title: 今さらブログ始めました。
-:BlogName: 三國志図書館Blog
+:blog name: 三國志図書館Blog
 :url: http://www.akn.to/mt/archives/2004/12/post_3.html
 :date: 2005-11-28 00:47:40
 :body:
@@ -4610,10 +4610,10 @@ PSX_ をDESR-5000からDESR-7500に買い換えたところ、ゲーム中のみ
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4610046918
+:trackbacks:
+:trackback id: 2005-11-28.4610046918
 :title: DESR-7500購入
-:BlogName: パソコンとカメラの日々
+:blog name: パソコンとカメラの日々
 :url: http://tomoaki.cocolog-nifty.com/pc/2005/01/desr7500.html
 :date: 2005-11-28 00:47:41
 :body:
@@ -5695,10 +5695,10 @@ PSX生産完了だってね～。
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4727732081
+:trackbacks:
+:trackback id: 2005-11-28.4727732081
 :title: DESR-7500でゲーム
-:BlogName: パソコンとカメラの日々
+:blog name: パソコンとカメラの日々
 :url: http://tomoaki.cocolog-nifty.com/pc/2005/02/desr7500.html
 :date: 2005-11-28 00:47:52
 :body:
@@ -5799,10 +5799,10 @@ COREblogのインスタンスをPloneフォルダに移動させたところ、
 追記： 環境依存の可能性は高いと思う。別環境で試してからMLに問い合わせてみよう……。
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4746544401
+:trackbacks:
+:trackback id: 2005-11-28.4746544401
 :title: うわ，ほんとだ(Re: COREBlog in Ploneフォルダ)
-:BlogName: TRIVIAL TECHNOLOGIES
+:blog name: TRIVIAL TECHNOLOGIES
 :url: http://coreblog.org/ats/576
 :date: 2005-11-28 00:47:54
 :body:
@@ -5810,10 +5810,10 @@ COREblogのインスタンスをPloneフォルダに移動させたところ、
 多分Ploneインスタンス上にあるattribute(Propertyかなにか)と，COREBlog上のPropertyが衝突して居るんだと思います。明示的にCOREBlogインスタンス上にあるPropertyから...
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4747493431
+:trackbacks:
+:trackback id: 2005-11-28.4747493431
 :title: なんか新しいPLONEとかいうXOOPSみたいなCMS・・・
-:BlogName: レトロブログ - retroさんのブログ - RETRO-MANIA
+:blog name: レトロブログ - retroさんのブログ - RETRO-MANIA
 :url: http://www.retro-mania.net/modules/weblog/details.php?blog_id=28
 :date: 2005-11-28 00:47:54
 :body:
@@ -6355,10 +6355,10 @@ http://home.jp.freebsd.org/cgi-bin/showmail/FreeBSD-users-jp/83454
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4825886520
+:trackbacks:
+:trackback id: 2005-11-28.4825886520
 :title: 新型PSXまもなく発売！
-:BlogName: 快適デジタル空間ショップ
+:blog name: 快適デジタル空間ショップ
 :url: http://webcreate.blog6.fc2.com/blog-entry-3.html
 :date: 2005-11-28 00:48:02
 :body:
@@ -6770,10 +6770,10 @@ http://web.archive.org/web/20060206123300/http://gembook.jp/tsum/page.pys?wiki=P
 
 http://www.python.jp/Zope/workshop/200612/index_html?pp=1
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4864045021
+:trackbacks:
+:trackback id: 2005-11-28.4864045021
 :title: Ploneの使い方
-:BlogName: PukiWiki/TrackBack 0.1
+:blog name: PukiWiki/TrackBack 0.1
 :url: http://tokyo.atso-net.jp/sitedev/index.php?Plone%A4%CE%BB%C8%A4%A4%CA%FD
 :date: 2005-11-28 00:48:06
 :body:
@@ -7216,10 +7216,10 @@ sourceという名前のScript(Python)::
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4906685706
+:trackbacks:
+:trackback id: 2005-11-28.4906685706
 :title: DTMLの中身表示は簡単だった
-:BlogName: [CD]CoffeeDiary
+:blog name: [CD]CoffeeDiary
 :url: http://akiyah.bglb.jp/blog/654
 :date: 2005-11-28 00:48:10
 :body:
@@ -8023,10 +8023,10 @@ COREBlog関連のポートレットやカスタマイズをぼちぼちやって
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4993996777
+:trackbacks:
+:trackback id: 2005-11-28.4993996777
 :title: PlonifiedでもFirefoxなどがRSSを見つけられるようにする
-:BlogName: Feel Fine!
+:blog name: Feel Fine!
 :url: http://forestlaw.ddo.jp/blog/44
 :date: 2005-11-28 00:48:19
 :body:
@@ -8075,10 +8075,10 @@ reStructuredTextの書き方が解らないので手を出さなかったのだ�
 内容の感想は別エントリーで書きます～
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.4998963139
+:trackbacks:
+:trackback id: 2005-11-28.4998963139
 :title: 「Zope Essentials 1」 開催しました
-:BlogName: Zopeジャンキー日記
+:blog name: Zopeジャンキー日記
 :url: http://mojix.org/2005/05/10/235226
 :date: 2005-11-28 00:48:19
 :body:
@@ -8226,10 +8226,10 @@ JavaScript無しでやってると、主にform（リストボックスとか）
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.5014445113
+:trackbacks:
+:trackback id: 2005-11-28.5014445113
 :title: Drag & Drop Sortable Lists で階層的な箇条書きをウンヌンしたい
-:BlogName: [CD]CoffeeDiary
+:blog name: [CD]CoffeeDiary
 :url: http://akiyah.bglb.jp/blog/754
 :date: 2005-11-28 00:48:21
 :body:
@@ -8861,10 +8861,10 @@ ZSilverCity のソースコードを読んでもう一つ、 **docutilsのdirect
 
 
 
-:Trackbacks:
-:TrackbackID: 2006-09-24.8441435501
+:trackbacks:
+:trackback id: 2006-09-24.8441435501
 :title: ZrstAmazon4公開します
-:BlogName: SiteBites Blog
+:blog name: SiteBites Blog
 :url: http://sitebites.homeip.net/blog/147
 :date: 2006-09-24 23:40:44
 :body:
@@ -8988,10 +8988,10 @@ RDFの埋め込みに関して調べてみたところ、以下のサイトが�
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.5075336902
+:trackbacks:
+:trackback id: 2005-11-28.5075336902
 :title: COREBlogのplonifiedスキン対策
-:BlogName: Pingサーバ開発日記
+:blog name: Pingサーバ開発日記
 :url: http://ping.glyle.com/blog/5
 :date: 2005-11-28 00:48:27
 :body:
@@ -9118,10 +9118,10 @@ http://www.rakuten.co.jp/ajimura/
 連れてった友だち、みんなファンになってました。かくいう私も友達の紹介
 んー。
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.5080474802
+:trackbacks:
+:trackback id: 2005-11-28.5080474802
 :title: 餃子 味むら
-:BlogName: ペンギン日記♪
+:blog name: ペンギン日記♪
 :url: http://blog.so-net.ne.jp/chiaki/2005-04-27
 :date: 2005-11-28 00:48:28
 :body:
@@ -9437,10 +9437,10 @@ ZopeEssentials2、無事終了しました。あっ！今回写真が無い！�
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.5105139383
+:trackbacks:
+:trackback id: 2005-11-28.5105139383
 :title: 「実写版」ページ・テンプレート
-:BlogName: チューガナビラの心
+:blog name: チューガナビラの心
 :url: http://kariyushi.plala.jp/chewganabira/10
 :date: 2005-11-28 00:48:30
 :body:
@@ -9542,10 +9542,10 @@ http://support.microsoft.com/?kbid=287402
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.5112182612
+:trackbacks:
+:trackback id: 2005-11-28.5112182612
 :title: FTP を仮想ドライブ化する無料ソフト NetDrive
-:BlogName: 週刊東京Worker　（東京労働者）
+:blog name: 週刊東京Worker　（東京労働者）
 :url: http://tkworker.exblog.jp/3425830
 :date: 2005-11-28 00:48:31
 :body:
@@ -9562,10 +9562,10 @@ NetDrive
 
 
 
-:Trackbacks:
-:TrackbackID: 2006-05-10.1115514921
+:trackbacks:
+:trackback id: 2006-05-10.1115514921
 :title: Windows/tools/NetDrive
-:BlogName: Jicoo Corp. PukiWiki plus (PukiWiki/TrackBack 0.3)
+:blog name: Jicoo Corp. PukiWiki plus (PukiWiki/TrackBack 0.3)
 :url: http://host4.headoffice.jicoo.co.jp/wiki/index.php?Windows%2Ftools%2FNetDrive
 :date: 2006-05-10 13:25:12
 :body:
@@ -10664,10 +10664,10 @@ Microsoftのサイトにいつのまにか詳細な解説が載ってました�
 別の日本語キーボードをさしたりUSBやらPS2やら切り替えていた長年の問題が解決しました。
 101キーボードを常用している身としては大変助かりました。感謝です。
 
-:Trackbacks:
-:TrackbackID: 2006-04-30.4959006564
+:trackbacks:
+:trackback id: 2006-04-30.4959006564
 :title: 日本語キーボードから英語キーボードへ — 清水川Web
-:BlogName: 白い狼の皮を被った黒い羊
+:blog name: 白い狼の皮を被った黒い羊
 :url: http://herd.txt-nifty.com/blacksheep/2006/04/_web_a00c.html
 :date: 2006-04-30 16:34:56
 :body:
@@ -10949,10 +10949,10 @@ plonifiedに変更したときに
 
 
 
-:Trackbacks:
-:TrackbackID: 2005-11-28.5220920963
+:trackbacks:
+:trackback id: 2005-11-28.5220920963
 :title: コメントスパム弾き実験のまとめ
-:BlogName: blogSetomits
+:blog name: blogSetomits
 :url: http://matatabi.homeip.net/blog/setomits/476
 :date: 2005-11-28 00:48:42
 :body:
@@ -12003,10 +12003,10 @@ ZPhotoSlidesからATFolderへ変換
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2006-01-19.0462122281
+:trackbacks:
+:trackback id: 2006-01-19.0462122281
 :title: 笳螺縺ｪ繧薙〒繧ゅ〒縺阪ｋ縺懶ｼ√ル繝ｳ繝Φ繝峨DS笳裸
-:BlogName: 珍しいモノ☆ヘンなモノ大図鑑
+:blog name: 珍しいモノ☆ヘンなモノ大図鑑
 :url: http://plaza.rakuten.co.jp/raelian/diary/200601090001/
 :date: 2006-01-19 12:07:27
 :body:
@@ -12071,10 +12071,10 @@ ZPhotoSlidesからATFolderへ変換
 
 堀田さんの発表が聴けなかったのは残念でしたが（つぎ行ける保証ないし^^;）、結果として２時間フルで個人的にはよかったです。できればテストのところも聴きたかったです～。
 
-:Trackbacks:
-:TrackbackID: 2005-12-14.6352067286
+:trackbacks:
+:trackback id: 2005-12-14.6352067286
 :title: CMS/Blog Exchange 1
-:BlogName: Weboo!Log
+:blog name: Weboo!Log
 :url: http://yamashita.dyndns.org/blog/376
 :date: 2005-12-14 22:23:55
 :body:
@@ -12082,10 +12082,10 @@ ZPhotoSlidesからATFolderへ変換
 もう一昨日(12日)ですけど、参加してきました。またしても、携帯電話を置き忘れたまま家を出てしまいました。私は地図を印刷しない派で、いつもEZナビのお世話になっているので、こういう時は携帯がないと困ります。今回は、1ヶ月くらい前にも行ったことのある場所だったので助かりましたけど…
 内容は、清水川さんによる「COREBlog2と連携する最小プロダクトの作成」というものでした。ソースコードを追いながら基本的なプロダクトの作り方を紹介してくれて、私は細かい所は全然分かってませんが、なんとなくPlon...
 
-:Trackbacks:
-:TrackbackID: 2005-12-15.1158339450
+:trackbacks:
+:trackback id: 2005-12-15.1158339450
 :title: CMS/Blog EXchange 1 に参加してきました
-:BlogName: takanori-log
+:blog name: takanori-log
 :url: http://takanory.net/takalog/429
 :date: 2005-12-15 12:08:36
 :body:
@@ -12225,10 +12225,10 @@ COREBlog2でコメント・トラックバックをAnonymousに対して許可�
     return moderated
 
 
-:Trackbacks:
-:TrackbackID: 2006-06-13.9575564577
+:trackbacks:
+:trackback id: 2006-06-13.9575564577
 :title: COREBlog2 簡易 trackback spam 対策
-:BlogName: takalog
+:blog name: takalog
 :url: http://takanory.net/takalog/553
 :date: 2006-06-13 23:29:18
 :body:
@@ -13729,10 +13729,10 @@ TestDrivenDevelopment. テスト駆動開発。ほんとはこのへんもキャ
 :body:
 ポーションが５０ギルだから１ギル１２．６円かな
 
-:Trackbacks:
-:TrackbackID: 2006-03-19.4349202880
+:trackbacks:
+:trackback id: 2006-03-19.4349202880
 :title: ポーション飲んでどうなった？
-:BlogName: オキラクでいいよね？
+:blog name: オキラクでいいよね？
 :url: http://nrsor.blog.ocn.ne.jp/nrsor/2006/03/post_8770.html
 :date: 2006-03-19 00:40:36
 :body:
@@ -13917,19 +13917,19 @@ Subversion:
 クロスフィールドって駅の構造があーだからかな
 ATCTSmallSampleの公開お疲れ様でした
 
-:Trackbacks:
-:TrackbackID: 2006-03-15.6496337560
+:trackbacks:
+:trackback id: 2006-03-15.6496337560
 :title: COREBlog2縺ｮ髢｢騾｣繧ｪ繝悶ず繧ｧ繧ｯ繝医陦ｨ遉ｺ
-:BlogName: Blog
+:blog name: Blog
 :url: http://www.majingaa.com/blog/coreblog2306e95a2902330aa30a730af30c8306e8868793a
 :date: 2006-03-15 22:34:11
 :body:
  COREBlog2の関連オブジェクトは、文章中の「上部に横に並べる」とか、「左に縦にならべる」などのレイアウトができる。しかし、FireFoxだとちゃんと表示されるのだが、IE6だとなぜかすべて中央に表示されていた。 しらべてみるとIE6がCSSのflo...
 
-:Trackbacks:
-:TrackbackID: 2006-03-15.7435772609
+:trackbacks:
+:trackback id: 2006-03-15.7435772609
 :title: COREBlog2縺ｮ髢｢騾｣繧ｪ繝悶ず繧ｧ繧ｯ繝医陦ｨ遉ｺ
-:BlogName: Blog
+:blog name: Blog
 :url: http://www.majingaa.com/blog/coreblog2306e95a2902330aa30a730af30c8306e8868793a-1
 :date: 2006-03-15 23:34:12
 :body:
@@ -14941,19 +14941,19 @@ PythonのDocTestで手軽にUnitTestを書く事が出来ます。こいつの *
 
 日本ではPythonって何？状態なので、こういう機能が意外と知られてないんですよね‥‥。実際便利ですよー。
 
-:Trackbacks:
-:TrackbackID: 2006-05-21.8311522462
+:trackbacks:
+:trackback id: 2006-05-21.8311522462
 :title: [ruby]RubyでDocTest
-:BlogName: 機械猫の日記
+:blog name: 機械猫の日記
 :url: http://d.hatena.ne.jp/kikaineko/20060521#p1
 :date: 2006-05-21 23:13:51
 :body:
  一昨日のXPユーザ会でpythonにDocTestなる非常にクールな機能があることを教えてもらった。 詳しくはこちら http://www.python.jp/doc/release/lib/module-doctest.html ↓こちらは清水川さんのフラッシュ付き解説 http://www.freia.jp/taka/blog/347 これならTDD×Rubyの迷
 
-:Trackbacks:
-:TrackbackID: 2006-05-22.8938078777
+:trackbacks:
+:trackback id: 2006-05-22.8938078777
 :title: [Python]PythonのDocTestはすごいらしい :-)
-:BlogName: きむだらど〜日記
+:blog name: きむだらど〜日記
 :url: http://d.hatena.ne.jp/afukui/20060522/1148267741
 :date: 2006-05-22 12:18:14
 :body:
@@ -15501,19 +15501,19 @@ ApacheのIPアドレス制限
 
 
 
-:Trackbacks:
-:TrackbackID: 2006-06-27.0228277053
+:trackbacks:
+:trackback id: 2006-06-27.0228277053
 :title: Akismetを使ったトラックバック・スパム対策
-:BlogName: Weboo! Returns.
+:blog name: Weboo! Returns.
 :url: http://yamashita.dyndns.org/blog/reject-trackback-spam-by-akismet
 :date: 2006-06-27 23:20:23
 :body:
 いい加減にトラックバック・スパムがうざくなってきたので対策してみました。COREBlog2におけるコメント＆トラックバック・スパム対策に関しては、清水川さんが纏めてくれているので、それを参考にAkismetというWordPress標準の対策機能を使ってSP...
 
-:Trackbacks:
-:TrackbackID: 2006-07-26.3118481816
+:trackbacks:
+:trackback id: 2006-07-26.3118481816
 :title: COREBlog2のコメントスパム・トラックバックスパム対策
-:BlogName: Triconf Blog
+:blog name: Triconf Blog
 :url: http://triconf.net/blog/coreblog2306e30b330e130f330c830b930e030fb30c830e930c330af30c330af30b930e05bfe7b56
 :date: 2006-07-26 16:18:32
 :body:
@@ -15599,19 +15599,19 @@ http://www.citydo.com/prf/tokyo/guide/sg/280000739.html
 西国分寺にも沖縄料理のお店ありますよー
 行ったことないけど・・・
 
-:Trackbacks:
-:TrackbackID: 2006-06-30.5090838861
+:trackbacks:
+:trackback id: 2006-06-30.5090838861
 :title: ゴーヤチャンプルー
-:BlogName: ロバートのブログ
+:blog name: ロバートのブログ
 :url: http://www.neohawk.org/Members/rbh-ja/roba-to-no-blog/goya-chanpuru
 :date: 2006-06-30 12:18:29
 :body:
  先程、ブログブラウジングをやっていたら、同じプロンを使っている 清水川さんがゴーヤチャンプルーの投稿 を発見。それで思い出した。 ありさも既に投稿している が、このあいだ北東オハイオ州ホーキンズ家がゴーヤチャンプルーを作った。というか、ありさが作った...
 
-:Trackbacks:
-:TrackbackID: 2006-10-11.6644585233
+:trackbacks:
+:trackback id: 2006-10-11.6644585233
 :title: 季節に似合わず
-:BlogName: 湘南広告屋
+:blog name: 湘南広告屋
 :url: http://kokokuya.blog62.fc2.com/blog-entry-7.html
 :date: 2006-10-11 21:11:04
 :body:
@@ -19852,10 +19852,10 @@ iTunesの楽曲が遠隔にあるのは多分色々と大変だし。。
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2011-01-12.9612030523
+:trackbacks:
+:trackback id: 2011-01-12.9612030523
 :title: 犬山城
-:BlogName: 青春18切符で行く,日本の「城」巡り43
+:blog name: 青春18切符で行く,日本の「城」巡り43
 :url: http://oojijisun43.seesaa.net/article/171911439.html
 :date: 2011-01-12 08:02:42
 :body:
@@ -19929,10 +19929,10 @@ INTEROP出展
 
 沖縄か。いいな。
 
-:Trackbacks:
-:TrackbackID: 2007-07-27.2983277948
+:trackbacks:
+:trackback id: 2007-07-27.2983277948
 :title: 北海道の鮭 鮭児は 最高ですね 鮭の食べ方いろいろあります 観光名所を回って温泉観光地などいろいろな料理がありますので是非食事をしてください 旨いです
-:BlogName: 北海道札幌から始まり全道の観光地、観光名所、市町村の情報紹介
+:blog name: 北海道札幌から始まり全道の観光地、観光名所、市町村の情報紹介
 :url: http://xn--djrs4x26g8vg460c.sblo.jp/article/4833599.html
 :date: 2007-07-27 12:18:19
 :body:
@@ -20892,10 +20892,10 @@ WindowMessage処理の中でSleepして大丈夫だったっけ...？ま、い�
 :body:
 再接続を一定回数以上繰り返すとpfwdが落ちます。やっぱり手抜きは良くない。
 
-:Trackbacks:
-:TrackbackID: 2007-10-01.9813608809
+:trackbacks:
+:trackback id: 2007-10-01.9813608809
 :title: [Django][Python][jQuery][CSS][その他]巡回
-:BlogName: 常山日記
+:blog name: 常山日記
 :url: http://d.hatena.ne.jp/johzan/20071001/1191208935
 :date: 2007-10-01 12:23:02
 :body:
@@ -23148,10 +23148,10 @@ MacOS 10.5 + MacVimで問題なく動作しています。
 :body:
 そのトラックバック元のURLはどうなのよ？
 
-:Trackbacks:
-:TrackbackID: 2008-02-07.2142578609
+:trackbacks:
+:trackback id: 2008-02-07.2142578609
 :title: 吉村メモ
-:BlogName: PukiWiki Plus! (PukiWiki/TrackBack 0.3)
+:blog name: PukiWiki Plus! (PukiWiki/TrackBack 0.3)
 :url: https://58.157.52.199:443/localwiki/index.php?%B5%C8%C2%BC%A5%E1%A5%E2
 :date: 2008-02-07 17:33:35
 :body:
@@ -23641,10 +23641,10 @@ tcshっぽい操作感ですごく便利だ！
 :body:
 これはよさそう・・・
 
-:Trackbacks:
-:TrackbackID: 2009-05-31.1226238521
+:trackbacks:
+:trackback id: 2009-05-31.1226238521
 :title: Windowsのコマンドプロンプトをフリーソフトで便利にする
-:BlogName: ナレッジエース
+:blog name: ナレッジエース
 :url: http://blog.blueblack.net/item_358
 :date: 2009-05-31 01:15:22
 :body:
@@ -24367,10 +24367,10 @@ Vista+ATOK2006からVista+ATOK2008へ移行して安定環境！とか思った�
 :body:
 Amazonでなら時々釣られます...。あ、宅配DVDレンタルではよく辿るなあ。釣られても高々400円。
 
-:Trackbacks:
-:TrackbackID: 2008-04-03.4522790159
+:trackbacks:
+:trackback id: 2008-04-03.4522790159
 :title: ATOK2008を5,000円以下でお得に買う方法
-:BlogName: ニートのFXブログ
+:blog name: ニートのFXブログ
 :url: http://www.fxneet.com/cat7/atok20085000.php
 :date: 2008-04-03 15:48:49
 :body:
@@ -24548,10 +24548,10 @@ svn updateに失敗したようですね。
 原因が分かりました。
 ありがとうございます:)
 
-:Trackbacks:
-:TrackbackID: 2008-02-17.5025776344
+:trackbacks:
+:trackback id: 2008-02-17.5025776344
 :title: [Python]巡回
-:BlogName: 常山日記
+:blog name: 常山日記
 :url: http://d.hatena.ne.jp/johzan/20080217/1203186472
 :date: 2008-02-17 03:28:24
 :body:
@@ -24791,10 +24791,10 @@ http://jp.brothersoft.com/downloads-vista-vmware-server.html
 :body:
 ありがたく読ませていただきます:^)
 
-:Trackbacks:
-:TrackbackID: 2008-03-14.7298381049
+:trackbacks:
+:trackback id: 2008-03-14.7298381049
 :title: Solarisも一緒にBuildbot？
-:BlogName: 渋日記
+:blog name: 渋日記
 :url: http://sky.ap.teacup.com/shibu/32.html
 :date: 2008-03-14 22:18:50
 :body:
@@ -25863,10 +25863,10 @@ http://d.hatena.ne.jp/Isoparametric/20080417/1208387767
 :body:
 それでいいんだ。でも [::-1]もそうだけど、あまりやると可読性はもうひとつになるよね
 
-:Trackbacks:
-:TrackbackID: 2008-04-23.1537476563
+:trackbacks:
+:trackback id: 2008-04-23.1537476563
 :title: [Python][Mercurial]巡回
-:BlogName: 常山日記
+:blog name: 常山日記
 :url: http://d.hatena.ne.jp/johzan/20080423/1208881139
 :date: 2008-04-23 01:19:15
 :body:
@@ -26123,10 +26123,10 @@ utf-8でのHTML作成を依頼したらEUC-JPで送られてきたので自分�
 
 まあそれはフルコピーがある前提で。。
 
-:Trackbacks:
-:TrackbackID: 2008-05-20.6678297840
+:trackbacks:
+:trackback id: 2008-05-20.6678297840
 :title: [Python][Mercurial]巡回
-:BlogName: 常山日記
+:blog name: 常山日記
 :url: http://d.hatena.ne.jp/johzan/20080520/1211274627
 :date: 2008-05-20 18:11:09
 :body:
@@ -26310,10 +26310,10 @@ PS3の `まいにちいっしょ`_ で紹介されていた ``釜焼きパンケ
 確かに(^^;;
 うちのは内装8段オートマ機構のせいで12kgくらいあるので、こんどは超軽いのが欲しいなあ。置く場所無いけど。。
 
-:Trackbacks:
-:TrackbackID: 2008-06-25.1940026706
+:trackbacks:
+:trackback id: 2008-06-25.1940026706
 :title: ルイガノ　一番人気　JEDI（ジェダイ）
-:BlogName: たーしメモ
+:blog name: たーしメモ
 :url: http://ta-shimemo.livedoor.biz/archives/164791.html
 :date: 2008-06-25 16:49:55
 :body:
@@ -28806,10 +28806,10 @@ ckw ではAllocConsoleを使ってコンソールWindowを作成しつつ、非�
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2009-07-12.4853193075
+:trackbacks:
+:trackback id: 2009-07-12.4853193075
 :title: Tools@System
-:BlogName: @note (PukiWiki/TrackBack 0.4)
+:blog name: @note (PukiWiki/TrackBack 0.4)
 :url: http://redpanda.sakura.ne.jp/wiki/note/index.php?Tools%40System
 :date: 2009-07-12 13:54:46
 :body:
@@ -29638,10 +29638,10 @@ Suicaの登録に使ってるケータイメールアドレスは1台にしか�
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2009-05-22.3600781470
+:trackbacks:
+:trackback id: 2009-05-22.3600781470
 :title: plone研究会(2009-05)
-:BlogName: takalog
+:blog name: takalog
 :url: http://takanory.net/takalog/1083
 :date: 2009-05-22 23:42:40
 :body:
@@ -34536,10 +34536,10 @@ Varnish とかリバースプロクシがある場合どこに置くかみたい
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2009-11-10.2494892459
+:trackbacks:
+:trackback id: 2009-11-10.2494892459
 :title: ファミリーコンサート 2009 終了
-:BlogName: takalog
+:blog name: takalog
 :url: http://takanory.net/takalog/1176
 :date: 2009-11-10 23:44:15
 :body:
@@ -36966,10 +36966,10 @@ CSS部分を見ると分かりますが、 ``margin-left: -100%;`` という怪�
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2010-12-16.2161462531
+:trackbacks:
+:trackback id: 2010-12-16.2161462531
 :title: Excelはシート単位でプリンタの印刷設定情報を持つとか
-:BlogName: やそきちの我楽多置場
+:blog name: やそきちの我楽多置場
 :url: http://aruhi.cocolog-nifty.com/blog/2010/12/excel-ae73.html
 :date: 2010-12-16 21:06:56
 :body:
@@ -37429,10 +37429,10 @@ Python テスティング: 初心者向けガイド
 :body:
 釜揚げにかきあげは喰いづらぞう(笑)
 
-:Trackbacks:
-:TrackbackID: 2011-03-30.4961186060
+:trackbacks:
+:trackback id: 2011-03-30.4961186060
 :title: 楽釜製麺所の「豚の角煮うどん大」
-:BlogName: まろまろ記
+:blog name: まろまろ記
 :url: http://maromaro.com/archive/2011/02/18/rakugama.php
 :date: 2011-03-30 21:01:37
 :body:
@@ -37923,10 +37923,10 @@ Expert Python Programming と比べてみると若干厚くて、若干重い。
 自分の名前が本に載るのってすごいな。
 なにはともあれ、おめでとう。
 
-:Trackbacks:
-:TrackbackID: 2010-05-30.6536916197
+:trackbacks:
+:trackback id: 2010-05-30.6536916197
 :title: [python] エキスパートPythonプログラミング
-:BlogName: 彷徨えるフジワラ
+:blog name: 彷徨えるフジワラ
 :url: http://d.hatena.ne.jp/flying-foozy/20100530/1275155241
 :date: 2010-05-30 02:54:14
 :body:
@@ -40873,19 +40873,19 @@ iPhone 3GS のマルチタスク切れませんか？とiOS4にしてからず�
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2010-12-01.8663231772
+:trackbacks:
+:trackback id: 2010-12-01.8663231772
 :title: [Python]Pythonでデータ定義行のファイル名と行番号を手に入れる
-:BlogName: atsuoishimotoの日記
+:blog name: atsuoishimotoの日記
 :url: http://d.hatena.ne.jp/atsuoishimoto/20101130/1291130861
 :date: 2010-12-01 00:27:47
 :body:
  ふと思いついたので書いておく。 Pythonでデータ定義行のファイル名と行番号を手に入れる - 清水川Web では、Pythonでデータの定義位置を記録する方法として、データ生成用の関数を作ってその中でデータの定義位置を記録する方式が提案されている。 このようにデータの定義
 
-:Trackbacks:
-:TrackbackID: 2010-12-02.2326312907
+:trackbacks:
+:trackback id: 2010-12-02.2326312907
 :title: [python]pythonで__line__を使う
-:BlogName: yanolabの日記
+:blog name: yanolabの日記
 :url: http://d.hatena.ne.jp/yanolab/20101202/1291261115
 :date: 2010-12-02 12:40:34
 :body:
@@ -41021,10 +41021,10 @@ cook.pyを実行したときにトレースバックに出てくる情報は以�
 :extend:
 
 
-:Trackbacks:
-:TrackbackID: 2010-12-02.2417151585
+:trackbacks:
+:trackback id: 2010-12-02.2417151585
 :title: [python]pythonで__line__を使う
-:BlogName: yanolabの日記
+:blog name: yanolabの日記
 :url: http://d.hatena.ne.jp/yanolab/20101202/1291261115
 :date: 2010-12-02 12:40:41
 :body:

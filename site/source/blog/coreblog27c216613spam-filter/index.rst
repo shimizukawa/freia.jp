@@ -53,17 +53,12 @@
     return moderated
 
 
-:Trackbacks:
-:TrackbackID: 2006-06-13.9575564577
-:BlogName: takalog
-:url: http://takanory.net/takalog/553
-:date: 2006-06-13 23:29:18
-
-=============================================
-2006/06/13 COREBlog2 簡易 trackback spam 対策
-=============================================
-
-*Category: 'Plone'*
-
- 最近このサイトに大量の trackback spam が届くようになりました。  で、言及リンク付きかどうかチェックではじこうかと思っていたんですが、いろいろ問題があってできてませんでした。  そうは言っても spam は止まりません。COREB...
-
+.. :trackbacks:
+.. :trackback id: 2006-06-13.9575564577
+.. :title: COREBlog2 簡易 trackback spam 対策
+.. :blog name: takalog
+.. :url: http://takanory.net/takalog/553
+.. :date: 2006-06-13 23:29:18
+.. :body:
+..  最近このサイトに大量の trackback spam が届くようになりました。  で、言及リンク付きかどうかチェックではじこうかと思っていたんですが、いろいろ問題があってできてませんでした。  そうは言っても spam は止まりません。COREB...
+.. 

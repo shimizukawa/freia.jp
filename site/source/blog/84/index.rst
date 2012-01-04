@@ -72,10 +72,10 @@ COREBlogのソースを確認してみたところ、rotorを使っているの�
 .. Pythonと同時にZopeもVerUpしたので*.pycが無効になって、起動時のProductコンパイルで引っかかった‥‥とか？
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.4557388537
+.. :trackbacks:
+.. :trackback id: 2005-11-28.4557388537
 .. :title: FreeBSDでのPythonとZopeとの関係修復の状況
-.. :BlogName: YasiYasi's Blog
+.. :blog name: YasiYasi's Blog
 .. :url: http://yasi.minidns.net/blog/117
 .. :date: 2005-11-28 00:47:35
 .. :body:

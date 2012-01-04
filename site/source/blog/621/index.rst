@@ -35,17 +35,12 @@ ckw ではAllocConsoleを使ってコンソールWindowを作成しつつ、非�
 
 
 
-:Trackbacks:
-:TrackbackID: 2009-07-12.4853193075
-:BlogName: @note (PukiWiki/TrackBack 0.4)
-:url: http://redpanda.sakura.ne.jp/wiki/note/index.php?Tools%40System
-:date: 2009-07-12 13:54:46
-
-=======================
-2009/07/12 Tools@System
-=======================
-
-*Category: 'Programming', 'Windows'*
-
-CommandPrompt    cmd.exe代替アプリckwの改造版をさらに改造してconfig切り替え機能を付けたい - 清水川Web    Bookmarks    cmd.exe代替アプリckwの改造版をさらに改造してconfig切り替え機能を付けたい - 清水川Web Mobile Orz: フォルダの使用量を可視化するソフトを...
-
+.. :trackbacks:
+.. :trackback id: 2009-07-12.4853193075
+.. :title: Tools@System
+.. :blog name: @note (PukiWiki/TrackBack 0.4)
+.. :url: http://redpanda.sakura.ne.jp/wiki/note/index.php?Tools%40System
+.. :date: 2009-07-12 13:54:46
+.. :body:
+.. CommandPrompt    cmd.exe代替アプリckwの改造版をさらに改造してconfig切り替え機能を付けたい - 清水川Web    Bookmarks    cmd.exe代替アプリckwの改造版をさらに改造してconfig切り替え機能を付けたい - 清水川Web Mobile Orz: フォルダの使用量を可視化するソフトを...
+.. 

@@ -49,10 +49,10 @@ tcshっぽい操作感ですごく便利だ！
 .. :body:
 .. これはよさそう・・・
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2009-05-31.1226238521
+.. :trackbacks:
+.. :trackback id: 2009-05-31.1226238521
 .. :title: Windowsのコマンドプロンプトをフリーソフトで便利にする
-.. :BlogName: ナレッジエース
+.. :blog name: ナレッジエース
 .. :url: http://blog.blueblack.net/item_358
 .. :date: 2009-05-31 01:15:22
 .. :body:

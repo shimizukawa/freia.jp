@@ -38,10 +38,10 @@
 .. 
 .. 
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2005-11-28.5105139383
+.. :trackbacks:
+.. :trackback id: 2005-11-28.5105139383
 .. :title: 「実写版」ページ・テンプレート
-.. :BlogName: チューガナビラの心
+.. :blog name: チューガナビラの心
 .. :url: http://kariyushi.plala.jp/chewganabira/10
 .. :date: 2005-11-28 00:48:30
 .. :body:

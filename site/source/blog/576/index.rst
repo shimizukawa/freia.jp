@@ -49,10 +49,10 @@
 .. 確かに(^^;;
 .. うちのは内装8段オートマ機構のせいで12kgくらいあるので、こんどは超軽いのが欲しいなあ。置く場所無いけど。。
 .. 
-.. :Trackbacks:
-.. :TrackbackID: 2008-06-25.1940026706
+.. :trackbacks:
+.. :trackback id: 2008-06-25.1940026706
 .. :title: ルイガノ　一番人気　JEDI（ジェダイ）
-.. :BlogName: たーしメモ
+.. :blog name: たーしメモ
 .. :url: http://ta-shimemo.livedoor.biz/archives/164791.html
 .. :date: 2008-06-25 16:49:55
 .. :body:
