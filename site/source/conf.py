@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import sys, os
-#sys.path.append(os.path.abspath('.'))
+sys.path.append(os.path.abspath('.'))
 
 # -- Extensions -----------------------------------------------------
 extensions = [
         'sphinxcontrib.blockdiag',
         'sphinxcontrib.seqdiag',
         'sphinx.ext.todo',
+        'iframe',
         #'blogtoctree',
         #'tinkerer.ext.blog',
         #'tinkerer.ext.disqus',
