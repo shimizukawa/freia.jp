@@ -4,6 +4,7 @@
 
 .. todo::
 
+   * 既存のblogコメントとtrackbackの表示
    * RSS復帰
    * blogの画像復帰
    * blogのhatena URL調整
