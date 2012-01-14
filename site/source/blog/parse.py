@@ -11,8 +11,6 @@ import unicodedata
 import datetime
 import itertools
 
-field_matcher = re.compile('^:([\w\s_-]+):\s*(.*)\s*$').match
-codeblock_matcher = re.compile('^(\s*.. code-block::)\s+([\w\s_-]+)\s*$').match
 
 filetype = {
         'text/structured': '.stx',
@@ -30,6 +28,85 @@ def wlen(text):
         else:  # 'N', 'Na', 'H'
             n += 1
     return n
+
+
+class FieldListProc(object):
+    matcher = re.compile('^:([\w\s_-]+):\s*(.*)\s*$').match
+
+    def __call__(self, entry, line):
+        m = self.matcher(line)
+        if not m:
+            return line
+
+        key,value = m.groups()
+        if key == 'id':
+            entry.id = value
+            line = None
+        elif key == 'title':
+            entry.title = value
+            line = None
+        elif key == 'date':
+            entry.date = datetime.datetime.strptime(value, '%Y-%m-%d %H:%M:%S')
+        elif key == 'categories':
+            entry.categories = value.strip('[] \r\n')
+        elif key == 'body type':
+            entry.body_type = value
+        elif key == 'extend type':
+            line = '.. ' + line
+        elif key == 'extend':
+            line = '.. ' + line + '\n'
+        elif key in ('comments', 'trackbacks'):
+            line = '.. ' + line
+            entry.comment = True
+        elif key == 'body':
+            line = ''
+            title = entry.title
+            if title:
+                if entry.date:
+                    title = entry.date.strftime('%Y/%m/%d ') + title
+                border = '=' * wlen(title)
+                line = ''.join([
+                    '\n',
+                    border+'\n',
+                    title+'\n',
+                    border+'\n',
+                    '\n',
+                ])
+            if entry.categories:
+                line += '*Category: %s*\n\n' % entry.categories
+            if value:
+                line += value
+
+        if line is not None:
+            entry.body.append(line)
+        return None
+
+
+class CodeblockProc(object):
+    matcher = re.compile('^(\s*.. code-block::)\s+([\w\s_-]+)\s*$').match
+
+    def __call__(self, entry, line):
+        m = self.matcher(line)
+        if not m:
+            return line
+
+        key,value = m.groups()
+        entry.body.append("%s %s" % (key, value.lower()))
+        return None
+
+
+class CorrectShortlineProc(object):
+
+    def __call__(self, entry, line):
+        l = line.rstrip('\r\n ')
+        grouped = list(itertools.groupby(sorted(l)))
+        if len(grouped) == 1:
+            k, g = grouped[0]
+            if k in '#*=-^"~':
+                if len(l) < entry.prev_wlen:
+                    line = k * entry.prev_wlen + '\n'
+        entry.prev_wlen = wlen(line.rstrip('\r\n '))
+        return line
 
 
 class Entry(object):
@@ -51,80 +128,14 @@ class Entry(object):
         self.categories = None
         self.prev_wlen = 0  # for correct_shortline_proc
 
-        def field_list_proc(entry, line):
-            m = field_matcher(line)
-            if not m:
-                return line
-
-            key,value = m.groups()
-            if key == 'id':
-                entry.id = value
-                line = None
-            elif key == 'title':
-                entry.title = value
-                line = None
-            elif key == 'date':
-                entry.date = datetime.datetime.strptime(value, '%Y-%m-%d %H:%M:%S')
-            elif key == 'categories':
-                entry.categories = value.strip('[] \r\n')
-            elif key == 'body type':
-                entry.body_type = value
-            elif key == 'extend type':
-                line = '.. ' + line
-            elif key == 'extend':
-                line = '.. ' + line + '\n'
-            elif key in ('comments', 'trackbacks'):
-                line = '.. ' + line
-                entry.comment = True
-            elif key == 'body':
-                line = ''
-                title = entry.title
-                if title:
-                    if entry.date:
-                        title = entry.date.strftime('%Y/%m/%d ') + title
-                    border = '=' * wlen(title)
-                    line = ''.join([
-                        '\n',
-                        border+'\n',
-                        title+'\n',
-                        border+'\n',
-                        '\n',
-                    ])
-                if entry.categories:
-                    line += '*Category: %s*\n\n' % entry.categories
-                if value:
-                    line += value
-
-            if line is not None:
-                entry.body.append(line)
-            return None
-
-        def codeblock_proc(entry, line):
-            m = codeblock_matcher(line)
-            if not m:
-                return line
-
-            key,value = m.groups()
-            entry.body.append("%s %s" % (key, value.lower()))
-            return None
-
-        def correct_shortline_proc(entry, line):
-            l = line.rstrip('\r\n ')
-            grouped = list(itertools.groupby(sorted(l)))
-            if len(grouped) == 1:
-                k, g = grouped[0]
-                if k in '#*=-^"~':
-                    if len(l) < entry.prev_wlen:
-                        line = k * entry.prev_wlen + '\n'
-            entry.prev_wlen = wlen(line.rstrip('\r\n '))
-            return line
+        procs = [FieldListProc(), CodeblockProc(), CorrectShortlineProc()]
 
         for line in payload:
             if self.comment:
                 self.body.append('.. ' + line)
                 continue
 
-            for proc in [field_list_proc, codeblock_proc, correct_shortline_proc]:
+            for proc in procs:
                 line = proc(self, line)
                 if line is None:
                     break
