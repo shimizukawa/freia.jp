@@ -51,37 +51,37 @@ class Entry(object):
         self.categories = None
         self.prev_wlen = 0  # for correct_shortline_proc
 
-        def field_list_proc(line):
+        def field_list_proc(entry, line):
             m = field_matcher(line)
             if not m:
                 return line
 
             key,value = m.groups()
             if key == 'id':
-                self.id = value
+                entry.id = value
                 line = None
             elif key == 'title':
-                self.title = value
+                entry.title = value
                 line = None
             elif key == 'date':
-                self.date = datetime.datetime.strptime(value, '%Y-%m-%d %H:%M:%S')
+                entry.date = datetime.datetime.strptime(value, '%Y-%m-%d %H:%M:%S')
             elif key == 'categories':
-                self.categories = value.strip('[] \r\n')
+                entry.categories = value.strip('[] \r\n')
             elif key == 'body type':
-                self.body_type = value
+                entry.body_type = value
             elif key == 'extend type':
                 line = '.. ' + line
             elif key == 'extend':
                 line = '.. ' + line + '\n'
             elif key in ('comments', 'trackbacks'):
                 line = '.. ' + line
-                self.comment = True
+                entry.comment = True
             elif key == 'body':
                 line = ''
-                title = self.title
+                title = entry.title
                 if title:
-                    if self.date:
-                        title = self.date.strftime('%Y/%m/%d ') + title
+                    if entry.date:
+                        title = entry.date.strftime('%Y/%m/%d ') + title
                     border = '=' * wlen(title)
                     line = ''.join([
                         '\n',
@@ -90,33 +90,33 @@ class Entry(object):
                         border+'\n',
                         '\n',
                     ])
-                if self.categories:
-                    line += '*Category: %s*\n\n' % self.categories
+                if entry.categories:
+                    line += '*Category: %s*\n\n' % entry.categories
                 if value:
                     line += value
 
             if line is not None:
-                self.body.append(line)
+                entry.body.append(line)
             return None
 
-        def codeblock_proc(line):
+        def codeblock_proc(entry, line):
             m = codeblock_matcher(line)
             if not m:
                 return line
 
             key,value = m.groups()
-            self.body.append("%s %s" % (key, value.lower()))
+            entry.body.append("%s %s" % (key, value.lower()))
             return None
 
-        def correct_shortline_proc(line):
+        def correct_shortline_proc(entry, line):
             l = line.rstrip('\r\n ')
             grouped = list(itertools.groupby(sorted(l)))
             if len(grouped) == 1:
                 k, g = grouped[0]
                 if k in '#*=-^"~':
-                    if len(l) < self.prev_wlen:
-                        line = k * self.prev_wlen + '\n'
-            self.prev_wlen = wlen(line.rstrip('\r\n '))
+                    if len(l) < entry.prev_wlen:
+                        line = k * entry.prev_wlen + '\n'
+            entry.prev_wlen = wlen(line.rstrip('\r\n '))
             return line
 
         for line in payload:
@@ -125,7 +125,7 @@ class Entry(object):
                 continue
 
             for proc in [field_list_proc, codeblock_proc, correct_shortline_proc]:
-                line = proc(line)
+                line = proc(self, line)
                 if line is None:
                     break
             else:
