@@ -97,15 +97,18 @@ class CodeblockProc(object):
 
 class CorrectShortlineProc(object):
 
+    def __init__(self):
+        self.prev_wlen = 0
+
     def __call__(self, entry, line):
         l = line.rstrip('\r\n ')
         grouped = list(itertools.groupby(sorted(l)))
         if len(grouped) == 1:
             k, g = grouped[0]
             if k in '#*=-^"~':
-                if len(l) < entry.prev_wlen:
-                    line = k * entry.prev_wlen + '\n'
-        entry.prev_wlen = wlen(line.rstrip('\r\n '))
+                if len(l) < self.prev_wlen:
+                    line = k * self.prev_wlen + '\n'
+        self.prev_wlen = wlen(line.rstrip('\r\n '))
         return line
 
 
@@ -126,7 +129,6 @@ class Entry(object):
         self.body_type = None
         self.date = None
         self.categories = None
-        self.prev_wlen = 0  # for correct_shortline_proc
 
         procs = [FieldListProc(), CodeblockProc(), CorrectShortlineProc()]
 
