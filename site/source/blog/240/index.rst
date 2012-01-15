@@ -10,7 +10,7 @@
 
 今日は仕事のプロジェクトのリリース日です。イテレーション方式を導入して5回目のイテレーションの終了日なのですが、こんなに穏やかな最終日は初めてかもしれない（笑）。
 
-.. figure:: images/20050831_burndown/thumb?width=320
+.. figure:: 20050831_burndown
   :target: images/20050831_burndown
 
 .. class:: visualClear

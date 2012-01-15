@@ -14,7 +14,7 @@
 
 行きはまだともかく、帰ってこれるだろうか‥‥
 
-.. |wzoff-1| image:: images/wzoff2004-1
+.. |wzoff-1| image:: wzoff2004-1
 
 
 .. :extend type: text/plain

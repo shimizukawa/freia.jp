@@ -24,8 +24,8 @@
 
 |hirokiuni_neko|
 
-.. |hirokiuni| image:: images/hirokiuni
-.. |hirokiuni_neko| image:: images/hirokiuni_neko
+.. |hirokiuni| image:: hirokiuni
+.. |hirokiuni_neko| image:: hirokiuni_neko
 
 
 

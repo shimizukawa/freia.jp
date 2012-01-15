@@ -23,11 +23,11 @@
 会場の様子
 ----------
 
-.. figure:: images/20091205_zopeplonedev6_1.jpg/image_preview
+.. figure:: 20091205_zopeplonedev6_1.jpg
 
   各自の勉強の予定
 
-.. figure:: images/20091205_zopeplonedev6_2.jpg/image_preview
+.. figure:: 20091205_zopeplonedev6_2.jpg
 
   会場の様子
 

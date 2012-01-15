@@ -66,6 +66,6 @@ pyui_ は最新版の1.00があるのですが、間違って0.95を使用しま
 .. _PyOpenGL: http://sourceforge.net/project/showfiles.php?group_id=5988
 .. _PIL: http://www.pythonware.com/products/pil/
 .. _GLUT: http://www.xmission.com/~nate/glut.html
-.. |pyuitest1| image:: images/pyuitest1
+.. |pyuitest1| image:: pyuitest1
 
 

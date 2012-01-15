@@ -17,7 +17,7 @@
 .. :extend type: text/x-rst
 .. :extend:
 
-.. figure:: images/ajimura1
+.. figure:: ajimura1
   :align: left
   :class: visualClear
 
@@ -25,7 +25,7 @@
   手前が焼き餃子（粒ニンニク入り）。
   水餃子のジューシーさにうっとり‥‥
 
-.. figure:: images/ajimura2
+.. figure:: ajimura2
   :align: left
   :class: visualClear
 

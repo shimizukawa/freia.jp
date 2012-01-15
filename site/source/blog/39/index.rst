@@ -19,7 +19,7 @@ XP祭り2004_ に参加してきました。とりあえず写真メモという
 
 
 .. _XP祭り2004: http://www.xpjug.org/event/20040726maturi/regist
-.. |XP祭り2004 アジェンダ|       image:: images/xpfesta2004_ajenda
+.. |XP祭り2004 アジェンダ|       image:: xpfesta2004_ajenda
  
 
 
@@ -127,12 +127,12 @@ XPをどうやって導入していくのかという内容で、 小島さん_ 
 
 次は 8/4の ソフトウェアパターン勉強会_ に参加します。
 
-.. |常に動き続ける平鍋さん|      image:: images/xpfesta2004_hiranabe
-.. |プロジェクトの進路と時期って台風みたいなものだよね| image:: images/xpfesta2004_hurricane
-.. |XP祭りの景品になぜかASIMOが| image:: images/xpfesta2004_asimo
-.. |景品をもらう人々|            image:: images/xpfesta2004_present
-.. |私ももらいました！|          image:: images/xpfesta2004_aspectj
-.. |鷲崎さんの一本締め|          image:: images/xpfesta2004_closing
+.. |常に動き続ける平鍋さん|      image:: xpfesta2004_hiranabe
+.. |プロジェクトの進路と時期って台風みたいなものだよね| image:: xpfesta2004_hurricane
+.. |XP祭りの景品になぜかASIMOが| image:: xpfesta2004_asimo
+.. |景品をもらう人々|            image:: xpfesta2004_present
+.. |私ももらいました！|          image:: xpfesta2004_aspectj
+.. |鷲崎さんの一本締め|          image:: xpfesta2004_closing
 
 .. _渋川さん: http://www.shibu.jp/
 .. _小島さん: http://d.hatena.ne.jp/Fujiwo

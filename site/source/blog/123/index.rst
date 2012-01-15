@@ -21,8 +21,8 @@
 京王線新宿駅ホームの **高尾山蕎麦フェア広告に惑わされた** わけではない。けっして。
 
 .. _`渡邊`: http://www.bekkoame.ne.jp/~kodama-m/soba/w/watanabe.html
-.. |toriwasa| image:: images/watanabe_toriwasa
-.. |yamakake| image:: images/watanabe_yamakake
+.. |toriwasa| image:: watanabe_toriwasa
+.. |yamakake| image:: watanabe_yamakake
 
 
 

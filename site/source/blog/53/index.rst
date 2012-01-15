@@ -28,7 +28,7 @@ MindManager形式(mmap)のファイルを見る Viewer_ があります(11MB...)
 
 # *サーバー落ちまくりです‥‥メンテしなきゃ‥‥。*
 
-.. |太田さん| image:: images/patterns7_intro
+.. |太田さん| image:: patterns7_intro
 .. _パターン勉強会: http://patterns-wg.fuka.info.waseda.ac.jp/study/7th.html
 .. _mmap: file/pattern/pattern7_memo.mmap
 .. _ppt: file/pattern/pattern7_memo.ppt

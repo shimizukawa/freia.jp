@@ -13,7 +13,7 @@
 .. _`エキスパートPythonプログラミング`: http://ascii.asciimw.jp/books/books/detail/978-4-04-868629-7.shtml
 .. _`Expert Python Programming`: http://www.packtpub.com/expert-python-programming/book
 
-.. figure:: images/expert_python_programming_ja.jpg/image_preview
+.. figure:: expert_python_programming_ja.jpg
 
 :タイトル: エキスパートPythonプログラミング
 :出版社: アスキー・メディアワークス

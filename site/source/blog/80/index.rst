@@ -23,8 +23,8 @@
 
 
 .. _`Logicoolの無線コントローラー`: http://www.logicool.co.jp/products/gamecontrollers/lpgc_60000.html
-.. |psx_wl_cable1| image:: images/psx_wl_cable1
-.. |psx_wl_cable2| image:: images/psx_wl_cable2
+.. |psx_wl_cable1| image:: psx_wl_cable1
+.. |psx_wl_cable2| image:: psx_wl_cable2
 
 
 

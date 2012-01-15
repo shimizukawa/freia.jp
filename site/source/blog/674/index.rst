@@ -19,7 +19,7 @@
 * 9月頃に @zenich の自転車と30分くらい交換して乗ってみたり
 * 手動で変速変えるのは苦手だ。
 
-.. image:: images/20061112_tamagawa_susuki.jpg/image_thumb
+.. image:: 20061112_tamagawa_susuki.jpg
   :target: images/20061112_tamagawa_susuki.jpg
   :class: lightbox
 
@@ -36,7 +36,7 @@ Python温泉は技術修練の場です！
 -----------
 * ラタトゥーユを大皿３つくらい作って1週間延々とそればっかり食べてた
 
-.. image:: images/20090818_rata.jpg/image_thumb
+.. image:: 20090818_rata.jpg
   :target: images/20090818_rata.jpg
   :class: lightbox
 
@@ -44,7 +44,7 @@ Python温泉は技術修練の場です！
 * 毎日1本 やさいしぼり。
 * ホームベーカリーで月に何回かパン焼いてる。焼きたてパンならバターだけで1斤いける！
 
-.. image:: images/20090308_bakery.jpg/image_thumb
+.. image:: 20090308_bakery.jpg
   :target: images/20090308_bakery.jpg
   :class: lightbox
 
@@ -68,7 +68,7 @@ Python温泉は技術修練の場です！
 * エヴァ 破 を最前列端っこで見たら、目と首が疲れた。
 * サマーウォーズ を２回観に行った！花札買うかな！
 
-.. image:: images/20090925_summerwars.jpg/image_thumb
+.. image:: 20090925_summerwars.jpg
   :target: images/20090925_summerwars.jpg
   :class: lightbox
 
@@ -81,7 +81,7 @@ Python温泉は技術修練の場です！
 * http://docs.zope.jp/ を公開した。先週土日は2日間英訳ばっかりだったなー。
 * @koichiroo に誘われて `Tokyu.rb`_ に参加してきた。すき焼き食べ放題だった。
 
-.. image:: images/20091002_tokyurb.jpg/image_thumb
+.. image:: 20091002_tokyurb.jpg
   :target: images/20091002_tokyurb.jpg
   :class: lightbox
 
@@ -102,7 +102,7 @@ Python温泉は技術修練の場です！
 * スタートレック
 * スタートレック
 
-.. image:: images/20091010_startrek_boxes.jpg/image_thumb
+.. image:: 20091010_startrek_boxes.jpg
   :target: images/20091010_startrek_boxes.jpg
   :class: lightbox
 
@@ -115,7 +115,7 @@ Python温泉は技術修練の場です！
 * 戦場のヴァルキュリア。2やりたいけどPSP持ってないしなあ。
 * ドラクエ９。クリアしたら熱が冷めたヨ。
 
-.. image:: images/20091010_dq9.jpg/image_thumb
+.. image:: 20091010_dq9.jpg
   :target: images/20091010_dq9.jpg
   :class: lightbox
 

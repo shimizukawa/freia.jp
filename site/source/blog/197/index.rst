@@ -14,7 +14,7 @@
 
 その後、清水川宅（というか俺んち）にて定例クリスマスイベント写真閲覧会に突入。楽しいひとときでした。
 
-.. |dimple_cake| image:: images/dimple_cake
+.. |dimple_cake| image:: dimple_cake
 .. _Dimple: http://home4.highway.ne.jp/hmiya/
 
 

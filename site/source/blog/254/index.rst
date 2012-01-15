@@ -8,7 +8,7 @@
 
 *Category: 'Event', 'Zope'*
 
-.. figure:: images/applezope1/thumb?width=320
+.. figure:: applezope1
   :target: images/applezope1/thumb?width=800
   :align: right
 
@@ -23,7 +23,7 @@
 追記
 ------
 
-.. figure:: images/ginzasuisan/thumb?width=80
+.. figure:: ginzasuisan
   :target: images/ginzasuisan
   :align: left
 

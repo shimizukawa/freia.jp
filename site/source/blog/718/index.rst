@@ -15,7 +15,7 @@
 Expert Python Programming と比べてみると若干厚くて、若干重い。オンデマンド印刷の原書に比べると紙の質は良い気がする！
 
 
-.. figure:: images/expert_python_programming_ja.jpg/image_mini
+.. figure:: expert_python_programming_ja.jpg
 
 :タイトル: エキスパートPythonプログラミング
 :出版社: アスキー・メディアワークス

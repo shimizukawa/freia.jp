@@ -71,7 +71,7 @@ ZAmazon_ は今のままでもコードさえ書けばたいていのことは�
 
 .. [1] なんか&lt;と書いてもだめなので、とりあえず全角で‥‥
 .. [2] 少なくとも2004/8/16現在はWishListが表示されます。実験用URLなので‥‥
-.. |ZAmazon追加| image:: images/addamazon.jpg
+.. |ZAmazon追加| image:: addamazon.jpg
 .. _`デベロッパー・トークンを申し込む`: http://www.amazon.co.jp/exec/obidos/subst/associates/join/webservices.html
 .. _自分のWishListを表示: http://root.freia.jp/freia/taka/test/ZAmazon
 .. _ZAmazon: http://douweosinga.com/projects/zamazon

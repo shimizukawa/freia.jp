@@ -21,15 +21,15 @@ http://atnd.org/events/1855
 会場の様子
 ----------
 
-.. figure:: images/20091121_zopeplonedev5_1.jpg/image_preview
+.. figure:: 20091121_zopeplonedev5_1.jpg
 
   会場の様子
 
-.. figure:: images/20091121_zopeplonedev5_2.jpg/image_preview
+.. figure:: 20091121_zopeplonedev5_2.jpg
 
   成果発表の様子
 
-.. figure:: images/20091121_zopeplonedev5_3.jpg/image_preview
+.. figure:: 20091121_zopeplonedev5_3.jpg
 
   会場の様子を撮る人の様子
 

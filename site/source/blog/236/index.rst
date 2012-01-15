@@ -12,7 +12,7 @@
 
 ‥‥訂正。以前の部署の先輩方と銀座の `火鍋屋`_ で食べ放題2480円でした。
 
-.. figure:: images/ginza_hinabe
+.. figure:: ginza_hinabe
   :align: left
 
   赤い方は唐辛子と山椒たっぷりの見た目ラー油鍋。

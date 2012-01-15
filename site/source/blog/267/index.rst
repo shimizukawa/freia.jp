@@ -8,7 +8,7 @@
 
 *Category: 'food'*
 
-.. figure:: images/2005curry_in_oven/thumb?width=200
+.. figure:: 2005curry_in_oven
   :target: images/2005curry_in_oven
   :align: left
 

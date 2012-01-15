@@ -32,7 +32,7 @@
 
 # 最近、 Anex86_ の出番が多いな...
 
-.. |mikatype1| image:: images/mikatype1
+.. |mikatype1| image:: mikatype1
 .. _Anex86: http://homepage2.nifty.com/ans/
 
 

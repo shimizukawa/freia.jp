@@ -19,8 +19,8 @@
 
 って、歩いてる振動でSDメモリが認識されなくなって曲が止まった(ToT
 
-.. |genio_broken1| image:: images/genio_broken1
-.. |genio_broken2| image:: images/genio_broken2
+.. |genio_broken1| image:: genio_broken1
+.. |genio_broken2| image:: genio_broken2
 .. _`Axim X50/X50v`: http://pc.watch.impress.co.jp/docs/2005/0113/dell.htm
 .. _`iPaq hx2750/hx2410`: http://pc.watch.impress.co.jp/docs/2005/0113/hp.htm
 

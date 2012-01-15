@@ -14,7 +14,7 @@
 
 |osaka_negiyaki|
 
-.. |osaka_negiyaki| image:: images/osaka_negiyaki
+.. |osaka_negiyaki| image:: osaka_negiyaki
 
 
 夜は旅の窓口で予約した「法華クラブ大阪」に宿泊。インターネット完備で内装はかなり良い方。7000円なり。だが、歓楽街超隣接で茶髪兄ちゃんのお誘いが多かった。ピンポイントで治安悪そうやなぁ....

@@ -29,7 +29,7 @@
 
 あとはZCML。何を書くとどことどこが繋がるのか...部分的には分かるけどまだもやもやしてます。どこの名前空間でどのディレクティブを使えるのか、、はディレクティブ定義を探せばいいのか。あとで探してみよう。
 
-.. figure:: images/zope3silvercity/thumb?width=240
+.. figure:: zope3silvercity
   :target: images/zope3silvercity
   :align: left
   :class: visualClear

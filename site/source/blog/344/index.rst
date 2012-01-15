@@ -64,12 +64,12 @@ Viewletを登録する
 
 設定値の中で、今作ったPageTemplateのIDとマクロ名が出てきています。タイトルやIDは適当に‥‥いちおうCMFContentPanelsの命名を真似て付けたつもりです。
 
-.. figure:: images/20060517_cpcb_1.png/image_preview
+.. figure:: 20060517_cpcb_1.png
   :target: images/20060517_cpcb_1.png
 
 これでCMFContentPanelsで上記のViewletを使えるようになったはずです。空っぽですが。Categoryを ``GL:folder`` としているので、 ``COREBlog2 list`` というViewlet名を選択できるのは、Related Contentでフォルダ型オブジェクトを選択しているときだけです。
 
-.. figure:: images/20060517_cpcb_2.png/image_preview
+.. figure:: 20060517_cpcb_2.png
   :target: images/20060517_cpcb_2.png
 
 とりあえず、問題が起きたときに切り分けしやすいように、ここまでの内容で動くことを確認しておいた方が良いでしょう。
@@ -200,7 +200,7 @@ Viewletの設定画面を作る
 
 これで設定画面も作成が完了しました。早速みてみましょう。
 
-.. figure:: images/20060517_cpcb_3.png/image_preview
+.. figure:: 20060517_cpcb_3.png
   :target: images/20060517_cpcb_3.png
 
 うまく表示されました。アイテムの種類については「エントリ」以外を選ぶ事は想定していないViewletではありますが、Previewしてみたところちゃんと表示されました。ところで、この設定画面は実は若干問題があります。link moreで ``folder default view`` を選択すると、Viewlet表示で「もっと...」のリンク先がフォルダコンテンツ一覧となってしまいます。COREBlog2用には、エントリ一覧等のページを表示したいところです。

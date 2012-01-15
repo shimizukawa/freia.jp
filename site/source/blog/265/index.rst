@@ -8,7 +8,7 @@
 
 *Category: 'food'*
 
-.. figure:: images/2005halloween_curry/thumb?width=200
+.. figure:: 2005halloween_curry
   :target: images/2005halloween_curry
   :align: right
 

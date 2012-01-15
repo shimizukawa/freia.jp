@@ -18,7 +18,7 @@
 .. :extend type: text/x-rst
 .. :extend:
 
-.. figure:: images/ibm_x40_101key/thumb?width=240
+.. figure:: ibm_x40_101key
   :target: images/ibm_x40_101key
   :align: left
 
@@ -28,7 +28,7 @@
 
   交換してから気づいたんですが、自分はWindowsキーとアプリキーを結構多用するので、106キーボードの時(会社のX31)は無変換キーとか変換キーとかに割り当てていたのでした。英語キーボードの場合は……どうしよう？とりあえず右のCTRLをアプリキーに、ALTをWindowsキーにして運用してみる事に。
 
-.. figure:: images/ibm_x40_license/thumb?width=240
+.. figure:: ibm_x40_license
   :target: images/ibm_x40_license
   :align: left
   :class: visualClear

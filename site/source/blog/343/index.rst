@@ -25,29 +25,29 @@
 
 次に、任意のフォルダにContentPanelsを追加します。
 
-.. figure:: images/20060514_cpcb2_1.png
+.. figure:: 20060514_cpcb2_1.png
   :target: images/20060514_cpcb2_1.png
   :alt: 図1
 
-.. figure:: images/20060514_cpcb2_2.png
+.. figure:: 20060514_cpcb2_2.png
   :target: images/20060514_cpcb2_2.png
   :alt: 図2
 
 今回はPloneサイトのトップに追加します。追加したらlayoutタブに移動して、ContentPanelsで表示するパネルを追加します。UIがわかりにくいですが、パネルを追加するには下図の○で囲ってある ``new panel`` をクリックします。
 
-.. figure:: images/20060514_cpcb2_3.png
+.. figure:: 20060514_cpcb2_3.png
   :target: images/20060514_cpcb2_3.png
   :alt: 図3
 
 ポップアップWindowが表示されます。
 
-.. figure:: images/20060514_cpcb2_4.png
+.. figure:: 20060514_cpcb2_4.png
   :target: images/20060514_cpcb2_4.png
   :alt: 図4
 
 表示対象フォルダを指定する ``Related Content`` でCOREBlog2インスタンスの場所を指定してください。次にCOREBlog2の最新のエントリを表示するためにViewletから ``Recent changes`` を選択してください。
 
-.. figure:: images/20060514_cpcb2_5.png
+.. figure:: 20060514_cpcb2_5.png
   :target: images/20060514_cpcb2_5.png
   :alt: 図5
 
@@ -57,31 +57,31 @@ CMFContentsPanelsは、Related Contentの選択しているPloneオブジェク�
 
 設定が完了したら ``select this panel`` を押して設定を反映します。これでBlogのエントリが表示されるようになったと思います。表示タブへ移動して内容を確認しましょう。
 
-.. figure:: images/20060514_cpcb2_6.png
+.. figure:: 20060514_cpcb2_6.png
   :target: images/20060514_cpcb2_6.png
   :alt: 図6
 
 最後に、ContentPanelをサイトのトップページに表示するように設定します。ホームディレクトリに移動して、ContentPanelをのデフォルトビューに設定しましょう。グリーンのバー部分にある ``表示`` プルダウンメニューからデフォルトビューを設定することが出来ます。
 
-.. figure:: images/20060514_cpcb2_7.png
+.. figure:: 20060514_cpcb2_7.png
   :target: images/20060514_cpcb2_7.png
   :alt: 図7
 
 そのフォルダに置かれている、デフォルトビューになることが出来る複数のオブジェクトが一覧表示されるので、作成したContentPanelsを選択します。
 
-.. figure:: images/20060514_cpcb2_8.png
+.. figure:: 20060514_cpcb2_8.png
   :target: images/20060514_cpcb2_8.png
   :alt: 図8
 
 トップページに移動して、ContentPanelsが表示されていることを確認してください。
 
-.. figure:: images/20060514_cpcb2_9.png
+.. figure:: 20060514_cpcb2_9.png
   :target: images/20060514_cpcb2_9.png
   :alt: 図9
 
 なお、パネルの設定でRecent changesの代わりに ``Folder changes`` を選択するとタイトルと本文の一部が表示されるようになります。
 
-.. figure:: images/20060514_cpcb2_10.png
+.. figure:: 20060514_cpcb2_10.png
   :target: images/20060514_cpcb2_10.png
   :alt: 図10
 

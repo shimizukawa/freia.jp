@@ -25,7 +25,7 @@
 :同僚H: ちゃうやろ、これ
 :清水川: うまー
 
-.. |benitora_subuta| image:: images/benitora_subuta
+.. |benitora_subuta| image:: benitora_subuta
 
 
 

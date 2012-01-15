@@ -19,20 +19,20 @@
 
 これ以降の対話はipythonで行われるようになります。お手軽ですね！以下は実際にやってみたときの画面キャプチャ（見やすくするためにちょっと加工）。出力結果が自動的pprintされるので見やすくなっていますね。
 
-.. figure:: images/20091202-zope-ipython1.png
+.. figure:: 20091202-zope-ipython1.png
 
   bin/instance debug 後にipython化する例
 
 pyreadline_ がインストールしてあるとタブ補完も使えるようになります。
 
-.. figure:: images/20091202-zope-ipython2.png
+.. figure:: 20091202-zope-ipython2.png
 
   ipython+pyreadlineでタブ補完する
 
 
 ipythonの機能で、オブジェクトの後ろに `?` を付けると、型やソースの場所、doc stringが表示されます。さらに `??` (ハテナ２つ）を付けるとソースコードまで表示されます。とっても便利ですね。
 
-.. figure:: images/20091202-zope-ipython3.png
+.. figure:: 20091202-zope-ipython3.png
 
   オブジェクトの後ろに?を付けると...
 

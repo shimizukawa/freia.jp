@@ -8,7 +8,7 @@
 
 *Category: 'IT-PC'*
 
-.. figure:: images/google_personal/thumb?width=200
+.. figure:: google_personal
   :target: images/google_personal
   :align: right
 

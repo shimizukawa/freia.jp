@@ -23,7 +23,7 @@
 コメント追加前に *コメントスパム* の可能性があるかどうかをチェックして、
 可能性がある場合は *要モデレート* 状態にします。
 
-.. image:: images/coreblog_buzzwords/thumb?width=200
+.. image:: coreblog_buzzwords
   :target: images/coreblog_buzzwords
   :align: right
 
@@ -73,7 +73,7 @@
 同様に ``beforAddTrackback`` というスクリプトを用意すれば同じ事が出来ます。
 
 
-.. figure:: images/coreblog_spams/thumb?width=200
+.. figure:: coreblog_spams
   :target: images/coreblog_spams
   :align: left
 

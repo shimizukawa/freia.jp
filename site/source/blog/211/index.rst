@@ -18,7 +18,7 @@
 
 うぅむ、お店で飲んだ時の方がウマイような‥‥。隣の白いのはあんまりおいしくなかった。そして父ちゃんは既に寝ていた。起きてくれないよ？
 
-.. |belgiumbeer| image:: images/belgiumbeer
+.. |belgiumbeer| image:: belgiumbeer
 
 
 

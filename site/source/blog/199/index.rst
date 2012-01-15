@@ -15,7 +15,7 @@ aihatena_ が飲み会で仙台に行ってしまったので、猫のおさん�
 昔みたいに知らない人を怖がらなくなったけど、昔みたいに寄ってこなくもなってしまったみたい。
 
 .. _aihatena: http://www.freia.jp/aihatena
-.. |nekoyashiki1| image:: images/nekoyashiki1
+.. |nekoyashiki1| image:: nekoyashiki1
 
 
 

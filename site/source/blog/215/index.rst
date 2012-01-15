@@ -17,7 +17,7 @@
 .. _PAUKE: http://homepage2.nifty.com/undo-aki/pauke2/pauke.htm
 .. _`アンサンブルの生演奏`: http://homepage2.nifty.com/undo-aki/pauke2/music.htm
 
-.. |german_beer|  image:: images/german_beer
+.. |german_beer|  image:: german_beer
 
 
 
@@ -38,8 +38,8 @@
 
 .. _`XPユーザー会`: http://www.xpjug.org/xpjug_root/event/20050526meeting/regist
 
-.. |german_sausage| image:: images/german_sausage
-.. |german_icevain| image:: images/german_icevain
+.. |german_sausage| image:: german_sausage
+.. |german_icevain| image:: german_icevain
 
 
 

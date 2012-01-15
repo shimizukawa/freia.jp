@@ -75,7 +75,7 @@ file: `pygw20050121.lzh`_
 .. _`WZ Editor`: http://www.villagecenter.co.jp/soft/wz50/
 .. _Python: http://python.jp/
 .. _`pygw20050121.lzh`: file/wz/pygw20050121.lzh
-.. |pygw_wz1| image:: images/pygw_wz1
+.. |pygw_wz1| image:: pygw_wz1
 
 
 

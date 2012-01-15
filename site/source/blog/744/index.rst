@@ -102,7 +102,7 @@ Webは最近はWSGIで書くと良いらしいので、 `wsgiref - WSGI ユー�
 
 再起動してブラウザをリロードしたらHTMLがちゃんと表示されましたね！
 
-.. image:: images/sample2.png
+.. image:: sample2.png
 
 え、htmlタグとかそのまま表示されちゃダメ？じゃあ'text/plain'という部分を'text/html'に修正しましょう。
 
@@ -126,7 +126,7 @@ Webは最近はWSGIで書くと良いらしいので、 `wsgiref - WSGI ユー�
     print "Serving on port 8000..."
     httpd.serve_forever()
 
-.. image:: images/sample2b.png
+.. image:: sample2b.png
 
 これでHTMLを表示出来るようになりましたね！
 
@@ -168,7 +168,7 @@ Webは最近はWSGIで書くと良いらしいので、 `wsgiref - WSGI ユー�
 
 string.Template を使うと変数部分を ``$name`` という感じで埋め込んで置いて、後から辞書で ``substitute`` 関数に渡すことで文字列を整形してくれます。ついでに変数を使うんだから表示の度に画面が変わる方がいいよね、ということで、 ``random.choice`` を使ってブラウザをリロードするたびに表示が変わるようにしてみました。
 
-.. image:: images/sample2c.png
+.. image:: sample2c.png
 
 これで表示はもういいですかね？ ……え、まだ？HTMLは別のファイルにしたい？そろそろ何かフレームワーク使った方が良いんじゃ…、じゃあ以下のようにHTMLファイルをindex.htmlという名前でserver.pyと同じディレクトリに保存してください。
 
@@ -231,7 +231,7 @@ string.Template を使うと変数部分を ``$name`` という感じで埋め�
 
 こんどはserver.pyを再起動せずにブラウザをリロードしてみてください。以下のように表示されました？
 
-.. image:: images/sample2d.png
+.. image:: sample2d.png
 
 ということで、無事にテンプレート対応まで出来ました。
 
@@ -305,7 +305,7 @@ dbという変数の部分が増えてますね。あとはcount。このcount�
 
 以下のようにカウントが表示されて、リロードする度に更新されていくと思います。ちなみにカウント数が12なのは tokibito Heaven! が表示されるまでリロードしたからです。
 
-.. image:: images/sample3.png
+.. image:: sample3.png
 
 これでだいぶWebフレームワークっぽくなってきましたね！でもこのDBは簡易的なものなので、ちょっとしたことで壊れたりします。同時アクセスとか。この辺も最近のWebフレームワークならSQLAlchemyやZODBなどと連携して、自分で作るよりは簡単に使うことが出来るんじゃないかと思います。
 
