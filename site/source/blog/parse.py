@@ -204,6 +204,12 @@ class Entry(object):
     def save(self):
         if not self.id:
             raise RuntimeError('entry id need not Empty')
+        if self.id[-1] == 'x' or self.id.endswith('_ng'):
+            print("INFO: skip entry:", self.id)
+            if os.path.isdir(self.id):
+                shutil.rmtree(self.id)
+                print("INFO: directory removed", self.id)
+            return
         if not os.path.isdir(self.id):
             os.mkdir(self.id)
         fn = self.ref
