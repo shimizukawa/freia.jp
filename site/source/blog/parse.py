@@ -1,4 +1,4 @@
-# -*- coding utf-8 -*-
+# -*- coding: utf-8 -*-
 from __future__ import print_function
 from __future__ import unicode_literals
 from __future__ import absolute_import
@@ -10,6 +10,8 @@ import io
 import unicodedata
 import datetime
 import itertools
+import urllib2
+import shutil
 
 
 filetype = {
@@ -95,6 +97,49 @@ class CodeblockProc(object):
         return None
 
 
+class ImageDirectiveProc(object):
+    matcher = re.compile('^(\s*.. (.+\s+)?(image|figure)::)\s+(.+)\s*$').match
+
+    def __call__(self, entry, line):
+        m = self.matcher(line)
+        if not m:
+            return line
+
+        key, rep, _, value = m.groups()
+
+        if value[0] == '/':
+            value = 'http://www.freia.jp' + value
+
+        if value.startswith("http"):
+            try:
+                uo = urllib2.urlopen(value)
+                uo.read()
+            except:
+                print("Warning: image not found at:", value)
+            entry.body.append("%s %s\n" % (key, value))
+
+        elif os.path.exists(value):
+            entry.related_files.append(os.path.abspath(value))
+            value = value.split('/')[-1]
+            entry.body.append("%s %s\n" % (key, value))
+
+        else:
+            parts_rest = value.split('/')
+            parts = []
+            for v in parts_rest:
+                if not os.path.exists('/'.join(parts + [v])):
+                    break
+                parts.append(v)
+            parts_rest = parts_rest[len(parts):]
+            if parts:
+                entry.related_files.append('/'.join(parts))
+                value = parts[-1]
+                entry.body.append("%s %s\n" % (key, value))
+            if parts_rest:
+                print("Warning: discard extra image path:", parts_rest)
+        return None
+
+
 class CorrectShortlineProc(object):
 
     def __init__(self):
@@ -129,8 +174,10 @@ class Entry(object):
         self.body_type = None
         self.date = None
         self.categories = None
+        self.related_files = []
 
-        procs = [FieldListProc(), CodeblockProc(), CorrectShortlineProc()]
+        procs = [FieldListProc(), CodeblockProc(),
+                ImageDirectiveProc(), CorrectShortlineProc()]
 
         for line in payload:
             if self.comment:
@@ -166,6 +213,12 @@ class Entry(object):
                 self.body.pop(0)
             f.writelines(self.body)
             f.close()
+
+        if self.related_files:
+            for fpath in self.related_files:
+                print('copying', fpath, '...')
+                shutil.copy2(fpath, self.id)
+
 
 
 def payload_gen(fobj):
