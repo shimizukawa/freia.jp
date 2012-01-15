@@ -210,7 +210,7 @@ class Entry(object):
             if os.path.isdir(self.id):
                 shutil.rmtree(self.id)
                 print("INFO: directory removed", self.id)
-            return
+            return False
         if not os.path.isdir(self.id):
             os.mkdir(self.id)
         fn = self.ref
@@ -225,6 +225,8 @@ class Entry(object):
             for fpath in self.related_files:
                 print('copying', fpath, '...')
                 shutil.copy2(fpath, self.id)
+
+        return True
 
 
 
@@ -247,8 +249,8 @@ def main():
     idx = []
     with io.open('_CoreblogExport.txt', 'rU', encoding='utf-8') as f:
         for entry in entry_gen(f):
-            entry.save()
-            idx.append('   ' + entry.ref + '\n')
+            if entry.save():
+                idx.append('   ' + entry.ref + '\n')
 
     fn = '_index.out'
     with io.open(fn, 'wt', encoding='utf-8') as f:
