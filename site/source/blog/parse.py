@@ -112,6 +112,7 @@ class ImageDirectiveProc(object):
 
         if value.startswith("http"):
             try:
+                print("INFO: check URL:", value)
                 uo = urllib2.urlopen(value)
                 uo.read()
             except:
