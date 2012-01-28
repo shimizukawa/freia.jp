@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import sys, os
-sys.path.append(os.path.abspath('.'))
+sys.path.append(os.path.join(os.path.abspath('.'), '_ext'))
 
 # -- Extensions -----------------------------------------------------
 extensions = [
