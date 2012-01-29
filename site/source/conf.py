@@ -56,9 +56,9 @@ pygments_style = 'sphinx'
 
 
 # -- Options for HTML output ---------------------------------------------------
-html_theme = 'default'
+html_theme = 'LoadFoo'
 #html_theme_options = {}
-#html_theme_path = []
+html_theme_path = ['_themes']
 #html_title = None #If None, it defaults to "<project> v<release> documentation".
 #html_short_title = None
 #html_logo = None

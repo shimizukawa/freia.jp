@@ -1,0 +1,248 @@
+{#
+<!-- ==========================================================	-->
+<!--	Created by Devit Schizoper                          	-->
+<!--	Created HomePages http://LoadFoo.starzonewebhost.com   	-->
+<!--	Created Day 01.12.2006                              	-->
+<!-- ========================================================== -->
+#}
+{%- block doctype -%}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+{%- endblock %}
+{%- set reldelim1 = reldelim1 is not defined and ' &raquo;' or reldelim1 %}
+{%- set reldelim2 = reldelim2 is not defined and ' |' or reldelim2 %}
+{%- set render_sidebar = (not embedded) and (not theme_nosidebar|tobool) and
+                         (sidebars != []) %}
+{%- set url_root = pathto('', 1) %}
+{%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
+
+{%- macro relbar() %}
+    <div class="related">
+      <h3>{{ _('Navigation') }}</h3>
+      <ul>
+        {%- for rellink in rellinks %}
+        <li class="right" {% if loop.first %}style="margin-right: 10px"{% endif %}>
+          <a href="{{ pathto(rellink[0]) }}" title="{{ rellink[1]|striptags|e }}"
+             {{ accesskey(rellink[2]) }}>{{ rellink[3] }}</a>
+          {%- if not loop.first %}{{ reldelim2 }}{% endif %}</li>
+        {%- endfor %}
+        {%- block rootrellink %}
+        <li><a href="{{ pathto(master_doc) }}">{{ project|e }}</a>{{ reldelim1 }}</li>
+        {%- endblock %}
+        {%- for parent in parents %}
+          <li><a href="{{ parent.link|e }}" {% if loop.last %}{{ accesskey("U") }}{% endif %}>{{ parent.title }}</a>{{ reldelim1 }}</li>
+        {%- endfor %}
+        {%- block relbaritems %} {% endblock %}
+      </ul>
+    </div>
+{%- endmacro %}
+
+{%- macro sidebar() %}
+      {%- if render_sidebar %}
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+          {%- block sidebarlogo %}
+          {%- if logo %}
+            <p class="logo"><a href="{{ pathto(master_doc) }}">
+              <img class="logo" src="{{ pathto('_static/' + logo, 1) }}" alt="Logo"/>
+            </a></p>
+          {%- endif %}
+          {%- endblock %}
+          {%- if sidebars != None %}
+            {#- new style sidebar: explicitly include/exclude templates #}
+            {%- for sidebartemplate in sidebars %}
+            {%- include sidebartemplate %}
+            {%- endfor %}
+          {%- else %}
+            {#- old style sidebars: using blocks -- should be deprecated #}
+            {%- block sidebartoc %}
+            {%- include "localtoc.html" %}
+            {%- endblock %}
+            {%- block sidebarrel %}
+            {%- include "relations.html" %}
+            {%- endblock %}
+            {%- block sidebarsourcelink %}
+            {%- include "sourcelink.html" %}
+            {%- endblock %}
+            {%- if customsidebar %}
+            {%- include customsidebar %}
+            {%- endif %}
+            {%- block sidebarsearch %}
+            {%- include "searchbox.html" %}
+            {%- endblock %}
+          {%- endif %}
+        </div>
+      </div>
+      {%- endif %}
+{%- endmacro %}
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        {{ metatags }}
+        {%- if not embedded and docstitle %}
+          {%- set titlesuffix = " - "|safe + docstitle|e %}
+        {%- else %}
+          {%- set titlesuffix = "" %}
+        {%- endif %}
+        {%- block htmltitle %}
+        <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+        {%- endblock %}
+
+        <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+        <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
+        {%- for cssfile in css_files %}
+        <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
+        {%- endfor %}
+
+        <style type="text/css">
+            .documentbody {background-color: #F7F9FB; padding: 0.3em;}
+            .documentbody h2 {border-bottom: 1px solid green;}
+            a.reference {color: #355F7C;}
+            div.sphinxsidebar {float: none; margin-left: 0; width: 100%; font-size: 100%;}
+            div.sphinxsidebar h3, div.sphinxsidebar h4 {color: black;}
+            div.sphinxsidebar ul {margin-right:0;}
+            div.sphinxsidebarwrapper {padding:4px; overflow:hidden;}
+            div.related {background-color: transparent; color: black; line-height: 2em;}
+            div.related a {color: #355F7C;}
+            div.related a:hover {text-decoration: underline;}
+            div.footer {background-color: #11303D;}
+        </style>
+
+        <script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+        <script type="text/javascript">
+        Hatena.Star.Token = '453373e8033d23906b6c28b1973274117b66ab97';
+        Hatena.Star.SiteConfig = {
+          entryNodes: {
+            'div.entryBox': {
+              uri: 'h1 a',
+              title: 'h1',
+              container: 'h1'
+            },
+            'div.documentbody': {
+              uri: 'h1 a',
+              title: 'h1',
+              container: 'h1'
+            }
+          }
+        };
+        </script>
+
+        <script type="text/javascript" src="js/HatenaBookmark.js"></script>
+        <script type="text/javascript">
+        Hatena.xBookmark.SiteConfig = {
+          '.documentContent .summary a': {},
+          'div.entryBox h1 a': {},
+          'div.documentbody h1 a.headerlink': {},
+          'div.documentbody .toctree-wrapper a': {},
+          '#portlet-recententry dd a': {}
+        };
+        </script>
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-769552-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
+         </script>
+    </head>
+
+    <body>
+        <div id="site-information">2011/12/25: freia.jp contents are currently moving to Sphinx (but not completed).</div>
+        <div id="wrap">
+            <div id="top">
+                <div id="logo"><a href="/taka/" accesskey="1" id="portal-logo">清水川Web</a></div>
+                <div id="menu">
+                    <ul>
+                        <li class="plain" id="portaltab-index_html">
+                            <a title="" href="{{ url_root }}">ホーム</a>
+                        </li>
+                        <li class="plain" id="portaltab-blog">
+                            <a title="Zope, Python, FreeBSD, その他色々について。つまり日記か。" href="{{ url_root }}blog/index.html">清水川記</a>
+                        </li>
+                        <li id="portaltab-docs">
+                            <a title="ドキュメント類" href="{{ url_root }}docs/index.html">ドキュメント</a>
+                        </li>
+                        <li class="plain" id="portaltab-memo">
+                        <a title="覚え書きや、作ったものなどをおいてあります。「旧：覚え書き／作ったもの」からの移行中です。" href="{{ url_root }}memo/index.html">メモ</a>
+                        </li>
+                        <li class="plain" id="portaltab-file">
+                            <a title="配布用だったりいろいろなファイルを置く場所。" href="{{ url_root }}file/index.html">ファイル</a>
+                        </li>
+                        <li class="plain" id="portaltab-photo">
+                            <a title="XP,Zope,食,旅行等の各種イベントの写真を置いています。" href="http://www.flickr.com/photos/shimizukawa/sets/">アルバム</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            {{ relbar() }}
+
+            <div id="content">
+                <div id="left">
+                    <div class="documentbody">
+                    {% block body %} {% endblock %}
+                    </div>
+                </div>
+                <div id="right">
+                    <ul id="nav" class="sample">
+                        {{ sidebar() }}
+                    </ul>
+
+                    <div class="box hatena-widget">
+                        <script language="javascript" type="text/javascript" src="http://b.hatena.ne.jp/js/widget.js" charset="utf-8"></script>
+                        <script language="javascript" type="text/javascript">
+                        Hatena.BookmarkWidget.url   = "http://www.freia.jp/taka";
+                        Hatena.BookmarkWidget.title = "Popular Entries";
+                        Hatena.BookmarkWidget.sort  = "hot";
+                        Hatena.BookmarkWidget.width = 0;
+                        Hatena.BookmarkWidget.num   = 5;
+                        Hatena.BookmarkWidget.theme = "notheme";
+                        Hatena.BookmarkWidget.load();
+                        </script>
+                    </div>
+
+                </div>
+                <div id="clear"></div>
+            </div>
+
+            {{ relbar() }}
+        </div>
+        <div id="footer">
+            <div id="footer-first">
+                <p>Copyright &copy; 1997-2011, Takayuki SHIMIZUKAWA All Rights Reserved.</p>
+                <p><a title="form" accesskey="9" href="https://bitbucket.org/shimizukawa/freia.jp/issues/new" target="_blank">Contact Form</a></p>
+            </div>
+            <div class="colophon">
+                <p>
+                このページのデザインは<a href="http://www.oswd.org/">Open Source Web Design</a> で公開されている
+                <a href="http://www.oswd.org/design/information/id/3551">LoadFoO [V2]</a>
+                をカスタマイズして使用しています。
+                </p>
+                <p>
+                このページは <a href="http://sphinx-users.jp/">Sphinx</a>
+                を使用して出力しています。
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+        {%- if show_copyright %}
+          {%- if hasdoc('copyright') %}
+            {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+          {%- else %}
+            {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
+          {%- endif %}
+        {%- endif %}
+        {%- if last_updated %}
+          {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+        {%- endif %}
+        {%- if show_sphinx %}
+          {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+        {%- endif %}
+        </div>
+    </body>
+</html>
