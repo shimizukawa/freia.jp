@@ -1,4 +1,4 @@
-^.*/.installed.cfg
+.*/.installed.cfg
 .*.pyc
 .*.swp
 .*.orig
@@ -9,10 +9,12 @@
 .*/eggs/.*$
 .*/parts/.*$
 .*.egg-info
-^docs/build/
 ^plone/etc/(development|production).ini
 ^plone/etc/apache-vhost.conf
 
 syntax: glob
-buildout/source/code/gae/app
+buildout/source/code/gae
 buildout/source/code/paste
+buildout/source/code/paste-wsgi
+site/source/blog/images
+site/source/blog/stuff
