@@ -11,7 +11,6 @@ extensions = [
         'iframe',
         #'sphinxfeed',
         'sphinxcontrib.feed',
-        #'blogtoctree',
         #'tinkerer.ext.blog',
         #'tinkerer.ext.disqus',
         ]

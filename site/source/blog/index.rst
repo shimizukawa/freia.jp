@@ -1,13 +1,13 @@
 清水川記
 ==============
 
-.. .. blogtoctree::
+.. .. latest::
 
 .. toctree::
    :maxdepth: 1
 
-   768/index
    769/index
+   768/index
 
 
 .. include:: _index.out
