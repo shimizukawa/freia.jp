@@ -1,10 +1,18 @@
 清水川Web
 ==============
-サーバー移行中です。
+サーバーをZope/Plone + xdv からSphinxに移行中です。
+
+.. toctree::
+   :maxdepth: 1
+
+   blog/index
+   docs/index
+
+TODO
+------
 
 .. todo::
 
-   * RSS復帰
    * blogの画像復帰(ploneのrelation分)
    * blogの画像復帰(dropbox等への外部リンク切れ分)
    * 既存のblogコメントとtrackbackの表示
@@ -18,18 +26,7 @@
 .. note::
    done
 
-   * coreblog2からsphinxにblogを移行
+   * coreblog2からsphinxにblogを移行(Script(Python)で変換書いた)
    * blogの画像復帰(image/figureタグ分)
-   * xdvによるデザイン適用からsphinxテーマへ移行
-
-
-.. toctree::
-   :maxdepth: 1
-
-   blog/index
-
-.. toctree::
-   :maxdepth: 2
-
-   docs/index
-
+   * xdvによるデザイン適用からsphinxテーマへ移行(Sphinxテーマ書いた)
+   * RSS復帰(sphinxcontrib.feedを改造)
