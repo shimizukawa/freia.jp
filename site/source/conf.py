@@ -31,6 +31,7 @@ feed_title = u"清水川Web"
 feed_base_url = 'http://www.freia.jp/taka/'
 feed_description = u'清水川Webは、Python関連の技術的な事についての個人的メモや、清水川の日々の雑記を公開しています。'
 feed_filename = 'rss.xml'
+feed_count = 10
 
 # -- General configuration -----------------------------------------------------
 
