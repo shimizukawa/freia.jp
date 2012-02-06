@@ -8,7 +8,7 @@
 
 *Category: 'Windows', 'ruby'*
 
-Rubyで MeCab_ を使用するには `MecCab-rubyバインディング`_ を使用しますが、バンディングはビルド済みのものが提供されていないので、自分でビルドする必要があります。Linuxや*BSDならそれほどはまらないですが(実際CentOSでは簡単に出来た)、Windowsではコンパイル環境があってもはまったので、バインディングビルド手順をメモしておきます(完成物はこちら:  `mecab-ruby-0.98-win32-binary-20110504.zip`_)。
+Rubyで MeCab_ を使用するには `MecCab-rubyバインディング`_ を使用しますが、バンディングはビルド済みのものが提供されていないので、自分でビルドする必要があります。Linuxや*BSDならそれほどはまらないですが(実際CentOSでは簡単に出来た)、Windowsではコンパイル環境があってもはまったので、バインディングビルド手順をメモしておきます(完成物はこちら: :download:`mecab-ruby-0.98-win32-binary-20110504.zip`)。
 
 .. _MeCab: http://mecab.sourceforge.net/
 .. _`MecCab-rubyバインディング`: http://sourceforge.net/projects/mecab/files/mecab-ruby/0.98/
@@ -188,10 +188,7 @@ nmakeを実行してMeCab.soをビルドします。
 
 完成物と変更を加えたファイルを公開しておきます。ライセンスなどは元のMeCabのものに従います。
 
-* `mecab-ruby-0.98-win32-binary-20110504.zip`_
-
-.. _`mecab-ruby-0.98-win32-binary-20110504.zip`: stuff/mecab-ruby-0.98-win32-binary-20110504.zip
-
+* :download:`mecab-ruby-0.98-win32-binary-20110504.zip`
 
 .. :extend type: text/x-rst
 .. :extend:

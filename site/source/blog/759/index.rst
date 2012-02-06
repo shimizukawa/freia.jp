@@ -8,7 +8,7 @@
 
 *Category: 'python', 'Windows'*
 
-Pythonで MeCab_ を使用するには `MecCab-pythonバインディング`_ を使用しますが、バンディングはビルド済みのものが提供されていないので、自分でビルドする必要があります。Linuxや*BSDならそれほどはまらないと思いますが、Windowsではコンパイル環境があってもはまったので、バインディングビルド手順をメモしておきます(完成物はこちら: `mecab-python-0.98-win32-binary-20110504.zip`_)。
+Pythonで MeCab_ を使用するには `MecCab-pythonバインディング`_ を使用しますが、バンディングはビルド済みのものが提供されていないので、自分でビルドする必要があります。Linuxや*BSDならそれほどはまらないと思いますが、Windowsではコンパイル環境があってもはまったので、バインディングビルド手順をメモしておきます(完成物はこちら: :download:`mecab-python-0.98-win32-binary-20110504.zip` )。
 
 .. _MeCab: http://mecab.sourceforge.net/
 .. _`MecCab-pythonバインディング`: http://sourceforge.net/projects/mecab/files/mecab-python/0.98/
@@ -134,10 +134,7 @@ python setup.py bdist の代わりに ``python setup.py install`` とすれば�
 
 完成物(python2.7, 2.6用)と変更を加えたファイルを公開しておきます。ライセンスなどは元のMeCabのものに従います。egg化とかは要望があれば。
 
-* `mecab-python-0.98-win32-binary-20110504.zip`_
-
-.. _`mecab-python-0.98-win32-binary-20110504.zip`: stuff/mecab-python-0.98-win32-binary-20110504.zip
-
+* :download:`mecab-python-0.98-win32-binary-20110504.zip`
 
 .. :extend type: text/x-rst
 .. :extend:
