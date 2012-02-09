@@ -13,6 +13,7 @@ TODO
 
 .. todo::
 
+   * リンク切れfile (/blog/stuff) の復帰
    * blogの画像復帰(ploneのrelation分)
    * blogの画像復帰(dropbox等への外部リンク切れ分)
    * 既存のblogコメントとtrackbackの表示
