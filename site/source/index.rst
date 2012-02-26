@@ -7,6 +7,7 @@
 
    blog/index
    docs/index
+   repos/index
 
 TODO
 ------
