@@ -32,9 +32,9 @@ TODO
 .. note::
    done
 
-   * coreblog2からsphinxにblogを移行(Script(Python)で変換書いた)
-   * blogの画像復帰(image/figureタグ分)
-   * xdvによるデザイン適用からsphinxテーマへ移行(Sphinxテーマ書いた)
-   * RSS復帰(sphinxcontrib.feedを改造)
-   * xpfest2010(s6)を復帰
-   * さくらインターネットへ移行
+   * 2012/01/02 coreblog2からsphinxにblogを移行(Script(Python)で変換書いた)
+   * 2012/01/15 blogの画像復帰(image/figureタグ分)
+   * 2012/01/29 xdvによるデザイン適用からsphinxテーマへ移行(Sphinxテーマ書いた)
+   * 2012/01/29 RSS復帰(sphinxcontrib.feedを改造)
+   * 2012/02/26 xpfest2010(s6)を復帰
+   * 2012/02/26 さくらインターネットへ移行
