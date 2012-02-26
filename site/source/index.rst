@@ -9,6 +9,11 @@
    docs/index
    repos/index
 
+.. toctree::
+   :hidden:
+
+   memo/index
+
 TODO
 ------
 
