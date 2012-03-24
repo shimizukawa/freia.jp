@@ -9,8 +9,7 @@
 .*/eggs/.*$
 .*/parts/.*$
 .*.egg-info
-^plone/etc/(development|production).ini
-^plone/etc/apache-vhost.conf
+^plone
 
 syntax: glob
 buildout/source/code/gae
