@@ -207,6 +207,28 @@ div.related {
 }
 
 
+/**** image / figure ***/
+
+.figure {
+	text-align: center;
+	margin: 10px;
+	background-color: #eee;
+	padding: 0.5em 1em;
+}
+.figure img {
+	margin: 5px;
+}
+.figure p.caption {
+	margin: 0 5px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+}
+.figure div {
+	text-align: left;
+}
+
+
 /**** Sidebar ***/
 
 
