@@ -5,6 +5,63 @@
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.freia.jp/taka/rss.xml">
 {%- endblock %}
 
+{%- block extrahead %}
+<style type="text/css">
+    .documentbody {background-color: #F7F9FB; padding: 0.3em;}
+    .documentbody h2 {border-bottom: 1px solid green;}
+    a.reference {color: #355F7C;}
+    div.sphinxsidebar {float: none; margin-left: 0; width: 100%; font-size: 100%;}
+    div.sphinxsidebar h3, div.sphinxsidebar h4 {color: black;}
+    div.sphinxsidebar ul {margin-right:0;}
+    div.sphinxsidebarwrapper {padding:4px; overflow:hidden;}
+    div.related {background-color: transparent; color: black; line-height: 2em;}
+    div.related a {color: #355F7C;}
+    div.related a:hover {text-decoration: underline;}
+    div.footer {background-color: #11303D;}
+</style>
+
+<script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+<script type="text/javascript">
+Hatena.Star.Token = '453373e8033d23906b6c28b1973274117b66ab97';
+Hatena.Star.SiteConfig = {
+  entryNodes: {
+    'div.entryBox': {
+      uri: 'h1 a',
+      title: 'h1',
+      container: 'h1'
+    },
+    'div.documentbody': {
+      uri: 'h1 a',
+      title: 'h1',
+      container: 'h1'
+    }
+  }
+};
+</script>
+
+<script type="text/javascript" src="{{ pathto('_static/js/HatenaBookmark.js', 1) }}"></script>
+<script type="text/javascript">
+Hatena.xBookmark.SiteConfig = {
+  '.documentContent .summary a': {},
+  'div.entryBox h1 a': {},
+  'div.documentbody h1 a.headerlink': {},
+  'div.documentbody .toctree-wrapper a': {},
+  '#portlet-recententry dd a': {}
+};
+</script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-769552-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+</script>
+{% endblock %}
+
 {%- block headerlogo %}
 <div id="logo">
 <a href="{{ url_root }}index.html" accesskey="1" id="portal-logo">清水川Web</a>
