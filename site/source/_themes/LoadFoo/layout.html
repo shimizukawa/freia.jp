@@ -119,7 +119,7 @@
     </head>
 
     <body>
-        <div id="site-information">2011/12/25: freia.jp contents are currently moving to Sphinx (but not completed).</div>
+        {%- block topmostheader %} {% endblock %}
         <div id="wrap">
             <div id="top">
                 {%- block headerlogo %}
@@ -149,18 +149,7 @@
                         {{ sidebar() }}
                     </ul>
 
-                    <div class="box hatena-widget">
-                        <script language="javascript" type="text/javascript" src="http://b.hatena.ne.jp/js/widget.js" charset="utf-8"></script>
-                        <script language="javascript" type="text/javascript">
-                        Hatena.BookmarkWidget.url   = "http://www.freia.jp/taka";
-                        Hatena.BookmarkWidget.title = "Popular Entries";
-                        Hatena.BookmarkWidget.sort  = "hot";
-                        Hatena.BookmarkWidget.width = 0;
-                        Hatena.BookmarkWidget.num   = 5;
-                        Hatena.BookmarkWidget.theme = "notheme";
-                        Hatena.BookmarkWidget.load();
-                        </script>
-                    </div>
+                    {%- block extrarightbox %} {% endblock %}
 
                 </div>
                 <div id="clear"></div>

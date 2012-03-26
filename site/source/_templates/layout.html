@@ -65,6 +65,10 @@ Hatena.xBookmark.SiteConfig = {
 </script>
 {% endblock %}
 
+{%- block topmostheader %}
+<div id="site-information">2011/12/25: freia.jp contents are currently moving to Sphinx (but not completed).</div>
+{% endblock %}
+
 {%- block headerlogo %}
 <div id="logo">
 <a href="{{ url_root }}index.html" accesskey="1" id="portal-logo">清水川Web</a>
@@ -96,3 +100,18 @@ Hatena.xBookmark.SiteConfig = {
     </ul>
 </div>
 {%- endblock %}
+
+{%- block extrarightbox %}
+<div class="box hatena-widget">
+    <script language="javascript" type="text/javascript" src="http://b.hatena.ne.jp/js/widget.js" charset="utf-8"></script>
+    <script language="javascript" type="text/javascript">
+        Hatena.BookmarkWidget.url   = "{{ site_url }}";
+        Hatena.BookmarkWidget.title = "Popular Entries";
+        Hatena.BookmarkWidget.sort  = "hot";
+        Hatena.BookmarkWidget.width = 0;
+        Hatena.BookmarkWidget.num   = 5;
+        Hatena.BookmarkWidget.theme = "notheme";
+        Hatena.BookmarkWidget.load();
+    </script>
+</div>
+{% endblock %}
