@@ -1,8 +1,11 @@
 {% extends "!layout.html" %}
 
+{% set site_url = 'http://www.freia.jp/taka' %}
+
 {%- block htmltitle %}
 <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
-<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.freia.jp/taka/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site_url }}/rss.xml">
+<link rel="canonical" href={{ site_url }}/{{ pagename }}.html>
 {%- endblock %}
 
 {%- block extrahead %}
