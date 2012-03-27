@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   2012-03-27-python-professional-programming/index
    2012-03-24-python-packaging-pyfes-201203/index
    770/index
    769/index
