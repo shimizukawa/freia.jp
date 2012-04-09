@@ -13,6 +13,10 @@ rst2textileを実装する過程でreStructuredTextのnode-treeを見たくな�
 
 .. code-block:: bash
 
+   $ rst2pseudoxml.py in.rst out.pxml
+
+   または
+
    $ python -c "from docutils.core import publish_cmdline as p; p()" in.rst out.pxml
 
 このコマンドに渡している `in.rst` の内容は以下の通りです。
