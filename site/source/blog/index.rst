@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   docutils-pseudo-xml/index
    distutils2-setup-cfg-interactive-creating/index
    2012-03-28-macosx-lion-make-iso-image/index
    2012-03-27-python-professional-programming/index
