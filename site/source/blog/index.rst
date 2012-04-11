@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   replace-makefile-with-python/index
    docutils-pseudo-xml/index
    distutils2-setup-cfg-interactive-creating/index
    2012-03-28-macosx-lion-make-iso-image/index
