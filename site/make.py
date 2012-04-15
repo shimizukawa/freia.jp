@@ -26,15 +26,6 @@ target, sh, echo = make.target, make.sh, make.echo
 #.PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest
 
 @target()
-def help():
-    """to print this message"""
-    echo("""Please use `make <target>' where <target> is one of""")
-    width = max(len(c.__name__) for c in make.targets())
-    for c in make.targets():
-        echo("  {c.__name__:<%d} {c.__doc__}" % width)
-
-
-@target()
 def clean():
     """to remove BUILDDIR/*"""
     return make.rm(BUILDDIR + '/*')
@@ -132,13 +123,18 @@ def latex():
          "(use `make latexpdf' here to do that automatically).")
 
 @target()
-def latexpdf():
+def latexpdf(sub_target='all_pdf'):
     """to make LaTeX files and run them through pdflatex"""
     bdir = BUILDDIR + '/latex'
     sh(SPHINXBUILD, '-b', 'latex', ALLSPHINXOPTS, bdir)
     echo("Running LaTeX files through pdflatex...")
-    sh(make, '-C', bdir, 'all-pdf')  #TODO: こうやって外部make.pyを呼び出したい
+    sh('make.py', sub_target, cwd=bdir)
     echo("pdflatex finished; the PDF files are in {bdir}.")
+
+@target()
+def latexpdfja():
+    """to make LaTeX files and run them through pdflatex"""
+    make.call('latexpdf', 'all_pdf_ja')
 
 @target()
 def text():

@@ -46,9 +46,9 @@ class Runner(object):
             if ret:
                 return ret
         # main
-        print("In:", self.__name__)
+        #print("Target Start:", self.__name__)
         ret = self.func(*args, **kw)
-        print("Out:", self.__name__)
+        #print("Target End:", self.__name__)
         return ret
 
 
@@ -82,16 +82,23 @@ class make(object):
 
     #utility
     @classmethod
-    def sh(cls, *args):
+    def sh(cls, *args, **kw):
         args = flatten(args)
+        if 'cwd' in kw:
+            print("In:", kw['cwd'])
         print(' '.join(args))
-        return subprocess.check_call(args)
+        if args[0][-3:] == '.py':
+            args.insert(0, sys.executable)
+        ret = subprocess.check_call(args, **kw)
+        if 'cwd' in kw:
+            print("Out:", kw['cwd'])
+        return ret
 
     #utility
     @classmethod
     def rm(cls, *dirs):
         for d in dirs:
-            for f in glob.glob(d):
+            for f in cls.glob(d):
                 shutil.rmtree(f, True)
 
     #utility
@@ -102,7 +109,15 @@ class make(object):
 
     #utility
     @classmethod
-    def call(cls, name, args=[], kw={}):
+    def glob(cls, wildcards):
+        """make.glob('*.jpg *.png *.gif') -> iter(file_list)"""
+        for w in wildcards.split(' '):
+            for f in glob.glob(w):
+                yield f
+
+    #utility
+    @classmethod
+    def call(cls, name, *args, **kw):
         return cls.__commands[name](*args, **kw)
 
     #utility
@@ -117,6 +132,15 @@ class make(object):
     @classmethod
     def targets(cls):
         return [cls.__commands[t] for t in cls.__commands_order]
+
+    #utility
+    @classmethod
+    def help(cls):
+        """to print this message"""
+        cls.echo("""Please use `make <target>' where <target> is one of""")
+        width = max(len(c.__name__) for c in cls.targets())
+        for c in cls.targets():
+            cls.echo("  {c.__name__:<%d} {c.__doc__}" % width)
 
     #utility
     @classmethod
@@ -142,3 +166,5 @@ class make(object):
         if not isinstance(ret, int) and ret is not None:
             ret = -1
         sys.exit(ret)
+
+make.target()(make.help)
