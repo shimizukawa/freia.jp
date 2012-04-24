@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   rst2textile-0.1.0-released/index
    replace-makefile-with-python/index
    docutils-pseudo-xml/index
    distutils2-setup-cfg-interactive-creating/index
