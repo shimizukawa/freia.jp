@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sencha-touch-2-introduction/index
    taiwan-report-2012/index
    rst2textile-0.1.0-released/index
    replace-makefile-with-python/index
