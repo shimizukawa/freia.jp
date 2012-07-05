@@ -8,7 +8,7 @@
 
 *Category: 'JavaScript', 'SenchaTouch2', 'ExtJS'*
 
-:doc:`sencha-touch-2-introduction/index` の続きです。インストールについて。
+:doc:`../sencha-touch-2-introduction/index` の続きです。ライセンスとインストールについて。
 
 
 Sencha Touch 2 のダウンロード
