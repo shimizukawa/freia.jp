@@ -542,6 +542,9 @@ app.js:
 * XTemplate
 * store, record, data
 
-つぎは、この肥大化した階層構造を分解してこれ自体をコンポーネント化していこうと思います。
-なお、ソースコードは全て https://bitbucket.org/shimizukawa/sencha-touch2-exercise にあります。
 
+なお、ソースコードは全て https://bitbucket.org/shimizukawa/sencha-touch2-exercise のstep1ディレクトリにあります。
+
+.. また、スマートフォンから にアクセスすれば実際にアプリを操作出来ます。
+
+つぎは、この肥大化した階層構造を分解してこれ自体をコンポーネント化していこうと思います。
