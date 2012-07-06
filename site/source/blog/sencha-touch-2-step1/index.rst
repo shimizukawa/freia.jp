@@ -1,4 +1,4 @@
-:date: 2012-07-06 16:00:00
+:date: 2012-07-06 23:00:00
 :categories: ['JavaScript', 'SenchaTouch2', 'ExtJS']
 :body type: text/x-rst
 
@@ -82,7 +82,7 @@ app.js
 
 このアプリをブラウザで確認してみます。
 
-.. figure:: dummy.png
+.. figure:: step1-welcome.png
 
    step1-1. Welcome
 
@@ -123,9 +123,9 @@ app.js:
        }
    });
 
-.. figure:: dummuy.png
+.. figure:: step1-welcome.png
 
-   step1-2. 実行例
+   step1-2. Welcome (再掲)
 
 
 Sencha Touch 2 はExt.Panelのようなコンポーネントを並べたり、子要素として持たせたりしてアプリケーションの画面を作っていきます。
@@ -215,9 +215,9 @@ app.js:
        }
    });
 
-.. figure:: dummy.png
+.. figure:: step1-helloworld.png
 
-   step1-3. タブが2つ表示されました
+   step1-3. タブが2つ表示されました。"World!" が強調表示されています。
 
 
 これでタブが2つ表示されました。タブをタップすれば画面が切り替わって適切なpanelが表示されます。
@@ -266,7 +266,7 @@ app.js:
        }
    });
 
-.. figure::
+.. figure:: step1-listview.png
 
    step1-4. 本の一覧をlistコンポーネントで表示
 
@@ -313,6 +313,10 @@ app.js:
            });
        }
    });
+
+.. figure:: step1-listview.png
+
+   step1-5. 本の一覧を表示 (再掲)
 
 これでリスト表示が出来ました。次は項目をタップしたら詳細画面を表示するようにします。
 
@@ -370,9 +374,9 @@ app.js:
        }
    });
 
-.. figure:: dummy.png
+.. figure:: step1-navigationview.png
 
-   step1-5. navigationviewを使用。見た目はタイトルバーが付いただけですね。
+   step1-6. navigationviewを使用。見た目はタイトルバーが付いただけですね。
 
 
 `xtype: 'list'` 部分のconfigはほとんど前に出てきたリスト表示実装のままですがtitle指定を追加しています。
@@ -453,9 +457,9 @@ app.js:
        }
    });
 
-.. figure:: dummy.png
+.. figure:: step1-navigation-list-tap.png
 
-   step1-6. タップしたときの様子
+   step1-7. タップしたときの様子
 
 これで、本の一覧と詳細表示を行うアプリケーションが実装出来ました。
 新しい要素として、navigationviewのpushや、listener、recordが出てきました。
