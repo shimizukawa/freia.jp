@@ -461,6 +461,11 @@ app.js:
 
    step1-7. タップしたときの様子
 
+.. figure:: step1-navigation-list-back.png
+
+   step1-8. 詳細画面の表示と、navigationviewに自動的に用意されるBackボタン
+
+
 これで、本の一覧と詳細表示を行うアプリケーションが実装出来ました。
 新しい要素として、navigationviewのpushや、listener、recordが出てきました。
 
@@ -545,6 +550,6 @@ app.js:
 
 なお、ソースコードは全て https://bitbucket.org/shimizukawa/sencha-touch2-exercise のstep1ディレクトリにあります。
 
-.. また、スマートフォンから にアクセスすれば実際にアプリを操作出来ます。
+また、スマートフォンから http://dlvr.it/1pyvt3 にアクセスすれば、ここで作ったアプリを実際に操作出来ます。
 
 つぎは、この肥大化した階層構造を分解してこれ自体をコンポーネント化していこうと思います。
