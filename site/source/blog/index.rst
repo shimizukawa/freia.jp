@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   skype-commands/index
    sencha-touch-2-step1/index
    sencha-touch-2-install/index
    sencha-touch-2-introduction/index
