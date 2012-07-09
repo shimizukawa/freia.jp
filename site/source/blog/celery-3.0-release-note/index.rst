@@ -9,7 +9,7 @@
 *'python', 'celery'*
 
 
-2012/7/7にcelery3.0がリリースされたようなので、リリースノートにった `What's new in Celery 3.0 (Chiastic Slide)`_ のHighlights Overviewを把握がてらてきとうに和訳してみました。
+2012/7/7にcelery3.0がリリースされたようなので、 `What's new in Celery 3.0 (Chiastic Slide)`_ のHighlights Overviewを把握がてらてきとうに和訳してみました。
 
 .. _`What's new in Celery 3.0 (Chiastic Slide)`: http://docs.celeryproject.org/en/latest/whatsnew-3.0.html
 
