@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   celery-3.0-release-note/index
    skype-commands/index
    sencha-touch-2-step1/index
    sencha-touch-2-install/index
