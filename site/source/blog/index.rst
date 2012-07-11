@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sencha-touch-2-step2/index
    python-tshirts/index
    celery-3.0-release-note/index
    skype-commands/index
