@@ -1,4 +1,4 @@
-:date: 2012-07-11 14:00:00
+:date: 2012-07-11 17:00:00
 :categories: ['JavaScript', 'SenchaTouch2', 'ExtJS']
 :body type: text/x-rst
 
@@ -105,18 +105,22 @@ xtypeに'list'(Ext.dataview.List)を指定して使う場合(一部省略して�
 
 .. code-block:: javascript
 
-   // Ext.dataview.Listコンポーネントを事前にインスタンス化しておく。
-   // パラメータをExt.createの第2引数に指定してインスタンスを初期化。
-   var books = Ext.create('Ext.dataview.List', {
-       title: 'My Books',
-       itemTpl: [...],
-       store: {...},
-       listeners: {...}
-   });
-
    Ext.application({
        name: 'App',
        launch: function() {
+           // Ext.dataview.Listコンポーネントを事前にインスタンス化しておく。
+           // パラメータをExt.createの第2引数に指定してインスタンスを初期化。
+           var books = Ext.create('Ext.dataview.List', {
+               title: 'My Books',
+               itemTpl: [...],
+               store: {...},
+               listeners: {...}
+           });
+           // booksのインスタンス化はlaunch内で行う。
+           // app.jsロード時に実行してしまうとsenchaフレームワークの初期化が
+           // 完了して無くて(想像)、listenersでイベントを捕まえられない。
+           // 想像が合っていれば、listeners以外にも問題がありそう。
+
            Ext.create('Ext.navigation.View', {
                fullscreen: true,
 
@@ -127,7 +131,7 @@ xtypeに'list'(Ext.dataview.List)を指定して使う場合(一部省略して�
    });
 
 前者のようにxtypeを指定して実装した場合、後者のようなインスタンス化などはSencha Touch 2 の内部で自動的に行われます。
-この例では後半のコード内でインスタンス化した変数booksを参照しており、分割はできたものの実装順序に気をつける必要が出てきました。
+この例では後半のコード内でインスタンス化した変数booksを参照しており、分割はできたものの実装順序や実行タイミングに気をつける必要が出てきました。
 
 分割して書きたいけどインスタンス化は今は行いたくないし、実装順序を気にしたくない、ということもあります。この場合、listを継承した独自のクラスを実装する方法が使えます。
 
