@@ -102,3 +102,9 @@ epub_language = 'ja'
 #epub_post_files = []
 #epub_exclude_files = []
 epub_tocdepth = 3
+
+
+# -- setup --
+
+def setup(app):
+    app.add_stylesheet('freia.css')

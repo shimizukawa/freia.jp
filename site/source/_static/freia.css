@@ -1,0 +1,11 @@
+.documentbody {background-color: #F7F9FB; padding: 0.3em;}
+.documentbody h2 {border-bottom: 1px solid green;}
+a.reference {color: #355F7C;}
+div.sphinxsidebar {float: none; margin-left: 0; width: 100%; font-size: 100%;}
+div.sphinxsidebar h3, div.sphinxsidebar h4 {color: black;}
+div.sphinxsidebar ul {margin-right:0;}
+div.sphinxsidebarwrapper {padding:4px; overflow:hidden;}
+div.related {background-color: transparent; color: black; line-height: 2em;}
+div.related a {color: #355F7C;}
+div.related a:hover {text-decoration: underline;}
+div.footer {background-color: #11303D;}
