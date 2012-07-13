@@ -9,3 +9,23 @@ div.related {background-color: transparent; color: black; line-height: 2em;}
 div.related a {color: #355F7C;}
 div.related a:hover {text-decoration: underline;}
 div.footer {background-color: #11303D;}
+
+/* twilog div-p format */
+.tl-tweet {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	margin: 4px 2em;
+	padding: 0.4em;
+}
+
+.tl-text {
+	background-color: white;
+	margin: 0.1em 0;
+	padding: 0.5em;
+}
+
+.tl-posted {
+	color: gray;
+	margin: 0.1em 0;
+	text-align: right;
+}

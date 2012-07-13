@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sublime-text-2-study1/index
    sencha-touch-2-step2/index
    python-tshirts/index
    celery-3.0-release-note/index
