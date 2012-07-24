@@ -187,3 +187,40 @@ sys.path.appendしたときと同じように、parentもparent.childもimport�
 
 すばらしい！これで __init__.py を置くべきか置かないべきかという話は不要になるね。
 
+
+追記1
+^^^^^^
+
+.. code-block:: pycon
+
+   $ cd /tmp
+   $ mkdir foo
+   $ mkdir bar
+   $ touch foo/__init__.py
+   $ python3.3
+   Python 3.3.0b1 ...(省略)
+   >>> import foo
+   >>> import bar
+   >>> foo
+   <module 'foo' from './foo/__init__.py'>
+   >>> bar
+   <module 'bar' (namespace)>
+
+__init__.py が無い場合 (namespace) と表示されている。
+
+追記2
+^^^^^^
+
+.. code-block:: pycon
+
+   C:\Users\taka> cd \
+   C:\> python3.3
+   Python 3.3.0b1 ...(省略)
+   >>> import Users.taka.Dropbox.code.python.stdout
+   >>> Users.taka.Dropbox.code.python.stdout
+   <module 'Users.taka.Dropbox.code.python.stdout' (namespace)>
+   >>> Users.taka.Dropbox.code.python.stdout.__path__
+   _NamespacePath(['.\\Users\\taka\\Dropbox\\code\\python\\stdout'])
+
+なんか気持ち悪いぞｗ
+
