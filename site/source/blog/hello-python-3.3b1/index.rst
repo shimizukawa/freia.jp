@@ -22,8 +22,10 @@ Pythonで名前空間パッケージを使うにはいくつか作法がある�
 
    /tmp/
       +-- spam/
+      |    +-- __init__.py
       +-- ham/
-           +-- __init__.py
+
+*(spam/ham逆だったのを直しました. thx* `@kyuwabara <https://twitter.com/kyuwabara/status/227793920799674369>`_ *!)*
 
 この状態で以下のようになる:
 
