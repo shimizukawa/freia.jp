@@ -36,10 +36,16 @@ codeディレクティブでコードハイライト
 
 SphinxではHTMLエレメントに ``highlight`` クラスが無いと色づけが正しく反映されないため、class指定を行っています。
 
+.. seealso:: `reStructuredText Directives`_
+
+
 次にcodeロール。
 
 codeロールでインラインコードハイライト
 ----------------------------------------
+
+.. seealso:: `reStructuredText Interpreted Text Roles`_
+
 
 .. code-block:: rst
 
@@ -91,6 +97,11 @@ codeロールでインラインコードハイライト
    def setup(app):
        app.add_role('ipy', ipy_role)
 
+.. seealso:: `拡張API - Sphinx 1.1 (hg) documentation`_
+
 
 .. _`Sphinx+翻訳 Hack-a-thon 2012.08 (2012/8/19)`: http://connpass.com/event/816/
 .. _`In line syntax highlighting?`: https://groups.google.com/d/msg/sphinx-dev/-4Waaw9qQx4/jnXBjKuQKFMJ
+.. _`reStructuredText Directives`: http://docutils.sourceforge.net/docs/ref/rst/directives.html#code
+.. _`reStructuredText Interpreted Text Roles`: http://docutils.sourceforge.net/docs/ref/rst/roles.html#code
+.. _`拡張API - Sphinx 1.1 (hg) documentation`: http://sphinx-users.jp/doc11/ext/appapi.html#sphinx.application.Sphinx.add_role
