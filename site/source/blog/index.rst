@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinx-inline-code-highlighting/index
    hello-python-3.3b1/index
    sencha-touch-2-step3/index
    sublime-text-2-study1/index
