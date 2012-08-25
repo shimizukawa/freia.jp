@@ -31,6 +31,16 @@ def clean():
     return make.rm(BUILDDIR + '/*')
 
 @target()
+def bootstrap():
+    """to bootstraping buildout environment"""
+    sh('python', '-S', 'bootstrap.py', '-d', 'init')
+
+@target()
+def buildout():
+    """to update buildout environment"""
+    sh('bin/buildout')
+
+@target()
 def html():
     """to make standalone HTML files"""
     bdir = BUILDDIR + '/html'
