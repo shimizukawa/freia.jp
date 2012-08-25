@@ -33,12 +33,21 @@ def clean():
 @target()
 def bootstrap():
     """to bootstraping buildout environment"""
-    sh('python', '-S', 'bootstrap.py', '-d', 'init')
+    return sh('python', '-S', 'bootstrap.py', '-d', 'init')
 
 @target()
 def buildout():
     """to update buildout environment"""
-    sh('bin/buildout')
+    return sh('bin/buildout')
+
+@target()
+def update():
+    """to pull & update & make html"""
+    if sh('hg', 'incoming', '-q'):
+        print('not changed')
+        return
+    sh('hg', 'pull', '-u')
+    return make.call('html')
 
 @target()
 def html():
