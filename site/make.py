@@ -49,7 +49,8 @@ def update():
     if sh(HG, 'incoming', '-q'):
         print('not changed')
         return
-    if sh(HG, 'pull', '-u')
+    if sh(HG, 'pull', '-u'):
+        return
     return make.call('html')
 
 @target()
