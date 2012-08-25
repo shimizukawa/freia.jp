@@ -4,6 +4,9 @@
 # You can set these variables from the command line.
 SPHINXOPTS    = ''
 SPHINXBUILD   = 'bin/sphinx-build'
+HG            = 'bin/hg'
+BUILDOUT      = 'bin/buildout'
+PYTHON        = 'python'
 PAPER         = ''
 BUILDDIR      = 'build'
 PROJECTNAME   = 'freia'
@@ -33,20 +36,20 @@ def clean():
 @target()
 def bootstrap():
     """to bootstraping buildout environment"""
-    return sh('python', '-S', 'bootstrap.py', '-d', 'init')
+    return sh(PYTHON, '-S', 'bootstrap.py', '-d', 'init')
 
 @target()
 def buildout():
     """to update buildout environment"""
-    return sh('bin/buildout')
+    return sh(BUILDOUT)
 
 @target()
 def update():
     """to pull & update & make html"""
-    if sh('hg', 'incoming', '-q'):
+    if sh(HG, 'incoming', '-q'):
         print('not changed')
         return
-    sh('hg', 'pull', '-u')
+    if sh(HG, 'pull', '-u')
     return make.call('html')
 
 @target()
