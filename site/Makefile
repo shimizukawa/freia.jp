@@ -12,6 +12,15 @@ help:
 clean:
 	$(PYTHON) make.py clean
 
+bootstrap:
+	$(PYTHON) make.py bootstrap
+
+buildout:
+	$(PYTHON) make.py buildout
+
+update:
+	$(PYTHON) make.py update
+
 html:
 	$(PYTHON) make.py html
 
