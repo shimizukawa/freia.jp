@@ -34,7 +34,7 @@ class Runner(object):
 
     def __call__(self, *args, **kw):
         # targets
-        if self.targets and __builtins__.all(
+        if self.targets and all(
                 os.path.exists(target) for target in self.targets):
             print("Skip:", self.__name__)
             print(" all targets are exists:", self.targets)
@@ -89,7 +89,7 @@ class make(object):
         print(' '.join(args))
         if args[0][-3:] == '.py':
             args.insert(0, sys.executable)
-        ret = subprocess.check_call(args, **kw)
+        ret = subprocess.call(args, **kw)
         if 'cwd' in kw:
             print("Out:", kw['cwd'])
         return ret
