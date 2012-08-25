@@ -36,7 +36,7 @@ def clean():
 @target()
 def bootstrap():
     """to bootstraping buildout environment"""
-    return sh(PYTHON, '-S', 'bootstrap.py', '-d', 'init')
+    return sh(PYTHON, '-S', 'bootstrap.py', '-d')
 
 @target()
 def buildout():
