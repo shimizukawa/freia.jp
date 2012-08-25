@@ -25,6 +25,7 @@ ALLSPHINXOPTS = [
 import sys
 import os
 
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ENVPREFIX, 'utils'))
 
 from mk import make
@@ -209,5 +210,4 @@ def doctest():
 
 
 if __name__ == '__main__':
-    os.chdir(os.path.dirname(os.path.abspath(__file__)))
     make.run()
