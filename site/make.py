@@ -2,10 +2,11 @@
 # Makefile for Sphinx documentation
 #
 # You can set these variables from the command line.
+ENVPREFIX     = '../env/'
 SPHINXOPTS    = ''
-SPHINXBUILD   = 'bin/sphinx-build'
-HG            = 'bin/hg'
-BUILDOUT      = 'bin/buildout'
+SPHINXBUILD   = ENVPREFIX + 'bin/sphinx-build'
+HG            = ENVPREFIX + 'bin/hg'
+BUILDOUT      = ENVPREFIX + 'bin/buildout'
 PYTHON        = 'python'
 PAPER         = ''
 BUILDDIR      = 'build'
@@ -22,6 +23,10 @@ ALLSPHINXOPTS = [
 
 
 import sys
+import os
+
+sys.path.insert(0, os.path.join(ENVPREFIX, 'utils'))
+
 from mk import make
 
 target, sh, echo = make.target, make.sh, make.echo
@@ -36,11 +41,13 @@ def clean():
 @target()
 def bootstrap():
     """to bootstraping buildout environment"""
+    os.chdir(ENVPREFIX)
     return sh(PYTHON, '-S', 'bootstrap.py', '-d')
 
 @target()
 def buildout():
     """to update buildout environment"""
+    os.chdir(ENVPREFIX)
     return sh(BUILDOUT)
 
 @target()
