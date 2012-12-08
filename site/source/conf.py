@@ -13,6 +13,7 @@ extensions = [
         'sphinxcontrib.feed',
         #'tinkerer.ext.blog',
         #'tinkerer.ext.disqus',
+        'sphinx.ext.intersphinx',
         ]
 
 # for sphinx.ext.todo plugin
@@ -31,6 +32,11 @@ feed_base_url = 'http://www.freia.jp/taka/'
 feed_description = u'清水川Webは、Python関連の技術的な事についての個人的メモや、清水川の日々の雑記を公開しています。'
 feed_filename = 'rss.xml'
 feed_count = 10
+
+# for intersphinx
+intersphinx_mapping = {
+   'sphinx': ('http://sphinx-users.jp/doc11', None),
+}
 
 # -- General configuration -----------------------------------------------------
 

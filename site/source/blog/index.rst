@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   how-to-use-intersphinx/index
    pyspa-advent-calendar-2012/index
    sphinx-inline-code-highlighting/index
    hello-python-3.3b1/index
