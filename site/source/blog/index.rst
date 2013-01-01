@@ -6,6 +6,8 @@
 .. toctree::
    :maxdepth: 1
 
+   2013-kakizome/index
+
    how-to-use-intersphinx/index
    pyspa-advent-calendar-2012/index
    sphinx-inline-code-highlighting/index
