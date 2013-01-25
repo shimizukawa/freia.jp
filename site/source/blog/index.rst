@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   expert-python-programming-reading-2nd-13/index
    2013-kakizome/index
 
    how-to-use-intersphinx/index
