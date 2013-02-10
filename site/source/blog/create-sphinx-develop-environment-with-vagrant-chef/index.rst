@@ -42,14 +42,14 @@ Vagrant+Chefを使うための環境構築
      (Windowsの場合)。
 
      1. vagrantのインストール先の ``vagrant\bin`` に
-        %HOME%\.vagrant.d\gems\bin\librarian-chef* をコピー
+        ``%HOME%\.vagrant.d\gems\bin\librarian-chef*`` をコピー
      2. コピーしたlibrarian-chef.batのrubyインタプリタをvagrant.batと
         同じにする::
 
-          @"ruby.exe" -> @"%~dp0\..\embedded\bin\ruby.exe"
+          ``@"ruby.exe"`` -> ``@"%~dp1\..\embedded\bin\ruby.exe"``
 
-     3. set GEM_HOME=%HOME%\.vagrant.d\gems
-     4. librarian-chef 実行 -> OK
+     3. ``set GEM_HOME=%HOME%\.vagrant.d\gems``
+     4. :command:`librarian-chef` 実行 -> OK
 
      できたけど無理矢理感あるｗ
 
