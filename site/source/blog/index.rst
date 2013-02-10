@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   create-ubuntu-12.04-by-using-vagrant/index
    expert-python-programming-reading-2nd-13/index
    2013-kakizome/index
 
