@@ -72,6 +72,12 @@ librarianとvagrantで環境構築
 
   ここにはCheffileとVagrantfileが含まれています。
 
+  .. note::
+
+     2013/2/14 追記: Vagrantfileに記載されているconfig.vm.boxの値は環境に合わせて変更してください。
+     現時点ではUbuntu-12.04でのみ動作確認済みです。
+
+
 * step 3: chef cookbook をインストール::
 
      $ cd vagrant-sphinx-testing

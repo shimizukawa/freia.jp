@@ -25,12 +25,20 @@ Vagrantを使うための環境構築
 
 * step 5: Ubuntu 12.04.1 をVagrantに追加::
 
-     $ vagrant box add ubuntu-12.04-x86_64 http://dl.dropbox.com/u/1537815/precise64.box
+     $ vagrant box add ubuntu-12.04-amd64 http://goo.gl/8kWkm
 
-  この追加でローカルにboxファイルが ``ubuntu-12.04-x86_64`` という名前で
+  この追加でローカルにboxファイルが ``ubuntu-12.04-amd64`` という名前で
   インストールされる。
 
 ここまでで事前準備完了。
+
+.. note::
+
+   2/14追記: boxにはVirtualBoxのGuest Additionsがインストール済みですが、
+   VirtualBoxのバージョンが高くなると古いboxのGuest Additionsの互換性が
+   無くなる場合があります。
+
+   その場合は適宜vagrantbox.esから新しいboxを入手して読み替えて下さい。
 
 Ubuntuのインスタンスを作る
 ============================
@@ -41,7 +49,7 @@ Ubuntuのインスタンスを作る
 
      $ mkdir /path/to/vagrant_work/ubuntu1204
      $ cd /path/to/vagrant_work/ubuntu1204
-     $ vagrant init ubuntu-12.04-x86_64
+     $ vagrant init ubuntu-12.04-amd64
 
   これでインスタンスの設定ファイル ``Vagrantfile`` が作成される。
 
