@@ -23,11 +23,11 @@ Vagrantを使うための環境構築
 * step 4: 有志で提供されているVagrant Box (OSテンプレート)の一覧を確認
   http://www.vagrantbox.es/
 
-* step 5: Ubuntu 12.04.1 をVagrantに追加::
+* step 5: Ubuntu 12.04 をVagrantに追加::
 
-     $ vagrant box add ubuntu-12.04-amd64 http://goo.gl/8kWkm
+     $ vagrant box add ubuntu-12.04-x64 http://files.vagrantup.com/precise64.box
 
-  この追加でローカルにboxファイルが ``ubuntu-12.04-amd64`` という名前で
+  この追加でローカルにboxファイルが ``ubuntu-12.04-x64`` という名前で
   インストールされる。
 
 ここまでで事前準備完了。
@@ -38,7 +38,12 @@ Vagrantを使うための環境構築
    VirtualBoxのバージョンが高くなると古いboxのGuest Additionsの互換性が
    無くなる場合があります。
 
-   その場合は適宜vagrantbox.esから新しいboxを入手して読み替えて下さい。
+   対策はいくつかあります。
+
+   * vagrantbox.esから対応するGuest Additionsインストール済みのboxを入手する
+   * VirtualBoxのバージョンを上げない
+   * あとでvagrant sshして自力で対応するGuest Additionsをインストールする
+
 
 Ubuntuのインスタンスを作る
 ============================
