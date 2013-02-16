@@ -29,3 +29,8 @@ div.footer {background-color: #11303D;}
 	margin: 0.1em 0;
 	text-align: right;
 }
+
+/* teletext font-size override */
+tt {
+	font-size: 1em;
+}
