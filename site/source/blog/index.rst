@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   python-textwrap-with-japanese/index
    create-sphinx-develop-environment-with-vagrant-chef/index
    create-ubuntu-12.04-by-using-vagrant/index
    expert-python-programming-reading-2nd-13/index

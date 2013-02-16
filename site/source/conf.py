@@ -36,6 +36,7 @@ feed_count = 10
 # for intersphinx
 intersphinx_mapping = {
    'sphinx': ('http://sphinx-users.jp/doc11', None),
+   'py': ('http://docs.python.jp/2/', None),
 }
 
 # -- General configuration -----------------------------------------------------
