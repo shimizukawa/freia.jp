@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   python-win32-binary-building-and-x64-cross-compiling-on-32bit-platform/index
    python-textwrap-with-japanese/index
    create-sphinx-develop-environment-with-vagrant-chef/index
    create-ubuntu-12.04-by-using-vagrant/index
