@@ -88,6 +88,10 @@ Build python module
 for x86
 ----------
 
+.. figure:: SDK6.1-CMD.png
+
+   Microsoft Windows SDK v6.1 CMD Shell
+
 First, invoke Windows SDK's ``CMD Shell`` from ``Start -> Microsoft Windows SDK v6.1 -> CMD Shell`` and do following:
 
 .. code-block:: bash
@@ -108,6 +112,15 @@ for x64
 ----------
 
 First, invoke ``CMD Shell`` and do following:
+
+.. figure:: debug-env-to-release-env.png
+
+   Windows Server 2008 x64 DEBUG environment
+
+.. figure:: release-env.png
+
+   Windows Server 2008 x64 RELEASE environment
+
 
 .. code-block:: bash
 
