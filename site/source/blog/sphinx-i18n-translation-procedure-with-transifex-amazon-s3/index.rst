@@ -330,8 +330,8 @@ transifex_client をインストール。
 .. code-block:: bash
 
    $ cd $BASEDIR/sphinx/doc
-   $ tx set --auto-local -r sphinx-document-test_1_0.builders \\
-   "locale/<lang>/LC_MESSAGES/builders.po" --source-lang en \\
+   $ tx set --auto-local -r sphinx-document-test_1_0.builders \
+   "locale/<lang>/LC_MESSAGES/builders.po" --source-lang en \
    --source-file locale/pot/builders.pot --execute
 
 
