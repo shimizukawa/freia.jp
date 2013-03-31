@@ -115,3 +115,6 @@ epub_tocdepth = 3
 
 def setup(app):
     app.add_stylesheet('freia.css')
+    app.add_object_type('confval', 'confval',
+                        objname='configuration value',
+                        indextemplate='pair: %s; configuration value')
