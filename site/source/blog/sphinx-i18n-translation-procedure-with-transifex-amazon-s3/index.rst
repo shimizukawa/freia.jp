@@ -335,7 +335,7 @@ transifex_client をインストール。
    --source-file locale/pot/builders.pot --execute
 
 
-これで ``.tx/config``` に以下のように定義が追加されます。
+これで ``.tx/config`` に以下のように定義が追加されます。
 
 .. code-block:: ini
 
