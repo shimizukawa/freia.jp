@@ -454,8 +454,8 @@ poファイル取得からHTMLアップロードまで実行
    export PIP_EGG=true
    export AWS_ACCESS_KEY_ID=<aws-access-key-id>
    export AWS_SECRET_ACCESS_KEY=<aws-secret-access-key>
-   export TRANSIFEX_USERNAME=<transifex-username>
-   export TRANSIFEX_PASSWORD=<transifex-password>
+   export TXUTIL_TRANSIFEX_USERNAME=<transifex-username>
+   export TXUTIL_TRANSIFEX_PASSWORD=<transifex-password>
 
 
    ########################################
