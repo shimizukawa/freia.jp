@@ -43,7 +43,7 @@ def clean():
 def bootstrap():
     """to bootstraping buildout environment"""
     os.chdir(ENVPREFIX)
-    return sh(PYTHON, '-S', 'bootstrap.py', '-d')
+    return sh(PYTHON, 'bootstrap.py')
 
 @target()
 def buildout():
