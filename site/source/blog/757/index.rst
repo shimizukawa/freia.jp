@@ -67,4 +67,13 @@ http://www.pythonware.com/products/pil/
 .. PortablePythonを利用すれば、こういった問題は発生しないでしょう。
 .. 
 .. あと、PIL公式配布のバイナリの方がまずい可能性もありますね。
-.. 
+
+.. note::
+
+   2013/4/1 追記:
+
+   PILの後継のPillowを使いましょう。
+
+   * Python-2.6, 2.7, 3.2, 3.3: https://pypi.python.org/pypi/Pillow/2.0.0
+   * Python-2.4, 2.5, 2.6, 2.7: https://pypi.python.org/pypi/Pillow/1.7.8
+
