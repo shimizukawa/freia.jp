@@ -93,7 +93,8 @@ def htmlgz():
             dst = pjoin(odir, relpath(src, bdir))
             if not exists(dirname(dst)):
                 makedirs(dirname(dst))
-            if src.endswith(('.html', '.js', '.css', '.txt', '.rst', '.xml', '.rss')):
+            #if src.endswith(('.html', '.js', '.css', '.txt', '.rst', '.xml', '.rss')):
+            if src.endswith('.html'):
                 print('compress: %s' % dst)
                 with gzip.open(dst, 'wb') as g, open(src, 'rb') as s:
                     g.write(s.read())
