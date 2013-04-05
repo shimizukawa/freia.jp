@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 ENVPREFIX     = '../env/'
 SPHINXOPTS    = ''
-SPHINXBUILD   = 'sphinx-build'
+SPHINXBUILD   = ENVPREFIX + 'bin/sphinx-build'
 HG            = ENVPREFIX + 'bin/hg'
 BUILDOUT      = ENVPREFIX + 'bin/buildout'
 PYTHON        = 'python'
