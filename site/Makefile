@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 PYTHON    = python
 
-.PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest
+.PHONY: help clean html htmlgz dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest
 
 help:
 	$(PYTHON) make.py help
@@ -23,6 +23,9 @@ update:
 
 html:
 	$(PYTHON) make.py html
+
+htmlgz:
+	$(PYTHON) make.py htmlgz
 
 dirhtml:
 	$(PYTHON) make.py dirhtml

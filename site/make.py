@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 ENVPREFIX     = '../env/'
 SPHINXOPTS    = ''
-SPHINXBUILD   = ENVPREFIX + 'bin/sphinx-build'
+SPHINXBUILD   = 'sphinx-build'
 HG            = ENVPREFIX + 'bin/hg'
 BUILDOUT      = ENVPREFIX + 'bin/buildout'
 PYTHON        = 'python'
@@ -31,6 +31,9 @@ sys.path.insert(0, os.path.join(ENVPREFIX, 'utils'))
 from mk import make
 
 target, sh, echo = make.target, make.sh, make.echo
+
+import gzip
+import shutil
 
 #.PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest
 
@@ -68,6 +71,35 @@ def html():
     sh(SPHINXBUILD, '-b', 'html', ALLSPHINXOPTS, bdir)
     echo()
     echo("Build finished. The HTML pages are in {bdir}.")
+
+@target()
+def htmlgz():
+    """compress *.html files with gzip."""
+    r = make.call('html')
+    if r:
+        return r
+
+    pjoin = os.path.join
+    relpath = os.path.relpath
+    dirname = os.path.dirname
+    exists = os.path.exists
+    makedirs = os.makedirs
+
+    bdir = BUILDDIR + '/html'
+    odir = BUILDDIR + '/html.gz'
+    for dirpath, dirs, files in os.walk(bdir):
+        for file in files:
+            src = pjoin(dirpath, file)
+            dst = pjoin(odir, relpath(src, bdir))
+            if not exists(dirname(dst)):
+                makedirs(dirname(dst))
+            if src.endswith(('.html', '.js', '.css', '.txt', '.rst', '.xml', '.rss')):
+                print('compress: %s' % dst)
+                with gzip.open(dst, 'wb') as g, open(src, 'rb') as s:
+                    g.write(s.read())
+            else:
+                print('copy: %s' % dst)
+                shutil.copy(src, dst)
 
 @target()
 def dirhtml():
