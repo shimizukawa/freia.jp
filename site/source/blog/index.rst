@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   vagrant-berkshelf-with-windows/index
    sphinx-i18n-translation-procedure-with-transifex-amazon-s3/index
    python-win32-binary-building-and-x64-cross-compiling-on-32bit-platform/index
    python-textwrap-with-japanese/index
