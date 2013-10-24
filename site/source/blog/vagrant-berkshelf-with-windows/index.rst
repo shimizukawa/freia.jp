@@ -3,7 +3,7 @@
 :body type: text/x-rst
 
 ===============================================================
-2013/10/23 vagrant-berkshelf プラグインがWindwosでエラーになる
+2013/10/23 vagrant-berkshelf プラグインがWindowsでエラーになる
 ===============================================================
 
 *Category: 'vagrant', 'berkshelf', 'Ruby'*
