@@ -1,11 +1,18 @@
 清水川記
 ==============
 
+.. contents::
+   :local:
+
 .. .. latest::
+
+2013年
+------
 
 .. toctree::
    :maxdepth: 1
 
+   sphinx-1-2-release/index
    vagrant-berkshelf-with-windows/index
    sphinx-i18n-translation-procedure-with-transifex-amazon-s3/index
    python-win32-binary-building-and-x64-cross-compiling-on-32bit-platform/index
@@ -14,6 +21,12 @@
    create-ubuntu-12.04-by-using-vagrant/index
    expert-python-programming-reading-2nd-13/index
    2013-kakizome/index
+
+2012年
+------
+
+.. toctree::
+   :maxdepth: 1
 
    how-to-use-intersphinx/index
    pyspa-advent-calendar-2012/index
@@ -37,9 +50,15 @@
    2012-03-27-python-professional-programming/index
    2012-03-24-python-packaging-pyfes-201203/index
    770/index
+
+2011年以前
+-----------
+
+.. toctree::
+   :maxdepth: 1
+
    769/index
    768/index
-
 
 .. include:: _index.out
 
