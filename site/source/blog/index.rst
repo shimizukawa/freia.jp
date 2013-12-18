@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   python-2-7-6-break-mimetypes/index
    sphinx-1-2-release/index
    vagrant-berkshelf-with-windows/index
    sphinx-i18n-translation-procedure-with-transifex-amazon-s3/index
