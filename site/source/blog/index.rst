@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   tox-did-not-work-with-py25-py31/index
    python-2-7-6-break-mimetypes/index
    sphinx-1-2-release/index
    vagrant-berkshelf-with-windows/index
