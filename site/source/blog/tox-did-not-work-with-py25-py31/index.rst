@@ -9,10 +9,10 @@
 *Category: 'Python', 'tox', 'virtualenv', 'setuptools'*
 
 .. figure:: sphinx-error.png
+   :target: https://drone.io/bitbucket.org/birkenfeld/sphinx
 
    12/7以降、SphinxがPython-2.5でエラーになってる
 
-   https://drone.io/bitbucket.org/birkenfeld/sphinx
 
 
 python-2.5のテストが落ちました
