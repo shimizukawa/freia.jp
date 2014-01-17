@@ -13,6 +13,7 @@
    :maxdepth: 1
 
    2014-kakizome/index
+   create-docker-trusted-build-image-on-the-docker-official-repository/index
 
 2013年
 ------
