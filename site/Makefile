@@ -2,7 +2,7 @@
 #
 
 # You can set these variables from the command line.
-PYTHON    = python
+PYTHON    = python2.7
 
 .PHONY: help clean html htmlgz dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest
 

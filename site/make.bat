@@ -1,1 +1,1 @@
-@python make.py "%1"
+@python2.7 make.py "%1"
