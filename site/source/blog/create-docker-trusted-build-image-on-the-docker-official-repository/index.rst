@@ -185,7 +185,7 @@ index.docker.io でビルドする
 
 1. `Docker Index account`_ を作成してログイン
 2. アカウントメニューでGitHubアカウントを関連づける
-3. `Trusted build`_ ページで　Add New して設定画面へ
+3. `Trusted builds`_ ページで　Add New して設定画面へ
 4. 対象のGitHubプロジェクトを選ぶ(この例ではshimizukawa/docker-python-all)
 5. Default Branchをmasterを入力(デフォルト値です)
 6. Repo NameにDockerで使うリポジトリ名を入力。デフォルトはGitHubのリポジトリ名docker-python-allが入力されているが、 ``shimizukawa/python-bulid`` にしたいのでちょっと書き換える。
@@ -194,11 +194,11 @@ index.docker.io でビルドする
 
 
 .. _Docker Index account: https://index.docker.io/
-.. _Trusted build: https://index.docker.io/builds/
+.. _Trusted builds: https://index.docker.io/builds/
 
 .. figure:: dockerio.png
 
-   `Trusted build`_ 設定画面
+   `Trusted builds`_ 設定画面
 
 
 設定が終わるとサーバーのリソースが空き次第、docker buildが実行されてimageが作成されます。
