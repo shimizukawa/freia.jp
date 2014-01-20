@@ -12,9 +12,10 @@
 .. toctree::
    :maxdepth: 1
 
-   2014-kakizome/index
-   create-docker-trusted-build-image-on-the-docker-official-repository/index
+   docker-python-image/index
    bluetooth-keyboard-disconnection-frequently/index
+   create-docker-trusted-build-image-on-the-docker-official-repository/index
+   2014-kakizome/index
 
 2013年
 ------
