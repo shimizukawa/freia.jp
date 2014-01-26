@@ -148,5 +148,5 @@ droneio.shの内容をCommandsに書いておいてもいいですが、差分�
 
 docutilsドキュメントの翻訳を http://docutils.sphinx-users.jp/ で見れるようになりました。 `@shkumagai`_ ++
 
-でもまだまだ訳されていない部分が多いので、 https://www.transifex.com/projects/p/docutils/ でみんなで翻訳しましょう！
+でもまだまだ訳されていない部分が多いので、 https://www.transifex.com/projects/p/docutils/language/ja/ に参加して、みんなで翻訳しましょう！
 
