@@ -9,6 +9,11 @@
 *categories 'Sphinx', 'Translation', 'drone.io', 'AWS', 'S3', 'boto', 'Route53', 'IAM'*
 
 
+`Sphinx+翻訳 Hack-a-thon 2014.1`_ に参加しています。その成果です。
+
+.. _Sphinx+翻訳 Hack-a-thon 2014.1: http://connpass.com/event/4397/
+
+
 * 参考: :doc:`../sphinx-i18n-translation-procedure-with-transifex-amazon-s3/index`
 
 
