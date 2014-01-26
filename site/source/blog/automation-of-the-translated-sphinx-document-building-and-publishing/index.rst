@@ -13,6 +13,10 @@
 
 .. _Sphinx+翻訳 Hack-a-thon 2014.1: http://connpass.com/event/4397/
 
+以前から `@shkumagai`_ が取り組んでいたdocutilsの翻訳をTransifexに乗せてhtmlページ生成まで自動化しました。
+
+.. _@shkumagai: https://twitter.com/shkumagai
+
 
 * 参考: :doc:`../sphinx-i18n-translation-procedure-with-transifex-amazon-s3/index`
 
@@ -142,7 +146,7 @@ droneio.shの内容をCommandsに書いておいてもいいですが、差分�
 まとめ
 ======
 
-http://docutils.sphinx-users.jp/ で翻訳ドキュメントが見れるようになりました。
+docutilsドキュメントの翻訳を http://docutils.sphinx-users.jp/ で見れるようになりました。 `@shkumagai++`_
 
 でもまだまだ訳されていない部分が多いので、 https://www.transifex.com/projects/p/docutils/ でみんなで翻訳しましょう！
 
