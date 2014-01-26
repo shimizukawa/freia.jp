@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^taka/docs/xpfest2010/(.*)$ /xpfest2010/$1 [L,PT]
+RewriteRule ^taka/blog/RSS$ /taka/rss.xml [L,R]
+RewriteRule ^taka/blog/109/rdf91_xml$ /taka/rss.xml [L,R]
+RewriteRule ^suzuki-g/.* - [G]
+RewriteRule ^aihatena/neko/.* /aihatena [L,PT]

@@ -1,0 +1,29 @@
+body {
+ color : #e0e0e0;
+ background-color : #000020;
+}
+h1 {
+ text-align : center;
+}
+.notification {
+ text-align: center;
+ color: #00ff00;
+}
+
+a:link {
+ color : lightgreen;
+ text-decoration : none;
+}
+a:visited {
+ color : lightblue;
+ text-decoration : none;
+}
+a:hover {
+ color : magenta;
+ text-decoration : underline;
+}
+a:active {
+ color : #000;
+ background-color : magenta;
+ text-decoration : underline;
+}
