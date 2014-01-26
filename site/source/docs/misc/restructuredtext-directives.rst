@@ -1,6 +1,13 @@
 =======================================
 [翻訳] reStructuredText ディレクティブ
 =======================================
+
+.. warning::
+
+   このページの翻訳は以下のURLに統合されました。
+   http://docutils.sphinx-users.jp/docutils/docs/ref/rst/directives.html
+
+
 :著者: David Goodger
 :問い合わせ: goodger@python.org
 :リビジョン: $Revision: 3340 $
