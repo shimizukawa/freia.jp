@@ -126,16 +126,20 @@ docutilsはSphinxドキュメントではないのでconf.pyや追加のindexを
 Drone.io
 --------
 
+https://drone.io/bitbucket.org/sphinxjp/docutils-translation/admin
+
 * アカウントを開設する（既存があれば利用）
 * New Project で bitbucket.org/sphinxjp/docutils-translation を選択して作成
 * Environment Variables にsphinx-intlとAWSの鍵などを設定::
 
-   PIP_USE_WHEEL=true
-   SPHINXINTL_TRANSIFEX_USERNAME=<YOUR-TRANSIFEX-ID>
-   SPHINXINTL_TRANSIFEX_PASSWORD=<YOUR-TRANSIFEX-PW>
-   SPHINXINTL_LOCALE_DIRS=locale
-   AWS_ACCESS_KEY_ID=<YOUR-AWS-ACCESS-KEY>
-   AWS_SECRET_ACCESS_KEY=<YOUR-AWS-SECRET-ACCESS-KEY>
+     PIP_USE_WHEEL=true
+     SPHINXINTL_TRANSIFEX_USERNAME=<YOUR-TRANSIFEX-ID>
+     SPHINXINTL_TRANSIFEX_PASSWORD=<YOUR-TRANSIFEX-PW>
+     SPHINXINTL_LOCALE_DIRS=locale
+     AWS_ACCESS_KEY_ID=<YOUR-AWS-ACCESS-KEY>
+     AWS_SECRET_ACCESS_KEY=<YOUR-AWS-SECRET-ACCESS-KEY>
+
+  環境変数の内容は管理権限のあるひとしか見れないので鍵設定に便利。
 
 * Commandsに ``sh -x droneio.sh``
 
