@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   automation-of-the-translated-sphinx-document-building-and-publishing/index
    docker-python-image/index
    bluetooth-keyboard-disconnection-frequently/index
    create-docker-trusted-build-image-on-the-docker-official-repository/index
