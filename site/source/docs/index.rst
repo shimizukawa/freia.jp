@@ -11,7 +11,6 @@
     buildbot/index
     pyhack4/index
     pyhack5/index
-    misc/index
     xdv/index
 
 
