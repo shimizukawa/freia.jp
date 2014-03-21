@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinx-dev-degraded-js-i18n/index
    sphinx-dev-slow-gettext/index
    automation-of-the-translated-sphinx-document-building-and-publishing/index
    docker-python-image/index
