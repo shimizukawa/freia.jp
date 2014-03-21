@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xda\x07\x12\x0c35\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/726/index.html
+p7
+sS'description'
+p8
+V<div id=windowspyreadline-1-6ctrl-h class=section>\u000a<h1>2010/07/18 Windows\u3067pyreadline-1.6\u3092\u4f7f\u3046\u3068Ctrl+H\u62bc\u4e0b\u3067\u6587\u5b57\u524a\u9664\u51fa\u6765\u306a\u3044\u554f\u984c\u306e\u30d1\u30c3\u30c1<a class=headerlink href=http://www.freia.jp/taka/blog/726/index.html#windowspyreadline-1-6ctrl-h title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'python', 'Windows'</em></p>\u000a<p>Windows\u4e0a\u306ePython\u3067readline\u3092\u4f7f\u3048\u308b\u3088\u3046\u306b\u3059\u308b\u30d1\u30c3\u30b1\u30fc\u30b8 <a class="reference external" href=http://pypi.python.org/pypi/pyreadline>pyreadline</a> 1.6 \u304c2010/7/15\u306b\u30ea\u30ea\u30fc\u30b9\u3055\u308c\u307e\u3057\u305f\u3002pyreadline-1.5\u3067\u306fCtrl+H\u62bc\u4e0b\u6642\u306b\u4ee5\u4e0b\u306e\u554f\u984c\u304c\u3042\u308a\u307e\u3057\u305f\u3002</p>\u000a<ul class=simple>\u000a<li><a class="reference external" href=http://www.freia.jp/taka/blog/690>Windows\u3067pyreadline\u3092\u4f7f\u3046\u3068Ctrl+H\u62bc\u4e0b\u6642\u306b\u30ab\u30fc\u30bd\u30eb\u304c\u9032\u3080</a></li>\u000a<li><a class="reference external" href=http://www.freia.jp/taka/blog/706>pyreadline\u306e\u30d1\u30c3\u30c1\u3092\u4fee\u6b63</a></li>\u000a</ul>\u000a<p>\u3053\u308c\u304c1.6\u3067\u4fee\u6b63\u3055\u308c\u305f\u3068\u3044\u3046\u901a\u77e5\u304c\u30d0\u30b0\u30c8\u30e9\u30c3\u30ab\u30fc\u304b\u3089\u6765\u305f\u306e\u3067\u78ba\u8a8d\u3057\u3066\u307f\u307e\u3057\u305f\u304c\u3001\u4eca\u5ea6\u306fCtrl+H\u62bc\u4e0b\u6642\u306b\u3001\u6587\u5b57\u524a\u9664\u3082\u30ab\u30fc\u30bd\u30eb\u79fb\u52d5\u3082\u4f55\u3082\u8d77\u304d\u306a\u304f\u306a\u308a\u307e\u3057\u305f\u3002\u3046\u30fc\u3093\u3001\u554f\u984c\u306f\u4fee\u6b63\u3055\u308c\u305f\u304b\u3082\u77e5\u308c\u306a\u3044\u3067\u3059\u304c\u3001\u6a5f\u80fd\u3082\u6e1b\u3063\u3061\u3083\u3063\u3066\u307e\u3059\u306d\u3002</p>\u000a<p>\u3068\u3044\u3046\u3053\u3068\u3067\u3001\u3055\u3063\u305d\u304f1.6\u306b\u5bfe\u3059\u308b\u4fee\u6b63\u30d1\u30c3\u30c1\u3092\u4f5c\u6210\u3057\u3066\u30d0\u30b0\u30c8\u30e9\u30c3\u30ab\u30fc\u306b\u767b\u9332\u3057\u3066\u304a\u304d\u307e\u3057\u305f\u3002 <a class="reference external" href=https://bugs.launchpad.net/pyreadline/+bug/491941>https://bugs.launchpad.net/pyreadline/+bug/491941</a></p>\u000a<p>\u4ee5\u4e0b\u304c\u305d\u306e\u30d1\u30c3\u30c1\u3067\u3059:</p>\u000a<div class=highlight-python><pre>--- pyreadline-1.6/keysyms/keysyms.py.orig\u000a+++ pyreadline-1.6/keysyms/keysyms.py\u000a@@ -117,7 +117,12 @@\u000a     meta = (state &amp; (1+2)) != 0\u000a     shift = (state &amp; 0x10) != 0\u000a     if control and not meta:#Matches ctrl- chords should pass keycode as char\u000a-        char = chr(keycode)\u000a+        if keycode in (0x48, 0x4d, 0x68, 0x6d):\u000a+            keycode = ord(char)\u000a+            control = False\u000a+            shift = False\u000a+        else:\u000a+            char = chr(keycode)\u000a     elif control and meta:  #Matches alt gr and should just pass on char\u000a         control = False\u000a         meta = False</pre>\u000a</div>\u000a<p>\u3055\u3066\u3001\u3053\u308c\u306f\u3044\u3064\u306b\u306a\u3063\u305f\u3089\u76f4\u308b\u304b\u306a\u30fc\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2010/07/18 Windows\u3067pyreadline-1.6\u3092\u4f7f\u3046\u3068Ctrl+H\u62bc\u4e0b\u3067\u6587\u5b57\u524a\u9664\u51fa\u6765\u306a\u3044\u554f\u984c\u306e\u30d1\u30c3\u30c1
+p12
+s.

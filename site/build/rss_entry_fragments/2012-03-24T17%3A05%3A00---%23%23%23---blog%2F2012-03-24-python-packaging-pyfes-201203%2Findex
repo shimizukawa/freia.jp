@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xdc\x03\x18\x11\x05\x00\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/2012-03-24-python-packaging-pyfes-201203/index.html
+p7
+sS'description'
+p8
+V<div id=python-packaging-pyfes-2012-03 class=section>\u000a<h1>2012/03/24 PYTHON PACKAGING (PyFes 2012.03)<a class=headerlink href=http://www.freia.jp/taka/blog/2012-03-24-python-packaging-pyfes-201203/index.html#python-packaging-pyfes-2012-03 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Event', 'Python', 'Python3', 'packaging'</em></p>\u000a<p>3/17\u306b <a class="reference external" href=http://d.hatena.ne.jp/Voluntas/20111015/1318682867>Python Developers Festa 2012.03</a> \u3067\u767a\u8868\u3057\u3066\u304d\u307e\u3057\u305f\u3002</p>\u000a<div style=width:595px id=__ss_12060667> <strong style="display:block;margin:12px 0 4px"><a target=_blank href=http://www.slideshare.net/shimizukawa/python-packaging-pyfes-201203 title="PYTHON PACKAGING \uff08PyFes 2012.03 \u767a\u8868\u8cc7\u6599\uff09">PYTHON PACKAGING \uff08PyFes 2012.03 \u767a\u8868\u8cc7\u6599\uff09</a></strong> <iframe marginwidth=0 marginheight=0 width=595 height=497 scrolling=no frameborder=0 src=http://www.slideshare.net/slideshow/embed_code/12060667></iframe> <div style="padding:5px 0 12px"> View more <a target=_blank href=http://www.slideshare.net/>presentations</a> from <a target=_blank href=http://www.slideshare.net/shimizukawa>Takayuki Shimizukawa</a> </div> </div><p>\u57fa\u672c\u7684\u306b\u306f\u3001PyConJP2011\u306eTarek\u306e\u57fa\u8abf\u8b1b\u6f14\u306e\u713c\u304d\u76f4\u3057\u3067\u3059\u304c\u30012012/3/13\u30ea\u30ea\u30fc\u30b9\u3055\u308c\u305fDistutils2\u306e\u5b9f\u88c5\u3092\u30d9\u30fc\u30b9\u306b\u3001Python\u30d1\u30c3\u30b1\u30fc\u30b8\u30f3\u30b0\u306e\u904e\u53bb\u30fb\u73fe\u5728\u30fb\u672a\u6765\u306b\u3064\u3044\u3066\u7d39\u4ecb\u3057\u307e\u3057\u305f\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2012/03/24 PYTHON PACKAGING (PyFes 2012.03)
+p12
+s.

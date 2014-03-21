@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd9\x0c\x1b\x13\x18#\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/712/index.html
+p7
+sS'description'
+p8
+V<div id=zope-2-12-2-buildout class=section>\u000a<h1>2009/12/27 Zope-2.12.2 \u30ea\u30ea\u30fc\u30b9 &amp; buildout \u3067\u306e\u74b0\u5883\u69cb\u7bc9\u30e1\u30e2<a class=headerlink href=http://www.freia.jp/taka/blog/712/index.html#zope-2-12-2-buildout title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Zope'</em></p>\u000a<p>Zope 2.12.2 \u304c\u5148\u903112/22\u306b\u30ea\u30ea\u30fc\u30b9\u3055\u308c\u307e\u3057\u305f\u3002\u30ea\u30ea\u30fc\u30b9\u3055\u308c\u308b\u306e\u306f\u3001\u305d\u306e\uff11\u9031\u9593\u3082\u524d\u304b\u3089\u5206\u304b\u3063\u3066\u3044\u305f\u3093\u3060\u3051\u3069\u3001\u307c\u30fc\u3063\u3068\u904e\u3054\u3057\u3066\u3044\u305f\u3089\u7ffb\u8a33\u304c\u9045\u308c\u307e\u3057\u305f\uff1e\uff1c</p>\u000a<ul class=simple>\u000a<li>\u7ffb\u8a33: <a class="reference external" href=http://docs.zope.jp/zope2/releases/2.12/CHANGES.html#zope-2-12-2-2009-12-22>http://docs.zope.jp/zope2/releases/2.12/CHANGES.html#zope-2-12-2-2009-12-22</a></li>\u000a</ul>\u000a<p>\u540c\u65e5\u30012.10.10, 2.11.5 \u3082\u30ea\u30ea\u30fc\u30b9\u3055\u308c\u305f\u3051\u3069\u3053\u308c\u306f\u307e\u3042\u3044\u3044\u3084\u3002</p>\u000a<p>Zope 2.12.2 \u3067\u306f\u3064\u3044\u306b management_page_charset \u306e\u30c7\u30d5\u30a9\u30eb\u30c8\u5024\u304ciso-8859-1 \u304b\u3089 utf-8 \u306b\u5909\u66f4\u306b\u306a\u3063\u3066\u3001\u3053\u308c\u3067\u65e5\u672c\u8a9e\u3092\u4f7f\u3046\u969b\u306e\u5fc5\u9808TIPS\u304c1\u3064\u4e0d\u8981\u306b\u306a\u308a\u307e\u3057\u305f\u3002\u307e\u305f\u3001Python-2.4 \u306f\u5b8c\u5168\u306b\u30b5\u30dd\u30fc\u30c8\u5916\u306a\u308a\u3001\u6b63\u5f0f\u30b5\u30dd\u30fc\u30c8\u306fPython 2.6\u306e\u307f\u306b\u306a\u3063\u3066\u3044\u307e\u3059\u30022.5\u306e\u30b5\u30dd\u30fc\u30c8\u3082\u975e\u516c\u5f0f\u306b\u306a\u3063\u3061\u3083\u3063\u305f\u3051\u3069\u3001Zope\u4f7f\u3063\u3066\u308b\u4eba\u306f\u4eca\u307e\u30672.4\u3057\u304b\u4f7f\u3048\u306a\u304b\u3063\u305f\u308f\u3051\u3060\u3057\u30012.5\u306f\u307e\u3042\u30b5\u30dd\u30fc\u30c8\u7121\u304f\u3066\u3082\u3042\u3093\u307e\u308a\u56f0\u3089\u306a\u305d\u3046\u306d\u3002</p>\u000a<div id=buildout class=section>\u000a<h2>buildout\u3067\u306e\u74b0\u5883\u69cb\u7bc9<a class=headerlink href=http://www.freia.jp/taka/blog/712/index.html#buildout title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h2>\u000a<p><a class="reference external" href=http://docs.zope.jp/zope2/releases/2.12/INSTALL.html>http://docs.zope.jp/zope2/releases/2.12/INSTALL.html</a> \u306b\u66f8\u304b\u308c\u3066\u3044\u308b\u65b9\u6cd5\u3067\u3082\u826f\u3044\u3093\u3067\u3059\u304c\u3001\u305d\u306e\u65b9\u6cd5\u3067\u306fZope2\u306e\u30bd\u30fc\u30b9\u30b3\u30fc\u30c9\u304c\u74b0\u5883\u306b\u6b8b\u3063\u3066\u3057\u307e\u3046\u306e\u3067\u3001\u3082\u3046\u3059\u3053\u3057\u30af\u30ea\u30fc\u30f3\u306a\u611f\u3058\u306b\u3059\u308b\u305f\u3081\u306bbuildout.cfg\u3092\u66f8\u3044\u3066\u307f\u307e\u3057\u305f\u3002</p>\u000a<div class=highlight-python><pre>$ mkdir zope-env\u000a$ cd zope-env\u000a$ wget "http://svn.zope.org/*checkout*/zc.buildout/trunk/bootstrap/bootstrap.py"\u000a$ python-2.6 bootstrap.py init</pre>\u000a</div>\u000a<p>\u751f\u6210\u3055\u308c\u305f buildout.cfg \u306b\u4ee5\u4e0b\u3092\u8a18\u8f09</p>\u000a<p>buildout.cfg:</p>\u000a<div class=highlight-python><pre>[buildout]\u000aparts = zope2 zopepy\u000a\u000aextends = http://download.zope.org/Zope2/index/2.12.2/versions.cfg\u000aversions = versions\u000aeggs = Zope2\u000a\u000a[zope2]\u000arecipe = zc.recipe.egg\u000aeggs = ${buildout:eggs}\u000a\u000a[zopepy]\u000arecipe = zc.recipe.egg\u000aeggs = ${zope2:eggs}\u000ainterpreter = zopepy\u000ascripts = zopepy</pre>\u000a</div>\u000a<p>\u305d\u3057\u3066\u74b0\u5883\u3092\u30d3\u30eb\u30c9\u3057\u307e\u3059:</p>\u000a<div class=highlight-python><pre>$ bin/buildout</pre>\u000a</div>\u000a<p>\u6700\u5f8c\u306bZope\u306e\u30a4\u30f3\u30b9\u30bf\u30f3\u30b9\u3092\u4f5c\u6210\u3057\u307e\u3059:</p>\u000a<div class=highlight-python><pre>$ bin/mkzopeinstance -d inst2 -u admin:admin</pre>\u000a</div>\u000a<p>\u3042\u3068\u306f\u5b9f\u884c\u3059\u308b\u3060\u3051\u3067\u3059:</p>\u000a<div class=highlight-python><pre>$ cd inst2\u000a$ cd bin/runzope</pre>\u000a</div>\u000a</div>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2009/12/27 Zope-2.12.2 \u30ea\u30ea\u30fc\u30b9 &amp; buildout \u3067\u306e\u74b0\u5883\u69cb\u7bc9\u30e1\u30e2
+p12
+s.

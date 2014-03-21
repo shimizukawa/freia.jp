@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xdb\x0b\x0f\r\x05\x10\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/766/index.html
+p7
+sS'description'
+p8
+V<div id=ans-prog-python-m class=section>\u000a<h1>2011/11/15 ANS-prog: python\u306e-m\u6307\u5b9a\u3067\u4fbf\u5229\u306a\u30e2\u30b8\u30e5\u30fc\u30eb\u985e<a class=headerlink href=http://www.freia.jp/taka/blog/766/index.html#ans-prog-python-m title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'misc', 'Memo', 'python', 'Programming'</em></p>\u000a<p><a class="reference external" href=http://answer.pythonpath.jp/>ANS-prog</a> \u3068\u3044\u3046\u65e5\u672c\u7248 <a class="reference external" href=http://stackoverflow.com/>Stack Overflow</a> \u3068\u3067\u3082\u3044\u3046\u3079\u304d\u30b5\u30a4\u30c8\u304c\u3042\u3063\u3066\u3001\u305d\u3053\u3067\u8272\u3005\u306a\u6280\u8853\u306e\u8cea\u554f\u3092\u3059\u308b\u3068\u8ab0\u304b\u304c\u7b54\u3048\u3066\u304f\u308c\u308b\u3002\u300c\u3053\u308c\u306f\u3061\u3087\u3063\u3068ML\u3068\u304b\u3067\u8cea\u554f\u3059\u308b\u306e\u306f\u6c17\u304c\u5f15\u3051\u308b\u300d\u3068\u3044\u3063\u305f\u7c21\u5358\u306a\u8cea\u554f\u3067\u3082ANS-prog\u306a\u3089\u6c17\u8efd\u306b\u8cea\u554f\u51fa\u6765\u308b\u6c17\u304c\u3059\u308b\u3002ML\u3068\u6bd4\u3079\u3066\u4fbf\u5229\u306a\u306e\u306f\u3001Q&amp;A\u96c6\u306b\u306a\u308b\u3053\u3068\u3068\u3084\u3001\u826f\u3044Answer\u3092\u9078\u3093\u3067\u300c\u78ba\u5b9a\u300d\u3067\u304d\u308b\u3053\u3068\u3001\u8a55\u4fa1(\u30ab\u30eb\u30de)\u30dd\u30a4\u30f3\u30c8\u304c\u8caf\u307e\u308b\u3068 <strong>\u8cea\u554f\u305d\u306e\u3082\u306e\u3092\u7de8\u96c6\u53ef\u80fd</strong> \u306a\u306e\u3067\u8cea\u554f\u306b\u306a\u3063\u3066\u3044\u306a\u3044\u8cea\u554f\u3092\u9069\u5207\u306aQuestion\u306b\u76f4\u305b\u308b\u3068\u3053\u308d\u306a\u3069\u3002</p>\u000a<p>\u3068\u3044\u3046\u3053\u3068\u3067\u3001\u4ee5\u4e0b\u306e\u8cea\u554f\u3092\u51fa\u3057\u3066\u307f\u305f -&gt; <a class="reference external" href=http://answer.pythonpath.jp/questions/506/python-m>http://answer.pythonpath.jp/questions/506/python-m</a></p>\u000a<hr class=docutils>\u000a<p>Python\u306f\u6a19\u6e96\u30e2\u30b8\u30e5\u30fc\u30eb\u3092-m\u306b\u6307\u5b9a\u3057\u3066\u5b9f\u884c\u3059\u308b\u3068\u3044\u308d\u3044\u308d\u306a\u6a5f\u80fd\u3092\u63d0\u4f9b\u3057\u3066\u304f\u308c\u308b\u306e\u304c\u4fbf\u5229\u3067\u3059\u3002</p>\u000a<p>\u73fe\u5728\u306e\u30c7\u30a3\u30ec\u30af\u30c8\u30ea\u3092HTTP\u3067\u516c\u958b\u3059\u308b:</p>\u000a<div class=highlight-python><pre>$ python -m SimpleHTTPServer\u000aServing HTTP on 0.0.0.0 port 8000 ...</pre>\u000a</div>\u000a<p>\u5bfe\u8c61\u30b9\u30af\u30ea\u30d7\u30c8\u3092\u30b9\u30c6\u30c3\u30d7\u5b9f\u884c\u3059\u308b:</p>\u000a<div class=highlight-python><pre>$ python -m pdb foo.py\u000a&gt; d:\u005cfoo.py(1)&lt;module&gt;()\u000a(Pdb)</pre>\u000a</div>\u000a<p>\u30e1\u30fc\u30eb\u30b5\u30fc\u30d0\u30fc\u3092\u7acb\u3066\u308b:</p>\u000a<div class=highlight-python><pre>$ python -m smtpd -d -n localhost:25\u000aPureProxy started at Tue Nov 15 12:45:38 2011\u000a        Local addr: ('localhost', 25)\u000a        Remote addr:('localhost', 25)</pre>\u000a</div>\u000a<p>\u30e1\u30fc\u30eb\u3092\u9001\u308b:</p>\u000a<div class=highlight-python><pre>$ python -m smtplib\u000aFrom:</pre>\u000a</div>\u000a<p>JSON\u3092\u30d0\u30ea\u30c7\u30fc\u30b7\u30e7\u30f3\u3057\u3066prettyprint\u3059\u308b (by Masaki Tsuchiya):</p>\u000a<div class=highlight-python><pre>$ echo '{"json":"obj"}' | python -mjson.tool\u000a{\u000a    "json": "obj"\u000a}\u000a$ echo '{ 1.2:3.4}' | python -mjson.tool\u000aExpecting property name: line 1 column 2 (char 2)</pre>\u000a</div>\u000a<p>\u4ed6\u306b\u3001\u300c\u666e\u6bb5\u3053\u3093\u306a\u4f7f\u3044\u65b9\u3092\u3057\u3066\u3044\u3066\u4fbf\u5229\u3060\u3088\uff01\u300d\u3068\u3044\u3046\u30e2\u30b8\u30e5\u30fc\u30eb\u304c\u3042\u3063\u305f\u3089\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002</p>\u000a<hr class=docutils>\u000a<p>\u3068\u3044\u3046\u3053\u3068\u3067\u6559\u3048\u3066\u304f\u3060\u3055\u3044\uff01 =&gt; <a class="reference external" href=http://answer.pythonpath.jp/questions/506/python-m>http://answer.pythonpath.jp/questions/506/python-m</a></p>\u000a<p>\u3042\u3068\u3001\u307f\u3093\u306a\u3082\u3061\u3087\u3063\u3068\u3057\u305f\u8cea\u554f\u3092\u66f8\u304f\u3068\u826f\u3044\u3088\uff01</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2011/11/15 ANS-prog: python\u306e-m\u6307\u5b9a\u3067\u4fbf\u5229\u306a\u30e2\u30b8\u30e5\u30fc\u30eb\u985e
+p12
+s.

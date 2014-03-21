@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd6\x01\x15\r\x02\n\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/302/index.html
+p7
+sS'description'
+p8
+V<div id=id1 class=section>\u000a<h1>2006/01/21 2006\u5e74\u3000\u6771\u4eac\u3000\u521d\u96ea<a class=headerlink href=http://www.freia.jp/taka/blog/302/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'misc'</em></p>\u000a<p>\u3046\u3063\u3059\u3089\u3068\u7a4d\u3082\u308a\u307e\u3057\u305f\u3002JR\u306f\u5927\u5e45\u306b\u30c0\u30a4\u30e4\u304c\u4e71\u308c\u3066\u3044\u308b\u3068\u304b\u3002\u6771\u4eac\u306e\u96fb\u8eca\u306f\u5f31\u3044\u306a\u3041\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2006/01/21 2006\u5e74\u3000\u6771\u4eac\u3000\u521d\u96ea
+p12
+s.

@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x02\x1c\x01\x14\x04\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/150/index.html
+p7
+sS'description'
+p8
+V<div id=zphotoslides class=section>\u000a<h1>2005/02/28 ZPhotoSlides\u65e5\u672c\u8a9e\u5316<a class=headerlink href=http://www.freia.jp/taka/blog/150/index.html#zphotoslides title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Plone', 'Zope'</em></p>\u000a<p><cite>Zope Developers Camp</cite> \u306b\u3080\u3051\u3066\u3002\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u7d4c\u7531\u306e\u53c2\u52a0\u8005\u306f\u307e\u3060\u307e\u3060\u52df\u96c6\u4e2d\u306e\u3088\u3046\u3002\u53c2\u52a0\u53ef\u80fd\u306a\u6642\u9593\u5e2f\u306b\u53c2\u52a0\u3067\u304d\u305d\u3046\u306a\u4eba\u306f\u53c2\u52a0\u3057\u3066\u307f\u3066\u306f\uff1f\uff1c\u5ba3\u4f1d</p>\u000a<p>\u672c\u6587</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/02/28 ZPhotoSlides\u65e5\u672c\u8a9e\u5316
+p12
+s.

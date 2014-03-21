@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x06\x0e\x17/\x16\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/229/index.html
+p7
+sS'description'
+p8
+V<div id=zope-essentials-2 class=section>\u000a<h1>2005/06/14 Zope Essentials 2 \u544a\u77e5<a class=headerlink href=http://www.freia.jp/taka/blog/229/index.html#zope-essentials-2 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Zope'</em></p>\u000a<p><a class="reference external" href=http://new.zope.jp/event/zopeessentials/2>Zope Essentials 2</a> \u306e <a class="reference external" href=http://ml.zope.jp/pipermail/zope-users/2005-June/005437.html>\u544a\u77e5</a> \u3092\u884c\u3044\u307e\u3057\u305f\u3002\u4eca\u56de\u306f\u524d\u56de\u3068\u82e5\u5e72\u7570\u306a\u308a\u3001\u8cea\u554f\u30b3\u30fc\u30ca\u30fc\u306e\u6642\u9593\u304c\u534a\u5206\u3092\u5360\u3081\u3066\u3044\u307e\u3059\u3002\u3046\u307e\u304f\u3044\u304f\u3068\u3044\u3044\u306a\u3041\u3002</p>\u000a<p>\u3042\u3068\u3001\u3061\u3087\u3063\u3068\u3057\u305f\u3053\u3068\u3067\u3059\u304c\u3001\u8cea\u554f\u767b\u9332\u306e\u63b2\u793a\u677f\u306f\u524d\u56de\u306eEssentials1\u3067\u685c\u4e95\u3055\u3093\u304c5\u5206\u3067\u4f5c\u6210\u3057\u305f\u3082\u306e\u3067\u3059\u3002 <a class="reference external" href=http://new.zope.jp/event/zopeessentials/1/resources/>\u524d\u56de\u306e\u8cc7\u6599\u30da\u30fc\u30b8</a> \u304b\u3089\u5165\u624b\u3057\u3066\u8a2d\u7f6e\u3057\u3066\u307f\u307e\u3057\u305f\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/06/14 Zope Essentials 2 \u544a\u77e5
+p12
+s.

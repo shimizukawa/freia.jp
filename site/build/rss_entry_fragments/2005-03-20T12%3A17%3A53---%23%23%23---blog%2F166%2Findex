@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x03\x14\x0c\x115\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/166/index.html
+p7
+sS'description'
+p8
+V<div id=zope3 class=section>\u000a<h1>2005/03/20 \u7b2c\u4e00\u56deZope3\u52c9\u5f37\u4f1a<a class=headerlink href=http://www.freia.jp/taka/blog/166/index.html#zope3 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Zope'</em></p>\u000a<p><a class="reference external" href=http://www.zope.org/Members/yusei/zope3meeting>\u7b2c\u4e00\u56deZope3\u52c9\u5f37\u4f1a</a> \u306e\u958b\u50ac\u304c\u544a\u77e5\u3055\u308c\u305f\u306e\u3067\u3001\u65e9\u901f\u53c2\u52a0\u3092\u7533\u3057\u8fbc\u3093\u3060\u3002\u958b\u50ac\u5834\u6240\u304c\u66d9\u6a4b\u306a\u306e\u3067\u3001\u5f53\u65e5\u306f <a class="reference external" href=http://ww2.et.tiki.ne.jp/~hatabou/s_sanuudo.html>\u3055\u306c\u304d\u306e\u3046\u3069\u3093\u3084</a> \u3067\u663c\u3054\u98ef\u3092\u98df\u3079\u308b\u3053\u3068\u306b\u6c7a\u5b9a\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/03/20 \u7b2c\u4e00\u56deZope3\u52c9\u5f37\u4f1a
+p12
+s.

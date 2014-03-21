@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd7\x01\x12\x174\x02\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/392/index.html
+p7
+sS'description'
+p8
+V<div id=windowspython-imaging-library-pil class=section>\u000a<h1>2007/01/18 Windows\u3067Python Imaging Library(PIL)\u3092\u30d3\u30eb\u30c9\u3059\u308b<a class=headerlink href=http://www.freia.jp/taka/blog/392/index.html#windowspython-imaging-library-pil title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'python', 'Windows'</em></p>\u000a<p>python.jp\u306eML\u3067\u51fa\u305f\u8a71\u984c\u3002\u3060\u3044\u3076\u524d\u306b\u30d3\u30eb\u30c9\u304c\u3046\u307e\u304f\u3044\u3063\u305f\u3068\u304d\u306b\u30e1\u30e2\u3063\u3066\u304a\u3044\u305f\u306e\u3092\u3001\u601d\u3044\u51fa\u3057\u305f\u304b\u306e\u3088\u3046\u306bBlog\u306b\u66f8\u3044\u3066\u307f\u308b\u3002</p>\u000a<p>\u74b0\u5883\uff1a <a class="reference external" href=http://www.freia.jp/taka/memo/freevcbuild>Windows\u3067Free\u306aC\u30e2\u30b8\u30e5\u30fc\u30eb\u30d3\u30eb\u30c9\u74b0\u5883</a></p>\u000a<ul>\u000a<li><p class=first>\u4ee5\u4e0b\u306e\u30d1\u30c3\u30b1\u30fc\u30b8\u3092\u5165\u624b</p>\u000a<div class=highlight-python><pre>Imaging-1.1.6.tar.gz\u000ajpegsrc.v6b.tar.gz\u000azlib-1.2.3.tar.gz</pre>\u000a</div>\u000a</li>\u000a<li><p class=first>\u4ee5\u4e0b\u306e\u3088\u3046\u306b\u5c55\u958b</p>\u000a<div class=highlight-python><pre>Imaging-1.1.6/\u000a  + jpeg-6b\u000a  + zlib-1.2.3</pre>\u000a</div>\u000a</li>\u000a<li><p class=first>setup.py \u3092\u4fee\u6b63</p>\u000a<div class=highlight-python><div class=highlight><pre><span class=n>JPEG_ROOT</span> <span class=o>=</span> <span class=s>'jpeg-6b'</span>\u000a<span class=n>ZLIB_ROOT</span> <span class=o>=</span> <span class=s>'zlib-1.2.3'</span>\u000a</pre></div>\u000a</div>\u000a</li>\u000a<li><p class=first>JPEG_ROOT\u3067\u30d3\u30eb\u30c9</p>\u000a<div class=highlight-python><pre>ren jconfig.vc jconfig.h\u000anmake -f makefile.vc</pre>\u000a</div>\u000a</li>\u000a<li><p class=first>ZLIB_ROOT\u3067\u30d3\u30eb\u30c9</p>\u000a<div class=highlight-python><pre>nmake -f win32\u005cMakefile.msc</pre>\u000a</div>\u000a</li>\u000a<li><p class=first>Imaging-1.1.6\u3067\u30d3\u30eb\u30c9</p>\u000a<div class=highlight-python><pre>python setup.py bulild</pre>\u000a</div>\u000a<p>\u4ee5\u4e0b\u306e\u3088\u3046\u306b\u51fa\u529b\u3055\u308c\u308c\u3070OK:</p>\u000a<div class=highlight-python><pre>*** TKINTER support not available (Tcl/Tk 8.4 libraries needed)\u000a--- JPEG support ok\u000a--- ZLIB (PNG/ZIP) support ok\u000a*** FREETYPE2 support not available</pre>\u000a</div>\u000a</li>\u000a<li><p class=first>\u4f5c\u6210\u3055\u308c\u305f *.pyd (.so) \u3092 Imaging-1.1.6\u3078\u30b3\u30d4\u30fc</p>\u000a</li>\u000a<li><p class=first>Imaging-1.1.6\u3092\u30c6\u30b9\u30c8</p>\u000a<div class=highlight-python><pre>python selftest.py</pre>\u000a</div>\u000a<p>\u4ee5\u4e0b\u306e\u3088\u3046\u306b\u51fa\u529b\u3055\u308c\u308c\u3070OK:</p>\u000a<div class=highlight-python><pre>57 tests passed.</pre>\u000a</div>\u000a</li>\u000a</ul>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2007/01/18 Windows\u3067Python Imaging Library(PIL)\u3092\u30d3\u30eb\u30c9\u3059\u308b
+p12
+s.

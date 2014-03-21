@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xda\x05\x16\r\x14\x00\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/718/index.html
+p7
+sS'description'
+p8
+V<div id=python class=section>\u000a<h1>2010/05/22 \u30a8\u30ad\u30b9\u30d1\u30fc\u30c8Python\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u306e\u30b5\u30f3\u30d7\u30eb\u304c\u5c4a\u3044\u305f\uff01<a class=headerlink href=http://www.freia.jp/taka/blog/718/index.html#python title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'misc', 'python'</em></p>\u000a<p>\u7ffb\u8a33\u3057\u305f\u672c\u306e\u30b5\u30f3\u30d7\u30eb\u304c\u30a2\u30b9\u30ad\u30fc\u30e1\u30c7\u30a3\u30a2\u30ef\u30fc\u30af\u30b9\u3055\u3093\u304b\u3089\u9001\u3089\u308c\u3066\u304d\u305f\uff01(\u306a\u305c\u304bAmazon\u306e\u7bb1\u3067)\u3002</p>\u000a<p>\u81ea\u5206\u306e\u8a95\u751f\u65e5\u306b\u81ea\u5206\u304c\u8a33\u3057\u305f\u672c\u304c\u5c4a\u304f\u3068\u304b\u3001\u30bf\u30a4\u30df\u30f3\u30b0\u826f\u3059\u304e\u308b\u3002\u305d\u3046\u3044\u3048\u3070\u51fa\u7248\u4f1a\u8b70\u3067\u51fa\u7248\u304c\u627f\u8a8d\u3055\u308c\u305f\u306e\u306f\u53bb\u5e74\u306e\u30af\u30ea\u30b9\u30de\u30b9\u30a4\u30d6\u3060\u3063\u305f\u3057\u3002</p>\u000a<p>Expert Python Programming \u3068\u6bd4\u3079\u3066\u307f\u308b\u3068\u82e5\u5e72\u539a\u304f\u3066\u3001\u82e5\u5e72\u91cd\u3044\u3002\u30aa\u30f3\u30c7\u30de\u30f3\u30c9\u5370\u5237\u306e\u539f\u66f8\u306b\u6bd4\u3079\u308b\u3068\u7d19\u306e\u8cea\u306f\u826f\u3044\u6c17\u304c\u3059\u308b\uff01</p>\u000a<div class=figure>\u000a<img alt=../../_images/expert_python_programming_ja1.jpg src=http://www.freia.jp/taka/_images/expert_python_programming_ja1.jpg>\u000a</div>\u000a<table frame=void class="docutils field-list" rules=none>\u000a<col class=field-name>\u000a<col class=field-body>\u000a<tbody valign=top>\u000a<tr class="field-odd field"><th class=field-name>\u30bf\u30a4\u30c8\u30eb:<td class=field-body>\u30a8\u30ad\u30b9\u30d1\u30fc\u30c8Python\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0</td>\u000a</tr>\u000a<tr class="field-even field"><th class=field-name>\u51fa\u7248\u793e:<td class=field-body>\u30a2\u30b9\u30ad\u30fc\u30fb\u30e1\u30c7\u30a3\u30a2\u30ef\u30fc\u30af\u30b9</td>\u000a</tr>\u000a<tr class="field-odd field"><th class=field-name>\u8457\u8005:<td class=field-body>Tarek Ziade</td>\u000a</tr>\u000a<tr class="field-even field"><th class=field-name>\u7ffb\u8a33:<td class=field-body>\u7a32\u7530\u76f4\u54c9, \u6e0b\u5ddd\u3088\u3057\u304d, \u6e05\u6c34\u5ddd\u8cb4\u4e4b, \u68ee\u672c\u54f2\u4e5f</td>\u000a</tr>\u000a<tr class="field-odd field"><th class=field-name>\u5b9a\u4fa1:<td class=field-body>3,780\u5186 (\u672c\u4f533,600\u5186)</td>\u000a</tr>\u000a<tr class="field-even field"><th class=field-name>ISBN13:<td class=field-body>978-404-8686297</td>\u000a</tr>\u000a<tr class="field-odd field"><th class=field-name>ISBN10:<td class=field-body>4048686291</td>\u000a</tr>\u000a<tr class="field-even field"><th class=field-name>\u8cfc\u5165:<td class=field-body><a class="reference external" href=http://astore.amazon.co.jp/freiaweb-22/detail/4048686291>Amazon\u3067\u8cfc\u5165</a> (\u30a2\u30d5\u30a3\u30ea\u30a8\u30a4\u30c8\u4ed8\u304d)</td>\u000a</tr>\u000a</tbody>\u000a</table>\u000a<div class=figure>\u000a<a class="reference external image-reference" href=http://astore.amazon.co.jp/freiaweb-22/detail/4048686291><img alt=Amazon.co.jp\u3067\u8cb7\u3046 src=http://rcm-images.amazon.com/images/G/09/extranet/associates/buttons/remote-buy-jp1.gif></a>\u000a</div>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2010/05/22 \u30a8\u30ad\u30b9\u30d1\u30fc\u30c8Python\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u306e\u30b5\u30f3\u30d7\u30eb\u304c\u5c4a\u3044\u305f\uff01
+p12
+s.

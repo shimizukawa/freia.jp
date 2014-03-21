@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x0c\x17\x17*7\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/x-mas/index.html
+p7
+sS'description'
+p8
+V<div id=x-mas class=section>\u000a<h1>2005/12/23 X'mas<a class=headerlink href=http://www.freia.jp/taka/blog/x-mas/index.html#x-mas title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'misc'</em></p>\u000a<p>\u8fd1\u6240\u306e\u30a2\u30d1\u30fc\u30c8(?)\u3001\u6bce\u5e74\u6052\u4f8b\u306e\u96fb\u98fe\u3002\u5916\u58c1\u4e00\u9762\u306b\u96fb\u98fe\u304c\u304c\u304c\u3002\uff15\u6708\u306b\u306f\u9bc9\u306e\u307c\u308a\u3082\u6607\u308a\u307e\u3059\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/12/23 X'mas
+p12
+s.

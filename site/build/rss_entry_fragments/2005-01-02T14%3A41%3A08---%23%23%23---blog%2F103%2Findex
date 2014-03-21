@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x01\x02\x0e)\x08\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/103/index.html
+p7
+sS'description'
+p8
+V<div id=id1 class=section>\u000a<h1>2005/01/02 \u30d0\u30c3\u30c9\u30bb\u30af\u30bf\u304c\u2025\u2025<a class=headerlink href=http://www.freia.jp/taka/blog/103/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Unix'</em></p>\u000a<p>\u30d0\u30c3\u30c9\u30bb\u30af\u30bf\u304c\u691c\u51fa\u3055\u308c\u3066\u3057\u307e\u3063\u305f\u2025\u2025\u3042\u3041\u3041\u3041\u30c7\u30a3\u30b9\u30af\u304c\u8aad\u3081\u3066\u306a\u3044\u3088\u2025\u2025</p>\u000a<p>\u3068\u308a\u3042\u3048\u305afsck\u3057\u3066\u69d8\u5b50\u898b\u3002\u3084\u306f\u308aRAID1\u304f\u3089\u3044\u306f\u5165\u308c\u306a\u3044\u3068\u6050\u3044\u306a\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/01/02 \u30d0\u30c3\u30c9\u30bb\u30af\u30bf\u304c\u2025\u2025
+p12
+s.

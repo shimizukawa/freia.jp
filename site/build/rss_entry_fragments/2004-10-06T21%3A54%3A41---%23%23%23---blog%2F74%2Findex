@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd4\n\x06\x156)\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/74/index.html
+p7
+sS'description'
+p8
+V<div id=id1 class=section>\u000a<h1>2004/10/06 \u52c9\u5f37\u4f1a\u51fa\u3089\u308c\u305a<a class=headerlink href=http://www.freia.jp/taka/blog/74/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'misc', 'Event'</em></p>\u000a<p><a class="reference external" href=http://patterns-wg.fuka.info.waseda.ac.jp/study/>\u30d1\u30bf\u30fc\u30f3\u52c9\u5f37\u4f1a</a> \u306b\u51fa\u308b\u3064\u3082\u308a\u3060\u3063\u305f\u306e\u3067\u3059\u304c\u3001\u4ed5\u4e8b\u304c\u5fd9\u3057\u304f\u3066\u7d50\u5c40\u51fa\u3089\u308c\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u000a\u4ed5\u4e8b\u304c\u5fd9\u3057\u304f\u3066\u52c9\u5f37\u3067\u304d\u306a\u3044\u3001\u306a\u3093\u3066\u74b0\u5883\u306f\u826f\u304f\u306a\u3044\u3068\u601d\u3046\u3093\u3067\u3059\u3051\u3069\u306d\u2025\u2025\u3002</p>\u000a<p>\u6700\u8fd1\u5b66\u7fd2\u304c\u6b62\u307e\u3063\u3066\u308b\u306a\u3041\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2004/10/06 \u52c9\u5f37\u4f1a\u51fa\u3089\u308c\u305a
+p12
+s.

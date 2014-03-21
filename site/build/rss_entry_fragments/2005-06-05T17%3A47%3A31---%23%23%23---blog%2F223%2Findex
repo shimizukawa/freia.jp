@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x06\x05\x11/\x1f\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/223/index.html
+p7
+sS'description'
+p8
+V<div id=id1 class=section>\u000a<h1>2005/06/05 \u65b0\u5927\u4e45\u4fdd\u306e\u9903\u5b50\u300c\u5473\u3080\u3089\u300d<a class=headerlink href=http://www.freia.jp/taka/blog/223/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'food'</em></p>\u000a<p>\u4f1a\u793e\u306e\u5143\u540c\u50da\u4e8c\u4eba\u3068\u3001\u65b0\u5927\u4e45\u4fdd\u306b\u3042\u308b\u9903\u5b50\u306e\u304a\u5e97 <strong>\u5473\u3080\u3089</strong> \u306b\u884c\u3063\u3066\u304d\u307e\u3057\u305f(\u91d1\u66dc\u65e5)\u3002</p>\u000a<p>\uff13\u4eba\u3067\u304a\u306a\u304b\u3044\u3063\u3071\u3044\u98df\u3079\u3066\u3001\u4e00\u4eba2000\u5186\u3057\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u30d3\u30fc\u30eb\u98f2\u307e\u306a\u304b\u3063\u305f\u3089\u3082\u3063\u3068\u5b89\u304b\u3063\u305f\u3068\u601d\u3046\u3002\u304a\u307f\u3084\u3052\u3082\u3042\u3063\u305f\u306e\u3067\u3001\u4f55\u304b\u8cb7\u3063\u3066\u5e30\u308c\u3070\u826f\u304b\u3063\u305f\u304b\u306a\u2025\u2025\u3053\u3093\u3069\u884c\u3063\u305f\u3089\u8cb7\u3063\u3066\u304a\u3053\u3046\u3002</p>\u000a<div class="figure align-left">\u000a<img alt=../../_images/ajimura1 class=visualclear src=http://www.freia.jp/taka/_images/ajimura1>\u000a<p class=caption>\u5965\u304c\u6c34\u9903\u5b50\uff08\u666e\u901a\u306e\u3068\u30cb\u30e9\u306e\u3068\u30df\u30c3\u30af\u30b9\uff09\u3067\u3001\u000a\u624b\u524d\u304c\u713c\u304d\u9903\u5b50\uff08\u7c92\u30cb\u30f3\u30cb\u30af\u5165\u308a\uff09\u3002\u000a\u6c34\u9903\u5b50\u306e\u30b8\u30e5\u30fc\u30b7\u30fc\u3055\u306b\u3046\u3063\u3068\u308a\u2025\u2025</p>\u000a</div>\u000a<div class="figure align-left">\u000a<img alt=../../_images/ajimura2 class=visualclear src=http://www.freia.jp/taka/_images/ajimura2>\u000a<p class=caption>\u9903\u5b50\u306e\u4e2d\u304b\u3089\u672c\u5f53\u306b\u7c92\u306e\u30cb\u30f3\u30cb\u30af\u304c\u51fa\u3066\u304d\u305f\uff01\u000a\u672c\u5834\u306e\u9903\u5b50\u306f\u30cb\u30f3\u30cb\u30af\u5165\u308c\u306a\u3044\u3068\u3044\u3046\u3051\u308c\u3069\u3001\u000a\u3053\u308c\u306f\u3053\u308c\u3067\u30a6\u30de\u30a4\u3002</p>\u000a</div>\u000a<dl class=class>\u000a<dt id=visualClear>\u000a<em class=property>class </em><tt class=descname>visualClear</tt><a class=headerlink href=http://www.freia.jp/taka/blog/223/index.html#visualClear title=\u3053\u306e\u5b9a\u7fa9\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></dt>\u000a<dd></dl>\u000a\u000a<dl class=docutils>\u000a<dt><tt class="docutils literal"><span class=pre>\u7dcf\u8a55</span></tt> <span class=classifier-delimiter>:</span> <span class=classifier>\u5b89\u3044\u3001\u65e8\u3044\u3001\u9060\u3044\u3002</span></dt>\u000a<dd>\u99c5\u304b\u3089\u306f\u3061\u3087\u3063\u3068\u9060\u3044\u3051\u3069\u884c\u304f\u4fa1\u5024\u6709\u308a\u3002</dd>\u000a<dt><tt class="docutils literal"><span class=pre>\u5834\u6240</span></tt> <span class=classifier-delimiter>:</span> <span class=classifier>\u65b0\u5bbf\u533a\u5927\u4e45\u4fdd2\u4e01\u76ee19-1</span></dt>\u000a<dd>\u65b0\u5927\u4e45\u4fdd\u99c5\u304b\u3089\u5f92\u6b695\u5206\u000a03-3208-9617</dd>\u000a<dt><tt class="docutils literal"><span class=pre>\u95a2\u9023URL</span></tt> :</dt>\u000a<dd><ul class="first last simple">\u000a<li><a class="reference external" href=http://blog.so-net.ne.jp/chiaki/2005-04-27>http://blog.so-net.ne.jp/chiaki/2005-04-27</a></li>\u000a<li><a class="reference external" href=http://plaza.rakuten.co.jp/msnrkkc/diary/200504270000/>http://plaza.rakuten.co.jp/msnrkkc/diary/200504270000/</a></li>\u000a<li><a class="reference external" href=http://yaplog.jp/ordinary_k/archive/36>http://yaplog.jp/ordinary_k/archive/36</a></li>\u000a</ul>\u000a</dd>\u000a</dl>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/06/05 \u65b0\u5927\u4e45\u4fdd\u306e\u9903\u5b50\u300c\u5473\u3080\u3089\u300d
+p12
+s.

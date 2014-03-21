@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x01\x11\x16&9\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/111/index.html
+p7
+sS'description'
+p8
+V<div id=wz-for-python class=section>\u000a<h1>2005/01/17 WZ\u306e\u8272\u5206\u3051 for python<a class=headerlink href=http://www.freia.jp/taka/blog/111/index.html#wz-for-python title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'WZ', 'python'</em></p>\u000a<p>\u8ca0\u3051\u307e\u3057\u305f\u3002\uff1c\u6328\u62f6</p>\u000a<p><a class="reference external" href=http://www.emptypage.jp/whining/2005-01-16.html>Whining Express</a> \u3088\u308a:</p>\u000a<div class=highlight-python><pre>WZ PYTHON SCRIPT EDITOR\u000a\u3054\u53c2\u8003\u307e\u3067\u306b\u3002Python\u30b9\u30af\u30ea\u30d7\u30c8\u3092\u3001\u50d5\u306f\u3053\u3093\u306a\u611f\u3058\u306e\u6587\u66f8\u306e\u8a2d\u5b9a\u3067\u8868\u793a\u3055\u305b\u3066\u3044\u307e\u3059\u3002</pre>\u000a</div>\u000a<p>\u304d\u3081\u7d30\u304b\u3044\u8a2d\u5b9a\u3057\u3066\u308b\u306a\u3041\u2025\u2025\u3002\u81ea\u5206\u306e\u5834\u5408\u306f\u3068\u3044\u3046\u3068</p>\u000a<p>\u8272\u5206\u3051:</p>\u000a<div class=highlight-python><pre>rear(use=1;rgb="0x0080FF";atr=0): #\u000aarea(use=1;rgb="0xFFFF00";atr=0;flag=2): " " \u005c"\u000aarea(rgb="0xFFFF00"): ' ' \u005c'\u000awords(use=1;rgb="0x00FF00";atr=0): if else elif endif\u000areword(rgb="0x00FFFF";atr=0;re=1): 0x[0-9a-fA-F]+\u000areword(use=1;rgb="0x00FFFF";atr=0;re=2): &lt;(\u005cd+)&gt;\u000awords(use=1;rgb="0x00FF00";atr=0): and class def except exec float for from import in int is lambda list not or pass print raise return self str try tuple False None True\u000achars(rgb="0xFF0000";atr=2): \u005c(kata)</pre>\u000a</div>\u000a<p>\u898b\u51fa\u3057\uff13:</p>\u000a<div class=highlight-python><pre>^\u005cs*def\u005cs+(\u005cw[\u005cw\u005cd_]*).*</pre>\u000a</div>\u000a<p>\u3053\u306e\u304f\u3089\u3044\u3057\u304b\u8a2d\u5b9a\u3057\u3066\u307e\u305b\u3093\u308f\u3002\u65e9\u901f\u5229\u7528\u3055\u305b\u3066\u3082\u3089\u3044\u307e\u3057\u3087\u3046\u304b\u306d\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/01/17 WZ\u306e\u8272\u5206\u3051 for python
+p12
+s.

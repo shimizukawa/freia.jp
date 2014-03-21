@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd4\x08\r\x00\x13\x1a\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/59/index.html
+p7
+sS'description'
+p8
+V<div id=id1 class=section>\u000a<h1>2004/08/13 \u30a2\u30af\u30bb\u30b9\u9699\u9593\u691c\u51fa<a class=headerlink href=http://www.freia.jp/taka/blog/59/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Programming', 'python'</em></p>\u000a<p>\u30a2\u30af\u30bb\u30b9\u9699\u9593\u691c\u51fa\u3002\u6094\u3057\u304b\u3063\u305f\u306e\u3067\u30ea\u30d9\u30f3\u30b8\u3067\u3059\u3002</p>\u000a<p>datetime\u30e2\u30b8\u30e5\u30fc\u30eb\u3068time\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u9593\u3067\u3046\u307e\u304f\u9023\u643a\u3059\u308b\u65b9\u6cd5\u304c\u5206\u304b\u3089\u306a\u304b\u3063\u305f\u306e\u3067\u3001\u304b\u306a\u308a\u6ce5\u81ed\u3044\u611f\u3058\u306b\u306a\u3063\u3066\u3057\u307e\u3044\u307e\u3057\u305f\u3002\u3042\u3068prevtime\u3068basetime\u306e\u521d\u671f\u5316\u304c\u2025\u2025\u3002</p>\u000a<p>apache\u306e\u30ed\u30b0\u304b\u308910\u5206\u4ee5\u4e0a\u30a2\u30af\u30bb\u30b9\u306e\u7121\u3044\u6642\u9593\u5e2f\u3092\u691c\u51fa:</p>\u000a<div class=highlight-python><pre>#!/usr/local/bin/python\u000a\u000aimport fileinput\u000aimport re\u000aimport time\u000aimport datetime\u000a\u000adate = re.compile("(\u005cd+/\u005cw+/\u005cd+:\u005cd+:\u005cd+:\u005cd+)")\u000aprevtime = None\u000abasetime = None\u000a\u000afor line in fileinput.input("/var/log/httpd/freia-access.log"):\u000a  logtime = date.search(line)\u000a  if logtime:\u000a    ttime = time.mktime(time.strptime(logtime.groups()[0],\u000a    "%d/%b/%Y:%H:%M:%S"))\u000a    dtime = datetime.datetime.fromtimestamp(ttime)\u000a    if not prevtime:\u000a      prevtime = dtime\u000a      basetime = dtime\u000a\u000a    if dtime - prevtime \uff1c datetime.timedelta(0,600):\u000a      if basetime != prevtime:\u000a        print "%s while %s" % (basetime, dtime - basetime)\u000a      basetime = dtime\u000a\u000a    prevtime = dtime</pre>\u000a</div>\u000a<p>\u7d50\u679c\u306f\u3053\u3093\u306a\u611f\u3058:</p>\u000a<div class=highlight-python><pre>2004-08-12 00:31:07 while 0:32:59\u000a2004-08-12 01:18:19 while 0:12:00\u000a2004-08-12 03:17:27 while 0:42:16\u000a2004-08-12 04:24:20 while 0:25:58\u000a2004-08-12 04:50:22 while 0:19:45\u000a2004-08-12 05:12:41 while 0:19:16\u000a2004-08-12 05:46:56 while 0:13:45\u000a2004-08-12 06:27:23 while 0:11:36\u000a2004-08-12 06:46:56 while 0:25:55\u000a2004-08-12 07:22:50 while 0:14:44\u000a2004-08-12 07:48:35 while 0:14:38\u000a2004-08-12 08:56:30 while 1:07:35\u000a2004-08-12 10:28:47 while 0:23:49\u000a2004-08-12 12:12:04 while 0:48:02\u000a2004-08-12 13:15:28 while 0:44:42</pre>\u000a</div>\u000a<p>\u3084\u3063\u305f\uff01\u51fa\u6765\u305f\uff01\uff08\u7b11\uff09</p>\u000a<p>\u7d50\u679c\u3092\u898b\u308b\u3068\u3001\u671d9\u6642\u3068\u6b63\u5348\u524d\u5f8c\u3042\u305f\u308a\u306b\u5916\u90e8\u304b\u3089\u30a2\u30af\u30bb\u30b9\u3067\u304d\u3066\u3044\u306a\u3044\u6642\u9593\u5e2f\u304c\u3042\u308a\u307e\u3059\u3002\u672a\u3060\u539f\u56e0\u306f\u5206\u304b\u3063\u3066\u3044\u307e\u305b\u3093\u304c\u3001\u3068\u308a\u3042\u3048\u305a\u5b9a\u671f\u7684\u306b\u5916\u90e8\u306b\u901a\u4fe1\u3092\u884c\u3046\u3088\u3046\u306b\u3057\u3066\u56de\u907f\u3057\u3066\u307f\u305f\u3044\u3068\u601d\u3044\u307e\u3059\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2004/08/13 \u30a2\u30af\u30bb\u30b9\u9699\u9593\u691c\u51fa
+p12
+s.

@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x04\x15\x00\x19\x1e\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/191/index.html
+p7
+sS'description'
+p8
+V<div id=zope3-zopeessentials class=section>\u000a<h1>2005/04/21 Zope3\u52c9\u5f37\u4f1a &amp; ZopeEssentials<a class=headerlink href=http://www.freia.jp/taka/blog/191/index.html#zope3-zopeessentials title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Zope'</em></p>\u000a<p><a class="reference external" href=http://www.zope.org/Members/yusei/zope3meeting/2>Zope3\u52c9\u5f37\u4f1a</a> \u30012\u56de\u76ee\u3082\u53c2\u52a0\u3057\u307e\u3059\u3002</p>\u000a<p>\u4eca\u56de\u306f5/8\u958b\u50ac\u3067\u3059\u304c\u30015/10\u306b <a class="reference external" href=http://new.zope.jp/event/zopeessentials/1/>ZopeEssentials</a> \u304c\u3042\u3063\u305f\u308a\u30015/6\u306f\u51fa\u52e4\u3060\u3063\u305f\u308a\u3068\u3001GW\u6700\u5f8c\u306e\u65b9\u306f\u3044\u308d\u3044\u308d\u3068\u3042\u308a\u305d\u3046\u306a\u4e88\u611f\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/04/21 Zope3\u52c9\u5f37\u4f1a &amp; ZopeEssentials
+p12
+s.

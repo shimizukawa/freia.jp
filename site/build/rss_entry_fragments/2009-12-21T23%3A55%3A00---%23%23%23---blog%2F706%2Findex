@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd9\x0c\x15\x177\x00\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/706/index.html
+p7
+sS'description'
+p8
+V<div id=pyreadline class=section>\u000a<h1>2009/12/21 pyreadline\u306e\u30d1\u30c3\u30c1\u3092\u4fee\u6b63<a class=headerlink href=http://www.freia.jp/taka/blog/706/index.html#pyreadline title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'python'</em></p>\u000a<p><a class="reference external" href=http://www.freia.jp/taka/blog/690>Windows\u3067pyreadline\u3092\u4f7f\u3046\u3068Ctrl+H\u62bc\u4e0b\u6642\u306b\u30ab\u30fc\u30bd\u30eb\u304c\u9032\u3080</a> \u3068\u3044\u3046\u30a8\u30f3\u30c8\u30ea\u306b <a class="reference external" href=http://d.hatena.ne.jp/m-hiyama/>\u6a9c\u5c71\u6b63\u5e78\u306e\u30ad\u30de\u30a4\u30e9\u98fc\u80b2\u8a18</a> \u306e\u6a9c\u5c71\u3055\u3093\u304b\u3089\u30b3\u30e1\u30f3\u30c8\u3092\u3082\u3089\u3063\u3066\u3001\u305d\u306e\u5f8c\u30e1\u30fc\u30eb\u3067\u6539\u5584\u6848\u3068\u8cea\u554f\u3092\u3082\u3089\u3044\u307e\u3057\u305f\u3002</p>\u000a<div class=highlight-python><pre>--- pyreadline/keysyms/keysyms.py.orig\u000a+++ pyreadline/keysyms/keysyms.py\u000a@@ -119,6 +119,10 @@\u000a         char = chr(VkKeyScan(ord(char)) &amp; 0xff)\u000a     elif control:\u000a         char=chr(keycode)\u000a+    if control and ord(char)==8 and keycode==72:\u000a+        keycode=8\u000a+        control=False\u000a+        state &amp;= 0xfffffff7\u000a     try:\u000a         keyname=code2sym_map[keycode]\u000a     except KeyError:</pre>\u000a</div>\u000a<ul class=simple>\u000a<li>\u8cea\u554f: \u4e0a\u8a18\u306e\u30b3\u30fc\u30c9\u3067 state &amp;= 0xfffffff7 \u306e\u30b3\u30fc\u30c9\u306e\u610f\u5473\u306f\uff1f</li>\u000a<li>\u56de\u7b54: \u308f\u304b\u308a\u307e\u305b\u3093\uff1e\uff1c</li>\u000a</ul>\u000a<p>\u30d1\u30c3\u30c1\u3060\u3051\u3060\u3068\u5206\u304b\u308a\u307e\u305b\u3093\u304c\u3001\u95a2\u6570\u5168\u4f53\u3067\u3053\u306e\u884c\u4ee5\u964d\u3067state\u5909\u6570\u3092\u53c2\u7167\u3057\u3066\u3044\u308b\u7b87\u6240\u304c\u7121\u3044\u306e\u3067\u3059\uff1e\uff1c \u30d1\u30c3\u30c1\u3092\u4f5c\u3063\u305f\u306e\u304c2\u5e74\u4ee5\u4e0a\u524d\u306e\u4e8b\u3068\u306f\u3044\u3048\u3001\u3055\u3059\u304c\u306b\u3053\u308c\u306f\u610f\u5473\u304c\u306a\u3055\u904e\u304e\u308b\u3002\u53cd\u7701\u3002</p>\u000a<p>\u4ed6\u306b\u30e1\u30fc\u30eb\u3067\u3001Ctrl+M\u306b\u3064\u3044\u3066\u3082\u3001Ctrl+H\u3068\u540c\u69d8\u306a\u554f\u984c\u304c\u3042\u308b\u3068\u3044\u3046\u6307\u6458\u3068\u6539\u5584\u30d1\u30c3\u30c1\u3092\u3082\u3089\u3063\u3066\u3084\u308a\u3068\u308a\u3057\u305f\u7d50\u679c\u3001\u4ee5\u4e0b\u306e\u3088\u3046\u306a\u30d1\u30c3\u30c1\u306b\u751f\u307e\u308c\u5909\u308f\u308a\u307e\u3057\u305f:</p>\u000a<div class=highlight-python><pre>--- pyreadline/keysyms/keysyms.py.orig\u000a+++ pyreadline/keysyms/keysyms.py\u000a@@ -119,6 +119,9 @@\u000a         char = chr(VkKeyScan(ord(char)) &amp; 0xff)\u000a     elif control:\u000a         char=chr(keycode)\u000a+    if control and (ord(char),keycode) in ((8,72),(13,77)):\u000a+        keycode=ord(char)\u000a+        control=False\u000a     try:\u000a         keyname=code2sym_map[keycode]\u000a     except KeyError:</pre>\u000a</div>\u000a<p>\u3053\u306e\u30d1\u30c3\u30c1\u306f <a class="reference external" href=https://bugs.launchpad.net/pyreadline/+bug/491941>IPython: Ctrl+H erase previous character, but cursor goes forward.</a> \u306b\u3082Up\u3057\u76f4\u3057\u3066\u304a\u304d\u307e\u3057\u305f\u3002\u6a9c\u5c71\u3055\u3093\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002</p>\u000a<p>(\u3053\u306e\u30a8\u30f3\u30c8\u30ea\u306f12/25\u306b\u66f8\u304d\u307e\u3057\u305f)</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2009/12/21 pyreadline\u306e\u30d1\u30c3\u30c1\u3092\u4fee\u6b63
+p12
+s.

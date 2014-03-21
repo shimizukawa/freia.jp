@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xda\x02\x03\x172\x00\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/714/index.html
+p7
+sS'description'
+p8
+V<div id=www-freia-jpssl class=section>\u000a<h1>2010/02/03 www.freia.jp\u306eSSL\u8a3c\u660e\u66f8\u3092\u66f4\u65b0<a class=headerlink href=http://www.freia.jp/taka/blog/714/index.html#www-freia-jpssl title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'web', 'security'</em></p>\u000a<p><a class="reference external" href=http://www.rapidssl.com/>www.rapidssl.com</a> \u3067 www.freia.jp \u306eSSL\u8a3c\u660e\u66f8\u3092\u66f4\u65b0\u30022\u5e74\u3067$96.00\u3002\u3042\u308c\u30012\u5e74\u524d\u306f$79.00\u3060\u3063\u305f\u3093\u3060\u3051\u3069\u9ad8\u304f\u306a\u3063\u3066\u308b\uff1f\uff082\u5e74\u524d\u306e\u30a8\u30f3\u30c8\u30ea <a class="reference external" href=http://www.freia.jp/taka/blog/497>http://www.freia.jp/taka/blog/497</a> \uff09</p>\u000a<p>\u305d\u308c\u3067\u30821\u5e74$48.00\u3060\u304b\u3089\u3001\u307e\u3060\u5b89\u3044\u3068\u306f\u601d\u3046\u3002\u65e5\u672c\u306e\u30b1\u30fc\u30bf\u30a4\u3067\u3082\u5927\u4e08\u592b\u306a\u8a3c\u660e\u66f8\u3060\u3057\uff08 <a class="reference external" href=http://www.freia.jp/taka/blog/641>RapidSSL\u3067\u8cfc\u5165\u3057\u305fSSL\u8a3c\u660e\u66f8\u304c\u30b1\u30fc\u30bf\u30a4\u304b\u3089\u95b2\u89a7\u53ef\u80fd\u306a\u30eb\u30fc\u30c8\u8a8d\u8a3c\u5c40\u306b\u306a\u3063\u3066\u308b\u4ef6</a> \uff09</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2010/02/03 www.freia.jp\u306eSSL\u8a3c\u660e\u66f8\u3092\u66f4\u65b0
+p12
+s.

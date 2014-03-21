@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x01\x16\x01+\x12\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/119/index.html
+p7
+sS'description'
+p8
+V<div id=wzpython2 class=section>\u000a<h1>2005/01/22 WZ\u30de\u30af\u30ed\u304b\u3089Python\u30b3\u30fc\u30c9\u3092\u5b9f\u884c\u3059\u308b\uff12<a class=headerlink href=http://www.freia.jp/taka/blog/119/index.html#wzpython2 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'WZ', 'python'</em></p>\u000a<p>\u5148\u65e5\u4f5c\u3063\u305f pygw <a class="reference internal" href=http://www.freia.jp/taka/blog/119/index.html#id1>1</a> \u3092\u62e1\u5f35\u3057\u3066\u3001 <a class="reference external" href=http://python.jp/>Python</a> \u306eprint\u6587\u51fa\u529b\u5148\u3092WZ\u306e\u4efb\u610f\u306e\u95a2\u6570\u306b\u63a5\u7d9a\u3067\u304d\u308b\u3088\u3046\u306b\u3057\u3066\u307f\u305f\u3002</p>\u000a<p>WZ\u30de\u30af\u30ed\u306e\u4f8b:</p>\u000a<div class=highlight-python><pre>#include &lt;windows.h&gt;\u000a#include "pygw.h"\u000a\u000astatic FARPROC PrinfRegCode; //RegCode\u000a\u000avoid CALLBACK Print(char* str)\u000a{\u000a        printf(str);\u000a}\u000a\u000aint main(TX* text)\u000a{\u000a        PrinfRegCode = txpcodeRegisterCallback( Print, 1 );\u000a        PYGW_SetStdout( PrinfRegCode );\u000a\u000a        PYGW_Pygw("pywz","func1","teststrings");\u000a        PYGW_Pygw("pywz","func2","teststrings");\u000a        PYGW_Pygw("pywz","func3","reduce(lambda x,y:x+y,[x for x in range(0,10)])");\u000a        PYGW_Pygw("pywz","func4","Hello");\u000a\u000a        txpcodeUnregisterCallback( PrinfRegCode );\u000a        PrinfRegCode = NULL;\u000a        return 0;\u000a}</pre>\u000a</div>\u000a<p>\u547c\u3073\u51fa\u3055\u308c\u308bPython\u30b3\u30fc\u30c9\u306e\u4f8b:</p>\u000a<div class=highlight-python><div class=highlight><pre><span class=kn>import</span> <span class=nn>stdout</span>\u000a\u000a<span class=k>def</span> <span class=nf>func1</span><span class=p>(</span><span class=n>x</span><span class=p>):</span>\u000a        <span class=k>print</span> <span class=s>"1: "</span><span class=p>,</span> <span class=nb>len</span><span class=p>(</span><span class=n>x</span><span class=p>)</span>\u000a        <span class=k>return</span> <span class=nb>len</span><span class=p>(</span><span class=n>x</span><span class=p>)</span>\u000a\u000a<span class=k>def</span> <span class=nf>func2</span><span class=p>(</span><span class=n>x</span><span class=p>):</span>\u000a        <span class=k>print</span> <span class=s>"2: "</span><span class=p>,</span> <span class=n>x</span>\u000a        <span class=k>return</span> <span class=mi>0</span>\u000a\u000a<span class=k>def</span> <span class=nf>func3</span><span class=p>(</span><span class=n>x</span><span class=p>):</span>\u000a        <span class=k>print</span> <span class=s>"3: "</span><span class=p>,</span> <span class=n>x</span><span class=p>,</span> <span class=s>" ==&gt; "</span><span class=p>,</span> <span class=nb>eval</span><span class=p>(</span><span class=n>x</span><span class=p>)</span>\u000a        <span class=k>return</span> <span class=nb>eval</span><span class=p>(</span><span class=n>x</span><span class=p>)</span>\u000a\u000a<span class=k>def</span> <span class=nf>func4</span><span class=p>(</span><span class=n>x</span><span class=p>):</span>\u000a        <span class=k>print</span> <span class=s>"4: "</span><span class=p>,</span> <span class=p>[</span><span class=n>s</span> <span class=k>for</span> <span class=n>s</span> <span class=ow>in</span> <span class=n>x</span><span class=p>]</span>\u000a        <span class=k>return</span> <span class=nb>len</span><span class=p>(</span><span class=n>x</span><span class=p>)</span>\u000a</pre></div>\u000a</div>\u000a<p>\u5b9f\u884c\u7d50\u679c:</p>\u000a<div class=highlight-python><pre>1:  11\u000a2:  teststrings\u000a3:  reduce(lambda x,y:x+y,[x for x in range(0,10)])  ==&gt;  45\u000a4:  ['H', 'e', 'l', 'l', 'o']</pre>\u000a</div>\u000a<p>\u5b9f\u884c\u7d50\u679c\u306f\u3082\u3061\u308d\u3093WZ\u306eSTDOUT\u306b\u51fa\u529b\u3055\u308c\u308b\u3002\u4ee5\u4e0b\u304c\u8a3c\u62e0\u753b\u50cf\u3060\uff01\uff08\u306d\u3064\u9020\u3058\u3083\u306a\u3044\u3088\uff1f\uff09</p>\u000a<p><img alt=pygw_wz1 src=http://www.freia.jp/taka/_images/pygw_wz1></p>\u000a<p>file: <a class="reference external" href=http://www.freia.jp/taka/blog/119/file/wz/pygw20050121.lzh>pygw20050121.lzh</a></p>\u000a<table frame=void id=id1 rules=none class="docutils footnote">\u000a<col class=label><col></colgroup>\u000a<tbody valign=top>\u000a<tr><td class=label>[1]<td><a class="reference external" href=http://www.villagecenter.co.jp/soft/wz50/>WZ Editor</a> \u306e\u30de\u30af\u30ed\u304b\u3089 <a class="reference external" href=http://python.jp/>Python</a> \u30b3\u30fc\u30c9\u3092\u5b9f\u884c\u3059\u308b\u305f\u3081\u306eDLL</tr>\u000a</tbody>\u000a</table>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/01/22 WZ\u30de\u30af\u30ed\u304b\u3089Python\u30b3\u30fc\u30c9\u3092\u5b9f\u884c\u3059\u308b\uff12
+p12
+s.

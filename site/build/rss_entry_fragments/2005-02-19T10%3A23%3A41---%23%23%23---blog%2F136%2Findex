@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x02\x13\n\x17)\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/136/index.html
+p7
+sS'description'
+p8
+V<div id=zope-weekend-5 class=section>\u000a<h1>2005/02/19 Zope Weekend 5<a class=headerlink href=http://www.freia.jp/taka/blog/136/index.html#zope-weekend-5 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Zope', 'Event'</em></p>\u000a<p>\u4eca\u65e5\u306f <a class="reference external" href=http://zope.jp/misc/zopeweekend5/>Zope Weekend 5</a> \u304c\u958b\u50ac\u3055\u308c\u307e\u3059\u3002\u4eca\u56de\u306f\u304a\u624b\u4f1d\u3044\u30b9\u30bf\u30c3\u30d5\u3068\u3057\u3066\u53c2\u52a0\u3057\u307e\u3059\u3002</p>\u000a<p><em># \u4e45\u3057\u3076\u308a\u306b\u98df\u3079\u305f\u30d9\u30fc\u30b0\u30eb\u306f\u80e1\u9ebb\u30d9\u30fc\u30b0\u30eb\u306b\u306a\u3063\u3066\u3044\u307e\u3057\u305f\u3002</em></p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/02/19 Zope Weekend 5
+p12
+s.

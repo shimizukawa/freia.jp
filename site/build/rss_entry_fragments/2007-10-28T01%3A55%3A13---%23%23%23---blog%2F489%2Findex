@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd7\n\x1c\x017\r\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/489/index.html
+p7
+sS'description'
+p8
+V<div id=op25bgmail-on-python class=section>\u000a<h1>2007/10/28 OP25b\u56de\u907f\u306bGMail\u3092\u5229\u7528 (on python)<a class=headerlink href=http://www.freia.jp/taka/blog/489/index.html#op25bgmail-on-python title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'python'</em></p>\u000a<p>Python\u6e29\u6cc9\u306e\u6210\u679c2\u3002</p>\u000a<p>\u4ee5\u524d <a class="reference external" href="http://www.freia.jp/taka/blog/403?searchterm=gmail">Plone\u306eSMTP\u8a2d\u5b9a\u306bGMail\u3092\u6307\u5b9a</a> \u3068\u3044\u3046\u30cd\u30bf\u3092\u66f8\u304d\u307e\u3057\u305f\u304c\u3001\u30bd\u30fc\u30b9\u30b3\u30fc\u30c9\u3092Python\u4e00\u822c\u3067\u4f7f\u3048\u308b\u3088\u3046\u306b\u62bd\u51fa\u3057\u3066\u307f\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306e\u30b5\u30f3\u30d7\u30eb\u306f\u30d1\u30b9\u30ef\u30fc\u30c9\u304c\u542b\u307e\u308c\u3066\u308b\u306e\u3067\u3001\u5b9f\u7528\u306e\u305f\u3081\u306b\u306f\u305d\u306e\u3078\u3093\u3092\u30b4\u30cb\u30e7\u3063\u3068\u3059\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\u3002</p>\u000a<div class=highlight-python><div class=highlight><pre><span class=c>#!/usr/local/bin/python</span>\u000a<span class=c># -*- coding: utf-8 -*-</span>\u000a\u000a<span class=n>ID</span> <span class=o>=</span> <span class=s>'xxxxxxx@gmail.com'</span>\u000a<span class=n>PW</span> <span class=o>=</span> <span class=s>'dummy'</span>\u000a<span class=n>FROM</span> <span class=o>=</span> <span class=s>'xxxxx@example.com'</span>\u000a\u000a<span class=kn>import</span> <span class=nn>smtplib</span>\u000a\u000a<span class=k>def</span> <span class=nf>sendmail</span><span class=p>(</span><span class=n>toaddrs</span><span class=p>,</span><span class=n>subject</span><span class=p>,</span><span class=n>msg</span><span class=p>):</span>\u000a    <span class=k>if</span> <span class=nb>isinstance</span><span class=p>(</span><span class=n>toaddrs</span><span class=p>,</span> <span class=nb>basestring</span><span class=p>):</span>\u000a        <span class=n>toaddrs</span><span class=o>=</span><span class=p>[</span><span class=n>toaddrs</span><span class=p>]</span>\u000a    <span class=n>smtpserver</span> <span class=o>=</span> <span class=n>smtplib</span><span class=o>.</span><span class=n>SMTP</span><span class=p>(</span><span class=s>'smtp.gmail.com'</span><span class=p>,</span><span class=mi>587</span><span class=p>)</span>\u000a    <span class=n>smtpserver</span><span class=o>.</span><span class=n>ehlo</span><span class=p>()</span>\u000a    <span class=n>smtpserver</span><span class=o>.</span><span class=n>starttls</span><span class=p>()</span>\u000a    <span class=n>smtpserver</span><span class=o>.</span><span class=n>ehlo</span><span class=p>()</span>\u000a    <span class=n>smtpserver</span><span class=o>.</span><span class=n>login</span><span class=p>(</span><span class=n>ID</span><span class=p>,</span><span class=n>PW</span><span class=p>)</span>\u000a\u000a    <span class=n>t</span><span class=o>=</span><span class=s>', '</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>toaddrs</span><span class=p>)</span>\u000a    <span class=n>msg</span><span class=o>=</span><span class=s>'From: </span><span class=si>%s</span><span class=se>\u005cn</span><span class=s>To: </span><span class=si>%s</span><span class=se>\u005cn</span><span class=s>Subject: </span><span class=si>%s</span><span class=se>\u005cn\u005cn</span><span class=si>%s</span><span class=s>'</span> <span class=o>%</span> <span class=p>(</span><span class=n>FROM</span><span class=p>,</span><span class=n>t</span><span class=p>,</span><span class=n>subject</span><span class=p>,</span><span class=n>msg</span><span class=p>)</span>\u000a    <span class=n>smtpserver</span><span class=o>.</span><span class=n>sendmail</span><span class=p>(</span><span class=n>FROM</span><span class=p>,</span> <span class=n>toaddrs</span><span class=p>,</span> <span class=n>msg</span><span class=p>)</span>\u000a    <span class=k>try</span><span class=p>:</span>\u000a        <span class=n>smtpserver</span><span class=o>.</span><span class=n>quit</span><span class=p>()</span>\u000a    <span class=k>except</span> <span class=n>socket</span><span class=o>.</span><span class=n>sslerror</span><span class=p>,</span><span class=n>e</span><span class=p>:</span>\u000a        <span class=k>pass</span>\u000a\u000a<span class=k>if</span> <span class=n>__name__</span> <span class=o>==</span> <span class=s>'__main__'</span><span class=p>:</span>\u000a    <span class=n>sendmail</span><span class=p>(</span><span class=s>'testaddr@example.com'</span><span class=p>,</span><span class=s>'subject'</span><span class=p>,</span><span class=s>'testmail'</span><span class=p>)</span>\u000a</pre></div>\u000a</div>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2007/10/28 OP25b\u56de\u907f\u306bGMail\u3092\u5229\u7528 (on python)
+p12
+s.

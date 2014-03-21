@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x03\x17\x0c0/\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/169/index.html
+p7
+sS'description'
+p8
+V<div id=pythonhtml class=section>\u000a<h1>2005/03/23 python\u3067HTML\u89e3\u6790<a class=headerlink href=http://www.freia.jp/taka/blog/169/index.html#pythonhtml title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'python', 'Programming'</em></p>\u000a<p>\u4f1a\u793e\u306e\u540c\u50da\u304c</p>\u000a<blockquote>\u000a<div>\u300cWeb\u30b5\u30a4\u30c8\u306b\u5b9a\u671f\u7684\u306b\u30a2\u30af\u30bb\u30b9\u3057\u3066\u5185\u5bb9\u3092\u89e3\u6790\u3057\u3066\u25cb\u25cb××\u3092\u81ea\u52d5\u7684\u306b\u5b9f\u884c\u3059\u308b\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u4f5c\u308a\u305f\u3044\u3002\u000aPerl\u3067\u4f5c\u308d\u3046\u3068\u601d\u3046\u3093\u3060\u3051\u3069\u2026\u2026\u300d</div></blockquote>\u000a<p>\u3068\u3044\u3046\u8a71\u3092\u3057\u3066\u3044\u305f\u306e\u3067\u3001Python\u3092\u52e7\u3081\u3066\u307f\u305f\u3002\u3064\u3044\u3067\u306b\u30b5\u30f3\u30d7\u30eb\u30b3\u30fc\u30c9\u3092\u4f5c\u3063\u3066\u307f\u305f\u3002</p>\u000a<p>myparser.py:</p>\u000a<div class=highlight-python><div class=highlight><pre><span class=kn>from</span> <span class=nn>HTMLParser</span> <span class=kn>import</span> <span class=n>HTMLParser</span>\u000a\u000a<span class=k>class</span> <span class=nc>MyHTMLParser</span><span class=p>(</span><span class=n>HTMLParser</span><span class=p>):</span>\u000a    <span class=k>def</span> <span class=nf>handle_data</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>data</span><span class=p>):</span>\u000a        <span class=n>data</span> <span class=o>=</span> <span class=n>data</span><span class=o>.</span><span class=n>strip</span><span class=p>(</span><span class=s>" \u3000</span><span class=se>\u005ct\u005cr\u005cn</span><span class=s>"</span><span class=p>)</span>\u000a        <span class=k>if</span> <span class=n>data</span><span class=p>:</span>\u000a            <span class=k>print</span> <span class=s>'Data: "</span><span class=si>%s</span><span class=s>"'</span> <span class=o>%</span> <span class=n>data</span>\u000a\u000a    <span class=k>def</span> <span class=nf>handle_starttag</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>tag</span><span class=p>,</span> <span class=n>attrs</span><span class=p>):</span>\u000a        <span class=k>pass</span>\u000a        <span class=c>#print 'TagStart: "%s"' % tag</span>\u000a\u000a    <span class=k>def</span> <span class=nf>handle_endtag</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>tag</span><span class=p>):</span>\u000a        <span class=k>pass</span>\u000a        <span class=c>#print 'TagEnd: "%s"' % tag</span>\u000a\u000a<span class=k>def</span> <span class=nf>main</span><span class=p>(</span><span class=n>url</span><span class=p>):</span>\u000a    <span class=kn>import</span> <span class=nn>urllib</span>\u000a    <span class=n>data</span> <span class=o>=</span> <span class=n>urllib</span><span class=o>.</span><span class=n>urlopen</span><span class=p>(</span> <span class=n>url</span> <span class=p>)</span>\u000a    <span class=n>mp</span> <span class=o>=</span> <span class=n>MyHTMLParser</span><span class=p>()</span>\u000a    <span class=n>mp</span><span class=o>.</span><span class=n>feed</span><span class=p>(</span> <span class=n>data</span><span class=o>.</span><span class=n>read</span><span class=p>()</span> <span class=p>)</span>\u000a\u000a\u000a<span class=k>if</span> <span class=n>__name__</span> <span class=o>==</span> <span class=s>"__main__"</span><span class=p>:</span>\u000a    <span class=kn>import</span> <span class=nn>sys</span>\u000a    <span class=n>url</span> <span class=o>=</span> <span class=s>"http://python.jp/"</span>\u000a    <span class=k>if</span> <span class=nb>len</span><span class=p>(</span> <span class=n>sys</span><span class=o>.</span><span class=n>argv</span> <span class=p>)</span> <span class=o>&gt;</span> <span class=mi>1</span><span class=p>:</span>\u000a        <span class=n>url</span> <span class=o>=</span> <span class=n>sys</span><span class=o>.</span><span class=n>argv</span><span class=p>[</span><span class=mi>1</span><span class=p>]</span>\u000a\u000a    <span class=n>main</span><span class=p>(</span><span class=n>url</span><span class=p>)</span>\u000a</pre></div>\u000a</div>\u000a<p>\u3053\u308c\u3092\u5f15\u6570\u7121\u3057\u3067\u5b9f\u884c\u3059\u308b\u3068\u3001python.jp\u306e\u30da\u30fc\u30b8\u304c\u53d6\u308c\u3066\u304d\u3066\u4ee5\u4e0b\u306e\u3088\u3046\u306b\u8868\u793a\u3055\u308c\u308b:</p>\u000a<div class=highlight-python><pre>Data: "Click"\u000aData: "here"\u000aData: "to get to the FrontPage."</pre>\u000a</div>\u000a<p>\u8d85\u9069\u5f53\u306b\u4f5c\u3063\u305f\u5272\u306b\u306f\u3061\u3083\u3093\u3068\u52d5\u3044\u305f\u306a\u3041\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/03/23 python\u3067HTML\u89e3\u6790
+p12
+s.

@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x04\x05\x16\x02\x17\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/182/index.html
+p7
+sS'description'
+p8
+V<div id=wz class=section>\u000a<h1>2005/04/05 WZ<a class=headerlink href=http://www.freia.jp/taka/blog/182/index.html#wz title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'WZ'</em></p>\u000a<p><a class="reference external" href="http://www.villagecenter.co.jp/cgi-bin/wzold.cgi?L=146&amp;X=1">WZ\u304c\u60aa\u3044\u3093\u3058\u3083\u306a\u3044\uff01Villagecenter\u304c\u60aa\u3044\u3093\u3060\uff01</a></p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/04/05 WZ
+p12
+s.

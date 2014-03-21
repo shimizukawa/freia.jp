@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd4\x07\x1a\x01\x1f\x17\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/37/index.html
+p7
+sS'description'
+p8
+V<div id=coreblog0-61b0-73b class=section>\u000a<h1>2004/07/26 COREblog\u30920.61b\u304b\u30890.73b\u3078<a class=headerlink href=http://www.freia.jp/taka/blog/37/index.html#coreblog0-61b0-73b title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Zope', 'misc'</em></p>\u000a<p>\u3084\u3063\u3068\u6642\u9593\u3092\u53d6\u308c\u308b\u3088\u3046\u306b\u306a\u3063\u305f\u306e\u3067\u3001\u30b5\u30fc\u30d0\u30fc\u3067\u4f7f\u3063\u3066\u3044\u308b <a class="reference external" href=http://coreblog.org/>COREblog</a> \u30920.61b\u304b\u30890.73b\u3078\u4e0a\u3052\u307e\u3057\u305f\u3002</p>\u000a<p>\u3053\u308c\u3067\u3084\u3063\u3068 <a class="reference external" href=http://www.freia.jp/taka/wiki/ReStructuredText>reStructuredText</a> \u3092\u4f7f\u3048\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3059\u3002\u4eba\u306b\u8aac\u660e\u3057\u305f\u308a\u4f7f\u3063\u3066\u3082\u3089\u3046\u305f\u3081\u306e\u6577\u5c45\u306f <a class="reference external" href=http://www.freia.jp/taka/wiki/StructuredText>StructuredText</a> \u306e\u65b9\u304c\u4f4e\u3044\u306e\u3067\u3059\u304c\u3001\u4f7f\u3044\u8fbc\u3080\u7528\u9014\u306b\u306f <a class="reference external" href=http://www.freia.jp/taka/wiki/ReStructuredText>reStructuredText</a> \u304c\u826f\u3044\u3067\u3059\u306d\u3002\u307e\u3041\u90e8\u5206\u7684\u306b <a class="reference external" href=http://www.freia.jp/taka/wiki/StructuredText>StructuredText</a> \u306e\u306b\u3042\u308b\u6a5f\u80fd\u304c <a class="reference external" href=http://www.freia.jp/taka/wiki/ReStructuredText>reStructuredText</a> \u306b\u7121\u304f\u3066\u6b8b\u5ff5\u3060\u3063\u305f\u308a\u3059\u308b\u3053\u3068\u3082\u3042\u308a\u307e\u3059\u304c\uff08\u4e0b\u7dda\u3068\u304b\uff09\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2004/07/26 COREblog\u30920.61b\u304b\u30890.73b\u3078
+p12
+s.

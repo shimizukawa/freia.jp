@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd7\x03\x0f\x01 :\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/417/index.html
+p7
+sS'description'
+p8
+V<div id=id1 class=section>\u000a<h1>2007/03/15 \u904e\u53bb6\u9031\u9593\u306e\u30a2\u30af\u30bb\u30b9\u5e73\u5747\u30e9\u30f3\u30ad\u30f3\u30b0<a class=headerlink href=http://www.freia.jp/taka/blog/417/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'misc'</em></p>\u000a<p>Google Analytics\u95a2\u9023\u3067Blog\u3092\u66f8\u3044\u305f\u6d41\u308c\u3067\u3001\u81ea\u5206\u306e\u30b5\u30a4\u30c8\u306e\u8a18\u4e8b\u5225\u8a2a\u554f\u8005\u6570\u30e9\u30f3\u30ad\u30f3\u30b0\u3092\u96c6\u8a08\u3057\u3066\u307f\u307e\u3057\u305f\u3002\u96c6\u8a08\u671f\u9593\u306f2007/2/11\uff5e3/10\u306e28\u65e5\u9593\u3067\u3059\u3002</p>\u000a<table class=docutils border=1>\u000a<colgroup>\u000a<col width=7%>\u000a<col width=71%>\u000a<col width=11%>\u000a<col width=11%>\u000a</colgroup>\u000a<thead valign=bottom>\u000a<tr class=row-odd><th class=head>\u9806\u4f4d</th>\u000a<th class=head>\u30bf\u30a4\u30c8\u30eb</th>\u000a<th class=head>\u8a2a\u554f\u8005\u6570</th>\u000a<th class=head>1\u65e5\u5e73\u5747</th>\u000a</tr>\u000a</thead>\u000a<tbody valign=top>\u000a<tr class=row-even><td>1</td>\u000a<td><a class="reference external" href=http://www.freia.jp/taka/blog/252>\u65e5\u672c\u8a9e\u30ad\u30fc\u30dc\u30fc\u30c9\u304b\u3089\u82f1\u8a9e\u30ad\u30fc\u30dc\u30fc\u30c9\u3078</a></td>\u000a<td>682</td>\u000a<td>24.4</td>\u000a</tr>\u000a<tr class=row-odd><td>2</td>\u000a<td><a class="reference external" href=http://www.freia.jp/taka/blog/83>Windows\u304b\u3089\u306eVPN\u63a5\u7d9a\u8a8d\u8a3c\u3092LDAP\u3067\u7ba1\u7406\u3059\u308b on FreeBSD5.2.1</a></td>\u000a<td>314</td>\u000a<td>11.2</td>\u000a</tr>\u000a<tr class=row-even><td>3</td>\u000a<td><a class="reference external" href=http://www.freia.jp/taka/blog/226>Apache\u306e\u8a8d\u8a3c\u3092LDAP\u3067ActiveDirectory\u306b\u554f\u3044\u5408\u308f\u305b</a></td>\u000a<td>299</td>\u000a<td>10.7</td>\u000a</tr>\u000a<tr class=row-odd><td>4</td>\u000a<td><a class="reference external" href=http://www.freia.jp/taka/blog/169>python\u3067HTML\u89e3\u6790</a></td>\u000a<td>169</td>\u000a<td>6.0</td>\u000a</tr>\u000a<tr class=row-even><td>5</td>\u000a<td><a class="reference external" href=http://www.freia.jp/taka/blog/406>\u52d5\u753b\u914d\u4fe1\u596e\u95d8\u8a18 in Python Developers Camp 2007 \u51ac</a></td>\u000a<td>156</td>\u000a<td>5.6</td>\u000a</tr>\u000a<tr class=row-odd><td>6</td>\u000a<td><a class="reference external" href=http://www.freia.jp/taka/memo/freevcbuild>Windows\u3067Free\u306aC\u30e2\u30b8\u30e5\u30fc\u30eb\u30d3\u30eb\u30c9\u74b0\u5883</a></td>\u000a<td>118</td>\u000a<td>4.2</td>\u000a</tr>\u000a<tr class=row-even><td>7</td>\u000a<td><a class="reference external" href=http://www.freia.jp/taka/blog/67>\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u81ea\u52d5\u751f\u6210\u8a08\u753b</a></td>\u000a<td>117</td>\u000a<td>4.2</td>\u000a</tr>\u000a<tr class=row-odd><td>8</td>\u000a<td><a class="reference external" href=http://www.freia.jp/taka/blog/232>NetDrive\u3068\u3044\u3046WebDAV\u3092Drive\u540d\u306b\u30de\u30a6\u30f3\u30c8\u3059\u308b\u30c4\u30fc\u30eb</a></td>\u000a<td>109</td>\u000a<td>3.9</td>\u000a</tr>\u000a<tr class=row-even><td>9</td>\u000a<td><a class="reference external" href=http://www.freia.jp/taka/blog/117>CSS\u306eoverflow\u30d7\u30ed\u30d1\u30c6\u30a3\u30fc</a></td>\u000a<td>100</td>\u000a<td>3.6</td>\u000a</tr>\u000a<tr class=row-odd><td>10</td>\u000a<td><a class="reference external" href=http://www.freia.jp/taka/blog/55>mod_proxy\u306f\u3044\u305a\u3053\uff1f</a></td>\u000a<td>96</td>\u000a<td>3.4</td>\u000a</tr>\u000a</tbody>\u000a</table>\u000a<p>\u7d50\u679c\u3001\u82f1\u8a9e\u30ad\u30fc\u30dc\u30fc\u30c9\u306e\u30cd\u30bf\u304c\u30c0\u30f3\u30c8\u30c41\u4f4d\u3067\u3057\u305f\u30022\u4f4d\u306e\u30c0\u30d6\u30eb\u30b9\u30b3\u30a2\u3067\u5727\u52dd\u3067\u3059\u3002\u30a2\u30af\u30bb\u30b9\u5143\u306f90%\u304c\u691c\u7d22\u30a8\u30f3\u30b8\u30f3\u3067\u3001\u6700\u3082\u591a\u304b\u3063\u305f\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u306f <tt class="docutils literal"><span class=pre>\u82f1\u8a9e\u30ad\u30fc\u30dc\u30fc\u30c9</span></tt> \u3067\u3057\u305f\u3002 <a class="reference external" href="http://www.google.com/search?rls=ja&amp;q=%E8%8B%B1%E8%AA%9E%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89&amp;ie=utf-8&amp;oe=utf-8">\u82f1\u8a9e\u30ad\u30fc\u30dc\u30fc\u30c9\u3067Google\u691c\u7d22</a> \u3059\u308b\u3068\u30019\u4f4d\u306b <a class="reference external" href=http://www.watch.impress.co.jp/mobile/column/stapa/2000/03/21/>\u30b9\u30bf\u30d1\u30c8\u30ed\u30cb\u30af\u30b9Mobile</a>, 10\u4f4d\u306b\u3046\u3061\u306e\u30b5\u30a4\u30c8\u304c\u30e9\u30f3\u30af\u30a4\u30f3\u3057\u3066\u3044\u307e\u3059\u3002\u306a\u3093\u304b\u3059\u3054\u3044\u306a...\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2007/03/15 \u904e\u53bb6\u9031\u9593\u306e\u30a2\u30af\u30bb\u30b9\u5e73\u5747\u30e9\u30f3\u30ad\u30f3\u30b0
+p12
+s.

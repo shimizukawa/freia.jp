@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd4\x0c\x1c\x007\x0e\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/96/index.html
+p7
+sS'description'
+p8
+V<div id=movabletype class=section>\u000a<h1>2004/12/28 MovableType<a class=headerlink href=http://www.freia.jp/taka/blog/96/index.html#movabletype title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'misc'</em></p>\u000a<p>\u4f1a\u793e\u306e\u540c\u50da\u304c <a class="reference external" href=http://akn.to/blog/1>MovableType\u3092\u59cb\u3081\u305f</a> \u3089\u3057\u3044\u3002\u65e9\u901f\u30c8\u30e9\u30c3\u30af\u30d0\u30c3\u30af\u3057\u3066\u307f\u308b\u3002</p>\u000a<p>\u3048\u30fc\u3068\u3002blog\u958b\u8a2d\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff5e\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2004/12/28 MovableType
+p12
+s.

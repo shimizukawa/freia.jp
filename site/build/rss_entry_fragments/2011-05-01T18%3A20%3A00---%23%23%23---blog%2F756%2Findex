@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xdb\x05\x01\x12\x14\x00\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/756/index.html
+p7
+sS'description'
+p8
+V<div id=python3zc-buildout-2-0-0a1 class=section>\u000a<h1>2011/05/01 Python3\u3067zc.buildout-2.0.0a1 \u3092\u52d5\u304b\u3057\u3066\u307f\u305f<a class=headerlink href=http://www.freia.jp/taka/blog/756/index.html#python3zc-buildout-2-0-0a1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'python'</em></p>\u000a<p>\u6628\u591c\u30014/30\u306e\u591c\u306b <a class="reference external" href=http://pypi.python.org/pypi/zc.buildout/2.0.0a1>zc.buildout-2.0.0a1</a> \u304c\u30ea\u30ea\u30fc\u30b9\u3055\u308c\u305f\u306e\u3067\u65e9\u901f\u8a66\u3057\u3066\u307f\u307e\u3057\u305f\u3002</p>\u000a<div class="dos topic">\u000a<p class="topic-title first">bootstrap.py</p>\u000a<div class=line-block>\u000a<div class=line>$ mkdir bo2</div>\u000a<div class=line>$ cd bo2</div>\u000a<div class=line>$ wget <a class="reference external" href=http://svn.zope.org/repos/main/zc.buildout/branches/2/bootstrap/bootstrap.py>http://svn.zope.org/repos/main/zc.buildout/branches/2/bootstrap/bootstrap.py</a></div>\u000a<div class=line>$ python-3.2 bootstrap.py init</div>\u000a</div>\u000a</div>\u000a<p>\u3053\u308c\u3067\u52d5\u3044\u3066\u304f\u308c\u308c\u3070\u8a71\u306f\u65e9\u304b\u3063\u305f\u3093\u3067\u3059\u304c\u3001\u81ea\u5206\u306e\u74b0\u5883\u3067\u306f\u306a\u305c\u304bzc.buildout-1.5.2\u304c\u30bb\u30c3\u30c8\u30a2\u30c3\u30d7\u3055\u308c\u3066\u3057\u307e\u3044\u3001\u5f53\u7136Python3\u3067\u306f\u52d5\u304d\u307e\u305b\u3093\u3002\u305d\u3053\u3067\u3001\u5148\u306bbuildout.cfg\u3092\u4f5c\u3063\u3066versions\u6307\u5b9a\u3057\u3066\u304a\u304d\u307e\u3057\u305f\u3002</p>\u000a<p>buildout.cfg:</p>\u000a<div class=highlight-python><pre>[buildout]\u000aparts =\u000aversions = versions\u000a\u000a[versions]\u000azc.buildout = 2.0.0a1\u000azc.recipe.egg = 2.0.0a1</pre>\u000a</div>\u000a<p>\u6539\u3081\u3066bootstrap\u3092\u5b9f\u884c\u3002 Python3\u3067\u306f -d \u30aa\u30d7\u30b7\u30e7\u30f3\u306fdefault\u3067on\u306b\u306a\u308a\u307e\u3057\u305f\u3002</p>\u000a<div class="dos topic">\u000a<p class="topic-title first">bootstrap.py</p>\u000a<div class=line-block>\u000a<div class=line>$ python-3.2 bootstrap.py init</div>\u000a<div class=line>...</div>\u000a<div class=line>Generated script '/tmp/bo2/bin/buildout'.</div>\u000a</div>\u000a</div>\u000a<p>\u6b21\u306bbuildout.cfg\u306bPython3\u30a2\u30d7\u30ea\u3092\u4f7f\u3048\u308b\u3088\u3046\u306bapp\u30bb\u30af\u30b7\u30e7\u30f3\u3092\u8ffd\u52a0\u3057\u307e\u3059\u3002</p>\u000a<p>buildout.cfg:</p>\u000a<div class=highlight-python><pre>[buildout]\u000aparts = app\u000aversions = versions\u000a\u000a[app]\u000arecipe = zc.recipe.egg\u000aeggs = bucho\u000ainterpreter = py\u000a\u000a[versions]\u000azc.buildout = 2.0.0a1\u000azc.recipe.egg = 2.0.0a1</pre>\u000a</div>\u000a<div class="dos topic">\u000a<p class="topic-title first">bin/buildout</p>\u000a<div class=line-block>\u000a<div class=line>$ bin/buildout</div>\u000a<div class=line>...</div>\u000a<div class=line>Generated script '/tmp/bo2/bin/bucho'.</div>\u000a<div class=line>Generated interpreter '/tmp/bo2/bin/py'.</div>\u000a</div>\u000a</div>\u000a<p>\u30bb\u30c3\u30c8\u30a2\u30c3\u30d7\u3067\u304d\u307e\u3057\u305f\uff01 Python3\u3067\u3082 zc.buildout \u304c\u4f7f\u3048\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3057\u305f\u306d\u3002</p>\u000a<div class="dos topic">\u000a<p class="topic-title first">bin/buildout</p>\u000a<div class=line-block>\u000a<div class=line>$ bin/py -c "import sys;print(sys.version)"</div>\u000a<div class=line>3.2 (r32:88445, Feb 20 2011, 21:30:00) [MSC v.1500 64 bit (AMD64)]</div>\u000a<div class=line><br></div>\u000a<div class=line>$ bin/bucho latest_status</div>\u000a<div class=line>\u96e8\u964d\u3063\u3066\u304d\u307e\u3051\u3069\u3001\u6c60\u888b\u306b\u98f2\u307f\u306b\u3044\u304f\u3002</div>\u000a</div>\u000a</div>\u000a<p>\u96e8\u306e\u4e2d\u306e\u307f\u306b\u884c\u304f\u305d\u3046\u3067\u3059\u3002\u3055\u3059\u304cbucho\u3067\u3059\u306d\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2011/05/01 Python3\u3067zc.buildout-2.0.0a1 \u3092\u52d5\u304b\u3057\u3066\u307f\u305f
+p12
+s.

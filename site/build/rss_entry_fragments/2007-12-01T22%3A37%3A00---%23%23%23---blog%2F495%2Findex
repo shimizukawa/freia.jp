@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd7\x0c\x01\x16%\x00\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/495/index.html
+p7
+sS'description'
+p8
+V<div id=amazonurlbookmarklet class=section>\u000a<h1>2007/12/01 Amazon\u306eURL\u30b3\u30d4\u30fc\u3059\u308bbookmarklet<a class=headerlink href=http://www.freia.jp/taka/blog/495/index.html#amazonurlbookmarklet title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'javascript'</em></p>\u000a<p>\u6700\u8fd1\u306eAmazon\u306fURL\u306b\u65e5\u672c\u8a9e\u304c\u542b\u307e\u308c\u3066\u3044\u3066\u3001IM\u3067\u6e21\u3057\u306b\u304f\u3044\u306e\u3067\u3001\u77ed\u3044URL\u306b\u5909\u63db\u3059\u308b\u30d6\u30c3\u30af\u30de\u30fc\u30af\u30ec\u30c3\u30c8\u3092\u4f5c\u3063\u3066\u307f\u305f\u3002</p>\u000a<p>prompt\u3092popup\u3059\u308b\u7248(URL\u306e\u307f):</p>\u000a<div class=highlight-python><pre>javascript:var%20p=prompt('URL%20is...',location.href.replace(/.*\u005c/([A-Z\u005cd]{10})\u005c/.*/,'http://www.amazon.co.jp/dp/$1'))</pre>\u000a</div>\u000a<p>prompt\u3092popup\u3059\u308b\u7248(\u30bf\u30a4\u30c8\u30eb\u3068URL):</p>\u000a<div class=highlight-python><pre>javascript:var%20p=prompt('URL%20is...',document.title.replace(/^\u005cs+(.*)\u005cs+$/,'$1')+"  "+location.href.replace(/.*\u005c/([A-Z\u005cd]{10})\u005c/.*/,'http://www.amazon.co.jp/dp/$1'))</pre>\u000a</div>\u000a<p>Windows\u306e\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u306b\u6e21\u3059\u7248(URL\u306e\u307f):</p>\u000a<div class=highlight-python><pre>javascript:(function(text){var swf_data = "http://www.freia.jp/taka/setClipboard.swf";var tmp = document.createElement("div");tmp.innerHTML = '&lt;embed src="'+swf_data+'" FlashVars="code='+encodeURI(text)+'" width="0" height="0"&gt;&lt;/embed&gt;';with(tmp.style){position ="absolute";left = "-10px";top  = "-10px";visibility = "hidden";};document.body.appendChild(tmp);setTimeout(function(){document.body.removeChild(tmp)},1000);})(location.href.replace(/.*\u005c/([A-Z\u005cd]{10})\u005c/.*/,'http://www.amazon.co.jp/dp/$1'))</pre>\u000a</div>\u000a<p>Windows\u306e\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u306b\u6e21\u3059\u7248(\u30bf\u30a4\u30c8\u30eb\u3068URL):</p>\u000a<div class=highlight-python><pre>javascript:(function(text){var swf_data = "http://www.freia.jp/taka/setClipboard.swf";var tmp = document.createElement("div");tmp.innerHTML = '&lt;embed src="'+swf_data+'" FlashVars="code='+encodeURI(text)+'" width="0" height="0"&gt;&lt;/embed&gt;';with(tmp.style){position ="absolute";left = "-10px";top  = "-10px";visibility = "hidden";};document.body.appendChild(tmp);setTimeout(function(){document.body.removeChild(tmp)},1000);})(document.title.replace(/^\u005cs+(.*)\u005cs+$/,'$1')+"\u005cn"+location.href.replace(/.*\u005c/([A-Z\u005cd]{10})\u005c/.*/,'http://www.amazon.co.jp/dp/$1'))</pre>\u000a</div>\u000a<p>\u53c2\u8003\u306b\u3057\u305f\u30b5\u30a4\u30c8:</p>\u000a<ul class=simple>\u000a<li><a class="reference external" href=http://takeshi.vox.com/library/post/amazon%E3%81%AEurl.html>Amazon\u306eURL - Vox</a></li>\u000a</ul>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2007/12/01 Amazon\u306eURL\u30b3\u30d4\u30fc\u3059\u308bbookmarklet
+p12
+s.

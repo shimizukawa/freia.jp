@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd8\x01\x17\x00\x12\x04\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/518/index.html
+p7
+sS'description'
+p8
+V<div id=wz class=section>\u000a<h1>2008/01/23 WZ\u304b\u3089\u306e\u4e57\u308a\u63db\u3048\u3092\u8a66\u884c\u932f\u8aa4\u4e2d<a class=headerlink href=http://www.freia.jp/taka/blog/518/index.html#wz title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'WZ', 'IT-PC'</em></p>\u000a<p>\u3055\u3059\u304c\u306bWZ\u3092\u4f7f\u3044\u7d9a\u3051\u308b\u306e\u306f\u3001\u62e1\u5f35\u6027\u3068\u304b\u6539\u5584\u3068\u304b\u306e\u9762\u304b\u3089\u9650\u754c\u304b\u306a\u30fc\u3068\u601d\u3044\u3001\u4e3b\u74b0\u5883\u304cVista\u306b\u306a\u3063\u305f\u306e\u3092\u6a5f\u306b\u4e57\u308a\u63db\u3048\u5148\u3092\u8a66\u884c\u932f\u8aa4\u4e2d\u3002</p>\u000a<table frame=void class="docutils field-list" rules=none>\u000a<col class=field-name>\u000a<col class=field-body>\u000a<tbody valign=top>\u000a<tr class="field-odd field"><th class=field-name>\u30a8\u30c7\u30a3\u30bf:<td class=field-body>WZ Editor 5 -&gt; <a class="reference external" href=http://www.kaoriya.net/>gvim</a></td>\u000a</tr>\u000a<tr class="field-even field"><th class=field-name>\u30e1\u30fc\u30e9:<td class=field-body>WZ Mail 5 -&gt; gmail(\u500b\u4eba), <a class="reference external" href=http://www.mozilla-japan.org/products/thunderbird/>Thunderbird</a> (\u4f1a\u793e)</td>\u000a</tr>\u000a<tr class="field-odd field"><th class=field-name>\u30d5\u30a1\u30a4\u30e9:<td class=field-body>WZ Filer\u6d77\u8cca\u7248 -&gt; Explorer</td>\u000a</tr>\u000a<tr class="field-even field"><th class=field-name>Grep:<td class=field-body>WZ Grep -&gt; Explorer</td>\u000a</tr>\u000a<tr class="field-odd field"><th class=field-name>Clipboard\u5c65\u6b74:<td class=field-body>WZ Icon -&gt; <a class="reference external" href=http://www5f.biglobe.ne.jp/~t-susumu/>ToClip</a></td>\u000a</tr>\u000a</tbody>\u000a</table>\u000a<p>\u3053\u3046\u3084\u3063\u3066\u307f\u308b\u3068\u3001WZ\u306f\u7d71\u5408\u74b0\u5883\u3060\u3063\u305f\u3093\u3060\u306a\u3042\u3068\u601d\u3046\u3002Emacs\u307f\u305f\u3044\u3060\u3002</p>\u000a<p>\u79fb\u884c\u5148\u3092\u691c\u8a0e\u3057\u3066\u307f\u308b\u3068\u3001WZ\u306e(\u30a8\u30c7\u30a3\u30bf\u90e8\u5206\u4ee5\u5916\u306e\uff57)\u63db\u3048\u304c\u52d9\u307e\u308b\u30c4\u30fc\u30eb\u304c\u307b\u3068\u3093\u3069\u898b\u3042\u305f\u3089\u306a\u3044\u3002\u30a8\u30c7\u30a3\u30bf\u306f\u305d\u308c\u306a\u308a\u306b\u826f\u3044\u306e\u304c\u3042\u308b(gvim\u306f\u6c17\u306b\u5165\u3063\u3066\u3044\u308b)\u3051\u3069\u3001\u30e1\u30fc\u30e9\u3001\u30d5\u30a1\u30a4\u30e9\u306f\u63db\u3048\u304c\u5229\u304b\u306a\u3044\u6c17\u304c\u3059\u308b\u3002Grep\u306f\u3061\u3083\u3093\u3068\u63a2\u305b\u3070\u306a\u3093\u3068\u304b\u306a\u308b\u304b\u306a\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2008/01/23 WZ\u304b\u3089\u306e\u4e57\u308a\u63db\u3048\u3092\u8a66\u884c\u932f\u8aa4\u4e2d
+p12
+s.

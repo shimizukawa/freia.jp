@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd8\x07\x14\x16\n\x0f\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/603/index.html
+p7
+sS'description'
+p8
+V<div id=freebsd7-0 class=section>\u000a<h1>2008/07/20 \u30b5\u30fc\u30d0\u30fc\u3092 FreeBSD7.0 \u306b\u79fb\u8ee2\u4e2d<a class=headerlink href=http://www.freia.jp/taka/blog/603/index.html#freebsd7-0 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Unix'</em></p>\u000a<p>\u79fb\u8ee2\u5143\u3082\u79fb\u8ee2\u5148\u3082\u81ea\u5b85\u30b5\u30fc\u30d0\u30fc\u5185\u306a\u3093\u3060\u3051\u3069\u3001\u79fb\u8ee2\u5148\u306fML-115\u306eDebian\u3067\u52d5\u4f5c\u3057\u3066\u3044\u308bVMWare\u306e\u4e0a\u306eFreeBSD7.0\u3002\u3068\u308a\u3042\u3048\u305aWeb\u6a5f\u80fd\u3060\u3051\u3092\u79fb\u8ee2\u3057\u3066\u307f\u305f\u3002\u3068\u308a\u3042\u3048\u305aZope\u3060\u3051\u79fb\u8ee2\u3059\u308b\u3064\u3082\u308a\u3060\u3063\u305f\u3093\u3060\u3051\u3069\u3001\u8272\u3093\u306a\u30e9\u30a4\u30d6\u30e9\u30ea\u3084Product\u306b\u4f9d\u5b58\u3057\u3066\u3044\u3066\u3001\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u306b\u304b\u306a\u308a\u3066\u307e\u3069\u3063\u3066\u3057\u307e\u3063\u305f\u3002</p>\u000a<p>\u7279\u306b\u3001apache, subversion, openldap \u306e\u4f9d\u5b58\u95a2\u4fc2\u304c\u826f\u304f\u306a\u304f\u3066\u3001openldap-2.4\u3092\u5148\u306b\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u305f\u3089\u3001\u3042\u3068\u3067apache-2.2\u306eldap\u30b5\u30dd\u30fc\u30c8\u304copenldap-2.3\u306b\u4f9d\u5b58\u3057\u3066\u308b\u3053\u3068\u304c\u5206\u304b\u3063\u305f\u308a\u3002\u5fae\u5999\u306b\u3001\u306a\u3093\u3060\u304b\u306a\u30fc\u306a\u611f\u3058\u3060\u3063\u305f\u3002\u3042\u3068\u3001make.conf\u306bWITHOUT_X11=yes\u3092\u5165\u308c\u5fd8\u308c\u3066\u3066\u3001X\u304c\u30d3\u30eb\u30c9\u3055\u308c\u3061\u3083\u3063\u305f\u308a\u3068\u304b\u3002\u9014\u4e2d\u3067\u6b62\u3081\u305f\u3051\u3069\u3002</p>\u000a<p>1\u30f6\u6708\u524d\u304f\u3089\u3044\u306bFreeBSD\u4e0a\u3067zfs\u3092\u4f7f\u3046\u3064\u3082\u308a\u3067\u8272\u3005\u5b9f\u9a13\u3057\u3066\u305f\u3093\u3060\u3051\u3069\u3001\u4eee\u60f3\u74b0\u5883\u4e0a\u306bzfs\u69cb\u7bc9\u3057\u3066\u3082\u3042\u3093\u307e\u308a\u610f\u5473\u304c\u306a\u3044\u6c17\u304c\u3057\u3066\u304d\u305f\u306e\u3067\u3084\u3081\u3002\u4eca\u56de\u306f\u666e\u901a\u306bufs2\u3067\u9818\u57df\u78ba\u4fdd\u3057\u3066\u904b\u7528\u3002\u500b\u4eba\u74b0\u5883\u3067\u306f\u7d50\u5c40\u306e\u3068\u3053\u308dRAID1\u304c\u4e00\u756a\u826f\u3055\u305d\u3046\u306a\u6c17\u304c\u3059\u308b\u3002</p>\u000a<p>\u3068\u308a\u3042\u3048\u305a\u4eca\u306e\u6642\u70b9\u3067\u624b\u52d5\u3067\u5165\u308c\u305fports\u3092\u5217\u6319\u3057\u3066\u307f\u308b:</p>\u000a<div class=highlight-python><pre>apache-2.2.6_2\u000ajpeg-6b_4\u000aopenldap-sasl-client-2.3.41\u000aopenldap-sasl-server-2.3.41\u000apam_ldap-1.8.4\u000apamtester-0.1.2\u000aportupgrade-2.3.1,2\u000apy24-ldap2-2.3\u000apython-2.4,2\u000apython24-2.4.4_2\u000aruby-1.8.6.111_1,1\u000ascreen-4.0.3_1\u000asubversion-1.4.4_1\u000asubversion-python-1.4.4_1\u000asudo-1.6.9.6\u000avim-7.1.145\u000awget-1.10.2_1\u000azope29-2.9.7_1\u000azsh-4.3.4_2</pre>\u000a</div>\u000a<p>\u3042\u3068\u3001python\u30d1\u30c3\u30b1\u30fc\u30b8:</p>\u000a<div class=highlight-python><div class=highlight><pre><span class=n>PIL</span> <span class=p>(</span><span class=n>PythonImagingLibrary</span><span class=p>)</span>\u000a<span class=n>SilverCity</span>\u000a<span class=n>python</span><span class=o>-</span><span class=n>ldap</span>\u000a<span class=n>setuptools</span> <span class=p>(</span><span class=n>easy_install</span><span class=p>)</span>\u000a<span class=n>pysvn</span>\u000a</pre></div>\u000a</div>\u000a<p>\u304a\u307e\u3051\u3002/etc/make.conf:</p>\u000a<div class=highlight-python><pre># PORTS MASTER SITE\u000aMASTER_SORT_REGEX?=     ^file: ^ftp://ftp\u005c.FreeBSD\u005c.org/pub/FreeBSD/ports/local-\u000adistfiles/ ://[^/]*\u005c.jp/ ://[^/]*\u005c.jp\u005c.\u000a\u000a# Ports can place their working directories somewhere other than under\u000a# /usr/ports.\u000aWRKDIRPREFIX=   /var/tmp/ports\u000a\u000a# Where to get gzip'd, tarballed copies of original sources\u000a#\u000aDISTDIR=        /usr/ports/distfiles\u000a\u000a# FETCH_CMD     - Full path to ftp/http fetch command if not in $PATH\u000a#                       (default: &amp;quot;/usr/bin/fetch -A&amp;quot;).\u000aFETCH_CMD=      /usr/bin/fetch -A -p -r -T 30</pre>\u000a</div>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2008/07/20 \u30b5\u30fc\u30d0\u30fc\u3092 FreeBSD7.0 \u306b\u79fb\u8ee2\u4e2d
+p12
+s.

@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd4\n\x05\x07\x06\x0b\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/73/index.html
+p7
+sS'description'
+p8
+V<div id=id1 class=section>\u000a<h1>2004/10/05 \u52c9\u5f37\u4f1a\u304c\u91cd\u306a\u3063\u305f...<a class=headerlink href=http://www.freia.jp/taka/blog/73/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'misc', 'Event'</em></p>\u000a<p><a class="reference external" href=http://patterns-wg.fuka.info.waseda.ac.jp/study/>\u30d1\u30bf\u30fc\u30f3\u52c9\u5f37\u4f1a</a> \u3068 <a class="reference external" href=http://mm.tkikuchi.net/pipermail/zope-users/2004-October/004968.html>Plone\u7814\u7a76\u4f1a</a> \u306e\u65e5\u7a0b\u304c\u3074\u3063\u305f\u308a\u3068\u91cd\u306a\u3063\u3066\u3057\u307e\u3044\u307e\u3057\u305f\u3002\u3046\u3046\u3080\u2025\u2025\u3069\u3063\u3061\u306b\u51fa\u3088\u3046\uff1f</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2004/10/05 \u52c9\u5f37\u4f1a\u304c\u91cd\u306a\u3063\u305f...
+p12
+s.

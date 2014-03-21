@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd7\x03\r\x0c,\x08\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/415/index.html
+p7
+sS'description'
+p8
+V<div id=silvercity-0-9-7 class=section>\u000a<h1>2007/03/13 SilverCity-0.9.7<a class=headerlink href=http://www.freia.jp/taka/blog/415/index.html#silvercity-0-9-7 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'python'</em></p>\u000a<p>\u4ee5\u524d\u3001 <a class="reference external" href=http://www.freia.jp/taka/blog/310>SilverCity-0.9.6\u304c\u3046\u307e\u304f\u52d5\u304b\u306a\u3044</a> \u3068\u3044\u3046\u30a8\u30f3\u30c8\u30ea\u3092\u66f8\u3044\u305f\u304c\u3001 <a class="reference external" href="http://sourceforge.net/project/showfiles.php?group_id=45693">0.9.7</a> \u3067\u4fee\u6b63\u3055\u308c\u305f\u3088\u3046\u3060\u3002\u53bb\u5e74\u306e11\u6708\u306b <a class="reference external" href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1424436&amp;group_id=45693&amp;atid=443739">\u30d0\u30b0\u30ec\u30dd</a> \u306b\u5bfe\u3057\u3066\u300c\u76f4\u3057\u305f\u3088\u300d\u3068\u3044\u3046\u8fd4\u7b54\u304c\u3042\u3063\u305f\u306e\u3060\u304c\u3001\u5c4a\u3044\u305f\u30e1\u30fc\u30eb\u304c\u81ea\u5b85\u30e1\u30fc\u30eb\u30b5\u30fc\u30d0\u30fc\u306b\u57cb\u3082\u308c\u3066\u3057\u307e\u3063\u3066\u3044\u305f\u3002</p>\u000a<p>\u305d\u308c\u306f\u3055\u3066\u304a\u304d\u3001\u3055\u3063\u305d\u304f0.9.7\u3092\u53d6\u5f97\u3057\u3066\u4ee5\u524d\u3068\u540c\u3058\u30c6\u30b9\u30c8\u30b3\u30fc\u30c9\u3067\u52d5\u4f5c\u78ba\u8a8d\u3057\u3066\u307f\u308b\u3002</p>\u000a<div class=highlight-python><div class=highlight><pre><span class=gp>&gt;&gt;&gt; </span><span class=kn>from</span> <span class=nn>StringIO</span> <span class=kn>import</span> <span class=n>StringIO</span>\u000a<span class=gp>&gt;&gt;&gt; </span><span class=n>out</span> <span class=o>=</span> <span class=n>StringIO</span><span class=p>()</span>\u000a<span class=gp>&gt;&gt;&gt; </span><span class=kn>from</span> <span class=nn>SilverCity</span> <span class=kn>import</span> <span class=n>LanguageInfo</span>\u000a<span class=gp>&gt;&gt;&gt; </span><span class=n>pgen</span> <span class=o>=</span> <span class=n>LanguageInfo</span><span class=o>.</span><span class=n>find_generator_by_name</span><span class=p>(</span><span class=s>'python'</span><span class=p>)()</span>\u000a<span class=gp>&gt;&gt;&gt; </span><span class=n>pgen</span><span class=o>.</span><span class=n>generate_html</span><span class=p>(</span><span class=n>out</span><span class=p>,</span><span class=s>'import test'</span><span class=p>)</span>\u000a<span class=gp>&gt;&gt;&gt; </span><span class=n>out</span><span class=o>.</span><span class=n>getvalue</span><span class=p>()</span>\u000a<span class=go>'&lt;span class="p_word"&gt;import&lt;/span&gt;&lt;span class="p_default"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="p_identifier"&gt;test&lt;/span&gt;'</span>\u000a</pre></div>\u000a</div>\u000a<p>\u3046\u307e\u304f\u3044\u3063\u305f\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2007/03/13 SilverCity-0.9.7
+p12
+s.

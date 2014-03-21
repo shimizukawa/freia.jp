@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xdd\x02\n\x14\x00\x00\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+S'http://www.freia.jp/taka//blog/create-sphinx-develop-environment-with-vagrant-chef/index.html'
+p7
+sS'description'
+p8
+V<div class=section id=vagrant-chefsphinx>\u000a<h1>2013/02/10 Vagrant+Chef\u3067\u4f5c\u308bSphinx\u958b\u767a\u74b0\u5883<a class=headerlink href=http://www.freia.jp/taka//blog/create-sphinx-develop-environment-with-vagrant-chef/index.html#vagrant-chefsphinx title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>category: 'Vagrant', 'Shef', 'Python', 'Sphinx'</em></p>\u000a<p>step 1 \u8aad\u3080\u000a<a class="reference external" href=http://www.ryuzee.com/contents/blog/4292>http://www.ryuzee.com/contents/blog/4292</a></p>\u000a<p>step 2 VirtualBox\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u000a<a class="reference external" href=https://www.virtualbox.org/>https://www.virtualbox.org/</a> \u30674.1.23\u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb</p>\u000a<p>step 3 Vagrant\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u000a<a class="reference external" href=http://vagrantup.com/>http://vagrantup.com/</a> \u304b\u3089Vagrant-1.0.5.dmg\u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb</p>\u000a<p>step 4 \u63d0\u4f9b\u3055\u308c\u3066\u3044\u308bVagrant Box\u306e\u4e00\u89a7\u3092\u78ba\u8a8d\u000a<a class="reference external" href=http://www.vagrantbox.es/>http://www.vagrantbox.es/</a></p>\u000a<p>step 5 Ubuntu 12.04.1 \u3092Vagrant\u306b\u8ffd\u52a0\u000a$ vagrant box add ubuntu-12.04-x86_64 <a class="reference external" href=http://dl.dropbox.com/u/1537815/precise64.box>http://dl.dropbox.com/u/1537815/precise64.box</a></p>\u000a<p>step 6 Vagrant\u306e\u30a4\u30f3\u30b9\u30bf\u30f3\u30b9\u7f6e\u304d\u5834\u3092\u4f5c\u6210\u3057\u3066\u521d\u671f\u5316\u000a$ mkdir /path/to/vagrant_work/ubuntu1204\u000a$ cd /path/to/vagrant_work/ubuntu1204\u000a$ vagrant init ubuntu-12.04-x86_64</p>\u000a<p>step 7 VirtualBox\u30a4\u30f3\u30b9\u30bf\u30f3\u30b9\u3092\u8d77\u52d5\u000a$ vagrant up</p>\u000a<p>step8 MacOS X\u3067lucid32\u306e\u5834\u5408\u3001Network\u304c\u8d77\u52d5\u3057\u306a\u3044\u304b\u3082\u000a* \u8d77\u52d5\u3057\u305fOS\u306bvagrant / vagrant \u3067\u30ed\u30b0\u30a4\u30f3\u3059\u308b\u000a* vi /etc/network/interfaces</p>\u000a<blockquote>\u000a<div>#pre-up sleep 2</div></blockquote>\u000a<ul class=simple>\u000a<li>\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u306e\u81ea\u52d5\u8a2d\u5b9a\u3092\u884c\u3046\u3002\u000a$ sudo apt-get install sysv-rc-conf\u000a$ sysv-rc-conf networking on\u000a$ /etc/init.d/networking restart</li>\u000a<li>\u518d\u8d77\u52d5\u000a$ sudo vagrant reload</li>\u000a</ul>\u000a<p>step 8 \u6bcd\u8266\u304b\u3089ssh\u3067\u30ed\u30b0\u30a4\u30f3\u000a$ sudo vagrant ssh</p>\u000a<p>step 9 \u30b2\u30b9\u30c8OS\u3092\u7d42\u4e86\u000a$ sudo vagrant halt</p>\u000a<p>step 10 \u4eee\u60f3\u30db\u30b9\u30c8\u3092\u524a\u9664\u000asudo vagrant destroy</p>\u000a<p>step 11 Vagrantfile \u306bchef-solo\u3067\u30df\u30c9\u30eb\u30a6\u30a7\u30a2\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u000a$ vi Vagrantfile \u3067\u4ee5\u4e0b\u306e\u884c\u3092\u7de8\u96c6</p>\u000a<blockquote>\u000a<div><dl class=docutils>\u000a<dt>config.vm.provision :chef_solo do <a href=http://www.freia.jp/taka//blog/create-sphinx-develop-environment-with-vagrant-chef/index.html#id1><span class=problematic id=id2>|chef|</span></a></dt>\u000a<dd><p class=first>#chef.recipe_url = "<a class="reference external" href=http://files.vagrantup.com/getting_started/cookbooks.ta>http://files.vagrantup.com/getting_started/cookbooks.ta</a>&gt;\u000a#chef.add_recipe("vagrant_main")\u000achef.cookbooks_path = "cookbooks"\u000achef.add_recipe "ALMinium"\u000achef.json = {</p>\u000a<blockquote>\u000a<div><dl class=docutils>\u000a<dt>:mysql =&gt; {</dt>\u000a<dd>:"server_root_password" =&gt; "mysql",\u000a#:"server_repl_password" =&gt; "mysql",\u000a#:"server_debian_password" =&gt; "mysql"</dd>\u000a</dl>\u000a<p>},\u000a#:run_list =&gt; ["recipe[mysql::server]"]</p>\u000a</div></blockquote>\u000a<p class=last>}</p>\u000a</dd>\u000a</dl>\u000a<p>end</p>\u000a</div></blockquote>\u000a<p>step 12 vagrant\u306bsandbox\u6a5f\u80fd\u3092\u8ffd\u52a0\u3059\u308b\u000a$ vagrant gem  install sahara\u000a$ vagrant sandbox on         #sandbox\u30e2\u30fc\u30c9on\u000a$ vagrant sandbox commit   #on\u4ee5\u964d\u306e\u5909\u66f4\u3092\u78ba\u5b9a\u3059\u308b\u000a$ vagrant sandbox rollback  #on\u6642\u70b9\u306b\u623b\u3059\u000a$ vagrant sandbox off         #sandbox\u30e2\u30fc\u30c9off</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2013/02/10 Vagrant+Chef\u3067\u4f5c\u308bSphinx\u958b\u767a\u74b0\u5883
+p12
+s.

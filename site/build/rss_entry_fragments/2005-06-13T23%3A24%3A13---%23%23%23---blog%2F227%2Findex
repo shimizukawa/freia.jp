@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x06\r\x17\x18\r\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/227/index.html
+p7
+sS'description'
+p8
+V<div id=freia class=section>\u000a<h1>2005/06/13 \u4eca\u65e5\u306eFreia<a class=headerlink href=http://www.freia.jp/taka/blog/227/index.html#freia title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Unix'</em></p>\u000a<p>\u4eca\u65e5\u306f\u671d\u304b\u3089Freia\u69d8 <a id=id1 href=http://www.freia.jp/taka/blog/227/index.html#id2 class=footnote-reference>[1]</a> \u304c\u5fdc\u7b54\u3057\u3066\u304f\u308c\u306a\u3044\u72b6\u614b\u306b\u306a\u3063\u3066\u3044\u305f\u3088\u3046\u3067\u3059\u3002\u3068\u3044\u3046\u304bApache\u304c\u304a\u304b\u3057\u306a\u72b6\u614b\u306b\u306a\u3063\u3066\u3057\u307e\u3063\u3066\u3001Zope\u3078\u30ea\u30af\u30a8\u30b9\u30c8\u3092\u8ee2\u9001\u3057\u3066\u304f\u308c\u306a\u304f\u306a\u3063\u3066\u3057\u307e\u3063\u3066\u3044\u305f\u3088\u3046\u3067\u3059\u3002</p>\u000a<p>\u4f8b\u306b\u3088\u3063\u3066Zope\u306e(Product\u306e)\u554f\u984c\u304b\u3068\u601d\u3063\u305f\u3051\u3069\u3001\u307e\u3055\u304bApache\u3060\u3063\u305f\u3068\u306f...\u3002\u4f1a\u793e\u306e\u30b5\u30fc\u30d0\u30fc\u306b\u306f\u30be\u30f3\u30d3\u30d7\u30ed\u30bb\u30b9\u3092\u898b\u3064\u3051\u305f\u3089Apache\u3092\u518d\u8d77\u52d5\u3059\u308b\u30b9\u30af\u30ea\u30d7\u30c8\u3092\u4ed5\u8fbc\u3093\u3067\u3042\u308b\u3051\u3069\u3001\u81ea\u5b85\u306b\u3082\u5fc5\u8981\u306b\u306a\u3063\u305f\u306e\u304b\u306a...\u3002</p>\u000a<hr class=docutils>\u000a<table frame=void id=id2 rules=none class="docutils footnote">\u000a<col class=label><col></colgroup>\u000a<tbody valign=top>\u000a<tr><td class=label><a class=fn-backref href=http://www.freia.jp/taka/blog/227/index.html#id1>[1]</a><td><a class="reference external" href=http://www.freia.jp/>http://www.freia.jp/</a></tr>\u000a</tbody>\u000a</table>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/06/13 \u4eca\u65e5\u306eFreia
+p12
+s.

@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd4\x0c\n\x01\n\x13\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/87/index.html
+p7
+sS'description'
+p8
+V<div id=pythonce-for-pocketpc class=section>\u000a<h1>2004/12/10 PythonCE for PocketPC<a class=headerlink href=http://www.freia.jp/taka/blog/87/index.html#pythonce-for-pocketpc title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'python', 'misc'</em></p>\u000a<p>\u5e30\u308a\u306e\u96fb\u8eca\u306e\u4e2d\u3067\u3001PocketPC\u306b\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u305fPython\u3092\u3044\u3058\u3063\u3066\u3044\u3066\u906d\u9047\u3057\u305f\u30cd\u30bf\u3002</p>\u000a<p>Pytnon\u306e\u30b3\u30f3\u30bd\u30fc\u30eb\u3092\u7d42\u4e86\u3057\u3088\u3046\u3068\u3057\u3066:</p>\u000a<div class=highlight-python><div class=highlight><pre><span class=gp>&gt;&gt;&gt; </span><span class=nb>exit</span>\u000a<span class=go>'Use Ctrl-Z plus Return to exit.'</span>\u000a</pre></div>\u000a</div>\u000a<p>\u3042\u3042\u3001\u305d\u3046\u304b\u3002Ctrl-Z\u3060\u3063\u305f\u3063\u3051\u3002\u305d\u3046\u8a00\u3048\u3070exit()\u3068\u304bquit()\u3063\u3066\u3044\u3046\u95a2\u6570\u306f\u306a\u3044\u306e\u304b\u306a\uff1f:</p>\u000a<div class=highlight-python><div class=highlight><pre><span class=gp>&gt;&gt;&gt; </span><span class=nb>exit</span><span class=p>()</span>\u000a<span class=gt>Traceback (most recent call last):</span>\u000a  File <span class=nb>"&lt;stdin&gt;"</span>, line <span class=m>1</span>, in <span class=n>?</span>\u000a<span class=gr>TypeError</span>: <span class=n>'str' object is not callable</span>\u000a</pre></div>\u000a</div>\u000a<p>\u3093\uff1fstr\u30aa\u30d6\u30b8\u30a7\u30af\u30c8\u306f\u95a2\u6570\u547c\u3073\u51fa\u3057\u51fa\u6765\u307e\u305b\u3093\uff1f\u2025\u2025\u2025\u2025\u3042\u30fc\u30fc\u30fc\uff01\u3064\u307e\u308a\u3001exit\u3063\u3066\u3044\u3046\u306e\u306fstr\u578b\u306e\u5909\u6570\u306a\u3093\u3060\uff01\u304d\u3063\u3068\u30b7\u30b9\u30c6\u30e0\u8d77\u52d5\u6642\u306b exit = 'Use Ctrl-Z plus Return to exit.' \u3063\u3066\u3084\u3063\u3066\u308b\u3093\u3060\uff01</p>\u000a<p>\u3044\u3084\u3001\u305d\u3093\u3060\u3051\u3067\u3059\u3002\u3044\u307e\u3055\u3089\u3067\u3059\u304b\u306d\uff1f</p>\u000a<p>\u3061\u306a\u307f\u306b sys.exit() \u306f\u3042\u308a\u307e\u3057\u305f\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2004/12/10 PythonCE for PocketPC
+p12
+s.

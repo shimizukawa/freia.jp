@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd7\x0c\x0f\x0f-5\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/499/index.html
+p7
+sS'description'
+p8
+V<div id=ldap class=section>\u000a<h1>2007/12/15 \u4ee5\u524d\u66f8\u3044\u305fLDAP\u95a2\u9023\u306e\u30e1\u30e2\u306a\u3069<a class=headerlink href=http://www.freia.jp/taka/blog/499/index.html#ldap title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'ldap'</em></p>\u000a<p>\u4ee5\u524d\u66f8\u3044\u305fLDAP\u95a2\u9023\u306e\u30e1\u30e2\u306a\u3069\u3092\u96c6\u3081\u305f\u307a\u30fc\u30b8\u3092\u4f5c\u3063\u3066\u307f\u307e\u3057\u305f\u3002Plone\u306f\u3053\u3046\u3044\u3046\u30a2\u30b0\u30ea\u30b2\u30fc\u30b7\u30e7\u30f3\u304c\u624b\u8efd\u306b\u51fa\u6765\u308b\u306e\u3067\u4fbf\u5229\u3002</p>\u000a<p><a class="reference external" href=http://www.freia.jp/taka/memo/ldap/>http://www.freia.jp/taka/memo/ldap/</a></p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2007/12/15 \u4ee5\u524d\u66f8\u3044\u305fLDAP\u95a2\u9023\u306e\u30e1\u30e2\u306a\u3069
+p12
+s.

@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd8\x0c\x1f\x17\t\x06\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/611/index.html
+p7
+sS'description'
+p8
+V<div id=id1 class=section>\u000a<h1>2008/12/31 2008\u5e74\u306e\u5e74\u8d8a\u3057\u30bd\u30d0<a class=headerlink href=http://www.freia.jp/taka/blog/611/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'misc', 'food'</em></p>\u000a<p>\u81ea\u5bb6\u88fd\u30c4\u30e6\u304c\u3046\u307e\u3044\u3002\u304a\u3063\u304b\u3042\u3001\u6709\u96e3\u3046\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2008/12/31 2008\u5e74\u306e\u5e74\u8d8a\u3057\u30bd\u30d0
+p12
+s.

@@ -3,7 +3,8 @@
 .*.swp
 .*.orig
 .*/bin$
-.*/build$
+.*/build/doctrees$
+.*/build/html$
 .*/develop-eggs$
 .*/dist/.*$
 .*/eggs/.*$

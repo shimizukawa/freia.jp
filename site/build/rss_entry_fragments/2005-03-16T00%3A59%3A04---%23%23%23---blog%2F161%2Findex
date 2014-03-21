@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x03\x10\x00;\x04\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/161/index.html
+p7
+sS'description'
+p8
+V<div id=freebsdenhanced-speedstep class=section>\u000a<h1>2005/03/16 FreeBSD\u3067Enhanced SpeedStep<a class=headerlink href=http://www.freia.jp/taka/blog/161/index.html#freebsdenhanced-speedstep title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Unix'</em></p>\u000a<p>PentiumM730\u306e\u52d5\u7684\u306a\u30af\u30ed\u30c3\u30af\u5909\u66f4\u306b\u6210\u529f\u3002</p>\u000a<p><a class="reference external" href=http://home.jp.freebsd.org/cgi-bin/showmail/FreeBSD-users-jp/83454>http://home.jp.freebsd.org/cgi-bin/showmail/FreeBSD-users-jp/83454</a></p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/03/16 FreeBSD\u3067Enhanced SpeedStep
+p12
+s.

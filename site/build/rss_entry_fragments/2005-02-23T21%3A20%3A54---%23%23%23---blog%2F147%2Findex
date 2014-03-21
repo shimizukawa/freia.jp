@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x02\x17\x15\x146\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/147/index.html
+p7
+sS'description'
+p8
+V<div id=coreblogportlet-recent-blogentries class=section>\u000a<h1>2005/02/23 COREblog\u306e\u30a8\u30f3\u30c8\u30ea\u3092\u8868\u793a\u3059\u308bportlet_recent_blogentries<a class=headerlink href=http://www.freia.jp/taka/blog/147/index.html#coreblogportlet-recent-blogentries title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Zope', 'Programming'</em></p>\u000a<p><a class="reference external" href=http://www.freia.jp/taka/blog/144>portlet_recent_images</a> \u306e\u6b21\u306b <a class="reference external" href=http://coreblog.org/>COREblog</a> \u306e\u6700\u8fd1\u8ffd\u52a0\u3055\u308c\u305f\u30a8\u30f3\u30c8\u30ea\u8868\u793a\u3092Plone\u306e\u30b9\u30ed\u30c3\u30c8\u884c\u3046\u3001portlet_recent_blogentries\u3092\u4f5c\u3063\u3066\u307f\u305f\u3002 <a class="reference external" href=http://www.freia.jp/taka>http://www.freia.jp/taka</a> \u306e\u30da\u30fc\u30b8\u3067\u5de6\u306e\u67f1\u306b\u8868\u793a\u3055\u308c\u3066\u3044\u308b\u3068\u601d\u3046\u3002</p>\u000a<p>\u4f5c\u308a\u65b9\u306f <a class="reference external" href=http://www.freia.jp/taka/wiki/X_e6_9c_80_e8_bf_91_e3_81_aeCOREblogSlot>Wiki</a> \u306b\u8a18\u8f09\u3002\u30d5\u30a1\u30a4\u30eb\u3082\u304a\u3044\u305f\u65b9\u304c\u826f\u3044\u304b\u306a\u2025\u2025\uff1f</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/02/23 COREblog\u306e\u30a8\u30f3\u30c8\u30ea\u3092\u8868\u793a\u3059\u308bportlet_recent_blogentries
+p12
+s.

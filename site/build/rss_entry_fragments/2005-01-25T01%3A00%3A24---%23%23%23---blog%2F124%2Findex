@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x01\x19\x01\x00\x18\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/124/index.html
+p7
+sS'description'
+p8
+V<div id=pythondll class=section>\u000a<h1>2005/01/25 Python\u3092\u5229\u7528\u3059\u308bDLL\u306e\u30c7\u30d0\u30c3\u30b0<a class=headerlink href=http://www.freia.jp/taka/blog/124/index.html#pythondll title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'python', 'Programming'</em></p>\u000a<p>\u30c7\u30d0\u30c3\u30b0\u7248Python32_d.lib\u306f\u6a19\u6e96\u306e\u30d1\u30c3\u30b1\u30fc\u30b8 <a class="reference internal" href=http://www.freia.jp/taka/blog/124/index.html#id2>1</a> \u306b\u306f\u540c\u68b1\u3055\u308c\u3066\u3044\u306a\u3044\u3002\u305d\u3057\u3066python.h\u3092include\u3059\u308b\u3068\u5185\u90e8\u7684\u306b\u4ee5\u4e0b\u306e\u3088\u3046\u306b\u304b\u304b\u308c\u3066\u3044\u308b\u306e\u3067\u3001Debug\u3060\u3068python23_d.lib\u3092\u81ea\u52d5\u7684\u306b\u30ea\u30f3\u30af\u3057\u3088\u3046\u3068\u3057\u3066\u5931\u6557\u3057\u3066\u3057\u307e\u3046\u3002:</p>\u000a<div class=highlight-python><div class=highlight><pre><span class=c>#ifdef _DEBUG</span>\u000a    <span class=c>#pragma comment(lib,"python23_d.lib")</span>\u000a<span class=c>#else</span>\u000a    <span class=c>#pragma comment(lib,"python23.lib")</span>\u000a<span class=c>#endif /* _DEBUG */</span>\u000a</pre></div>\u000a</div>\u000a<p>\u306a\u306e\u3067\u3001Python\u3092\u4f7f\u3046C++\u30a2\u30d7\u30ea\u3092VS.NET\u3067\u4f5c\u3063\u3066\u3082Release\u3067\u3057\u304b\u30b3\u30f3\u30d1\u30a4\u30eb\u3067\u304d\u306a\u3044\u306e\u3067\u30c7\u30d0\u30c3\u30b0\u304c\u5927\u5909\u3002\u3068\u3044\u3046\u304bDebug\u7248\u7121\u3057\u306b\u958b\u767a\u3059\u308b\u306e\u306fIDE\u306b\u6163\u308c\u3066\u3057\u307e\u3063\u305f\u8eab\u3068\u3057\u3066\u306f\u82e6\u75db\u3002\u3044\u3084\u3001\u82e6\u75db\u3068\u304b\u8a00\u3063\u3066\u306a\u3044\u3067UnitTest\u3059\u308c\u3070\u3044\u3044\u3093\u3060\u3051\u3069\u3002</p>\u000a<p>\u3069\u3063\u304b\u306b\u30b3\u30f3\u30d1\u30a4\u30eb\u6e08\u307f\u306epython23_d.lib\u304c\u3042\u308b\u3060\u308d\uff01\u3068\u601d\u3063\u3066\u8abf\u3079\u3066\u307f\u305f\u3089\u3001 <a class="reference external" href=http://mail.python.org/pipermail/python-list/2004-June/226167.html>\u3082\u3063\u3068\u7c21\u5358\u306a\u65b9\u6cd5</a> \u304c:</p>\u000a<div class=highlight-python><pre>So if you want you should be able to change your source to something\u000alike this:\u000a\u000a#undef _DEBUG\u000a#include &lt;python.h&gt;\u000a#define _DEBUG</pre>\u000a</div>\u000a<p>\u3042\u30fc\u3001\u306a\u308b\u307b\u3069\u30fc\u3002</p>\u000a<table frame=void id=id2 rules=none class="docutils footnote">\u000a<col class=label><col></colgroup>\u000a<tbody valign=top>\u000a<tr><td class=label>[1]<td>Python 2.3.4 \u65e5\u672c\u8a9e\u74b0\u5883\u7528\u30a4\u30f3\u30b9\u30c8\u30fc\u30e9(Win32)\u3092\u4f7f\u3063\u3066\u307e\u3059\u3002 <a class="reference external" href=http://www.python.jp/Zope/download/pythonjpdist>http://www.python.jp/Zope/download/pythonjpdist</a></tr>\u000a</tbody>\u000a</table>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/01/25 Python\u3092\u5229\u7528\u3059\u308bDLL\u306e\u30c7\u30d0\u30c3\u30b0
+p12
+s.

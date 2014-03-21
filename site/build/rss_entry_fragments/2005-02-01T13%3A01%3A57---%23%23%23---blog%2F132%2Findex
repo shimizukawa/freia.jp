@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x02\x01\r\x019\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/132/index.html
+p7
+sS'description'
+p8
+V<div id=id1 class=section>\u000a<h1>2005/02/01 \u3059\u3057\u30e1\u30e2\u30ea<a class=headerlink href=http://www.freia.jp/taka/blog/132/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'misc'</em></p>\u000a<p><a class="reference external" href="http://sa-store.com/shop.php?category_id=25&amp;item01_id=37">SushiDisk\uff08\u3059\u3057\u578b\uff35\uff33\uff22\u30e1\u30e2\u30ea\uff09</a> \u4e00\u4eba\u524d\u6b32\u3057\u3044\u3002\u8cb7\u3046\u6c17\u306b\u306a\u3089\u306a\u3044\u5024\u6bb5\u3060\u3051\u3069\u3002 \u3072\u3068\u3064\u304f\u3089\u3044\u306a\u3089\u2026\u2026</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/02/01 \u3059\u3057\u30e1\u30e2\u30ea
+p12
+s.

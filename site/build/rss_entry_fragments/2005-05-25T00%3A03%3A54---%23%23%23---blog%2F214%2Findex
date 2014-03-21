@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xd5\x05\x19\x00\x036\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/214/index.html
+p7
+sS'description'
+p8
+V<div id=coreblogportlet class=section>\u000a<h1>2005/05/25 COREBlog\u30da\u30fc\u30b8\u3060\u3051portlet\u3092\u5207\u308a\u66ff\u3048\u308b<a class=headerlink href=http://www.freia.jp/taka/blog/214/index.html#coreblogportlet title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af>¶</a></h1>\u000a<p><em>Category: 'Plone', 'python'</em></p>\u000a<p>COREBlog(plonified)\u306e\u30da\u30fc\u30b8\u304c\u8868\u793a\u3055\u308c\u305f\u5834\u5408\u306b\u3001\u5de6slot\u306eportlet\u3092\u4e00\u90e8\u5909\u66f4\u3059\u308b\u3088\u3046\u306b\u3057\u3066\u307f\u307e\u3057\u305f\u3002</p>\u000a<p>\u7c21\u5358\u306b\u3084\u308b\u305f\u3081\u306b\u306f\u3001COREBlog\u30d5\u30a9\u30eb\u30c0\u306e\u30d7\u30ed\u30d1\u30c6\u30a3\u30fc\u306bleft_slots\u3068\u3044\u3046\u540d\u524d\u306elines\u578b\u306e\u30d5\u30a3\u30fc\u30eb\u30c9\u3092\u7528\u610f\u3057\u3066\u3001\u8868\u793a\u3057\u305f\u3044portlet\u30de\u30af\u30ed\u3092\u7f85\u5217\u3059\u308c\u3070\u826f\u3044\u306e\u3067\u3059\u304c\u3001\u305d\u308c\u3060\u3068\u89aa\u30d5\u30a9\u30eb\u30c0\u3067\u8a2d\u5b9a\u3057\u305f\u3082\u306e\u3068\u5225\u3067\u7ba1\u7406\u3057\u306a\u3044\u3068\u3044\u3051\u306a\u3044\u306e\u3067\u3001\u4eca\u56de\u306fleft_slots\u3068\u3044\u3046\u540d\u524d\u306eScript(Python)\u3092\u7f6e\u3044\u3066\u4ee3\u7528\u3057\u3066\u3044\u307e\u3059\u3002</p>\u000a<div class=highlight-python><div class=highlight><pre><span class=n>path</span> <span class=o>=</span> <span class=n>container</span><span class=o>.</span><span class=n>getPhysicalPath</span><span class=p>()</span>\u000a<span class=n>path</span> <span class=o>=</span> <span class=s>'/'</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>path</span><span class=p>[:</span><span class=o>-</span><span class=mi>1</span><span class=p>])</span>\u000a<span class=n>parent</span> <span class=o>=</span> <span class=n>container</span><span class=o>.</span><span class=n>restrictedTraverse</span><span class=p>(</span><span class=n>path</span><span class=p>)</span>\u000a<span class=n>slots</span> <span class=o>=</span> <span class=n>parent</span><span class=o>.</span><span class=n>left_slots</span>\u000a<span class=n>slots</span> <span class=o>=</span> <span class=p>[</span><span class=n>x</span> <span class=k>for</span> <span class=n>x</span> <span class=ow>in</span> <span class=n>slots</span> <span class=k>if</span> <span class=s>'blog'</span> <span class=ow>not</span> <span class=ow>in</span> <span class=n>x</span><span class=p>]</span>\u000a<span class=n>slots</span><span class=p>[:</span><span class=mi>0</span><span class=p>]</span> <span class=o>=</span> <span class=p>[</span><span class=s>'here/portlets/archives/macros/portlet'</span><span class=p>,</span>\u000a             <span class=s>'here/portlets/categories/macros/portlet'</span><span class=p>,</span>\u000a            <span class=p>]</span>\u000a\u000a<span class=k>return</span> <span class=n>slots</span>\u000a</pre></div>\u000a</div>\u000a<p>\u4e0a\u8a18\u306e\u30de\u30af\u30ed\u306f\u81ea\u5206\u3088\u308a\u4e0a\u4f4d\u30d1\u30b9\u304b\u3089 <tt class="docutils literal"><span class=pre>`left_slots`</span></tt> \u3092\u53d6\u5f97\u3057\u3066 <tt class="docutils literal"><span class=pre>`blog`</span></tt> \u3068\u3044\u3046\u6587\u5b57\u3092\u542b\u3080portlet\u3092\u9664\u5916\u3057\u3066\u304b\u3089\u3001 <tt class="docutils literal"><span class=pre>`archives`</span></tt> \u3068 <tt class="docutils literal"><span class=pre>`categories`</span></tt> \u306eportlet\u3092\u8ffd\u52a0\u3057\u3066\u3044\u307e\u3059\u3002 ( <em>parent\u3092\u4e00\u767a\u3067\u624b\u306b\u5165\u308c\u308b\u30b3\u30fc\u30c9\u3068\u304b\u3042\u308a\u305d\u3046\u306a\u6c17\u304c\u3059\u308b\u3051\u3069...</em> )</p>\u000a<p>\u3046\u30fc\u3093\u3001\u898b\u3066\u3044\u308b\u30da\u30fc\u30b8\u306b\u3088\u3063\u3066portlet\u304c\u5909\u308f\u3063\u3066\u3057\u307e\u3046\u306e\u306f\u3069\u3046\u306a\u3093\u3060\u308d\u3046\uff1f\u9055\u548c\u611f\u3042\u308a\u307e\u3059\u304c\u3001\u3068\u308a\u3042\u3048\u305a\u3053\u308c\u3067\u3057\u3070\u3089\u304f\u69d8\u5b50\u3092\u898b\u3066\u307f\u307e\u3059\u3002</p>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2005/05/25 COREBlog\u30da\u30fc\u30b8\u3060\u3051portlet\u3092\u5207\u308a\u66ff\u3048\u308b
+p12
+s.
