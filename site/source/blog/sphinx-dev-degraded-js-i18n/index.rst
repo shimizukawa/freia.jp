@@ -46,6 +46,28 @@ Sphinxをインストールしただけではbabelはインストールされな
 
 sphinx.jsファイルはbitbucketにもコミットしてありますが、ファイルの履歴を追って問題の差分を見つけても、それがどのバージョンに含まれているのかを知るのが面倒だったので、PyPIからダウンロードして調べましたが、こういうのを調べるなにか良い方法ないですかね？
 
+.. note::
+
+   2014/3/22 追記:
+   FUJIWARAさんからTwitterで教えてもらいました。ありがとうございます！
+
+   `@flyingfoozy 22:17 - 2014年3月21日 <https://twitter.com/flyingfoozy/status/446999001724764160>`__
+
+      @shimizukawa #mercurialjp 対象リビジョン特定(bisect等)後の話なら hg log -r "min(REV:: and tag())" （リリース対象＝タグ付きリビジョンと仮定）ですね > 「それがどのバージョンに含まれているのかを知る」
+
+   なるほど？sphinx.jsのファイルサイズが激減した最初のコミットが ``080d33f``
+   なので、そのリビジョンで実行してみます::
+
+      $ hg log -r "min(080d33f:: and tag())"
+      changeset:   3503:0a63129ab59b
+      tag:         1.1
+      user:        Georg Brandl <georg@python.org>
+      date:        Sun Oct 09 23:25:40 2011 +0200
+      summary:     Pre-release updates.
+
+   おー、1.1だ！すごい！むずかしい！ｗ FUJIWARAさんありがとう！
+
+
 Sphinx-1.1 から検索機能の多言語化が行われていたりして、その過程で、それまで.jsファイルだけを翻訳メッセージの抽出対象にしていればよかったのが、 ``.js_t`` ファイルや ``.html`` ファイルにも多言語化されたJavaScriptが含まれるようになり、それを `compile_catalog` で抽出対象にしわすれていたのが原因のようです。
 
 
