@@ -1,0 +1,13 @@
+Welcome to issue1444's documentation!
+=====================================
+
+.. module:: foo
+
+.. autoclass:: A
+   :members:
+
+
+   .. autosummary::
+
+      abc
+      upper_name
