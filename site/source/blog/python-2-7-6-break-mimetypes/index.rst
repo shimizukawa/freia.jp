@@ -50,3 +50,11 @@ setuptools-0.8以降、インストール処理中にmimetypes.init() を呼ぶ�
 
 具体的にどんなソフトがHKEY_CLASSES_ROOTに日本語のキーを作るのか興味があります。
 将来的にPython-2.7.6利用者は増えるでしょうから、日本語キーを作るソフトの普及率が高ければ、その分このバグの影響を受ける率が高くなりそうです。
+
+.. note::
+
+   2014/5/5追記
+
+   Python本家のバグチケット( http://bugs.python.org/issue9291 )がクローズされたようです。
+   http://hg.python.org/cpython/rev/18cfc2a42772 にある差分（か http://hg.python.org/cpython/raw-file/18cfc2a42772/Lib/mimetypes.py のファイル) をPython-2.7.6に適用したところ、問題が再現しなくなりました。
+
