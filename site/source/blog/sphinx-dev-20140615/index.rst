@@ -135,7 +135,7 @@ https://bitbucket.org/birkenfeld/sphinx/commits/679955b96d
 Sphinxのautodoのための複雑なコードを簡略化
 ===========================================
 
-Pull Request #246: `remove complex distinguishing method/classmethod/staticmethod approach for autodoc`
+Pull Request #246: `remove complex distinguishing method/classmethod/staticmethod approach for autodoc`__
 
 .. __: https://bitbucket.org/birkenfeld/sphinx/pull-request/246/remove-complex-distinguishing-method/diff
 
