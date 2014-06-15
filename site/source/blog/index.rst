@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinx-dev-20140615/index
    sphinx-dev-remove-2to3/index
    docker-python-image-py34/index
    sphinx-dev-autosummary-doesnt-respect-attribute-comment/index
