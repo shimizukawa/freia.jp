@@ -8,12 +8,17 @@
 
 *Category: 'Python', 'PyCon'*
 
+.. figure:: pycon2014-logo.png
+   :target: https://pycon.jp/2014/
 
-PyCon JP 2014 の演題募集を行っています！ふるってご応募ください！
-https://pycon.jp/2014/speaking/cfp/
+   PyCon JP 2014 の演題募集を行っています！ふるってご応募ください！
+   https://pycon.jp/2014/speaking/cfp/
 
 
 ところで、去年まで自分がどんな演題を応募していたか、採用になったもの以外はあまり覚えてないので、出した内容をblogにメモっておきます。自分でも忘れてしまうので。とりあえず2012年のやつ。
+
+.. figure:: pyconjp2012_logo.png
+   :target: http://2012.pycon.jp
 
 BIO
 
@@ -77,6 +82,7 @@ Python入門者のコードをリファクタリングしてみた
   :virtualenv: Pythonのユーザーランド仮想環境作成ツール
 
   **未来の予定**
+
   :packaging: Python-3.3からの標準
   :Distutils2: packagingと同じものでPython2.4-3.2で使えるようにしたもの
   :pip?: packaging上で動くようになる？
