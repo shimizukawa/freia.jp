@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pyconjp2013-proposals/index
    pyconjp2012-proposals/index
    sphinx-dev-20140615/index
    sphinx-dev-remove-2to3/index
