@@ -1,0 +1,8 @@
+Welcome to issue1441's documentation!
+=====================================
+
+.. autosummary::
+   :toctree: generated/
+
+   foo
+
