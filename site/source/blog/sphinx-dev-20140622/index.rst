@@ -8,7 +8,7 @@
 
 *Category: 'Python', 'Sphinx'*
 
-前置き: チケット対応した内容のメモです。Sphinxと関係ないけどdiff-highlighter便利でした。
+前置き: チケット対応した内容のメモです。Sphinxと関係ないけどdiff-highlight便利でした。
 
 .. contents::
    :local:
@@ -103,7 +103,7 @@ Pull request #251: `Spelling, grammar, and formatting fixes for docs`__
 
 31ファイルの多数のスペルミスや文法ミス、80文字目までかいていた部分の79文字での改行への修正をPRいただきました。このPRの差分に、smartypantsに言及している部分に http://daringfireball.net/projects/smartypants/ へのリンクが追加されていたのですが、smartypantsの出自がLaTeX界隈だと思っていたけど、違うようだ、ということが分かりました。
 
-ところで、このPRは文章の改行位置の変更と単語のスペルミス修正が行われているため、bitbucketのWeb上で差分を確認するのが大変でした。そこで、 `tk0miya作のdiff-highlighter`__ をhgコマンドに組み込んで確認したらかなり楽でした。 @tk0miya さん、いつも役立つツールを作ってくれてありがとう！
+ところで、このPRは文章の改行位置の変更と単語のスペルミス修正が行われているため、bitbucketのWeb上で差分を確認するのが大変でした。そこで、 `tk0miya作のdiff-highlight`__ をhgコマンドに組み込んで確認したらかなり楽でした。 @tk0miya さん、いつも役立つツールを作ってくれてありがとう！
 
 .. __: http://tk0miya.hatenablog.com/entry/2013/12/22/155358
 
