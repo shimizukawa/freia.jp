@@ -34,3 +34,8 @@ div.footer {background-color: #11303D;}
 tt {
 	font-size: 1em;
 }
+
+.admonition.tip {
+	background-color: lightcyan;
+	border: 2px solid lightblue;
+}
