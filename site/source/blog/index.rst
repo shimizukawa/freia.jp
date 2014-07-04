@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   slack-faq-restricted-accounts-and-single-channel-guest/index
    sphinx-dev-20140622/index
    sphinx-dev-20140621/index
    pyconjp2013-proposals/index
