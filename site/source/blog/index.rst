@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinx-dev-20140705/index
    slack-faq-payment/index
    slack-faq-restricted-accounts-and-single-channel-guest/index
    sphinx-dev-20140622/index
