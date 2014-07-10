@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pep426-environment-markers/index
    sphinx-dev-20140705/index
    slack-faq-payment/index
    slack-faq-restricted-accounts-and-single-channel-guest/index
