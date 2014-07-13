@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinx-dev-20140713/index
    pep426-environment-markers/index
    sphinx-dev-20140705/index
    slack-faq-payment/index
