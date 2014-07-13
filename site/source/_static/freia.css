@@ -14,17 +14,17 @@ div.footer {background-color: #11303D;}
 	line-height: 1.5em;
 }
 
-div.section > * {
+#left div.section > * {
 	margin-left: 2em;
 }
 
-div.section > h1,
-div.section > h2,
-div.section > h3,
-div.section > h4,
-div.section > h5,
-div.section > h6,
-div.section > div.section {
+#left div.section > h1,
+#left div.section > h2,
+#left div.section > h3,
+#left div.section > h4,
+#left div.section > h5,
+#left div.section > h6,
+#left div.section > div.section {
 	margin-left: 0;
 }
 
