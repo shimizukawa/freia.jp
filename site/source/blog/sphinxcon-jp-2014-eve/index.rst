@@ -35,7 +35,7 @@ SphinxCon JP 2014 を明日開催します！
 
 また、一日中ハッカソンを並行で行うので、まわりの人と色々話しながらSphinxしましょう。イベント終盤には会場のVOYAGE GROUPさんからの提供で、 **ビアバッシュしながらのLT大会** も実施します。LTは当日募集します。
 
-ここ数日でキャンセル待ちだった参加者も全員参加できる状態になりました。もうちょっと減るのかな？興味のある方はキャンセル待ち登録してみてください。
+ここ数日でキャンセル待ちだった参加者も全員参加できる状態になりました。もうちょっと減るのかな？興味のある方はキャンセル待ち登録してみてください。(※追記: 10/25 13:30現在、 **残席3** です)
 
 `SphinxCon JP 2014 参加登録`_
 
@@ -55,7 +55,7 @@ SphinxCon JP 2014 を明日開催します！
 原価900円前後。1000円で売って差額は Sphinx-users.jp に寄付します。
 
 
-.. _SphinxCon JP 2014 参加登録: https://pycon.jp/2014/speaking/cfp/#id6
+.. _SphinxCon JP 2014 参加登録: http://sphinxjp.connpass.com/event/8448/
 .. _SphinxCon JP 2014 タイムテーブル: http://sphinx-users.jp/event/20141026_sphinxconjp/index.html#id4
 .. _Sphinx-1.3b1: https://pypi.python.org/pypi/Sphinx/1.3b1
 
