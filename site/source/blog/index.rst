@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxcon-jp-2014/index
    sphinxcon-jp-2014-eve/index
    pyconjp2014-pycharm-and-other-rejected-proposals/index
    sphinx-dev-20140713/index
