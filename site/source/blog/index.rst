@@ -6,6 +6,15 @@
 
 .. .. latest::
 
+2015年
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   2015-kakizome/index
+
+
 2014年
 ------
 
