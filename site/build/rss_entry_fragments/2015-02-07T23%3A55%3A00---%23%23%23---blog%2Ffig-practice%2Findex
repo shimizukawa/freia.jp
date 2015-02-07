@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xdf\x02\x07\x177\x00\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/fig-practice/index.html
+p7
+sS'description'
+p8
+V<div id=python-mini-hack-a-thon-docker-fig class=section>\u000a<h1>2015/02/07 Python mini hack-a-thon \u96ea\u5c71\u5408\u5bbf / Docker + fig<a href=http://www.freia.jp/taka/blog/fig-practice/index.html#python-mini-hack-a-thon-docker-fig title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af class=headerlink>¶</a></h1>\u000a<p><em>Category: 'Docker', 'fig'</em></p>\u000a<p>\u5148\u65e5\u30011/30(\u91d1)\u304b\u30892/1(\u65e5)\u306b\u304b\u3051\u3066\u3001 <a href=http://pyhack.connpass.com/event/9425/ class="reference external">Python mini hack-a-thon \u96ea\u5c71\u5408\u5bbf 2015</a> \u958b\u767a\u5408\u5bbf\u306b\u884c\u3063\u3066\u304d\u307e\u3057\u305f\u3002\u305d\u3053\u3067\u3001Docker/fig\u3092\u4f7f\u3063\u3066\u958b\u767a\u74b0\u5883\u306e\u4f5c\u6210\u3092\u3046\u307e\u304f\u3084\u308b\u65b9\u6cd5\u304c\u306a\u3044\u304b\u306a\u3001\u3068fig\u3092\u3044\u3058\u3063\u3066\u307e\u3057\u305f\u3002</p>\u000a<p>\u5408\u5bbf\u306e\u6700\u7d42\u65e5\u3001\u7d42\u4e86\u9593\u969b\u306b\u7df4\u7fd2\u3067\u7d44\u3093\u3067\u3044\u305f\u3082\u306e\u304c\u3067\u304d\u305f\u306e\u3067\u300140\u5206\u304f\u3089\u3044\u305d\u306e\u5834\u3067Docker/fig\u7d39\u4ecb\u3092\u3057\u307e\u3057\u305f\u3002\u305d\u306e\u3068\u304d\u4f7f\u3063\u305f\u30b5\u30f3\u30d7\u30eb\u3092\u3061\u3087\u3063\u3068\u6574\u7406\u305f\u306e\u3067\u3001Github\u3067\u516c\u958b\u3057\u307e\u3059\u3002</p>\u000a<ul class=simple>\u000a<li><a href=https://github.com/shimizukawa/fig-practices/tree/fig-app-nginx-fluentd-es-kibana4#fig-practice-python-flaskapp--nginx--fluentd--elasticsearch--kibana4-beta3 class="reference external">fig practice: Python FlaskApp + Nginx + Fluentd + ElasticSearch + Kibana4 Beta3 at GitHub</a></li>\u000a</ul>\u000a<div id=id1 class=section>\u000a<h2>\u5408\u5bbf\u306e\u5199\u771f<a href=http://www.freia.jp/taka/blog/fig-practice/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af class=headerlink>¶</a></h2>\u000a<iframe height=480 width=640 webkitallowfullscreen="" allowfullscreen="" mozallowfullscreen="" msallowfullscreen="" src=https://www.flickr.com/photos/shimizukawa/15800616264/in/set-72157648274677233/player/ oallowfullscreen="" frameborder=0></iframe></div>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2015/02/07 Python mini hack-a-thon \u96ea\u5c71\u5408\u5bbf / Docker + fig
+p12
+s.
