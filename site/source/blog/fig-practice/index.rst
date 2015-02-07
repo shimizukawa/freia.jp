@@ -10,7 +10,7 @@
 
 先日、1/30(金)から2/1(日)にかけて、 `Python mini hack-a-thon 雪山合宿 2015`_ 開発合宿に行ってきました。そこで、Docker/figを使って開発環境の作成をうまくやる方法がないかな、とfigをいじってました。
 
-合宿の最終日、終了間際に練習で組んでいたものができたので、40分くらいその場でDocker/fig紹介をしました。そのとき使ったサンプルをちょっと整理たので、Githubで公開します。
+合宿の最終日、終了間際に練習で組んでいたものができたので、40分くらいその場でDocker/fig紹介をしました。そのとき使ったサンプルをちょっと整理したので、Githubで公開します。
 
 * `fig practice: Python FlaskApp + Nginx + Fluentd + ElasticSearch + Kibana4 Beta3 at GitHub`__
 
