@@ -18,3 +18,4 @@ buildout/source/code/paste
 buildout/source/code/paste-wsgi
 site/source/blog/images
 site/source/blog/stuff
+site/v26
