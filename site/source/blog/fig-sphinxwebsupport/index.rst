@@ -80,7 +80,7 @@ figで用意した環境はNginxが含まれています。Nginxとか不要、�
    会場の様子
 
 
-.. _Python mini Hack-a-thon 51回目: 
+.. _Python mini Hack-a-thon 51回目: http://pyhack.connpass.com/event/11567/
 .. _shimizukawa/sphinxwebapp: https://registry.hub.docker.com/u/shimizukawa/sphinxwebapp/
 .. _Webサポートクイックスタート - Sphinx 1.2.3 ドキュメント: http://docs.sphinx-users.jp/web/quickstart.html
 .. _Sphinx WebSupportを使ってみる - そこはかとなく書くよ。: http://d.hatena.ne.jp/rudi/20101212/1292126107
