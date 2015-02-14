@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   fig-sphinxwebsupport/index
    fig-practice/index
    bitbucket_issue_migration/index
    2015-kakizome/index
