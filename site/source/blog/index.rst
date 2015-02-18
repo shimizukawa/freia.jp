@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   python-professional-programming-2nd/index
    fig-sphinxwebsupport/index
    fig-practice/index
    bitbucket_issue_migration/index
