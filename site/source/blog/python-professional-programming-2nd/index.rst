@@ -20,7 +20,13 @@ Pythonプロフェッショナルプログラミング、第2版を書きまし�
    * ページ: 472ページ
    * 発売日: 2/27(金)
    * 出版社: `秀和システム <http://www.shuwasystem.co.jp/>`__
-   * ISBN: -
+   * ISBN: 479804315X,  978-4798043159
+   * Amazon: 
+
+     .. raw:: html
+
+        <iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&nou=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=freiaweb-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=479804315X" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
 
 
 前回の第1版は3年前: :doc:`../2012-03-27-python-professional-programming/index` 。
