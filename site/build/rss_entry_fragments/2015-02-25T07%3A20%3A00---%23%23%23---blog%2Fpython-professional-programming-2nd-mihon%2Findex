@@ -1,0 +1,26 @@
+(dp0
+S'pubdate'
+p1
+cdatetime
+datetime
+p2
+(S'\x07\xdf\x02\x19\x07\x14\x00\x00\x00\x00'
+p3
+tp4
+Rp5
+sS'link'
+p6
+Vhttp://www.freia.jp/taka/blog/python-professional-programming-2nd-mihon/index.html
+p7
+sS'description'
+p8
+V<div id=pypro2-python2 class=section>\u000a<h1>2015/02/25 #PyPro2 \u306e\u898b\u672c\u8a8c\u304c\u5c4a\u3044\u305f -Python\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u7b2c2\u7248<a href=http://www.freia.jp/taka/blog/python-professional-programming-2nd-mihon/index.html#pypro2-python2 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af class=headerlink>¶</a></h1>\u000a<p><em>Category: 'book', 'Python', 'beproud', 'work', 'sphinx'</em></p>\u000a<p>\u3061\u3087\u3046\u30691\u9031\u9593\u524d\u306b <tt class="xref doc docutils literal"><span class=pre>../python-professional-programming-2nd-toc/index</span></tt> \u3067\u3001\u5370\u5237\u958b\u59cb\u3057\u305f\u3053\u3068\u3068\u3001\u672c\u306e\u307f\u3069\u3053\u308d\u306b\u3064\u3044\u3066\u7d39\u4ecb\u3057\u307e\u3057\u305f\u3002\u305d\u3057\u3066\u6628\u65e5\u3001\u624b\u5143\u306b\u898b\u672c\u8a8c\u304c\u5c4a\u304d\u307e\u3057\u305f\uff01\uff086\u65e5\u3067\u88fd\u672c\u3055\u308c\u305f\u5b9f\u7269\u304c\u624b\u5143\u306b\u5c4a\u304f\u3068\u306f...\uff09</p>\u000a<div class=figure>\u000a<a href=http://www.freia.jp/taka/_images/pypro2-mihon.jpg class="reference internal image-reference"><img alt=../../_images/pypro2-mihon.jpg src=http://www.freia.jp/taka/_images/pypro2-mihon.jpg style="width: 400px;"></a>\u000a<p class=caption>\u8457\u800511\u4eba\u5206\u306e\u898b\u672c\u8a8c</p>\u000a</div>\u000a<div class=figure>\u000a<a href=http://www.freia.jp/taka/_images/pypro2-mihon2.jpg class="reference internal image-reference"><img alt=../../_images/pypro2-mihon2.jpg src=http://www.freia.jp/taka/_images/pypro2-mihon2.jpg style="width: 500px;"></a>\u000a<p class=caption>\u898b\u672c\u8a8c\u3092\u304b\u304b\u3052\u308b <a href=https://twitter.com/shimizukawa class="reference external">@shimizukawa</a> \u3068 <a href=https://twitter.com/aodag class="reference external">@aodag</a></p>\u000a</div>\u000a<div id=id1 class=section>\u000a<h2>\u672c\u306e\u8a73\u7d30\u306a\u76ee\u6b21<a href=http://www.freia.jp/taka/blog/python-professional-programming-2nd-mihon/index.html#id1 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af class=headerlink>¶</a></h2>\u000a<p>\u51fa\u7248\u793e\u3055\u3093\u306e\u30b5\u30a4\u30c8\u306b\u672c\u306e\u30da\u30fc\u30b8\u3082\u51fa\u6765\u3066\u3044\u3066\u3001\u305d\u3053\u306b\u8a73\u7d30\u306a\u76ee\u6b21\u304c\u63b2\u8f09\u3055\u308c\u3066\u3044\u307e\u3057\u305f\u3002</p>\u000a<ul class=simple>\u000a<li><a href=http://www.shuwasystem.co.jp/products/7980html/4315.html class="reference external">Python\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0 \u7b2c2\u7248\uff5c\u66f8\u7c4d\u60c5\u5831\uff5c\u79c0\u548c\u30b7\u30b9\u30c6\u30e0</a></li>\u000a</ul>\u000a<p>\u53c2\u8003\u306b\u3069\u3046\u305e\u3002</p>\u000a</div>\u000a<div id=id3 class=section>\u000a<h2>\u307e\u3068\u3081<a href=http://www.freia.jp/taka/blog/python-professional-programming-2nd-mihon/index.html#id3 title=\u3053\u306e\u30d8\u30c3\u30c9\u30e9\u30a4\u30f3\u3078\u306e\u30d1\u30fc\u30de\u30ea\u30f3\u30af class=headerlink>¶</a></h2>\u000a<p>\u66f8\u5e97\u3067\u306f2/27(\u91d1)\u3001Amazon\u3067\u306f2/28(\u571f)\u304b\u3089\u767a\u58f2\u3067\u3059\u3002</p>\u000a<blockquote>\u000a<div><ul>\u000a<li><p class=first>\u91d1\u984d: 2,800\u5186</p>\u000a</li>\u000a<li><p class=first>\u30da\u30fc\u30b8: 472\u30da\u30fc\u30b8</p>\u000a</li>\u000a<li><p class=first>\u767a\u58f2\u65e5: 2/27(\u91d1)</p>\u000a</li>\u000a<li><p class=first>\u51fa\u7248\u793e: <a href=http://www.shuwasystem.co.jp/products/7980html/4315.html class="reference external">\u79c0\u548c\u30b7\u30b9\u30c6\u30e0</a></p>\u000a</li>\u000a<li><p class=first>ISBN: 479804315X,  978-4798043159</p>\u000a</li>\u000a<li><p class=first>Amazon:</p>\u000a<iframe style=width:120px;height:240px; marginheight=0 scrolling=no src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;nou=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=freiaweb-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=479804315X" marginwidth=0 frameborder=0></iframe></li>\u000a</ul>\u000a</div></blockquote>\u000a</div>\u000a</div>\u000a
+p9
+sS'unique_id'
+p10
+g7
+sS'title'
+p11
+V2015/02/25 #PyPro2 \u306e\u898b\u672c\u8a8c\u304c\u5c4a\u3044\u305f -Python\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u7b2c2\u7248
+p12
+s.
