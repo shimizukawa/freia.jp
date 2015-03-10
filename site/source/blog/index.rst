@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   forkwell-python-event/index
    python-professional-programming-2nd-mihon/index
    python-professional-programming-2nd/index
    fig-sphinxwebsupport/index
