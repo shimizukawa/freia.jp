@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   python-professional-programming-2nd-ebook/index
    forkwell-python-event/index
    python-professional-programming-2nd-mihon/index
    python-professional-programming-2nd/index
