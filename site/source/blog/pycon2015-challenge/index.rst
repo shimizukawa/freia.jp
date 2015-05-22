@@ -19,7 +19,7 @@
 余談ですが、10月に開催される `PyCon JP 2015もスピーカー募集中`_ で、そちらにも応募しておきました。今年は応募されたら即公開される仕組みになっているようです(`プロポーザル一覧`_)。
 
 
-.. _PyCon JP 2015もスピーカー募集中: http://pyconjp.blogspot.jp/2015/05/pycon-jp-2015.html
+.. _PyCon JP 2015もスピーカー募集中: http://pyconjp.blogspot.jp/2015/05/call-for-proposals.html
 .. _プロポーザル一覧: https://pycon.jp/2015/ja/proposals/vote_list/
 .. _世界のPyCon2015: http://goo.gl/cWj6Lj
 
@@ -131,7 +131,7 @@ EuroPython 2015 は、7/20(月)～7/26(日)にスペインのビルバオにあ�
 
 .. _Euskalduna Conference Center (ECC): https://ep2015.europython.eu/en/venue/
 
-.. figure:: europython.png
+.. figure:: europython2015.png
    :target: https://ep2015.europython.eu/en/
 
    EuroPython 2015
@@ -148,6 +148,11 @@ PyCon Malaysia
 ================
 
 PyCon Malaysia 2015 は今年初実施のPyConで、8/21(金)～8/23(日)にマレーシアの Faculty of Computer Science and Information Technology in University of Malaya で開催されます。
+
+.. figure:: pyconmy2015.png
+   :target: http://www.pycon.my/
+
+   PyCon Malaysia 2015
 
 
 マレーシアに行くのは初めてです。CfPに応募しましたが、7/24まで募集中なのでまだ色々未確定な感じです。海外から参加することを考えると旅行の手配などは1か月以上前には済ませてしまいたいところですが・・・初開催のPyConで海外スピーカーまでは考えてないだろうなあ。自分たちが2011年に `PyCon mini JP`_ や `PyCon JP 2011`_ を開催したときを思い出しつつ。
