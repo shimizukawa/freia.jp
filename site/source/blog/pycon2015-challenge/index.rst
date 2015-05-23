@@ -47,7 +47,7 @@ PyCon Taiwan には2012年、2013年にも参加し、2013年に1度スピーカ
 Talk 1:
 
 * 6/6(土) 11:50 - 12:30
-* `Easy contributable internationalizatoin process with Sphinx`__
+* `Easy contributable internationalization process with Sphinx`__
 
 .. __: https://tw.pycon.org/2015apac/en/program/50
 
@@ -93,7 +93,7 @@ Talk:
 .. figure:: pyconsg2015-talk.png
    :target: https://pycon.sg/schedule/presentation/49/
 
-   `Easy contributable internationalizatoin process with Sphinx`__
+   `Easy contributable internationalization process with Sphinx`__
 
    * 日時未定？
 
@@ -166,10 +166,10 @@ PyCon Malaysia 2015 は今年初実施のPyConで、8/21(金)～8/23(日)にマ�
 
 おまけで、応募した内容をのせておきます。
 
-Easy contributable internationalizatoin process with Sphinx
+Easy contributable internationalization process with Sphinx
 -------------------------------------------------------------
 
-* Title: Easy contributable internationalizatoin process with Sphinx
+* Title: Easy contributable internationalization process with Sphinx
 * Documentation
 * English
 * 40min
