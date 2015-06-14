@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   standing-desk/index
    pycon2015-apac-sphinx/index
    pycon2015-challenge/index
    python-professional-programming-2nd-ebook/index
