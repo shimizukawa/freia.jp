@@ -18,7 +18,7 @@
 
 .. figure:: 2-standing-entrance.*
 
-   2014年春。玄関戸棚(110cm)、折りたたみ棚(18cm)追加でちょうど良い。でも狭い。
+   2015年春。玄関戸棚(110cm)、折りたたみ棚(18cm)追加でちょうど良い。でも狭い。
 
 .. figure:: 3-stainding-entrance-double.*
 
@@ -26,7 +26,7 @@
 
 .. figure:: 4-stainding-desk.*
 
-   2014年6月。スタンディングデスク到着！写真で見るより大きい。
+   2015年6月。スタンディングデスク到着！写真で見るより大きい。
 
 .. figure:: 5-stainding-desk-double.*
 
