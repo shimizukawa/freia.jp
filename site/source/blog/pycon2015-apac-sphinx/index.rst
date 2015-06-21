@@ -8,6 +8,13 @@
 
 *Category: 'Python', 'PyCon', 'Sphinx'*
 
+.. note::
+
+   PyCon APAC 参加レポートのより詳細な内容を "海外PyCon発表修行レポート2015" として `第1回　PyCon APAC 2015 in TaiwanでのSphinxに関する発表`_ レポートをgihyo.jpにて掲載しています。
+
+
+.. _第1回　PyCon APAC 2015 in TaiwanでのSphinxに関する発表: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0001
+
 .. figure:: pyconapac2015.png
    :target: https://tw.pycon.org/2015apac/en/
 
