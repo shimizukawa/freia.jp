@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pycon2015-singapore/index
    standing-desk/index
    pycon2015-apac-sphinx/index
    pycon2015-challenge/index
