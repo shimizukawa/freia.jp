@@ -1,4 +1,4 @@
-:date: 2015-6-22 9:00
+:date: 2015-6-22 9:10
 :categories: ['Python', 'PyCon', 'Sphinx']
 :body type: text/x-rst
 
@@ -47,6 +47,12 @@ Next
 
 次は、6/27(土),28(日)のPyCon.KRに参加予定でしたが、MERSの影響でイベントが8/29(土),30(日)に延期されました。このため次は、7/20(月)から開催される `EuroPython 2015`_ に参加しにスペインへ行ってきます。
 
+
+.. figure:: marlion.*
+
+   シンガポールのSphinxこと、マーライオン
+
+   世界三大ガッカリ、と思いきや、十分満足できました。
 
 .. _EuroPython 2015: https://ep2015.europython.eu/
 
