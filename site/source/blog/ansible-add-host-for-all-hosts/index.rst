@@ -46,7 +46,6 @@ Ansible_ を使って、これまで手動で行っていた作業を自動化�
 
 AMIバックアップ::
 
-   $ aws ec2 create-image --instance-id i-xxxxxxxx --name "srv-dev 20150625-before" --description "srv dev (ubuntu14.04)"
    $ aws ec2 create-image --instance-id i-xxxxxxxx --name "srv-dev 20150625-before" --description "srv dev (ubuntu14.04)” --reboot | grep ImageId
    "ImageId": "ami-01234567"
    $ aws ec2 describe-images --image-ids ami-01234567 | grep State 
