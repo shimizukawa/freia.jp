@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   ansible-add-host-for-all-hosts/index
    sphinx-softwaredesign-201507/index
    pycon2015-singapore/index
    standing-desk/index
