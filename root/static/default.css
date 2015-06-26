@@ -9,6 +9,12 @@ h1 {
  text-align: center;
  color: #00ff00;
 }
+.info {
+ margin: 2em;
+ font-size: 80%;
+ text-align: center;
+ color: #00ff00;
+}
 
 a:link {
  color : lightgreen;
