@@ -9,6 +9,14 @@
 *Category: 'Python', 'PyCon', 'Sphinx'*
 
 
+.. note::
+
+   PyCon SG 参加の詳細なレポートを "海外PyCon発表修行レポート2015" として `第2回　PyCon SG 2015参加レポートとSphinxに関する発表`_ レポートをgihyo.jpにて掲載しています。
+
+
+.. _第2回　PyCon SG 2015参加レポートとSphinxに関する発表: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0002
+
+
 .. figure:: pyconsg2015.png
    :target: https://pycon.sg/
 
