@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   europython2015-extra/index
    pycon2015-proposals/index
    ansible-add-host-for-all-hosts/index
    sphinx-softwaredesign-201507/index
