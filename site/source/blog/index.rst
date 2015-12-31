@@ -6,12 +6,22 @@
 
 .. .. latest::
 
+2016年
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   2016-kakizome/index
+
+
 2015年
 ------
 
 .. toctree::
    :maxdepth: 1
 
+   2015-furikaeri/index
    pycon2015-malaysia/index
    europython2015-extra/index
    pycon2015-proposals/index
