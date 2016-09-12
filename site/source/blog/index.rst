@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   expert-python-programming-2nd/index
    2016-kakizome/index
 
 
