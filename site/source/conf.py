@@ -9,10 +9,7 @@ extensions = [
         'sphinxcontrib.seqdiag',
         'sphinx.ext.todo',
         'iframe',
-        #'sphinxfeed',
-        'sphinxcontrib.feed',
-        #'tinkerer.ext.blog',
-        #'tinkerer.ext.disqus',
+        #'sphinxcontrib.feed',
         'sphinx.ext.intersphinx',
         ]
 
