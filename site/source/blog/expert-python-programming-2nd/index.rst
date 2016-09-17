@@ -1,9 +1,9 @@
-:date: 2016-09-12 12:00
+:date: 2016-09-12 18:20
 :categories: ['python']
 :body type: text/x-rst
 
 =================================================================
-2016/09/03 Expert Python Programming Second Edition の目次の和訳
+2016/09/12 Expert Python Programming Second Edition の目次の和訳
 =================================================================
 
 *Category: 'python'*
@@ -24,7 +24,9 @@ PACKTのサイトでは各章、全セクションの `冒頭サンプルを読�
 紙の本はインドでオンデマンド印刷されて10日くらいで手元に届きました。
 
 目次は `PACKT`_ のページにある ``Read More`` をクリックすると表示されます。
-この目次を和訳しました。 :doc:`../680/index` と比べると、Python3になった他に、周辺ツールやフローについての内容が今風なものに置き換わっていますね。
+この目次を和訳しました。 :doc:`../680/index` と比べると、Pythonのバージョンが2から3に更新された他に、周辺ツールやフローについての内容が今風なものに置き換わっていますね。
+
+以下、公開されている目次の翻訳です。  **(新規)** と付けたセクションは、第1版にはなかったか、あっても異なるセクション名だったものです。 **(新規)** と付けていないセクションについても、Python3対応等で多くの部分が更新されています。
 
 
 
@@ -35,29 +37,29 @@ PACKTのサイトでは各章、全セクションの `冒頭サンプルを読�
    :local:
 
 
-1章: Pythonの現状
--------------------------------
+1章: Pythonの現状 **(新規)**
+-------------------------------------
 
-* Where are we now and where we are going?
-* Why and how does Python change?
-* Getting up to date with changes – PEP documents
-* Python 3 adoption at the time of writing this book
-* The main differences between Python 3 and Python 2
-* Not only CPython
-* Modern approaches to Python development
-* Application-level isolation of Python environments
-* System-level environment isolation
-* Popular productivity tools
-* Useful resources
+* 私たちは今どこに居てこれからどこに向かっていくのか? **(新規)**
+* なぜ、どのようにPythonは変わるのか? **(新規)**
+* 変更を追いかけよう – PEP ドキュメント **(新規)**
+* 本書執筆時点でのPython3利用状況 **(新規)**
+* Python2と3の主な違い **(新規)**
+* CPythonだけじゃない **(更新)**
+* 今どきのPython開発手法 **(新規)**
+* アプリケーションレベルでのPython環境の分離 **(新規)**
+* システムレベルでの環境の分離 **(新規)**
+* 著名な生産性を向上するツール **(新規)**
+* 有用な情報元 **(新規)**
 * まとめ
 
 
 2章: 構文ベストプラクティス - クラス以外
 -------------------------------------------
 
-* Python's built-in types
-* Advanced syntax
-* Other syntax elements you may not know yet
+* Pythonの組み込み型 **(新規)**
+* 高度な文法 **(新規)**
+* あなたが多分また知らない文法 **(新規)**
 * まとめ
 
 
@@ -66,7 +68,7 @@ PACKTのサイトでは各章、全セクションの `冒頭サンプルを読�
 
 * 組み込み型のサブクラス化
 * スーパークラスからメソッドへのアクセス
-* Advanced attribute access patterns
+* 高度な属性アクセスパターン **(新規)**
 * メタプログラミング
 * まとめ
 
@@ -87,37 +89,37 @@ PACKTのサイトでは各章、全セクションの `冒頭サンプルを読�
 5章: パッケージを作る
 ------------------------
 
-* Creating a package
-* Namespace packages
-* Uploading a package
-* Standalone executables
+* パッケージを作る **(新規)**
+* 名前空間パッケージ **(新規)**
+* パッケージのアップロード **(新規)**
+* 単体実行可能なファイルを作る **(新規)**
 * まとめ
 
-6章: コードをデプロイする
------------------------------
+6章: コードをデプロイする **(新規)**
+--------------------------------------
 
-* The Twelve-Factor App
-* Deployment automation using Fabric
-* Your own package index or index mirror
-* Common conventions and practices
-* Code instrumentation and monitoring
+* The Twelve-Factor App **(新規)**
+* Fabricを用いたデプロイの自動化 **(新規)**
+* 独自のパッケージインデックスやミラーを用意する **(新規)**
+* 一般的な慣習と実践 **(新規)**
+* 動作の追跡とモニタリング **(新規)**
 * まとめ
 
-7章: 別言語で作るPython拡張
------------------------------
+7章: 別言語で作るPython拡張 **(新規)**
+----------------------------------------
 
-* Different language means – C or C++
-* Why you might want to use extensions
-* Writing extensions
-* Challenges
-* Interfacing with dynamic libraries without extensions
+* 別言語といえば... C or C++ **(新規)**
+* なぜ拡張を使いたいのだろう **(新規)**
+* 拡張を書く **(新規)**
+* 挑戦 **(新規)**
+* 拡張を使わずに動的ライブラリと接続する **(新規)**
 * まとめ
 
 8章: コードの管理
 ------------------
 
-* バージョン管理システム
-* 常時結合
+* バージョン管理システム **(大幅更新: gitを紹介)**
+* 常時結合 **(大幅更新: jenkinsを紹介)**
 * まとめ
 
 
@@ -135,7 +137,7 @@ PACKTのサイトでは各章、全セクションの `冒頭サンプルを読�
 ---------------------
 
 * テストをしていない人へ
-* テストをしている人へ
+* テストをしている人へ **(大幅更新: pytest加筆, tox紹介)**
 * まとめ
 
 
@@ -144,7 +146,7 @@ PACKTのサイトでは各章、全セクションの `冒頭サンプルを読�
 
 * 3つのルール
 * 最適化戦略
-* ボトルネックを見つける
+* ボトルネックを見つける **(大幅更新: 新しいツール紹介)**
 * まとめ
 
 
@@ -153,20 +155,20 @@ PACKTのサイトでは各章、全セクションの `冒頭サンプルを読�
 --------------------------------------------
 
 * 複雑さを減らす
-* Simplifying
-* Using collections
-* Using architectural trade-offs
+* シンプルにする
+* collectionsを使う **(新規)**
+* アーキテクチャを変更する **(新規)**
 * キャッシュ
 * まとめ
 
 
-13章: CONCURRENCY
------------------------
+13章: 並列実行 **(新規)**
+-------------------------------
 
-* Why concurrency?
-* Multithreading
-* Multiprocessing
-* Asynchronous programming
+* なぜ並列実行なのか? **(新規)**
+* マルチスレッドを使う **(新規)**
+* マルチプロセスを使う **(新規)**
+* 非同期プログラミング **(新規)**
 * まとめ
 
 14章: Pythonのためのデザインパターン
@@ -176,7 +178,5 @@ PACKTのサイトでは各章、全セクションの `冒頭サンプルを読�
 * 構造に関するパターン
 * 振る舞いに関するパターン
 * まとめ
-
-
 
 
