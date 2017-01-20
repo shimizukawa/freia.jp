@@ -1,6 +1,13 @@
-FROM shimizukawa/sphinx:1.4.6
+FROM python:3.5.2
 
-COPY ./env /env
-RUN (cd /env && pip install -r /env/requirements.txt)
+RUN apt-get update \
+    && apt-get install -y gettext graphviz \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN pip install -U setuptools pip
+RUN mkdir -p /doc
+WORKDIR /doc
+COPY ./requirements.txt /doc/requirements.txt
+RUN pip install -r /doc/requirements.txt
 
-CMD ["sphinx-build", "-M", "html", "/doc/source", "/doc/build", "-N"]
+CMD bash

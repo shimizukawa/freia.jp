@@ -10,6 +10,7 @@
 .*/eggs/.*$
 .*/parts/.*$
 .*.egg-info
+.*~
 ^plone
 
 syntax: glob

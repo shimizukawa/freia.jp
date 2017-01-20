@@ -2,6 +2,7 @@ version: '2'
 services:
   build:
     build: .
-    image: shimizukawa/sphinx-for-freia
+    image: shimizukawa/freia
     volumes:
       - .:/doc
+    command: sphinx-build -M html /doc/source /doc/build -N -T
