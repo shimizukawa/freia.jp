@@ -12,6 +12,7 @@
 .*.egg-info
 .*~
 ^plone
+^clog
 
 syntax: glob
 buildout/source/code/gae

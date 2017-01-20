@@ -1,74 +1,20 @@
-# Makefile for Sphinx documentation
+# Minimal makefile for Sphinx documentation
 #
 
 # You can set these variables from the command line.
-PYTHON    = python2.7
+SPHINXOPTS    =
+SPHINXBUILD   = sphinx-build
+SPHINXPROJ    = freia
+SOURCEDIR     = source
+BUILDDIR      = build
 
-.PHONY: help clean html htmlgz dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest
-
+# Put it first so that "make" without argument is like "make help".
 help:
-	$(PYTHON) make.py help
+	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-clean:
-	$(PYTHON) make.py clean
+.PHONY: help Makefile
 
-bootstrap:
-	$(PYTHON) make.py bootstrap
-
-buildout:
-	$(PYTHON) make.py buildout
-
-update:
-	$(PYTHON) make.py update
-
-html:
-	$(PYTHON) make.py html
-
-htmlgz:
-	$(PYTHON) make.py htmlgz
-
-dirhtml:
-	$(PYTHON) make.py dirhtml
-
-singlehtml:
-	$(PYTHON) make.py singlehtml
-
-pickle:
-	$(PYTHON) make.py pickle
-
-json:
-	$(PYTHON) make.py json
-
-htmlhelp:
-	$(PYTHON) make.py htmlhelp
-
-qthelp:
-	$(PYTHON) make.py qhelp
-
-devhelp:
-	$(PYTHON) make.py devhelp
-
-epub:
-	$(PYTHON) make.py epub
-
-latex:
-	$(PYTHON) make.py latex
-
-latexpdf:
-	$(PYTHON) make.py latexpdf
-
-text:
-	$(PYTHON) make.py text
-
-man:
-	$(PYTHON) make.py man
-
-changes:
-	$(PYTHON) make.py changes
-
-linkcheck:
-	$(PYTHON) make.py linkcheck
-
-doctest:
-	$(PYTHON) make.py doctest
-
+# Catch-all target: route all unknown targets to Sphinx using the new
+# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
+%: Makefile
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
