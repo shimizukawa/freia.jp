@@ -9,6 +9,15 @@ build:
           echo "pip version $(pip --version) running"
           echo "sphinx-build version $(sphinx-build --version) running"
     - script:
+        name: restore build cache
+        code: |
+          if [ -f "$WERCKER_CACHE_DIR/build/doctrees" ]; then
+            cp -Rp $WERCKER_CACHE_DIR/build/doctrees site/build/doctrees
+          fi
+          if [ -f "$WERCKER_CACHE_DIR/build/html" ]; then
+            cp -Rp $WERCKER_CACHE_DIR/build/html site/build/html
+          fi
+    - script:
         name: build html
         code: |
           sphinx-build -M html site/source site/build -N -T
@@ -16,6 +25,13 @@ build:
         name: echo status
         code: |
           echo "$(git status)"
+    - script:
+        name: store build cache
+        code: |
+          rm -Rf $WERCKER_CACHE_DIR/build
+          mkdir -p $WERCKER_CACHE_DIR/build
+          cp -Rp site/build/doctrees $WERCKER_CACHE_DIR/build/doctrees
+          cp -Rp site/build/html $WERCKER_CACHE_DIR/build/html
 
 deploy:
   steps:
