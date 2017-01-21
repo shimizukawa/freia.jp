@@ -1,0 +1,8 @@
+.*.pyc
+.*.swp
+.*.orig
+.*~
+site/build/doctrees
+site/build/html
+site/source/blog/images
+site/source/blog/stuff
