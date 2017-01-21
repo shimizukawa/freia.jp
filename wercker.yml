@@ -22,7 +22,15 @@ deploy:
     - s3sync:
         key-id: $S3_KEY
         key-secret: $S3_SECRET
-        bucket-url: $S3_BUCKET
-        source-dir: $S3_SOURCE
+        bucket-url: s3://www.freia.jp/taka/
+        source-dir: site/build/html
+        opts: --acl-public
+        delete-removed: false
+
+    - s3sync:
+        key-id: $S3_KEY
+        key-secret: $S3_SECRET
+        bucket-url: s3://www.freia.jp/
+        source-dir: root/static/
         opts: --acl-public
         delete-removed: false
