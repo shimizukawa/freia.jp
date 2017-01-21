@@ -30,8 +30,8 @@ build:
         code: |
           rm -Rf $WERCKER_CACHE_DIR/build
           mkdir -p $WERCKER_CACHE_DIR/build
-          cp -Rp site/build/doctrees $WERCKER_CACHE_DIR/build/doctrees
-          cp -Rp site/build/html $WERCKER_CACHE_DIR/build/html
+          cp -Rp site/build/doctrees $WERCKER_CACHE_DIR/build/
+          cp -Rp site/build/html $WERCKER_CACHE_DIR/build/
 
 deploy:
   steps:
