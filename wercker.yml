@@ -11,10 +11,10 @@ build:
     - script:
         name: restore build cache
         code: |
-          if [ -f "$WERCKER_CACHE_DIR/build/doctrees" ]; then
+          if [ -d "$WERCKER_CACHE_DIR/build/doctrees" ]; then
             cp -Rp $WERCKER_CACHE_DIR/build/doctrees site/build/doctrees
           fi
-          if [ -f "$WERCKER_CACHE_DIR/build/html" ]; then
+          if [ -d "$WERCKER_CACHE_DIR/build/html" ]; then
             cp -Rp $WERCKER_CACHE_DIR/build/html site/build/html
           fi
     - script:
