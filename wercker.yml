@@ -8,13 +8,16 @@ build:
           echo "python version $(python --version) running"
           echo "pip version $(pip --version) running"
           echo "sphinx-build version $(sphinx-build --version) running"
+          ls $WERCKER_CACHE_DIR
     - script:
         name: restore build cache
         code: |
           if [ -d "$WERCKER_CACHE_DIR/build/doctrees" ]; then
+            ls -laF $WERCKER_CACHE_DIR/build/doctrees
             cp -Rp $WERCKER_CACHE_DIR/build/doctrees site/build/doctrees
           fi
           if [ -d "$WERCKER_CACHE_DIR/build/html" ]; then
+            ls -laF $WERCKER_CACHE_DIR/build/html
             cp -Rp $WERCKER_CACHE_DIR/build/html site/build/html
           fi
     - script:
@@ -32,6 +35,7 @@ build:
           mkdir -p $WERCKER_CACHE_DIR/build
           cp -Rp site/build/doctrees $WERCKER_CACHE_DIR/build/
           cp -Rp site/build/html $WERCKER_CACHE_DIR/build/
+          ls -laF $WERCKER_CACHE_DIR/build/
 
 deploy:
   steps:
