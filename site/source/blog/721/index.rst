@@ -41,7 +41,7 @@ OSの構成管理ツール(apt,yum,portsなど)でインストールしておい
   | error: No urls, filenames, or requirements specified (see --help)
 
 
-次に `plugins.zip`_ を展開します::
+次に :download:`plugins.zip` を展開します::
 
   plugins/
      +-- README.txt
@@ -223,7 +223,6 @@ p1/setup.py のコードはsetuptoolsで拡張されたdistutilsのsetup関数�
  * `エキスパートPythonプログラミング`_
 
 .. _`エキスパートPythonプログラミング`: http://astore.amazon.co.jp/freiaweb-22/detail/4048686291
-.. _`plugins.zip`: stuff/plugins.zip/download
 
 
 .. :extend type: text/x-rst

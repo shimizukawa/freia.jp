@@ -8,7 +8,7 @@
 
 *Category: 'python'*
 
-`setuptoolsを使ったpluginサンプル`_ で作ったpluginの仕組みを
+:doc:`../721/index` で作ったpluginの仕組みを
 ちょっとだけ変更して、plugin用フォルダにファイルを追加したら
 pluginとして認識されるようにしてみます。
 
@@ -19,9 +19,9 @@ pluginとして認識されるようにしてみます。
 ------
 
 Python環境にsetuptoolsをインストールしておきます。
-手順は前のエントリ `setuptoolsを使ったpluginサンプル`_ を参照のこと。
+手順は前のエントリ :doc:`../721/index` を参照のこと。
 
-次に `plugins_egg.zip`_ を展開します::
+次に :download:`plugins_egg.zip` を展開します::
 
   plugins_egg/
      +-- README.txt
@@ -90,7 +90,7 @@ serverを実行
 pluginの仕組み
 ---------------
 
-plugin側のコードは前回の `setuptoolsを使ったpluginサンプル`_ で用意したものと
+plugin側のコードは前回の :doc:`../721/index` で用意したものと
 完全に同じで、pluginを使うserver.py側のコードをちょっとだけ変更しました。
 
 server.pyでは以下のコードの例のように、pluginsフォルダの中身を自動的に
@@ -151,7 +151,7 @@ sys.pathに追加してからpkg_resourcesを使っています。
 
 まとめ
 -------
-`setuptoolsを使ったpluginサンプル`_ で説明した方法と比べて、pluginsフォルダ
+:doc:`../721/index` で説明した方法と比べて、pluginsフォルダ
 にeggファイルを置いたりプログラムでpluginsフォルダをsys.pathに追加したりと
 手動での管理が増えており、easy_installで自動的にプラグインを追加するなど
 の方法は使えなくなってしまいました。しかしこれはこれで使い方によっては
@@ -175,9 +175,6 @@ sys.pathに追加してからpkg_resourcesを使っています。
  * `エキスパートPythonプログラミング`_
 
 .. _`エキスパートPythonプログラミング`: http://astore.amazon.co.jp/freiaweb-22/detail/4048686291
-
-.. _`plugins_egg.zip`: http://www.freia.jp/taka/blog/stuff/plugins_egg.zip/download
-.. _`setuptoolsを使ったpluginサンプル`: http://www.freia.jp/taka/blog/721
 
 
 .. :extend type: text/x-rst

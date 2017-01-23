@@ -8,7 +8,7 @@
 
 *Category: 'Programming', 'Windows', 'ruby'*
 
-WindowsのRubyで rcov_ を使用するには一般的には http://rubyforge.org/frs/?group_id=1750&release_id=16551 にあるようなビルド済みバイナリを使用しますが、rcov-0.8.1.2以降はビルド済みのものが提供されていないので、自分でビルドする必要があります。Windowsではコンパイル環境があってもはまったので、バインディングビルド手順をメモしておきます(完成物はこちら:  `rcov-0.9.10-x86-mswin32-60.gem`_)。
+WindowsのRubyで rcov_ を使用するには一般的には http://rubyforge.org/frs/?group_id=1750&release_id=16551 にあるようなビルド済みバイナリを使用しますが、rcov-0.8.1.2以降はビルド済みのものが提供されていないので、自分でビルドする必要があります。Windowsではコンパイル環境があってもはまったので、バインディングビルド手順をメモしておきます(完成物はこちら:  :download:`rcov-0.9.10-x86-mswin32-60.gem`)。
 
 .. _rcov: http://mecab.sourceforge.net/
 
@@ -70,9 +70,7 @@ http://rubygems.org/gems/rcov から rcov-0.9.10.gem を取得してコマンド
 
 完成物と変更を加えたファイルを公開しておきます。ライセンスなどは元のrcovのものに従います。
 
-* `rcov-0.9.10-x86-mswin32-60.gem`_
-
-.. _`rcov-0.9.10-x86-mswin32-60.gem`: stuff/rcov-0.9.10-x86-mswin32-60.gem
+* :download:`rcov-0.9.10-x86-mswin32-60.gem`
 
 
 .. :extend type: text/x-rst
