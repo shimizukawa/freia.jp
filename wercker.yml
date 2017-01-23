@@ -12,6 +12,7 @@ build:
     - script:
         name: restore build cache
         code: |
+          set -ex
           if [ -d "$WERCKER_CACHE_DIR/build/doctrees" ]; then
             ls -laF $WERCKER_CACHE_DIR/build/doctrees
             cp -Rp $WERCKER_CACHE_DIR/build/doctrees site/build/doctrees
@@ -23,6 +24,7 @@ build:
     - script:
         name: build html
         code: |
+          set -ex
           sphinx-build -M html site/source site/build -N -T
     - script:
         name: echo status
@@ -31,6 +33,7 @@ build:
     - script:
         name: store build cache
         code: |
+          set -ex
           rm -Rf $WERCKER_CACHE_DIR/build
           mkdir -p $WERCKER_CACHE_DIR/build
           cp -Rp site/build/doctrees $WERCKER_CACHE_DIR/build/
