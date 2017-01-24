@@ -112,7 +112,7 @@ PyCon JP のスタッフをやりました。やるからにはしっかりや�
 目に見える成果物のリンクはこんな感じです。
 
 - Web機能: スライドとビデオの登録と掲載: `タイムテーブルページ`_, `トーク一覧ページ`_, `トーク詳細ページ`_
-- Web機能: `スピーカー委陳ページ`_ の実装
+- Web機能: `スピーカー一覧ページ`_ の実装
 - Webページ: `スピーカーTips`_ の企画、調整（翻訳は別の人）
 - Webページ: `スピーカーUpdate`_ の作成とメールマガジン配信
 - Webページ: `トークの応募方法`_ で、応募するメリットや過去の例、プロポーザルの書き方アドバイスを掲載
@@ -131,6 +131,10 @@ PyCon JP のスタッフをやりました。やるからにはしっかりや�
 - Togetter: https://togetter.com/li/1027325
 
 おかげさまで、セッションは満席で、良い反応が得られました。
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/3FTXp1hrS1U3WN" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/why-dont-you-share-your-code-snippet-for-your-jobas-a-open-source-software-pycon-jp-2016" title="仕事で使うちょっとしたコードをOSSとして開発メンテしていく- Django Redshift Backend の開発 - PyCon JP 2016" target="_blank">仕事で使うちょっとしたコードをOSSとして開発メンテしていく- Django Redshift Backend の開発 - PyCon JP 2016</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/shimizukawa">Takayuki Shimizukawa</a></strong> </div>
 
 
 .. _2016年4月21日 PyCon JP 2016 のトーク募集開始しました: http://pyconjp.blogspot.jp/2016/04/pycon-jp-2016-call-for-talk-proposal.html
