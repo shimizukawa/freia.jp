@@ -6,6 +6,14 @@
 
 .. .. latest::
 
+2017年
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   2017-kakizome/index
+
 2016年
 ------
 
