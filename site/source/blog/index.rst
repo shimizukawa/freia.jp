@@ -15,6 +15,7 @@
    2017-kakizome/index
    foundit-project-pydata-study/index
    esuji-lapis-bridal-party/index
+   python36-release-party/index
 
 2016年
 ------
