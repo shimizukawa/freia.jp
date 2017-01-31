@@ -131,6 +131,8 @@ Q&A
   * ``__fspath__`` メソッド内で例外が発生したら、Pythonプロセスごと落ちてしまった（いしもと）
 
 
+感想: Python3.5で十分だと思ってたけど、3.6で色々使いやすくなっていってて良い。最新を追おう
+
 （ここで10分ほど休憩）
 
 @Masahito :pep:`526` and 周辺ツールについて
@@ -151,9 +153,9 @@ Q&A
 
 * typing
 
-  * typoingモジュールはPython3.5で導入
+  * typingモジュールはPython3.5で導入
   * PyPIにあるので、 ``pip install typing`` でインストールすればPython2.7以降で使える
-  * Python3.6でのtypoingの変更点: Collection, ContextManager, NamedTuple 型の追加
+  * Python3.6でのtypingの変更点: Collection, ContextManager, NamedTuple 型の追加
 
 * 周辺ツール
 
@@ -178,7 +180,8 @@ Q&A
 * ``Protocol`` typingの中身
 
   * ダックタイピングな関数の動作に対して型を指定できる仕組みがtyping内部にありそう
-  * 
+
+
 
 .. _`[翻訳] PEP 0484 -- 型ヒント (Type Hints)`: http://qiita.com/t2y/items/f95f6efe163b29be59af
 .. _`[翻訳] Python の静的型、すごい mypy!`: http://qiita.com/t2y/items/2a1310608da7b5c4860b
@@ -195,7 +198,11 @@ Q&A
   * タプルの例: ``List[str, str, str]`` 3要素のstrのタプルはこう書かないと行けない
   * （まさひと）今のところ良い方法はなさそう
 
-.. * pytypeのメリットはなんですか？（しみずかわ）
+
+感想:
+
+* ちょっと要点が分かりづらかったかな(´･ω･`)
+* pytypeを使うメリットはなんですか？って聞こうと思ったけど時間の都合で聞けなかった残念
 
 
 @methane 新dict実装の話, New dict implementation
@@ -296,6 +303,9 @@ Q&A
   * 計算モデルが異なるので、まったく同じ用途という感じでもない（いしもと）
 
 
+感想: 非同期難しい
+
+
 LT: @cardinalxaro Effective PythonとPython 3.6, Python 3.6における『Effective Python』 項目33はこう変わる
 ===========================================================================================================
 
@@ -321,7 +331,7 @@ LT: @terapyon この10年のPython
   - 2.4以前から: 10人弱
   - 3.0以降から: 1人
 
-* （1年ごとにPythonになにが起きたかを振り返るスタイルのLTおもしろいw）
+感想: 1年ごとにPythonになにが起きたかを振り返るスタイルのLTおもしろいw
 
 
 LT: @aodag Python3移行への軌跡
@@ -338,6 +348,16 @@ LT: @aodag Python3移行への軌跡
 * six.u めっちゃがんばって入れてたけどPython3.3でuリテラル復活したからいらなくなった（ほんとね...）
 * Linuxディストリは2020年以降も2.7をサポートするらしいんで独自に頑張ってください
 * `PYTHON 3 WALL OF SUPERPOWERS`_ だいぶグリーン！赤いのは、主に、moz(mozilla)って書いてあるやつ
+
+感想:
+
+* 安定のaodag LT
+* おもいっきりネタバレtweetしてしまった。ごめんなさい
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">おー、Python 3 WALL OF SHAME の画像どっからもってきたんだろ。今は同じURLでPYTHON 3 WALL OF SUPERPOWERSというサイトになってる <a href="https://t.co/XLZOHAuZOw">https://t.co/XLZOHAuZOw</a>  <a href="https://twitter.com/hashtag/pystudy?src=hash">#pystudy</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/826404301782212609">2017年1月31日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 .. _PYTHON 3 WALL OF SHAME: https://python3wos.appspot.com/
@@ -356,6 +376,11 @@ LT: @koedoyoshida PyCon JP 2017の宣伝
 - これまでほぼ全部ボランティアスタッフで運営してきました
 - 今日はボランティアスタッフの募集に来ました
 
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">スゴイ<br>右肩上がり <a href="https://twitter.com/hashtag/pystudy?src=hash">#pystudy</a> <a href="https://t.co/UxM5hdWF4C">pic.twitter.com/UxM5hdWF4C</a></p>&mdash; Takuro Wada (@taxpon) <a href="https://twitter.com/taxpon/status/826405950336536576">2017年1月31日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 おわりに(@t2y)
 =====================
@@ -371,7 +396,9 @@ LT: @koedoyoshida PyCon JP 2017の宣伝
 
 * 100人くらい参加者きた
 * スタッフとして最初期に@t2yから声かけてもらったけど、ちょっとしたアドバイスと当日の受付少々くらいしか手伝えなかった
+* Yahoo LODGE の迷宮感。18Fまでエレベータで上がってフロア中央の階段で降りて回り込んで・・
 * 言語アップデートというテーマなので、話のレベルが高めだった。付いて来れなかった人けっこういるんじゃないかな
 * Python-3.6 の新機能についていっぺんに知ることができたので面白かった
-* 主催者の@t2yさん、会場を貸してくれたYahooさん、ありがとうございました!
-
+* 主催者の@t2yさん、会場を貸してくれたYahoo Japanさん、ありがとうございました!
+* 最後残ってた人たちの飲み会には不参加（今週飲み会多くて自重した・・）またこんど参加します！
+* で、歩いて帰りました
