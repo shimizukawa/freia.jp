@@ -10,7 +10,7 @@
 
 
 .. figure:: teratail-award.*
-   :width: 200
+   :width: 400
 
    表彰状もらった。2016年12月のPythonカテゴリ1位！
 
