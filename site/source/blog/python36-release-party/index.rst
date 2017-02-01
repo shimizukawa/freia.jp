@@ -141,7 +141,7 @@ Q&A
 * 時間: 20:10 - 20:32
 * 発表者: @Masahito
 * テーマ: :pep:`526` and 周辺ツールについて
-* スライド: 
+* スライド: http://www.slideshare.net/masahitojp/20170131-python3-6-pep526
 
 * :pep:`526` Syntax for Variable Annotations
 
@@ -324,7 +324,7 @@ LT: @terapyon この10年のPython
 * 時間: 21:10 - 21:15
 * 発表者: @terapyon
 * テーマ: この10年のPython
-* スライド: 
+* スライド: https://speakerdeck.com/terapyon/kofalse10nian-false-python
 
 - （会場に質問）みんないつから使い始めた？
 
@@ -391,6 +391,10 @@ LT: @koedoyoshida PyCon JP 2017の宣伝
 
 はい。
 
+.. raw:: html
+
+   <script src="https://s.togetter.com/static/web/js/parts.js"></script><script>tgtr.ExtendWidget({id:'1076636',url:'https://togetter.com/'});</script>
+
 全体的な感想
 ================
 
@@ -402,3 +406,7 @@ LT: @koedoyoshida PyCon JP 2017の宣伝
 * 主催者の@t2yさん、会場を貸してくれたYahoo Japanさん、ありがとうございました!
 * 最後残ってた人たちの飲み会には不参加（今週飲み会多くて自重した・・）またこんど参加します！
 * で、歩いて帰りました
+
+2/1更新
+   スライドURL追加、togetterリンク追加
+
