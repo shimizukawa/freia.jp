@@ -393,7 +393,7 @@ LT: @koedoyoshida PyCon JP 2017の宣伝
 
 .. raw:: html
 
-   <script src="https://s.togetter.com/static/web/js/parts.js"></script><script>tgtr.ExtendWidget({id:'1076636',url:'https://togetter.com/'});</script>
+   <script src="https://s.togetter.com/static/web/js/parts.js"></script><script>tgtr.ListWidget({id:'1076636',url:'https://togetter.com/',width:'320px',height:'240px'});</script>
 
 全体的な感想
 ================
