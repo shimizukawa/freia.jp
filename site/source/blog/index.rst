@@ -16,6 +16,7 @@
    foundit-project-pydata-study/index
    esuji-lapis-bridal-party/index
    python36-release-party/index
+   python-qanda/index
 
 2016年
 ------
