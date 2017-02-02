@@ -9,7 +9,7 @@
 趣味でStackOverflowとTeratailの質問に答えていたら、Teratailから表彰状をもらいました。
 
 
-.. figure:: teratail-award.*
+.. figure:: teratail-award-201612.*
    :width: 400
 
    表彰状もらった。2016年12月のPythonカテゴリ1位！
@@ -36,6 +36,13 @@ Javaを知ってる人がJavaの文脈でPythonを解釈しようとした例 ht
 
 * shimizukawaのTeratailステータス: https://teratail.com/users/shimizukawa/Score#reply
 * shimizukawaのStackOverflowステータス: http://ja.stackoverflow.com/users/806/takayuki-shimizukawa
+
+2/2追記:
+
+.. figure:: teratail-award-201701.*
+   :width: 400
+
+   1月も表彰状もらった！やったぜ！
 
 
 .. _driller: https://teratail.com/users/driller
