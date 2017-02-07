@@ -17,6 +17,7 @@
    esuji-lapis-bridal-party/index
    python36-release-party/index
    python-qanda/index
+   kakutei-shinkoku-201702/index
 
 2016年
 ------
