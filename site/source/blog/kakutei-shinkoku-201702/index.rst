@@ -1,6 +1,6 @@
-.. :date: 2017-02-07 23:55
-.. :categories: ['確定申告']
-.. :body type: text/x-rst
+:date: 2017-02-07 23:55
+:categories: ['確定申告']
+:body type: text/x-rst
 
 ==============================
 2017/02/07 確定申告2016年度分
