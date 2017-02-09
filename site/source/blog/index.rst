@@ -18,6 +18,7 @@
    python36-release-party/index
    python-qanda/index
    kakutei-shinkoku-201702/index
+   sphinxjp-tea-night-201702/index
 
 2016年
 ------
