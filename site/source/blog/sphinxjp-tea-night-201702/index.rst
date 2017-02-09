@@ -90,13 +90,13 @@
 
   本家サイト http://www.sphinx-doc.org/ja/stable に日本語訳を相乗りしています。
   このため、sphinx-users.jpドメインでSphinxドキュメントの日本語訳を置く必要はなくなりました。
-  ということで、検索されないようにdisallwoしました。
+  ということで、検索されないようにdisallowしました。
 
   @jbking が「"Sphinx 多言語" でGoogle検索すると古いドキュメント(docs.sphinx-users.jp)がヒットするのが困る」と言うので、サクッと対応しました。
 
 * http://sphinx-usres.jp/robots.txt を置いて/doc10, /doc11を検索から除外
 
-  既にSphinx-1.5まで進んでいるので、いまさら1.0や1.1のドキュメントはあってもしょうがないですね。ということで検索されないようにdisallwoしました。
+  既にSphinx-1.5まで進んでいるので、いまさら1.0や1.1のドキュメントはあってもしょうがないですね。ということで検索されないようにdisallowしました。
   docs.sphinx-uesrs.jp の件で思い付いてついでに実施。
 
 
