@@ -1,0 +1,297 @@
+=====================================
+Chefの 環境別設定が 難しい話
+=====================================
+
+.. s6:: styles
+
+   'h1': {marginTop:'0.5em', fontSize: '270%', wordBreak: 'keep-all'},
+
+おまえ、誰よ
+=============
+.. figure:: face.png
+
+* `http://清水川.jp/ <http://清水川.jp/>`_
+  `@shimizukawa <http://twitter.com/shimizukawa>`_
+* 活動:
+   * ドキュメントツールSphinxのメンテナ
+   * Sphinx-users.jp 会長
+   * Python系, PyConJP系, XP系
+* 言語:
+   * C++/C/8086/**Python**/Rails/chef
+
+.. s6:: styles
+
+    'ul': {fontSize:'128%'},
+    'div[0]': {width:'15%', position:'absolute', top:'1em', right:'1em'},
+
+.. s6:: effect slide
+
+
+所属
+=====
+
+.. figure:: beproud_logo.png
+
+.. s6:: styles
+
+   'h2': {fontSize:'120%', textAlign:'center'},
+   'div[0]/img': {margin:'2em', marginTop:'1.5em', width:'80%', backgroundColor:'white'},
+   'div/img': {border:'0.1em gray outset'},
+
+.. s6:: effect slide
+
+
+宣伝: PyCon APAC 2013 in Japan
+================================
+
+.. figure:: pyconapac2013.png
+
+* Schedule:
+
+  * カンファレンス: 9月, 14(Sat) 15(Sun)
+  * スプリント: 9月, 16(Mon)
+
+* Location:
+
+  * 東京 新宿
+
+* 参加登録:
+
+  * 6月中に開始予定
+
+.. s6:: styles
+
+    'div[0]': {width:'17%', position:'absolute', top:'4em', right:'0'},
+
+.. s6:: effect slide
+
+Chefで使っているツール等
+==========================
+
+* knife-solo-0.3.0.pre4 : soro.rbいらず
+* knife-solo_data_bag : knife-soloで暗号化data-bags
+* capistrano-paratrooper-chef : chef-solo並列実行
+* cookbooks :
+
+  * yum, git, hostname, openssh, selinux, sudo, timezone, user, screen
+  * rbenv, ruby_build, jenkins, memcached, mysql, nginx, postfix
+  * python-build, mercurial-env, shimizukawa-env
+
+.. s6:: styles
+
+   'ul': {fontSize:'70%'},
+
+.. s6:: effect slide
+
+Case1
+=======
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+.. s6:: effect slide
+
+Case1: 配置するファイルが異なる
+================================
+
+例:
+
+* nginxのSSL鍵ファイル
+* upstartに書くアプリケーションの設定ファイルpath
+
+Case1: 配置するファイルが異なる
+================================
+
+現状:
+
+* chef-serverであればenvironmentで環境別にattributeを設定できる。
+  `About Environments - Chef Docs`_
+* chef-soloだと11.4.4では使えないがchefのリポジトリ上では対応済みらしい。
+  `CHEF-3356 Adds support for environments when running under chef-solo`_
+
+.. _About Environments - Chef Docs: http://docs.opscode.com/essentials_environments.html
+.. _CHEF-3356 Adds support for environments when running under chef-solo: https://github.com/opscode/chef/pull/649
+
+
+Case2
+=======
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+.. s6:: effect slide
+
+Case2: 実行したいrun_listが異なる
+====================================
+
+例:
+
+* 社内環境でだけjenkinsもrun_listに含めたい
+
+
+Case2: 実行したいrun_listが異なる
+====================================
+
+現状:
+
+* chef-serverであればrole定義内のenv_run_listが使える。
+  `About Environments - Chef Docs`_
+* chef-soloだと11.4.4では使えないがchefのリポジトリ上では対応済みらしい。
+  `CHEF-3356 Adds support for environments when running under chef-solo`_
+
+
+Case3
+=======
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+.. s6:: effect slide
+
+
+Case3: ユーザーのssh設定が異なる
+=================================
+
+例:
+
+* .ssh以下のファイルは本番サーバーと開発サーバーで変えたい
+
+  * .ssh/authorized_keys
+  * .ssh/config
+  * .ssh/鍵
+
+
+Case3: ユーザーのssh設定が異なる
+=================================
+
+現状:
+
+* user作成レシピはcommunityやgithubのものを含めてたくさんあるがenvironmentには対応していないし、chef-soloで使えないuserレシピが多い
+
+  * http://community.opscode.com/cookbooks/user
+  * http://community.opscode.com/cookbooks/users
+  * https://github.com/libero18/user
+  * https://github.com/...
+
+
+Case4
+=======
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+.. s6:: effect slide
+
+
+Case4: 自作cookbookを環境対応したい
+========================================
+
+例:
+
+* /etc/hostsの内容を細かく制御したい
+* iptablesのルールを細かく制御したい
+
+でも既存のcookbookではenvironmentに対応していないものが多い
+
+Case4: 自作cookbookを環境対応したい
+========================================
+
+無いなら自分で作るしか！！
+
+* でも私はchef-soloユーザー
+* chef_environmentは chef-solo 11.4.4では使えない
+* node.my_environment を持たせて頑張ってみた
+
+
+Chef Docs 推奨のデータ構造
+============================
+
+.. code-block:: text
+   :linenos:
+
+   {
+      "id": "www",
+      "ssh_keys": {
+         "production": [
+            "ssh-rsa AAAB3Scw....",
+            "ssh-rsa AAA2GsCn....",
+            ...
+         ],
+         "staging": [
+            ...
+         ],
+         "develop": [
+            ...
+         ]
+      }
+   }
+
+.. s6:: styles
+
+   'div/table': {fontSize: '120%'},
+
+.. s6:: effect slide
+
+より細かく制御できる構造
+============================
+
+.. code-block:: text
+   :linenos:
+
+   {
+      "id": "www",
+      "ssh_keys": [
+         {
+            "envnode": [
+               "production/*",
+               "staging/*",
+               "develop/*"
+            ],
+            "keys": [
+               "ssh-rsa AAAB3Scw...."
+            ]
+         }
+         {
+            "envnode": [
+               "production/node1",
+               "production/node2",
+               "staging/*",
+            ],
+            "keys": [
+               "ssh-rsa AAA2GsCn....",
+               ...
+            ]
+         }
+      ]
+   }
+
+.. s6:: styles
+
+   'div/table': {fontSize: '95%'},
+
+.. s6:: effect slide
+
+Questions?
+===========
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+.. s6:: effect slide
+
+
+ありがとうございました
+=========================
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+.. s6:: effect slide
+
+

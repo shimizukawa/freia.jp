@@ -1,0 +1,549 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Refactoring A Python Beginner’s Code</title>
+    <link rel="stylesheet" href="_static/s6.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+<script type="text/javascript" src="_static/jquery.js"></script>
+<script type="text/javascript" src="_static/jquery.touchwipe.min.js"></script>
+<script type="text/javascript" src="_static/s6.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+
+var bodyStyle = {
+    width: '100%',
+    height: '100%',
+    padding: '0',
+    margin: '0',
+    overflow: 'hidden',
+    backgroundColor: 'white',
+};
+
+s6.css('html', bodyStyle);
+s6.css('body', bodyStyle);
+s6.css('.s6 .page.default > h2', {margin:'0'});
+
+function calcMetrics(options) {
+    var html = document.documentElement;
+    var options = s6.opts(options, {
+        width: html.offsetWidth,
+        height: html.offsetHeight,
+        ratio: 0.75,
+        fontSize: 0.1
+    });
+    var left = 0;
+    var top = 0;
+    var width = options.width;
+    var height = options.height;
+
+    if (height / width < options.ratio) {
+        var originalWidth = width;
+        width = height / options.ratio;
+        left = (originalWidth - width) / 2;
+    }
+    else {
+        var originalHeight = height;
+        height = width * options.ratio;
+        top = (originalHeight - height) / 2;
+    }
+
+    return {
+        left: left,
+        top: top,
+        width: width,
+        height: height,
+        fontSize: height * options.fontSize
+    }
+}
+
+var pr;
+s6.attach(s6, 'ready', function ready() {
+    var fontSize = 0.08;
+    var html = document.documentElement;
+    var metrics = calcMetrics({fontSize: fontSize});
+    var startIndex = 0;
+
+    var result;
+    if (location.hash) {
+        startIndex = $('.section').index($(location.hash));
+        if(startIndex < 0) {
+            startIndex = 0;
+        }
+    }
+
+    var container = $('.section')[0];
+    pr = new s6.Presentation({
+            thema: 'sphinx',
+            element: container,
+            width: metrics.width,
+            height: metrics.height,
+            startIndex: startIndex,
+            fontSize: fontSize
+        });
+    pr.style.left = metrics.left + 'px';
+    pr.style.top = metrics.top + 'px';
+    pr.start();
+
+    var indexNoOutline = false;
+
+    pr.funcPages.index.attachPage('click', function(i, element, wrapper) {
+        indexNoOutline = true;
+        setTimeout(function() {
+            indexNoOutline =false
+        }, 1000);
+        wrapper.style.background = '';
+        pr.go(i);
+    });
+
+    pr.funcPages.index.attachPage('mouseover', function(i, element, wrapper) {
+        if (indexNoOutline) return;
+        wrapper.className += ' selected';
+    });
+    
+    pr.funcPages.index.attachPage('mouseout', function(i, element, wrapper) {
+        wrapper.className = 'wrapper';
+    });
+
+    try {
+        var isIframe = !(window.parent == window);
+    } catch(e) {
+        isIframe = true;
+    }
+
+    // add navigation overlay
+    function createNaviArea(id, options){
+        var opts = s6.opts(options, {
+            widthRatio: 1.0,
+            heightRatio: 1.0,
+            dockTo: 'top',
+            label: ''
+        });
+        function calcNaviMetrics(){
+            var html = document.documentElement;
+            var metrics = calcMetrics({fontSize: fontSize});
+            var naviAreaWidth = ((html.offsetWidth - metrics.width) / 2 + (metrics.width * opts.widthRatio));
+            var naviAreaHeight = ((html.offsetHeight - metrics.height) / 2 + (metrics.height * opts.heightRatio));
+            var width = (opts.widthRatio >= 1.0)? html.offsetWidth: naviAreaWidth;
+            var height = (opts.heightRatio >= 1.0)? html.offsetHeight: naviAreaHeight;
+            var left = 0;
+            var top = 0;
+            if(opts.dockTo == 'right') {
+                left = html.offsetWidth - width;
+            }
+            else if(opts.dockTo == 'bottom') {
+                top = html.offsetHeight - height;
+            }
+            return {
+                width: width,
+                height: height,
+                left: left,
+                top: top
+            };
+        }
+        function setMetrics(elem, metrics) {
+            elem.css('position', 'absolute')
+                .css('left',  metrics.left + 'px')
+                .css('top',  metrics.top + 'px')
+                .css('width',  metrics.width + 'px')
+                .css('height',  metrics.height + 'px');
+            return elem;
+        }
+        var naviMetrics = calcNaviMetrics();
+        var elem = $('<div>', {id: id, class: 'navigation-area-'+opts.dockTo});
+        setMetrics(elem, naviMetrics);
+        var label = $('<span>')
+            .css('line-height', naviMetrics.height + 'px')
+            .text(opts.label);
+        elem.append(label);
+        $(window).resize(function(){
+            var naviMetrics = calcNaviMetrics();
+            setMetrics(elem, naviMetrics);
+            label.css('line-height', naviMetrics.height + 'px')
+        });
+        return elem;
+    }
+    var naviIdx  = createNaviArea('idxpage', {heightRatio: 0.1, dockTo: 'top', label: 'index'});
+    var naviBack = createNaviArea('backpage', {heightRatio: 0.1, dockTo: 'bottom', label: 'back'});
+    var naviNext = createNaviArea('nextpage', {widthRatio: 0.1, dockTo: 'right', label: '≫'});
+    var naviPrev = createNaviArea('prevpage', {widthRatio: 0.1, dockTo: 'left', label: '≪'});
+    s6.attach(naviIdx[0],  'click', function() { pr.go('index') });
+    s6.attach(naviBack[0], 'click', 'back', 0, pr);
+    s6.attach(naviNext[0], 'click', 'step', 0, pr);
+    s6.attach(naviPrev[0], 'click', 'prev', 0, pr);
+    $('div.document')
+        .append(naviIdx)
+        .append(naviBack)
+        .append(naviNext)
+        .append(naviPrev);
+
+    // setup mouse events
+    s6.attach(document, 'click', 'step', 0, pr);
+    s6.attach(document, 'keypress Right', 'step', 0, pr);
+    s6.attach(document, 'keypress Left',  'prev', 0, pr);
+    s6.attach(document, 'keypress Up',    function() { pr.go('index') });
+    s6.attach(document, 'keypress Down',  'back', 0, pr);
+
+    // inject 'target=_blank' to link-targets.
+    // prevent paging if click link-target.
+    var clickGuard = function(evt){
+        pr.busy = true;
+        setTimeout(function(){pr.busy = false;}, 1000);
+        return true;
+    }
+    $('a[href]')
+        .attr('target', '_blank')
+        .click(clickGuard)
+        .mousedown(clickGuard)
+        .mouseup(clickGuard)
+        .bind('contextmenu', clickGuard);
+
+    // setup swipe events
+    if($(document).touchwipe) {
+        var wipeSetting = {
+            wipeLeft: function(){ pr.step(); },
+            wipeRight: function(){ pr.prev(); },
+            wipeUp: function(){ pr.go('index'); },
+            wipeDown: function(){ pr.back(); },
+            preventDefaultEvent: true
+        }
+        $(document).touchwipe(wipeSetting);
+        $(pr.element).touchwipe(wipeSetting);
+    }
+
+    // resize window
+    $(window).resize(function(){
+        var html = document.documentElement;
+        var metrics = calcMetrics({fontSize: fontSize});
+        pr.style.left = metrics.left + 'px';
+        pr.style.top = metrics.top + 'px';
+        pr.style.width = metrics.width + 'px';
+        pr.style.height = metrics.height + 'px';
+        pr.style.fontSize = metrics.fontSize + 'px';
+    });
+
+    // handle page number and set to href
+    pr._go  = pr.go;
+    pr.go = function(toIndex) {
+        pr._go(toIndex);
+        if(pr.getPage(toIndex)) {
+            location.href = '#' + $(".section")[toIndex].id; //want to set at paging.
+        }
+    }
+});
+// ]]>
+</script>
+
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li><a href="#">Refactoring Python Beginners Code v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="refactoring-a-python-beginner-s-code">
+<h1>Refactoring A Python Beginner&#8217;s Code<a class="headerlink" href="#refactoring-a-python-beginner-s-code" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="pyconjp0">
+<h2>ああ、PyConJPの講演資料っていうんですか、まだ0%ですね。<a class="headerlink" href="#pyconjp0" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center',margin:'20% auto'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'fadeScaleFromUpTransparent'});}</script>
+</div>
+<div class="section" id="today-s-presentation-source">
+<h2>Today&#8217;s Presentation &amp; source<a class="headerlink" href="#today-s-presentation-source" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://shimizukawa.bitbucket.org/">http://shimizukawa.bitbucket.org/</a></li>
+<li><a class="reference external" href="https://bitbucket.org/shimizukawa/refactoring-python-beginners-code">https://bitbucket.org/shimizukawa/refactoring-python-beginners-code</a></li>
+</ul>
+</div>
+<div class="section" id="who-am-i">
+<h2>Who am I / おまえ誰よ<a class="headerlink" href="#who-am-i" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://清水川.jp/">http://清水川.jp/</a>
+<a class="reference external" href="http://twitter.com/shimizukawa">&#64;shimizukawa</a></li>
+<li>BeProud</li>
+<li>PyConJP 2012 vice-chairman, Sphinx-users.jp vice-chairman</li>
+</ul>
+<div class="figure">
+<img alt="_images/sphinxusers.jpg" src="_images/sphinxusers.jpg" />
+</div>
+<div class="figure">
+<img alt="_images/beproud.gif" src="_images/beproud.gif" />
+</div>
+<div class="figure">
+<img alt="_images/pyconjp2012_logo.png" src="_images/pyconjp2012_logo.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'fadeScaleFromUpTransparent'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'65%'},
+'div[0]/img': {position:'absolute', right:0, top:0, width:'40%'},
+'div[1]/img': {position:'absolute', right:0, top:'100px', width:'30%'},
+'div[2]/img': {position:'absolute', left:'2em', top:'0px', width:'30%'}}});}</script>
+</div>
+<div class="section" id="python-books">
+<h2>2 Python books<a class="headerlink" href="#python-books" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<img alt="_images/epp.jpg" src="_images/epp.jpg" />
+<img alt="_images/pypro.png" src="_images/pypro.png" />
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'img': {width:'40%', margin: '0, 0, 0, 20%'}}});}</script>
+</div>
+<div class="section" id="expert-python-reading-pyconjp2012-edition">
+<h2>9/16、Expert Python Reading PyConJP2012 Edition<a class="headerlink" href="#expert-python-reading-pyconjp2012-edition" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>at 9/16 OpenSpace</li>
+<li>Gift something...</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {display: 'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]', 'fade in', '0.3'],
+['ul/li[1]', 'fade in', '0.3']]});}</script>
+</div>
+<div class="section" id="my-confusions-when-i-started-python-programing">
+<h2>My Confusions when I started Python programing<a class="headerlink" href="#my-confusions-when-i-started-python-programing" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>I didn&#8217;t know what is good coding style in Python</li>
+<li>I tried to port code from C/C++ to Python</li>
+<li>That code looks like Java or C++</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {display: 'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]', 'fade in', '0.3'],
+['ul/li[1]', 'fade in', '0.3'],
+['ul/li[2]', 'fade in', '0.3']]});}</script>
+</div>
+<div class="section" id="my-code-in-2004">
+<h2>My code in 2004<a class="headerlink" href="#my-code-in-2004" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="highlight-python"><pre>class PlayerMaker:
+    def __init__(self):
+        self.name = ""
+        self.hp = 0
+        self.at = 0
+        ...
+
+    def setName( self, item ):
+        self.name = item.text
+
+    def setHp( self, item ):
+        self.hp = int(item.text)
+
+    def setAt( self, item ):
+        self.at = int(item.text)
+
+    def setDf( self, item ):
+        self.df = int(item.text)
+
+    def setAg( self, item ):
+        self.ag = int(item.text)
+
+   ...</pre>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="a-code-i-just-glanced-a-few-months-ago">
+<h2>A code I just glanced a few months ago<a class="headerlink" href="#a-code-i-just-glanced-a-few-months-ago" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="highlight-java"><div class="highlight"><pre><span class="kd">public</span> <span class="kd">class</span> <span class="nc">ISBNConverter</span> <span class="o">{</span>
+   <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+      <span class="o">...</span>
+      <span class="kt">char</span> <span class="o">[]</span> <span class="n">cisbn</span> <span class="o">=</span> <span class="n">isbn</span><span class="o">.</span><span class="na">toCharArray</span><span class="o">();</span>
+      <span class="kt">int</span> <span class="o">[]</span> <span class="n">iisbn</span><span class="o">;</span>
+      <span class="n">iisbn</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">10</span><span class="o">];</span>
+      <span class="o">...</span>
+      <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">idx</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span> <span class="n">idx</span><span class="o">&lt;</span><span class="mi">9</span><span class="o">;</span> <span class="n">idx</span><span class="o">++)</span> <span class="o">{</span>
+          <span class="n">iisbn</span><span class="o">[</span><span class="n">idx</span><span class="o">]</span> <span class="o">=</span> <span class="n">Character</span><span class="o">.</span><span class="na">digit</span><span class="o">(</span><span class="n">cisbn</span><span class="o">[</span><span class="n">idx</span><span class="o">],</span> <span class="mi">10</span><span class="o">);</span>
+          <span class="k">if</span> <span class="o">((</span><span class="n">iisbn</span><span class="o">[</span><span class="n">idx</span><span class="o">]&lt;</span><span class="mi">0</span><span class="o">)||(</span><span class="n">iisbn</span><span class="o">[</span><span class="n">idx</span><span class="o">]&gt;</span><span class="mi">9</span><span class="o">)){</span>
+              <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Error: Not a number is included in the 9 numbers.&quot;</span><span class="o">);</span>
+              <span class="n">System</span><span class="o">.</span><span class="na">exit</span><span class="o">(</span><span class="mi">0</span><span class="o">);</span>
+      <span class="o">...</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="i-tried-to-rewrite-by-python-straightly">
+<h2>I tried to rewrite by python straightly<a class="headerlink" href="#i-tried-to-rewrite-by-python-straightly" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="highlight-python"><pre>def main(args):
+    ...
+    cisbn = isbn
+    iisbn = [None] * 10;
+    ...
+    for idx in range(9):
+        if not cisbn[idx].isdigit():
+            print("Error: Not a number is included in the 9 numbers.")
+            sys.exit(0)
+        iisbn[idx] = int(cisbn[idx])
+
+    if cisbn[9] == 'X':
+        iisbn[9] = 10
+    else:</pre>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="why-the-code-does-not-seems-like-python">
+<h2>Why the code does not seems like Python?<a class="headerlink" href="#why-the-code-does-not-seems-like-python" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center',margin:'30% auto'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="camelcase-getter-setter">
+<h2>CamelCase getter/setter<a class="headerlink" href="#camelcase-getter-setter" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">class</span> <span class="nc">PlayerMaker</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">hp</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">setName</span><span class="p">(</span> <span class="bp">self</span><span class="p">,</span> <span class="n">item</span> <span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">text</span>
+
+    <span class="k">def</span> <span class="nf">setHp</span><span class="p">(</span> <span class="bp">self</span><span class="p">,</span> <span class="n">item</span> <span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">hp</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">item</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+
+    <span class="o">...</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="range-for-loop">
+<h2>range for-loop<a class="headerlink" href="#range-for-loop" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>Like <tt class="docutils literal"><span class="pre">for(i=0;</span> <span class="pre">i&lt;9;</span> <span class="pre">i++)</span> <span class="pre">{...}</span></tt></p>
+<div class="highlight-python"><pre>for idx in range(9):</pre>
+</div>
+<p>For example...</p>
+<div class="highlight-python"><pre>for i in range(9):
+    if not cisbn[i].isdigit():
+    ...</pre>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="prepare-fixed-length-array">
+<h2>Prepare fixed-length array<a class="headerlink" href="#prepare-fixed-length-array" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>Initializing array...</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">iisbn</span> <span class="o">=</span> <span class="p">[</span><span class="bp">None</span><span class="p">]</span> <span class="o">*</span> <span class="mi">10</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>For example...</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">for</span> <span class="n">idx</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">9</span><span class="p">):</span>
+    <span class="o">...</span>
+    <span class="n">iisbn</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">cisbn</span><span class="p">[</span><span class="n">idx</span><span class="p">])</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<p>そうだ、リファクタリングしよう</p>
+</div>
+<div class="section" id="ok-let-s-refactoring">
+<h2>OK, Let&#8217;s refactoring!<a class="headerlink" href="#ok-let-s-refactoring" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center',margin:'30% auto'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="first-we-need-test-case">
+<h2>First, we need Test-Case<a class="headerlink" href="#first-we-need-test-case" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>We NEED test case before any changes</li>
+<li>Changes SHOULD NOT effect the results</li>
+<li>For now, I test only printed text.</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {display: 'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]', 'fade in', '0.3'],
+['ul/li[1]', 'fade in', '0.3'],
+['ul/li[2]', 'fade in', '0.3']]});}</script>
+</div>
+<div class="section" id="practice">
+<h2>Practice<a class="headerlink" href="#practice" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center',margin:'30% auto'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="the-points-of-refactoring">
+<h2>The points of refactoring<a class="headerlink" href="#the-points-of-refactoring" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>Remove <tt class="docutils literal"><span class="pre">range</span></tt> loop</li>
+<li>Decrease variables</li>
+<li>Separate some processing in a loop</li>
+<li>Add new function to split code</li>
+<li>Replace complex loop by simple one</li>
+<li>Use Exceptions instead of <tt class="docutils literal"><span class="pre">print/exit</span></tt></li>
+<li>Write Test-Case for new functions</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {display: 'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]', 'fade in', '0.3'],
+['ul/li[1]', 'fade in', '0.3'],
+['ul/li[2]', 'fade in', '0.3'],
+['ul/li[3]', 'fade in', '0.3'],
+['ul/li[4]', 'fade in', '0.3'],
+['ul/li[5]', 'fade in', '0.3'],
+['ul/li[6]', 'fade in', '0.3']]});}</script>
+</div>
+<div class="section" id="questions">
+<h2>Questions?<a class="headerlink" href="#questions" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center',margin:'30% auto'}}});}</script>
+</div>
+<div class="section" id="thank-you">
+<h2>Thank You!<a class="headerlink" href="#thank-you" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center',margin:'30% auto'}}});}</script>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li><a href="#">Refactoring Python Beginners Code v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+<div class="footer">
+    <span>Refactoring A Python Beginner’s Code :: 2012, shimizukawa</span><br />
+    <span class="hidden">操作方法: 上下左右キーで操作です</span>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,969 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Pythonで アジャイル 開発サイクル 2010ver.</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+<script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+<script type="text/javascript">
+Hatena.Star.Token = '453373e8033d23906b6c28b1973274117b66ab97';
+Hatena.Star.SiteConfig = {
+  entryNodes: {
+    'div.footer': {
+      uri: 'span a',
+      title: 'span a',
+      container: 'span'
+    }
+  }
+};
+</script>
+
+<script type="text/javascript" src="_static/jquery.js"></script>
+<script type="text/javascript" src="_static/HatenaBookmark.js"></script>
+<script type="text/javascript">
+Hatena.xBookmark.SiteConfig = {
+  'div.footer span a': {},
+};
+</script>
+
+<script type="text/javascript" src="_static/s6.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+
+var bodyStyle = {
+    width: '100%',
+    height: '100%',
+    padding: '0',
+    margin: '0',
+    overflow: 'hidden',
+    backgroundColor: 'black'
+};
+
+s6.css('html', bodyStyle);
+s6.css('body', bodyStyle);
+s6.css('.s6 .page.default > h2', {margin:'0'});
+
+var pr;
+s6.attach(s6, 'ready', function ready() {
+    var html = document.documentElement;
+    var height = html.offsetHeight;
+    var width = html.offsetWidth;
+    var top = 0;
+    var left = 0;
+
+    if (height / width < 0.75) {
+        var originalWidth = width;
+        width = height / 0.75;
+        left = (originalWidth - width) / 2 + 'px';
+    }
+    else {
+        var originalHeight = height;
+        height = width * 0.75;
+        top = (originalHeight - height) / 2 + 'px';
+    }
+
+    var result;
+    if (result = document.cookie.match(/page=(\d+)/)) {
+        var startIndex = +result[1];
+    }
+
+    var container = document.getElementById('python-2010ver');
+    pr = new s6.Presentation({ element: container, width: width, height: height, startIndex: startIndex, fontSize: 0.08 });
+    pr.style.left = left;
+    pr.style.top = top;
+    pr.start();
+
+    var indexNoOutline = false;
+
+    pr.funcPages.index.attachPage('click', function(i, element, wrapper) {
+        indexNoOutline = true;
+        setTimeout(function() {
+            indexNoOutline =false
+        }, 1000);
+        wrapper.style.background = '';
+        pr.go(i);
+    });
+
+    pr.funcPages.index.attachPage('mouseover', function(i, element, wrapper) {
+        if (indexNoOutline) return;
+        wrapper.className += ' selected';
+    });
+    
+    pr.funcPages.index.attachPage('mouseout', function(i, element, wrapper) {
+        wrapper.className = 'wrapper';
+    });
+
+    try {
+        var isIframe = !(window.parent == window);
+    } catch(e) {
+        isIframe = true;
+    }
+
+    s6.attach(document,   'click', 'step', 0, pr);
+    s6.attach(document,   'keypress Right', 'step', 0, pr);
+    s6.attach(document,   'keypress Left',  'prev', 0, pr);
+    s6.attach(document,   'keypress Up',    function() { pr.go('index') });
+    s6.attach(document,   'keypress Down',  'back', 0, pr);
+});
+
+// Test
+setInterval(function() {
+    document.cookie = 'page=' + pr.index;
+}, 1000);
+// ]]>
+</script>
+
+<style>
+.s6 h1 {
+    font-size: 275% !important;
+}
+.s6 h2, .s6 h3 {
+    background-image: url(_static/title_bg.gif);
+    padding: 2% 3% !important;
+}
+.s6.dark .page {
+    background-color: black;
+}
+.s6 .index {
+    background-color: gray;
+}
+.s6 .page dd {
+    margin-left: 1em;
+}
+.s6 .page .figure {
+    position: absolute;
+    right: 0.5em;
+    bottom: 0.5em;
+    z-index: 0;
+}
+.s6 .page .figure img {
+    width: 100%;
+}
+.s6 .page strong {
+    font-weight: bold;
+    font-size: 120%;
+    color: #f66;
+}
+.s6 .page strong.command {
+    color: #0ff;
+}
+
+@media print{
+.s6{
+  top:0 !IMPORTANT;
+  left:0 !IMPORTANT;
+  width:180mm !IMPORTANT;
+  height:265mm !IMPORTANT;
+}
+
+.s6 .index.page .inner.s6 .page .wrapper{
+  width:47% !IMPORTANT;
+  height:32% !IMPORTANT;
+  font-size:40%;
+  line-height:1.2;
+}}
+</style>
+
+  </head>
+  <body>
+<div class="header">
+<div style="float:right;"><a href="#">≫</a></div>
+</div>
+
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li><a href="#">XP祭り2010: Pythonでアジャイル開発サイクル 2010ver 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="python-2010ver">
+<h1>Pythonで アジャイル 開発サイクル 2010ver.<a class="headerlink" href="#python-2010ver" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="id1">
+<h2>このコンテンツのコンテキスト<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<blockquote>
+<div>アジャイル開発をやっていると欲しくなる自動化ツール類を全て
+Python でそろえてみよう！</div></blockquote>
+<p>という <strong>Engineering Practice</strong> な <strong>コンテキスト</strong> で話をします。</p>
+<script>
+s6.page({
+    styles: {
+        p: {textAlign: 'right', margin:'0', marginLeft:'3em'},
+        blockquote: {fontSize: '120%'}
+    }
+});
+</script></div>
+<div class="section" id="id2">
+<h2>そのまえに...<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>そのまえに...</p>
+<script>
+s6.page({
+    styles: {
+        h2: {display:'none'},
+        p: {fontSize:'150%', textAlign:'center', margin:'30% auto'}
+    }
+});
+</script></div>
+<div class="section" id="id3">
+<h2>自己紹介1: 清水川 貴之<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><p class="first"><a class="reference external" href="http://清水川.jp/">http://清水川.jp/</a>
+<a class="reference external" href="http://twitter.com/shimizukawa">&#64;shimizukawa</a></p>
+</li>
+<li><dl class="first docutils">
+<dt>お仕事:</dt>
+<dd><ul class="first last simple">
+<li>Python+Thrift+PHPによる認証サーバーとかCMSとか</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>コミュ:</dt>
+<dd><ul class="first last simple">
+<li>Zope/Plone系, Sphinx系, pyspa系, XP系</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>言語:</dt>
+<dd><ul class="first last simple">
+<li>Python, Rails, 昔はC++/C/8086</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="figure">
+<img alt="_images/sphinxusers.jpg" src="_images/sphinxusers.jpg" />
+</div>
+<script>s6.page({effect: 'fadeScaleFromUpTransparent'});</script>
+
+<script>
+s6.page({
+    styles: {
+        'ul': {fontSize:'65%'},
+        'div': {width:'60%'},
+        'div/img': {opacity: 0.7}
+    }
+});
+</script></div>
+<div class="section" id="id4">
+<h2>自己紹介2: 最近やってること<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>Deliverance / xdv</dt>
+<dd><ul class="first last simple">
+<li>Webフレームワークのテンプレを書き換えずにデザイン適用</li>
+<li>複数のフレームワークをまたがって同じデザインに</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>詳しくは <a class="reference external" href="http://縮.jp/一点">http://縮.jp/一点</a> で！</p>
+<script>s6.page({effect: 'fadeScaleFromUpTransparent'});</script></div>
+<div class="section" id="id6">
+<h2>自己紹介3: 翻訳本を出しました<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>エキスパートPythonプログラミング</dt>
+<dd><ul class="first last simple">
+<li>アスキー・メディアワークス</li>
+<li>B5変 (416ページ)</li>
+<li>3780円</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="figure">
+<img alt="_images/epp.jpg" src="_images/epp.jpg" />
+</div>
+<script>s6.page({effect: 'fadeScaleFromUpTransparent'});</script>
+
+<script> s6.page({ styles: { 'div': {width:'30%'}, } }); </script></div>
+<div class="section" id="id7">
+<h2>自己紹介3: 翻訳本を出しました.<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>エキPythonの概要</p>
+<ul class="simple">
+<li>1章: 環境別インストール</li>
+<li>2章: リスト内包表記, デコレータ</li>
+<li>3章: メタクラス, デスクリプタ</li>
+<li>4章: 良い名前を選ぶ</li>
+<li>5,6章: アプリ作成とパッケージング</li>
+<li>7章～11章: ずっとXP的な話</li>
+<li>12～15章: 最適化,デザパタ,日本語</li>
+</ul>
+<div class="figure">
+<img alt="_images/epp.jpg" src="_images/epp.jpg" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'div': {width:'30%'},
+        'div/img': {opacity:'0.5'},
+        'p': {marginTop:'0.1em',marginBottom:'0.1em'},
+        'ul': {marginTop:'0.1em'},
+        'ul/li': {display: 'none'}
+    },
+    actions: [
+        ['ul/li[0]', 'fade in', '0.3'],
+        ['ul/li[1]', 'fade in', '0.3'],
+        ['ul/li[2]', 'fade in', '0.3'],
+        ['ul/li[3]', 'fade in', '0.3'],
+        ['ul/li[4]', 'fade in', '0.3'],
+        ['ul/li[5]', 'fade in', '0.3'],
+        ['ul/li[6]', 'fade in', '0.3'],
+    ]
+});
+</script></div>
+<div class="section" id="id8">
+<h2>自己紹介3: 翻訳本を出しました..<a class="headerlink" href="#id8" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>エキPythonの概要</p>
+<ul class="simple">
+<li>1章: 環境別インストール</li>
+<li>2章: リスト内包表記, デコレータ</li>
+<li>3章: メタクラス, デスクリプタ</li>
+<li>4章: 良い名前を選ぶ</li>
+<li>5,6章: アプリ作成とパッケージング</li>
+<li>7章～11章: ずっとXP的な話</li>
+<li>12～15章: 最適化,デザパタ,日本語</li>
+</ul>
+<p>今日はこのへんの話をします。</p>
+<div class="figure">
+<img alt="_images/epp.jpg" src="_images/epp.jpg" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'div': {width:'30%'},
+        'div/img': {opacity:'0.5'},
+        'p[0]': {marginTop:'0.1em',marginBottom:'0.1em',visibility:'hidden'},
+        'p[1]': {marginTop:'-3em', display:'none'},
+        'ul': {marginTop:'0.1em'},
+        'ul/li': {visibility: 'hidden',color:'orange'},
+        'ul/li[5]': {visibility: 'visible'}
+    },
+    actions: [
+        ['ul', 'move', '0.3', [0,0],[0,-32]],
+        ['p[1]', 'fade in', '0.3']
+    ]
+});
+</script></div>
+<div class="section" id="xp">
+<h2>XPとワタシ<a class="headerlink" href="#xp" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>XPとの出会いは2002年頃、当時は組み込み開発へのxUnit適用と継続的インテグレーションを実践していました。2003年頃からZope, 2005年からPythonを使い始めましたが、それ以降もUnitTestや自動化といったことを続けています。</p>
+<script>
+s6.page({
+    styles: {
+        p: {fontSize:'100%'}
+    }
+});
+</script></div>
+<div class="section" id="id9">
+<h2>アジャイルに必要な自動化<a class="headerlink" href="#id9" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p><strong>Engineering Practice</strong></p>
+<ul class="simple">
+<li>ソースコード管理の自動化</li>
+<li>テストの自動化</li>
+<li>環境構築の自動化</li>
+<li>継続的インテグレーションの実施</li>
+<li>ドキュメント生成の自動化</li>
+</ul>
+</div>
+<div class="section" id="id10">
+<h2>ソースコード管理の自動化<a class="headerlink" href="#id10" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script></div>
+<div class="section" id="id11">
+<h2>まずはソースコード管理から<a class="headerlink" href="#id11" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>何を自動化するにしても、まずはコード管理から！</p>
+<ul class="simple">
+<li>VCS (Version Controll System)</li>
+<li>ソースコード等の履歴を管理</li>
+<li>全ての自動化の基盤</li>
+</ul>
+</div>
+<div class="section" id="vcs-vs">
+<h2>VCS: 中央集権 vs 分散<a class="headerlink" href="#vcs-vs" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>中央集権と言えば: cvs, svn</li>
+<li>分散と言えば: hg, bzr, git</li>
+</ul>
+<p>中央集権と分散, どっちがいいの？</p>
+<ul class="simple">
+<li>サーバー不要でも使える <strong>分散</strong> が超おすすめ</li>
+</ul>
+</div>
+<div class="section" id="vcs-1">
+<h2>VCS: 使ってみよう1<a class="headerlink" href="#vcs-1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>インストール</dt>
+<dd><ul class="first last simple">
+<li><strong class="command">easy_install mercurial</strong></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>初期化</dt>
+<dd><ul class="first last simple">
+<li><strong class="command">hg init</strong></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>複製</dt>
+<dd><ul class="first last simple">
+<li><strong class="command">hg clone</strong></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="scm-2">
+<h2>SCM: 使ってみよう2<a class="headerlink" href="#scm-2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>画面閲覧 &amp; リポジトリ公開</dt>
+<dd><ul class="first last simple">
+<li><strong class="command">hg serve -p 8000</strong></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="figure">
+<img alt="_images/xpfest-repos.jpg" src="_images/xpfest-repos.jpg" />
+</div>
+<script> s6.page({ styles: { 'div': {width:'70%'}, } }); </script></div>
+<div class="section" id="id12">
+<h2>環境構築の自動化<a class="headerlink" href="#id12" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script></div>
+<div class="section" id="id13">
+<h2>環境構築って何？<a class="headerlink" href="#id13" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>プログラムはVCSから入手するだけで動くものはほとんどありません。</p>
+<ul class="simple">
+<li>関連プログラムの入手, 配置</li>
+<li>パスの設定, スクリプトの設置</li>
+<li>環境設定ファイルの配置, 変更</li>
+</ul>
+</div>
+<div class="section" id="id14">
+<h2>環境構築の自動化<a class="headerlink" href="#id14" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><strong>環境構築手順書</strong> ってありますよね</li>
+<li>プログラムインストールから設定まで全く引っかからずに5分で出来ますか？</li>
+<li>buildout で自動化しましょう！</li>
+</ul>
+</div>
+<div class="section" id="zc-buildout">
+<h2>zc.buildout<a class="headerlink" href="#zc-buildout" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>buildout.cfg というini形式のファイルで全て自動化</li>
+<li>右の例はZopeとPloneを自動インストールしてプラグインも入れます</li>
+</ul>
+<div class="highlight-ini"><div class="highlight"><pre><span class="k">[buildout]</span>
+<span class="na">parts</span> <span class="o">=</span> <span class="s">zope2 instance</span>
+<span class="na">extends</span> <span class="o">=</span> <span class="s">http://dist.plone.org/release/3.3.4/versions.cfg</span>
+<span class="na">versions</span> <span class="o">=</span> <span class="s">versions</span>
+
+<span class="na">find-links</span> <span class="o">=</span><span class="s"></span>
+<span class="s">    http://dist.plone.org/release/3.3.4</span>
+<span class="s">    http://download.zope.org/ppix/</span>
+<span class="s">    http://download.zope.org/distribution/</span>
+<span class="s">    http://effbot.org/downloads</span>
+
+<span class="na">eggs</span> <span class="o">=</span><span class="s"></span>
+<span class="s">    Plone</span>
+<span class="s">    Products.PloneFlashUpload</span>
+<span class="s">    Products.PloneSlimbox</span>
+<span class="s">    Products.ATGoogleMap</span>
+
+<span class="k">[zope2]</span>
+<span class="na">recipe</span> <span class="o">=</span> <span class="s">plone.recipe.zope2install</span>
+<span class="na">fake-zope-eggs</span> <span class="o">=</span> <span class="s">true</span>
+<span class="na">additional-fake-eggs</span> <span class="o">=</span> <span class="s">ZODB3</span>
+<span class="na">url</span> <span class="o">=</span> <span class="s">${versions:zope2-url}</span>
+
+<span class="k">[instance]</span>
+<span class="na">recipe</span> <span class="o">=</span> <span class="s">plone.recipe.zope2instance</span>
+<span class="na">zope2-location</span> <span class="o">=</span> <span class="s">${zope2:location}</span>
+<span class="na">eggs</span> <span class="o">=</span> <span class="s">${buildout:eggs}</span>
+<span class="na">user</span> <span class="o">=</span> <span class="s">admin:admin</span>
+<span class="na">http-address</span> <span class="o">=</span> <span class="s">8080</span>
+</pre></div>
+</div>
+<script>
+s6.page({
+    styles: {
+        ul: {width:'40%', float:'left'},
+        div: {width: '45%', position:'absolute', right:'0', marginTop:'1em'},
+        'div/pre': {fontSize:'30%', padding:'1em'}
+    }
+});
+</script></div>
+<div class="section" id="id15">
+<h2>zc.buildout の実行例<a class="headerlink" href="#id15" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>hg clone http://xxxxx/ .
+<span class="nv">$ </span>ls
+bootstrap.py   buildout.cfg
+<span class="nv">$ </span>python bootstrap.py
+<span class="nv">$ </span>bin/buildout
+</pre></div>
+</div>
+<p>これでZope/Ploneのインストールと環境構築が完了しました！</p>
+</div>
+<div class="section" id="id16">
+<h2>zc.buildout デモ<a class="headerlink" href="#id16" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>GAE環境を作ります。（デモ）</p>
+<p>詳しくは <a class="reference external" href="http://www.freia.jp/taka/docs/pyhack4/buildout/">zc.buildout - Python Hack-a-thon 4: ハンズオン</a> を参照してください。</p>
+<blockquote>
+<div>あんちょこ <strong class="command">python25 bootstrap.py init -d</strong></div></blockquote>
+</div>
+<div class="section" id="id17">
+<h2>zc.buildoutで構築する環境の例<a class="headerlink" href="#id17" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>Zope/Plone のインストール、プラグイン設定、テスト環境</li>
+<li>Google App Engine の開発、テスト、デプロイ環境</li>
+<li>nginx, varnish のビルド、インストール、設定</li>
+</ul>
+</div>
+<div class="section" id="id18">
+<h2>テストの自動化<a class="headerlink" href="#id18" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script></div>
+<div class="section" id="id19">
+<h2>ユニットテスト<a class="headerlink" href="#id19" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><p class="first">Python標準のunittestライブラリ</p>
+</li>
+<li><p class="first">Nose や py.test などの高機能版</p>
+</li>
+<li><dl class="first docutils">
+<dt>PySpec (RSpecのpython版)</dt>
+<dd><ul class="first last simple">
+<li>XP祭り実行委員長 &#64;shibukawa 作</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="pythondoctest">
+<h2>PythonのDocTest<a class="headerlink" href="#pythondoctest" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>機能の説明文章がそのままテストになるスグレモノ</li>
+</ul>
+</div>
+<div class="section" id="id20">
+<h2>PythonのDocTest.<a class="headerlink" href="#id20" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; 二つの値を足します。</span>
+
+<span class="sd">    &gt;&gt;&gt; add(1, 2)</span>
+<span class="sd">    3</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id21">
+<h2>PythonのDocTest .<a class="headerlink" href="#id21" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>機能の説明文章がそのままテストになるスグレモノ</li>
+<li>実際にテストを動かしているところを見てみます</li>
+</ul>
+</div>
+<div class="section" id="pythondoctest-2">
+<h2>PythonのDocTest-2<a class="headerlink" href="#pythondoctest-2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" id="">
+<param name="movie" value="_static/20060521_doctest.swf"><param name="quality" value="high"><param name="menu" value="false"><param name="loop" value="1"><embed src="_static/20060521_doctest.swf"loop="1" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" menu="false"></embed></object><script>
+s6.page({
+    styles: {
+        h2: {display:'none'},
+        object: {width:'100%', height:'100%'},
+        'object/embed': {width:'100%', height:'100%'}
+    }
+});
+</script></div>
+<div class="section" id="id22">
+<h2>PythonのDocTest..<a class="headerlink" href="#id22" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><p class="first">機能の説明文章がそのままテストになるスグレモノ</p>
+</li>
+<li><dl class="first docutils">
+<dt>実際にテストを動かしているところを見てみます</dt>
+<dd><ul class="first last simple">
+<li>続きは <strong>DocTest TDD</strong> で検索！</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="id23">
+<h2>ここでおしらせです<a class="headerlink" href="#id23" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>毎月勉強会などをやってます。</p>
+<ul class="simple">
+<li><a class="reference external" href="http://atnd.org/events/7475">Sphinx+翻訳ハッカソン</a> (9/5)</li>
+<li><a class="reference external" href="http://atnd.org/events/6954">エキPy読書会02</a> (9/7)</li>
+<li><a class="reference external" href="http://atnd.org/events/7474">Python mini Hack-a-thon</a> (9/25)</li>
+</ul>
+<p>9月はほぼ埋まってしまいました&gt;&lt;   10月もやりますよ！</p>
+<script>s6.page({effect: 'slide'});</script>
+
+<script>
+s6.page({
+    styles: {
+        'h2': {textAlign:'center',top:'40%'},
+        'ul': {display:'none'},
+        'p': {display:'none'}
+    },
+    actions: [
+        ['h2', 'move', '0.3', [0,40],[0,0]],
+        ['p[0]', 'fade in', '0.3'],
+        ['ul', 'fade in', '0.3'],
+        ['p[1]', 'fade in', '0.3']
+    ]
+});
+</script></div>
+<div class="section" id="id24">
+<h2>継続的インテグレーションの実施<a class="headerlink" href="#id24" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>s6.page({effect: 'slide'});</script>
+<script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script></div>
+<div class="section" id="id25">
+<h2>継続的インテグレ―ション<a class="headerlink" href="#id25" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>自動テストサーバー Buildbot</p>
+<div class="figure">
+<img alt="_images/buildbot-logo.png" src="_images/buildbot-logo.png" />
+</div>
+<script> s6.page({ styles: { 'div': {width:'70%'}, } }); </script></div>
+<div class="section" id="buildbot">
+<h2>Buildbotってなに？<a class="headerlink" href="#buildbot" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>継続的インテグレーション</dt>
+<dd><ul class="first last simple">
+<li>Pythonで書かれている</li>
+<li>Pythonが動作する-&gt;Buildbot動作</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>類似ソフト</dt>
+<dd><ul class="first last simple">
+<li>Hudson (<a class="reference external" href="http://hudson-ci.org/">http://hudson-ci.org/</a>)</li>
+<li>Tinderbox (<a class="reference external" href="http://www.mozilla.org/tinderbox.html">http://www.mozilla.org/tinderbox.html</a>)</li>
+<li>CruiseControl (<a class="reference external" href="http://cruisecontrol.sourceforge.net/">http://cruisecontrol.sourceforge.net/</a>)</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="figure">
+<img alt="_images/buildbot-logo.png" src="_images/buildbot-logo.png" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'ul/li[1]': {fontSize:'60%',marginTop:'2em'},
+        'div': {width:'70%'},
+        'div/img': {opacity: 0.8}
+    }
+});
+</script></div>
+<div class="section" id="id26">
+<h2>Buildbotってなに？<a class="headerlink" href="#id26" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>テスト自動化 (Python開発合宿2008冬)
+<a class="reference external" href="http://www.slideshare.net/shimizukawa/python-autotest-pdc2008w">http://www.slideshare.net/shimizukawa/python-autotest-pdc2008w</a></li>
+</ul>
+<div class="figure">
+<img alt="_images/buildbot-logo.png" src="_images/buildbot-logo.png" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'div': {width:'70%'},
+        'div/img': {opacity: 0.8}
+    }
+});
+</script></div>
+<div class="section" id="buildbot-on-slideshare">
+<h2>buildbot on slideshare<a class="headerlink" href="#buildbot-on-slideshare" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<object id="__sse5125068"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=autotestpdc2008w-100903152901-phpapp02&stripped_title=python-autotest-pdc2008w" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5125068" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=autotestpdc2008w-100903152901-phpapp02&stripped_title=python-autotest-pdc2008w" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+<script>
+s6.page({
+    styles: {
+        h2: {display:'none'},
+        object: {width:'100%', height:'100%'},
+        'object/embed': {width:'100%', height:'100%'}
+    }
+});
+</script></div>
+<div class="section" id="id27">
+<h2>Buildbotを使っているツール類<a class="headerlink" href="#id27" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>Buildbot, Python, Webkit, Mozilla, Google Chromium XEmacs, MongoDB, Wireshark
+ILM, Boost, Zope, Twisted, SpamAssassin, OpenID, KDE, GHC, Subversion, OpenOffice, Jython ...</p>
+<p><a class="reference external" href="http://buildbot.net/trac/wiki/SuccessStories">http://buildbot.net/trac/wiki/SuccessStories</a></p>
+<div class="figure">
+<img alt="_images/buildbot-logo.png" src="_images/buildbot-logo.png" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'div': {width:'70%'},
+        'div/img': {opacity: 0.8}
+    }
+});
+</script></div>
+<div class="section" id="id28">
+<h2>ドキュメント生成の自動化<a class="headerlink" href="#id28" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script></div>
+<div class="section" id="id29">
+<h2>ドキュメンテーション&#8211; &#8211;<a class="headerlink" href="#id29" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>ドキュメント作成はさぼってしまいがち</p>
+<ul class="simple">
+<li>開発終了に向かうにつれて時間がない</li>
+<li>自分は文章を書くのが苦手だ</li>
+<li>誰も見ない文章は書きたくない</li>
+</ul>
+<p>こういった状況から・・・</p>
+</div>
+<div class="section" id="id30">
+<h2>ドキュメンテーション++<a class="headerlink" href="#id30" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>ドキュメントを書くのは楽しい！へ</p>
+<ul class="simple">
+<li>プロジェクト開始時にプロセスを整備</li>
+<li>必要な文章を必要な時に書く</li>
+<li>ソフトウェアコード同様に成長させていく</li>
+</ul>
+<p>ドキュメントを書くのをもっと簡単に！</p>
+</div>
+<div class="section" id="id31">
+<h2>Sphinxとは何か？<a class="headerlink" href="#id31" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>ドキュメント生成のツール</li>
+<li>reStructuredText記法(Wikiっぽい?</li>
+<li>ページ間のリンクを自動生成</li>
+<li>強力なコードハイライト</li>
+<li>HTML, PDF, ePub, htmlhelp, latex, man...</li>
+</ul>
+<div class="figure">
+<img alt="_images/PythonSphinxlogo.png" src="_images/PythonSphinxlogo.png" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'div': {width:'60%'},
+        'div/img': {opacity: 0.8}
+    }
+});
+</script></div>
+<div class="section" id="id32">
+<h2>Sphinxの記入の例<a class="headerlink" href="#id32" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="highlight-rst"><div class="highlight"><pre><span class="gh">Sphinxのサンプル</span>
+<span class="gh">=================</span>
+
+<span class="gh">Sphinxとは何か？</span>
+<span class="gh">-----------------</span>
+<span class="m">*</span> ドキュメント生成のツール
+<span class="m">*</span> reStructuredText記法(Wikiっぽい?
+<span class="m">*</span> ページ間のリンクを自動生成
+<span class="m">*</span> 強力なコードハイライト
+<span class="m">*</span> HTML, PDF, ePub, htmlhelp, latex, man...
+</pre></div>
+</div>
+<div class="figure">
+<img alt="_images/sphinx-sample.jpg" src="_images/sphinx-sample.jpg" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'div[0]': {width: '50%', position:'absolute', left:'0', marginTop:'0.3em'},
+        'div[0]/div/pre': {fontSize:'35%', padding:'1em'},
+        'div[1]': {float:'right', width:'70%'}
+    }
+});
+</script></div>
+<div class="section" id="id33">
+<h2>ここでちょっと...<a class="headerlink" href="#id33" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>良い資料があるので紹介します。</p>
+<ul class="simple">
+<li><a class="reference external" href="http://blog.shibu.jp/article/35729439.html">渋日記: Sphinx紹介セッション&#64;BPStudy #30</a></li>
+</ul>
+<div class="figure">
+<img alt="_images/shibu-sphinx.jpg" src="_images/shibu-sphinx.jpg" />
+</div>
+<script> s6.page({ styles: { 'div': {width:'40%'}, } }); </script></div>
+<div class="section" id="id34">
+<h2>もうひとつ。<a class="headerlink" href="#id34" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script></div>
+<div class="section" id="id35">
+<h2>課題管理システム<a class="headerlink" href="#id35" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>PythonだとTracが有名ですね。</p>
+<ul class="simple">
+<li>Trac = Wiki + 課題管理 + コード管理</li>
+</ul>
+</div>
+<div class="section" id="trac">
+<h2>Tracを使う流れ<a class="headerlink" href="#trac" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/trac-flow.jpg" src="_images/trac-flow.jpg" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'div[0]': {width: '75%', margin:'auto', position:'relative'},
+    }
+});
+</script></div>
+<div class="section" id="id36">
+<h2>Tracを使う流れ.<a class="headerlink" href="#id36" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>チケット(課題)を登録</dt>
+<dd><ul class="first last simple">
+<li>-&gt; #id が決まる(10とか)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>課題の実装・テストしてコミット</dt>
+<dd><ul class="first last simple">
+<li>-&gt; コミットログに #10 と記載</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>チケットに完了リビジョンを記載</dt>
+<dd><ul class="first last simple">
+<li>-&gt; チケットとコミットが関連付け</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="figure">
+<img alt="_images/trac-flow.jpg" src="_images/trac-flow.jpg" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'div[0]': {width: '70%'},
+        'div/img': {opacity: '0.5'},
+        'ul': {top:'1000em'}
+    },
+    actions: [
+        ['ul', 'move', '0.5', [0,100],[0,0]],
+    ]
+});
+</script></div>
+<div class="section" id="id37">
+<h2>最後に<a class="headerlink" href="#id37" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>s6.page({styles:{h2:{textAlign:'center',margin:'30% auto'}}});</script></div>
+<div class="section" id="id38">
+<h2>全てをひとつに繋ぐ<a class="headerlink" href="#id38" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>ソースコード管理の自動化</li>
+<li>テストの自動化</li>
+<li>環境構築の自動化</li>
+<li>継続的インテグレーションの実施</li>
+<li>ドキュメント生成の自動化</li>
+</ul>
+</div>
+<div class="section" id="id39">
+<h2>全てをひとつに繋ぐ.<a class="headerlink" href="#id39" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/landscape1.png" src="_images/landscape1.png" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'div': {bottom:'none', right:'none', width: '80%', zIndex:'200'},
+    },
+});
+</script></div>
+<div class="section" id="python">
+<h2>全てをPythonで。<a class="headerlink" href="#python" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/landscape2.png" src="_images/landscape2.png" />
+</div>
+<script>
+s6.page({
+    styles: {
+        'div': {bottom:'none', right:'none', width: '80%', zIndex:'200'},
+    },
+});
+</script></div>
+<div class="section" id="id40">
+<h2>質問タイム？<a class="headerlink" href="#id40" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+s6.page({
+    styles: {
+        h2: {fontSize:'150%',textAlign:'center',margin:'30% auto'}
+    }
+});
+</script></div>
+<div class="section" id="id41">
+<h2>おまけ<a class="headerlink" href="#id41" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>今日のプレゼンテーションは</p>
+<ul class="simple">
+<li>Sphinx</li>
+<li>S6 (c) 2007 Cybozu Labs, Inc.</li>
+</ul>
+<p>で作成しました。</p>
+</div>
+<div class="section" id="id42">
+<h2>まとめ<a class="headerlink" href="#id42" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>MercurialHG, Bazaar, PyPI, setuptools, easzy_install, zc.buildout, Paver, Nose, py.test, Buildbot, Trac, Sphinx, ...</p>
+<ul class="simple">
+<li>続きは懇親会、または勉強会で！</li>
+</ul>
+<p>ご清聴ありがとうございました</p>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li><a href="#">XP祭り2010: Pythonでアジャイル開発サイクル 2010ver 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+<div class="footer">
+    <span><a href="http://www.freia.jp/taka/docs/xpfest2010/">Pythonで アジャイル 開発サイクル 2010ver.</a></span><br>
+    <span class="hidden"><a href="http://www.freia.jp/taka/">by 清水川Web</a>, 上下左右キーで操作です</span>
+</div>
+
+  </body>
+</html>

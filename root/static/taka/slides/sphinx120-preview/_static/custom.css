@@ -1,0 +1,22 @@
+body {
+	background: url(sphinx-slide-bg.png);
+	background-size: 100%;
+	background-position: 100% 100%;
+}
+.s6.sphinx {
+	background: none;
+	color: white;
+}
+.s6.sphinx .page {
+	background: none;
+}
+.s6.sphinx a {
+	color: orange;
+}
+.s6.sphinx a:hover {
+	color: orange;
+}
+.s6.sphinx a:visited {
+	color: orange;
+}
+

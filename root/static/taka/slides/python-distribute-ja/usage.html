@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Using Packages &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="index.html" />
+    <link rel="next" title="Creating a Package" href="creation.html" />
+    <link rel="prev" title="Installing the Package Tools" href="installation.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="creation.html" title="Creating a Package"
+             accesskey="N">次へ</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installing the Package Tools"
+             accesskey="P">前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="using-packages">
+<h1>Using Packages<a class="headerlink" href="#using-packages" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="finding-packages">
+<h2>Finding Packages<a class="headerlink" href="#finding-packages" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">TODO I&#8217;m mentioning <a class="reference internal" href="contributing.html#pypi-info"><em>The Python Package Index (PyPI)</em></a> everywhere. Should probably move
+this up in the documentation instead of explaining it over and over.</p>
+</div>
+<p>How does one find a package. Well, the simple answer is to check
+<a class="reference internal" href="contributing.html#pypi-info"><em>The Python Package Index (PyPI)</em></a> first. The other options are:</p>
+<ul class="simple">
+<li>To do a simple web search with google.com, yahoo, etc.</li>
+<li>Ask around the python community using <a class="reference internal" href="glossary.html#term-irc"><em class="xref std std-term">IRC</em></a></li>
+</ul>
+<p>We will cover the <a class="reference internal" href="contributing.html#pypi-info"><em>The Python Package Index (PyPI)</em></a> later in the documentation.</p>
+</div>
+<div class="section" id="installing-from-other-sources">
+<h2>Installing from other sources<a class="headerlink" href="#installing-from-other-sources" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>When using the <a class="reference internal" href="installation.html#pip-info"><em>Pip Installs Python (Pip)</em></a> application, how does it know what to install
+when you run <tt class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">Markdown</span></tt>? By default, it checks the
+<a class="reference internal" href="contributing.html#pypi-info"><em>The Python Package Index (PyPI)</em></a> for a package of that name. In this case, it found one; but
+what if you want to install a package that hasn&#8217;t been uploaded to PyPI?</p>
+<p>You have several options:</p>
+<ul class="simple">
+<li><a class="reference external" href="#installing-from-a-tarball">Installing from a tarball</a></li>
+<li><a class="reference external" href="#installing-from-a-version-control-system-vcs">Installing from a Version Control System (VCS)</a></li>
+<li><a class="reference external" href="#add-urls-to-search-for-links">Add URLs to search for links</a></li>
+</ul>
+<div class="section" id="installing-from-a-tarball">
+<span id="index-0"></span><h3>Installing from a tarball<a class="headerlink" href="#installing-from-a-tarball" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>You can install directly from a tarball or zip file, as long as there
+is a working <tt class="docutils literal"><span class="pre">setup.py</span></tt> file in the root directory of the unzipped
+contents:</p>
+<div class="highlight-python"><pre>$ pip install path/to/mypackage.tgz</pre>
+</div>
+<p>You can also install from a tarball/zip file over the network:</p>
+<div class="highlight-python"><pre>$ pip install http://dist.repoze.org/PIL-1.1.6.tar.gz</pre>
+</div>
+</div>
+<div class="section" id="installing-from-a-version-control-system-vcs">
+<h3>Installing from a Version Control System (VCS)<a class="headerlink" href="#installing-from-a-version-control-system-vcs" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Using the <tt class="docutils literal"><span class="pre">--editable</span></tt> or <tt class="docutils literal"><span class="pre">-e</span></tt> option, pip has the capability to
+install directly from a version control repository (it currently
+supports Subversion, Mercurial, Git, and Bazaar):</p>
+<div class="highlight-python"><pre>$ pip install -e svn+http://svn.colorstudy.com/INITools/trunk#egg=initools-dev</pre>
+</div>
+<p>This option shells out to the command-line client for each respective
+VCS, so you must have the VCS installed on your system.  The repo URL
+must begin with <tt class="docutils literal"><span class="pre">svn+</span></tt> (or <tt class="docutils literal"><span class="pre">hg+</span></tt>, <tt class="docutils literal"><span class="pre">git+</span></tt>, or <tt class="docutils literal"><span class="pre">bzr+</span></tt>) and end
+with <tt class="docutils literal"><span class="pre">#egg=packagename</span></tt>; otherwise, pip supports the same URL
+formats and wire protocols supported by the VCS itself.</p>
+<p>Pip will checkout the source repo into a <tt class="docutils literal"><span class="pre">src/</span></tt> directory inside the
+virtualenv (i.e. <tt class="docutils literal"><span class="pre">pip_test_env/src/initools-dev</span></tt>), and then run
+<tt class="docutils literal"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">develop</span></tt> in that source repo. This &#8220;links&#8221; the code
+directly from the repo into the virtualenv&#8217;s <tt class="docutils literal"><span class="pre">site-packages</span></tt>
+directory (by adding the repo directory into <tt class="docutils literal"><span class="pre">easy-install.pth</span></tt>), so
+changes you make in the source checkout are effective immediately.</p>
+<p>If you already have a local VCS checkout you want to keep using, you
+can just use <tt class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-e</span> <span class="pre">path/to/repo</span></tt> to install it &#8220;editable&#8221;
+in the same way.</p>
+</div>
+<div class="section" id="add-urls-to-search-for-links">
+<h3>Add URLs to search for links<a class="headerlink" href="#add-urls-to-search-for-links" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>You can use the <tt class="docutils literal"><span class="pre">-f</span></tt> or <tt class="docutils literal"><span class="pre">--find-links</span></tt> option to add another URL
+pip should search for links to the package. If you dump some package
+tarballs in a webserver directory and turn on automatic indexing, you
+can point pip at that index page and install any of those packages,
+assuming you named the files in the pattern
+<tt class="docutils literal"><span class="pre">packagename-version.ext</span></tt>.</p>
+<p>For example, if you upload a tarball <tt class="docutils literal"><span class="pre">MyApp-1.0.tgz</span></tt> to a
+<tt class="docutils literal"><span class="pre">my-packages</span></tt> directory on your webserver, and make sure indexing is
+on for that directory, you can run:</p>
+<div class="highlight-python"><pre>$ pip install MyApp -f http://www.example.com/my-packages/</pre>
+</div>
+</div>
+</div>
+<div class="section" id="running-your-own-package-index">
+<span id="index-1"></span><h2>Running your own package index<a class="headerlink" href="#running-your-own-package-index" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>If you want more of the features provided by PyPI (including the
+ability to upload packages with <tt class="docutils literal"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">sdist</span> <span class="pre">upload</span></tt>), you
+can run software such as <a class="reference external" href="http://github.com/ask/chishop">chishop</a>, which implements the PyPI API, on
+your own server. Then you can use pip&#8217;s <tt class="docutils literal"><span class="pre">-i</span></tt> (or <tt class="docutils literal"><span class="pre">--index-url</span></tt>) or
+<tt class="docutils literal"><span class="pre">--extra-index-url</span></tt> options to point it at your index.</p>
+<p>For instance, if you set up your own index at
+<a class="reference external" href="http://www.example.com/chishop/">http://www.example.com/chishop/</a>, you might run:</p>
+<div class="highlight-python"><pre>$ pip install MyPrivateApp -i http://www.example.com/chishop/simple/</pre>
+</div>
+<p>If you use <tt class="docutils literal"><span class="pre">-i</span></tt> pip won&#8217;t check PyPI, only the index you provide. If
+you are installing multiple packages at once, some from your index and
+some from PyPI, you may want to use <tt class="docutils literal"><span class="pre">--extra-index-url</span></tt> instead, so
+pip will check both indexes.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Using Packages</a><ul>
+<li><a class="reference internal" href="#finding-packages">Finding Packages</a></li>
+<li><a class="reference internal" href="#installing-from-other-sources">Installing from other sources</a><ul>
+<li><a class="reference internal" href="#installing-from-a-tarball">Installing from a tarball</a></li>
+<li><a class="reference internal" href="#installing-from-a-version-control-system-vcs">Installing from a Version Control System (VCS)</a></li>
+<li><a class="reference internal" href="#add-urls-to-search-for-links">Add URLs to search for links</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#running-your-own-package-index">Running your own package index</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>前のトピックへ</h4>
+  <p class="topless"><a href="installation.html"
+                        title="前の章へ">Installing the Package Tools</a></p>
+  <h4>次のトピックへ</h4>
+  <p class="topless"><a href="creation.html"
+                        title="次の章へ">Creating a Package</a></p>
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/usage.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="creation.html" title="Creating a Package"
+             >次へ</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installing the Package Tools"
+             >前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

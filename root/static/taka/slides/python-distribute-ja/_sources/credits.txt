@@ -1,0 +1,49 @@
+.. =======
+.. Credits
+.. =======
+
+==========
+クレジット
+==========
+
+.. Here's the list of contributors: writers, editors, reviewers, and
+.. people who allowed some of their own content to be included in the
+.. guide.
+
+文書作成、編集、レビュー、そしてこのガイドに多くのコンテンツを含めることを許してくれた協力者の一覧です。
+
+-- Tarek
+
+.. Contributors
+.. ============
+
+協力者
+======
+
+- Jean-Paul Calderone
+- Martijn Faassen
+- Carl Meyer
+- John M. Gabriele
+- Reinout van Rees
+- Michael Mulich
+- C\. Titus Brown
+- Kevin Teague
+
+.. Referenced Materials
+.. ====================
+
+参考文献
+========
+
+.. - `Installing Python Modules <http://docs.python.org/install/>`_
+.. - `Distributing Python Modules <http://docs.python.org/distutils/>`_
+
+- `Pythonモジュールのインストール <http://www.python.jp/doc/2.5/inst/inst.html>`_
+- `Pythonモジュールの配布 <http://www.python.jp/doc/2.5/dist/dist.html>`_
+
+日本語翻訳
+===========
+
+- 清水川 貴之 <shimizukawa at gmail com>
+
+

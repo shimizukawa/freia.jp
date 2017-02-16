@@ -1,0 +1,1662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Introduction to Sphinx documentation generator</title>
+    
+    <link rel="stylesheet" href="_static/s6.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rstdemo.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.touchwipe.min.js"></script>
+    <script type="text/javascript" src="_static/s6.js"></script>
+    <script type="text/javascript" src="_static/s6-sphinx.js"></script>
+    <script type="text/javascript" src="_static/rstdemo.js"></script>
+    <script type="text/javascript" src="_static/custom.js"></script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a></li>
+        <li class="right" >
+          <a href="spam.html" title="1. This is SPAM page"
+             accesskey="N">next</a> |</li>
+        <li><a href="#">Introduction to Sphinx documentation generator 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="introduction-to-sphinx-documentation-generator">
+<h1>Introduction to <strong>Sphinx</strong> documentation generator<a class="headerlink" href="#introduction-to-sphinx-documentation-generator" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="who-are-you">
+<h2>Who are you?<a class="headerlink" href="#who-are-you" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<img alt="_images/face.png" src="_images/face.png" />
+</div>
+<p><a class="reference external" href="http://about.me/shimizukawa">http://about.me/shimizukawa</a>,
+&#64;shimizukawa</p>
+<ul class="simple">
+<li>Activity:<ul>
+<li>Sphinx co-maintainer</li>
+<li>Sphinx-users.jp chairman</li>
+<li>PyCon JP 2011,2012 vice-chairman</li>
+</ul>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {width:'15%', position:'absolute', top:'0', right:'1em'}}});}</script>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>Hi everyone.
+Today I&#8217;ll talk about Sphinx documentation generator.
+Thank you for opportunity of this presentation.
+Before that, let me introduce myself.</p>
+<p>My name is Takayuki Shimizukawa, I came from Japan.
+I joined the PyConTW last year, and it is my second time to come to Taiwan.</p>
+<p class="last">My activity in Sphinx,
+I am a Sphinx co-maintainer and a Sphinx-uses.jp chariman.
+And Python, I was a vice-chairman PyCon JP in last 2 years.</p>
+</div>
+</div>
+<div class="section" id="books">
+<h2>Books<a class="headerlink" href="#books" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Expert Python Programming (translation into Japanese)</p>
+<div class="figure">
+<img alt="_images/book-epp.jpg" src="_images/book-epp.jpg" />
+</div>
+</li>
+<li><p class="first">Python Professional Programming (2 chapters)</p>
+<div class="figure">
+<img alt="_images/book-pypro.png" src="_images/book-pypro.png" />
+</div>
+<ul class="simple">
+<li><strong>Python開発実戦</strong></li>
+</ul>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li[0]/p': {width: '50%', marginBottom:'0.5em'},
+'ul/li[0]/div': {width:'30%', position:'absolute', left:'55%', top:'1em'},
+'ul/li[1]': {marginLeft: '2em'},
+'ul/li[1]/p': {width: '50%'},
+'ul/li[1]/div': {width:'30%', position:'absolute', right:'0', top:'4em'},
+'ul/li[1]/ul/li[0]': {display:'none'},
+'ul': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[1]/ul/li', 'fade in', '0.3']]});}</script>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>Books.</p>
+<ul class="simple">
+<li>I want to show you my books. There are 2 books so far, each books tell
+you about Python Programming.</li>
+</ul>
+<ul class="last simple">
+<li>The books mention to Sphinx and Documentations.</li>
+<li>&#8220;Python Professional Programming&#8221; was already translated into
+&#8216;simple chineese charactors&#8217; and will publish in June. (This is chneese
+version book name).</li>
+</ul>
+</div>
+</div>
+<div class="section" id="anyway">
+<h2>anyway.<a class="headerlink" href="#anyway" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+</div>
+<div class="section" id="the-sphinx">
+<h2>The Sphinx<a class="headerlink" href="#the-sphinx" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<img alt="_images/sphinx-logo.png" src="_images/sphinx-logo.png" />
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">The Sphinx.
+Today, I&#8217;ll talk about documentation generator that is called &#8220;Sphinx&#8221;.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'fadeScaleFromUp'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {fontSize:'120%', textAlign:'center'},
+'div[0]/img': {margin:'20% 10%', width:'80%'},
+'div/img': {border:'0.1em gray outset'}}});}</script>
+</div>
+<div class="section" id="table-of-contents">
+<h2>Table of contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Introduction</li>
+<li>Demonstration</li>
+<li>Case studies</li>
+</ol>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">I will tell about Sphinx by three parts.
+Introduction, Demonstration and Case studies.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id1">
+<h2>Table of contents<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Introduction<ul>
+<li>Introduces the Sphinx and reStructuredText.</li>
+<li>Sphinx extensions.</li>
+<li>Comparison with other documentation tools.</li>
+</ul>
+</li>
+<li>Demonstration</li>
+<li>Case studies</li>
+</ol>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>First, I&#8217;ll introduce &#8220;what is Sphinx&#8221; and &#8220;what is reStructuredText&#8221;.
+By the way, how many people already using Sphinx?</p>
+<p>OK, please raise your hands for about &#8220;Do you know Sphinx?&#8221; Thank you.</p>
+<p class="last">And next, &#8220;Did you use Sphinx already?&#8221; Thanks.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ol': {color: 'gray'},
+'ol/li[0]/ul/li[0]': {color: 'white'}}});}</script>
+</div>
+<div class="section" id="what-is-sphinx">
+<h2>What <strong>IS</strong> Sphinx?<a class="headerlink" href="#what-is-sphinx" title="Permalink to this headline">¶</a></h2>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">What is Sphinx?</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="sphinx-is">
+<h2>Sphinx <strong>IS</strong><a class="headerlink" href="#sphinx-is" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Documentation generator.</li>
+<li>Sphinx generate documentation from reStructuredText markup.</li>
+<li>Extendable.</li>
+</ul>
+<div class="figure">
+<img alt="_images/sphinx-generate-several-formats.png" src="_images/sphinx-generate-several-formats.png" />
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<ul class="last">
+<li><p class="first">Sphinx is a documentation generator.
+Sphinx generate documentation from reStructuredText markup.</p>
+<p>In other words, Sphinx reads reST text file and
+outputs html, epub, pdf, or other several formats.</p>
+</li>
+<li><p class="first">Sphinx is extendable, so you can also output in a different format,
+or read the file in a different format.</p>
+</li>
+</ul>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {width:'55%', position:'absolute', right:'0', bottom:'1em', backgroundColor:'white'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="and-restructuredtext-rest-is">
+<h2>And reStructuredText(reST) <strong>IS</strong><a class="headerlink" href="#and-restructuredtext-rest-is" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Markup language.</li>
+<li>Written with plain text.</li>
+<li>Similer to several wiki markups.</li>
+<li>Extendable <strong>(important!)</strong></li>
+</ul>
+<p>There is markup sample:</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre>reStructuredText_ (<span class="ge">*reST*</span>) is <span class="gs">**markup**</span> language.
+<span class="na">:term:</span><span class="nv">`role`</span> and <span class="na">:term:</span><span class="nv">`directive`</span> is extendable.
+
+<span class="p">..</span> <span class="nt">_reStructuredText:</span> http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<p class="compound-first"><a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html">reStructuredText</a> (<em>reST</em>) is <strong>markup</strong> language.
+<a class="reference external" href="http://sphinx-doc.org/glossary.html#term-role" title="(in Sphinx v1.1.3)"><em class="xref std std-term">role</em></a> and <a class="reference external" href="http://sphinx-doc.org/glossary.html#term-directive" title="(in Sphinx v1.1.3)"><em class="xref std std-term">directive</em></a> is extendable.</p>
+</div>
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>And reStructuredText reST is markup language.</p>
+<ul class="simple">
+<li>It was written with plain text.</li>
+<li>reST is similer to other wiki like markups but different from others,
+the reST syntax is extendable. It&#8217;s a important point.</li>
+</ul>
+<p class="last">This is a markup sample that contains LINK, EMPHASIS, STRONG and TERM role.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize: '80%'},
+'div': {fontSize: '80%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="sphinx-extends-rest-syntax">
+<h2>Sphinx extends reST syntax<a class="headerlink" href="#sphinx-extends-rest-syntax" title="Permalink to this headline">¶</a></h2>
+<p>Sphinx provides many useful reST <a class="reference external" href="http://sphinx-doc.org/glossary.html#term-directive" title="(in Sphinx v1.1.3)"><em class="xref std std-term">directive</em></a> and <a class="reference external" href="http://sphinx-doc.org/glossary.html#term-role" title="(in Sphinx v1.1.3)"><em class="xref std std-term">role</em></a>.</p>
+<ul class="simple">
+<li><a class="reference external" href="http://sphinx-doc.org/markup/code.html#code-examples" title="(in Sphinx v1.1.3)"><em class="xref std std-ref">code-block</em></a>: Code highlight directive</li>
+<li><a class="reference external" href="http://sphinx-doc.org/markup/inline.html#role-doc" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-role docutils literal"><span class="pre">doc</span></tt></a>, <a class="reference external" href="http://sphinx-doc.org/markup/inline.html#role-ref" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-role docutils literal"><span class="pre">ref</span></tt></a>, <a class="reference external" href="http://sphinx-doc.org/markup/inline.html#role-term" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-role docutils literal"><span class="pre">term</span></tt></a>:
+Link to other pages roles and directives</li>
+<li><a class="reference external" href="http://sphinx-doc.org/ext/math.html#directive-math" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-dir docutils literal"><span class="pre">math</span></tt></a>: Numerical formula directive</li>
+<li><a class="reference external" href="http://sphinx-doc.org/markup/misc.html#directive-only" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-dir docutils literal"><span class="pre">only</span></tt></a>: Conditional output directive.</li>
+<li><a class="reference external" href="http://sphinx-doc.org/ext/autodoc.html#directive-automodule" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-dir docutils literal"><span class="pre">automodule</span></tt></a>: Auto documenter from .py directive.</li>
+<li><a class="reference external" href="http://sphinx-doc.org/domains.html#domains" title="(in Sphinx v1.1.3)"><em class="xref std std-ref">domains</em></a>: Some domains directives and roles: C, C++, JavaScript, Python, reST.</li>
+</ul>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>Sphinx provides many useful reST directive and role.</p>
+<ul class="last simple">
+<li><em>code-block</em> for code highlighting.</li>
+<li><em>doc</em>, <em>ref</em>, <em>term</em>, these roles make link to other pages.</li>
+<li><em>math</em> role and directive render numerical formula.</li>
+<li><em>only</em> directive works as conditional output control.</li>
+<li><em>automodule</em> generate module reference document from .py file.</li>
+<li>Some domains directives and roles: C, C++, JavaScript, Python, reST
+to easy to write class or function&#8217;s descriptions.
+I&#8217;ll do demonstration later.</li>
+</ul>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize: '60%'},
+'p': {fontSize: '70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="sphinx-includes">
+<h2>Sphinx includes<a class="headerlink" href="#sphinx-includes" title="Permalink to this headline">¶</a></h2>
+<p>Simple and beautiful html themes. Detail information is here: <a class="reference external" href="http://sphinx-doc.org/theming.html#builtin-themes" title="(in Sphinx v1.1.3)"><em>Builtin themes</em></a>.</p>
+<div class="figure">
+<img alt="_images/theme-default.png" src="_images/theme-default.png" />
+<p class="caption">default</p>
+</div>
+<div class="figure">
+<img alt="_images/theme-sphinxdoc.png" src="_images/theme-sphinxdoc.png" />
+<p class="caption">sphinxdoc</p>
+</div>
+<div class="figure">
+<img alt="_images/theme-scrolls.png" src="_images/theme-scrolls.png" />
+<p class="caption">scrolls</p>
+</div>
+<div class="figure">
+<img alt="_images/theme-agogo.png" src="_images/theme-agogo.png" />
+<p class="caption">agogo</p>
+</div>
+<div class="figure">
+<img alt="_images/theme-traditional.png" src="_images/theme-traditional.png" />
+<p class="caption">traditional</p>
+</div>
+<div class="figure">
+<img alt="_images/theme-nature.png" src="_images/theme-nature.png" />
+<p class="caption">nature</p>
+</div>
+<div class="figure">
+<img alt="_images/theme-haiku.png" src="_images/theme-haiku.png" />
+<p class="caption">haiku</p>
+</div>
+<div class="figure">
+<img alt="_images/theme-pyramid.png" src="_images/theme-pyramid.png" />
+<p class="caption">pyramid</p>
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>Sphinx includes simple and beautiful html themes.
+Each themes are called:
+default, sphinxdoc, scrolls, agogo, traditional, nature, haiku and pyramid.</p>
+<p class="last">Detail information is written at builtin themes page.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[1]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[2]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[3]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[4]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[5]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[6]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[7]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="there-are-3rd-party-themes">
+<h2>There are 3rd party themes<a class="headerlink" href="#there-are-3rd-party-themes" title="Permalink to this headline">¶</a></h2>
+<p>You can find 3rd-party Sphinx themes at PyPI or other sites. For example,</p>
+<div class="figure">
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/sphinxjp.themes.bizstyle"><img alt="_images/theme-bizstyle.png" src="_images/theme-bizstyle.png" /></a>
+<p class="caption"><a class="reference external" href="https://pypi.python.org/pypi/sphinxjp.themes.bizstyle">bizstyle</a></p>
+</div>
+<div class="figure">
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/sphinxjp.themes.dotted"><img alt="_images/theme-dotted.png" src="_images/theme-dotted.png" /></a>
+<p class="caption"><a class="reference external" href="https://pypi.python.org/pypi/sphinxjp.themes.dotted">dotted</a></p>
+</div>
+<div class="figure">
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/sphinxjp.themes.basicstrap"><img alt="_images/theme-basicstrap.png" src="_images/theme-basicstrap.png" /></a>
+<p class="caption"><a class="reference external" href="https://pypi.python.org/pypi/sphinxjp.themes.basicstrap">basicstrap</a></p>
+</div>
+<div class="figure">
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/sphinxjp.themes.sphinxjp"><img alt="_images/theme-sphinxjp.png" src="_images/theme-sphinxjp.png" /></a>
+<p class="caption"><a class="reference external" href="https://pypi.python.org/pypi/sphinxjp.themes.sphinxjp">sphinxjp</a></p>
+</div>
+<p>And presentation themes:</p>
+<div class="figure">
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/sphinxjp.themes.s6"><img alt="_images/theme-s6.png" src="_images/theme-s6.png" /></a>
+<p class="caption"><a class="reference external" href="https://pypi.python.org/pypi/sphinxjp.themes.s6">s6</a></p>
+</div>
+<div class="figure">
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/sphinxjp.themes.htmlslide"><img alt="_images/theme-htmlslide.png" src="_images/theme-htmlslide.png" /></a>
+<p class="caption"><a class="reference external" href="https://pypi.python.org/pypi/sphinxjp.themes.htmlslide">htmlslide</a></p>
+</div>
+<div class="figure">
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/sphinxjp.themes.impressjs"><img alt="_images/theme-impressjs.png" src="_images/theme-impressjs.png" /></a>
+<p class="caption"><a class="reference external" href="https://pypi.python.org/pypi/sphinxjp.themes.impressjs">impressjs</a></p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[1]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[2]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[3]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[4]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[5]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'div[6]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+'p': {clear:'both'}}});}</script>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>There are 3rd party themes.
+You can find 3rd-party Sphinx themes at PyPI or other sites. For example,
+bizstyle, dotted, basicstrap and sphinxjp.</p>
+<p>And few presentation themes are also exist:
+s6, htmlslide, impressjs.</p>
+<p class="last">BTW, this presentation slide was also built by Sphinx with s6 theme.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="what-is-not-sphinx">
+<h2>What <strong>IS NOT</strong> Sphinx?<a class="headerlink" href="#what-is-not-sphinx" title="Permalink to this headline">¶</a></h2>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">So, I&#8217;ll also introduce Sphinx is not possible.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+</div>
+<div class="section" id="id2">
+<h2>What <strong>IS NOT</strong> Sphinx?<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>Are there <em>GUI frontend editor?</em></dt>
+<dd><ul class="first last simple">
+<li><strong>NO.</strong></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="figure">
+<img alt="_images/sphinx-have-no-gui-frontend.png" src="_images/sphinx-have-no-gui-frontend.png" />
+<p class="caption">Windows Notepad</p>
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">Sphinx did not have GUI frontend as like as Word.
+But you can choose any GUI editor to edit reST plain text.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {width:'60%', margin:'1em auto'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id3">
+<h2>What <strong>IS NOT</strong> Sphinx?<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">There is a way to import/export <em>Word</em>?</p>
+<ul>
+<li><p class="first"><strong>NO..!</strong></p>
+<div class="figure">
+<img alt="_images/no1.jpg" src="_images/no1.jpg" />
+<p class="caption"><a class="reference external" href="http://www.flickr.com/photos/motorpsykhos/74145785/">Some rights reserved by motorpsykhos</a></p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">Sphinx did not have a way to import Word file.
+However, there is a experimental implementation to build Word docx file,
+but it is not stable.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li[0]/ul': {margin:'0 1em', display:'none'},
+'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-2em 0 0 -2em', zIndex:'-1', position:'relative', fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]/ul', 'fade in', '0.3']]});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id4">
+<h2>What <strong>IS NOT</strong> Sphinx?<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">There is a way to export to <em>PowerPoint</em>?</p>
+<ul>
+<li><p class="first"><strong>NO.....!!!</strong></p>
+<div class="figure">
+<img alt="_images/no2.jpg" src="_images/no2.jpg" />
+<p class="caption"><a class="reference external" href="http://www.flickr.com/photos/twbriggs/4245079902/">Some rights reserved by el__vaquero</a></p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">3rd-party theme will support to make presentation slide by using Sphinx.
+But it is controlled by HTML, css and JavaScript.
+It is not easy to convert PowerPoint file format.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li[0]/ul': {margin:'0 1em', display:'none'},
+'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-2em 0 0 -2em', zIndex:'-1', position:'relative', fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]/ul', 'fade in', '0.3']]});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id5">
+<h2>What <strong>IS NOT</strong> Sphinx?<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Are there a way to export to <em>Excel</em>?</p>
+<ul>
+<li><p class="first"><strong>What are you saying???</strong></p>
+<div class="figure">
+<img alt="_images/no3_what.jpg" src="_images/no3_what.jpg" />
+<p class="caption"><a class="reference external" href="http://www.flickr.com/photos/extranoise/270597628/">Some rights reserved by extranoise</a></p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>In Japan, many many documentations has been made with Excel.
+It is not feasible I think because it is not easy to maintenance and
+not easy to recognize difference by changing.</p>
+<p class="last">I think Sphinx will never support to convert to Excel.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li[0]/ul': {margin:'0 1em', display:'none'},
+'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-2em 0 0 -2em', zIndex:'-1', position:'relative', fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]/ul', 'fade in', '0.3']]});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="conclusion-sphinx-is">
+<h2>Conclusion: Sphinx <strong>IS</strong><a class="headerlink" href="#conclusion-sphinx-is" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Documentation generator.</li>
+<li>Read reST and write several file formats.</li>
+<li>Extends reST syntax and provides many useful
+<em>roles</em> and <em>directives</em>.</li>
+<li>Contains many beautiful HTML themes.</li>
+<li>Extendable.</li>
+<li><strong>NOT</strong> include office file converter.</li>
+</ul>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">(read slide.)</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {display:'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]', 'fade in', '0.3'],
+['ul/li[1]', 'fade in', '0.3'],
+['ul/li[2]', 'fade in', '0.3'],
+['ul/li[3]', 'fade in', '0.3'],
+['ul/li[4]', 'fade in', '0.3'],
+['ul/li[5]', 'fade in', '0.3']]});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="next">
+<h2>Next.<a class="headerlink" href="#next" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id6">
+<h2>Table of contents<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Introduction<ul>
+<li>Introduces the Sphinx and reStructuredText.</li>
+<li>Sphinx extensions.</li>
+<li>Comparison with other documentation tools.</li>
+</ul>
+</li>
+<li>Demonstration</li>
+<li>Case studies</li>
+</ol>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ol': {color: 'gray'},
+'ol/li[0]/ul/li[1]': {color: 'white'}}});}</script>
+</div>
+<div class="section" id="included-official-extensions">
+<h2>Included official extensions<a class="headerlink" href="#included-official-extensions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><em>autodoc</em>: Auto documenter for Python modules.</li>
+<li><em>pngmath</em> or <em>jsmath</em>: provides <a class="reference external" href="http://sphinx-doc.org/ext/math.html#directive-math" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-dir docutils literal"><span class="pre">math</span></tt></a> directive and role.</li>
+<li><em>intersphinx</em>: Link other documents over internet.</li>
+<li><em>graphviz</em>: Draw graphics by using graphviz.</li>
+<li><em>todo</em>: List-up todo directives.</li>
+<li><em>doctest</em>: run doctesting for code snippets in the document.</li>
+<li><em>coverage</em>: provide &#8220;make coverage&#8221; feature to get documentation coverage.</li>
+</ul>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>Several official extensions are included in the Sphinx
+that are maintained by sphinx comitters.</p>
+<p class="last">autodoc, math, intersphinx, graphviz, todo, ...
+For about some extensions, I&#8217;ll do demonstration later.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {fontSize: '80%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="many-3rd-party-extensions">
+<h2>Many 3rd-party extensions<a class="headerlink" href="#many-3rd-party-extensions" title="Permalink to this headline">¶</a></h2>
+<p>Contributed extensions:</p>
+<ul class="simple">
+<li><em>blockdiag</em>: Rendering some type of diagrams from plain-text like graphviz.</li>
+<li>Domains: ada, coffee, erlan, http, php, ruby.</li>
+<li>or else.</li>
+</ul>
+<p>And other extensions:</p>
+<ul class="simple">
+<li>Some type of html themes (bizstyle, s6, ...)</li>
+<li>Some type of builders (textile, docx, ...)</li>
+</ul>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>You can find several extensions contributed by users in the
+<a class="reference external" href="https://www.bitbucket.org/birkenfeld/sphinx-contrib">Sphinx Contrib</a> repository like these:</p>
+<p class="last">And you can find some extensions in PyPI. For example, Some type of html
+themes like bizstyle or s6. and some type of builders like textile or docx.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {fontSize: '80%'},
+'p': {fontSize: '80%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id7">
+<h2>Next.<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id8">
+<h2>Table of contents<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Introduction<ul>
+<li>Introduces the Sphinx and reStructuredText.</li>
+<li>Sphinx extensions.</li>
+<li>Comparison with other documentation tools.</li>
+</ul>
+</li>
+<li>Demonstration</li>
+<li>Case studies</li>
+</ol>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ol': {color: 'gray'},
+'ol/li[0]/ul/li[2]': {color: 'white'}}});}</script>
+</div>
+<div class="section" id="compare-with-other-tools">
+<h2>Compare with other tools<a class="headerlink" href="#compare-with-other-tools" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Word like office app</li>
+<li>Wiki</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="sphinx-vs-office">
+<h2>Sphinx vs Office<a class="headerlink" href="#sphinx-vs-office" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="45%" />
+<col width="45%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head stub">VS</th>
+<th class="head">Sphinx</th>
+<th class="head">Office</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><th class="stub">Files</th>
+<td>Many files/dirs</td>
+<td>1 monolithic file</td>
+</tr>
+<tr class="row-odd"><th class="stub">Format</th>
+<td>Plain text</td>
+<td>Binary file</td>
+</tr>
+<tr class="row-even"><th class="stub">GUI</th>
+<td>No GUI frontend</td>
+<td>Must use GUI</td>
+</tr>
+<tr class="row-odd"><th class="stub">Begin</th>
+<td>Need learning to write</td>
+<td>Easy to use</td>
+</tr>
+<tr class="row-even"><th class="stub">Restructuring</th>
+<td>Easy</td>
+<td>Difficult</td>
+</tr>
+<tr class="row-odd"><th class="stub">Versioning</th>
+<td>With hg/git/..</td>
+<td>By self</td>
+</tr>
+<tr class="row-even"><th class="stub">Match to</th>
+<td>Work with program source</td>
+<td>Others</td>
+</tr>
+</tbody>
+</table>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">Honestly, Word have powerful features as versioning or parallel editiong or
+some other features. But I think these features are hid to casual users.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'table': {fontSize:'60%', margin:'1em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="sphinx-vs-wiki">
+<h2>Sphinx vs Wiki<a class="headerlink" href="#sphinx-vs-wiki" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="42%" />
+<col width="42%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head stub">VS</th>
+<th class="head">Sphinx</th>
+<th class="head">Wiki</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><th class="stub">Structure</th>
+<td>1 tree</td>
+<td>Semi-lattice</td>
+</tr>
+<tr class="row-odd"><th class="stub">Root and path</th>
+<td>1 root and 1 path from start to end</td>
+<td>No root and no order to read</td>
+</tr>
+<tr class="row-even"><th class="stub">Cross reference</th>
+<td>exists</td>
+<td>exists</td>
+</tr>
+<tr class="row-odd"><th class="stub">Glossary</th>
+<td>exists</td>
+<td>exists</td>
+</tr>
+<tr class="row-even"><th class="stub">Index</th>
+<td>exists</td>
+<td>exists</td>
+</tr>
+<tr class="row-odd"><th class="stub">Match to</th>
+<td>Books, order to read is important</td>
+<td>Dictionary</td>
+</tr>
+</tbody>
+</table>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>Sphinx is suitable for the text like a book or a paper.</p>
+<p class="last">The particle size of Wiki pages are small, it is suitable for the
+dictionary that does not depend on the order in which they read.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'table': {fontSize:'60%', margin:'1em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id9">
+<h2>Next.<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id10">
+<h2>Table of contents<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Introduction</li>
+<li>Demonstration</li>
+<li>Case studies</li>
+</ol>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ol': {color: 'gray'},
+'ol/li[1]': {color: 'white'}}});}</script>
+</div>
+<div class="section" id="sphinx-installation">
+<h2>Sphinx installation<a class="headerlink" href="#sphinx-installation" title="Permalink to this headline">¶</a></h2>
+<p>Install from PyPI:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>easy_install Sphinx
+Searching <span class="k">for </span>Sphinx
+Reading http://pypi.python.org/simple/Sphinx/
+Best match: Sphinx 1.2b1
+...
+Finished processing dependencies <span class="k">for </span>Sphinx
+</pre></div>
+</div>
+<p>Sphinx and other dependency packages are installed.
+Sphinx 1.2b1 is current newest version.</p>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>Install from PyPI by using easy_install.</p>
+<p>easy_install is defacto standard package installer.
+There are other installation methods: pip, buildout or invoke setup.py.
+In this case I used easy_install.</p>
+<p class="last">This command installed Sphinx and other dependency packages.
+Sphinx 1.2b1 is current newest version.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'70%'},
+'div': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="sphinx-quick-start">
+<h2>Sphinx quick start<a class="headerlink" href="#sphinx-quick-start" title="Permalink to this headline">¶</a></h2>
+<p>Generate a scaffold by using sphinx-quickstart:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>sphinx-quickstart sample
+<span class="o">(</span>many interactive questions<span class="o">)</span>
+</pre></div>
+</div>
+<p>Generated files are:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd </span>sample
+<span class="nv">$ </span>ls -a
+./          Makefile    _static/    conf.py*    make.bat*
+../         _build/     _templates/ index.rst
+</pre></div>
+</div>
+<p>Run <strong class="command">make html</strong> to build html output:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>make html
+</pre></div>
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>sphinx-quickstart command generate Sphinx documentation scaffold.
+And then, you can use <tt class="docutils literal"><span class="pre">make</span> <span class="pre">html</span></tt> command to build html output
+soon.</p>
+<p class="last">Generated html files are in _build/html directory.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'70%'},
+'div': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-menu">
+<h2>Demo menu<a class="headerlink" href="#demo-menu" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Bullet list</li>
+<li>Numbered list</li>
+<li>Code highlight</li>
+<li>Link to other pages</li>
+<li>Numerical formula</li>
+<li>todo extension</li>
+<li>autodoc extension</li>
+<li>Link over internet</li>
+<li>Domains</li>
+<li>Internationalization</li>
+<li>blockdiag extension</li>
+</ol>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ol': {fontSize:'60%'}}});}</script>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">Ok, preparation is done.
+Let me show you the demonstrations.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-bullet-list">
+<h2><em>demo:</em> Bullet list<a class="headerlink" href="#demo-bullet-list" title="Permalink to this headline">¶</a></h2>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre>Some text line.
+Second line will joined to 1st line.
+
+<span class="m">*</span> item 1
+<span class="m">*</span> item 2
+
+  <span class="m">*</span> item 2-1
+  <span class="m">*</span> item 2-2
+
+<span class="m">*</span> item 3
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<p class="compound-first">Some text line.
+Second line will joined to 1st line.</p>
+<ul class="compound-last simple">
+<li>item 1</li>
+<li>item 2<ul>
+<li>item 2-1</li>
+<li>item 2-2</li>
+</ul>
+</li>
+<li>item 3</li>
+</ul>
+</div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">You need blank line before and after nested items. And nested items need 2 spaces before <tt class="docutils literal"><span class="pre">*</span></tt>.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'70%'},
+'div': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-numbered-list">
+<h2><em>demo:</em> Numbered list<a class="headerlink" href="#demo-numbered-list" title="Permalink to this headline">¶</a></h2>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre><span class="m">1.</span> item 1
+<span class="m">2.</span> item 2
+
+   <span class="m">#.</span> item 2-1
+   <span class="m">#.</span> item 2-2
+
+<span class="m">3.</span> item 3
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<ol class="arabic simple">
+<li>item 1</li>
+<li>item 2<ol class="arabic">
+<li>item 2-1</li>
+<li>item 2-2</li>
+</ol>
+</li>
+<li>item 3</li>
+</ol>
+</div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last"><cite>#.</cite> rendering auto numbered list. but it is not human readable.</p>
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">&#8220;number plus dot&#8221; or &#8220;sharp plus dot&#8221; render numbered list.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-code-highlight">
+<h2><em>demo:</em> Code highlight<a class="headerlink" href="#demo-code-highlight" title="Permalink to this headline">¶</a></h2>
+<p>Use <tt class="docutils literal"><span class="pre">code-block</span></tt> directive to rendering code with highlighting.</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">code-block</span><span class="p">::</span> ruby
+
+   class Foo
+     def initialize(value)
+       puts &quot;value = #{value}&quot;
+     end
+   end
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<div class="highlight-ruby"><div class="highlight"><pre><span class="k">class</span> <span class="nc">Foo</span>
+  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+    <span class="nb">puts</span> <span class="s2">&quot;value = </span><span class="si">#{</span><span class="n">value</span><span class="si">}</span><span class="s2">&quot;</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This directive was provided by sphinx. The same feature is provided by docutils-0.9 as <tt class="xref rst rst-dir docutils literal"><span class="pre">code</span></tt> directive.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'70%'},
+'div': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-link-to-other-pages">
+<h2><em>demo:</em> Link to other pages<a class="headerlink" href="#demo-link-to-other-pages" title="Permalink to this headline">¶</a></h2>
+<p>Use <a class="reference external" href="http://sphinx-doc.org/markup/toctree.html#directive-toctree" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-dir docutils literal"><span class="pre">toctree</span></tt></a> directive to build a tree structure.</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">toctree</span><span class="p">::</span>
+   <span class="nc">:numbered:</span>
+   <span class="nc">:maxdepth:</span> <span class="nf">2</span>
+
+   spam
+   egg
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="spam.html">1. This is SPAM page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="egg.html">2. Egg: python binary packaging format</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This directive was provided by sphinx.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id11">
+<h2><em>demo:</em> Link to other pages<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<p>Link between pages by using <a class="reference external" href="http://sphinx-doc.org/markup/para.html#directive-glossary" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-dir docutils literal"><span class="pre">glossary</span></tt></a> directive and <a class="reference external" href="http://sphinx-doc.org/markup/inline.html#role-term" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-role docutils literal"><span class="pre">term</span></tt></a> role:</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">glossary</span><span class="p">::</span>
+
+   Sphinx
+      Sphinx is a docmentation generator.
+
+   reStructuredText
+      reST is markup language to make structured document.
+
+These glossary terms are linked from other pages
+by using <span class="nv">`term`</span> role like <span class="na">:term:</span><span class="nv">`Sphinx`</span>.
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<dl class="glossary docutils">
+<dt id="term-sphinx">Sphinx</dt>
+<dd>Sphinx is a docmentation generator.</dd>
+<dt id="term-restructuredtext">reStructuredText</dt>
+<dd>reST is markup language to make structured document.</dd>
+</dl>
+<p class="compound-last">These glossary terms are linked from other pages
+by using <cite>term</cite> role like <a class="reference internal" href="#term-sphinx"><em class="xref std std-term">Sphinx</em></a>.</p>
+</div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'70%'},
+'div': {fontSize:'70%'}}});}</script>
+</div>
+<div class="section" id="id12">
+<h2><em>demo:</em> Link to other pages<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<p>Link between pages by using <a class="reference external" href="http://sphinx-doc.org/markup/inline.html#role-doc" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-role docutils literal"><span class="pre">doc</span></tt></a> role:</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre>Link to another reST page with <span class="na">:doc:</span><span class="nv">`subdir/index`</span>.
+<span class="nv">`subdir/index`</span> will be replaced with title of
+that&#39;s document file.
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<p>Link to another reST page with <a class="reference internal" href="subdir/index.html"><em>Subdirectory Root Page</em></a>.
+<cite>subdir/index</cite> will be replaced with title of
+that&#8217;s document file.</p>
+</div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'70%'},
+'div': {fontSize:'70%'}}});}</script>
+</div>
+<div class="section" id="demo-numerical-formula">
+<h2><em>demo:</em> Numerical formula<a class="headerlink" href="#demo-numerical-formula" title="Permalink to this headline">¶</a></h2>
+<p>Use <a class="reference external" href="http://sphinx-doc.org/ext/math.html#directive-math" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-dir docutils literal"><span class="pre">math</span></tt></a> directive to rendering numerical formula.</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre>Pythagoras theorem is <span class="na">:math:</span><span class="nv">`a^2 + b^2 = c^2`</span>.
+
+<span class="p">..</span> <span class="ow">math</span><span class="p">::</span> (a + b)^2 = a^2 + 2ab + b^2
+
+<span class="p">..</span> <span class="ow">math</span><span class="p">::</span>
+   <span class="nc">:nowrap:</span>
+
+   \begin{eqnarray}
+      y    &amp; = &amp; ax^2 + bx + c \\
+      f(x) &amp; = &amp; x^2 + 2xy + y^2
+   \end{eqnarray}
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<p class="compound-first">Pythagoras theorem is <img class="math" src="_images/math/7fbd4264fbec874b1c14992abd59ea22d4daf604.png" alt="a^2 + b^2 = c^2"/>.</p>
+<div class="compound-middle math">
+<p><img src="_images/math/701ce721811bcd5ce3e369400e8d2d44527cad54.png" alt="(a + b)^2 = a^2 + 2ab + b^2"/></p>
+</div><div class="compound-last math">
+<p><img src="_images/math/d84ba705c2ffb6f8d84482db21a8a4408ed065f9.png" alt="\begin{eqnarray}
+   y    &amp; = &amp; ax^2 + bx + c \\
+   f(x) &amp; = &amp; x^2 + 2xy + y^2
+\end{eqnarray}"/></p>
+</div></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This directive was provided by sphinx. Same name directive was provided by docutils-0.8 or later, but it is bit different.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'60%'},
+'div': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-todo-extension">
+<h2><em>demo:</em> todo extension<a class="headerlink" href="#demo-todo-extension" title="Permalink to this headline">¶</a></h2>
+<p>Add <a class="reference external" href="http://sphinx-doc.org/ext/todo.html#sphinx.ext.todo" title="(in Sphinx v1.1.3)"><tt class="xref py py-mod docutils literal"><span class="pre">sphinx.ext.todo</span></tt></a> extension in conf.py:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s">&#39;sphinx.ext.todo&#39;</span><span class="p">,</span>
+<span class="p">]</span>
+<span class="n">todo_include_todos</span> <span class="o">=</span> <span class="bp">True</span>
+</pre></div>
+</div>
+<p>Then you can use <a class="reference external" href="http://sphinx-doc.org/ext/todo.html#directive-todo" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-dir docutils literal"><span class="pre">todo</span></tt></a> directive:</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">todo</span><span class="p">::</span> write test for this function.
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<div class="admonition-todo compound-last admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<p class="last">write test for this function.</p>
+</div>
+</div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id13">
+<h2><em>demo:</em> todo extension<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<p>... and  <a class="reference external" href="http://sphinx-doc.org/ext/todo.html#directive-todolist" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-dir docutils literal"><span class="pre">todolist</span></tt></a> directive:</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">todolist</span><span class="p">::</span>
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<div class="admonition-todo compound-first admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<p class="last">write test for this function.</p>
+</div>
+<p class="todo-source compound-last">(The <a class="reference internal" href="#index-0"><em>original entry</em></a> is located in  c:\project\sphinx-doc\pycontw2013-sphinx-introduction\index.rst, line 1095.)</p>
+</div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-autodoc-extension">
+<h2><em>demo:</em> autodoc extension<a class="headerlink" href="#demo-autodoc-extension" title="Permalink to this headline">¶</a></h2>
+<p>Add <a class="reference external" href="http://sphinx-doc.org/ext/autodoc.html#sphinx.ext.autodoc" title="(in Sphinx v1.1.3)"><tt class="xref py py-mod docutils literal"><span class="pre">sphinx.ext.autodoc</span></tt></a> extension in conf.py:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s">&#39;sphinx.ext.autodoc&#39;</span><span class="p">,</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Then you can use <a class="reference external" href="http://sphinx-doc.org/ext/autodoc.html#directive-automodule" title="(in Sphinx v1.1.3)"><tt class="xref rst rst-dir docutils literal"><span class="pre">automodule</span></tt></a> directive:</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">automodule</span><span class="p">::</span> person
+   <span class="nc">:members:</span>
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<span class="compound-first target" id="module-person"></span><dl class="compound-last class">
+<dt id="person.Person">
+<em class="property">class </em><tt class="descclassname">person.</tt><tt class="descname">Person</tt><big>(</big><em>name</em><big>)</big><a class="headerlink" href="#person.Person" title="Permalink to this definition">¶</a></dt>
+<dd><p>Person</p>
+<dl class="method">
+<dt id="person.Person.greeting">
+<tt class="descname">greeting</tt><big>(</big><big>)</big><a class="headerlink" href="#person.Person.greeting" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Retval :</th><td class="field-body">greeting message.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-link-over-internet">
+<h2><em>demo:</em> Link over internet<a class="headerlink" href="#demo-link-over-internet" title="Permalink to this headline">¶</a></h2>
+<p>Add <a class="reference external" href="http://sphinx-doc.org/ext/intersphinx.html#sphinx.ext.intersphinx" title="(in Sphinx v1.1.3)"><tt class="xref py py-mod docutils literal"><span class="pre">sphinx.ext.intersphinx</span></tt></a> extension and intersphinx setting in conf.py:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s">&#39;sphinx.ext.autodoc&#39;</span><span class="p">,</span>
+    <span class="s">&#39;sphinx.ext.intersphinx&#39;</span><span class="p">,</span>  <span class="c">#&lt;- added</span>
+<span class="p">]</span>
+
+<span class="n">intersphinx_mapping</span> <span class="o">=</span> <span class="p">{</span>
+   <span class="s">&#39;py&#39;</span><span class="p">:</span> <span class="p">(</span><span class="s">&#39;http://docs.python.jp/2/&#39;</span><span class="p">,</span> <span class="bp">None</span><span class="p">),</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Then your linking markups link remote pages:</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre>This markup link to Python&#39;s official reference page:
+<span class="na">:py:func:</span><span class="nv">`urllib.urlopen`</span> on the <span class="na">:mod:</span><span class="nv">`urllib`</span> page.
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<p>This markup link to Python&#8217;s official reference page:
+<a class="reference external" href="http://docs.python.org/2/library/urllib.html#urllib.urlopen" title="(in Python v2.7)"><tt class="xref py py-func docutils literal"><span class="pre">urllib.urlopen()</span></tt></a> on the <a class="reference external" href="http://docs.python.org/2/library/urllib.html#urllib" title="(in Python v2.7)"><tt class="xref py py-mod docutils literal"><span class="pre">urllib</span></tt></a> page.</p>
+</div>
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">Linking to other published Sphinx document by using same syntax to link
+to internal pages.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'60%'},
+'div': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-domains">
+<h2><em>demo:</em> Domains<a class="headerlink" href="#demo-domains" title="Permalink to this headline">¶</a></h2>
+<p>A domain is a collection of markup (directives and roles) to describe and link to objects belonging together.</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">py:function</span><span class="p">::</span> event.register(event_id, user_name)
+
+   (description for this function here).
+
+You can use <span class="na">:py:func:</span><span class="nv">`event.register`</span> to register.
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<dl class="compound-middle function">
+<dt id="person.event.register">
+<tt class="descclassname">event.</tt><tt class="descname">register</tt><big>(</big><em>event_id</em>, <em>user_name</em><big>)</big><a class="headerlink" href="#person.event.register" title="Permalink to this definition">¶</a></dt>
+<dd><p>(description for this function here).</p>
+</dd></dl>
+
+<p class="compound-last">You can use <a class="reference internal" href="#person.event.register" title="person.event.register"><tt class="xref py py-func docutils literal"><span class="pre">event.register()</span></tt></a> to register.</p>
+</div>
+</div>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">:py:func:`event.register`</span></tt> is <em>py</em> domain&#8217;s <em>func</em> role that make lnik to the declaration line.</li>
+<li><tt class="docutils literal"><span class="pre">..</span> <span class="pre">py:function::</span> <span class="pre">event.register(event_id,</span> <span class="pre">user_name)</span></tt> is <em>py</em> domain&#8217;s <em>function</em> directive that make declaration of the function and create Sphinx&#8217;s index page entry.</li>
+</ul>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<blockquote>
+<div><p>What is domain? A domain is a collection of markup (reStructuredText
+directives and roles) to describe and link to objects belonging together.</p>
+<p>For example. In this case, <tt class="docutils literal"><span class="pre">:py:func:`event.register`</span></tt> is <em>py</em> domain&#8217;s</p>
+</div></blockquote>
+<p><em>func</em> role that make lnik to the declaration line.</p>
+<blockquote class="last">
+<div><p><tt class="docutils literal"><span class="pre">..</span> <span class="pre">py:function::</span> <span class="pre">event.register(event_id,</span> <span class="pre">user_name)</span></tt> is <em>py</em> domain&#8217;s
+<em>function</em> directive that make declaration of the function and create
+Sphinx&#8217;s index page entry.</p>
+<p>Sphinx contains several domains and sphinx-contrib contains more useful
+domains.</p>
+</div></blockquote>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'60%'},
+'div': {fontSize:'60%'},
+'ul': {fontSize:'60%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-internationalization">
+<h2><em>demo:</em> Internationalization<a class="headerlink" href="#demo-internationalization" title="Permalink to this headline">¶</a></h2>
+<p>Sphinx generate po files for internationalization(i18n).
+<a class="reference external" href="http://pypi.python.org/pypi/sphinx-intl">sphinx-intl</a> also support your work.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>easy_install sphinx-intl
+</pre></div>
+</div>
+<p>Generate pot files and create specified po files.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>make gettext
+<span class="nv">$ </span>sphinx-intl update -p _build/locale -l zh_TW
+</pre></div>
+</div>
+<p>And next, you need translate po files in <cite>locale/</cite> sub dirs.
+When you did that, set <cite>language=&#8217;zh_TW&#8217;</cite> in the conf.py to use translated
+po files.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>sphinx-intl build
+<span class="nv">$ </span>make html
+</pre></div>
+</div>
+<p>Ok, you can get the translated HTML.</p>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>Sphinx generate pot files for internationalization(i18n).
+<a class="reference external" href="http://pypi.python.org/pypi/sphinx-intl">sphinx-intl</a> also support your work that is 3rd-party tool
+then you need install this by using easy_install.</p>
+<p>Generate po files can be done with <strong class="command">make getext</strong> command.
+And next, you need translate po files in <cite>locale/</cite> sub dirs.
+When you did that, set <cite>language=&#8217;zh_TW&#8217;</cite> in the conf.py to use
+translated po files.</p>
+<p class="last"><strong class="command">sphinx-intl build</strong> compile po files into mo files.
+Finally you can get the translated html by <strong class="command">make html</strong>.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'60%'},
+'div': {fontSize:'60%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-blockdiag-extensions">
+<h2><em>demo:</em> blockdiag extensions<a class="headerlink" href="#demo-blockdiag-extensions" title="Permalink to this headline">¶</a></h2>
+<p>Blockdiag extensions is 3rd party extension for sphinx.
+Install <a class="reference external" href="http://blockdiag.com/en/blockdiag/sphinxcontrib.html#sphinxcontrib-blockdiag" title="(in blockdiag v1.0)"><em class="xref std std-ref">sphinxcontrib-blockdiag</em></a> extension:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>easy_install Pillow
+<span class="nv">$ </span>easy_install sphinxcontrib-blockdiag
+<span class="nv">$ </span>easy_install sphinxcontrib-seqdiag
+<span class="nv">$ </span>easy_install sphinxcontrib-actdiag
+<span class="nv">$ </span>easy_install sphinxcontrib-nwdiag
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Pillow is successor of PIL (Python Imaging Library) that support
+Python3 and 64bit binary distributions.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'70%'},
+'div': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-blockdiag-extension">
+<h2><em>demo:</em> blockdiag extension<a class="headerlink" href="#demo-blockdiag-extension" title="Permalink to this headline">¶</a></h2>
+<p>Add <tt class="docutils literal"><span class="pre">sphinxcontrib.blockdiag</span></tt> extension in conf.py:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s">&#39;sphinx.ext.autodoc&#39;</span><span class="p">,</span>
+    <span class="s">&#39;sphinx.ext.intersphinx&#39;</span><span class="p">,</span>
+    <span class="s">&#39;sphinxcontrib.blockdiag&#39;</span><span class="p">,</span>  <span class="c">#&lt;- added</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Then you can use <tt class="docutils literal"><span class="pre">blockdiag</span></tt> directive:</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">blockdiag</span><span class="p">::</span>
+
+   {
+       A [label=&quot;ME&quot;];
+       A -&gt; B [label=&quot;Open&quot;];
+       A -&gt; C;
+
+       O -&gt; P -&gt; C;
+   }
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<p class="blockdiag">
+<img src="_images/blockdiag-81614c46d5fced18ab11d05b96f033d473eec079.png" alt="None" width="640" height="280" />
+</p>
+</div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'60%'},
+'div': {fontSize:'60%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo-seqdiag-extension">
+<h2><em>demo:</em> seqdiag extension<a class="headerlink" href="#demo-seqdiag-extension" title="Permalink to this headline">¶</a></h2>
+<p>Add <tt class="docutils literal"><span class="pre">sphinxcontrib.seqdiag</span></tt> extension in conf.py:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s">&#39;sphinx.ext.autodoc&#39;</span><span class="p">,</span>
+    <span class="s">&#39;sphinx.ext.intersphinx&#39;</span><span class="p">,</span>
+    <span class="s">&#39;sphinxcontrib.blockdiag&#39;</span><span class="p">,</span>
+    <span class="s">&#39;sphinxcontrib.seqdiag&#39;</span><span class="p">,</span>  <span class="c">#&lt;- added</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Then you can use <tt class="docutils literal"><span class="pre">seqdiag</span></tt> directive:</p>
+<div class="rstdemo">
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">seqdiag</span><span class="p">::</span>
+
+   {
+       A  =&gt; B;
+       A  -&gt; B;
+       A &lt;-- B;
+
+       A =&gt; C =&gt; D;
+   }
+</pre></div>
+</div>
+<div class="rstdemo-rendered compound">
+<p class="seqdiag">
+<img src="_images/seqdiag-117e247e48069a5ebc0ef920ae1bfc9ff140bcf2.png" alt="None" width="832" height="544" />
+</p>
+</div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'60%'},
+'div': {fontSize:'60%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id14">
+<h2>Next.<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id15">
+<h2>Table of contents<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Introduction</li>
+<li>Demonstration</li>
+<li>Case studies<ul>
+<li>Sphinx official reference</li>
+<li>Blog</li>
+</ul>
+</li>
+</ol>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">At last, I&#8217;ll introduce few case studies.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ol': {color: 'gray'},
+'ol/li[2]': {color: 'white'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="sphinx-official-reference">
+<h2>Sphinx official reference<a class="headerlink" href="#sphinx-official-reference" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<a class="reference external image-reference" href="http://sphinx-doc.org/index.html"><img alt="_images/sphinx-doc.png" src="_images/sphinx-doc.png" /></a>
+<p class="caption"><a class="reference external" href="http://sphinx-doc.org/index.html">http://sphinx-doc.org/index.html</a></p>
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">Of course, Sphinx official reference is created by using Sphinx.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {width:'60%', margin:'1em auto'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id16">
+<h2>Sphinx official reference<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
+<p>Using <a class="reference external" href="http://sphinx-doc.org/ext/autodoc.html#sphinx.ext.autodoc" title="(in Sphinx v1.1.3)"><tt class="xref py py-mod docutils literal"><span class="pre">sphinx.ext.autodoc</span></tt></a>.</p>
+<div class="figure">
+<a class="reference external image-reference" href="http://sphinx-doc.org/web/storagebackends.html"><img alt="_images/sphinx-doc-storagebackend-src.png" src="_images/sphinx-doc-storagebackend-src.png" /></a>
+<p class="caption">source</p>
+</div>
+<div class="figure">
+<a class="reference external image-reference" href="http://sphinx-doc.org/web/storagebackends.html"><img alt="_images/sphinx-doc-storagebackend.png" src="_images/sphinx-doc-storagebackend.png" /></a>
+<p class="caption"><a class="reference external" href="http://sphinx-doc.org/web/storagebackends.html#storagebackends" title="(in Sphinx v1.1.3)"><em>Storage Backends</em></a></p>
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">For instance, Sphinx API part for developers is describing
+reference of functions and classes that was generated by autodoc.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {width:'45%', position:'absolute', left:'1em', top:'3em'},
+'div[1]': {width:'60%', position:'absolute', right:'0', bottom:'1em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="sphinx-japanese-reference">
+<h2>Sphinx Japanese reference<a class="headerlink" href="#sphinx-japanese-reference" title="Permalink to this headline">¶</a></h2>
+<p>Using <a class="reference external" href="http://sphinx-doc.org/intl.html#intl" title="(in Sphinx v1.1.3)"><em>Internationalization</em></a> and <a class="reference external" href="https://www.transifex.com/projects/p/sphinx-doc-1_2_0/">Transifex</a>.</p>
+<div class="figure">
+<a class="reference external image-reference" href="http://docs.sphinx-users.jp/"><img alt="_images/docs-sphinx-users-jp.png" src="_images/docs-sphinx-users-jp.png" /></a>
+<p class="caption"><a class="reference external" href="http://docs.sphinx-users.jp/">http://docs.sphinx-users.jp/</a></p>
+</div>
+<p><a class="reference external" href="http://pypi.python.org/pypi/sphinx-intl">sphinx-intl</a> also support your work.</p>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>And internationalization. This Japanese translated reference page in the
+sphinx-users.jp was generated by Sphinx with Japanese translation
+catalog that was imported from Transifex.</p>
+<p class="last">Transifex will help you to translate in a team.
+And <a class="reference external" href="http://pypi.python.org/pypi/sphinx-intl">sphinx-intl</a> also support your work.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'70%'},
+'div': {width:'55%', margin:'1em auto 0', fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="blog">
+<h2>Blog<a class="headerlink" href="#blog" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<a class="reference external image-reference" href="http://tinkerer.me/"><img alt="_images/tinkerer.png" src="_images/tinkerer.png" /></a>
+<p class="caption"><a class="reference external" href="http://tinkerer.me/">http://tinkerer.me/</a></p>
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">Tinkerer is a blog tool made by using the Sphinx.
+You can be written your blog in reStructuredText format.
+In addition, you can use the rich Sphinx extensions.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {width:'80%', margin:'1em auto 0', fontSize:'80%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="blog-with-tinkerer">
+<h2>Blog with Tinkerer<a class="headerlink" href="#blog-with-tinkerer" title="Permalink to this headline">¶</a></h2>
+<p>Create a new blog:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>mkdir blog
+<span class="nv">$ </span><span class="nb">cd </span>blog
+<span class="nv">$ </span>tinker -s
+</pre></div>
+</div>
+<p>And setup blog title or else:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>vi conf.py
+</pre></div>
+</div>
+<p>And create a blog entry file and write in reST:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>tinker -p <span class="s2">&quot;first post&quot;</span>
+<span class="nv">$ </span>vi 2013/05/25/first_post.rst
+</pre></div>
+</div>
+<p>Finally, build command generates HTML and RSS:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>tinker -b
+</pre></div>
+</div>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>Tinkerer provides original commands to manage your blog;
+create a new blog, create a blog entry, build html.</p>
+<p>(read slide)</p>
+<p class="last">Tinkerer make it easier to write a blog.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {fontSize:'70%', margin:'0 auto'},
+'p': {fontSize:'60%', margin:'0'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="that-s-all">
+<h2>That&#8217;s all<a class="headerlink" href="#that-s-all" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', background:'none'}}});}</script>
+</div>
+<div class="section" id="questions">
+<h2>Questions?<a class="headerlink" href="#questions" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', background:'none'}}});}</script>
+</div>
+<div class="section" id="information">
+<h2>Information<a class="headerlink" href="#information" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', background:'none'}}});}</script>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">I&#8217;d like to introduce PyCon APAC 2013 in this autumn and
+Sphinx users community in Japan.</p>
+</div>
+</div>
+<div class="section" id="pycon-apac-2013-in-japan">
+<h2>PyCon APAC 2013 in Japan<a class="headerlink" href="#pycon-apac-2013-in-japan" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<img alt="_images/pyconapac2013.png" src="_images/pyconapac2013.png" />
+</div>
+<ul class="simple">
+<li>Schedule:<ul>
+<li>Conference: Sep, 14(Sat) 15(Sun)</li>
+<li>Sprint: Sep, 16(Mon)</li>
+</ul>
+</li>
+<li>Location:<ul>
+<li>Tokyo Shinjuku, Japan</li>
+</ul>
+</li>
+<li>Registration:<ul>
+<li>Start at middle of June, (maybe)</li>
+</ul>
+</li>
+</ul>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>We will hold 3-days Python event at September 14, 15, 16 in Tokyo Japan.</p>
+<p class="last">Registration of this event will start at middle of June.</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {width:'17%', position:'absolute', top:'4em', right:'0'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="sphinx-users-jp">
+<h2>Sphinx-users.jp<a class="headerlink" href="#sphinx-users-jp" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<img alt="_images/sphinxusers.jpg" src="_images/sphinxusers.jpg" />
+</div>
+<div class="figure">
+<img alt="_images/SphinxConJP2012-logo.png" src="_images/SphinxConJP2012-logo.png" />
+</div>
+<ul class="simple">
+<li>Managing <a class="reference external" href="http://sphinx-users.jp">http://sphinx-users.jp</a><ul>
+<li>Full-translated reference : <a class="reference external" href="http://docs.sphinx-users.jp/">http://docs.sphinx-users.jp/</a></li>
+<li>Original tutorial contents</li>
+<li>Reverse dictionary</li>
+</ul>
+</li>
+<li>Holding events<ul>
+<li>Sphinx &amp; translation hack-a-thon</li>
+<li>SphinxCon JP</li>
+</ul>
+</li>
+</ul>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p>Sphinx users community group in Japan that was called &#8220;spinx users jp&#8221;.</p>
+<p>The group manage original site that contains full-translated
+reference, original tutorials and reverse dictionary.</p>
+<p class="last">Also we holding monthly event &#8220;Sphinx &amp; translation hack-a-thon&#8221; and
+annual event named &#8220;SphinxCon JP&#8221;</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {width:'45%', position:'absolute', top:'0.3em', right:'0'},
+'div[1]': {width:'50%', position:'absolute', bottom:'1em', right:'1em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="sphinxcon-jp-in-pycon-jp-2012">
+<h2>SphinxCon JP in PyCon JP 2012<a class="headerlink" href="#sphinxcon-jp-in-pycon-jp-2012" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<img alt="_images/sphinxconjp2013-atendees.jpg" src="_images/sphinxconjp2013-atendees.jpg" />
+</div>
+<div class="figure">
+<img alt="_images/standing-atendees.jpg" src="_images/standing-atendees.jpg" />
+</div>
+<div class="figure">
+<img alt="_images/sphinxconjp2012-speakers.jpg" src="_images/sphinxconjp2012-speakers.jpg" />
+</div>
+<p>The first Sphinx event in the world!</p>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">SphinxCon JP at last year was very exciting.
+I think it is the first Sphinx event in the world!
+About 70 people were gathered on this event.
+We would like to do something in PyCon APAC of this year too.
+Please join to PyCon APAC!</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {width:'50%', position:'absolute', top:'3em', left:'0em'},
+'div[1]': {width:'30%', position:'absolute', top:'2.5em', right:'0em'},
+'div[2]': {width:'60%', position:'absolute', bottom:'0em', right:'1em'}}});}</script>
+</div>
+<div class="section" id="thank-you">
+<h2>Thank You!<a class="headerlink" href="#thank-you" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', background:'none'}}});}</script>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a></li>
+        <li class="right" >
+          <a href="spam.html" title="1. This is SPAM page"
+             >next</a> |</li>
+        <li><a href="#">Introduction to Sphinx documentation generator 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+<div class="footer">
+    <span>Introduction to Sphinx documentation generator :: 2013, Takayuki SHIMIZUKAWA</span><br />
+    <span class="hidden">操作方法: 上下左右キーで操作です</span>
+</div>
+
+  </body>
+</html>

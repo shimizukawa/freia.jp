@@ -1,0 +1,806 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Chefで構築するBP-Redmine環境</title>
+    
+    <link rel="stylesheet" href="_static/s6.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+<script type="text/javascript" src="_static/jquery.js"></script>
+<script type="text/javascript" src="_static/jquery.touchwipe.min.js"></script>
+<script type="text/javascript" src="_static/s6.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+
+var bodyStyle = {
+    width: '100%',
+    height: '100%',
+    padding: '0',
+    margin: '0',
+    overflow: 'hidden',
+    backgroundColor: 'white',
+};
+
+s6.css('html', bodyStyle);
+s6.css('body', bodyStyle);
+s6.css('.s6 .page.default > h2', {margin:'0'});
+
+function calcMetrics(options) {
+    var html = document.documentElement;
+    var options = s6.opts(options, {
+        width: html.offsetWidth,
+        height: html.offsetHeight,
+        ratio: 0.75,
+        fontSize: 0.1
+    });
+    var left = 0;
+    var top = 0;
+    var width = options.width;
+    var height = options.height;
+
+    if (height / width < options.ratio) {
+        var originalWidth = width;
+        width = height / options.ratio;
+        left = (originalWidth - width) / 2;
+    }
+    else {
+        var originalHeight = height;
+        height = width * options.ratio;
+        top = (originalHeight - height) / 2;
+    }
+
+    return {
+        left: left,
+        top: top,
+        width: width,
+        height: height,
+        fontSize: height * options.fontSize
+    }
+}
+
+var pr;
+s6.attach(s6, 'ready', function ready() {
+    var fontSize = 0.08;
+    var html = document.documentElement;
+    var metrics = calcMetrics({fontSize: fontSize});
+    var startIndex = 0;
+
+    var result;
+    if (location.hash) {
+        startIndex = $('.section').index($(location.hash));
+        if(startIndex < 0) {
+            startIndex = 0;
+        }
+    }
+
+    var container = $('.section')[0];
+    pr = new s6.Presentation({
+            thema: 'sphinx',
+            element: container,
+            width: metrics.width,
+            height: metrics.height,
+            startIndex: startIndex,
+            fontSize: fontSize
+        });
+    pr.style.left = metrics.left + 'px';
+    pr.style.top = metrics.top + 'px';
+    pr.start();
+
+    var indexNoOutline = false;
+
+    pr.funcPages.index.attachPage('click', function(i, element, wrapper) {
+        indexNoOutline = true;
+        setTimeout(function() {
+            indexNoOutline =false
+        }, 1000);
+        wrapper.style.background = '';
+        pr.go(i);
+    });
+
+    pr.funcPages.index.attachPage('mouseover', function(i, element, wrapper) {
+        if (indexNoOutline) return;
+        wrapper.className += ' selected';
+    });
+    
+    pr.funcPages.index.attachPage('mouseout', function(i, element, wrapper) {
+        wrapper.className = 'wrapper';
+    });
+
+    try {
+        var isIframe = !(window.parent == window);
+    } catch(e) {
+        isIframe = true;
+    }
+
+    // add navigation overlay
+    function createNaviArea(id, options){
+        var opts = s6.opts(options, {
+            widthRatio: 1.0,
+            heightRatio: 1.0,
+            dockTo: 'top',
+            label: ''
+        });
+        function calcNaviMetrics(){
+            var html = document.documentElement;
+            var metrics = calcMetrics({fontSize: fontSize});
+            var naviAreaWidth = ((html.offsetWidth - metrics.width) / 2 + (metrics.width * opts.widthRatio));
+            var naviAreaHeight = ((html.offsetHeight - metrics.height) / 2 + (metrics.height * opts.heightRatio));
+            var width = (opts.widthRatio >= 1.0)? html.offsetWidth: naviAreaWidth;
+            var height = (opts.heightRatio >= 1.0)? html.offsetHeight: naviAreaHeight;
+            var left = 0;
+            var top = 0;
+            if(opts.dockTo == 'right') {
+                left = html.offsetWidth - width;
+            }
+            else if(opts.dockTo == 'bottom') {
+                top = html.offsetHeight - height;
+            }
+            return {
+                width: width,
+                height: height,
+                left: left,
+                top: top
+            };
+        }
+        function setMetrics(elem, metrics) {
+            elem.css('position', 'absolute')
+                .css('left',  metrics.left + 'px')
+                .css('top',  metrics.top + 'px')
+                .css('width',  metrics.width + 'px')
+                .css('height',  metrics.height + 'px');
+            return elem;
+        }
+        var naviMetrics = calcNaviMetrics();
+        var elem = $('<div>', {id: id, class: 'navigation-area-'+opts.dockTo});
+        setMetrics(elem, naviMetrics);
+        var label = $('<span>')
+            .css('line-height', naviMetrics.height + 'px')
+            .text(opts.label);
+        elem.append(label);
+        $(window).resize(function(){
+            var naviMetrics = calcNaviMetrics();
+            setMetrics(elem, naviMetrics);
+            label.css('line-height', naviMetrics.height + 'px')
+        });
+        return elem;
+    }
+    var naviIdx  = createNaviArea('idxpage', {heightRatio: 0.1, dockTo: 'top', label: 'index'});
+    var naviBack = createNaviArea('backpage', {heightRatio: 0.1, dockTo: 'bottom', label: 'back'});
+    var naviNext = createNaviArea('nextpage', {widthRatio: 0.1, dockTo: 'right', label: '≫'});
+    var naviPrev = createNaviArea('prevpage', {widthRatio: 0.1, dockTo: 'left', label: '≪'});
+    s6.attach(naviIdx[0],  'click', function() { pr.go('index') });
+    s6.attach(naviBack[0], 'click', 'back', 0, pr);
+    s6.attach(naviNext[0], 'click', 'step', 0, pr);
+    s6.attach(naviPrev[0], 'click', 'prev', 0, pr);
+    $('div.document')
+        .append(naviIdx)
+        .append(naviBack)
+        .append(naviNext)
+        .append(naviPrev);
+
+    // setup mouse events
+    s6.attach(document, 'click', 'step', 0, pr);
+    s6.attach(document, 'keypress Right', 'step', 0, pr);
+    s6.attach(document, 'keypress Left',  'prev', 0, pr);
+    s6.attach(document, 'keypress Up',    function() { pr.go('index') });
+    s6.attach(document, 'keypress Down',  'back', 0, pr);
+
+    // inject 'target=_blank' to link-targets.
+    // prevent paging if click link-target.
+    var clickGuard = function(evt){
+        pr.busy = true;
+        setTimeout(function(){pr.busy = false;}, 1000);
+        return true;
+    }
+    $('a[href]')
+        .attr('target', '_blank')
+        .click(clickGuard)
+        .mousedown(clickGuard)
+        .mouseup(clickGuard)
+        .bind('contextmenu', clickGuard);
+
+    // setup swipe events
+    if($(document).touchwipe) {
+        var wipeSetting = {
+            wipeLeft: function(){ pr.step(); },
+            wipeRight: function(){ pr.prev(); },
+            wipeUp: function(){ pr.go('index'); },
+            wipeDown: function(){ pr.back(); },
+            preventDefaultEvent: true
+        }
+        $(document).touchwipe(wipeSetting);
+        $(pr.element).touchwipe(wipeSetting);
+    }
+
+    // resize window
+    $(window).resize(function(){
+        var html = document.documentElement;
+        var metrics = calcMetrics({fontSize: fontSize});
+        pr.style.left = metrics.left + 'px';
+        pr.style.top = metrics.top + 'px';
+        pr.style.width = metrics.width + 'px';
+        pr.style.height = metrics.height + 'px';
+        pr.style.fontSize = metrics.fontSize + 'px';
+    });
+
+    // handle page number and set to href
+    pr._go  = pr.go;
+    pr.go = function(toIndex) {
+        pr._go(toIndex);
+        if(pr.getPage(toIndex)) {
+            location.href = '#' + $(".section")[toIndex].id; //want to set at paging.
+        }
+    }
+});
+// ]]>
+</script>
+
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li><a href="#">Pythonな会社でchefしてる例の紹介 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="chefbp-redmine">
+<h1>Chefで構築するBP-Redmine環境<a class="headerlink" href="#chefbp-redmine" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h1': {marginTop:'0.5em'}}});}</script>
+<div class="section" id="id1">
+<h2>提供<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/beproud_logo.png" src="_images/beproud_logo.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {fontSize:'120%', textAlign:'center'},
+'div[0]/img': {margin:'2em', marginTop:'1.2em', width:'80%'},
+'div/img': {border:'0.1em gray outset'},
+'div/img': {backgroundColor:'white'}}});}</script>
+</div>
+<div class="section" id="id2">
+<h2>おまえ、誰よ<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/face.png" src="_images/face.png" />
+</div>
+<ul>
+<li><p class="first"><a class="reference external" href="http://清水川.jp/">http://清水川.jp/</a>
+<a class="reference external" href="http://twitter.com/shimizukawa">&#64;shimizukawa</a></p>
+</li>
+<li><dl class="first docutils">
+<dt>活動:</dt>
+<dd><ul class="first last simple">
+<li>Sphinxメンテナ, Sphinx-users.jp会長</li>
+<li>PyConJP系, Python系, XP系</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>言語:</dt>
+<dd><ul class="first last simple">
+<li>C++/C/8086/<strong>Python</strong>/Rails/chef</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'65%'},
+'div[0]': {width:'15%', position:'absolute', top:'1em'}}});}</script>
+</div>
+<div class="section" id="id3">
+<h2>今日のお題<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>事例1:</dt>
+<dd><ul class="first last simple">
+<li>BeProudのRedmine環境を作る</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>事例2:</dt>
+<dd><ul class="first last simple">
+<li>10台構成のWebサービス環境を作る</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="beproudredmine">
+<h2>事例1: BeProudのRedmine環境を作る<a class="headerlink" href="#beproudredmine" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto'}}});}</script>
+</div>
+<div class="section" id="redmine">
+<h2>例1: 会社のRedmineの管理が大変<a class="headerlink" href="#redmine" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>Pythonの会社なのでメンテナンスが大変</li>
+<li>Redmineにプラグイン入れてそのままリポジトリ管理</li>
+<li>構築手順とか残っているような無いような・・</li>
+<li>よしchefを使おう（特に社内の合意は取らずに開始</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {fontSize: '90%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id4">
+<h2>例1: サーバー構成<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/1-servers.png" src="_images/1-servers.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'}}});}</script>
+</div>
+<div class="section" id="id5">
+<h2>例1: Redmineはアプリ？ミドルウエア？<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><strong>ミドルウエアです</strong></li>
+<li>ミドルウエアなのでCapistranoは使いません</li>
+<li>ということでChefで突き進みます</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id6">
+<h2>例1: 提供するサービスとポート<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/1-services.png" src="_images/1-services.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'}}});}</script>
+</div>
+<div class="section" id="id7">
+<h2>例1: セットアップ内容<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/1-setup.png" src="_images/1-setup.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'}}});}</script>
+</div>
+<div class="section" id="cookbook">
+<h2>例1: 使用したcookbook<a class="headerlink" href="#cookbook" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>opscode</dt>
+<dd><ul class="first last simple">
+<li>ap, git, mercurial, mysql, unicorn, chef-rvm</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>自作</dt>
+<dd><ul class="first last simple">
+<li>chef-rvm-redmine, chef-bp-redmine, chef-download-make-install</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="bp-redmine">
+<h2>例1: <a class="reference external" href="https://github.com/shimizukawa/chef-bp-redmine">bp-redmine</a> は何するの？<a class="headerlink" href="#bp-redmine" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>themeのcssやproduction.rbの設置</li>
+<li>redmine_scm プラグインインストール</li>
+<li>redmine_restructured_text_plugin インストール</li>
+<li>SCMリポジトリfetchのためのcron設定(lockrunのwget,gcc)</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id8">
+<h2>例1: 使用したツール<a class="headerlink" href="#id8" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>vagrant</li>
+<li>librarian-chef</li>
+<li>chefはvagrantのboxイメージに同梱されてた</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id9">
+<h2>悩み＆あきらめ<a class="headerlink" href="#id9" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto'}}});}</script>
+</div>
+<div class="section" id="id10">
+<h2>悩み1<a class="headerlink" href="#id10" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>最初に使い始める人に簡単に使う方法を提供したい</dt>
+<dd><ul class="first last simple">
+<li>VirtualBox + Vagrant + (Berkshelf | Librarian)</li>
+<li>Rubyに明るくないのでgem周りでけっこうはまる</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id11">
+<h2>悩み2<a class="headerlink" href="#id11" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>RedmineのバージョンアップをChefでどうやって表現するの？</dt>
+<dd><ul class="first last simple">
+<li>chefで環境つくればいいから、新しい環境作って切り換えかなあ</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id12">
+<h2>悩み3<a class="headerlink" href="#id12" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>どのchefを使うか</li>
+<li>最初はVagrantでいいんじゃない？</li>
+<li>参考: <a class="reference external" href="http://tk0miya.hatenablog.com/entry/2013/03/07/121438">開発サーバに chef を入れるときの 11の方法 - Hack like a rolling stone</a></li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id13">
+<h2>あきらめ<a class="headerlink" href="#id13" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>Skypeクライアントのインストール</dt>
+<dd><ul class="first last simple">
+<li>xvfbにvncで接続してインストールウィザードをクリックする</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="web">
+<h2>事例2: 10台構成のWebサービス環境を作る<a class="headerlink" href="#web" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto'}}});}</script>
+</div>
+<div class="section" id="id14">
+<h2>例2: お仕事のサーバー構築<a class="headerlink" href="#id14" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>サーバーは10台構成</li>
+<li>iptablesによるアクセス制限設定</li>
+<li>サーバー間でプログラムでssh接続</li>
+<li>sftp専用ユーザーの存在</li>
+<li>DBは安全地帯に居るのでインターネット接続出来ない</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id15">
+<h2>例2: サーバー構成<a class="headerlink" href="#id15" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/2-servers.png" src="_images/2-servers.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'}}});}</script>
+</div>
+<div class="section" id="id16">
+<h2>例2: 提供するサービスとポート<a class="headerlink" href="#id16" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/2-services.png" src="_images/2-services.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'}}});}</script>
+</div>
+<div class="section" id="id17">
+<h2>例2: セットアップ内容<a class="headerlink" href="#id17" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/2-setup.png" src="_images/2-setup.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'}}});}</script>
+</div>
+<div class="section" id="id18">
+<h2>例2: 検証環境<a class="headerlink" href="#id18" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/2-verification.png" src="_images/2-verification.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'}}});}</script>
+</div>
+<div class="section" id="id19">
+<h2>例2: 個人開発環境<a class="headerlink" href="#id19" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/2-personal.png" src="_images/2-personal.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'}}});}</script>
+</div>
+<div class="section" id="role">
+<h2>例2: 役割をroleでグルーピング<a class="headerlink" href="#role" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>抽象的なロール</dt>
+<dd><ul class="first last simple">
+<li>common</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>機能のロール</dt>
+<dd><ul class="first last simple">
+<li>django-python, nginx, loadbalancer, memcached, db, ci, knife</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>大きいロール(≒ノード)</dt>
+<dd><ul class="first last simple">
+<li>banana-gateway, banana-batch, personal-dev</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {fontSize: '90%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="environment">
+<h2>例2: 環境別設定をenvironmentで<a class="headerlink" href="#environment" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>bpvm: 社内の10台構成環境</li>
+<li>personal: 個人のvagrant用環境</li>
+<li>verification: 検証サーバー</li>
+<li>honban: 10台の本番環境</li>
+</ul>
+<p>しかし chef 11.4.0 のchef-soloはenvironmentをサポートしていなかった！！</p>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {fontSize: '80%'},
+'p': {fontSize: '90%', display: 'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['p', 'fade in', '0.3']]});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id20">
+<h2>例2: 使用したcookbook<a class="headerlink" href="#id20" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>opscode</dt>
+<dd><ul class="first last simple">
+<li>yum, git, openssl, mysql, nginx, sudo, screen, selinux, openssh, memcached, jenkins</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>github</dt>
+<dd><ul class="first last simple">
+<li>timezone, user, hostname, chef-rbenv, chef-ruby_build</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id21">
+<h2>例2: 自作したcookbook<a class="headerlink" href="#id21" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><p class="first">python-build</p>
+</li>
+<li><dl class="first docutils">
+<dt>案件依存もの</dt>
+<dd><ul class="first last simple">
+<li>hosts設定, .ssh/config設定, iptables設定, nginx設定, gunicorn設定, sftpユーザー作成, MySQL grant設定, ssh鍵設置, SSL鍵設置, knife-solo 0.3.0-pre4 インストール</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {fontSize: '90%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id22">
+<h2>例2: 使用したツール<a class="headerlink" href="#id22" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>vagrant</li>
+<li>librarian-chef</li>
+<li>chef-solo + knife-solo</li>
+<li>knife-solo_data_bag</li>
+</ul>
+<p>今回はVagrantを個人用、soloをサーバー用として使えるようにした。</p>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id23">
+<h2>悩み＆はまり<a class="headerlink" href="#id23" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto'}}});}</script>
+</div>
+<div class="section" id="id24">
+<h2>悩み4<a class="headerlink" href="#id24" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>ssh鍵やssl鍵をSCMにそのまま保存するの？</li>
+<li>生の秘密鍵を持って歩くのはいやだ！</li>
+<li><em>data bag</em> を使えば <strong>暗号化</strong> 出来るらしいぞ！</li>
+<li><tt class="docutils literal"><span class="pre">knife</span> <span class="pre">data</span> <span class="pre">bag</span> <span class="pre">create</span></tt> したらchef-serverと通信した...</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {fontSize: '90%'},
+'ul/li[2]': {display: 'none'},
+'ul/li[3]': {display: 'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[2]', 'fade in', '0.3'],
+['ul/li[3]', 'fade in', '0.3']]});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id25">
+<h2>悩み4<a class="headerlink" href="#id25" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>解決: <strong>knife-solo_data_bag</strong> を使う</li>
+<li><tt class="docutils literal"><span class="pre">knife</span> <span class="pre">solo</span> <span class="pre">data</span> <span class="pre">bag</span> <span class="pre">create</span></tt> コマンドが使える</li>
+<li>これでサーバー鍵等を保存しておける！！</li>
+<li>マスターキーは必要..</li>
+<li>マスターキーだけ生でSCMに保存しました...</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {fontSize: '90%'},
+'ul/li[3]': {display: 'none'},
+'ul/li[4]': {display: 'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[3]', 'fade in', '0.3'],
+['ul/li[4]', 'fade in', '0.3']]});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id26">
+<h2>例2: はまったこと<a class="headerlink" href="#id26" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>sshログインをPW禁止したら...</li>
+<li>sshログインをroot禁止したら...</li>
+<li>iptables設定有効化後に許可設定する順番で...</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {display: 'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]', 'fade in', '0.3'],
+['ul/li[1]', 'fade in', '0.3'],
+['ul/li[2]', 'fade in', '0.3']]});}</script>
+</div>
+<div class="section" id="knife-solochef-server">
+<h2>knife-soloかchef-serverか<a class="headerlink" href="#knife-solochef-server" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>environmentはchef-soloでは未実装</li>
+<li>data-bagはchef-soloでは作れない</li>
+<li>chef-serverを本番環境内に維持したくない</li>
+<li>chef-serverの運用が未経験未知数</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id27">
+<h2>knife-soloかchef-serverか<a class="headerlink" href="#id27" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>environmentはchef-soloでは未実装</dt>
+<dd><ul class="first last simple">
+<li>roleを分けて逃げた</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>data-bagはchef-soloでは作れない</dt>
+<dd><ul class="first last simple">
+<li>knife-solo_data_bagで出来た！</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id28">
+<h2>knife-soloかchef-serverか<a class="headerlink" href="#id28" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>結論: 今回はchef-soloで。でもchef-serverも良いかも。</p>
+<ul class="simple">
+<li>参考: <a class="reference external" href="http://tk0miya.hatenablog.com/entry/2013/03/13/115504">僕が chef-server を使わない理由 - Hack like a rolling stone</a></li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="question">
+<h2>Question?<a class="headerlink" href="#question" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto'}}});}</script>
+</div>
+<div class="section" id="id29">
+<h2>ありがとうございました<a class="headerlink" href="#id29" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto'}}});}</script>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li><a href="#">Pythonな会社でchefしてる例の紹介 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+<div class="footer">
+    <span>Chefで構築するBP-Redmine環境 :: 2013, Takayuki SHIMIZUKAWA</span><br />
+    <span class="hidden">操作方法: 上下左右キーで操作です</span>
+</div>
+
+  </body>
+</html>

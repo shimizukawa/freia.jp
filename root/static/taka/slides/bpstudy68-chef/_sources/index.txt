@@ -1,0 +1,500 @@
+=====================================
+Chefで構築するBP-Redmine環境
+=====================================
+
+.. s6:: styles
+
+   'h1': {marginTop:'0.5em'},
+
+提供
+=====
+
+.. figure:: beproud_logo.png
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'h2': {fontSize:'120%', textAlign:'center'},
+   'div[0]/img': {margin:'2em', marginTop:'1.2em', width:'80%'},
+   'div/img': {border:'0.1em gray outset'},
+   'div/img': {backgroundColor:'white'},
+
+
+おまえ、誰よ
+=============
+.. figure:: face.png
+
+* `http://清水川.jp/ <http://清水川.jp/>`_
+  `@shimizukawa <http://twitter.com/shimizukawa>`_
+* 活動:
+   * Sphinxメンテナ, Sphinx-users.jp会長
+   * PyConJP系, Python系, XP系
+* 言語:
+   * C++/C/8086/**Python**/Rails/chef
+
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+    'ul': {fontSize:'65%'},
+    'div[0]': {width:'15%', position:'absolute', top:'1em'},
+
+今日のお題
+=============
+
+* 事例1:
+   * BeProudのRedmine環境を作る
+
+* 事例2:
+   * 10台構成のWebサービス環境を作る
+
+.. s6:: effect slide
+
+
+事例1: BeProudのRedmine環境を作る
+==================================
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto'}
+
+
+例1: 会社のRedmineの管理が大変
+================================
+
+* Pythonの会社なのでメンテナンスが大変
+* Redmineにプラグイン入れてそのままリポジトリ管理
+* 構築手順とか残っているような無いような・・
+* よしchefを使おう（特に社内の合意は取らずに開始
+
+.. s6:: styles
+
+   'ul/li': {fontSize: '90%'}
+
+.. s6:: effect slide
+
+
+例1: サーバー構成
+==================
+
+.. figure:: 1-servers.png
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'},
+
+
+例1: Redmineはアプリ？ミドルウエア？
+=====================================
+
+* **ミドルウエアです**
+* ミドルウエアなのでCapistranoは使いません
+* ということでChefで突き進みます
+
+.. s6:: effect slide
+
+
+例1: 提供するサービスとポート
+==============================
+
+.. figure:: 1-services.png
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'},
+
+
+
+例1: セットアップ内容
+======================
+
+.. figure:: 1-setup.png
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'},
+
+
+例1: 使用したcookbook
+======================
+
+* opscode
+   * ap, git, mercurial, mysql, unicorn, chef-rvm
+
+* 自作
+   * chef-rvm-redmine, chef-bp-redmine, chef-download-make-install
+
+.. s6:: effect slide
+
+例1: `bp-redmine`_ は何するの？
+================================
+
+* themeのcssやproduction.rbの設置
+* redmine_scm プラグインインストール
+* redmine_restructured_text_plugin インストール
+* SCMリポジトリfetchのためのcron設定(lockrunのwget,gcc)
+
+.. s6:: effect slide
+
+
+
+例1: 使用したツール
+=====================
+
+* vagrant
+* librarian-chef
+* chefはvagrantのboxイメージに同梱されてた
+
+.. s6:: effect slide
+
+
+悩み＆あきらめ
+=================
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto'}
+
+
+悩み1
+=======
+
+* 最初に使い始める人に簡単に使う方法を提供したい
+   * VirtualBox + Vagrant + (Berkshelf | Librarian)
+   * Rubyに明るくないのでgem周りでけっこうはまる
+
+.. s6:: effect slide
+
+悩み2
+=======
+
+* RedmineのバージョンアップをChefでどうやって表現するの？
+   * chefで環境つくればいいから、新しい環境作って切り換えかなあ
+
+.. s6:: effect slide
+
+
+悩み3
+========
+
+* どのchefを使うか
+
+* 最初はVagrantでいいんじゃない？
+
+* 参考: `開発サーバに chef を入れるときの 11の方法 - Hack like a rolling stone`_
+
+.. s6:: effect slide
+
+
+あきらめ
+==========
+
+* Skypeクライアントのインストール
+   * xvfbにvncで接続してインストールウィザードをクリックする
+
+.. s6:: effect slide
+
+
+
+事例2: 10台構成のWebサービス環境を作る
+========================================
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto'}
+
+
+例2: お仕事のサーバー構築
+============================
+
+* サーバーは10台構成
+* iptablesによるアクセス制限設定
+* サーバー間でプログラムでssh接続
+* sftp専用ユーザーの存在
+* DBは安全地帯に居るのでインターネット接続出来ない
+
+.. s6:: effect slide
+
+
+例2: サーバー構成
+==================
+
+.. figure:: 2-servers.png
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'},
+
+
+例2: 提供するサービスとポート
+==============================
+
+.. figure:: 2-services.png
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'},
+
+
+例2: セットアップ内容
+======================
+
+.. figure:: 2-setup.png
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'},
+
+
+例2: 検証環境
+===============
+
+.. figure:: 2-verification.png
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'},
+
+
+例2: 個人開発環境
+===================
+
+.. figure:: 2-personal.png
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'div[0]': {padding:'1em', marginLeft:'1em', marginTop:'1.2em', backgroundColor:'white'},
+
+
+
+例2: 役割をroleでグルーピング
+================================
+
+* 抽象的なロール
+   * common
+
+* 機能のロール
+   * django-python, nginx, loadbalancer, memcached, db, ci, knife
+
+* 大きいロール(≒ノード)
+   * banana-gateway, banana-batch, personal-dev
+
+.. s6:: styles
+
+   'ul/li': {fontSize: '90%'}
+
+.. s6:: effect slide
+
+例2: 環境別設定をenvironmentで
+====================================
+
+* bpvm: 社内の10台構成環境
+* personal: 個人のvagrant用環境
+* verification: 検証サーバー
+* honban: 10台の本番環境
+
+しかし chef 11.4.0 のchef-soloはenvironmentをサポートしていなかった！！
+
+.. s6:: styles
+
+   'ul/li': {fontSize: '80%'},
+   'p': {fontSize: '90%', display: 'none'},
+
+.. s6:: actions
+
+    ['p', 'fade in', '0.3'],
+
+.. s6:: effect slide
+
+
+例2: 使用したcookbook
+======================
+
+* opscode
+   * yum, git, openssl, mysql, nginx, sudo, screen, selinux, openssh, memcached, jenkins
+
+* github
+   * timezone, user, hostname, chef-rbenv, chef-ruby_build
+
+.. s6:: effect slide
+
+
+例2: 自作したcookbook
+======================
+
+* python-build
+* 案件依存もの
+   * hosts設定, .ssh/config設定, iptables設定, nginx設定, gunicorn設定, sftpユーザー作成, MySQL grant設定, ssh鍵設置, SSL鍵設置, knife-solo 0.3.0-pre4 インストール
+
+.. s6:: styles
+
+   'ul/li': {fontSize: '90%'}
+
+.. s6:: effect slide
+
+
+例2: 使用したツール
+=====================
+
+* vagrant
+* librarian-chef
+* chef-solo + knife-solo
+* knife-solo_data_bag
+
+今回はVagrantを個人用、soloをサーバー用として使えるようにした。
+
+.. s6:: effect slide
+
+悩み＆はまり
+=================
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto'}
+
+悩み4
+=======
+
+* ssh鍵やssl鍵をSCMにそのまま保存するの？
+* 生の秘密鍵を持って歩くのはいやだ！
+* *data bag* を使えば **暗号化** 出来るらしいぞ！
+* ``knife data bag create`` したらchef-serverと通信した...
+
+.. s6:: styles
+
+   'ul/li': {fontSize: '90%'},
+   'ul/li[2]': {display: 'none'},
+   'ul/li[3]': {display: 'none'},
+
+.. s6:: actions
+
+    ['ul/li[2]', 'fade in', '0.3'],
+    ['ul/li[3]', 'fade in', '0.3'],
+
+.. s6:: effect slide
+
+悩み4
+=======
+
+* 解決: **knife-solo_data_bag** を使う
+* ``knife solo data bag create`` コマンドが使える
+* これでサーバー鍵等を保存しておける！！
+* マスターキーは必要..
+* マスターキーだけ生でSCMに保存しました...
+
+.. s6:: styles
+
+   'ul/li': {fontSize: '90%'},
+   'ul/li[3]': {display: 'none'},
+   'ul/li[4]': {display: 'none'},
+
+.. s6:: actions
+
+    ['ul/li[3]', 'fade in', '0.3'],
+    ['ul/li[4]', 'fade in', '0.3'],
+
+.. s6:: effect slide
+
+
+例2: はまったこと
+=====================
+
+* sshログインをPW禁止したら...
+* sshログインをroot禁止したら...
+* iptables設定有効化後に許可設定する順番で...
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'ul/li': {display: 'none'},
+
+.. s6:: actions
+
+    ['ul/li[0]', 'fade in', '0.3'],
+    ['ul/li[1]', 'fade in', '0.3'],
+    ['ul/li[2]', 'fade in', '0.3'],
+
+
+knife-soloかchef-serverか
+===========================
+
+* environmentはchef-soloでは未実装
+* data-bagはchef-soloでは作れない
+* chef-serverを本番環境内に維持したくない
+* chef-serverの運用が未経験未知数
+
+.. s6:: effect slide
+
+knife-soloかchef-serverか
+===========================
+
+* environmentはchef-soloでは未実装
+   * roleを分けて逃げた
+
+* data-bagはchef-soloでは作れない
+   * knife-solo_data_bagで出来た！
+
+.. s6:: effect slide
+
+knife-soloかchef-serverか
+===========================
+
+結論: 今回はchef-soloで。でもchef-serverも良いかも。
+
+* 参考: `僕が chef-server を使わない理由 - Hack like a rolling stone`_
+
+.. s6:: effect slide
+
+
+
+Question?
+=================
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto'}
+
+
+ありがとうございました
+========================
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto'}
+
+
+
+.. _`開発サーバに chef を入れるときの 11の方法 - Hack like a rolling stone`: http://tk0miya.hatenablog.com/entry/2013/03/07/121438
+.. _`僕が chef-server を使わない理由 - Hack like a rolling stone`: http://tk0miya.hatenablog.com/entry/2013/03/13/115504
+.. _`bp-redmine`: https://github.com/shimizukawa/chef-bp-redmine

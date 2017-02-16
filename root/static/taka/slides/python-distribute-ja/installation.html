@@ -1,0 +1,309 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Installing the Package Tools &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="index.html" />
+    <link rel="next" title="Using Packages" href="usage.html" />
+    <link rel="prev" title="Introduction to Packaging" href="introduction.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="usage.html" title="Using Packages"
+             accesskey="N">次へ</a> |</li>
+        <li class="right" >
+          <a href="introduction.html" title="Introduction to Packaging"
+             accesskey="P">前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="installing-the-package-tools">
+<h1>Installing the Package Tools<a class="headerlink" href="#installing-the-package-tools" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>In the <a class="reference internal" href="introduction.html#state-of-packaging-info"><em>current state of packaging</em></a> in Python,
+one needs a set of tools to easily manipulate the packaging ecosystem. There are
+two tools in particular that are extremely handy in the current ecosystem. There
+is a third tool, <a class="reference internal" href="virtualenv.html"><em>Virtual Environments</em></a>, that will be discussed later in this
+documentation that will assist in isolating a packaging ecosystem from the
+global one. The combination of these tools will help to find, install and
+uninstall packages.</p>
+<div class="section" id="distribute">
+<span id="distribute-info"></span><h2>Distribute<a class="headerlink" href="#distribute" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p><a class="reference external" href="http://packages.python.org/distribute">Distribute</a> is a collection of enhancements to the Python standard library
+module: <tt class="xref py py-mod docutils literal"><span class="pre">distutils</span></tt> (for Python 2.3.5 and up on most platforms; 64-bit
+platforms require a minimum of Python 2.4) that allows you to more easily build
+and distribute Python packages, especially ones that have dependencies on other
+packages.</p>
+<p>Distribute was created because the <a class="reference external" href="http://pypi.python.org/pypi/setuptools/">Setuptools package</a> is no longer maintained. Third-party
+packages will likely require <tt class="xref py py-mod docutils literal"><span class="pre">setuptools</span></tt>, which is provided by the
+<a class="reference external" href="http://packages.python.org/distribute">Distribute</a> package. Therefore, anytime time a packages depends on the
+<a class="reference external" href="http://pypi.python.org/pypi/setuptools/">Setuptools package</a>, <a class="reference external" href="http://packages.python.org/distribute">Distribute</a>
+will step in to say it already provides the <tt class="xref py py-mod docutils literal"><span class="pre">setuptools</span></tt> module.</p>
+<div class="admonition- admonition seealso">
+<p class="first admonition-title">参考</p>
+<p class="last"><a class="reference external" href="http://packages.python.org/distribute">Distribute documentation</a>.</p>
+</div>
+<div class="section" id="installation-instructions">
+<h3>Installation Instructions<a class="headerlink" href="#installation-instructions" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p><a class="reference external" href="http://packages.python.org/distribute">Distribute</a> can be installed using the <a class="reference external" href="http://python-distribute.org/distribute_setup.py">distribute_setup.py</a> script.  It can also be
+installed using easy_install, pip, the source tarball, or the egg distribution.
+<a class="reference external" href="http://python-distribute.org/distribute_setup.py">distribute_setup.py</a> is the
+simplest and preferred way to install Distribute on all systems.</p>
+<p>Download <a class="reference external" href="http://python-distribute.org/distribute_setup.py">distribute_setup.py</a> and execute it, using the
+Python interpreter of your choice.</p>
+<p>From the *nix shell you can do:</p>
+<div class="highlight-python"><pre>$ wget http://python-distribute.org/distribute_setup.py
+$ python distribute_setup.py</pre>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">For those on Mac OS X, you can use <tt class="docutils literal"><span class="pre">curl</span> <span class="pre">-O</span> <span class="pre">&lt;url&gt;</span></tt> instead of
+<tt class="docutils literal"><span class="pre">wget</span></tt>.</p>
+</div>
+<div class="admonition- admonition seealso">
+<p class="first admonition-title">参考</p>
+<p class="last">The development version of Distribute can be found at:
+<a class="reference external" href="http://bitbucket.org/tarek/distribute/">http://bitbucket.org/tarek/distribute/</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="pip-installs-python-pip">
+<span id="pip-info"></span><h2>Pip Installs Python (Pip)<a class="headerlink" href="#pip-installs-python-pip" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p><a class="reference external" href="http://pip.openplans.org/">Pip</a> is an installer for Python packages written by Ian Bicking. It
+can install packages, list installed packages, upgrade packages and
+uninstall packages.</p>
+<p>The <tt class="docutils literal"><span class="pre">pip</span></tt> application is a replacement for <a class="reference external" href="http://peak.telecommunity.com/DevCenter/EasyInstall">easy_install</a>. It uses mostly the
+same techniques for finding packages, so packages that were made
+easy_installable should be pip-installable as well.</p>
+<div class="admonition- admonition seealso">
+<p class="first admonition-title">参考</p>
+<p class="last"><a class="reference external" href="http://pip.openplans.org/index.html">Pip Documentation</a> and <a class="reference external" href="http://pypi.python.org/pypi/pip">Pip
+PyPI description</a></p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">??? <a class="reference external" href="http://pip.openplans.org/#requirements-files">Pip requirements</a></p>
+</div>
+<div class="section" id="installing-pip">
+<h3>Installing Pip<a class="headerlink" href="#installing-pip" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>The <a class="reference external" href="http://pip.openplans.org/">Pip</a> installer can be installed using the source tarball or using
+<tt class="docutils literal"><span class="pre">easy_install</span></tt>.  The source tarball is the recommended method of installation.</p>
+<p>The latest version of the source tarball can be obtained from PyPI:</p>
+<div class="highlight-python"><pre>$ wget http://pypi.python.org/packages/source/p/pip/pip-0.7.2.tar.gz
+$ tar xzf pip-0.7.2.tar.gz
+$ cd pip-0.7.2
+$ python setup.py install</pre>
+</div>
+<p>Or the <tt class="docutils literal"><span class="pre">easy_install</span></tt> application can be used:</p>
+<div class="highlight-python"><pre>$ easy_install pip</pre>
+</div>
+<p>The <tt class="docutils literal"><span class="pre">pip</span></tt> application is now installed.</p>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last"><tt class="docutils literal"><span class="pre">pip</span></tt> is complementary with <a class="reference internal" href="virtualenv.html"><em>Virtual Environments</em></a>, and it is encouraged
+that you use <a class="reference internal" href="virtualenv.html"><em>Virtual Environments</em></a> to isolate your installation.</p>
+</div>
+</div>
+<div class="section" id="installing-a-package">
+<h3>Installing a package<a class="headerlink" href="#installing-a-package" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Let&#8217;s install the <a class="reference external" href="http://pypi.python.org/pypi/Markdown">Markdown</a> package:</p>
+<div class="highlight-python"><pre>$ pip install Markdown</pre>
+</div>
+<p>Markdown is now installed; you can import and use it:</p>
+<div class="highlight-python"><pre>$ python -c "import markdown; print markdown.markdown('**Excellent**')"</pre>
+</div>
+</div>
+<div class="section" id="listing-installed-packages">
+<h3>Listing installed packages<a class="headerlink" href="#listing-installed-packages" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>To list installed packages and versions, use the <tt class="docutils literal"><span class="pre">freeze</span></tt> command:</p>
+<div class="highlight-python"><pre>$ pip freeze
+Markdown==2.0.3
+wsgiref==0.1.2</pre>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">The <tt class="docutils literal"><span class="pre">wsgiref</span></tt> package is a part of the Python standard
+library. Currently it is the only standard library package that
+includes <a class="reference external" href="http://www.python.org/dev/peps/pep-0314/">package metadata</a>, so it is the only standard library
+package whose presence pip reports.</p>
+</div>
+</div>
+<div class="section" id="installing-specific-versions">
+<h3>Installing specific versions<a class="headerlink" href="#installing-specific-versions" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>You can also give pip a version specifier for a package using one or
+more of ==, &gt;=, &gt;, &lt;, &lt;=:</p>
+<div class="highlight-python"><pre>$ pip install 'Markdown&lt;2.0'</pre>
+</div>
+<p>This will find your current installation of Markdown 2.0.3,
+automatically uninstall it, and install Markdown 1.7 (the latest
+version in the 1.x series) in its place. You can even combine version
+specifiers with a comma:</p>
+<div class="highlight-python"><pre>$ pip install 'Markdown&gt;2.0,&lt;2.0.3'</pre>
+</div>
+</div>
+<div class="section" id="upgrading">
+<h3>Upgrading<a class="headerlink" href="#upgrading" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>If you want to upgrade a package to its most recent available version, use the
+<tt class="docutils literal"><span class="pre">-U</span></tt> or <tt class="docutils literal"><span class="pre">--upgrade</span></tt> flag:</p>
+<div class="highlight-python"><pre>$ pip install -U Markdown</pre>
+</div>
+</div>
+<div class="section" id="uninstalling">
+<h3>Uninstalling<a class="headerlink" href="#uninstalling" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Now let&#8217;s uninstall Markdown:</p>
+<div class="highlight-python"><pre>$ pip uninstall Markdown</pre>
+</div>
+<p>After showing you which files/directories will be removed and
+requesting confirmation, pip will uninstall everything installed by
+the Markdown package.</p>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">Pip inside a <a class="reference internal" href="virtualenv.html"><em>Virtual Environment</em></a> will only uninstall
+packages installed within that virtual environment. For instance, if you try
+to <tt class="docutils literal"><span class="pre">pip</span> <span class="pre">uninstall</span> <span class="pre">wsgiref</span></tt> it will refuse, because the reference is within
+the global Python&#8217;s standard library.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Installing the Package Tools</a><ul>
+<li><a class="reference internal" href="#distribute">Distribute</a><ul>
+<li><a class="reference internal" href="#installation-instructions">Installation Instructions</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pip-installs-python-pip">Pip Installs Python (Pip)</a><ul>
+<li><a class="reference internal" href="#installing-pip">Installing Pip</a></li>
+<li><a class="reference internal" href="#installing-a-package">Installing a package</a></li>
+<li><a class="reference internal" href="#listing-installed-packages">Listing installed packages</a></li>
+<li><a class="reference internal" href="#installing-specific-versions">Installing specific versions</a></li>
+<li><a class="reference internal" href="#upgrading">Upgrading</a></li>
+<li><a class="reference internal" href="#uninstalling">Uninstalling</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>前のトピックへ</h4>
+  <p class="topless"><a href="introduction.html"
+                        title="前の章へ">Introduction to Packaging</a></p>
+  <h4>次のトピックへ</h4>
+  <p class="topless"><a href="usage.html"
+                        title="次の章へ">Using Packages</a></p>
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/installation.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="usage.html" title="Using Packages"
+             >次へ</a> |</li>
+        <li class="right" >
+          <a href="introduction.html" title="Introduction to Packaging"
+             >前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

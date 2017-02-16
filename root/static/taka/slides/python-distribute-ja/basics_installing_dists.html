@@ -1,0 +1,183 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Basics: Installing Distributions &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="index.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="basics-installing-distributions">
+<h1>Basics: Installing Distributions<a class="headerlink" href="#basics-installing-distributions" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>The central online directory of <a class="reference internal" href="glossary.html#term-distribution"><em class="xref std std-term">distributions</em></a>
+is called the &#8220;Python Package Index&#8221; (aka, the <tt class="xref doc docutils literal"><span class="pre">PyPI</span></tt>)
+located at <a class="reference external" href="http://pypi.python.org/pypi">http://pypi.python.org/pypi</a>. Almost everyone who creates
+Python <a class="reference internal" href="glossary.html#term-package"><em class="xref std std-term">packages</em></a> and <a class="reference internal" href="glossary.html#term-module"><em class="xref std std-term">modules</em></a> who
+wants them used by the Python community gets them listed at the
+PyPI. Search there first for whatever you need.</p>
+<p>You can install any of the distributions listed at the PyPI by running
+a simple command (&#8220;pip&#8221;&#8212;described below) which downloads and
+installs the distribution along with any other distributions that the
+one you want depends upon.</p>
+<p>For this system to work its best, we recommend you first set up a
+separate environment for your installed modules by using <a class="reference internal" href="virtualenv.html"><em>Virtual Environments</em></a>.
+This only takes a moment, and works well because it keeps you from having to
+install various and sundry modules all over your filesystem&#8212;instead they
+go into a nice roped-off area where they can make all the noise
+they want. <tt class="docutils literal"><span class="pre">:)</span></tt> First install the tool that lets you create that
+environment:</p>
+<ul class="simple">
+<li>download the most-recent release of
+<a class="reference external" href="http://bitbucket.org/ianb/virtualenv/downloads/">virtualenv</a>
+(perhaps to your own <tt class="docutils literal"><span class="pre">~/temp</span></tt> directory)</li>
+<li>unpack</li>
+<li><tt class="docutils literal"><span class="pre">cd</span> <span class="pre">virtualenv</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">install</span></tt></li>
+</ul>
+<p>Now create an environment named, say, &#8220;test-env&#8221;:</p>
+<div class="highlight-python"><pre>mkdir ~/opt/py-envs
+cd ~/opt/py-envs
+virtualenv --distribute test-env</pre>
+</div>
+<p>If you like, you can now bring up the Python prompt for your new
+environment by running <tt class="docutils literal"><span class="pre">~/opt/py-envs/test-env/bin/python</span></tt>. Exit it
+when you&#8217;re ready to continue.</p>
+<p>You are now ready to install any distributions you like into the
+isolated Python environment you just created. The command syntax goes
+like so:</p>
+<div class="highlight-python"><pre>~/opt/py-envs/test-env/bin/pip install DistName</pre>
+</div>
+<p>The distribution name is shown in the main heading of its
+corresponding PyPI page and <em>should</em> be written in CamelCase.</p>
+<p>To make use of your newly-installed distributions, just make sure your
+script refers to the environment where the distributions are
+installed:</p>
+<div class="highlight-python"><pre>#!/home/&lt;you&gt;/opt/py-envs/test-env/bin/python
+import &lt;newly_installed_package&gt;
+print "Hello World!"</pre>
+</div>
+<p>If you want your shell to always find your own Python environment&#8217;s
+<tt class="docutils literal"><span class="pre">python</span></tt> first, you might add its <tt class="docutils literal"><span class="pre">bin</span></tt> to your PATH. <a class="footnote-reference" href="#path" id="id1">[1]</a></p>
+<p>For more information on using pip, see <a class="reference internal" href="pip.html"><em>the pip chapter</em></a> of
+this Guide.</p>
+<p class="rubric">Footnotes</p>
+<table class="docutils footnote" frame="void" id="path" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>On Ubuntu GNU/Linux, you can do this by adding the following
+to your <tt class="docutils literal"><span class="pre">~/.profile</span></tt>: <tt class="docutils literal"><span class="pre">export</span> <span class="pre">PATH=/home/&lt;you&gt;/opt/py-envs/test-env/bin:$PATH</span></tt></td></tr>
+</tbody>
+</table>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/basics_installing_dists.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

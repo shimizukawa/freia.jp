@@ -1,0 +1,424 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Specifications &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="index.html" />
+    <link rel="next" title="Advanced Topics" href="advanced.html" />
+    <link rel="prev" title="Virtual Environments" href="virtualenv.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="advanced.html" title="Advanced Topics"
+             accesskey="N">次へ</a> |</li>
+        <li class="right" >
+          <a href="virtualenv.html" title="Virtual Environments"
+             accesskey="P">前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="specifications">
+<h1>Specifications<a class="headerlink" href="#specifications" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="naming-specification">
+<h2>Naming Specification<a class="headerlink" href="#naming-specification" title="このヘッドラインへのパーマリンク">¶</a></h2>
+</div>
+<div class="section" id="versioning-specification">
+<h2>Versioning Specification<a class="headerlink" href="#versioning-specification" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="how-to-version-your-python-projects">
+<h3>How to version your Python projects<a class="headerlink" href="#how-to-version-your-python-projects" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>The version of a package is defined in the <tt class="docutils literal"><span class="pre">setup.py</span></tt> file. A <tt class="docutils literal"><span class="pre">setup.py</span></tt>
+looks something like this:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">distutils.core</span> <span class="kn">import</span> <span class="n">setup</span>
+
+<span class="n">setup</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;MyProject&#39;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s">&#39;1.0&#39;</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="s">&#39;Tarek&#39;</span><span class="p">,</span>
+      <span class="n">author_email</span><span class="o">=</span><span class="s">&#39;tarek@ziade.org&#39;</span><span class="p">,</span>
+      <span class="n">url</span><span class="o">=</span><span class="s">&#39;http://example.com&#39;</span><span class="p">,)</span>
+</pre></div>
+</div>
+<p>And this gives you the power to register and upload your project to
+<a class="reference internal" href="contributing.html#pypi-info"><em>The Python Package Index (PyPI)</em></a>, as simply as:</p>
+<div class="highlight-python"><pre>$ python setup.py register sdist upload</pre>
+</div>
+<p>Your project is then added in PyPI, among over 9000 other projects and
+people can start using it, by downloading the archive you have created
+with the <tt class="docutils literal"><span class="pre">sdist</span></tt> command.</p>
+<p>With <tt class="docutils literal"><span class="pre">pip</span></tt> they can even install it with a simple command, ala <tt class="docutils literal"><span class="pre">apt-get</span></tt>:</p>
+<div class="highlight-python"><pre>$ pip install MyProject</pre>
+</div>
+</div>
+<div class="section" id="why-you-need-version-numbers">
+<h3>Why you need version numbers?<a class="headerlink" href="#why-you-need-version-numbers" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>As soon as you start publishing your project to the world, you need to
+version it. For example, the first version of your software can be <tt class="docutils literal"><span class="pre">1.0</span></tt>.</p>
+<p>Everytime you are releasing a new version with new features and bugfixes,
+raising the version number will let your end users know that it is a
+newer version. This is usally done by incrementing the version,
+so your next version could be <tt class="docutils literal"><span class="pre">1.1</span></tt>.</p>
+<p>Once this new version is made available to the world on PyPI, people
+will be able to install it, for example using <tt class="docutils literal"><span class="pre">pip</span></tt>:</p>
+<div class="highlight-python"><pre>$ pip install --upgrade MyProject</pre>
+</div>
+<p>The <tt class="docutils literal"><span class="pre">upgrade</span></tt> option here means that Pip will look for all published
+versions of <tt class="docutils literal"><span class="pre">MyProject</span></tt> on PyPI and see which one is the latest, then
+upgrade your system to that version if you are not up-to-date.</p>
+<p>Now imagine that you have introduced a small bug in <tt class="docutils literal"><span class="pre">1.1</span></tt> that makes
+your project unusable on Windows. You are working on it, but you know
+it will take you some time to resolve it.</p>
+<p>The best strategy here is to tell you Windows user to stick with <tt class="docutils literal"><span class="pre">1.0</span></tt>
+until you have fixed the issue. They can downgrade to <tt class="docutils literal"><span class="pre">1.0</span></tt> because
+it is still available on PyPI:</p>
+<div class="highlight-python"><pre>$ pip install MyProject==1.0</pre>
+</div>
+<p>This is possible because <tt class="docutils literal"><span class="pre">pip</span></tt> is able to sort the various versions
+of your project, as long as it follows a standard version scheme.</p>
+</div>
+<div class="section" id="standard-versioning-schemes">
+<h3>Standard versioning schemes<a class="headerlink" href="#standard-versioning-schemes" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>The two most commone schemes used to version a software are <strong>date-based</strong>
+schemes and <strong>sequence-based</strong> schemes.</p>
+<div class="section" id="date-scheme">
+<h4>Date scheme<a class="headerlink" href="#date-scheme" title="このヘッドラインへのパーマリンク">¶</a></h4>
+<p>Some projects use dates for the version numbers. That was the case for Wine
+before it started using a sequence-based scheme. A date scheme is usually
+using a <tt class="docutils literal"><span class="pre">YYYY-MM-DD</span></tt> form so versions can be sorted alphanumerically:</p>
+<ul class="simple">
+<li>2009-08-10</li>
+<li>2005-02-03</li>
+<li>etc.</li>
+</ul>
+<p>This versioning scheme has a few limitations:</p>
+<ul class="simple">
+<li>you need to add hours to the scheme if you do more than one release
+per day.</li>
+<li>if you have maintenance branches over older releases, the overall
+order will not work anymore: a maintenance release of an older version
+will appear to be newer than a recent release.</li>
+</ul>
+<p>Although, date schemes are commonly used as extra markers in versions schemes.</p>
+</div>
+<div class="section" id="sequence-based-scheme">
+<h4>Sequence-based scheme<a class="headerlink" href="#sequence-based-scheme" title="このヘッドラインへのパーマリンク">¶</a></h4>
+<p>The most common scheme is the sequence-based scheme, where each version is a
+sequence of numerical values usually separated by dots (<cite>.</cite>):</p>
+<ul class="simple">
+<li>1.0</li>
+<li>1.1</li>
+<li>1.0.1</li>
+<li>1.3.4</li>
+</ul>
+<p>This scheme removes the limitations we have seen with date-based schemes since
+you can release maintenance versions and keep the proper order: versions are
+ordered by comparing alphanumerically each segment of the version.</p>
+<p>The most frequent sequence-based scheme is:</p>
+<div class="highlight-python"><pre>MAJOR.MINOR[.MICRO]</pre>
+</div>
+<p>where <tt class="docutils literal"><span class="pre">MAJOR</span></tt> designates a major revision number for the software, like <tt class="docutils literal"><span class="pre">2</span></tt>
+or <tt class="docutils literal"><span class="pre">3</span></tt> for Python. Usually, raising a major revision number means that you
+are adding a lot of features, breaking backward-compatibility or drastically
+changing the APIs or ABIs.</p>
+<p><tt class="docutils literal"><span class="pre">MINOR</span></tt> usually groups moderate changes to the software like bug fixes or
+minor improvements. Most of the time, end users can upgrade with no risks
+their software to a new minor release. In case an API changes, the end users
+will be notified with deprecation warnings. In other words, API and ABI
+stability is usually a promise between two minor releases.</p>
+<p>Some softwares use a third level: <tt class="docutils literal"><span class="pre">MICRO</span></tt>. This level is used when the
+release cycle of minor release is quite long. In that case, micro releases
+are dedicated to bug fixes.</p>
+<p>Choosing between a major-based scheme and a micro-based one is really a
+matter of taste. The most important thing is to document how your version
+scheme works and what your end users should expect when you release a new
+version. So be sure to define your release cycle properly before you
+start releasing to the wild !</p>
+<div class="section" id="development-releases">
+<h5>Development releases<a class="headerlink" href="#development-releases" title="このヘッドラインへのパーマリンク">¶</a></h5>
+<p>When working for the next version of your application, you might need to
+release a development version in order to share it with other developers.
+Many projects provide <cite>nightly builds</cite>, which are daily snapshots of the
+code repository people can install to try out a cutting edge version.</p>
+<p>Like regular versions, development versions have to be numbered so they can be
+sorted and compared with any other version. The simplest way to perform this
+numbering is to use the current repository version number when creating the
+release. The next version is suffixed by a <cite>dev</cite> number. Of course this
+implies that your code lives in a repository, like Subversion or Mercurial.</p>
+<p>Examples:</p>
+<ul class="simple">
+<li>1.2.dev1234 : a development version of the future 1.2 release. 1234 is the
+current repository version.</li>
+<li>1.3a2.dev12 : a development version of the future 1.3 alpha 2 release. 12 is
+the current repository version.</li>
+</ul>
+<p>Package managers that will install those versions will need to sort them
+correctly: 1.2.dev1234 &lt; 1.2 &lt; 1.3a2.dev12 &lt; 1.3a2 &lt; 1.3</p>
+<p>Here&#8217;s an example of a <tt class="docutils literal"><span class="pre">setup.py</span></tt> file in a project that lives in a Mercurial
+repository, that will automatically generate the right development version when
+creating a source distribution.:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">distutils.command.sdist</span> <span class="kn">import</span> <span class="n">sdist</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="k">class</span> <span class="nc">sdist_hg</span><span class="p">(</span><span class="n">sdist</span><span class="p">):</span>
+
+    <span class="n">user_options</span> <span class="o">=</span> <span class="n">sdist</span><span class="o">.</span><span class="n">user_options</span> <span class="o">+</span> <span class="p">[</span>
+            <span class="p">(</span><span class="s">&#39;dev&#39;</span><span class="p">,</span> <span class="bp">None</span><span class="p">,</span> <span class="s">&quot;Add a dev marker&quot;</span><span class="p">)</span>
+            <span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">initialize_options</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">sdist</span><span class="o">.</span><span class="n">initialize_options</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dev</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">dev</span><span class="p">:</span>
+            <span class="n">suffix</span> <span class="o">=</span> <span class="s">&#39;.dev</span><span class="si">%d</span><span class="s">&#39;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_tip_revision</span><span class="p">()</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">distribution</span><span class="o">.</span><span class="n">metadata</span><span class="o">.</span><span class="n">version</span> <span class="o">+=</span> <span class="n">suffix</span>
+        <span class="n">sdist</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">get_tip_revision</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()):</span>
+        <span class="kn">from</span> <span class="nn">mercurial.hg</span> <span class="kn">import</span> <span class="n">repository</span>
+        <span class="kn">from</span> <span class="nn">mercurial.ui</span> <span class="kn">import</span> <span class="n">ui</span>
+        <span class="kn">from</span> <span class="nn">mercurial</span> <span class="kn">import</span> <span class="n">node</span>
+        <span class="n">repo</span> <span class="o">=</span> <span class="n">repository</span><span class="p">(</span><span class="n">ui</span><span class="p">(),</span> <span class="n">path</span><span class="p">)</span>
+        <span class="n">tip</span> <span class="o">=</span> <span class="n">repo</span><span class="o">.</span><span class="n">changelog</span><span class="o">.</span><span class="n">tip</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">repo</span><span class="o">.</span><span class="n">changelog</span><span class="o">.</span><span class="n">rev</span><span class="p">(</span><span class="n">tip</span><span class="p">)</span>
+
+<span class="n">setup</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;MyProject&#39;</span><span class="p">,</span>
+      <span class="n">version</span><span class="o">=</span><span class="s">&#39;1.0&#39;</span><span class="p">,</span>
+      <span class="n">packages</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;package&#39;</span><span class="p">],</span>
+      <span class="n">cmdclass</span><span class="o">=</span><span class="p">{</span><span class="s">&#39;sdist&#39;</span><span class="p">:</span> <span class="n">sdist_hg</span><span class="p">})</span>
+</pre></div>
+</div>
+<p>This development marker will be added when the <tt class="docutils literal"><span class="pre">dev</span></tt> option is used.</p>
+</div>
+<div class="section" id="pre-releases">
+<h5>Pre-releases<a class="headerlink" href="#pre-releases" title="このヘッドラインへのパーマリンク">¶</a></h5>
+<p>Major versions of a software are often preceded by pre-releases. These
+previews are comparable to development versions and are released for testing
+purposes. Publishing them will let your end-users try them out and send you
+valuable feedback before the <cite>final</cite> version is published. It also helps
+avoiding releases of <cite>brown-bag</cite> versions. A brown-bag version is a version
+that is badly broken and that cannot be used by some of all of the end users.</p>
+<p>Usually, pre-releases are organized in three phases:</p>
+<ul class="simple">
+<li><strong>alpha</strong> releases: early pre-releases. A lot of changes can occur between
+alphas and the final release, like feature additions or refactorings. But
+they are minor changes and the software should stay pretty unchanged by the
+time the first beta is reached.</li>
+<li><strong>beta</strong> releases: at this stage, no new features are added and developers
+are tracking remaning bugs.</li>
+<li><strong>release candidate</strong> releases: a release candidate is an ultimate release
+before the final release. Unless something bad happens, nothing is changed.</li>
+</ul>
+<p>Of course, the number of pre-releases varies a lot depending on the size of
+your project and the numbers of end-users. Python itself has several alpha,
+beta and release candidate releases when a minor version is being released,
+because it impacts a lot of people and organizations.</p>
+<p>Small projects often don&#8217;t have any pre-releases because they can publish
+a new final version anytime. Some small projects do have pre-releases even if
+they could skip it because it is benefic for increasing feedback, and has a
+positive psychological effect on end-users. For instance, having a series
+of pre-releases for your &#8220;1.0&#8221; version will increase the chances to publish
+a rock-solid version. And the &#8220;1.0&#8221; milestone can mean a lot to your end
+users: round numbers like this make them feel that your software has reached
+an important step in its maturity.</p>
+</div>
+<div class="section" id="post-releases">
+<h5>Post-releases<a class="headerlink" href="#post-releases" title="このヘッドラインへのパーマリンク">¶</a></h5>
+<p>Some projects use post-releases when they need to publish a version that
+simply doesn&#8217;t fit in the next series or can&#8217;t be a new release in the
+current series. Let&#8217;s take an example: &#8220;1.9&#8221; is the last release of your &#8220;1.x&#8221;
+series, and you have started a backward incompatible &#8220;2.x&#8221; series. You want
+all your users to drop any &#8220;1.x&#8221; release as soon as possible. You have released
+debug versions in the &#8220;1.x&#8221; series for quite a time and stated that &#8220;1.9&#8221; was
+the last one. Although, a user finds a really bad bug in &#8220;1.9&#8221; and asks you to
+fix it because he can&#8217;t switch to the new series. In that case it is useful to
+publish a post release.</p>
+<p>This use case is quite rare, and it&#8217;s likely that you will never have to do
+post releases.</p>
+</div>
+</div>
+<div class="section" id="defining-your-release-cycle">
+<h4>Defining your release cycle<a class="headerlink" href="#defining-your-release-cycle" title="このヘッドラインへのパーマリンク">¶</a></h4>
+<p>A sofware usually follows this cycle:</p>
+<ul class="simple">
+<li>internal development versions might be released, for testing purposes. These
+releases can be private to a circle of developers, but they still need to be
+versioned. It&#8217;s a good practice to do them because, unlike grabbing the
+current development version out of the code repository, it will help
+testing your release process: if there&#8217;s a bug in your setup.py file, or in
+any part of your release/deploy/install process, they can be caught in early
+stage that way.</li>
+<li>one or several pre-release are made for getting end-users feedback
+and avoiding releasing a <cite>brown bag</cite> release, as we saw in the previous
+section. Having just release candidates, or also apha and betas is up to you.
+There&#8217;s no rule about it, but it is considered overkill to have alphas and betas
+for small projects (small here would be less that 5k SLOC. or less than 50
+end-users)</li>
+<li>a final version is released to the world, usually starting at
+<tt class="docutils literal"><span class="pre">1.0</span></tt> or <tt class="docutils literal"><span class="pre">0.1</span></tt>. Micro versions are considered overkill, unless the release
+cycle of your minor version lasts for months, and you want to keep the same
+major number for years.</li>
+<li>bugfixes and new features are added and new versions are released</li>
+<li>when a new major version is started, like &#8220;2.0&#8221;, bug fixes releases may
+continue in the &#8220;1.x&#8221; series, depending on the cost of moving to &#8220;2.0&#8221; for
+your end-users.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="using-a-pep-386-compatible-scheme">
+<h3>Using a PEP 386 compatible scheme<a class="headerlink" href="#using-a-pep-386-compatible-scheme" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>PEP 386 defines a standard version scheme that should be used by Python
+applications that are publishing releases at PyPI. It ensures interoperability
+among all major package managers and installers. In other words, it will make
+sure that all versions of a project are proprely recognized and sorted as
+long as a PEP 386-compatible scheme is used.</p>
+<p>XXX put a link, more info</p>
+<p>XXX say here that ppl should look at how big projects are doing (python, zope,
+twisted)</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Specifications</a><ul>
+<li><a class="reference internal" href="#naming-specification">Naming Specification</a></li>
+<li><a class="reference internal" href="#versioning-specification">Versioning Specification</a><ul>
+<li><a class="reference internal" href="#how-to-version-your-python-projects">How to version your Python projects</a></li>
+<li><a class="reference internal" href="#why-you-need-version-numbers">Why you need version numbers?</a></li>
+<li><a class="reference internal" href="#standard-versioning-schemes">Standard versioning schemes</a><ul>
+<li><a class="reference internal" href="#date-scheme">Date scheme</a></li>
+<li><a class="reference internal" href="#sequence-based-scheme">Sequence-based scheme</a><ul>
+<li><a class="reference internal" href="#development-releases">Development releases</a></li>
+<li><a class="reference internal" href="#pre-releases">Pre-releases</a></li>
+<li><a class="reference internal" href="#post-releases">Post-releases</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#defining-your-release-cycle">Defining your release cycle</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-a-pep-386-compatible-scheme">Using a PEP 386 compatible scheme</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>前のトピックへ</h4>
+  <p class="topless"><a href="virtualenv.html"
+                        title="前の章へ">Virtual Environments</a></p>
+  <h4>次のトピックへ</h4>
+  <p class="topless"><a href="advanced.html"
+                        title="次の章へ">Advanced Topics</a></p>
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/specification.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="advanced.html" title="Advanced Topics"
+             >次へ</a> |</li>
+        <li class="right" >
+          <a href="virtualenv.html" title="Virtual Environments"
+             >前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

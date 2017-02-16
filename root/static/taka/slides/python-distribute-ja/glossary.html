@@ -1,0 +1,353 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Glossary &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="index.html" />
+    <link rel="next" title="クレジット" href="credits.html" />
+    <link rel="prev" title="Future of Packaging" href="future.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="credits.html" title="クレジット"
+             accesskey="N">次へ</a> |</li>
+        <li class="right" >
+          <a href="future.html" title="Future of Packaging"
+             accesskey="P">前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="glossary">
+<h1>Glossary<a class="headerlink" href="#glossary" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<dl class="glossary docutils">
+<dt id="term-buildout">Buildout</dt>
+<dd><p class="first">A <a class="reference external" href="http://www.buildout.org">python-based build system</a> for creating,
+assembling and deploying applications from multiple parts, any of
+which may be non-python based. It lets you create a buildout
+configuration and reproduce the same software later.</p>
+<p class="last">Buildout is commonly used to install and manage Python distributions.
+It differentiates itself from <tt class="xref doc docutils literal"><span class="pre">&lt;pip&gt;</span></tt> in a few ways: Buildout
+takes a configuration file as input, where as pip is run from the
+command-line. Buildout can run any arbitrary recipe during installation
+and so can manage non-python parts, such as config files, databases,
+etc. Buildout by default installs packages in a multi-version manner,
+so that each distribution is contained in a separate directory, and
+Buildout be configured so that other Buildout installations can re-use
+a multi-version archive of installed distributions. In contrast, Pip
+installs distributions into a single location, such that it&#8217;s only
+possible to have a single version of each distribution installed at
+a time. However, it&#8217;s possible to use different recipes with Buildout
+to create single location installations in the same fashion as pip.</p>
+</dd>
+<dt id="term-cpan">CPAN</dt>
+<dd>CPAN is the Comprehensive Perl Archive Network, a large collection of
+<a class="reference internal" href="#term-perl"><em class="xref std std-term">Perl</em></a> software and documentation. You can begin exploring from
+either <a class="reference external" href="http://www.cpan.org/">http://www.cpan.org/</a>, <a class="reference external" href="http://www.perl.com/CPAN/">http://www.perl.com/CPAN/</a> or any of the
+mirrors listed at <a class="reference external" href="http://www.cpan.org/SITES.html">http://www.cpan.org/SITES.html</a>. <a class="reference internal" href="#cpan">[CPAN]</a></dd>
+<dt id="term-developer">Developer</dt>
+<dd>The person developing the package.</dd>
+<dt id="term-distribution">Distribution</dt>
+<dd><p class="first">A Python distribution is a versioned compressed archive file
+that contains Python packages, modules, and other resource
+files. The distribution file is what an end-user will download
+from the internet and install.</p>
+<p>A distribution is often also called a package. This is the term
+commonly used in other fields of computing. For example, Mac OS X
+and Debian call these files package files. However, in Python, the
+term package refers to an importable directory. In order to
+distinguish between these two concepts, the compressed archive file
+containing code is called a distribution.</p>
+<p class="last">However, it is not uncommon in Python to refer to a distribution
+using the term package. While the two meanings of the term package
+is not always 100% unambigous, the context of the term package is
+usually sufficient to distinguish the meaning of the word. For
+example, the python installation tool pip is an acronym for
+&#8220;pip installs packages&#8221;, while technically the tool installs
+distributions, the name package is used as it&#8217;s meaning is more
+widely understood. Even the site where distributions are distributed
+at is called the Python Package Index (and not the Python Distribution
+Index).</p>
+</dd>
+<dt id="term-distutils">Distutils</dt>
+<dd>A standard and basic package that comes with the Python
+standard library. It is used for creating distributions
+(where it is imported in the <tt class="docutils literal"><span class="pre">setup.py</span></tt> file for that
+distribution).</dd>
+<dt id="term-extension-module">Extension Module</dt>
+<dd>A module written in the low-level language of the Python
+implementation: C/C++ for Python, Java for Jython. Typically
+contained in a single dynamically loadable pre-compiled file, e.g.
+a shared object (.so) file for Python extensions on Unix, a DLL
+(given the .pyd extension) for Python extensions on Windows, or a
+Java class file for Jython extensions.</dd>
+<dt id="term-irc">IRC</dt>
+<dd>Internet Relay Chat (IRC) is a form of real-time Internet text messaging
+(chat) or synchronous conferencing. It is mainly designed for group
+communication in discussion forums, called channels, but also allows
+one-to-one communication via private message as well as chat and data
+transfers via Direct Client-to-Client. <a class="reference internal" href="#wikipediairc">[WikipediaIRC]</a></dd>
+<dt id="term-known-good-set-kgs">Known Good Set (KGS)</dt>
+<dd>A set of distributions at specified versions which are compatible with
+each other. Typically a test suite will be run which passes all
+tests before a specific set of packages is declared a known good
+set. This term is commonly used by frameworks and toolkits which
+are compromised of multiple individual distributions.</dd>
+<dt id="term-module">Module</dt>
+<dd>A python source code file (ex. <tt class="docutils literal"><span class="pre">mymodule.py</span></tt>), most often
+found in a package (<tt class="docutils literal"><span class="pre">mypackage/mymodule.py</span></tt>). You can import
+a module: <tt class="docutils literal"><span class="pre">import</span> <span class="pre">mymodule</span></tt>, or <tt class="docutils literal"><span class="pre">import</span> <span class="pre">mypackage.mymodule</span></tt>
+if it lives in <tt class="docutils literal"><span class="pre">mypackage</span></tt>.</dd>
+<dt id="term-package">Package</dt>
+<dd><p class="first">A directory containing an <tt class="docutils literal"><span class="pre">__init__.py</span></tt> file (ex.
+<tt class="docutils literal"><span class="pre">mypackage/__init__.py</span></tt>), and also usually containing
+modules (possibly along with other packages). You can import
+a package: <tt class="docutils literal"><span class="pre">import</span> <span class="pre">mypackage</span></tt></p>
+<p class="last">A package should not be confused with a compressed archive file
+used to install Python code.</p>
+</dd>
+<dt id="term-package-index">Package Index</dt>
+<dd><p class="first">A repository of distributions with a web interface to automate
+distribution discovery and consumption.</p>
+<div class="admonition- last admonition seealso">
+<p class="first admonition-title">参考</p>
+<p class="last">The <a class="reference internal" href="contributing.html#pypi-info"><em>The Python Package Index (PyPI)</em></a> is the default packaging
+index for the Python community. It is open to all
+Python developers to consume and distribute their
+distributions.</p>
+</div>
+</dd>
+<dt id="term-packager">Packager</dt>
+<dd>The person packaging the package for a particular operating system
+(e.g. Debian).</dd>
+<dt id="term-perl">Perl</dt>
+<dd>Perl is a high-level programming language with an eclectic heritage
+written by Larry Wall and a cast of thousands. It derives from the
+ubiquitous C programming language and to a lesser extent from sed, awk,
+the Unix shell, and at least a dozen other tools and languages. Perl&#8217;s
+process, file, and text manipulation facilities make it particularly
+well-suited for tasks involving quick prototyping, system utilities,
+software tools, system management tasks, database access, graphical
+programming, networking, and world wide web programming. These strengths
+make it especially popular with system administrators and CGI script
+authors, but mathematicians, geneticists, journalists, and even managers
+also use Perl. <a class="reference internal" href="#perl">[PERL]</a></dd>
+<dt id="term-pip">Pip</dt>
+<dd><tt class="xref doc docutils literal"><span class="pre">&lt;pip&gt;</span></tt> is a command-line tool for downloading and installing
+Python distributions.</dd>
+<dt id="term-project">Project</dt>
+<dd><p class="first">A library, framework, script, plugin, application, or collection of
+data or other resources, or some combination thereof.</p>
+<p>Python projects must have unique names, which are registered on
+PyPI. Each project will then contain one or more releases, and
+each release may comprise one or more distributions.</p>
+<p class="last">Note that there is a strong convention to name a project after the
+name of the package that is imported to run that project. However,
+this doesn&#8217;t have to hold true. It&#8217;s possible to install a distribution
+from the project &#8216;spam&#8217; and have it provide a package importable only
+as &#8216;eggs&#8217;.</p>
+</dd>
+<dt id="term-pure-python-module">Pure Python Module</dt>
+<dd>A module written in Python and contained in a single .py file
+(and possibly associated .pyc and/or .pyo files). Sometimes referred
+to as a &#8220;pure module.&#8221;</dd>
+<dt id="term-release">Release</dt>
+<dd><p class="first">A snapshot of a project at a particular point in time, denoted by a
+version identifier.</p>
+<p class="last">Making a release may entail the publishing of multiple distributions.
+For example, if version 1.0 of a project was released, it could be
+available in both a source distribution format and a Windows
+installer distribution format.</p>
+</dd>
+<dt id="term-restructuredtext">reStructuredText</dt>
+<dd>A plain text format used in many Python projects for documentation. The
+reStructuredText format is used in this document. For more information,
+please see the <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText Documentation</a>.</dd>
+<dt id="term-standard-library">Standard Library</dt>
+<dd><p class="first">Python&#8217;s standard library is very extensive, offering a wide range of
+facilities as indicated by the long table of contents listed below. The
+library contains built-in modules (written in C) that provide access to
+system functionality such as file I/O that would otherwise be
+inaccessible to Python programmers, as well as modules written in Python
+that provide standardized solutions for many problems that occur in
+everyday programming. Some of these modules are explicitly designed to
+encourage and enhance the portability of Python programs by abstracting
+away platform-specifics into platform-neutral APIs. <a class="reference internal" href="#standardlibrary">[StandardLibrary]</a></p>
+<div class="admonition- last admonition seealso">
+<p class="first admonition-title">参考</p>
+<p class="last"><a class="reference external" href="http://docs.python.org/library/">Python Standard Library Documentation</a></p>
+</div>
+</dd>
+<dt id="term-system-package">System Package</dt>
+<dd>A package provided by in a format native to the operating system.
+e.g. rpm or dpkg file.</dd>
+<dt id="term-tarball">Tarball</dt>
+<dd>An archive format for collected a group of files together as one. The
+format&#8217;s extension is usually <tt class="docutils literal"><span class="pre">.tar</span></tt>, which represents its meaning,
+Tape ARchive. The format is often used in conjunction with a
+compression format such as gzip or bzip.</dd>
+<dt id="term-working-set">Working Set</dt>
+<dd><p class="first">A collection of distributions available for importing. These are the
+distributions that are on the <cite>sys.path</cite> variable. At most one
+version a distribution is possible in a working set.</p>
+<p class="last">Working sets include all distributions available for importing, not
+just the sub-set of distributions which have actually been imported.</p>
+</dd>
+</dl>
+<div class="section" id="citations">
+<h2>Citations<a class="headerlink" href="#citations" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<table class="docutils citation" frame="void" id="cpan" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[CPAN]</a></td><td><a class="reference external" href="http://www.cpan.org/misc/cpan-faq.html#What_is_CPAN">What is CPAN?</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="perl" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[PERL]</a></td><td><a class="reference external" href="http://www.cpan.org/misc/cpan-faq.html#What_is_Perl">What is Perl?</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="standardlibrary" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[StandardLibrary]</a></td><td><a class="reference external" href="http://docs.python.org/library/">Python Standard Library Documentation</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="wikipediairc" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[WikipediaIRC]</a></td><td><a class="reference external" href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">Internet Relay Chat (Wikipedia)</a></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Glossary</a><ul>
+<li><a class="reference internal" href="#citations">Citations</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>前のトピックへ</h4>
+  <p class="topless"><a href="future.html"
+                        title="前の章へ">Future of Packaging</a></p>
+  <h4>次のトピックへ</h4>
+  <p class="topless"><a href="credits.html"
+                        title="次の章へ">クレジット</a></p>
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/glossary.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="credits.html" title="クレジット"
+             >次へ</a> |</li>
+        <li class="right" >
+          <a href="future.html" title="Future of Packaging"
+             >前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

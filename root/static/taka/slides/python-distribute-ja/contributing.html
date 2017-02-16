@@ -1,0 +1,405 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Contribute Your Package to the World &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="index.html" />
+    <link rel="next" title="Virtual Environments" href="virtualenv.html" />
+    <link rel="prev" title="Creating a Package" href="creation.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="virtualenv.html" title="Virtual Environments"
+             accesskey="N">次へ</a> |</li>
+        <li class="right" >
+          <a href="creation.html" title="Creating a Package"
+             accesskey="P">前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="contribute-your-package-to-the-world">
+<h1>Contribute Your Package to the World<a class="headerlink" href="#contribute-your-package-to-the-world" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="the-python-package-index-pypi">
+<span id="pypi-info"></span><span id="index-0"></span><h2>The Python Package Index (PyPI)<a class="headerlink" href="#the-python-package-index-pypi" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>The Python Package Index (PyPI), formerly known as the Cheeseshop, is to Python
+what <a class="reference internal" href="glossary.html#term-cpan"><em class="xref std std-term">CPAN</em></a> is to <a class="reference internal" href="glossary.html#term-perl"><em class="xref std std-term">Perl</em></a>: a central repository of projects and
+<a class="reference internal" href="glossary.html#term-distribution"><em class="xref std std-term">distributions</em></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">XXX put here the Monty Python Cheeseshop extract</p>
+</div>
+<p><a class="reference external" href="http://pypi.python.org">PyPI</a> is located at <a class="reference external" href="http://pypi.python.org">http://pypi.python.org</a> and contains more than 9000 projects registered by developers from the community.</p>
+<img alt="_images/pypi_screenshot.jpg" src="_images/pypi_screenshot.jpg" />
+<p>Tools like <a class="reference internal" href="installation.html#pip-info"><em>Pip</em></a> or <a class="reference external" href="http://pypi.python.org/pypi/zc.buildout">zc.buildout</a> are using PyPI as the default
+location to find <a class="reference internal" href="glossary.html#term-distribution"><em class="xref std std-term">distributions</em></a> to install. When <tt class="docutils literal"><span class="pre">pip</span>
+<span class="pre">install</span> <span class="pre">Foo</span></tt> is called, it will browse PyPI to find the latest available
+version of the <tt class="docutils literal"><span class="pre">Foo</span></tt> project using <a class="reference external" href="#the-simple-index-protocol">The Simple Index Protocol</a>. If it finds
+it, it will download it and install it automatically.</p>
+<p>This automatic installation ala <a class="reference internal" href="installation.html#pip-info"><em>Pip Installs Python (Pip)</em></a> will work only if the distribution is using the Distutils-based structure and contains a <tt class="docutils literal"><span class="pre">setup.py</span></tt> file.</p>
+<p>This means that any serious Python project should use Distutils
+(see the <em class="xref std std-ref">basics</em> for doing this)
+and should at the minimum be registered at PyPI. Uploading releases there is
+also a good practice.</p>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">??? Why should a project at a minimum register at PyPI?
+good practice, yes; at a minimum, no</p>
+</div>
+<div class="section" id="registering-projects">
+<span id="index-1"></span><h3>Registering projects<a class="headerlink" href="#registering-projects" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Registering a project at PyPI is done by using <a class="reference internal" href="glossary.html#term-distutils"><em class="xref std std-term">Distutils</em></a>&#8216; <tt class="docutils literal"><span class="pre">register</span></tt>
+command. This command performs a simple HTTP post using basic authentication
+with the login name and password stored in the <tt class="docutils literal"><span class="pre">.pypirc</span></tt> file
+located in your home directory. This login has to be registered at PyPI, so
+you should go there and create an account before running <tt class="docutils literal"><span class="pre">register</span></tt> for the
+first time.</p>
+<p>Another option is to call <tt class="docutils literal"><span class="pre">register</span></tt> once on any Distutils-based project.
+It will register the new account for you and all you&#8217;ll have to do is to reply
+to the confirmation e-mail PyPI will send you:</p>
+<div class="highlight-python"><pre>$ python setup.py register
+running register
+warning: register: missing required meta-data: version
+We need to know who you are, so please choose either:
+1. use your existing login,
+2. register as a new user,
+3. have the server generate a new password for you (and email it to you), or
+4. quit
+Your selection [default 1]:
+...</pre>
+</div>
+<p>Once this is done, <tt class="docutils literal"><span class="pre">register</span></tt> will ask you if you want to save your login
+information in the <tt class="docutils literal"><span class="pre">.pypirc</span></tt> file. By default, this will store the login name
+<strong>and</strong> the password:</p>
+<div class="highlight-python"><pre>[distutils]
+index-servers =
+    pypi
+
+[pypi]
+username:tarek
+password:sigourney_as_an_avatar_is_scary</pre>
+</div>
+<p>For security reasons, starting at Python 2.6, you can remove the password from
+the file if you want <tt class="docutils literal"><span class="pre">register</span></tt> to prompt you to type it everytime.</p>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p>A recent GSoC project called Keyring was created in 2009 in order
+to use any available system keyring like KWallet or KeyChain to
+store the PyPI password. The project exists and may be used in Distutils
+by the <tt class="docutils literal"><span class="pre">register</span></tt> and <tt class="docutils literal"><span class="pre">upload</span></tt> commands.</p>
+<p class="last">See: <a class="reference external" href="http://pypi.python.org/pypi/keyring">http://pypi.python.org/pypi/keyring</a></p>
+</div>
+<p>Once your account is ready, registering it at PyPI will create
+a new web page there, using the metadata fields of your project.</p>
+<ul class="simple">
+<li><strong>name</strong> will be used as the unique identifier in PyPI. For example, if
+your project&#8217;s name is <tt class="docutils literal"><span class="pre">Foo</span></tt>, its page will be located at
+<cite>http://pypi.python.org/pypi/foo</cite>. The rule at PyPI is <cite>first in, first
+served</cite>, meaning that once you have registered the <cite>Foo</cite> project, your
+login is the owner of the PyPI <cite>foo</cite> identifier and no one else (unless
+you authorize them) will be able to register a project under that name.</li>
+<li><strong>long_description</strong> will be used to
+fill that page. An Html to <a class="reference internal" href="glossary.html#term-restructuredtext"><em class="xref std std-term">reStructuredText</em></a> rendered will be used
+on the field before it is displayed.</li>
+</ul>
+<p>A good practice is to use reST, and make sure your <tt class="docutils literal"><span class="pre">long_description</span></tt>
+field doesn&#8217;t contain any reStructuredText syntax error. See
+<em class="xref std std-ref">rest_example</em> for a quick introduction on how to write a reST compatible
+field.</p>
+<p>To perform a check, install <tt class="docutils literal"><span class="pre">docutils</span></tt> by using Pip
+(<tt class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">docutils</span></tt>) and run:</p>
+<div class="highlight-python"><pre>$ python setup.py --long-description | rst2html.py &gt; /dev/null</pre>
+</div>
+<p>Under Windows, make sure the sys.prefix + &#8216;Scripts/&#8217; path is in the <tt class="docutils literal"><span class="pre">PATH</span></tt>
+environment variable and run:</p>
+<div class="highlight-python"><pre>$ python.exe setup.py --long-description | rst2html.py &gt; dummy.html</pre>
+</div>
+<p>If your text contains any reST error or warning, they will be displayed.</p>
+<p>Starting at Python 2.7, you can use the <tt class="docutils literal"><span class="pre">check</span></tt> command instead of calling
+the <tt class="docutils literal"><span class="pre">rst2html.py</span></tt> script, as long as <tt class="docutils literal"><span class="pre">docutils</span></tt> is installed:</p>
+<div class="highlight-python"><pre>$ python setup.py check</pre>
+</div>
+<p>The check command will check that all fields are compliant before you
+register the project at PyPI.</p>
+</div>
+<div class="section" id="uploading-distributions">
+<span id="index-2"></span><h3>Uploading distributions<a class="headerlink" href="#uploading-distributions" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>PyPI also allows developers to upload their project&#8217;s distributions. This can
+be done manually via a web form, but also through Distutils by using the
+<tt class="docutils literal"><span class="pre">upload</span></tt> command.</p>
+<p>This command will upload freshly created archives via HTTP to PyPI. The
+usual way to perform this is to call <tt class="docutils literal"><span class="pre">upload</span></tt> right after <tt class="docutils literal"><span class="pre">register</span></tt>
+and the commands used to create archives. For instance, to upload a source
+distribution and update the project&#8217;s page, one may do:</p>
+<div class="highlight-python"><pre>$ python setup.py register sdist upload</pre>
+</div>
+<p>Note that you can upload several archives in one step if wanted:</p>
+<div class="highlight-python"><pre>$ python setup.py register sdist bdist upload</pre>
+</div>
+<p>A good practice when uploading distributions at PyPI is to always upload
+the source distribution, unless your project is not open source of course.
+Binary distribution are optional especially if your project doesn&#8217;t contain
+any extension to be compiled. This will help automatic installers like
+<a class="reference internal" href="pip.html"><em>Pip</em></a> to get and install your project on any platform. Uploading
+only a binary distribution will restrict automatic installation to the platform
+and Python version it was compiled with.</p>
+</div>
+<div class="section" id="the-simple-index-protocol">
+<span id="index-3"></span><h3>The Simple Index protocol<a class="headerlink" href="#the-simple-index-protocol" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Besides its web pages, PyPI provides a tree structure at
+<a class="reference external" href="http://pypi.python.org/simple">http://pypi.python.org/simple</a> called the <tt class="docutils literal"><span class="pre">Simple</span> <span class="pre">Index</span></tt>. This structure
+allows installers like <a class="reference internal" href="pip.html"><em>Pip</em></a> to look for distribution archives.</p>
+<p>For example, calling:</p>
+<div class="highlight-python"><pre>$ pip install distribute</pre>
+</div>
+<p>will look at the <tt class="docutils literal"><span class="pre">http://pypi.python.org/simple/distribute</span></tt> page, which
+is a list of URLs for the Distribute project. These URLs include:</p>
+<blockquote>
+<ul class="simple">
+<li>the Distribute archives uploaded at PyPI</li>
+<li>a link to the project&#8217;s home page</li>
+<li>extra links contained in the project&#8217;s description fields</li>
+</ul>
+</blockquote>
+<p>The Package Index follows these rules (taken from Setuptools&#8217; documentation):</p>
+<ol class="arabic">
+<li><p class="first">Its pages are in HTML</p>
+</li>
+<li><p class="first">Individual project version pages&#8217; URLs must be of the form
+<tt class="docutils literal"><span class="pre">base/projectname/version</span></tt>, where <tt class="docutils literal"><span class="pre">base</span></tt> is the package index&#8217;s base
+URL. The base URL for PyPI is : <tt class="docutils literal"><span class="pre">http://pypi.python.org/simple</span></tt>.</p>
+</li>
+<li><p class="first">Omitting the <tt class="docutils literal"><span class="pre">/version</span></tt> part of a project page&#8217;s URL (but keeping the
+trailing <tt class="docutils literal"><span class="pre">/</span></tt>) should result in a page that is either:</p>
+<ol class="loweralpha simple">
+<li>The single active version of that project, as though the version had been
+explicitly included, OR</li>
+<li>A page with links to all of the active version pages for that project.</li>
+</ol>
+<p>Depending on the project&#8217;s configuration, PyPI will display a) or b).</p>
+</li>
+<li><p class="first">Individual project version pages should contain direct links to downloadable
+distributions where possible.  The project&#8217;s &#8220;long_description&#8221; field
+may contain URLs that will be displayed.</p>
+</li>
+<li><p class="first">Where available, MD5 information should be added to download URLs by
+appending a fragment identifier of the form <tt class="docutils literal"><span class="pre">#md5=...</span></tt>, where <tt class="docutils literal"><span class="pre">...</span></tt> is
+the 32-character hex MD5 digest.</p>
+</li>
+<li><p class="first">Individual project version pages should identify any &#8220;homepage&#8221; or
+&#8220;download&#8221; URLs using <tt class="docutils literal"><span class="pre">rel=&quot;homepage&quot;</span></tt> and <tt class="docutils literal"><span class="pre">rel=&quot;download&quot;</span></tt> attributes
+on the HTML elements linking to those URLs. Use of these attributes will
+cause EasyInstall to always follow the provided links, unless it can be
+determined by inspection that they are downloadable distributions. If the
+links are not to downloadable distributions, they are retrieved, and if they
+are HTML, they are scanned for download links. They are <em>not</em> scanned for
+additional &#8220;homepage&#8221; or &#8220;download&#8221; links, as these are only processed for
+pages that are part of a package index site.</p>
+</li>
+<li><p class="first">The root URL of the index, if retrieved with a trailing <tt class="docutils literal"><span class="pre">/</span></tt>, must result
+in a page containing links to <em>all</em> projects&#8217; active version pages.</p>
+<p>(Note: This requirement is a workaround for the absence of case-insensitive
+<tt class="docutils literal"><span class="pre">safe_name()</span></tt> matching of project names in URL paths. If project names are
+matched in this fashion (e.g. via the PyPI server, mod_rewrite, or a similar
+mechanism), then it is not necessary to include this all-packages listing
+page.)</p>
+</li>
+<li><p class="first">If a package index is accessed via a <tt class="docutils literal"><span class="pre">file://</span></tt> URL, then EasyInstall will
+automatically use <tt class="docutils literal"><span class="pre">index.html</span></tt> files, if present, when trying to read a
+directory with a trailing <tt class="docutils literal"><span class="pre">/</span></tt> on the URL.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="the-xml-rpc-interface">
+<span id="index-4"></span><h3>The XML-RPC interface<a class="headerlink" href="#the-xml-rpc-interface" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">XXX pointer to PyPI developer doc + demo with yolk</p>
+</div>
+</div>
+<div class="section" id="limitations-of-the-system">
+<h3>Limitations of the system<a class="headerlink" href="#limitations-of-the-system" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Within the last few years, PyPI has become a first class citizen in the Python
+development ecosystem. For instance Plone developers that are using
+<tt class="docutils literal"><span class="pre">zc.buildout</span></tt> to install Plone-based applications are making hundreds
+of calls to PyPI each time they build their projects. That&#8217;s because many web
+applications are using hundreds of small Python distributions nowadays.</p>
+<p>This has a bad side effect: if PyPI is down, it becomes impossible to build
+some applications. PyPI acts as a <tt class="docutils literal"><span class="pre">Single</span> <span class="pre">Point</span> <span class="pre">of</span> <span class="pre">Failure</span></tt> (SPOF).</p>
+<p>The PyPI server is quite robust and its uptime is probably around 99.99%,
+although people hit the SPOF problem once or twice per year. The community
+has started to develop strategies to avoid it:</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">zc.buildout</span></tt> comes with a cache that will keep a copy
+of downloaded archives on the local system. This avoids getting packages at
+PyPI when they were already downloaded once.</li>
+<li>the <a class="reference external" href="http://pypi.python.org/pypi/collective.eggproxy">collective.eggproxy</a>
+project provides a cache server that acts like
+a proxy between developers and PyPI, and caches PyPI files like
+<tt class="docutils literal"><span class="pre">zc.buildout</span></tt> does.</li>
+<li>the <a class="reference external" href="http://pypi.python.org/pypi/z3c.pypimirror">z3c.pypimirror</a> project
+is a mirroring script that syncs a local copy of the simple index so tools
+can use it instead of calling PyPI.</li>
+</ul>
+<p>In the last year, PEP 381 was added to describe a mirroring protocol and
+set up an official &#8220;ring&#8221; of PyPI mirrors. This system should be ready
+by the end of the year 2010, and will provide a DNS entry under
+<tt class="docutils literal"><span class="pre">mirrors.pypi.org</span></tt> listing all mirrors IPs. This will allow tools like
+<a class="reference internal" href="installation.html#pip-info"><em>Pip Installs Python (Pip)</em></a> to list all mirrors and pick the closest one, or fall back in
+case a server is down.</p>
+</div>
+</div>
+<div class="section" id="private-and-secondary-pypi-servers">
+<span id="index-5"></span><h2>Private and secondary PyPI servers<a class="headerlink" href="#private-and-secondary-pypi-servers" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">XXX explain here that other servers can have a pypi feature (like
+plone.org, or private)</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">XXX explain that pip can point to any pypi-like server</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">XXX conclude on the multiple-index merge idea</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Contribute Your Package to the World</a><ul>
+<li><a class="reference internal" href="#the-python-package-index-pypi">The Python Package Index (PyPI)</a><ul>
+<li><a class="reference internal" href="#registering-projects">Registering projects</a></li>
+<li><a class="reference internal" href="#uploading-distributions">Uploading distributions</a></li>
+<li><a class="reference internal" href="#the-simple-index-protocol">The Simple Index protocol</a></li>
+<li><a class="reference internal" href="#the-xml-rpc-interface">The XML-RPC interface</a></li>
+<li><a class="reference internal" href="#limitations-of-the-system">Limitations of the system</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#private-and-secondary-pypi-servers">Private and secondary PyPI servers</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>前のトピックへ</h4>
+  <p class="topless"><a href="creation.html"
+                        title="前の章へ">Creating a Package</a></p>
+  <h4>次のトピックへ</h4>
+  <p class="topless"><a href="virtualenv.html"
+                        title="次の章へ">Virtual Environments</a></p>
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/contributing.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="virtualenv.html" title="Virtual Environments"
+             >次へ</a> |</li>
+        <li class="right" >
+          <a href="creation.html" title="Creating a Package"
+             >前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

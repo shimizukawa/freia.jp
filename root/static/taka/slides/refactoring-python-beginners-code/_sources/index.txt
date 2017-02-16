@@ -1,0 +1,405 @@
+﻿=======================================
+Refactoring A Python Beginner's Code
+=======================================
+
+ああ、PyConJPの講演資料っていうんですか、まだ0%ですね。
+=========================================================
+
+.. s6:: styles
+
+   'h2': {textAlign:'center',margin:'20% auto'}
+
+.. s6:: effect fadeScaleFromUpTransparent
+
+Today's Presentation & source
+===============================
+
+* http://shimizukawa.bitbucket.org/
+* https://bitbucket.org/shimizukawa/refactoring-python-beginners-code
+
+
+Who am I / おまえ誰よ
+=======================
+
+* `http://清水川.jp/ <http://清水川.jp/>`_
+  `@shimizukawa <http://twitter.com/shimizukawa>`_
+
+* BeProud
+
+* PyConJP 2012 vice-chairman, Sphinx-users.jp vice-chairman
+
+.. figure:: sphinxusers.jpg
+
+.. figure:: beproud.gif
+
+.. figure:: pyconjp2012_logo.png
+
+.. s6:: effect fadeScaleFromUpTransparent
+
+.. s6:: styles
+
+    'ul': {fontSize:'65%'},
+    'div[0]/img': {position:'absolute', right:0, top:0, width:'40%'},
+    'div[1]/img': {position:'absolute', right:0, top:'100px', width:'30%'},
+    'div[2]/img': {position:'absolute', left:'2em', top:'0px', width:'30%'},
+
+
+2 Python books
+===================
+
+.. image:: epp.jpg
+
+.. image:: pypro.png
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+    'img': {width:'40%', margin: '0, 0, 0, 20%'},
+
+9/16、Expert Python Reading PyConJP2012 Edition
+=================================================
+
+* at 9/16 OpenSpace
+* Gift something...
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+    'ul/li': {display: 'none'},
+
+.. s6:: actions
+
+    ['ul/li[0]', 'fade in', '0.3'],
+    ['ul/li[1]', 'fade in', '0.3'],
+
+
+..  Pythonを始めた頃の戸惑い
+
+My Confusions when I started Python programing
+================================================
+
+.. * どう書けば良いか分からない
+.. * とりあえずC/C++のコードをPythonに移植してみる
+.. * 今見ると、C++かJavaのようなPythonコード
+
+* I didn't know what is good coding style in Python
+* I tried to port code from C/C++ to Python
+* That code looks like Java or C++
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+    'ul/li': {display: 'none'},
+
+.. s6:: actions
+
+    ['ul/li[0]', 'fade in', '0.3'],
+    ['ul/li[1]', 'fade in', '0.3'],
+    ['ul/li[2]', 'fade in', '0.3'],
+
+
+.. 2004年の自分のコード
+
+My code in 2004
+================
+
+.. code-block:: python
+
+   class PlayerMaker:
+       def __init__(self):
+           self.name = ""
+           self.hp = 0
+           self.at = 0
+           ...
+
+       def setName( self, item ):
+           self.name = item.text
+
+       def setHp( self, item ):
+           self.hp = int(item.text)
+
+       def setAt( self, item ):
+           self.at = int(item.text)
+
+       def setDf( self, item ):
+           self.df = int(item.text)
+
+       def setAg( self, item ):
+           self.ag = int(item.text)
+
+      ...
+
+
+.. s6:: effect slide
+
+
+.. ある日みたJavaのコード
+
+A code I just glanced a few months ago
+========================================
+
+.. code-block:: java
+
+   public class ISBNConverter {
+      public static void main(String[] args) {
+         ...
+         char [] cisbn = isbn.toCharArray();
+         int [] iisbn;
+         iisbn = new int[10];
+         ...
+         for (int idx=0; idx<9; idx++) {
+             iisbn[idx] = Character.digit(cisbn[idx], 10);
+             if ((iisbn[idx]<0)||(iisbn[idx]>9)){
+                 System.out.println("Error: Not a number is included in the 9 numbers.");
+                 System.exit(0);
+         ...
+
+
+.. s6:: effect slide
+
+.. 素直にPythonに書き換えてみた
+
+I tried to rewrite by python straightly
+=========================================
+
+.. code-block:: python
+
+   def main(args):
+       ...
+       cisbn = isbn
+       iisbn = [None] * 10;
+       ...
+       for idx in range(9):
+           if not cisbn[idx].isdigit():
+               print("Error: Not a number is included in the 9 numbers.")
+               sys.exit(0)
+           iisbn[idx] = int(cisbn[idx])
+
+       if cisbn[9] == 'X':
+           iisbn[9] = 10
+       else:
+
+
+.. s6:: effect slide
+
+.. Pythonらしくないコード
+
+
+Why the code does not seems like Python?
+==========================================
+
+.. s6:: styles
+
+   'h2': {textAlign:'center',margin:'30% auto'}
+
+.. s6:: effect slide
+
+
+.. キャメルケースのgetter/setter
+
+CamelCase getter/setter
+===============================
+
+.. code-block:: python
+
+   class PlayerMaker:
+       def __init__(self):
+           self.name = ""
+           self.hp = 0
+           ...
+
+       def setName( self, item ):
+           self.name = item.text
+
+       def setHp( self, item ):
+           self.hp = int(item.text)
+
+       ...
+
+.. s6:: effect slide
+
+
+.. for文をrangeで回す
+
+range for-loop
+================
+
+.. ``for(i=0; i<9; i++) {...}`` の感覚
+
+Like ``for(i=0; i<9; i++) {...}``
+
+.. code-block:: python
+
+   for idx in range(9):
+
+.. 使う時は、こう
+
+
+For example...
+
+.. code-block:: python
+
+   for i in range(9):
+       if not cisbn[i].isdigit():
+       ...
+
+
+.. s6:: effect slide
+
+
+.. 長さ10の配列を用意している
+
+Prepare fixed-length array
+============================
+
+.. 配列の初期化
+
+Initializing array...
+
+.. code-block:: python
+
+    iisbn = [None] * 10;
+
+.. 使う時は、こう
+
+For example...
+
+.. code-block:: python
+
+   for idx in range(9):
+       ...
+       iisbn[idx] = int(cisbn[idx])
+
+
+.. s6:: effect slide
+
+
+
+.. step2のfor文を使っていない
+.. ===========================
+.. 
+.. .. code-block:: python
+.. 
+..    for idx in range(4):
+..        ncdigit += 3 * iisbn[idx * 2] + iisbn[idx * 2 + 1]
+.. 
+.. 
+.. .. s6:: effect slide
+.. 
+.. xxxxxxxxxxxxxxxx
+.. ==================================
+.. 
+.. .. code-block:: python
+.. 
+.. 
+.. 
+.. 
+.. .. s6:: effect slide
+
+
+そうだ、リファクタリングしよう
+
+OK, Let's refactoring!
+===============================
+
+.. s6:: styles
+
+   'h2': {textAlign:'center',margin:'30% auto'}
+
+.. s6:: effect slide
+
+
+.. まずはテストケースを用意
+
+First, we need Test-Case
+============================
+
+.. * リファクタリングするならテストが必要
+.. * 変更が結果を変えないように
+.. * printしている部分を最低限チェックするテスト
+
+
+* We NEED test case before any changes
+* Changes SHOULD NOT effect the results
+* For now, I test only printed text.
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+    'ul/li': {display: 'none'},
+
+.. s6:: actions
+
+    ['ul/li[0]', 'fade in', '0.3'],
+    ['ul/li[1]', 'fade in', '0.3'],
+    ['ul/li[2]', 'fade in', '0.3'],
+
+
+Practice
+==========
+
+.. s6:: styles
+
+   'h2': {textAlign:'center',margin:'30% auto'}
+
+.. s6:: effect slide
+
+.. リファクタリング
+
+The points of refactoring
+===========================
+
+.. * reangeループをなくす
+.. * 変数を減らす
+.. * 処理とエラーチェックを同時に行っている部分を分解する
+.. * ISBN文字列の数値配列化を関数にする
+.. * 複雑なループをシンプルに置き換える
+.. * 処理の目的別に関数化していく
+.. * 例外を使ってprint文を外に出す
+.. * 関数化したらテストケースを書く
+
+
+* Remove ``range`` loop
+* Decrease variables
+* Separate some processing in a loop
+* Add new function to split code
+* Replace complex loop by simple one
+* Use Exceptions instead of ``print/exit``
+* Write Test-Case for new functions
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+    'ul/li': {display: 'none'},
+
+.. s6:: actions
+
+    ['ul/li[0]', 'fade in', '0.3'],
+    ['ul/li[1]', 'fade in', '0.3'],
+    ['ul/li[2]', 'fade in', '0.3'],
+    ['ul/li[3]', 'fade in', '0.3'],
+    ['ul/li[4]', 'fade in', '0.3'],
+    ['ul/li[5]', 'fade in', '0.3'],
+    ['ul/li[6]', 'fade in', '0.3'],
+
+
+Questions?
+===========
+
+.. s6:: styles
+
+   'h2': {textAlign:'center',margin:'30% auto'}
+
+
+Thank You!
+===========
+
+.. s6:: styles
+
+   'h2': {textAlign:'center',margin:'30% auto'}
+

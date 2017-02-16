@@ -1,0 +1,17 @@
+.. =======
+.. License
+.. =======
+
+==========
+ライセンス
+==========
+
+.. The Hitchhiker's Guide to Packaging is licensed under a Creative Commons
+.. Attribution-Noncommercial-Share Alike license:
+.. http://creativecommons.org/licenses/by-nc-sa/3.0
+
+Pythonパッケージ ヒッチハイク・ガイドは、クリエイティブコモンズの
+'表示 - 非営利 - 継承' ライセンス
+(http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ja)
+に従って公開されています。
+

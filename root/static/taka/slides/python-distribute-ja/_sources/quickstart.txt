@@ -1,0 +1,267 @@
+.. ===========
+.. Quick Start
+.. ===========
+
+=============
+はじめの一歩
+=============
+
+.. Here's how to create a new project, which we'll call **TowelStuff**.
+
+**TwelStuff** という新しいプロジェクトを作成してみましょう。
+
+.. 1. Lay out your project
+.. =======================
+
+1. プロジェクトのレイアウト
+===========================
+
+.. The smallest python project is two files. A :ref:`setup.py
+.. <setup_py_description>` file which describes the metadata about your project,
+.. and a file containing Python code to implement the functionality of your
+.. project.
+
+最小のPythonプロジェクトは2つのファイルで構成されます。1つは :ref:`setup.py <setup_py_description>` ファイルで、このファイルにはプロジェクトのメタデータを記述します。もう一つのファイルには、プロジェクトで提供したい機能をPythonコードで実装します。
+
+.. In this example project we are going to add a little more to the 
+.. project to provide the typical minimal layout of a project. We'll create
+.. a full Python package, a directory with an `__init__.py` file, called
+.. :ref:`towelstuff/ <towelstuff_description>`. This anticipates future growth
+.. as our project's source code is likely to grow beyond a single module file.
+
+このサンプルプロジェクトでは、典型的なプロジェクトを想定した上で最も小さいレイアウトを提供するために、前述の2ファイル構成よりももう少しファイルを追加します。ちゃんとしたPythonパッケージを作成するために、 :ref:`towelstuff/ <towelstuff_description>` ディレクトリに `__init__.py` ファイルを置いて下さい。プロジェクトのソースコードが1つのファイルから複数のファイルに成長することを見越して、このようにしています。
+
+.. We'll also create a :ref:`README.txt <readme_txt_description>`
+.. file describing an overview of your project, and
+.. a :ref:`LICENSE.txt <license_txt_description>` file containing the
+.. license of your project.
+
+同様に、 :ref:`README.txt <readme_txt_description>` ファイルにプロジェクトの概要を記述し、 :ref:`LICENSE.txt <license_txt_description>` ファイルにプロジェクトのライセンス条項を記載しておきましょう。
+
+.. That's enough to start. There are a number of other types of files a
+.. project will often have, see the :ref:`directory_layout` for an example of
+.. a more fully fleshed out project.
+
+これで始める準備が整いました。大抵のプロジェクトでは他の種類のファイルもいくつか扱うでしょうから、これについてのは :ref:`directory_layout` を参考にして下さい。
+
+.. Your project will now look like::
+
+ここまででプロジェクトのレイアウトは以下のようになっているでしょう::
+
+    TowelStuff/
+        LICENSE.txt
+        README.txt
+        setup.py
+        towelstuff/
+            __init__.py
+
+
+.. 2. Describe your project
+.. ========================
+
+2. プロジェクトの概要記述
+=========================
+
+.. The :ref:`setup.py <setup_py_description>` file is at the heart of a Python
+.. project. It describes all of the metadata about your project. There a quite
+.. a few fields you can add to a project to give it a rich set of
+.. metadata describing the project. However, there are only three required
+.. fields: `name`, `version`, and `packages`. The `name` field must be unique
+.. if you wish to publish your package on the Python Package Index (PyPI).
+.. The `version` field keeps track of different releases of the project. The
+.. `packages` field describes where you've put the Python source code within
+.. your project.
+
+:ref:`setup.py <setup_py_description>` ファイルはPythonプロジェクトの心臓部です。このファイルにはプロジェクトの全てのメタデータが記載されます。ここには多岐にわたるメタデータの種類からいくつかを選んで記載することが出来ます。まず必要になるフィールドは `name`, `version`, `packages` です。 `name` フィールドは、パッケージを公開するつもりならPython Package Index (PyPI)で公開されている他のパッケージ名と衝突しないものにするべきです。 `version` フィールドはプロジェクトのリリース物を見分けるために必要です。 `packages` フィールドには、このプロジェクトに含まれるソースコードの場所を記載します。
+
+.. Our initial `setup.py` will also include information about the license
+.. and will re-use the `README.txt` file for the `long_description` field.
+.. This will look like::
+
+最初の `setup.py` にはライセンス情報と、 `README.txt` ファイルを再利用して `long_description` フィールドを設定しましょう。以下のように書きます::
+
+    from distutils.core import setup
+
+    setup(
+        name='TowelStuff',
+        version='0.1dev',
+        packages=['towelstuff',],
+        license='Creative Commons Attribution-Noncommercial-Share Alike license',
+        long_description=open('README.txt').read(),
+    )
+
+
+.. 3. Create your first release
+.. ============================
+
+3. 最初のリリースを作る
+=======================
+
+.. In the `version` field, we specified `0.1dev`. This indicates that we
+.. are *developing* towards the `0.1` version. Right now there isn't any code
+.. in the project. After you've written enough code to make your first release
+.. worthwhile, you will change the version field to just `0.1`, dropping the `dev`
+.. marker.
+
+`version` フィールドを `0.1dev` としてください。これは、 `0.1` に向けた *開発版* である、ということを表しています。実際の所、このプロジェクトにはまだコードがありません。このプロジェクトを価値あるものにするだけのコードを書いたら、versionフィールドから `dev` を取り除いて `0.1` にしましょう。
+
+.. To create a release, your source code needs to be packaged into a single
+.. archive file. This can be done with the `sdist` command:
+
+リリースを作成するために、ソースコードを1つのアーカイブファイルにまとめる必要があります。これは以下のように `sdist` コマンドで出来ます:
+
+ $ python setup.py sdist
+
+.. This will create a `dist` sub-directory in your project, and will wrap-up
+.. all of your project's source code files into a distribution file,
+.. a compressed archive file in the form of::
+
+これで、プロジェクトの `dist` サブディレクトリが作られ、プロジェクトのソースコードが配布用のアーカイブファイルにまとめて圧縮されます。ファイル名は次のようになります::
+
+    TowelStuff-0.1.tar.gz
+
+.. The compressed archive format defaults to `.tar.gz` files on POSIX systems,
+.. and `.zip` files on Windows systems.
+
+圧縮されたアーカイブファイルのフォーマットは、POSIXではデフォルトで `.tar.gz` になり、Windowsでは `.zip` になります。
+
+.. By default, Distutils does **not** include all files in your project's
+.. directory. Only the following files will be included by default:
+
+標準設定のままではDistutilsはプロジェクトディレクトリ以下の全てのファイルを含めてはくれません。同梱されるファイルはデフォルトでは以下の通りです:
+
+..  * all Python source files implied by the py_modules and packages options
+.. 
+..  * all C source files mentioned in the ext_modules or libraries options
+.. 
+..  * scripts identified by the scripts option
+.. 
+..  * anything that looks like a test script: test/test*.py
+.. 
+..  * Top level files named: README.txt, README, setup.py, or setup.cfg
+
+ * py_modulesとpackagesオプションで指定された全てのPythonソースフィアル
+
+ * ext_modulesかlibrariesオプションで指定された全てのCソースファイル
+
+ * scriptsオプションで指定されたスクリプトファイル
+
+ * テストスクリプトだと思われるもの: test/test*.py
+
+ * 最上位にある README.txt, README, setup.py, setup.cfg
+
+.. If you want to include additional files, then there are a couple options
+.. for including those files:
+
+もし追加したいファイルがあれば、いくつかの方法でそれらのファイルを指定することが出来ます:
+
+ .. * Use a package which extends Distutils with more functionality.
+ ..   Setuptools and Distribute allow you to include all files checked into
+ ..   your version control system.
+ ..
+ .. * Write a top-level MANIFEST.in file. This is a template file which
+ ..   specifies which files (and file patterns) should be included.
+ ..   (TO-DO: link to a MANIFEST.in document)
+
+
+ * 拡張パッケージを使ってDistutilsの機能を拡張する方法。SetuptoolsとDistributeはバージョン管理システムと連携して含めるべきファイルを検出します。
+
+ * 最上位に MANIFEST.in ファイルを作成する方法。このテンプレートファイルにはどのファイルを含めるかのファイル名やパターンを記載します。
+   (TO-DO: link to a MANIFEST.in document)
+
+.. When you run the **sdist** command, a file named MANIFEST will be 
+.. generated which contains a complete list of all files included. You can
+.. view this file to double check that you've setup your project to include
+.. all files correctly. Now your project is ready for a release. Before
+.. releasing, it's a good idea to double check to make sure that you have:
+
+**sdist** コマンドを実行すると、パッケージに含めるべき全てのファイル名が含まれたMANIFESTファイルが生成されます。このファイルを確認して、配布パッケージに含まれるファイルが正しく列挙出来ているかどうかをダブルチェックすることができます。これでプロジェクトをリリースする準備が整いました。リリースする前に以下の項目についてダブルチェックすることをお勧めします:
+
+.. * The correct version number.
+.. 
+..   While it's handy to append a `dev` marker to the version number during
+..   development, so that you can distinguish between code under development
+..   and a released version, you **never** want to publish a release with
+..   `dev` in the version name.
+
+* 正しいバージョン番号.
+
+  `dev` マーカーをバージョン番号に手動で付けることで、リリース版と開発版を明確に分けル事が出来きますが、 `dev` の付いたバージョンをリリース版として公開は **したくない** はず。
+
+.. * All desired project files are included.
+.. 
+..   Go over the MANIFEST file, or open the archive file generated by
+..   running the **sdist** command.
+
+* 必要な全てのファイルが含まれているか.
+
+  MANIFESTファイルを見て、あるいは **sdist** コマンドで生成されたアーカイブファイルを見て確認しましょう。
+
+.. 4. Register your package with the Python Package Index (PyPI)
+.. =============================================================
+
+4. パッケージをPython Package Index (PyPI) に登録
+=================================================
+
+.. The distribution file generated by running **sdist** can be published
+.. anywhere. There is a central index of all publically available Python projects
+.. maintained on the python.org web site named the :ref:`pypi_info`. This is
+.. where you will want to release your distribution if you intend to make your
+.. project public.
+
+**sdist** で生成された配布ファイルはどこででも公開することが出来ます。Pythonには多くのPythonプロジェクトを公開している中央インデックス :ref:`pypi_info` がpytohn.org以下にあります。リリースした配布物を公開するのにここを使うことが出来ます。
+
+.. You will first have to visit that site, where you can register for an account.
+.. Project's are published on PyPI in the format of::
+
+まず最初にこのサイトを訪れて、プロジェクトをPyPIで公開するためのアカウントを登録しましょう。公開するプロジェクトは以下のようなURLになります::
+
+  http://pypi.python.org/pypi/<projectname>
+
+.. Your project will have to choose a name which is not already taken on PyPI.    
+.. You can then claim your new project's name by registering the package
+.. by running the command::
+
+プロジェクト名は既にPyPIに登録されているものでなければ好きな名前にすることができます。プロジェクトを登録するには以下のコマンドを実行します::
+
+  $ python setup.py register
+
+
+.. 5. Upload your release, then grab your towel and save the Universe!
+.. ===================================================================
+
+5. リリース物をアップロードして、タオルを掴んで宇宙を救ってください！ [1]_
+==========================================================================
+
+.. Now that you are happy that you can create a valid source distribution,
+.. it's time to upload the finished product to PyPI. We'll also create a 
+.. `bdist_wininst` distribution file of our project, which will create a Windows
+.. installable file. There are a few different file formats that Python 
+.. distributions can be created for. Each format must be specified when
+.. you run the upload command, or they won't be uploaded (even if you've
+.. previously built them previously). You should always upload a
+.. source distribution file. The other formats are optional, and will depend upon
+.. the needs of your anticipated user base::
+
+おめでとう！これで問題無くソース配布物も完成して、PyPIに成果物をアップロードする時がきました。ここで `bdist_wininst` コマンドでWindowsインストーラ形式の配布ファイルを作成することもできます。このように、Pythonの配布物としていくつかの異なるファイルフォーマットを作成することが出来ます。アップロードしたいフォーマットをアップロードコマンドと一緒に指定する必要があります。そうしないと事前に配布物を生成していてもアップロードはされません。ソース配布物は常にアップロードしておいた方が良いでしょう。他のフォーマットは好きに選ぶことが出来ますが利用者が望んでいるものを用意しましょう::
+
+ $ python setup.py sdist bdist_wininst upload
+
+.. At this point you should announce your package to the community!
+
+そしてリリースしたらパッケージリリースをコミュニティーに報告しましょう！
+
+.. Finally, in your `setup.py` you can make plans for your next release,
+.. by changing the `version` field to indicate which version you want to work
+.. towards next (e.g. `0.2dev`).
+
+最後に、 `setup.py` の `version` フィールドを次のリリースに向けて新しい値に進めておきましょう (例えば `0.2dev`)。
+
+.. This `Quick Start`_ is a good brief introduction, but does not cover a lot of
+.. obscure use-cases. For more details, please see :doc:`introduction`,
+.. to gain a better understanding of the :ref:`state_of_packaging_info`.
+
+この `はじめの一歩`_ は簡潔で良い導入ですが、多くの、ひっかかりやすいケースについては触れていません。より詳細な情報については :doc:`introduction` を参照してください。より理解を深めるには :ref:`state_of_packaging_info` を参照して下さい。
+
+.. [1] 訳注: 参考 `銀河ヒッチハイク・ガイド - Wikipedia <http://ja.wikipedia.org/wiki/銀河ヒッチハイク・ガイド>`_
+

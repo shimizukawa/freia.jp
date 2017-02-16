@@ -1,0 +1,900 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Python 2.5 からPython 3.3 で 動作するツールの作り方</title>
+    
+    <link rel="stylesheet" href="_static/s6.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.touchwipe.min.js"></script>
+    <script type="text/javascript" src="_static/s6.js"></script>
+    <script type="text/javascript" src="_static/s6-sphinx.js"></script>
+    <script type="text/javascript" src="_static/custom.js"></script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="#">How to make with Python2 to 3 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="python-2-5-python-3-3">
+<h1>Python <strong>2.5</strong> からPython <strong>3.3</strong> で 動作するツールの作り方<a class="headerlink" href="#python-2-5-python-3-3" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="about-me">
+<h2>About Me<a class="headerlink" href="#about-me" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<img alt="_images/face.png" src="_images/face.png" />
+</div>
+<p><a class="reference external" href="http://about.me/shimizukawa">http://about.me/shimizukawa</a></p>
+<p>Activity</p>
+<ul class="simple">
+<li>Sphinx co-committer</li>
+<li>Sphinx-users.jp chairman</li>
+<li>PyCon JP 2011,2012 vice-chairman</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {width:'15%', position:'absolute', top:'0', right:'1em'}}});}</script>
+</div>
+<div class="section" id="books">
+<h2>Books<a class="headerlink" href="#books" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">エキスパートPythonプログラミング (和訳)</p>
+<div class="figure">
+<img alt="_images/book-epp.jpg" src="_images/book-epp.jpg" />
+</div>
+</li>
+<li><p class="first">Pythonプロフェッショナルプログラミング (2章分)</p>
+<div class="figure">
+<img alt="_images/book-pypro.png" src="_images/book-pypro.png" />
+</div>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li[0]/p': {width: '50%', marginBottom:'0.5em'},
+'ul/li[0]/div': {width:'30%', position:'absolute', left:'55%', top:'1em'},
+'ul/li[1]': {marginLeft: '2em'},
+'ul/li[1]/p': {width: '50%'},
+'ul/li[1]/div': {width:'30%', position:'absolute', right:'0', top:'4em'},
+'ul/li[1]/ul/li[0]': {display:'none'},
+'ul': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[1]/ul/li', 'fade in', '0.3']]});}</script>
+</div>
+<div class="section" id="id1">
+<h2>中国語版<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/book-pypro-china.png"><img alt="_images/book-pypro-china.png" src="_images/book-pypro-china.png" style="width: 50%;" /></a>
+<p class="caption">10月に発売予定らしい</p>
+</div>
+</div>
+<div class="section" id="sphinx">
+<h2>Sphinxをはじめよう<a class="headerlink" href="#sphinx" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<img alt="_images/book-learn-sphinx.jpg" src="_images/book-learn-sphinx.jpg" />
+<p class="caption">Sphinxをはじめよう</p>
+</div>
+<ul class="simple">
+<li>謎の動物</li>
+<li>世界初のSphinx本</li>
+<li>オライリー・ジャパン</li>
+<li>電子書籍</li>
+<li>100P弱相当</li>
+<li>1,680円</li>
+<li><strong>Now ON SALE !!</strong></li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {width: '50%', marginBottom:'0.5em'},
+'div': {width:'40%', position:'absolute', left:'58%', top:'1em'},
+'ul': {marginLeft: '2em'},
+'ul': {width: '50%'},
+'ul': {width:'30%', position:'absolute', right:'0', top:'4em'},
+'ul': {fontSize:'70%'}}});}</script>
+</div>
+<div class="section" id="abstract">
+<h2>Abstract<a class="headerlink" href="#abstract" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+</div>
+<div class="section" id="id2">
+<h2>Abstract<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>目的</dt>
+<dd>多数のPythonバージョンで動作するようにコードを書く</dd>
+<dt>対象環境:</dt>
+<dd>Python2.5 - Python3.3 (3.0を除く)</dd>
+<dt>題材:</dt>
+<dd>sphinx-intl</dd>
+</dl>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'dl': {fontSize:'90%'}}});}</script>
+</div>
+<div class="section" id="what-is-sphinx-intl">
+<h2>What is sphinx-intl<a class="headerlink" href="#what-is-sphinx-intl" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Sphinxの国際化機能サポートツール<ul>
+<li>potから言語別poの生成、更新、ビルド</li>
+<li>transifexサポート: potからtransifex設定ファイルの生成</li>
+</ul>
+</li>
+</ul>
+<div class="figure">
+<img alt="_images/translation.png" src="_images/translation.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul[0]': {fontSize: '50%'},
+'div[0]': {width: '80%', margin:'0.1em auto'}}});}</script>
+</div>
+<div class="section" id="motivation">
+<h2>Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Sphinx-1.2の対応バージョン<ul>
+<li>Python 2.5</li>
+<li>Python 2.6</li>
+<li>Python 2.7</li>
+<li>Python 3.1</li>
+<li>Python 3.2</li>
+<li>Python 3.3</li>
+</ul>
+</li>
+<li>sphinx-intlも同じバージョン対応が必要</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="detail-of-sphinx-intl-1">
+<h2>Detail of sphinx-intl 1<a class="headerlink" href="#detail-of-sphinx-intl-1" title="Permalink to this headline">¶</a></h2>
+<p>sphinx-intlの行数:</p>
+<ul class="simple">
+<li>本体: 577行 （docstring含む）</li>
+<li>ドキュメント: 229行 （README等）</li>
+<li>テスト: 500行 （ユーティリティ含む）</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="detail-of-sphinx-intl-2">
+<h2>Detail of sphinx-intl 2<a class="headerlink" href="#detail-of-sphinx-intl-2" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">sphinx-intlの構成:</p>
+<div class="highlight-python"><pre>/
+├─ README.rst
+├─ setup.cfg
+├─ setup.py
+├─ tox.ini
+├─ sphinx_intl/
+│   ├─ __init__.py (3L)
+│   ├─ __main__.py (5L)
+│   └─ commands.py (575L)
+└─ tests (497L)</pre>
+</div>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="differences-from-python2-5-to-python-3-3">
+<h2>Differences from Python2.5 to Python 3.3<a class="headerlink" href="#differences-from-python2-5-to-python-3-3" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+</div>
+<div class="section" id="id3">
+<h2>Differences from Python2.5 to Python 3.3<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>ライブラリの違い</li>
+<li>関数の違い</li>
+<li>文法の違い</li>
+</ul>
+<p>sphinx-intlが使っている範囲で紹介</p>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">ライブラリや関数の違いを吸収するのは簡単ですが、文法の違いを吸収するのは手間がかかります。どこが違って、どうやって吸収するのかについて、sphinx-intlが使用している範囲で紹介します。</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="python23">
+<h2>Python2か3かを見分ける<a class="headerlink" href="#python23" title="Permalink to this headline">¶</a></h2>
+<p>バージョン判別フラグを用意して、以降のコードの書き分けに利用。</p>
+<div class="highlight-pycon"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">PY2</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">version_info</span> <span class="o">&lt;</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">PY3</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">PY2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">PY2</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">PY3</span>
+<span class="go">False</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id4">
+<h2>ライブラリの違い<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>optparse(まだある)とargparse(2.7以降, 3.2以降)</li>
+<li>OrderedDict(2.7から)</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="optparseargparse">
+<h2>optparseとargparse<a class="headerlink" href="#optparseargparse" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>optparse: 2.5から3.3の全てで使える</li>
+<li>でもoptparseはAPI設計が古いので不便</li>
+<li>argparseが使いやすい</li>
+<li>argparse: 2.7以降, 3.2以降</li>
+</ul>
+<p>他のバージョン向けにPyPIで提供している:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>pip install argparse
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="ordereddict">
+<h2>OrderedDict<a class="headerlink" href="#ordereddict" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>辞書なのに追加した順序を維持してくれる</li>
+<li>2.7から使える</li>
+</ul>
+<p>他のバージョン向けにPyPIで提供している:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>pip install ordereddict
+</pre></div>
+</div>
+<p>Pythonバージョン別で使い分ける:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">version_info</span> <span class="o">&lt;</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">7</span><span class="p">):</span>
+    <span class="kn">from</span> <span class="nn">ordereddict</span> <span class="kn">import</span> <span class="n">OrderedDict</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">OrderedDict</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id5">
+<h2>関数や属性の変更<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>unicodeとstrとbytes (2と3で異なる)</li>
+<li>func_code (2のみ)と__code__ (2.6以降)</li>
+<li>callable消滅 (3.0, 3.1のみ、3.2で復活)</li>
+<li>execfile消滅 (3.0以降)</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="unicodestrbytes">
+<h2>関数: unicodeとstrとbytes<a class="headerlink" href="#unicodestrbytes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Python2の str() は Python3の bytes()</li>
+<li>Python2の unicode() は Python3の str()</li>
+</ul>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">if</span> <span class="n">PY2</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">b</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">s</span>
+    <span class="k">def</span> <span class="nf">u</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">unicode</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="s">&quot;unicode_escape&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">b</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">s</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s">&quot;latin-1&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">u</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">s</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {fontSize:'70%'}}});}</script>
+</div>
+<div class="section" id="func-code-code">
+<h2>属性: func_codeと__code__<a class="headerlink" href="#func-code-code" title="Permalink to this headline">¶</a></h2>
+<p>関数オブジェクトの属性。</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">spam</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="k">pass</span>
+</pre></div>
+</div>
+<p>関数の引数の数や変数名とか色々取れる。</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">if</span> <span class="n">PY2</span><span class="p">:</span>
+    <span class="n">argcount</span> <span class="o">=</span> <span class="n">spam</span><span class="o">.</span><span class="n">func_code</span><span class="o">.</span><span class="n">co_argcount</span>
+    <span class="n">varnames</span> <span class="o">=</span> <span class="n">spam</span><span class="o">.</span><span class="n">func_code</span><span class="o">.</span><span class="n">co_varnames</span><span class="p">[:</span><span class="n">argcount</span><span class="p">]</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">argcount</span> <span class="o">=</span> <span class="n">spam</span><span class="o">.</span><span class="n">__code__</span><span class="o">.</span><span class="n">co_argcount</span>
+    <span class="n">varnames</span> <span class="o">=</span> <span class="n">spam</span><span class="o">.</span><span class="n">__code__</span><span class="o">.</span><span class="n">co_varnames</span><span class="p">[:</span><span class="n">argcount</span><span class="p">]</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {fontSize:'75%'}}});}</script>
+</div>
+<div class="section" id="callable">
+<h2>関数: callable消滅<a class="headerlink" href="#callable" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>3.0, 3.1で組み込み関数から消えた</li>
+<li>3.2で復活した</li>
+</ul>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">try</span><span class="p">:</span>
+    <span class="nb">callable</span> <span class="o">=</span> <span class="nb">callable</span>
+
+<span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">callable</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">any</span><span class="p">(</span>
+            <span class="s">&quot;__call__&quot;</span> <span class="ow">in</span> <span class="n">klass</span><span class="o">.</span><span class="n">__dict__</span>
+            <span class="k">for</span> <span class="n">klass</span> <span class="ow">in</span> <span class="nb">type</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span><span class="o">.</span><span class="n">__mro__</span>
+        <span class="p">)</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {fontSize:'85%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="execfile">
+<h2>関数: execfile消滅<a class="headerlink" href="#execfile" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>3.0で組み込み関数から消えた</li>
+</ul>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">try</span><span class="p">:</span>
+    <span class="nb">execfile</span> <span class="o">=</span> <span class="nb">execfile</span>
+
+<span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">execfile</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="n">_globals</span><span class="p">):</span>
+        <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="s">&#39;rt&#39;</span><span class="p">)</span>
+        <span class="n">source</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+        <span class="n">code</span> <span class="o">=</span> <span class="nb">compile</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">filepath</span><span class="p">,</span> <span class="s">&#39;exec&#39;</span><span class="p">)</span>
+        <span class="k">exec</span><span class="p">(</span><span class="n">code</span><span class="p">,</span> <span class="n">_globals</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>execもPy3で文から式に変わりました。</p>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {fontSize:'80%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id6">
+<h2>文法の違い<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>with文</li>
+<li>print文とprint関数</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="with">
+<h2>文法: with文<a class="headerlink" href="#with" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>2.5から__future__で提供、2.6から標準</li>
+</ul>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">with_statement</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">&#39;file.txt&#39;</span><span class="p">,</span> <span class="s">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+   <span class="k">print</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="printprint1">
+<h2>文法: print文とprint関数1<a class="headerlink" href="#printprint1" title="Permalink to this headline">¶</a></h2>
+<p>Python2のprint文の例</p>
+<div class="highlight-pycon"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="k">print</span> <span class="s">&#39;spam&#39;</span><span class="p">,</span> <span class="s">&#39;egg&#39;</span><span class="p">,</span> <span class="s">&#39;ham&#39;</span>
+<span class="go">spam egg ham</span>
+</pre></div>
+</div>
+<p>Python2で括弧を付けるとタプルをprintしてしまう↓</p>
+<div class="highlight-pycon"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="s">&#39;spam&#39;</span><span class="p">,</span> <span class="s">&#39;egg&#39;</span><span class="p">,</span> <span class="s">&#39;ham&#39;</span><span class="p">)</span>
+<span class="go">(&#39;spam&#39;, &#39;egg&#39;, &#39;ham&#39;)</span>
+</pre></div>
+</div>
+<p>Python3では普通にプリントされる</p>
+<div class="highlight-pycon"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="s">&#39;spam&#39;</span><span class="p">,</span> <span class="s">&#39;egg&#39;</span><span class="p">,</span> <span class="s">&#39;ham&#39;</span><span class="p">)</span>
+<span class="go">spam egg ham</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {fontSize:'70%'}}});}</script>
+</div>
+<div class="section" id="printprint2">
+<h2>文法: print文とprint関数2<a class="headerlink" href="#printprint2" title="Permalink to this headline">¶</a></h2>
+<p>Python2系でのprint文の例:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">print</span> <span class="o">&gt;&gt;</span><span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="p">,</span> <span class="s">&#39;image:&#39;</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="s">&#39;loading...&#39;</span><span class="p">,</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">load_image</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;done.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Python3系のprint関数だと:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="s">&#39;image:&#39;</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="s">&#39;loading...&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s">&#39; &#39;</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">load_image</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;done.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>printを文ではなく式として解釈させる(2.5は非対応)</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {fontSize:'65%'},
+'p': {fontSize:'65%', margin: '0.5em'}}});}</script>
+</div>
+<div class="section" id="print">
+<h2>文法: print関数実装例<a class="headerlink" href="#print" title="Permalink to this headline">¶</a></h2>
+<p>print関数は仕様が多いので、互換機能実装はとても面倒</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">print_</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">fp</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&quot;file&quot;</span><span class="p">,</span> <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">fp</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">return</span>
+    <span class="k">def</span> <span class="nf">write</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="nb">basestring</span><span class="p">):</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">fp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">want_unicode</span> <span class="o">=</span> <span class="bp">False</span>
+    <span class="n">sep</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&quot;sep&quot;</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">sep</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sep</span><span class="p">,</span> <span class="nb">unicode</span><span class="p">):</span>
+            <span class="n">want_unicode</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="k">elif</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sep</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s">&quot;sep must be None or a string&quot;</span><span class="p">)</span>
+    <span class="n">end</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&quot;end&quot;</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">end</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">end</span><span class="p">,</span> <span class="nb">unicode</span><span class="p">):</span>
+            <span class="n">want_unicode</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="k">elif</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">end</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s">&quot;end must be None or a string&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">kwargs</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s">&quot;invalid keyword arguments to print()&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">want_unicode</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">arg</span><span class="p">,</span> <span class="nb">unicode</span><span class="p">):</span>
+                <span class="n">want_unicode</span> <span class="o">=</span> <span class="bp">True</span>
+                <span class="k">break</span>
+    <span class="k">if</span> <span class="n">want_unicode</span><span class="p">:</span>
+        <span class="n">newline</span> <span class="o">=</span> <span class="nb">unicode</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+        <span class="n">space</span> <span class="o">=</span> <span class="nb">unicode</span><span class="p">(</span><span class="s">&quot; &quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">newline</span> <span class="o">=</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span>
+        <span class="n">space</span> <span class="o">=</span> <span class="s">&quot; &quot;</span>
+    <span class="k">if</span> <span class="n">sep</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">sep</span> <span class="o">=</span> <span class="n">space</span>
+    <span class="k">if</span> <span class="n">end</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">end</span> <span class="o">=</span> <span class="n">newline</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">arg</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">i</span><span class="p">:</span>
+            <span class="n">write</span><span class="p">(</span><span class="n">sep</span><span class="p">)</span>
+        <span class="n">write</span><span class="p">(</span><span class="n">arg</span><span class="p">)</span>
+    <span class="n">write</span><span class="p">(</span><span class="n">end</span><span class="p">)</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {fontSize:'60%'},
+'p': {fontSize:'60%', margin: '0.5em'}}});}</script>
+</div>
+<div class="section" id="id7">
+<h2>ここまでのまとめ<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p>Python2と3両対応コード書くのって、大変</p>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize:'160%', margin: '1em 0.5em', textAlign: 'center'}}});}</script>
+</div>
+<div class="section" id="how-to-keep-compatibility-with-both-python2-and-3">
+<h2>How to keep compatibility with both python2 and 3<a class="headerlink" href="#how-to-keep-compatibility-with-both-python2-and-3" title="Permalink to this headline">¶</a></h2>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">2to3を使ってコード変換する方法と、sixを使って共通コードで動作させる方法があります。一長一短ありますが、どのようなときにどちらを使うべきかなど紹介します。</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id8">
+<h2>How to keep compatibility with both python2 and 3<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p>方法が3つくらい</p>
+<ul class="simple">
+<li>2to3を使う</li>
+<li>両対応コードを書く</li>
+<li>sixを使う</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="to3">
+<h2>2to3を使う<a class="headerlink" href="#to3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Python3にはlib2to3がある</li>
+<li>Python2のコードをPython3に変換する</li>
+<li>1年ちょっと前のコードは2to3利用が多かった</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="to3-pros">
+<h2>2to3を使う - Pros<a class="headerlink" href="#to3-pros" title="Permalink to this headline">¶</a></h2>
+<p>Pros</p>
+<ul class="simple">
+<li>Python2のコード資産を生かしてすぐPython3対応</li>
+<li>setuptoolsはsetup(2to3=True)でインストール時変換</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="to3-cons">
+<h2>2to3を使う - Cons<a class="headerlink" href="#to3-cons" title="Permalink to this headline">¶</a></h2>
+<p>Cons</p>
+<ul class="simple">
+<li>2to3は遅い</li>
+<li>テスト実行のために毎回2to3が必要</li>
+<li>Python3でだけエラーがある場合、変換後のコードで問題があると面倒<ul>
+<li>どう変換されるか予測してPython2のコードを書く必要がある</li>
+</ul>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id9">
+<h2>両対応コードを書く<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p>2to3を使わず、両方で解釈できる方法で書く。</p>
+<p>自力で、がんばる……</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">print_</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">fp</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&quot;file&quot;</span><span class="p">,</span> <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">fp</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">return</span>
+    <span class="k">def</span> <span class="nf">write</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="nb">basestring</span><span class="p">):</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">fp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">want_unicode</span> <span class="o">=</span> <span class="bp">False</span>
+    <span class="n">sep</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&quot;sep&quot;</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">sep</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sep</span><span class="p">,</span> <span class="nb">unicode</span><span class="p">):</span>
+            <span class="n">want_unicode</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="k">elif</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sep</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s">&quot;sep must be None or a string&quot;</span><span class="p">)</span>
+    <span class="n">end</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&quot;end&quot;</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">end</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">end</span><span class="p">,</span> <span class="nb">unicode</span><span class="p">):</span>
+            <span class="n">want_unicode</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="k">elif</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">end</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s">&quot;end must be None or a string&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">kwargs</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s">&quot;invalid keyword arguments to print()&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">want_unicode</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">arg</span><span class="p">,</span> <span class="nb">unicode</span><span class="p">):</span>
+                <span class="n">want_unicode</span> <span class="o">=</span> <span class="bp">True</span>
+                <span class="k">break</span>
+    <span class="k">if</span> <span class="n">want_unicode</span><span class="p">:</span>
+        <span class="n">newline</span> <span class="o">=</span> <span class="nb">unicode</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+        <span class="n">space</span> <span class="o">=</span> <span class="nb">unicode</span><span class="p">(</span><span class="s">&quot; &quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">newline</span> <span class="o">=</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span>
+        <span class="n">space</span> <span class="o">=</span> <span class="s">&quot; &quot;</span>
+    <span class="k">if</span> <span class="n">sep</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">sep</span> <span class="o">=</span> <span class="n">space</span>
+    <span class="k">if</span> <span class="n">end</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">end</span> <span class="o">=</span> <span class="n">newline</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">arg</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">i</span><span class="p">:</span>
+            <span class="n">write</span><span class="p">(</span><span class="n">sep</span><span class="p">)</span>
+        <span class="n">write</span><span class="p">(</span><span class="n">arg</span><span class="p">)</span>
+    <span class="n">write</span><span class="p">(</span><span class="n">end</span><span class="p">)</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p[0]': {fontSize:'75%'},
+'p[1]': {display:'none', fontSize:'75%'},
+'div[0]': {display:'none', fontSize:'60%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['p[1]', 'fade in', '0.3'],
+['div[0]', 'fade in', '0.3']]});}</script>
+</div>
+<div class="section" id="pros">
+<h2>両対応コードを書く - Pros<a class="headerlink" href="#pros" title="Permalink to this headline">¶</a></h2>
+<p>Pros</p>
+<ul class="simple">
+<li>2to3の問題点が発生しない！<ul>
+<li>変換しなくてよい</li>
+<li>デバッグしやすい - <strong>重要</strong></li>
+</ul>
+</li>
+<li>Python2.6以降なら大体Python3互換の書き方ができる</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="cons">
+<h2>両対応コードを書く - Cons<a class="headerlink" href="#cons" title="Permalink to this headline">¶</a></h2>
+<p>Cons</p>
+<ul class="simple">
+<li>Python2.4対応は絶望的（可能だけど）</li>
+<li>Python2.5を投げ捨てたくなる</li>
+<li>差異の吸収を自分でやる手間がかかる</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li[0]': {display:'none'},
+'ul/li[1]': {display:'none'},
+'ul/li[2]': {display:'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]', 'fade in', '0.3'],
+['ul/li[1]', 'fade in', '0.3'],
+['ul/li[2]', 'fade in', '0.3']]});}</script>
+</div>
+<div class="section" id="sphinx-intl">
+<h2>sphinx-intlはどうしたか？<a class="headerlink" href="#sphinx-intl" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>最初は自力で両対応コードを書いていた</li>
+<li>エクササイズのつもりだった</li>
+<li>printとexecの互換実装が大変だった</li>
+<li>諦めてsixを導入</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="six">
+<h2>six<a class="headerlink" href="#six" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://pypi.python.org/pypi/six">six</a> (1.4.1 release  2013/9/2)</p>
+<ul class="simple">
+<li>Python2.4から3.3まで対応</li>
+<li>移動したり名前が変わったり消えたり増えたりしたパッケージ、モジュールの互換レイヤ</li>
+<li>移動や名前変更は内部でバージョン判別して呼び直している（movesパッケージ）</li>
+<li>消えたり増えたりは、同一機能を提供</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li': {fontSize: '80%'}}});}</script>
+</div>
+<div class="section" id="id11">
+<h2>避けられない自力対応<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>sixでも提供されていないものは自力で対応<ul>
+<li>execfile</li>
+<li>他にもあるかも?</li>
+</ul>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="to3-conf-py">
+<h2>避けられない2to3 (conf.py)<a class="headerlink" href="#to3-conf-py" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>sphinx-intlはSphinxのconf.pyを読んでいる(locale等の設定を見るため)</li>
+<li>conf.pyはユーザーが書くので、Python2か3か分からない</li>
+<li>読み込めたらそのまま使う、だめなら2to3で変換してもう一度読み込む</li>
+</ul>
+<p>こういうこともあるんだね</p>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id12">
+<h2>パッケージングにおける課題<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<div class="speech admonition">
+<p class="first admonition-title">[speech]</p>
+<p class="last">2013/7/1現在、Pythonのパッケージングは混乱しています。とりあえず今どうすると安定したパッケージ供給が出来るのか紹介します。</p>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id13">
+<h2>パッケージングにおける課題<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>パッケージングツールの変遷</li>
+<li>setuptoolsを使うか、使わないか</li>
+<li>Python2と3で動作するsetup.pyを作る</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id14">
+<h2>パッケージングツールの変遷<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<p>ここまでがPyCon JP 2011の頃。</p>
+<ol class="arabic simple">
+<li>Python標準はdistutils、色々足りないしeasy_install的なのが無い</li>
+<li>setuptoolsがeasy_installを提供</li>
+<li>pipはeasy_installより便利なコマンドを提供</li>
+<li>setuptoolsをPython3対応させたdistributeがデファクトに</li>
+</ol>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id15">
+<h2>2012年<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<p>これがPyCon JP 2012の前後。</p>
+<ul class="simple">
+<li>setuptoolsはもう更新されてないから <tt class="docutils literal"><span class="pre">distribute</span></tt> 使おう！</li>
+<li>Python3.3で提供される <tt class="docutils literal"><span class="pre">packaging</span></tt> を使おう！</li>
+<li>packagingがPython3.3リリース直前に消滅</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id16">
+<h2>2013年<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
+<p>PyCon APAC 2013の頃</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">distlib</span></tt> 登場。packagingで不足していた下位レイヤ。Python3.4同梱予定。</li>
+<li><tt class="docutils literal"><span class="pre">wheel</span></tt> 登場。eggに代わるPython標準のバイナリ形式。distlibと合流。</li>
+<li><tt class="docutils literal"><span class="pre">distribute</span></tt> 廃止！ <tt class="docutils literal"><span class="pre">setuptools</span></tt> に統合。setuptoolsがPython3対応に！</li>
+</ul>
+<p><strong>setuptoolsを使おう！</strong> （distlibの世界になるまでは）</p>
+<p>詳しくは <a class="reference external" href="session-14-1110-rooma0715-ja1-ja">PyCon APAC 2013 DAY1, パッケージングの今と未来</a> の発表を参照</p>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'p': {fontSize: '60%'},
+'ul/li': {fontSize: '90%'}}});}</script>
+</div>
+<div class="section" id="python23setup-py">
+<h2>Python2と3で動作するsetup.pyを作る<a class="headerlink" href="#python23setup-py" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>setup.pyはPython2,3互換コードで書く</li>
+<li>特定バージョンの場合だけ依存パッケージをインストールする</li>
+<li>特定バージョンの場合、依存パッケージのバージョンを指定する</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="setup-pypython2-3">
+<h2>setup.pyはPython2,3互換コードで書く<a class="headerlink" href="#setup-pypython2-3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>2to3は使えない</li>
+<li>setup.pyは自力でがんばって互換性を維持しよう</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id17">
+<h2>特定バージョンの場合だけ依存パッケージをインストールする<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">requires</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;six&#39;</span><span class="p">,</span> <span class="s">&#39;polib&#39;</span><span class="p">,</span> <span class="s">&#39;sphinx&#39;</span><span class="p">]</span>
+
+<span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">version_info</span> <span class="o">&lt;</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">7</span><span class="p">):</span>
+    <span class="n">requires</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s">&#39;ordereddict&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id18">
+<h2>特定バージョンの場合、依存パッケージのバージョンを指定する<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">extras</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">version_info</span> <span class="o">&lt;</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">):</span>
+    <span class="n">extras</span><span class="p">[</span><span class="s">&#39;transifex&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;transifex_client==0.8&#39;</span><span class="p">]</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">extras</span><span class="p">[</span><span class="s">&#39;transifex&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;transifex_client&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {fontSize: '75%'}}});}</script>
+</div>
+<div class="section" id="id19">
+<h2>対応しているバージョンは書こう<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">setup</span><span class="p">(</span>
+    <span class="o">...</span>
+    <span class="n">classifiers</span><span class="o">=</span><span class="p">[</span>
+        <span class="s">&quot;Development Status :: 4 - Beta&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Environment :: Other Environment&quot;</span><span class="p">,</span>
+        <span class="s">&quot;License :: OSI Approved :: BSD License&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Topic :: Documentation&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Topic :: Software Development :: Documentation&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Topic :: Text Processing :: General&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Topic :: Utilities&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Programming Language :: Python&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Programming Language :: Python :: 2&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Programming Language :: Python :: 2.5&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Programming Language :: Python :: 2.6&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Programming Language :: Python :: 2.7&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Programming Language :: Python :: 3&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Programming Language :: Python :: 3.1&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Programming Language :: Python :: 3.2&quot;</span><span class="p">,</span>
+        <span class="s">&quot;Programming Language :: Python :: 3.3&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="o">...</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>PyPIでこう表示される: <a class="reference external" href="https://pypi.python.org/pypi/sphinx-intl">sphinx-intl</a></p>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div': {fontSize: '50%'}}});}</script>
+</div>
+<div class="section" id="id21">
+<h2>まとめ<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id22">
+<h2>まとめ<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Python2.5はそろそろ消滅すべき</p>
+</li>
+<li><p class="first">2to3はデバッグ大変</p>
+</li>
+<li><p class="first">six 便利</p>
+</li>
+<li><p class="first">「Sphinxをはじめよう」売れ行き好調</p>
+<div class="figure align-right">
+<img alt="_images/book-learn-sphinx.jpg" src="_images/book-learn-sphinx.jpg" />
+</div>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul/li[0]': {display:'none'},
+'ul/li[1]': {display:'none'},
+'ul/li[2]': {display:'none'},
+'ul/li[3]': {display:'none'},
+'ul/li[3]/div': {width:'25%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]', 'fade in', '0.3'],
+['ul/li[1]', 'fade in', '0.3'],
+['ul/li[2]', 'fade in', '0.3'],
+['ul/li[3]', 'fade in', '0.3']]});}</script>
+</div>
+<div class="section" id="id23">
+<h2>ご清聴ありがとうございました<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', fontSize:'110%', margin:'30% auto', lineHeight:'1.5em', background:'none'}}});}</script>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="#">How to make with Python2 to 3 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+<div class="footer">
+    <span>Python 2.5 からPython 3.3 で 動作するツールの作り方 :: 2013, Takayuki SHIMIZUKAWA</span><br />
+    <span class="hidden">操作方法: 上下左右キーで操作です</span>
+</div>
+
+  </body>
+</html>

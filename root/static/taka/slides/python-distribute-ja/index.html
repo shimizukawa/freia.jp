@@ -1,0 +1,227 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Pythonパッケージ ヒッチハイク・ガイド &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="#" />
+    <link rel="next" title="はじめの一歩" href="quickstart.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="quickstart.html" title="はじめの一歩"
+             accesskey="N">次へ</a> |</li>
+        <li><a href="#">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="python">
+<h1>Pythonパッケージ ヒッチハイク・ガイド<a class="headerlink" href="#python" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="admonition warning">
+<p class="first admonition-title">警告</p>
+<p class="last">このドキュメントは現在作成中です。興味を持ってくれてありがとう。</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">警告</p>
+<p class="last">このドキュメントは <a class="reference external" href="http://guide.python-distribute.org/">The Hitchhiker&#8217;s Guide to Packaging</a> の翻訳です。</p>
+</div>
+<div class="figure">
+<a class="reference external image-reference" href="http://www.flickr.com/photos/cayusa/457102612/"><img alt="Dolphin - 1 by Cayusa, on Flickr, Creative Commons" src="http://farm1.static.flickr.com/187/457102612_42b1e6bbc6.jpg" style="width: 500px; height: 333px;" /></a>
+</div>
+<p>目次</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">はじめの一歩</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#id2">1. プロジェクトのレイアウト</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#id3">2. プロジェクトの概要記述</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#id4">3. 最初のリリースを作る</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#python-package-index-pypi">4. パッケージをPython Package Index (PyPI) に登録</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#id6">5. リリース物をアップロードして、タオルを掴んで宇宙を救ってください！ </a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction to Packaging</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#the-packaging-ecosystem">The Packaging Ecosystem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#benefits-of-packaging">Benefits of packaging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#current-state-of-packaging">Current State of Packaging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#creating-a-micro-ecosystem-with-virtualenv">Creating a Micro-Ecosystem with <tt class="docutils literal"><span class="pre">virtualenv</span></tt></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installing the Package Tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#distribute">Distribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#pip-installs-python-pip">Pip Installs Python (Pip)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Using Packages</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#finding-packages">Finding Packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#installing-from-other-sources">Installing from other sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#running-your-own-package-index">Running your own package index</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="creation.html">Creating a Package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="creation.html#basics-creating-and-distributing-distributions">Basics: Creating and Distributing Distributions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="creation.html#packaging-for-a-particular-operating-system-os">Packaging for a Particular Operating System (OS)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contribute Your Package to the World</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#the-python-package-index-pypi">The Python Package Index (PyPI)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#private-and-secondary-pypi-servers">Private and secondary PyPI servers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="virtualenv.html">Virtual Environments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="virtualenv.html#getting-started">Getting Started</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="specification.html">Specifications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="specification.html#naming-specification">Naming Specification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specification.html#versioning-specification">Versioning Specification</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="future.html">Future of Packaging</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="future.html#inshort">Inshort...</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#citations">Citations</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="credits.html">クレジット</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="credits.html#id2">協力者</a></li>
+<li class="toctree-l2"><a class="reference internal" href="credits.html#id3">参考文献</a></li>
+<li class="toctree-l2"><a class="reference internal" href="credits.html#id5">日本語翻訳</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">ライセンス</a></li>
+</ul>
+</div>
+<div class="section" id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><em>索引</em></a></li>
+<li><a class="reference internal" href="py-modindex.html"><em>モジュール索引</em></a></li>
+<li><a class="reference internal" href="search.html"><em>検索ページ</em></a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Pythonパッケージ ヒッチハイク・ガイド</a><ul>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>次のトピックへ</h4>
+  <p class="topless"><a href="quickstart.html"
+                        title="次の章へ">はじめの一歩</a></p>
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/index.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="quickstart.html" title="はじめの一歩"
+             >次へ</a> |</li>
+        <li><a href="#">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

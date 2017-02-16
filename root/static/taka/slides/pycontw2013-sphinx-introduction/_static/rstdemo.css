@@ -1,0 +1,43 @@
+/*
+    sphinxcontrib.rstdemo
+    ~~~~~~~~~~~~~~~~~~~~~~
+
+    This package is a namespace package that contains all extensions
+    distributed in the ``sphinx-contrib`` distribution.
+
+    :copyright: Copyright 2007-2013 by the Sphinx team, see AUTHORS.
+    :license: BSD, see LICENSE for details.
+*/
+
+.rstdemo {
+	position: relative;
+}
+
+.rstdemo-rendered {
+	background-color: #ffeedd;
+	padding: 0.3em;
+	display: none;
+	border-width: 1px medium;
+	border-style: solid none;
+	border-color: #ddccbb;
+}
+
+.rstdemo-hover {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 2em;
+	height: 1em;
+	border-style: solid;
+	border-color: #a0c0a0;
+	border-width: 0 0 1px 1px;
+	background-color: #c0ffc0;
+	color: #80c080;
+	font-size: 70%;
+	line-height: 1em;
+	text-align: center;
+	padding: 0.1em;
+	z-index: 1000;
+	cursor: pointer;
+}

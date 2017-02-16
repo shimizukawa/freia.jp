@@ -1,0 +1,245 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>はじめの一歩 &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="index.html" />
+    <link rel="next" title="Introduction to Packaging" href="introduction.html" />
+    <link rel="prev" title="Pythonパッケージ ヒッチハイク・ガイド" href="index.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="introduction.html" title="Introduction to Packaging"
+             accesskey="N">次へ</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Pythonパッケージ ヒッチハイク・ガイド"
+             accesskey="P">前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="id1">
+<h1>はじめの一歩<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p><strong>TwelStuff</strong> という新しいプロジェクトを作成してみましょう。</p>
+<div class="section" id="id2">
+<h2>1. プロジェクトのレイアウト<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>最小のPythonプロジェクトは2つのファイルで構成されます。1つは <a class="reference internal" href="creation.html#setup-py-description"><em>setup.py</em></a> ファイルで、このファイルにはプロジェクトのメタデータを記述します。もう一つのファイルには、プロジェクトで提供したい機能をPythonコードで実装します。</p>
+<p>このサンプルプロジェクトでは、典型的なプロジェクトを想定した上で最も小さいレイアウトを提供するために、前述の2ファイル構成よりももう少しファイルを追加します。ちゃんとしたPythonパッケージを作成するために、 <a class="reference internal" href="creation.html#towelstuff-description"><em>towelstuff/</em></a> ディレクトリに <cite>__init__.py</cite> ファイルを置いて下さい。プロジェクトのソースコードが1つのファイルから複数のファイルに成長することを見越して、このようにしています。</p>
+<p>同様に、 <a class="reference internal" href="creation.html#readme-txt-description"><em>README.txt</em></a> ファイルにプロジェクトの概要を記述し、 <a class="reference internal" href="creation.html#license-txt-description"><em>LICENSE.txt</em></a> ファイルにプロジェクトのライセンス条項を記載しておきましょう。</p>
+<p>これで始める準備が整いました。大抵のプロジェクトでは他の種類のファイルもいくつか扱うでしょうから、これについてのは <a class="reference internal" href="creation.html#directory-layout"><em>Arranging your file and directory structure</em></a> を参考にして下さい。</p>
+<p>ここまででプロジェクトのレイアウトは以下のようになっているでしょう:</p>
+<div class="highlight-python"><pre>TowelStuff/
+    LICENSE.txt
+    README.txt
+    setup.py
+    towelstuff/
+        __init__.py</pre>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>2. プロジェクトの概要記述<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p><a class="reference internal" href="creation.html#setup-py-description"><em>setup.py</em></a> ファイルはPythonプロジェクトの心臓部です。このファイルにはプロジェクトの全てのメタデータが記載されます。ここには多岐にわたるメタデータの種類からいくつかを選んで記載することが出来ます。まず必要になるフィールドは <cite>name</cite>, <cite>version</cite>, <cite>packages</cite> です。 <cite>name</cite> フィールドは、パッケージを公開するつもりならPython Package Index (PyPI)で公開されている他のパッケージ名と衝突しないものにするべきです。 <cite>version</cite> フィールドはプロジェクトのリリース物を見分けるために必要です。 <cite>packages</cite> フィールドには、このプロジェクトに含まれるソースコードの場所を記載します。</p>
+<p>最初の <cite>setup.py</cite> にはライセンス情報と、 <cite>README.txt</cite> ファイルを再利用して <cite>long_description</cite> フィールドを設定しましょう。以下のように書きます:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">distutils.core</span> <span class="kn">import</span> <span class="n">setup</span>
+
+<span class="n">setup</span><span class="p">(</span>
+    <span class="n">name</span><span class="o">=</span><span class="s">&#39;TowelStuff&#39;</span><span class="p">,</span>
+    <span class="n">version</span><span class="o">=</span><span class="s">&#39;0.1dev&#39;</span><span class="p">,</span>
+    <span class="n">packages</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;towelstuff&#39;</span><span class="p">,],</span>
+    <span class="n">license</span><span class="o">=</span><span class="s">&#39;Creative Commons Attribution-Noncommercial-Share Alike license&#39;</span><span class="p">,</span>
+    <span class="n">long_description</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">&#39;README.txt&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">(),</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>3. 最初のリリースを作る<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p><cite>version</cite> フィールドを <cite>0.1dev</cite> としてください。これは、 <cite>0.1</cite> に向けた <em>開発版</em> である、ということを表しています。実際の所、このプロジェクトにはまだコードがありません。このプロジェクトを価値あるものにするだけのコードを書いたら、versionフィールドから <cite>dev</cite> を取り除いて <cite>0.1</cite> にしましょう。</p>
+<p>リリースを作成するために、ソースコードを1つのアーカイブファイルにまとめる必要があります。これは以下のように <cite>sdist</cite> コマンドで出来ます:</p>
+<blockquote>
+$ python setup.py sdist</blockquote>
+<p>これで、プロジェクトの <cite>dist</cite> サブディレクトリが作られ、プロジェクトのソースコードが配布用のアーカイブファイルにまとめて圧縮されます。ファイル名は次のようになります:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">TowelStuff</span><span class="o">-</span><span class="mf">0.1</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+</pre></div>
+</div>
+<p>圧縮されたアーカイブファイルのフォーマットは、POSIXではデフォルトで <cite>.tar.gz</cite> になり、Windowsでは <cite>.zip</cite> になります。</p>
+<p>標準設定のままではDistutilsはプロジェクトディレクトリ以下の全てのファイルを含めてはくれません。同梱されるファイルはデフォルトでは以下の通りです:</p>
+<p>もし追加したいファイルがあれば、いくつかの方法でそれらのファイルを指定することが出来ます:</p>
+<blockquote>
+<ul class="simple">
+<li>拡張パッケージを使ってDistutilsの機能を拡張する方法。SetuptoolsとDistributeはバージョン管理システムと連携して含めるべきファイルを検出します。</li>
+<li>最上位に MANIFEST.in ファイルを作成する方法。このテンプレートファイルにはどのファイルを含めるかのファイル名やパターンを記載します。
+(TO-DO: link to a MANIFEST.in document)</li>
+</ul>
+</blockquote>
+<p><strong>sdist</strong> コマンドを実行すると、パッケージに含めるべき全てのファイル名が含まれたMANIFESTファイルが生成されます。このファイルを確認して、配布パッケージに含まれるファイルが正しく列挙出来ているかどうかをダブルチェックすることができます。これでプロジェクトをリリースする準備が整いました。リリースする前に以下の項目についてダブルチェックすることをお勧めします:</p>
+<ul>
+<li><p class="first">正しいバージョン番号.</p>
+<p><cite>dev</cite> マーカーをバージョン番号に手動で付けることで、リリース版と開発版を明確に分けル事が出来きますが、 <cite>dev</cite> の付いたバージョンをリリース版として公開は <strong>したくない</strong> はず。</p>
+</li>
+</ul>
+<ul>
+<li><p class="first">必要な全てのファイルが含まれているか.</p>
+<p>MANIFESTファイルを見て、あるいは <strong>sdist</strong> コマンドで生成されたアーカイブファイルを見て確認しましょう。</p>
+</li>
+</ul>
+</div>
+<div class="section" id="python-package-index-pypi">
+<h2>4. パッケージをPython Package Index (PyPI) に登録<a class="headerlink" href="#python-package-index-pypi" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p><strong>sdist</strong> で生成された配布ファイルはどこででも公開することが出来ます。Pythonには多くのPythonプロジェクトを公開している中央インデックス <a class="reference internal" href="contributing.html#pypi-info"><em>The Python Package Index (PyPI)</em></a> がpytohn.org以下にあります。リリースした配布物を公開するのにここを使うことが出来ます。</p>
+<p>まず最初にこのサイトを訪れて、プロジェクトをPyPIで公開するためのアカウントを登録しましょう。公開するプロジェクトは以下のようなURLになります:</p>
+<div class="highlight-python"><pre>http://pypi.python.org/pypi/&lt;projectname&gt;</pre>
+</div>
+<p>プロジェクト名は既にPyPIに登録されているものでなければ好きな名前にすることができます。プロジェクトを登録するには以下のコマンドを実行します:</p>
+<div class="highlight-python"><pre>$ python setup.py register</pre>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>5. リリース物をアップロードして、タオルを掴んで宇宙を救ってください！ <a class="footnote-reference" href="#id7" id="id5">[1]</a><a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>おめでとう！これで問題無くソース配布物も完成して、PyPIに成果物をアップロードする時がきました。ここで <cite>bdist_wininst</cite> コマンドでWindowsインストーラ形式の配布ファイルを作成することもできます。このように、Pythonの配布物としていくつかの異なるファイルフォーマットを作成することが出来ます。アップロードしたいフォーマットをアップロードコマンドと一緒に指定する必要があります。そうしないと事前に配布物を生成していてもアップロードはされません。ソース配布物は常にアップロードしておいた方が良いでしょう。他のフォーマットは好きに選ぶことが出来ますが利用者が望んでいるものを用意しましょう:</p>
+<div class="highlight-python"><pre>$ python setup.py sdist bdist_wininst upload</pre>
+</div>
+<p>そしてリリースしたらパッケージリリースをコミュニティーに報告しましょう！</p>
+<p>最後に、 <cite>setup.py</cite> の <cite>version</cite> フィールドを次のリリースに向けて新しい値に進めておきましょう (例えば <cite>0.2dev</cite>)。</p>
+<p>この <a class="reference external" href="#id1">はじめの一歩</a> は簡潔で良い導入ですが、多くの、ひっかかりやすいケースについては触れていません。より詳細な情報については <a class="reference internal" href="introduction.html"><em>Introduction to Packaging</em></a> を参照してください。より理解を深めるには <a class="reference internal" href="introduction.html#state-of-packaging-info"><em>Current State of Packaging</em></a> を参照して下さい。</p>
+<table class="docutils footnote" frame="void" id="id7" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id5">[1]</a></td><td>訳注: 参考 <a class="reference external" href="http://ja.wikipedia.org/wiki/銀河ヒッチハイク・ガイド">銀河ヒッチハイク・ガイド - Wikipedia</a></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">はじめの一歩</a><ul>
+<li><a class="reference internal" href="#id2">1. プロジェクトのレイアウト</a></li>
+<li><a class="reference internal" href="#id3">2. プロジェクトの概要記述</a></li>
+<li><a class="reference internal" href="#id4">3. 最初のリリースを作る</a></li>
+<li><a class="reference internal" href="#python-package-index-pypi">4. パッケージをPython Package Index (PyPI) に登録</a></li>
+<li><a class="reference internal" href="#id6">5. リリース物をアップロードして、タオルを掴んで宇宙を救ってください！ </a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>前のトピックへ</h4>
+  <p class="topless"><a href="index.html"
+                        title="前の章へ">Pythonパッケージ ヒッチハイク・ガイド</a></p>
+  <h4>次のトピックへ</h4>
+  <p class="topless"><a href="introduction.html"
+                        title="次の章へ">Introduction to Packaging</a></p>
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/quickstart.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="introduction.html" title="Introduction to Packaging"
+             >次へ</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Pythonパッケージ ヒッチハイク・ガイド"
+             >前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

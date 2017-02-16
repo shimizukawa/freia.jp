@@ -1,0 +1,58 @@
+.. ==============================================
+.. Welcome to The Hitchhiker's Guide to Packaging
+.. ==============================================
+
+==========================================
+Pythonパッケージ ヒッチハイク・ガイド
+==========================================
+
+.. .. warning:: This document is currently under development. Thank you for your interest.
+
+.. warning:: このドキュメントは現在作成中です。興味を持ってくれてありがとう。
+
+.. warning:: このドキュメントは `The Hitchhiker's Guide to Packaging <http://guide.python-distribute.org/>`_ の翻訳です。
+
+.. figure:: http://farm1.static.flickr.com/187/457102612_42b1e6bbc6.jpg
+  :target: http://www.flickr.com/photos/cayusa/457102612/
+  :width: 500
+  :height: 333
+  :alt: Dolphin - 1 by Cayusa, on Flickr, Creative Commons
+
+
+.. http://farm1.static.flickr.com/193/457117717_0c502ba256.jpg
+.. http://farm5.static.flickr.com/4038/4610948947_2e9db1180c.jpg
+
+
+.. Table of Contents
+.. =================
+
+目次
+
+.. toctree::
+   :maxdepth: 2
+
+   quickstart.txt
+
+   introduction.txt
+   installation.txt
+
+   usage.txt
+   creation.txt
+
+   contributing.txt
+   virtualenv.txt
+
+   specification.txt
+   advanced.txt
+   future.txt
+
+   glossary.txt
+   credits.txt
+   license.txt
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

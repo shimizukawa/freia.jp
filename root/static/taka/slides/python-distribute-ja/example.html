@@ -1,0 +1,182 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Project example &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="index.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="project-example">
+<h1>Project example<a class="headerlink" href="#project-example" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>TBD - simple example</p>
+<div class="section" id="project-layout">
+<h2>Project layout<a class="headerlink" href="#project-layout" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>XXX explains here the bascis</p>
+<div class="section" id="dos-and-don-ts">
+<h3>Dos and Don&#8217;ts<a class="headerlink" href="#dos-and-don-ts" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>XXX intro</p>
+<p>Dos:</p>
+<ul class="simple">
+<li>name the directory something related to your project. For example, if your
+project is named <cite>Twisted</cite>, name the top-level directory for its source files
+<cite>Twisted</cite>. When you do releases, you should include a version number suffix:
+Twisted-2.5.</li>
+<li>create a directory <tt class="docutils literal"><span class="pre">Twisted/bin</span></tt> and put your executables there, if you
+have any. Don&#8217;t give them a <tt class="docutils literal"><span class="pre">.py</span></tt> extension, even if they are Python source
+files. Don&#8217;t put any code in them except an import of and call to a main
+function defined somewhere else in your projects.</li>
+<li>if your project is expressable as a single Python source file, then put it
+into the directory and name it something related to your project. For
+example, <tt class="docutils literal"><span class="pre">Twisted/twisted.py</span></tt>. If you need multiple source files, create a
+package instead (<tt class="docutils literal"><span class="pre">Twisted/twisted/</span></tt>, with an empty
+<tt class="docutils literal"><span class="pre">Twisted/twisted/__init__.py</span></tt>) and place your source files in it. For
+example, <tt class="docutils literal"><span class="pre">Twisted/twisted/internet.py</span></tt>.</li>
+<li>put your unit tests in a sub-package of your package (note - this means that
+the single Python source file option above was a trick - you always need at
+least one other file for your unit tests). For example, <tt class="docutils literal"><span class="pre">Twisted/twisted/test</span></tt>.
+Of course, make it a package with <tt class="docutils literal"><span class="pre">Twisted/twisted/test/__init__.py</span></tt>. Place
+tests in files like <tt class="docutils literal"><span class="pre">Twisted/twisted/test/test_internet.py</span></tt>.</li>
+<li>add <tt class="docutils literal"><span class="pre">Twisted/README</span></tt> and <tt class="docutils literal"><span class="pre">Twisted/setup.py</span></tt> to explain and install your
+software, respectively, if you&#8217;re feeling nice.</li>
+</ul>
+<p>Don&#8217;ts:</p>
+<ul class="simple">
+<li>put your source in a directory called <tt class="docutils literal"><span class="pre">src</span></tt> or <tt class="docutils literal"><span class="pre">lib</span></tt>. This makes it hard
+to run without installing.</li>
+<li>put your tests outside of your Python package. This makes it hard to run the
+tests against an installed version.</li>
+<li>create a package that only has a <tt class="docutils literal"><span class="pre">__init__.py</span></tt> and then put all your code
+into <tt class="docutils literal"><span class="pre">__init__.py</span></tt>. Just make a module instead of a package, it&#8217;s simpler.</li>
+<li>try to come up with magical hacks to make Python able to import your module
+or package without having the user add the directory containing it to their
+import path (either via PYTHONPATH or some other mechanism). You will not
+correctly handle all cases and users will get angry at you when your software
+doesn&#8217;t work in their environment.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Project example</a><ul>
+<li><a class="reference internal" href="#project-layout">Project layout</a><ul>
+<li><a class="reference internal" href="#dos-and-don-ts">Dos and Don&#8217;ts</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/example.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Pythonな会社でchefしてる例の紹介</title>
+    
+    <link rel="stylesheet" href="_static/s6.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+<script type="text/javascript" src="_static/jquery.js"></script>
+<script type="text/javascript" src="_static/jquery.touchwipe.min.js"></script>
+<script type="text/javascript" src="_static/s6.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+
+var bodyStyle = {
+    width: '100%',
+    height: '100%',
+    padding: '0',
+    margin: '0',
+    overflow: 'hidden',
+    backgroundColor: 'white',
+};
+
+s6.css('html', bodyStyle);
+s6.css('body', bodyStyle);
+s6.css('.s6 .page.default > h2', {margin:'0'});
+
+function calcMetrics(options) {
+    var html = document.documentElement;
+    var options = s6.opts(options, {
+        width: html.offsetWidth,
+        height: html.offsetHeight,
+        ratio: 0.75,
+        fontSize: 0.1
+    });
+    var left = 0;
+    var top = 0;
+    var width = options.width;
+    var height = options.height;
+
+    if (height / width < options.ratio) {
+        var originalWidth = width;
+        width = height / options.ratio;
+        left = (originalWidth - width) / 2;
+    }
+    else {
+        var originalHeight = height;
+        height = width * options.ratio;
+        top = (originalHeight - height) / 2;
+    }
+
+    return {
+        left: left,
+        top: top,
+        width: width,
+        height: height,
+        fontSize: height * options.fontSize
+    }
+}
+
+var pr;
+s6.attach(s6, 'ready', function ready() {
+    var fontSize = 0.08;
+    var html = document.documentElement;
+    var metrics = calcMetrics({fontSize: fontSize});
+    var startIndex = 0;
+
+    var result;
+    if (location.hash) {
+        startIndex = $('.section').index($(location.hash));
+        if(startIndex < 0) {
+            startIndex = 0;
+        }
+    }
+
+    var container = $('.section')[0];
+    pr = new s6.Presentation({
+            thema: 'sphinx',
+            element: container,
+            width: metrics.width,
+            height: metrics.height,
+            startIndex: startIndex,
+            fontSize: fontSize
+        });
+    pr.style.left = metrics.left + 'px';
+    pr.style.top = metrics.top + 'px';
+    pr.start();
+
+    var indexNoOutline = false;
+
+    pr.funcPages.index.attachPage('click', function(i, element, wrapper) {
+        indexNoOutline = true;
+        setTimeout(function() {
+            indexNoOutline =false
+        }, 1000);
+        wrapper.style.background = '';
+        pr.go(i);
+    });
+
+    pr.funcPages.index.attachPage('mouseover', function(i, element, wrapper) {
+        if (indexNoOutline) return;
+        wrapper.className += ' selected';
+    });
+    
+    pr.funcPages.index.attachPage('mouseout', function(i, element, wrapper) {
+        wrapper.className = 'wrapper';
+    });
+
+    try {
+        var isIframe = !(window.parent == window);
+    } catch(e) {
+        isIframe = true;
+    }
+
+    // add navigation overlay
+    function createNaviArea(id, options){
+        var opts = s6.opts(options, {
+            widthRatio: 1.0,
+            heightRatio: 1.0,
+            dockTo: 'top',
+            label: ''
+        });
+        function calcNaviMetrics(){
+            var html = document.documentElement;
+            var metrics = calcMetrics({fontSize: fontSize});
+            var naviAreaWidth = ((html.offsetWidth - metrics.width) / 2 + (metrics.width * opts.widthRatio));
+            var naviAreaHeight = ((html.offsetHeight - metrics.height) / 2 + (metrics.height * opts.heightRatio));
+            var width = (opts.widthRatio >= 1.0)? html.offsetWidth: naviAreaWidth;
+            var height = (opts.heightRatio >= 1.0)? html.offsetHeight: naviAreaHeight;
+            var left = 0;
+            var top = 0;
+            if(opts.dockTo == 'right') {
+                left = html.offsetWidth - width;
+            }
+            else if(opts.dockTo == 'bottom') {
+                top = html.offsetHeight - height;
+            }
+            return {
+                width: width,
+                height: height,
+                left: left,
+                top: top
+            };
+        }
+        function setMetrics(elem, metrics) {
+            elem.css('position', 'absolute')
+                .css('left',  metrics.left + 'px')
+                .css('top',  metrics.top + 'px')
+                .css('width',  metrics.width + 'px')
+                .css('height',  metrics.height + 'px');
+            return elem;
+        }
+        var naviMetrics = calcNaviMetrics();
+        var elem = $('<div>', {id: id, class: 'navigation-area-'+opts.dockTo});
+        setMetrics(elem, naviMetrics);
+        var label = $('<span>')
+            .css('line-height', naviMetrics.height + 'px')
+            .text(opts.label);
+        elem.append(label);
+        $(window).resize(function(){
+            var naviMetrics = calcNaviMetrics();
+            setMetrics(elem, naviMetrics);
+            label.css('line-height', naviMetrics.height + 'px')
+        });
+        return elem;
+    }
+    var naviIdx  = createNaviArea('idxpage', {heightRatio: 0.1, dockTo: 'top', label: 'index'});
+    var naviBack = createNaviArea('backpage', {heightRatio: 0.1, dockTo: 'bottom', label: 'back'});
+    var naviNext = createNaviArea('nextpage', {widthRatio: 0.1, dockTo: 'right', label: '≫'});
+    var naviPrev = createNaviArea('prevpage', {widthRatio: 0.1, dockTo: 'left', label: '≪'});
+    s6.attach(naviIdx[0],  'click', function() { pr.go('index') });
+    s6.attach(naviBack[0], 'click', 'back', 0, pr);
+    s6.attach(naviNext[0], 'click', 'step', 0, pr);
+    s6.attach(naviPrev[0], 'click', 'prev', 0, pr);
+    $('div.document')
+        .append(naviIdx)
+        .append(naviBack)
+        .append(naviNext)
+        .append(naviPrev);
+
+    // setup mouse events
+    s6.attach(document, 'click', 'step', 0, pr);
+    s6.attach(document, 'keypress Right', 'step', 0, pr);
+    s6.attach(document, 'keypress Left',  'prev', 0, pr);
+    s6.attach(document, 'keypress Up',    function() { pr.go('index') });
+    s6.attach(document, 'keypress Down',  'back', 0, pr);
+
+    // inject 'target=_blank' to link-targets.
+    // prevent paging if click link-target.
+    var clickGuard = function(evt){
+        pr.busy = true;
+        setTimeout(function(){pr.busy = false;}, 1000);
+        return true;
+    }
+    $('a[href]')
+        .attr('target', '_blank')
+        .click(clickGuard)
+        .mousedown(clickGuard)
+        .mouseup(clickGuard)
+        .bind('contextmenu', clickGuard);
+
+    // setup swipe events
+    if($(document).touchwipe) {
+        var wipeSetting = {
+            wipeLeft: function(){ pr.step(); },
+            wipeRight: function(){ pr.prev(); },
+            wipeUp: function(){ pr.go('index'); },
+            wipeDown: function(){ pr.back(); },
+            preventDefaultEvent: true
+        }
+        $(document).touchwipe(wipeSetting);
+        $(pr.element).touchwipe(wipeSetting);
+    }
+
+    // resize window
+    $(window).resize(function(){
+        var html = document.documentElement;
+        var metrics = calcMetrics({fontSize: fontSize});
+        pr.style.left = metrics.left + 'px';
+        pr.style.top = metrics.top + 'px';
+        pr.style.width = metrics.width + 'px';
+        pr.style.height = metrics.height + 'px';
+        pr.style.fontSize = metrics.fontSize + 'px';
+    });
+
+    // handle page number and set to href
+    pr._go  = pr.go;
+    pr.go = function(toIndex) {
+        pr._go(toIndex);
+        if(pr.getPage(toIndex)) {
+            location.href = '#' + $(".section")[toIndex].id; //want to set at paging.
+        }
+    }
+});
+// ]]>
+</script>
+
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li><a href="#">Pythonな会社でchefしてる例の紹介 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="pythonchef">
+<h1>Pythonな会社でchefしてる例の紹介<a class="headerlink" href="#pythonchef" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h1': {marginTop:'0.5em'}}});}</script>
+<div class="section" id="id1">
+<h2>おまえ、誰よ<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/face.png" src="_images/face.png" />
+</div>
+<ul>
+<li><p class="first"><a class="reference external" href="http://清水川.jp/">http://清水川.jp/</a>
+<a class="reference external" href="http://twitter.com/shimizukawa">&#64;shimizukawa</a></p>
+</li>
+<li><dl class="first docutils">
+<dt>活動:</dt>
+<dd><ul class="first last simple">
+<li>Sphinxメンテナ, Sphinx-users.jp会長</li>
+<li>Python系, XP系, PyConJP 2012 副座長</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>言語:</dt>
+<dd><ul class="first last simple">
+<li>C++/C/8086/<strong>Python</strong>/Rails/chef</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'65%'},
+'div[0]': {width:'15%', position:'absolute', top:'1em'}}});}</script>
+</div>
+<div class="section" id="id2">
+<h2>提供<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/beproud.gif" src="_images/beproud.gif" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {fontSize:'120%', textAlign:'center'},
+'div[0]/img': {margin:'2em', marginTop:'1.5em', width:'80%'},
+'div/img': {border:'0.1em gray outset'}}});}</script>
+</div>
+<div class="section" id="vagrant">
+<h2>最初はVagrant<a class="headerlink" href="#vagrant" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>VirtualBoxのコンソール出さずに使える便利</li>
+<li>chefっていうので環境設定できるらしい</li>
+<li>見よう見まねで使ってみる -&gt; <strong>便利！！</strong></li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="redmine">
+<h2>会社のRedmineの管理が大変<a class="headerlink" href="#redmine" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>Pythonの会社なのでメンテナンスが大変</li>
+<li>Redmineにプラグイン入れてそのままリポジトリ管理</li>
+<li>構築手順とか残っているような無いような・・</li>
+<li>よしchefを使おう</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id3">
+<h2>Redmineはアプリ？ミドルウエア？<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><strong>ミドルウエアです</strong></li>
+<li>ミドルウエアなのでCapistranoは使いません</li>
+<li>ということでChefで突き進みます</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id4">
+<h2>Redmineの構成<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/django_skypehub.png" src="_images/django_skypehub.png" />
+</div>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]/a/img': {margin:'2em', marginTop:'1.5em', width:'80%'}}});}</script>
+</div>
+<div class="section" id="id5">
+<h2>Redmineセットアップ出来た<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>rvm入れてruby入れる</li>
+<li>redmine入れる</li>
+<li>redmineプラグイン入れる</li>
+<li>記法をreSTにしてblockdiag対応させる</li>
+<li>DBサーバーとか設定する</li>
+<li>apache設定する</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'80%'}}});}</script>
+</div>
+<div class="section" id="db">
+<h2>DBセットアップ出来た<a class="headerlink" href="#db" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>MySQL入れる</li>
+<li>GRANTする</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id6">
+<h2>これからやる<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>Skypeプラグイン入れよう</li>
+<li>Mercurialリポジトリサーバー起動させる</li>
+<li>メール送信設定</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id7">
+<h2>あきらめ<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>Skypeクライアントのインストール<ul>
+<li>xvfbにvncで接続してインストールウィザードをクリックする</li>
+</ul>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id8">
+<h2>悩み1<a class="headerlink" href="#id8" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>最初に使い始める人に簡単に使う方法を提供したい<ul>
+<li>VirtualBox + Vagrant + (Berkshelf | Librarian)</li>
+<li>Rubyに明るくないのでgem周りでけっこうはまる</li>
+</ul>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id9">
+<h2>社内での反応<a class="headerlink" href="#id9" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>半年前は <strong>chefなの？</strong> という感じ</li>
+<li>今はみんな「興味はある」</li>
+<li>最初のハードル(Vagrant+chef)がクリアされると「よさそう」という反応</li>
+<li>とりあえず開発に使用し始めました！</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id10">
+<h2>悩み2<a class="headerlink" href="#id10" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>RedmineのバージョンアップをChefでどうやって表現するの？<ul>
+<li>chefで環境つくればいいから、新しい環境作って切り換えかなあ</li>
+</ul>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id11">
+<h2>はまり1<a class="headerlink" href="#id11" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>attributesに <tt class="docutils literal"><span class="pre">default[:mycookbook][:key]</span> <span class="pre">=</span> <span class="pre">'value'</span></tt> で初期設定</li>
+<li>recipesで <tt class="docutils literal"><span class="pre">node[:mycookbook][:key]</span></tt> で使う<ul>
+<li>Vagrantで <tt class="docutils literal"><span class="pre">chef.json</span> <span class="pre">=</span> <span class="pre">{:mycookbook</span> <span class="pre">=&gt;</span> <span class="pre">{:key</span> <span class="pre">=&gt;</span> <span class="pre">'other'}}</span></tt></li>
+<li>動く</li>
+</ul>
+</li>
+<li>Vagrantに設定せずrolesに移行<ul>
+<li>動かない！！</li>
+</ul>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'70%'}}});}</script>
+</div>
+<div class="section" id="id12">
+<h2>はまり2<a class="headerlink" href="#id12" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul>
+<li><p class="first"><tt class="docutils literal"><span class="pre">recipe[nginx]</span></tt></p>
+<ul class="simple">
+<li>nginxサーバー立ち上がった</li>
+</ul>
+</li>
+<li><p class="first"><tt class="docutils literal"><span class="pre">recipe[jenkins::proxy_nginx]</span></tt></p>
+<blockquote>
+<div><ul class="simple">
+<li>nginxをソースから入れようとする</li>
+<li><strong>nginxユーザーを作ろうとして失敗する&gt;&lt;</strong></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'80%'}}});}</script>
+</div>
+<div class="section" id="cookbook">
+<h2>自作cookbook<a class="headerlink" href="#cookbook" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>自分でいくつか作ったものを公開してます<ul>
+<li><a class="reference external" href="https://github.com/shimizukawa?tab=repositories">https://github.com/shimizukawa?tab=repositories</a></li>
+</ul>
+</li>
+<li>rvm-redmine : rvm環境にredmineをインストール</li>
+<li>bp-redmine : rvm-redmine上にBP社カスタマイズ</li>
+<li>python-build : Pythonの2.4-3.3までビルド</li>
+<li>download-make-install : CMMIです</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'65%'}}});}</script>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li><a href="#">Pythonな会社でchefしてる例の紹介 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+<div class="footer">
+    <span>Pythonな会社でchefしてる例の紹介 :: 2013, Takayuki SHIMIZUKAWA</span><br />
+    <span class="hidden">操作方法: 上下左右キーで操作です</span>
+</div>
+
+  </body>
+</html>

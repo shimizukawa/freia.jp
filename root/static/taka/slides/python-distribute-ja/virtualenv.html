@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Virtual Environments &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="index.html" />
+    <link rel="next" title="Specifications" href="specification.html" />
+    <link rel="prev" title="Contribute Your Package to the World" href="contributing.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="specification.html" title="Specifications"
+             accesskey="N">次へ</a> |</li>
+        <li class="right" >
+          <a href="contributing.html" title="Contribute Your Package to the World"
+             accesskey="P">前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="virtual-environments">
+<h1>Virtual Environments<a class="headerlink" href="#virtual-environments" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="creating-a-virtualenv">
+<h3>Creating a virtualenv<a class="headerlink" href="#creating-a-virtualenv" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>We&#8217;ll be using <a class="reference external" href="http://virtualenv.openplans.org/">virtualenv</a> so our installation experiments are
+contained and don&#8217;t modify your system Python environment. If you
+aren&#8217;t already familiar with virtualenv, you may want to read up on it
+first.</p>
+<p>Create a virtualenv:</p>
+<div class="highlight-python"><pre>$ virtualenv --no-site-packages pip_test_env</pre>
+</div>
+<p>We use the <tt class="docutils literal"><span class="pre">--no-site-packages</span></tt> flag to prevent this virtualenv from
+&#8220;seeing&#8221; your global Python &#8220;site-packages&#8221; directory, so that our
+experiments aren&#8217;t confused by any Python packages you happen to
+already have installed globally.</p>
+<p>Recent versions of virtualenv (1.4+) automatically install pip for you
+inside the virtualenv (there will already be a <tt class="docutils literal"><span class="pre">pip</span></tt> script in
+<tt class="docutils literal"><span class="pre">pip_test_env/bin/</span></tt>). If you are using a pre-1.4 virtualenv, run
+<tt class="docutils literal"><span class="pre">pip_test_env/bin/easy_install</span> <span class="pre">pip</span></tt> to install pip in the virtual
+environment.</p>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">If you are using Windows, executable scripts in the virtualenv will
+be located at <tt class="docutils literal"><span class="pre">pip_test_env\Scripts\</span></tt> rather than
+<tt class="docutils literal"><span class="pre">pip_test_env/bin/</span></tt>. Just replace all occurrences of the latter
+with the former.</p>
+</div>
+<p>Let&#8217;s &#8220;activate&#8221; the virtualenv to put <tt class="docutils literal"><span class="pre">pip_test_env/bin</span></tt> on our
+default PATH, so we can just type <tt class="docutils literal"><span class="pre">pip</span></tt> instead of
+<tt class="docutils literal"><span class="pre">pip_test_env/bin/pip</span></tt>:</p>
+<div class="highlight-python"><pre>$ . pip_test_env/bin/activate</pre>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">The leading dot is important.  Without it, a subshell is spawned
+and only that subshell gets the virtualenv activated.  The leading
+dot tells the shell to run the <cite>activate</cite> script in the current
+shell.</p>
+</div>
+<p>On Windows, this is:</p>
+<div class="highlight-python"><pre>$ pip_test_env\Scripts\activate.bat</pre>
+</div>
+<p>In either case, your shell prompt should now begin with
+<tt class="docutils literal"><span class="pre">(pip_test_env)</span></tt> to remind you that a virtualenv is activated. When
+you are done working with this virtualenv type <tt class="docutils literal"><span class="pre">deactivate</span></tt> to
+remove its bin directory from your PATH.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Virtual Environments</a><ul>
+<li><a class="reference internal" href="#getting-started">Getting Started</a><ul>
+<li><a class="reference internal" href="#creating-a-virtualenv">Creating a virtualenv</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>前のトピックへ</h4>
+  <p class="topless"><a href="contributing.html"
+                        title="前の章へ">Contribute Your Package to the World</a></p>
+  <h4>次のトピックへ</h4>
+  <p class="topless"><a href="specification.html"
+                        title="次の章へ">Specifications</a></p>
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/virtualenv.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="specification.html" title="Specifications"
+             >次へ</a> |</li>
+        <li class="right" >
+          <a href="contributing.html" title="Contribute Your Package to the World"
+             >前へ</a> |</li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

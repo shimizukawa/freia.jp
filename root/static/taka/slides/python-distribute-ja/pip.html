@@ -1,0 +1,338 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Pip &mdash; Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation" href="index.html" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-769552-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="pip">
+<h1>Pip<a class="headerlink" href="#pip" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p><a class="reference external" href="http://pip.openplans.org/">Pip</a> is an installer for Python packages written by Ian Bicking. It
+can install packages, list installed packages, upgrade packages, and
+uninstall packages.</p>
+<div class="section" id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="creating-a-virtualenv">
+<h3>Creating a virtualenv<a class="headerlink" href="#creating-a-virtualenv" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>We&#8217;ll be using <a class="reference external" href="http://virtualenv.openplans.org/">virtualenv</a> so our installation experiments are
+contained and don&#8217;t modify your system Python environment. If you
+aren&#8217;t already familiar with virtualenv, you may want to read up on it
+first.</p>
+<p>Create a virtualenv:</p>
+<div class="highlight-python"><pre>virtualenv --no-site-packages pip_test_env</pre>
+</div>
+<p>We use the <tt class="docutils literal"><span class="pre">--no-site-packages</span></tt> flag to prevent this virtualenv from
+&#8220;seeing&#8221; your global Python &#8220;site-packages&#8221; directory, so that our
+experiments aren&#8217;t confused by any Python packages you happen to
+already have installed globally.</p>
+<p>Recent versions of virtualenv (1.4+) automatically install pip for you
+inside the virtualenv (there will already be a <tt class="docutils literal"><span class="pre">pip</span></tt> script in
+<tt class="docutils literal"><span class="pre">pip_test_env/bin/</span></tt>). If you are using a pre-1.4 virtualenv, run
+<tt class="docutils literal"><span class="pre">pip_test_env/bin/easy_install</span> <span class="pre">pip</span></tt> to install pip in the virtual
+environment.</p>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">If you are using Windows, executable scripts in the virtualenv will
+be located at <tt class="docutils literal"><span class="pre">pip_test_env\Scripts\</span></tt> rather than
+<tt class="docutils literal"><span class="pre">pip_test_env/bin/</span></tt>. Just replace all occurrences of the latter
+with the former.</p>
+</div>
+<p>Let&#8217;s &#8220;activate&#8221; the virtualenv to put <tt class="docutils literal"><span class="pre">pip_test_env/bin</span></tt> on our
+default PATH, so we can just type <tt class="docutils literal"><span class="pre">pip</span></tt> instead of
+<tt class="docutils literal"><span class="pre">pip_test_env/bin/pip</span></tt>:</p>
+<div class="highlight-python"><pre>. pip_test_env/bin/activate</pre>
+</div>
+<p>On Windows, this is:</p>
+<div class="highlight-python"><pre>pip_test_env\Scripts\activate.bat</pre>
+</div>
+<p>In either case, your shell prompt should now begin with
+<tt class="docutils literal"><span class="pre">(pip_test_env)</span></tt> to remind you that a virtualenv is activated. When
+you are done working with this virtualenv type <tt class="docutils literal"><span class="pre">deactivate</span></tt> to
+remove its bin directory from your PATH.</p>
+</div>
+<div class="section" id="installing-a-package">
+<h3>Installing a package<a class="headerlink" href="#installing-a-package" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Let&#8217;s install the <a class="reference external" href="http://pypi.python.org/pypi/Markdown">Markdown</a> package:</p>
+<div class="highlight-python"><pre>pip install Markdown</pre>
+</div>
+<p>Markdown is now installed; you can import and use it:</p>
+<div class="highlight-python"><pre>python -c "import markdown; print markdown.markdown('**Excellent**')"</pre>
+</div>
+<p>(Because your virtualenv is activated, <tt class="docutils literal"><span class="pre">python</span></tt> runs the
+virtualenv&#8217;s python binary in <tt class="docutils literal"><span class="pre">pip_test_env/bin/python</span></tt>.)</p>
+<p>Its command-line script is installed in <tt class="docutils literal"><span class="pre">pip_test_env/bin/markdown</span></tt>
+(or <tt class="docutils literal"><span class="pre">pip_test_env\Scripts\markdown.bat</span></tt>).</p>
+<p>The rest of Markdown&#8217;s files are installed in
+<tt class="docutils literal"><span class="pre">pip_test_env/lib/python2.X/site-packages/markdown</span></tt> (where 2.X is
+your Python version), and the metadata describing what has been
+installed is in
+<tt class="docutils literal"><span class="pre">pip_test_env/lib/pythonx.x/site-packages/Markdown-2.0.3-py2.X.egg-info/</span></tt>.</p>
+</div>
+<div class="section" id="listing-installed-packages">
+<h3>Listing installed packages<a class="headerlink" href="#listing-installed-packages" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>To list installed packages and versions, use the <tt class="docutils literal"><span class="pre">freeze</span></tt> command:</p>
+<blockquote>
+pip freeze</blockquote>
+<p>Pip will give you a listing something like this:</p>
+<div class="highlight-python"><pre>Markdown==2.0.3
+wsgiref==0.1.2</pre>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">The <tt class="docutils literal"><span class="pre">wsgiref</span></tt> package is a part of the Python standard
+library. Currently it is the only standard library package that
+includes <a class="reference external" href="http://www.python.org/dev/peps/pep-0314/">package metadata</a>, so it is the only standard library
+package whose presence pip reports.</p>
+</div>
+</div>
+<div class="section" id="installing-specific-versions">
+<h3>Installing specific versions<a class="headerlink" href="#installing-specific-versions" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>You can also give pip a version specifier for a package using one or
+more of ==, &gt;=, &gt;, &lt;, &lt;=:</p>
+<div class="highlight-python"><pre>pip install 'Markdown&lt;2.0'</pre>
+</div>
+<p>This will find your current installation of Markdown 2.0.3,
+automatically uninstall it, and install Markdown 1.7 (the latest
+version in the 1.x series) in its place. You can even combine version
+specifiers with a comma:</p>
+<div class="highlight-python"><pre>pip install 'Markdown&gt;2.0,&lt;2.0.3'</pre>
+</div>
+</div>
+<div class="section" id="upgrading">
+<h3>Upgrading<a class="headerlink" href="#upgrading" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>If you want to upgrade a package to its most recent available version, use the <tt class="docutils literal"><span class="pre">-U</span></tt> or <tt class="docutils literal"><span class="pre">--upgrade</span></tt> flag:</p>
+<div class="highlight-python"><pre>pip install -U Markdown</pre>
+</div>
+</div>
+<div class="section" id="uninstalling">
+<h3>Uninstalling<a class="headerlink" href="#uninstalling" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Now let&#8217;s uninstall Markdown:</p>
+<div class="highlight-python"><pre>pip uninstall Markdown</pre>
+</div>
+<p>After showing you which files/directories will be removed and
+requesting confirmation, pip will uninstall everything installed by
+the Markdown package.</p>
+<div class="admonition note">
+<p class="first admonition-title">ノート</p>
+<p class="last">Pip inside a virtualenv will only uninstall packages installed
+within that virtualenv. For instance, if you try to <tt class="docutils literal"><span class="pre">pip</span> <span class="pre">uninstall</span>
+<span class="pre">wsgiref</span></tt> it will refuse, because the virtualenv references the
+global Python&#8217;s standard library, so the <tt class="docutils literal"><span class="pre">wsgiref</span></tt> package is not
+installed within the virtualenv.</p>
+</div>
+</div>
+</div>
+<div class="section" id="installing-from-other-sources">
+<h2>Installing from other sources<a class="headerlink" href="#installing-from-other-sources" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>How does pip know what to install when you run <tt class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span>
+<span class="pre">Markdown</span></tt>? By default, it checks the <a class="reference external" href="http://pypi.python.org/pypi/">Python Package Index</a> (or
+PyPI) for a package of that name. In this case, it found one; but what
+if you want to install a package that hasn&#8217;t been uploaded to PyPI?</p>
+<p>You have several options:</p>
+<div class="section" id="installing-from-a-tarball">
+<h3>Installing from a tarball<a class="headerlink" href="#installing-from-a-tarball" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>You can install directly from a tarball or zip file, as long as there
+is a working <tt class="docutils literal"><span class="pre">setup.py</span></tt> file in the root directory of the unzipped
+contents:</p>
+<div class="highlight-python"><pre>pip install path/to/mypackage.tgz</pre>
+</div>
+<p>You can also install from a tarball/zip file over the network:</p>
+<div class="highlight-python"><pre>pip install http://dist.repoze.org/PIL-1.1.6.tar.gz</pre>
+</div>
+</div>
+<div class="section" id="installing-from-a-vcs">
+<h3>Installing from a VCS<a class="headerlink" href="#installing-from-a-vcs" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Using the <tt class="docutils literal"><span class="pre">--editable</span></tt> or <tt class="docutils literal"><span class="pre">-e</span></tt> option, pip has the capability to
+install directly from a version control repository (it currently
+supports Subversion, Mercurial, Git, and Bazaar):</p>
+<div class="highlight-python"><pre>pip install -e svn+http://svn.colorstudy.com/INITools/trunk#egg=initools-dev</pre>
+</div>
+<p>This option shells out to the commandline client for each respective
+VCS, so you must have the VCS installed on your system.  The repo URL
+must begin with <tt class="docutils literal"><span class="pre">svn+</span></tt> (or <tt class="docutils literal"><span class="pre">hg+</span></tt>, <tt class="docutils literal"><span class="pre">git+</span></tt>, or <tt class="docutils literal"><span class="pre">bzr+</span></tt>) and end
+with <tt class="docutils literal"><span class="pre">#egg=packagename</span></tt>; otherwise, pip supports the same URL
+formats and wire protocols supported by the VCS itself.</p>
+<p>Pip will checkout the source repo into a <tt class="docutils literal"><span class="pre">src/</span></tt> directory inside the
+virtualenv (i.e. <tt class="docutils literal"><span class="pre">pip_test_env/src/initools-dev</span></tt>), and then run
+<tt class="docutils literal"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">develop</span></tt> in that source repo. This &#8220;links&#8221; the code
+directly from the repo into the virtualenv&#8217;s <tt class="docutils literal"><span class="pre">site-packages</span></tt>
+directory (by adding the repo directory into <tt class="docutils literal"><span class="pre">easy-install.pth</span></tt>), so
+changes you make in the source checkout are effective immediately.</p>
+<p>If you already have a local VCS checkout you want to keep using, you
+can just use <tt class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-e</span> <span class="pre">path/to/repo</span></tt> to install it &#8220;editable&#8221;
+in the same way.</p>
+</div>
+<div class="section" id="add-urls-to-search-for-links">
+<h3>Add URLs to search for links<a class="headerlink" href="#add-urls-to-search-for-links" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>You can use the <tt class="docutils literal"><span class="pre">-f</span></tt> or <tt class="docutils literal"><span class="pre">--find-links</span></tt> option to add another URL
+pip should search for links to the package. If you dump some package
+tarballs in a webserver directory and turn on automatic indexing, you
+can point pip at that index page and install any of those packages,
+assuming you named the files in the pattern
+<tt class="docutils literal"><span class="pre">packagename-version.ext</span></tt>.</p>
+<p>For example, if you upload a tarball <tt class="docutils literal"><span class="pre">MyApp-1.0.tgz</span></tt> to a
+<tt class="docutils literal"><span class="pre">my-packages</span></tt> directory on your webserver, and make sure indexing is
+on for that directory, you can run:</p>
+<div class="highlight-python"><pre>pip install MyApp -f http://www.example.com/my-packages/</pre>
+</div>
+</div>
+<div class="section" id="running-your-own-package-index">
+<h3>Running your own package index<a class="headerlink" href="#running-your-own-package-index" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>If you want more of the features provided by PyPI (including the
+ability to upload packages with <tt class="docutils literal"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">sdist</span> <span class="pre">upload</span></tt>), you
+can run software such as <a class="reference external" href="http://github.com/ask/chishop">chishop</a>, which implements the PyPI API, on
+your own server. Then you can use pip&#8217;s <tt class="docutils literal"><span class="pre">-i</span></tt> (or <tt class="docutils literal"><span class="pre">--index-url</span></tt>) or
+<tt class="docutils literal"><span class="pre">--extra-index-url</span></tt> options to point it at your index.</p>
+<p>For instance, if you set up your own index at
+<a class="reference external" href="http://www.example.com/chishop/">http://www.example.com/chishop/</a>, you might run:</p>
+<div class="highlight-python"><pre>pip install MyPrivateApp -i http://www.example.com/chishop/simple/</pre>
+</div>
+<p>If you use <tt class="docutils literal"><span class="pre">-i</span></tt> pip won&#8217;t check PyPI, only the index you provide. If
+you are installing multiple packages at once, some from your index and
+some from PyPI, you may want to use <tt class="docutils literal"><span class="pre">--extra-index-url</span></tt> instead, so
+pip will check both indexes.</p>
+</div>
+</div>
+<div class="section" id="requirements-files">
+<h2>Requirements files<a class="headerlink" href="#requirements-files" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>See <a class="reference external" href="http://pip.openplans.org/#requirements-files">the pip documentation</a> for a good overview.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Pip</a><ul>
+<li><a class="reference internal" href="#getting-started">Getting Started</a><ul>
+<li><a class="reference internal" href="#creating-a-virtualenv">Creating a virtualenv</a></li>
+<li><a class="reference internal" href="#installing-a-package">Installing a package</a></li>
+<li><a class="reference internal" href="#listing-installed-packages">Listing installed packages</a></li>
+<li><a class="reference internal" href="#installing-specific-versions">Installing specific versions</a></li>
+<li><a class="reference internal" href="#upgrading">Upgrading</a></li>
+<li><a class="reference internal" href="#uninstalling">Uninstalling</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#installing-from-other-sources">Installing from other sources</a><ul>
+<li><a class="reference internal" href="#installing-from-a-tarball">Installing from a tarball</a></li>
+<li><a class="reference internal" href="#installing-from-a-vcs">Installing from a VCS</a></li>
+<li><a class="reference internal" href="#add-urls-to-search-for-links">Add URLs to search for links</a></li>
+<li><a class="reference internal" href="#running-your-own-package-index">Running your own package index</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#requirements-files">Requirements files</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>このページ</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/pip.txt"
+           rel="nofollow">ソースコードを表示</a></li>
+  </ul><div>
+<h3>Feedback</h3>
+
+
+<ul>
+ <li><a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/">Become a writer or a reviewer</a></li>
+ <li>Help us by opening <a href="http://bitbucket.org/tarek/hitchhiker-guide-packaging/issues/">issues</a> 
+ on the content you would like to see in the guide</li>
+ <li>Join the <a href="http://groups.google.com/group/packaging-guide">Mailing List</a></li>
+</ul> 
+</div>
+
+<div>
+
+<h3>翻訳へのフィードバック</h3>
+
+<ul>
+ <li><a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/">翻訳者やレビュアーになる</a></li>
+ <li>このガイドに問題を見つけたら <a href="http://bitbucket.org/shimizukawa/hitchhiker-guide-packaging/issues/">issues</a> 
+ を開いてお知らせください</li>
+</ul> 
+
+</div>
+
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    モジュール、クラス、または関数名を入力してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li><a href="index.html">Pythonパッケージ ヒッチハイク・ガイド v1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, Tarek Ziade.
+      このドキュメントは <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0 で生成しました。
+    </div>
+  </body>
+</html>

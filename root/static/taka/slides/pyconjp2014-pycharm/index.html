@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>PyCharm 活用術 (ja)</title>
+    
+    <link rel="stylesheet" href="_static/s6.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.touchwipe.min.js"></script>
+    <script type="text/javascript" src="_static/s6.js"></script>
+    <script type="text/javascript" src="_static/s6-sphinx.js"></script>
+    <script type="text/javascript" src="_static/custom.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li><a href="#">PyCon JP 2014 PyCharm 1.0 ドキュメント</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="pycharm-ja">
+<h1>PyCharm 活用術 (ja)<a class="headerlink" href="#pycharm-ja" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h1': {textAlign:'center', margin:'30% auto', fontSize:'140%'}}});}</script>
+<div class="section" id="id1">
+<h2>私は誰？<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="figure">
+<img alt="_images/face.png" src="_images/face.png" />
+</div>
+<p><a class="reference external" href="http://about.me/shimizukawa">http://about.me/shimizukawa</a>, &#64;shimizukawa</p>
+<ul class="simple">
+<li>Sphinxの共同メンテナ (2011-)</li>
+<li>PyCon JP 2014 会計</li>
+<li>共著書・共訳書<ul>
+<li>Sphinxをはじめよう (2013)</li>
+<li>Pythonプロフェッショナルプログラミング (2012)</li>
+<li>エキスパートPythonプログラミング (2010)</li>
+</ul>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'div[0]': {width:'15%', position:'absolute', top:'0', right:'1em'},
+'ul': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="pyconjp2014proposal">
+<h2>PyConJP2014に出したProposal<a class="headerlink" href="#pyconjp2014proposal" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ol class="arabic simple">
+<li><strong>Sphinx</strong> ドキュメント翻訳と処理の自動化</li>
+<li><strong>Sphinx</strong> のautodocで自動ドキュメンテーションしよう</li>
+<li><strong>Sphinx</strong> の開発で心がけていること</li>
+<li>PyCharm活用術</li>
+<li>IPython Notebookを使ったコーディング</li>
+</ol>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ol': {fontSize:'80%'},
+'ol/li': {display:'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ol/li[0]', 'fade in', '0.3'],
+['ol/li[1]', 'fade in', '0.3'],
+['ol/li[2]', 'fade in', '0.3'],
+['ol/li[3]', 'fade in', '0.3'],
+['ol/li[4]', 'fade in', '0.3']]});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id2">
+<h2>自分もプロポーザル出したよ<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ol class="arabic simple">
+<li>Sphinxドキュメント翻訳と処理の自動化</li>
+<li>Sphinxのautodocで自動ドキュメンテーションしよう</li>
+<li>Sphinxの開発で心がけていること</li>
+<li><strong>PyCharm活用術</strong> =&gt; <em>採用</em></li>
+<li>IPython Notebookを使ったコーディング</li>
+</ol>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ol': {fontSize:'80%'}}});}</script>
+</div>
+<div class="section" id="sphinx">
+<h2>Sphinxじゃない！<a class="headerlink" href="#sphinx" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'30% auto', background:'none', fontSize:'150%'}}});}</script>
+</div>
+<div class="section" id="pycharmsphinxpycharm">
+<h2>PyCharmを仕事でもSphinx開発でも、ものすごく使っているので、今日は、PyCharmのすばらしさを伝える発表をします！<a class="headerlink" href="#pycharmsphinxpycharm" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'h2': {textAlign:'center', margin:'0% auto', background:'none', fontSize:'150%'}}});}</script>
+</div>
+<div class="section" id="id3">
+<h2>お題<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>PyCharm 活用術</li>
+<li>利用バージョン: PyCharm 3.4 Pro版</li>
+<li>題材: PyCon JP 2014のサイトの開発環境
+<a class="reference external" href="https://bitbucket.org/pyconjp/pyconjp-website">https://bitbucket.org/pyconjp/pyconjp-website</a></li>
+<li><a class="reference external" href="http://www.jetbrains.com/pycharm/features/">PyCharm機能一覧</a> (<a class="reference external" href="https://dl.dropboxusercontent.com/u/284189/pycharm-features-ja/PyCharm%20Python-Django%20IDE%20Features.htm">の野良和訳</a>)</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>PyCharmで出来ること</li>
+<li>PyCharmで出来ないこと</li>
+<li>PyCharmを導入した感想</li>
+<li>プロジェクトの設定</li>
+<li>エディタの機能</li>
+<li>デバッグ</li>
+<li>テスト実行</li>
+<li>Vagrant連携</li>
+<li>リモートデプロイ</li>
+<li>リモートデバッグ</li>
+<li>データベース連携</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="pycharm1">
+<h2>PyCharmで出来ること1<a class="headerlink" href="#pycharm1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>Python2.x, 3.x 対応</li>
+<li>syntaxチェック, ハイライト</li>
+<li>強力なコード補完</li>
+<li>virtualenvの作成と管理</li>
+<li>パッケージのインストール, アップデート</li>
+<li>VCS連携</li>
+<li>デバッグ実行</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="pycharm2">
+<h2>PyCharmで出来ること2<a class="headerlink" href="#pycharm2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>ssh越しのリモートデバッグ</li>
+<li>Databaseの操作</li>
+<li>Vagrant起動, ssh接続サポート</li>
+<li>Python,JS同時デバッグ</li>
+<li>統合されたコンソール操作</li>
+<li>キーバインディングの変更(標準, Emacs, Vim, ...)</li>
+<li>豊富なプラグイン(標準プラグイン, 3rd-partyプラグイン)</li>
+<li>プラグイン作成(Javaで作る)</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'70%'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="pycharm">
+<h2>PyCharmで出来ないこと<a class="headerlink" href="#pycharm" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>プラグイン作成(Javaを勉強したら出来る)</li>
+<li>単一ファイルを編集するエディタ代わりの使用</li>
+<li>reSTの3スペースインデント(4スペースになっちゃう)</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id6">
+<h2>PyCharmを導入した感想<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>環境構築を色々頑張らなくてもよい</li>
+<li>ほとんどの人にデフォルトである程度の利便性を提供できる</li>
+<li>多くの機能が提供され、難が無い。ただし、ものすごい機能も無い。</li>
+<li>トリッキーな使い方をするとはまる。</li>
+<li>Geek的な面白みは無い</li>
+<li>Vimから乗り換えても良いと感じた(乗り換えた)</li>
+<li>慣れないJSでのsyntax check, 補完等がうれしい</li>
+<li>メモリをたくさん消費する</li>
+<li>機能が多くて全てを使いこなすのは大変かも</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({styles: {'ul': {fontSize:'65%'},
+'ul/li': {display:'none'}}});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({actions: [['ul/li[0]', 'fade in', '0.3'],
+['ul/li[1]', 'fade in', '0.3'],
+['ul/li[2]', 'fade in', '0.3'],
+['ul/li[3]', 'fade in', '0.3'],
+['ul/li[4]', 'fade in', '0.3'],
+['ul/li[5]', 'fade in', '0.3'],
+['ul/li[6]', 'fade in', '0.3'],
+['ul/li[7]', 'fade in', '0.3'],
+['ul/li[8]', 'fade in', '0.3']]});}</script>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id7">
+<h2>ライセンス<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>Pro版(企業)</li>
+<li>Pro版(個人)</li>
+<li>Pro版(アカデミック)</li>
+<li>Pro版(OSS)</li>
+<li>コミュニティー版</li>
+</ul>
+<p><a class="reference external" href="http://www.jetbrains.com/pycharm/buy/license-matrix.jsp">http://www.jetbrains.com/pycharm/buy/license-matrix.jsp</a></p>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="pro">
+<h2>Pro版(企業)<a class="headerlink" href="#pro" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>$199/1人</li>
+<li>利用者付替問わず</li>
+<li>商用・非商用利用可能</li>
+<li>1年間バージョンアップ無料</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id8">
+<h2>Pro版(個人)<a class="headerlink" href="#id8" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>$99/本人</li>
+<li>本人以外利用不可</li>
+<li>商用・非商用利用可能</li>
+<li>1年間バージョンアップ無料</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id9">
+<h2>コミュニティー版<a class="headerlink" href="#id9" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>無料</li>
+<li>Apache2ライセンス</li>
+<li>機能が少ない: Web開発サポート(Django, Flask, Google App Engine, Pyramid, web2py), 言語サポート(JavaScript, CoffeeScript, TypeScript, CSS, Cython, Template languages, ...), リモート開発サポート, データベースサポート</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="demo">
+<h2>DEMO<a class="headerlink" href="#demo" title="このヘッドラインへのパーマリンク">¶</a></h2>
+</div>
+<div class="section" id="id10">
+<h2>最初にプロジェクト設定が必要<a class="headerlink" href="#id10" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>使用するPythonインタプリタの選択</li>
+<li>ソースコードディレクトリの選択(source, template, ignore)</li>
+<li>リポジトリ連携(hg, git, ...)</li>
+<li>ちょっとしたカスタマイズ: pep8警告, プラグイン追加</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id11">
+<h2>エディタの機能<a class="headerlink" href="#id11" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>認識できるフォーマット: py, html, css, js, Djangoテンプレート, reST, ...</li>
+<li>編集差分表示</li>
+<li>変数補完</li>
+<li>属性補完</li>
+<li>import補完</li>
+<li>関数引数の表示</li>
+<li>リネーム</li>
+<li>コード整形</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id12">
+<h2>デバッグ<a class="headerlink" href="#id12" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>プログラムの実行設定</li>
+<li>ブレークポイント</li>
+<li>ステップ実行</li>
+<li>条件付きブレーク</li>
+<li>依存ライブラリのソースコード閲覧、ブレーク</li>
+<li>Djangoテンプレートでブレーク</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id13">
+<h2>テスト実行<a class="headerlink" href="#id13" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>テストの実行設定</li>
+<li>pytestやnoseのランナーが入っている</li>
+<li>失敗したテストだけ再実行</li>
+<li>カバレッジ表示</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="vagrant">
+<h2>Vagrant連携<a class="headerlink" href="#vagrant" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>Vagrantの起動・リロード・終了</li>
+<li>Vagrantfileを利用したssh接続</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id14">
+<h2>リモートデプロイ<a class="headerlink" href="#id14" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>ソースコードの同期</li>
+<li>上書き同期の注意点<ul>
+<li>リポジトリ更新で変更されたファイルが同期されないことがある</li>
+<li>リポジトリ更新で削除されたファイルがリモートから消えない</li>
+</ul>
+</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id15">
+<h2>リモートデバッグ<a class="headerlink" href="#id15" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>VMへはsshで接続して開発を行うためGUIエディタ,IDEが利用できない場合が多い</li>
+<li>ssh越しでのデバッグの効率が良くない</li>
+</ul>
+<p>PyCharmでは</p>
+<ul class="simple">
+<li>リモートインタプリタを設定</li>
+<li>プログラムの実行設定</li>
+<li>リモート実行</li>
+<li>リモート環境の依存ライブラリのソースコード閲覧, break</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+<div class="section" id="id16">
+<h2>データベース連携<a class="headerlink" href="#id16" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>DBに接続してスキーマやデータの表示</li>
+<li>データの編集</li>
+<li>リモートサーバーのDBにも接続</li>
+<li>ER図の表示</li>
+<li>SQLコンソールでSQL文を書く</li>
+</ul>
+<script>
+if(typeof s6 != 'undefined'){s6.page({effect: 'slide'});}</script>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li><a href="#">PyCon JP 2014 PyCharm 1.0 ドキュメント</a> &raquo;</li> 
+      </ul>
+    </div>
+<div class="footer">
+    <span>PyCharm 活用術 (ja) :: 2014, Takayuki SHIMIZUKAWA</span><br />
+    <span class="hidden">操作方法: 上下左右キーで操作です</span>
+</div>
+
+  </body>
+</html>
