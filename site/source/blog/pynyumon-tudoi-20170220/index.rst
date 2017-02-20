@@ -11,6 +11,7 @@
 .. _Python入門者の集い #4: https://python-nyumon.connpass.com/event/49178/
 .. _#pynyumon: https://twitter.com/hashtag/pynyumon?src=hash
 
+以下は、参加メモです。
 
 
 開催前
@@ -334,5 +335,21 @@ drillerさん
 * Tips: 期待する結果を明確に定義しよう
 * Tips: 文字で全部説明すると読む気なくすので、テーブル表示とか工夫しましょう
 * Tips: pep8に準拠しましょう
+* 回答者の気持ちになるには、回答者になってみましょう
 
+（感想: イベントにあったうまい発表だった！）
+
+@afroscript10「ありがとうございます、いろんな意味でありがとうございます！」
+
+
+33分4秒で始めるPy"Baseball"入門
+------------------------------------
+
+@shinyorke さん
+
+* PyDataとは: Pythonでデータをなんとかしようという人類の営み
+* Excelの代わりにPythonから機械学習まですべてPyData（個人の見解です）
+
+
+（ノートPCの電池が切れました）
 
