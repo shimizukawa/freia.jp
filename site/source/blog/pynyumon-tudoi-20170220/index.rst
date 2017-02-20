@@ -349,7 +349,23 @@ drillerさん
 
 * PyDataとは: Pythonでデータをなんとかしようという人類の営み
 * Excelの代わりにPythonから機械学習まですべてPyData（個人の見解です）
+* 最後時間切れー
 
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pynyumon?src=hash">#pynyumon</a> <a href="https://twitter.com/shinyorke">@shinyorke</a> さんの正装 (@ レバレジーズ株式会社 本社 in Shibuya, Tokyo) <a href="https://t.co/N5BA6nhF76">https://t.co/N5BA6nhF76</a> <a href="https://t.co/zH3ZpumatN">pic.twitter.com/zH3ZpumatN</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/833653205263327232">2017年2月20日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+アンケート
+===========
+
+* http://goo.gl/B04Nxo
+* みんな書こうねー
+
+
+懇親会
+============
 
 （ノートPCの電池が切れました）
 
