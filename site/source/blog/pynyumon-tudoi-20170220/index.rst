@@ -38,6 +38,8 @@
 寺田さん
 ===========
 
+発表資料: https://speakerdeck.com/terapyon/python-ru-men-zhe-falseji-i-number-4-zi-shen-falsexue-xi-fang-fa-shao-jie
+
 自己紹介： `CMSコミュニケーションズ`_ の人、 `一般社団法人 PyCon JP`_ の代表理事、をやってます。
 
 
@@ -188,6 +190,11 @@ Pythonistaを求めて
 
 * 3/25に `Python mini hack-a-thon の次のイベント`_ あるらしいので、登録して参加してみるといいと思います
 
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">これはいいまとめだ！ <a href="https://twitter.com/hashtag/pynyumon?src=hash">#pynyumon</a> <a href="https://t.co/WXb8PAO0HV">pic.twitter.com/WXb8PAO0HV</a></p>&mdash; Shinichi Nakagawa (@shinyorke) <a href="https://twitter.com/shinyorke/status/833636731983310849">2017年2月20日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 .. _Python mini hack-a-thon の次のイベント: https://pyhack.connpass.com/event/51513/
 
@@ -204,6 +211,8 @@ LT
 
 micropythonのフレンズ
 ------------------------
+
+発表資料: http://www.slideshare.net/satokengo/micropython-72358606
 
 * わーい、すごーい、たーのしー
 * わーい、すごーい、たーのしー
@@ -305,6 +314,11 @@ Pythonの開発環境
 * VisualStudio と VisualStudio Code が使えます
 * VisualStudio Code の方が軽いのでCodeの方を使ってます
 
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/PyNyumon?src=hash">#PyNyumon</a> <br>Python on Visual Studio のはなしだ！ <a href="https://t.co/dEdI7pcpAj">pic.twitter.com/dEdI7pcpAj</a></p>&mdash; ちょまど@Python入門中 (@chomado) <a href="https://twitter.com/chomado/status/833648216822280193">2017年2月20日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 C#er の私がPythonをはじめてみたよ!
 --------------------------------------
@@ -319,7 +333,13 @@ C#er の私がPythonをはじめてみたよ!
 * Python歴は1時間
 * インストールではまって55分経過
 
-（感想: ちょまどさん、始めて見た）
+（感想: ちょまどさん、初めて見た）
+
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">降臨してた <a href="https://twitter.com/hashtag/pynyumon?src=hash">#pynyumon</a> <a href="https://t.co/WEiYDcjRPw">pic.twitter.com/WEiYDcjRPw</a></p>&mdash; Shinichi Nakagawa (@shinyorke) <a href="https://twitter.com/shinyorke/status/833648988280664070">2017年2月20日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 teratailで質問するときのtips
@@ -347,6 +367,8 @@ drillerさん
 
 @shinyorke さん
 
+発表資料: https://speakerdeck.com/shinyorke/33fen-4miao-dehazimerupy-baseball-dataru-men
+
 * PyDataとは: Pythonでデータをなんとかしようという人類の営み
 * Excelの代わりにPythonから機械学習まですべてPyData（個人の見解です）
 * 最後時間切れー
@@ -367,5 +389,26 @@ drillerさん
 懇親会
 ============
 
-（ノートPCの電池が切れました）
+懇親会直前にノートPCの電池が切れました。ハイパワーモードだと2時間が限界かー。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pynyumon?src=hash">#pynyumon</a> 懇親会はじまり。カンパーイ！！発表者のみなさん、おつかれさまー！ (@ レバレジーズ株式会社 本社 in Shibuya, Tokyo) <a href="https://t.co/r6ivz6HANN">https://t.co/r6ivz6HANN</a> <a href="https://t.co/qZcHsnnj11">pic.twitter.com/qZcHsnnj11</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/833655778552717313">2017年2月20日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+22時ちょっと前にお先しましたー
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ヒカリエ17Fからの夜景。お先しまーす <a href="https://twitter.com/hashtag/pynyumon?src=hash">#pynyumon</a> (@ レバレジーズ株式会社 本社 in Shibuya, Tokyo) <a href="https://t.co/Vg6iu7YO4r">https://t.co/Vg6iu7YO4r</a> <a href="https://t.co/anMZEnGTs0">pic.twitter.com/anMZEnGTs0</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/833662738102616064">2017年2月20日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+まとめ
+==============
+
+入門者比率が下がって、ガチ勢（自分含む）が増えてきた感じがするのは、 #pynyumon の（あるいはPythonの）認知度が上がってきたことの裏返しかなと思います。また、ガチ勢は普段こういう入門者向けイベントにはあまり参加しないものですが、参加している人数が多めだったのはゲスト講演者の入門者時代に興味があるからかなと感じました。そういう意味では、このイベントは入門者だけでなくガチ勢にも意味のあるイベントなのかもしれません。
+
+そろそろpynyumonカンファレンスをやっても言い頃合いかも？
 
