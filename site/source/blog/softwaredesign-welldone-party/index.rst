@@ -36,7 +36,7 @@
 
 `2017年3月号`_ で24回目を迎えて、ついに終了したので、今日は執筆者陣で打ち上げです。
 
-最終回の第24回目は、 @shibu_jp による「ゲームで学ぶドキュメント設計」。本人曰く、「怪文書」だそうです。
+最終回の第24回目は、 `@shibu_jp`_ による「ゲームで学ぶドキュメント設計」。本人曰く、「怪文書」だそうです。
 
 .. raw:: html
 
@@ -56,7 +56,21 @@
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">にくー (@ バルバッコア・グリル 新宿 in 新宿区, 東京都 w/ <a href="https://twitter.com/tk0miya">@tk0miya</a>) <a href="https://t.co/0cv1E9ltT0">https://t.co/0cv1E9ltT0</a> <a href="https://t.co/FO4TDQVGva">pic.twitter.com/FO4TDQVGva</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/836913707498287105">2017年3月1日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-打ち上げに集まった全員で記念写真。技術評論社の吉岡さん、執筆したみなさん(@tyoshi99 @shibu_jp @kk_Ataka @usaturn @shkumagai @moco_beta @togakushi @tk0miya @shimizukawa (@r_rudi, @tcsh))、お疲れ様でしたー
+打ち上げに集まった全員で記念写真。技術評論社の吉岡さん(`@tyoshi99`_)、執筆したみなさん(`@shibu_jp`_ `@kk_Ataka`_ `@usaturn`_ `@shkumagai`_ `@moco_beta`_ `@togakushi`_ `@tk0miya`_ `@shimizukawa`_  (`@r_rudi`_, `@tcsh`_))、お疲れ様でしたー
+
+
+.. _@tyoshi99:    https://twitter.com/tyoshi99
+.. _@shibu_jp:    https://twitter.com/shibu_jp
+.. _@kk_Ataka:    https://twitter.com/kk_Ataka
+.. _@usaturn:     https://twitter.com/usaturn
+.. _@shkumagai:   https://twitter.com/shkumagai
+.. _@moco_beta:   https://twitter.com/moco_beta
+.. _@togakushi:   https://twitter.com/togakushi
+.. _@tk0miya:     https://twitter.com/tk0miya
+.. _@shimizukawa: https://twitter.com/shimizukawa
+.. _@r_rudi:      https://twitter.com/r_rudi
+.. _@tcsh:        https://twitter.com/tcsh
+
 
 .. raw:: html
 
