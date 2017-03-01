@@ -12,17 +12,17 @@
 .. toctree::
    :maxdepth: 1
 
-   2017-kakizome/index
-   foundit-project-pydata-study/index
-   esuji-lapis-bridal-party/index
-   python36-release-party/index
-   python-qanda/index
-   kakutei-shinkoku-201702/index
-   sphinxjp-tea-night-201702/index
-   pyhack-20170218/index
-   pynyumon-tudoi-20170220/index
-   mynumber-age
    softwaredesign-welldone-party/index
+   mynumber-age
+   pynyumon-tudoi-20170220/index
+   pyhack-20170218/index
+   sphinxjp-tea-night-201702/index
+   kakutei-shinkoku-201702/index
+   python-qanda/index
+   python36-release-party/index
+   esuji-lapis-bridal-party/index
+   foundit-project-pydata-study/index
+   2017-kakizome/index
 
 2016年
 ------
