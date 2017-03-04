@@ -14,17 +14,24 @@
 
 その言葉の通り、生きたうどんを堪能出来ました。情報感謝！
 
-▼ かまたま `(Album)`_
+▼ かまたま
 
-|かまたま|
+.. raw:: html
 
-▼ ぶっかけ `(Album)`_
+   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/13657080344/in/album-72157643490543434/" title="かまたま"><img src="https://c1.staticflickr.com/8/7223/13657080344_8b39a89366_z.jpg" width="640" height="480" alt="かまたま"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-|ぶっかけ|
 
-▼ 生じょうゆ `(Album)`_
+▼ ぶっかけ
 
-|生じょうゆ|
+.. raw:: html
+
+   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/13656734375/in/album-72157643490543434/" title="ぶっかけ"><img src="https://c1.staticflickr.com/8/7015/13656734375_55d623386a_z.jpg" width="640" height="480" alt="ぶっかけ"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+▼ 生じょうゆ
+
+.. raw:: html
+
+   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/13657080264/in/album-72157643490543434/" title="生しょうゆ"><img src="https://c1.staticflickr.com/6/5492/13657080264_13f5f133f9_z.jpg" width="640" height="480" alt="生しょうゆ"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 
 しかしこのお店、おっちゃんの喋りがおもしろすぎ。
@@ -39,14 +46,6 @@
 
 よーし。OK！大阪行ったら、今度は「夏季限定清涼うどん」 **も** 食べよう。
 
-
-.. |かまたま| image:: http://www.freia.jp/taka/photo/foods/hagakure/PICT0014.JPG?size=thumb
-
-.. |ぶっかけ| image:: http://www.freia.jp/taka/photo/foods/hagakure/PICT0016.JPG?size=thumb
-
-.. |生じょうゆ| image:: http://www.freia.jp/taka/photo/foods/hagakure/PICT0017.JPG?size=thumb
-
-.. _`(Album)`: http://www.freia.jp/taka/photo/foods/hagakure
 
 .. _`M.Shibataさんに教えてもらった`: http://www.freia.jp/taka/blog/194#comments
 .. _`梅田はがくれ`: http://www.hagakure.cc/
