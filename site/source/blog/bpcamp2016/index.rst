@@ -86,8 +86,8 @@ BPCampの参加・不参加は自由に選んで良く、参加しない人は�
 
 .. raw:: html
 
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/bpcamp?src=hash">#bpcamp</a> BPの価値分析なう（6チームそれぞれ） <a href="https://t.co/mjKIh0zNPz">https://t.co/mjKIh0zNPz</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/837542952205328384">2017年3月3日</a></blockquote>
-   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+   <blockquote data-width="500" data-height="375" class="ricoh-theta-spherical-image" >#bpcamp BPの価値分析なう（6チームそれぞれ） - <a href="https://theta360.com/s/jCsYsuf1iiSdSNZxc5jeKZTNM" target="_blank">Spherical Image - RICOH THETA</a></blockquote>
+   <script async src="https://theta360.com/widgets.js" charset="utf-8"></script>
 
 .. raw:: html
 
@@ -216,7 +216,7 @@ USJ行く人は事前にチケットをもらってたので、自分と同じ�
 梅田はがくれ
 ----------------
 
-:doc:`../196/index` で行って以来、15年ぶりに行ってきました。
+:doc:`../196/index` で行って以来、12年ぶりに行ってきました。
 土曜は14時半までの営業なので、USJからだとギリギリだったけど、なんとかまにあった。 
 閉店ちょっと前だというのに10人待ち。
 
@@ -231,7 +231,7 @@ USJ行く人は事前にチケットをもらってたので、自分と同じ�
 
 .. raw:: html
 
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/bpcamp?src=hash">#bpcamp</a> 釜玉！おっちゃんが混ぜてくれた。12年前と変わらずうまいなー  <a href="https://t.co/Ud2cXfmllX">https://t.co/Ud2cXfmllX</a> (@ 梅田はがくれ 本店) <a href="https://t.co/kUHtT7vlmA">https://t.co/kUHtT7vlmA</a> <a href="https://t.co/bJFkU0T09u">pic.twitter.com/bJFkU0T09u</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/837899227883847680">2017年3月4日</a></blockquote>
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/bpcamp?src=hash">#bpcamp</a> 釜玉！おっちゃんが混ぜてくれた。12年前と変わらずうまいなー  <a href="https://t.co/Ud2cXfmllX">https://t.co/Ud2cXfmllX</a> (@ 梅田はがくれ 本店) <a href="https://t.co/kUHtT7vlmA">https://t.co/kUHtT7vlmA</a> <a href="https://t.co/xU8LQsHlLP">pic.twitter.com/xU8LQsHlLP</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/837899223156801537">2017年3月4日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 そして、ぶっかけうどん
