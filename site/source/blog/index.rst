@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   bpcamp2016/index
    softwaredesign-welldone-party/index
    mynumber-age
    pynyumon-tudoi-20170220/index
