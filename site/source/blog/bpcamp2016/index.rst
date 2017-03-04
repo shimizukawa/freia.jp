@@ -76,12 +76,13 @@ BPCampの参加・不参加は自由に選んで良く、参加しない人は�
 ワーク
 --------
 
+今年のワークの内容は、匠メソッドを使ってBPのビジョンやコンセプトを明確にするというのを6つのチームに分かれてやりました。匠メソッドを学んでいるメンバーはそれほど多くなかったので、チームごとに経験者を1人いれてその人がチームのファシリテータをしました。
+
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/bpcamp?src=hash">#bpcamp</a> 研修タイムのBPたち（オフィス側も参加中） (@ ホテル京阪 ユニバーサルタワー - <a href="https://twitter.com/hotelkeihan_ut">@hotelkeihan_ut</a> in 大阪市, 大阪府) <a href="https://t.co/AkrrrK6rBz">https://t.co/AkrrrK6rBz</a> <a href="https://t.co/7VIxiBPIrT">pic.twitter.com/7VIxiBPIrT</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/837523487195447301">2017年3月3日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-今年のワークの内容は、匠メソッドを使ってBPのビジョンやコンセプトを明確にするというのを6つのチームに分かれてやりました。匠メソッドを学んでいるメンバーはそれほど多くなかったので、チームごとに経験者を1人いれてその人がチームのファシリテータをしました。
 
 .. raw:: html
 
@@ -120,8 +121,8 @@ BPCampの参加・不参加は自由に選んで良く、参加しない人は�
 
 
 今回、全員で宴会っていう感じのがなかったので、有志で外に飲みに行きました。
-ババ・ガンプ・シュリンプ、というお店で、フォレストガンプにちなんだコンセプトらしい。
-色々話を聞いてたらフォレストガンプ観たくなってきた。Amazonプライムビデオにあるから、あとで観よう。予約してくれたナツさんありがとうー。
+ババ・ガンプ・シュリンプ、というお店で、 `フォレストガンプ`_ にちなんだコンセプトらしい。
+色々話を聞いてたら `フォレストガンプ`_ 観たくなってきた。Amazonプライムビデオにあるから、あとで観よう。予約してくれたナツさんありがとうー。
 
 .. raw:: html
 
@@ -166,7 +167,7 @@ USJ行く人は事前にチケットをもらってたので、自分と同じ�
 
 エクスプレスパスという課金アイテムがないと2時間待ちがざら、と聞いていたので、朝イチに入園できなかった俺たちはもうだめだ・・・USJのユニバーサル感だけ味わっておこう・・と思って行ってみたら、シングルライド（4人席に3人家族がすわったときに1名入れる的なやつ）で並べばけっこう早く行けることが分かって、調子にのってけっこう乗ってきました。
 
-スパイダーマン、気になってたやつで最初に目に入ったので。シングルライド30分待ち、って言われたけど18分で乗れた。
+最初のアトラクションはスパイダーマン。気になってたやつで最初に目に入ったので。シングルライド30分待ち、って言われたけど18分で乗れた。
 
 .. raw:: html
 
@@ -175,16 +176,16 @@ USJ行く人は事前にチケットをもらってたので、自分と同じ�
 
 けっこう良い動きしてたのと、3D映像がマッチしてて、ビルの上に飛んだり落ちたりした感覚があった。楽しかった！USJの初ライドでいいやつ引いたかもしれない。
 
-バックドラフト。映画のスタジオを再現した、というコンセプトで映画の解説や、セットの模擬的なやつを見せてくれる。これはエクスプレスもシングルもなく、10分くらいで入れた。
+次のアトラクションが `バックドラフト`_ 。映画のスタジオを再現した、というコンセプトで映画の解説や、セットの模擬的なやつを見せてくれる。これはエクスプレスもシングルもなく、10分くらいで入れた。
 
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">燃えたー。10分ちょいで見れたの良かった <a href="https://twitter.com/hashtag/bpcamp?src=hash">#bpcamp</a> (@ バックドラフト in 大阪市, 大阪府) <a href="https://t.co/hTehtYdM7O">https://t.co/hTehtYdM7O</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/837862340829851648">2017年3月4日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-バックドラフトのセット、最後は大火事だったし迫力あってよかったけど、こればっかりだとUSJまあまあかな？という感想になりそう。ハリーポッター作る前はこういうのばっかりだったのかな？それだと確かに赤字になりそうな？
+`バックドラフト`_ のセット、最後は大火事だったし迫力あってよかったけど、こればっかりだとUSJまあまあかな？という感想になりそう。ハリーポッター作る前はこういうのばっかりだったのかな？それだと確かに赤字になりそうな？
 
-次、本命のフライングダイナソー。
+次、本命のフライングダイナソー。ジュラシックパークのやつです。
 
 フライングダイナソーはシングルライドでも80分待ち。なんだけど、シングル列は隙間が出来れば消化されていくので、結局25分で乗れました。下の360°写真で並んでるたくさんの人たちは通常列。シングルが80分待ちだから、通常列は100分以上だったのかな・・・。と思っていたら、隣の列を同僚のオメガ氏が追い越していった。あとで聞いたら課金アイテムを使って10分で乗ったらしい
 
@@ -200,7 +201,7 @@ USJ行く人は事前にチケットをもらってたので、自分と同じ�
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/bpcamp?src=hash">#bpcamp</a> お城の見学に来た (@ ハリー・ポッター・アンド・ザ・フォービドゥン・ジャーニー in 大阪市, 大阪府) <a href="https://t.co/zjPNoMO5tl">https://t.co/zjPNoMO5tl</a> <a href="https://t.co/D1g1L9UJIP">pic.twitter.com/D1g1L9UJIP</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/837877911260639233">2017年3月4日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-ハリーポッターエリアはよくできてた。他のエリアは高いところからセブンイレブンが見えたりしてたけど、ハリーポッターだけ別世界。世界観をかなり再現してるんだろうなー（映画観てない）と思いながらお城見学して帰ってきた。あとで機会があったら観よう。
+`ハリーポッター`_ エリアはよくできてた。他のエリアは高いところからセブンイレブンが見えたりしてたけど、 `ハリーポッター`_ だけ別世界。世界観をかなり再現してるんだろうなー（映画観てない）と思いながらお城見学して帰ってきた。あとで機会があったら観よう。
 
 13時半頃にtommyと分かれてUSJから撤収。ユニバーサル仕様の電車にのって梅田へ。
 
@@ -209,7 +210,7 @@ USJ行く人は事前にチケットをもらってたので、自分と同じ�
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/bpcamp?src=hash">#bpcamp</a> ユニバーサル仕様の電車に乗った (@ JR 西九条駅 in 大阪市, 大阪府) <a href="https://t.co/fj9DorbgST">https://t.co/fj9DorbgST</a> <a href="https://t.co/GXdgGzOsS9">pic.twitter.com/GXdgGzOsS9</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/837890928077598720">2017年3月4日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-総じて、USJ良かった。少なくとも2つは映画観ようと思ったし。
+総じて、USJ良かった。だれかが東の方にある耳の大きなキャラクターの国よりはアトラクションが大人向け（ハード）、と言ってたけど、少なくとも `フォレストガンプ`_, `バックドラフト`_, `ハリーポッター`_ の3つは映画観ようと思ったくらいには良かった。
 
 
 梅田はがくれ
@@ -291,7 +292,7 @@ BPビール部
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-その後、京都駅で奥さんへのお土産を買いにうろうろしてたら迷子になりました。京都駅こわい。
+その後、京都駅で奥さんへのお土産を買いにうろうろしてたら迷子になりました。京都駅難しい。
 
 .. raw:: html
 
@@ -303,9 +304,8 @@ BPビール部
    
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/bpcamp?src=hash">#bpcamp</a> LEGOで作った京都駅だー (@ 京都駅 in 京都市, 京都府) <a href="https://t.co/92QoaJYb9z">https://t.co/92QoaJYb9z</a> <a href="https://t.co/IGeuGdgNBG">pic.twitter.com/IGeuGdgNBG</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/837981692975591424">2017年3月4日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-   
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/bpcamp?src=hash">#bpcamp</a> LEGOで作った京都駅だー (@ 京都駅 in 京都市, 京都府) <a href="https://t.co/92QoaJYb9z">https://t.co/92QoaJYb9z</a> <a href="https://t.co/2U1wynLAg9">pic.twitter.com/2U1wynLAg9</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/837981691931160576">2017年3月4日</a></blockquote>
-   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+結局、京都駅の駅構内南側に行く方法が分からず、新幹線改札に入ってから一度出してもらったりした。
 
 
 帰宅
@@ -317,4 +317,6 @@ BPビール部
 .. _#BPCamp: https://twitter.com/search?f=tweets&q=%23bpcamp
 .. _BeProud: http://www.beproud.jp/
 .. _BEER BELLY 天満: http://www.minoh-beer.jp/spot/beerbelly_temma/
-
+.. _フォレストガンプ: http://amzn.to/2m7SIfN
+.. _バックドラフト: http://amzn.to/2mZ4x5C
+.. _ハリーポッター: http://amzn.to/2mDy0WJ
