@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinx-book-writing-20170310/index
    sphinxjp-tea-night-201703/index
    bpcamp2016/index
    softwaredesign-welldone-party/index
