@@ -26,6 +26,7 @@
 =====================
 
 .. figure:: todo.*
+   :width: 500
 
 * @tk0miya: Sphinxのメンテ。画像を各ビルダーで扱えるように変換する仕組みを作っている。あとSphinx用にPythonのパーサーを書いてた
 * @jbking: Blogツールのアップデート
@@ -42,12 +43,18 @@
 
 `Sphinxをはじめよう`_ の改訂作業をやってました（ :doc:`../sphinx-book-writing-20170316/index` に引き続き）。
 
-この執筆用にsphinx-extcodeとう拡張を作りました。
+この執筆用にsphinx-extcodeという拡張を作りました。
 
 .. figure:: sphinx-extcode.*
+   :target: https://shimizukawa.github.io/sphinx-extcode/
 
-出力例は https://shimizukawa.github.io/sphinx-extcode/ で見れます。
+   sphinx-extcodeの出力例
 
+いくつかの出力例を https://shimizukawa.github.io/sphinx-extcode/ で見れます。
+
+
+作った目的
+------------
 
 たくさんのサンプルコードをreSTで書いて、その出力結果を並記するというのを繰り返していますが、コードサンプル用とレンダリングイメージ用とで2回書くのが面倒です。
 こんな感じです:
@@ -55,7 +62,6 @@
 .. code-block:: rst
 
    .. code-block:: rst
-      :rendered-block: vertical
 
       単語を * で囲うと *強調* になります。
 
