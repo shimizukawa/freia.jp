@@ -33,7 +33,7 @@
 * @yousken900: Sphinxの入門をしている。Sphinx-usres.jpの入門記事を読んでいろいろ書いてみた
 * @pashango2: Sphinxの新規プロジェクトを始められるGUIツールをQtで作っていた。Sphinxがconf.pyのテンプレートをべた書きで持っていて、外部ツールが再利用するのはつらい。プロジェクトのソースディレクトリもconf.pyになくてMakefileにしかないのでつらい。
 * @nskgch: Sphinx-1.6向け翻訳を進めた
-* @kashew_nuts: Tinkererをためしてみた
+* @kashew_nuts: Tinkererをためしてみた(`Sphinx+翻訳 Hack-a-thon 2017.3に参加しました #sphinxjp`_)
 * @usaturn: Sphinxのissueをトリアージする
 * @shimizukawa: Sphinxの本のリファレンスページを更新している。extcodeという拡張を最新のSphinxで動作するように修正していた
 
@@ -94,4 +94,5 @@ https://github.com/shimizukawa/sphinx-extcode
 
 .. _Sphinx+翻訳 hack-a-thon 2017.03: https://sphinxjp.connpass.com/event/52079/
 .. _Sphinxをはじめよう: http://www.oreilly.co.jp/books/9784873116488/
+.. _Sphinx+翻訳 Hack-a-thon 2017.3に参加しました #sphinxjp: http://kashewnuts.github.io/2017/03/18/sphinxhackathon201703.html
 
