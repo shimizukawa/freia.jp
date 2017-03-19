@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   python3-hash-randomie/index
    sphinxjp-hack-a-thon-20170318/index
    sphinx-book-writing-20170316/index
    sphinx-book-writing-20170310/index
