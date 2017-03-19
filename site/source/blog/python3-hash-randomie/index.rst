@@ -170,7 +170,7 @@ dict定義としてfooとbazの順番を変えて2パターン書いてみまし
 
 先ほどのfoo,bazと異なり、今回は定義した順に表示されました。
 
-'foo'と'baz'の場合、fooが常に先にきたのは ``hash('foo')  % 8`` が0で ``hash('baz') % 8`` の4よりも小さいから、・・・ということではなさそうです::
+'foo'と'baz'の場合、fooが常に先にきたのは ``hash('foo')  % 8`` が0で ``hash('baz') % 8`` の4よりも小さいから、・・・ということではなさそうです。実際に mod 8 の結果が異なる8つのキーで試してみました::
 
    >>> import string
    >>> d = dict(zip([hash(c)%8 for c in string.ascii_letters], string.ascii_letters))
@@ -193,7 +193,7 @@ teratailで回答をもらったことと、上記のStackOverflowの回答を�
 
 2. これによって、hashテーブルの順番で並んでいた特定のdictキー列も、起動毎にランダム化された（副作用）
 
-3. Python3.6の **実装** で、dictキーを挿入順で維持するキー列をhashテーブルtとは別に持つようになったため、キー順が `object.__hash__` の結果に依存しなくなった（これは1のDDoS回避と反しない）
+3. Python3.6の **CPython実装** で、dictキーを挿入順で維持するキー列をhashテーブルtとは別に持つようになったため、キー順が `object.__hash__` の結果に依存しなくなった（これは1のDDoS回避と反しない）
 
 4. Pythonの言語仕様は変わっていないので、dictキーを挿入順で維持するかどうかはPython実装に依存している
 
