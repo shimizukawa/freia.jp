@@ -3,10 +3,12 @@
 :body type: text/x-rst
 
 ===================================================================================
-2017/03/19 Python3.6のdictキー順維持と、hash randomizeによるDDoS回避の関係について
+2017/03/19 Python3.6のdictキー順維持と、hash randomizeによるDoS回避の関係について
 ===================================================================================
 
 *Category: 'Python'*
+
+.. note::  `3/20 修正`_ で、DDoS -> DoS に修正しました
 
 
 Python-3.3で導入された、Hash Randomizeについて間違って理解していたようなので、考えを整理してそれの理解が正しいかTeratailに質問をしたところ、的確な回答をもらえて解決できました。
@@ -15,9 +17,14 @@ Python-3.3で導入された、Hash Randomizeについて間違って理解し�
 
 （Teratailで質問したいと思えることが今までなくて、今回やっと質問できました。Q&Aサイトで質問すると流れずに残るのが良いですね）
 
+.. contents::
+   :local:
+
 
 Python3.6でのdictのキー順維持と、hash randomizeによるDDoS回避の関係について
 ============================================================================
+
+.. note:: 質問サイトにDDoSって書いちゃったのでそのまま引用しますが、実際には **DoS** です
 
 以下、質問を引用します。
 
@@ -37,7 +44,7 @@ Python3.6でのdictのキー順維持と、hash randomizeによるDDoS回避の�
 
    **検証したこと**
 
-   Python**2.7.13**で文字列のhash値を取得(**(B)** の確認)::
+   Python\ **2.7.13** で文字列のhash値を取得(**(B)** の確認)::
 
       $ python2.7 -c "print(hex(hash('abc')))"
       0x142a6050a093d0a3
@@ -47,7 +54,7 @@ Python3.6でのdictのキー順維持と、hash randomizeによるDDoS回避の�
       0x142a6050a093d0a3
 
 
-   Python**3.5.2**で文字列のhash値を取得(**(B)** の確認)::
+   Python\ **3.5.2** で文字列のhash値を取得(**(B)** の確認)::
 
       $ python3.5 -c "print(hex(hash('abc')))"
       0x53a97f418e279642
@@ -56,7 +63,7 @@ Python3.6でのdictのキー順維持と、hash randomizeによるDDoS回避の�
       $ python3.5 -c "print(hex(hash('abc')))"
       0x29736bbb038652f5
 
-   Python**3.6.0**で文字列のhash値を取得(**(B)** の確認)::
+   Python\ **3.6.0** で文字列のhash値を取得(**(B)** の確認)::
 
       $ python3.6 -c "print(hex(hash('abc')))"
       0x11108253ed4a023b
@@ -65,7 +72,7 @@ Python3.6でのdictのキー順維持と、hash randomizeによるDDoS回避の�
       $ python3.6 -c "print(hex(hash('abc')))"
       -0x687164debf8ee240
 
-   Python**2.7.13**で辞書のキー順を取得(**(A)** の確認)::
+   Python\ **2.7.13** で辞書のキー順を取得(**(A)** の確認)::
 
       $ python2.7 -c "print(list(dict.fromkeys(list('abcdefg'))))"
       ['a', 'c', 'b', 'e', 'd', 'g', 'f']
@@ -75,7 +82,7 @@ Python3.6でのdictのキー順維持と、hash randomizeによるDDoS回避の�
       ['a', 'c', 'b', 'e', 'd', 'g', 'f']
 
 
-   Python**3.5.2**で辞書のキー順を取得(**(B)** の確認)::
+   Python\ **3.5.2** で辞書のキー順を取得(**(B)** の確認)::
 
       $ python3.5 -c "print(list(dict.fromkeys(list('abcdefg'))))"
       ['e', 'd', 'f', 'a', 'b', 'c', 'g']
@@ -84,7 +91,7 @@ Python3.6でのdictのキー順維持と、hash randomizeによるDDoS回避の�
       $ python3.5 -c "print(list(dict.fromkeys(list('abcdefg'))))"
       ['d', 'e', 'a', 'g', 'b', 'f', 'c']
 
-   Python**3.6.0**で辞書のキー順を取得(**(C)** の確認)::
+   Python\ **3.6.0** で辞書のキー順を取得(**(C)** の確認)::
 
       $ python3.6 -c "print(list(dict.fromkeys(list('abcdefg'))))"
       ['a', 'b', 'c', 'd', 'e', 'f', 'g']
@@ -107,7 +114,7 @@ Python3.6でのdictのキー順維持と、hash randomizeによるDDoS回避の�
 
 
 
-質問1にあるように、当初「DDoS回避のためにdictキー順をランダム化したかった」のだと理解していましたが、そうではなかった、というのが回答をもらって確認できました。
+質問1にあるように、当初「DoS回避のためにdictキー順をランダム化したかった」のだと理解していましたが、そうではなかった、というのが回答をもらって確認できました。
 
 回答全文は質問したサイト(teratail)で確認できます。 https://teratail.com/questions/69286#reply-109601
 ここでは、教えてもらったリンクについてちょっとだけ紹介します。
@@ -145,7 +152,7 @@ hashの仕組みが実際にどのようにPythonのdictに対して作用して
 
 これを見ると、'foo'と'bar'は8の剰余(mod 8)が0で一緒です。つまりhashテーブルが8つの状況では'foo'と'bar'とでhash collisionが発生していることになります。
 StackOverflowの回答には、CPythonでの実装はオープンアドレス法だと書かれているので、hash collisionが起きた場合、hashテーブルの当該エントリは早い者勝ちで決まり、collisionを起こしたキーは次のテーブルの空きを探して再計算されます。
-（collisionによる再計算が大量に発生すると計算負荷が上がってDDoSが可能になります）
+（collisionによる再計算が大量に発生すると計算負荷が上がってDoSが可能になります）
 
 実際にPythonの辞書のキー順でみてみます。まず、mod 8が異なる'foo'と'baz'で確認します。
 
@@ -189,11 +196,11 @@ dict定義としてfooとbazの順番を変えて2パターン書いてみまし
 teratailで回答をもらったことと、上記のStackOverflowの回答を読んだことで、自分の理解は次ようになりました。
 
 
-1. `object.__hash__` のhash collisionによるDDoS攻撃を回避するために、Python3.3で起動毎にhashをランダム化した
+1. `object.__hash__` のhash collisionによるDoS攻撃を回避するために、Python3.3で起動毎にhashをランダム化した
 
 2. これによって、hashテーブルの順番で並んでいた特定のdictキー列も、起動毎にランダム化された（副作用）
 
-3. Python3.6の **CPython実装** で、dictキーを挿入順で維持するキー列をhashテーブルtとは別に持つようになったため、キー順が `object.__hash__` の結果に依存しなくなった（これは1のDDoS回避と反しない）
+3. Python3.6の **CPython実装** で、dictキーを挿入順で維持するキー列をhashテーブルtとは別に持つようになったため、キー順が `object.__hash__` の結果に依存しなくなった（これは1のDoS回避と反しない）
 
 4. Pythonの言語仕様は変わっていないので、dictキーを挿入順で維持するかどうかはPython実装に依存している
 
@@ -213,4 +220,108 @@ Pythonコアデベロッパーが **"OrdereDictは死んだ"** って言って�
 .. _PYTHONHASHSEED環境変数: https://docs.python.jp/3/using/cmdline.html#envvar-PYTHONHASHSEED
 .. _`DSAS開発者の部屋:Python に現在実装中の Compact dict の紹介`: http://dsas.blog.klab.org/archives/python-compact-dict.html
 .. _Why is the order in dictionaries and sets arbitrary?: http://stackoverflow.com/questions/15479928/why-is-the-order-in-dictionaries-and-sets-arbitrary
+
+
+3/20 修正
+==============
+
+@methane からツッコミをもらいました。ありがとうございます！
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/shimizukawa">@shimizukawa</a> まず、hashdosはDDoSじゃなくて単なるDoSですね。少数のリクエストで攻撃できるので。<br>（もちろん分散させてもいいですが。）</p>&mdash; INADA Naoki (@methane) <a href="https://twitter.com/methane/status/843623765393125376">2017年3月20日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+はい。 分散(Distributed)じゃなくても攻撃できるということで、DDoSじゃなくてDoSでした。
+
+----------------------------------
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/shimizukawa">@shimizukawa</a> あと、他のPython実装が効率やスレッド対応のために別の方法でdict実装できるように、言語仕様としてはキーワード引数と名前空間だけが順序維持でそれ以外は不定です。</p>&mdash; INADA Naoki (@methane) <a href="https://twitter.com/methane/status/843624796038422528">2017年3月20日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+「言語仕様としてはキーワード引数と名前空間だけが順序維持」
+
+キーワード引数の順序維持
+
+.. code-block:: python
+   > docker run -it --rm python:3.5.2
+   Python 3.5.2 (default, Aug 31 2016, 03:01:41)
+   [GCC 4.9.2] on linux
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> def func(**kwargs):
+   ...     return kwargs
+   ...
+   >>> func(a=1, b=2, c=3)
+   {'c': 3, 'b': 2, 'a': 1}
+
+3.5まではキーワード引数は順序が不定(hash値依存)だった。
+
+.. code-block:: python
+
+   > docker run -it --rm python:3.6
+   Python 3.6.0 (default, Jan 18 2017, 02:51:38)
+   [GCC 4.9.2] on linux
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> def func(**kwargs):
+   ...     return kwargs
+   ...
+   >>> func(a=1, b=2, c=3)
+   {'a': 1, 'b': 2, 'c': 3}
+
+3.6では言語仕様として、キーワード引数の順序が維持される。
+
+---------------------
+
+言語仕様で保障される、Python名前空間の順序維持
+
+.. code-block:: python
+
+   > docker run -it --rm python:3.5.2
+   Python 3.5.2 (default, Aug 31 2016, 03:01:41)
+   [GCC 4.9.2] on linux
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> class C:
+   ...     a = 1
+   ...     b = 2
+   ...     c = 3
+   ...
+   >>> C.__dict__.keys()
+   dict_keys(['__dict__', '__doc__', 'b', 'c', '__module__', 'a', '__weakref__'])
+
+3.5までは名前空間（この例ではクラス属性）の順序が不定(hash値依存)だった。
+
+.. code-block:: python
+
+   > docker run -it --rm python:3.6
+   Python 3.6.0 (default, Jan 18 2017, 02:51:38)
+   [GCC 4.9.2] on linux
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> class C:
+   ...     a = 1
+   ...     b = 2
+   ...     c = 3
+   ...
+   >>> C.__dict__.keys()
+   dict_keys(['__module__', 'a', 'b', 'c', '__dict__', '__weakref__', '__doc__'])
+
+3.6では言語仕様として、名前空間の順序が維持される。
+
+モジュールの場合も同様.
+
+3.5の場合::
+
+   > docker run -it --rm python:3.5.2 python -c "import os; print(list(os.__dict__.keys())[-5:])"
+   ['ttyname', 'system', 'minor', 'read', '_Environ']
+   > docker run -it --rm python:3.5.2 python -c "import os; print(list(os.__dict__.keys())[-5:])"
+   ['SEEK_HOLE', 'O_NOCTTY', 'umask', 'fchdir', 'SCHED_OTHER']
+
+3.6の場合::
+
+   > docker run -it --rm python:3.6 python -c "import os; print(list(os.__dict__.keys())[-5:])"
+   ['popen', '_wrap_close', 'fdopen', '_fspath', 'PathLike']
+   > docker run -it --rm python:3.6 python -c "import os; print(list(os.__dict__.keys())[-5:])"
+   ['popen', '_wrap_close', 'fdopen', '_fspath', 'PathLike']
+
 
