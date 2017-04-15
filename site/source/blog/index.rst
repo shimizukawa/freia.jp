@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   everyleaf-10th-party/index
    repaire-smartphone-panel-zte-blade-v6/index
    python3-hash-randomie/index
    sphinxjp-hack-a-thon-20170318/index
