@@ -8,7 +8,7 @@
 
 *Category: 'Sphinx'*
 
-:doc:`前回 <../sphinxjp-tea-night-201703/index>` に引き続き、 `Sphinx Tea Night 2017.03`_ に参加しました。
+:doc:`前回 <../sphinxjp-tea-night-201702/index>` に引き続き、 `Sphinx Tea Night 2017.03`_ に参加しました。
 
 .. raw:: html
 

@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxjp-tea-night-201704/index
    everyleaf-10th-party/index
    repaire-smartphone-panel-zte-blade-v6/index
    python3-hash-randomie/index
