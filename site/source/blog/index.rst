@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinx-dev-20170419/index
    sphinxjp-tea-night-201704/index
    everyleaf-10th-party/index
    repaire-smartphone-panel-zte-blade-v6/index
