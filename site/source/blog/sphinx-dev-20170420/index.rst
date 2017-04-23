@@ -14,7 +14,7 @@ Sphinx-1.6b1 のリリースに向けた開発作業をやってきました。
 :doc:`../sphinx-dev-20170419/index` 
 
 今日の開発hack-a-thonに参加したのは @tk0miya, @usaturn, @shimizukawa です。
-Sphinx-users.jp の会長、副会長、会計。
+Sphinx-users.jp の会長、(元)副会長、会計。
 
 お腹がすいたので、ルノアール飯田橋西口店に寄ってカロリー摂取。
 
