@@ -40,7 +40,7 @@
 自分がやったこと
 ==================
 
-* 4つか5つのPRをレビューしました。
+* 7つのPRをレビューしました。
 
   * `#3649 <https://github.com/sphinx-doc/sphinx/pull/3649>`__ pkg_resourcesの ``sphinx_themes`` entry point 名を ``sphinx.html_themes`` に変更
   * `#3653 <https://github.com/sphinx-doc/sphinx/pull/3653>`__ 画像フォーマットを変換する ``sphinx.ext.imgconverter`` 拡張の追加
