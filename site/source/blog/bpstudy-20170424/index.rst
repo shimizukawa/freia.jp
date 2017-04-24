@@ -10,6 +10,8 @@
 
 .. _BPStudy #116: https://bpstudy.connpass.com/event/54648/
 
+今回の会場スポンサーさんはHITさん（株式会社ヒューマン インタラクティブ テクノロジー／コミュニティスペース）です。ありがとうございます。
+
 
 .. contents::
    :local:
