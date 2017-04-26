@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   world-plone-day-20170426/index
    bpstudy-20170424/index
    sphinxjp-hack-a-thon-20170423/index
    sphinx-dev-20170420/index
