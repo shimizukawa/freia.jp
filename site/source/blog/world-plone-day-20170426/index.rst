@@ -505,5 +505,9 @@ PythonベースのWeb構築システム: Sphinx (@usaturn)
 
 .. raw:: html
 
-   （写真のせます）
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/plonejp?src=hash">#plonejp</a> World Plone Day 2017 Tokyo かんぱーい！ (@ クリーク・アンド・リバー社 in 千代田区, 東京都 w/ <a href="https://twitter.com/takanory">@takanory</a>) <a href="https://t.co/ggvbEIPkGF">https://t.co/ggvbEIPkGF</a> <a href="https://t.co/PJ2NNqOvlf">pic.twitter.com/PJ2NNqOvlf</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/857202374078812160">2017年4月26日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/plonejp?src=hash">#plonejp</a> World Plone Day 2017 Tokyo かんぱーい！ (@ クリーク・アンド・リバー社 in 千代田区, 東京都 w/ <a href="https://twitter.com/takanory">@takanory</a>) <a href="https://t.co/ggvbEIPkGF">https://t.co/ggvbEIPkGF</a> <a href="https://t.co/lMyDDw5PIR">pic.twitter.com/lMyDDw5PIR</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/857202405506781184">2017年4月26日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
