@@ -26,8 +26,7 @@
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">World Plone Day 2017 Tokyo にキター！（遅刻 (@ クリーク・アンド・リバー社 in 千代田区, 東京都 w/ <a href="https://twitter.com/takanory">@takanory</a>) <a href="https://t.co/4AsuAFekIV">https://t.co/4AsuAFekIV</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/857183042221289473">2017年4月26日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-
+自分がplone関連に触れていたのは、blog的には :doc:`../728/index` が最後のようです。7年ぶりかー。
 
 Ploneの現状とロードマップ(@terapyon)
 ======================================
@@ -37,8 +36,13 @@ Ploneの現状とロードマップ(@terapyon)
 :発表者:  CMSコミュニケーションズ 寺田さん
 :資料: https://speakerdeck.com/terapyon/plonefalsexian-zhuang-torodomatupu
 
+.. figure:: terada.*
+   :width: 500
+
 
 * Ploneの最近の動向
+
+  * Headless CMS というワードが最近はやってきている
 
   * デカップル
 
@@ -52,15 +56,20 @@ Ploneの現状とロードマップ(@terapyon)
 
 * Ploneサーバー
 
-  * 新しい動き
-  * plone名前空間
+  * 新しい動き（Headlessが落ち着いてきたかと思ったらもう次の動きが）
+  * plone名前空間 (従来のPloneとは別の活動だけど同じ名前空間)
   * BSDライセンス
 
 
 Plone5のOSSにおける進化と適応(日本語抜粋版) (@zenich)
 ============================================================
 
-* 安田善一朗さん
+:発表者: 安田善一朗さん
+:資料:
+
+
+.. figure:: yasuda.*
+   :width: 500
 
 
 進化
@@ -183,13 +192,14 @@ CMS
 
   * Diazo という技術が生まれた
 
-    * （清水川註: オリジナルは Deliverance_, Ian Bicking作)
+    * （清水川註: オリジナルは Deliverance_, Ian Bicking作で、派生版として作られた xdv_ が改名してDiazoになりました。 :doc:`../728/index` でxdvいじってた）
 
   * 適応の考え方をテーマデザインの世界に当てはめることが出来た
 
 
 .. _Diazo: https://pypi.python.org/pypi/diazo
 .. _Deliverance: https://pypi.python.org/pypi/Deliverance
+.. _xdv: https://pypi.python.org/pypi/xdv
 
 
 PythonベースのWeb構築システム: Mezzanine (@takanory)
@@ -197,9 +207,13 @@ PythonベースのWeb構築システム: Mezzanine (@takanory)
 
 :発表者: @takanory
 :ツール名: Mezzanine__
-:資料: 
+:資料: https://speakerdeck.com/takanory/mezzanine
 
 .. __: http://mezzanine.jupo.org/
+
+.. figure:: takanory.*
+   :width: 500
+
 
 
 * Mezzanineの意味: 中二階
@@ -251,9 +265,13 @@ PythonベースのWeb構築システム: Pelican  (@laugh_k)
 
 :発表者: @laugh_k
 :ツール名: Pelican__
-:資料: https://speakerdeck.com/takanory/mezzanine
+:資料: https://www.slideshare.net/laughk/pelican-world-ploneday2017tokyo
 
 .. __: https://blog.getpelican.com/
+
+
+.. figure:: laugh_k.*
+   :width: 500
 
 
 * 個人ブログでPelicanを使ってます
@@ -311,6 +329,9 @@ PythonベースのWeb構築システム: Kotti  (@t2y)
 
 .. __: https://kotti.readthedocs.io/
 
+.. figure:: t2y.*
+   :width: 500
+
 
 * 最近開発が落ち着いてきている
 
@@ -364,6 +385,10 @@ PythonベースのWeb構築システム: Symposion  (@yellow844)
 
 .. __: http://symposion.readthedocs.io/
 
+.. figure:: yellow.*
+   :width: 500
+
+
 * 概要
 
   * Djangoのうえにpinaxレイヤー、そのうえにsymposion
@@ -405,6 +430,9 @@ PythonベースのWeb構築システム: SubstanceD (@jbking)
 :資料: 
 
 .. __: http://docs.pylonsproject.org/projects/substanced/
+
+.. figure:: jbking.*
+   :width: 500
 
 
 * 1.0.0a1
@@ -451,6 +479,8 @@ PythonベースのWeb構築システム: Sphinx (@usaturn)
 
 .. __: http://sphinx-users.jp/
 
+.. figure:: usaturn.*
+   :width: 500
 
 * 最近転職しました。ぜひ弊社に
 
@@ -462,7 +492,7 @@ PythonベースのWeb構築システム: Sphinx (@usaturn)
 
   * SphinxはPythonのリファレンスドキュメントを作るために作られたツールです
 
-  * Pelicanと同じ様な感じで、reStructuredText等で原稿を書いて、make htmlすると静的HTMLを生成するツールです
+  * Pelicanと同じ様な感じで、reStructuredText(reST)等で原稿を書いて、make htmlすると静的HTMLを生成するツールです
 
   * Markdownでも原稿を書けます
 
@@ -471,6 +501,9 @@ PythonベースのWeb構築システム: Sphinx (@usaturn)
 * 特徴
 
   * マルチインプット
+
+    * （清水川註: マルチインプットとして、reST, Markdown, 画像、PowerPoint, ...等が紹介されていましたが、誤解を与えそうなので補足します。原稿に使えるのはreSTとMarkdownで、それ以外のフォーマットは、拡張プラグインを使って画像等のデータを取り出して埋め込めるということを表現したかったようです。画像にかかれている文字列を読み取ってHTMLにテキスト化して出力できるわけではありません。 「Sphinxはワンソース、マルチアウトプット」という紹介のほうが一般的な気がします。）
+    * （清水川註: 原稿として使えるフォーマットは、デフォルトでreSTのみです。拡張を入れればMarkdownに対応します。他のフォーマット向けの拡張プラグインを書けばAsciiDocやTextileなども読み込めるようになります。だれか実装して拡張パッケージとして公開しないかな）
 
   * マルチアウトプット
 
@@ -510,4 +543,7 @@ PythonベースのWeb構築システム: Sphinx (@usaturn)
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/plonejp?src=hash">#plonejp</a> World Plone Day 2017 Tokyo かんぱーい！ (@ クリーク・アンド・リバー社 in 千代田区, 東京都 w/ <a href="https://twitter.com/takanory">@takanory</a>) <a href="https://t.co/ggvbEIPkGF">https://t.co/ggvbEIPkGF</a> <a href="https://t.co/lMyDDw5PIR">pic.twitter.com/lMyDDw5PIR</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/857202405506781184">2017年4月26日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+感想: blogメモ書くのに疲れました。楽しかったです！
 
