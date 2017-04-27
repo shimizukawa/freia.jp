@@ -14,8 +14,7 @@
 
 会場はクリークアンドリバー社さん。 `Start Python Club`_ のイベントをやってる会場です。いつもありがとうございます。
 
-
-.. _: https://startpython.connpass.com/
+.. _Start Python Club: https://startpython.connpass.com/
 
 .. contents::
    :local:
