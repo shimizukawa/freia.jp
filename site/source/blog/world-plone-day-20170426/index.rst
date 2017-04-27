@@ -65,7 +65,7 @@ Plone5のOSSにおける進化と適応(日本語抜粋版) (@zenich)
 ============================================================
 
 :発表者: 安田善一朗さん
-:資料:
+:資料: https://speakerdeck.com/zenich/plone5falseossniokerujin-hua-toshi-ying-duan-suo-ban
 
 
 .. figure:: yasuda.*
