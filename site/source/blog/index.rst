@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxjp-hack-a-thon-20170507/index
    bulletproof-diet-try/index
    world-plone-day-20170426/index
    bpstudy-20170424/index

@@ -29,8 +29,8 @@
 
 * @tk0miya: Sphinx-1.6b3 リリースに向けて作業します -> 1.6b3リリースしました。来週末くらいには、1.6最終版がリリースできそうな感じになってきました
 * @pashango2: SphinxのGUIツール開発と、ShinxのGFMソース読み込みを拡張 -> Sphinxのプロジェクト作成時にrecommonmarkなども含めようとするとけっこう手間がかかっていたのが、2クリックで生成出来るようになりました。epubボタンをおすとepubでビルドもできるようになりました。縦書きのepubを生成したら、カギ括弧がおかしいです（フォントが縦書きフォントじゃないからですね・・・Sphinx的にどう解決したらいいんだろう）
-* @shimizukawa: sphinx.testing モジュールの実装と、sphinx PRレビュー -> だいたい動くようになってきました
 * @retsuyam: bitbucket/github + sphinx + readthedocs で共同編集したドキュメントをビルドしてホスティングできるようにしてみます -> bitbucketにpushしたところまでできたので、あとはreadthedocsと繋いでビルドするところです
+* @shimizukawa: sphinx.testing モジュールの実装と、sphinx PRレビュー -> だいたい動くようになってきました
 
 
 自分がやったこと
