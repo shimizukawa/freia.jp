@@ -123,7 +123,6 @@ connpassは今回のイベントに参加してる人はみんな使っている
 
 最初はPythonを何に使ったのか、使い始めるきっかけは何だったのか、どうやって勉強したのか、等々、2003年頃を思い出しながら話しました。
 
-そしてタコいっぱい食べた。
 
 .. raw:: html
 
@@ -133,10 +132,21 @@ connpassは今回のイベントに参加してる人はみんな使っている
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pycamp?src=hash">#pycamp</a> 神戸、懇親会まで終了しました。チュートリアル参加されたみなさん、懇親会参加されたみなさん、楽しい時間をありがとうございました！うぇ～い！ <a href="https://t.co/HlyXvcSKKl">pic.twitter.com/HlyXvcSKKl</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/865907145409052672">2017年5月20日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+東京でのイベントは人が多くていいけど、大阪神戸ではどのくらい人が来るのかも分からないから・・・という話がでた。いやいや PyCon mini JP 2011 のときは人来るの？ってドキドキしながらイベントやったけど最終的にはうまくいって、そこからまた人の繋がりが広がっていって今の2016年、2017年に続いてきてるよ。最初に大きく失敗しなかったのは、それまでに勉強会という形でPythonやってる知り合いを何年かかけてゆるーく広げてきたという背景があって、PyCon JP をやるとなったときに、応援してくれる人ばっかりじゃなかったけどみんな見守ってくれてたのが良かったのかも。いきなり大きいイベントは不安もあるので、普段のPython関連勉強会や今回みたいなpycampをゆるく広くやっていくことが関西でPyCon JPなどのイベントを開催する下地になっていくんじゃないかな。という話をしたり。実際のところ、何が良くてなにが悪いのかは分からないけど。やっていけば進むもんだよね。
+
+
+最後に、今日みんなに講師として教えることで自分も得るものがあったし、またみんなも他の人に教えることで自分の知識を強化したり、OSSコミュニティへの還元みたいなことをしてくれるといいな、お互い東京都神戸と行くことがあったら声かけてイベントに参加したりしようねー、なんて挨拶で締めさせてもらった。
+
+
+.. raw:: html
+
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">タコいっぱい食べたー <a href="https://t.co/yopGQar6jv">pic.twitter.com/yopGQar6jv</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/865907389639213056">2017年5月20日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 おつかれさまでした。
+
+たこー
 
 .. _8回目: https://www.pycon.jp/support/bootcamp.html#id5
 .. _Python Boot Camp in 神戸: https://pyconjp.connpass.com/event/55110/
