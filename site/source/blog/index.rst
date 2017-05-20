@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pycamp201705-kobe/index
    sphinxjp-hack-a-thon-20170507/index
    bulletproof-diet-try/index
    world-plone-day-20170426/index
