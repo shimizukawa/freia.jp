@@ -66,3 +66,13 @@ tt {
 	border: 2px solid lightblue;
 }
 
+
+/* amazon amazlet */
+div.amazlet-box {
+	border: 1px sold gray;
+	border-radius: 5px;
+	padding: 0.5em;
+	margin: 0.5em auto;
+	width: 80%;
+}
+
