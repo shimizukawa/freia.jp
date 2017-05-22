@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   birthday42/index
    pycamp201705-kobe/index
    sphinxjp-hack-a-thon-20170507/index
    bulletproof-diet-try/index
