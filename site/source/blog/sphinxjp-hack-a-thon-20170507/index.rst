@@ -53,7 +53,7 @@
 * あと、いくつかのPRをレビューしました。
 
 
-.. _Sphinx+翻訳 hack-a-thon 2017.04: https://sphinxjp.connpass.com/event/56547/
+.. _Sphinx+翻訳 hack-a-thon 2017.05: https://sphinxjp.connpass.com/event/56547/
 
 .. _Sphinxのテストユーティリティをsphinx.testingとして提供しよう: https://github.com/sphinx-doc/sphinx/issues/3458
 
