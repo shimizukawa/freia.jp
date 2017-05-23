@@ -1,13 +1,15 @@
 清水川Web
 ==============
 
+コンテンツ
+
 .. toctree::
    :maxdepth: 1
 
    blog/index
-   docs/index
    repos/index
-   todos
+   docs/index
+   アルバム <http://www.flickr.com/photos/shimizukawa/sets/>
 
 .. note::
 
@@ -16,12 +18,9 @@
 
    http://jobs.beproud.jp/
 
-.. toctree::
-   :hidden:
-
-   memo/index
-
 .. raw:: html
 
    <script src="//about.me/embed/shimizukawa"></script>
 
+
+- :doc:`todos`

@@ -2,7 +2,6 @@
 ==============
 公開しているソースコードなど。
 
-* bitbucket: https://bitbucket.org/shimizukawa/
 * GitHub: https://github.com/shimizukawa/
+* bitbucket: https://bitbucket.org/shimizukawa/
 * launchpad: https://launchpad.net/~shimizukawa/
-* SVN: http://svn.freia.jp/open/
