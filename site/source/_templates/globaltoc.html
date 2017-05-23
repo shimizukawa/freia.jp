@@ -1,0 +1,6 @@
+{% for root in toctree_node(maxdepth=theme_globaltoc_depth|toint, collapse=False, includehidden=theme_globaltoc_includehidden|tobool) %}
+{# no <ul> tag is needed #}
+{% for item in root %}
+{{ render_partial(item).fragment }}
+{% endfor %}
+{% endfor %}
