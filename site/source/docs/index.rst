@@ -84,10 +84,18 @@ Books
 -------------------------------------------------
 2015.2.27, 秀和システム
 
+.. __: http://amzn.to/2qeuqAJ
+
+.. raw:: html
+
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/479804315X/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/41jP7BdvluL._SL160_.jpg" alt="Pythonプロフェッショナルプログラミング第2版" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/479804315X/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Pythonプロフェッショナルプログラミング第2版</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 17.05.24</div></div><div class="amazlet-detail">ビープラウド <br />秀和システム <br />売り上げランキング: 90,745<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/479804315X/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+
+Information
+
 :対象読者: Pythonの言語は入門していて、実際の業務でどのように開発を行っていくかを学びたい人
-:サイズ: B5変, 472ページ
-:フォーマット: 紙, Kindle, kobo
-:価格: 2,800円(外税)
+:Size: B5変, 472ページ
+:Format: 紙, Kindle, kobo
+:Price: 2,800円+税
 :ISBN-10: 479804315X
 :ISBN-13: 978-4798043159
 :概要: ビープラウドに入社したメンバーに、業務で必要な言語知識、プロジェクトの進め方、などを伝えるための本。
@@ -97,11 +105,6 @@ Books
    * 7章 ドキュメントの基盤を整える
    * 9章 Python パッケージングと運用への活用
 
-.. __: http://amzn.to/2qeuqAJ
-
-.. raw:: html
-
-   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/479804315X/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/41jP7BdvluL._SL160_.jpg" alt="Pythonプロフェッショナルプログラミング第2版" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/479804315X/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Pythonプロフェッショナルプログラミング第2版</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 17.05.24</div></div><div class="amazlet-detail">ビープラウド <br />秀和システム <br />売り上げランキング: 90,745<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/479804315X/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
 
 `Sphinxをはじめよう`__
@@ -112,17 +115,19 @@ Books
 
 * 2015年11月, 改版 & PDF版追加
 
+.. figure:: images/picture978-4-87311-648-8.gif
+
+Information
+
 :対象読者: Sphinxに初めて触れる方, ドキュメントをテキストで書きたい方
-:フォーマット: PDF ePub mobi
-:価格: 1,600円(外税)
+:Format: PDF ePub mobi
+:Price: 1,600円+税
 :ISBN-13: 978-4-87311-648-8
 :概要: Sphinxの概要からインストール、基本的な利用法について。またSphinxからLaTeXを経由してPDFを作成したり、EPUBフォーマットの電子書籍を作成する方法を紹介
 :著者: 清水川貴之, 小宮健, 山田剛, 若山史郎
 :執筆範囲:
    * 1章 Sphinxとは
    * 付録A reStructuredTextリファレンス
-
-.. figure:: images/picture978-4-87311-648-8.gif
 
 
 `Pythonプロフェッショナルプログラミング`__
@@ -131,10 +136,16 @@ Books
 
 .. __: http://amzn.to/2qTIfYt
 
+.. raw:: html
+
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798032948/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/41bZDMzzeTL._SL160_.jpg" alt="Pythonプロフェッショナルプログラミング" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798032948/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Pythonプロフェッショナルプログラミング</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 17.05.24</div></div><div class="amazlet-detail">ビープラウド <br />秀和システム <br />売り上げランキング: 388,137<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798032948/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+
+Information
+
 :対象読者: Pythonの言語は入門していて、実際の業務でどのように開発を行っていくかを学びたい人
-:サイズ: B5変, 464ページ
-:フォーマット: 紙
-:価格: 2,800円(外税)
+:Size: B5変, 464ページ
+:Format: 紙
+:Price: 2,800円+税
 :ISBN-10: 4798032948
 :ISBN-13: 978-4798032948
 :概要: ビープラウドに入社したメンバーに、業務で必要な言語知識、プロジェクトの進め方、などを伝えるための本。
@@ -143,32 +154,12 @@ Books
    * 4章 ドキュメントの基盤を整える
    * 7章 パッケージングと環境セットアップの自動化
 
-.. raw:: html
-
-   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798032948/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/41bZDMzzeTL._SL160_.jpg" alt="Pythonプロフェッショナルプログラミング" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798032948/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Pythonプロフェッショナルプログラミング</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 17.05.24</div></div><div class="amazlet-detail">ビープラウド <br />秀和システム <br />売り上げランキング: 388,137<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798032948/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
-
-
 
 `エキスパートPythonプログラミング`__
 -----------------------------------------
 2010.5.28, KADOKAWA/アスキー・メディアワークス
 
 .. __: http://amzn.to/2qehDyc
-
-:対象読者: 脱中級、上級を目指す人
-:サイズ: B5変, 416ページ
-:フォーマット: 紙
-:価格: 3,800円(外税)
-:ISBN-10: 4048686291
-:ISBN-13: 978-4048686297
-:概要: Pythonを取り巻く環境について扱っている本で、個々の話題の難易度は高め
-:著者: Tarek Ziade
-:訳者: 稲田直哉, 渋川よしき, 清水川貴之, 森本哲也
-:翻訳範囲:
-   * 5章 パッケージを作る
-   * 6章 アプリケーションを作る
-   * 7章 zc.buildoutを使う
-   * 10章 プロジェクトのドキュメント作成
 
 
 * :doc:`expertpython/index` 目次、読書会と質疑応答
@@ -185,6 +176,22 @@ Books
 
    <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048686291/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/515wWUPkhHL._SL160_.jpg" alt="エキスパートPythonプログラミング" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048686291/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">エキスパートPythonプログラミング</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 17.05.24</div></div><div class="amazlet-detail">Tarek Ziade <br />KADOKAWA/アスキー・メディアワークス <br />売り上げランキング: 299,414<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048686291/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
+Information
+
+:対象読者: 脱中級、上級を目指す人
+:Size: B5変, 416ページ
+:Format: 紙
+:Price: 3,800円+税
+:ISBN-10: 4048686291
+:ISBN-13: 978-4048686297
+:概要: Pythonを取り巻く環境について扱っている本で、個々の話題の難易度は高め
+:著者: Tarek Ziade
+:訳者: 稲田直哉, 渋川よしき, 清水川貴之, 森本哲也
+:翻訳範囲:
+   * 5章 パッケージを作る
+   * 6章 アプリケーションを作る
+   * 7章 zc.buildoutを使う
+   * 10章 プロジェクトのドキュメント作成
 
 
 Software Design Sphinx連載
