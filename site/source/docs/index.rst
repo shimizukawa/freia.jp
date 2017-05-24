@@ -45,13 +45,118 @@ Talks
 
      <iframe src="//www.slideshare.net/slideshow/embed_code/key/9iS8q5POhRi14T" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
+`世界のSphinx事情`__
+-----------------------
+2015.11.24 at `SphinxCon JP 2015`__
+
+.. __: https://www.slideshare.net/shimizukawa/sphinx-in-the-world-sphinxcon-jp-2015
+.. __: http://sphinx-users.jp/event/20151124_sphinxconjp/index.html
+
+  .. raw:: html
+
+     <iframe src="//www.slideshare.net/slideshow/embed_code/key/6ZTrb69QtZXetG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/sphinx-in-the-world-sphinxcon-jp-2015" title="世界のSphinx事情 @ SphinxCon JP 2015" target="_blank">世界のSphinx事情 @ SphinxCon JP 2015</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/shimizukawa">Takayuki Shimizukawa</a></strong> </div>
+
+
+`Sphinx紹介 - Sphinxワークショップ@関西`__
+---------------------------------------------
+2015.10.31 at `Sphinx ワークショップ@関西`__
+
+.. __: https://www.slideshare.net/shimizukawa/jus-sphinx-sphinx
+.. __: https://sphinxjp.connpass.com/event/22023/
+
+  .. raw:: html
+
+     <iframe src="//www.slideshare.net/slideshow/embed_code/key/JTOFDiQsiS9bgF" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/jus-sphinx-sphinx" title="JUS関西 Sphinxワークショップ@関西 Sphinx紹介" target="_blank">JUS関西 Sphinxワークショップ@関西 Sphinx紹介</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/shimizukawa">Takayuki Shimizukawa</a></strong> </div>
+
+`Sphinxで作る貢献しやすいキュメント翻訳の仕組み`__
+------------------------------------------------------
+2015.10.10 at `PyCon JP 2015`__
+
+.. __: https://www.slideshare.net/shimizukawa/sphinx-53764167
+.. __: https://pycon.jp/2015/ja/schedule/presentation/45/
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/sSPVJJCHbsvUyt" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/sphinx-53764167" title="Sphinxで作る貢献しやすいキュメント翻訳の仕組み" target="_blank">Sphinxで作る貢献しやすいキュメント翻訳の仕組み</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/shimizukawa">Takayuki Shimizukawa</a></strong> </div>
+
+Sphinx autodoc: automated API documentation
+--------------------------------------------
+
+* 2015.8.29 PyCon Korea 2015 (page__, slide__)
+
+  .. __: https://www.pycon.kr/2015/program/33
+  .. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-pyconkr-2015
+
+* 2015.8.22 PyCon Malaysia 2015 (slide__)
+
+  .. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-pyconmy-2015
+
+* 2015.7.20 EuroPython 2015 (page__, slide__)
+
+  .. __: https://ep2015.europython.eu/conference/talks/sphinx-autodoc-automated-api-documentation
+  .. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-europython-2015-in-bilbao
+
+* 2015.6.7 PyCon Taiwan 2015 (page__, slide__)
+
+  .. __: https://tw.pycon.org/2015apac/zh/program/69
+  .. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-pyconapac2015
+
+
+Easy contributable internationalization process with Sphinx
+------------------------------------------------------------
+
+* 2015.8.23 PyCon Malaysia 2015 (slide__)
+
+  .. __: https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pyconmy2015
+
+* 2015.6.18 PyCon Singapore 2015 (page__, slide__)
+
+  .. __: https://pycon.sg/static/archive/2015/schedule/presentation/49/index.html
+  .. __: https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pyconsg2015
+
+* 2015.6.6 PyCon Taiwan 2015 (page__, slide__)
+
+  .. __: https://tw.pycon.org/2015apac/zh/program/50
+  .. __: https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pycon-apac-2015-in-taiwan-49057754
+
+`PyPro2の読みどころ紹介：Python開発の過去と現在`__
+----------------------------------------------------
+2015.5.29 at `BPStudy93`__
+
+.. __: https://www.slideshare.net/shimizukawa/pypro2python-bpstudy93
+.. __: https://bpstudy.connpass.com/event/13348/
+
+
+`Pythonコミュニティ-紹介`__
+-----------------------------
+2015.5.16 at `LOCAL 2015`__
+
+.. __: https://www.slideshare.net/shimizukawa/python-local-2015
+.. __: https://local-community-summit.doorkeeper.jp/events/22821
+
+`PyPro2の読みどころ紹介：Python開発の過去と現在`__
+-----------------------------------------------------
+2015.3.26 at `白ヤギ勉強会（第13回）`__
+
+.. __: https://www.slideshare.net/shimizukawa/pypro2python3
+.. __: http://aial.connpass.com/event/12900/
+
+
 `Forkwell キャリア談義 #2 feat. ビープラウド`__
 -------------------------------------------------
 2015.3.5 at Forkwell キャリア談義#2
 
 .. __: https://forkwell.connpass.com/event/11424/
 
-.. figure:: forkwell-carrier-2.png
+.. figure:: images/forkwell-carrier-2.png
+
+
+`執筆中のPythonプロフェッショナルプログラミング第2版でsphinxを使っている話`__
+---------------------------------------------------------------------------------
+2014.12.6 at `版管理+自動組版`__
+
+.. __: https://www.slideshare.net/shimizukawa/python2sphinx
+.. __: https://connpass.com/event/6724/
 
 
 `Welcome to Sphinx-1.3`__
