@@ -13,7 +13,7 @@ Talks
 
 `仕事で使うちょっとしたコードをOSSとして開発メンテしていく - Django Redshift Backend の開発`__
 -------------------------------------------------------------------------------------------------------------------------------
-2016.9.21 at `PyCon JP 2016`__
+2016.9.21. at `PyCon JP 2016`__
 
 .. __: https://www.slideshare.net/shimizukawa/why-dont-you-share-your-code-snippet-for-your-jobas-a-open-source-software-pycon-jp-2016
 .. __: https://pycon.jp/2016/ja/schedule/presentation/48/
@@ -25,7 +25,7 @@ Talks
 
 `Easy contributable internationalization process with Sphinx`__
 --------------------------------------------------------------------
-2016.8.15 at `PyCon APAC 2016`__
+2016.8.15. at `PyCon APAC 2016`__
 
 .. __: https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-at-pycon-apac-2016
 .. __: https://www.pycon.kr/2016apac/program/44
@@ -36,7 +36,7 @@ Talks
 
 `素振りのススメ`__
 -----------------------
-2016.1.27 at `Python入門者の集い`__
+2016.1.27. at `Python入門者の集い`__
 
 .. __: https://www.slideshare.net/shimizukawa/suburi-no-susume-at-python-nyumon
 .. __: https://python-nyumon.connpass.com/event/23466/
@@ -47,7 +47,7 @@ Talks
 
 `世界のSphinx事情`__
 -----------------------
-2015.11.24 at `SphinxCon JP 2015`__
+2015.11.24. at `SphinxCon JP 2015`__
 
 .. __: https://www.slideshare.net/shimizukawa/sphinx-in-the-world-sphinxcon-jp-2015
 .. __: http://sphinx-users.jp/event/20151124_sphinxconjp/index.html
@@ -59,7 +59,7 @@ Talks
 
 `Sphinx紹介 - Sphinxワークショップ@関西`__
 ---------------------------------------------
-2015.10.31 at `Sphinx ワークショップ@関西`__
+2015.10.31. at `Sphinx ワークショップ@関西`__
 
 .. __: https://www.slideshare.net/shimizukawa/jus-sphinx-sphinx
 .. __: https://sphinxjp.connpass.com/event/22023/
@@ -70,7 +70,7 @@ Talks
 
 `Sphinxで作る貢献しやすいキュメント翻訳の仕組み`__
 ------------------------------------------------------
-2015.10.10 at `PyCon JP 2015`__
+2015.10.10. at `PyCon JP 2015`__
 
 .. __: https://www.slideshare.net/shimizukawa/sphinx-53764167
 .. __: https://pycon.jp/2015/ja/schedule/presentation/45/
@@ -96,7 +96,7 @@ Sphinx autodoc: automated API documentation
   .. __: https://ep2015.europython.eu/conference/talks/sphinx-autodoc-automated-api-documentation
   .. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-europython-2015-in-bilbao
 
-* 2015.6.7 PyCon Taiwan 2015 (page__, slide__)
+* 2015.6.7 PyCon APAC 2015 in Taiwan (page__, slide__)
 
   .. __: https://tw.pycon.org/2015apac/zh/program/69
   .. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-pyconapac2015
@@ -114,14 +114,14 @@ Easy contributable internationalization process with Sphinx
   .. __: https://pycon.sg/static/archive/2015/schedule/presentation/49/index.html
   .. __: https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pyconsg2015
 
-* 2015.6.6 PyCon Taiwan 2015 (page__, slide__)
+* 2015.6.6 PyCon APAC 2015 in Taiwan (page__, slide__)
 
   .. __: https://tw.pycon.org/2015apac/zh/program/50
   .. __: https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pycon-apac-2015-in-taiwan-49057754
 
 `PyPro2の読みどころ紹介：Python開発の過去と現在`__
 ----------------------------------------------------
-2015.5.29 at `BPStudy93`__
+2015.5.29. at `BPStudy93`__
 
 .. __: https://www.slideshare.net/shimizukawa/pypro2python-bpstudy93
 .. __: https://bpstudy.connpass.com/event/13348/
@@ -129,14 +129,14 @@ Easy contributable internationalization process with Sphinx
 
 `Pythonコミュニティ-紹介`__
 -----------------------------
-2015.5.16 at `LOCAL 2015`__
+2015.5.16. at `LOCAL 2015`__
 
 .. __: https://www.slideshare.net/shimizukawa/python-local-2015
 .. __: https://local-community-summit.doorkeeper.jp/events/22821
 
 `PyPro2の読みどころ紹介：Python開発の過去と現在`__
 -----------------------------------------------------
-2015.3.26 at `白ヤギ勉強会（第13回）`__
+2015.3.26. at `白ヤギ勉強会（第13回）`__
 
 .. __: https://www.slideshare.net/shimizukawa/pypro2python3
 .. __: http://aial.connpass.com/event/12900/
@@ -144,7 +144,7 @@ Easy contributable internationalization process with Sphinx
 
 `Forkwell キャリア談義 #2 feat. ビープラウド`__
 -------------------------------------------------
-2015.3.5 at Forkwell キャリア談義#2
+2015.3.5. at Forkwell キャリア談義#2
 
 .. __: https://forkwell.connpass.com/event/11424/
 
@@ -153,7 +153,7 @@ Easy contributable internationalization process with Sphinx
 
 `執筆中のPythonプロフェッショナルプログラミング第2版でsphinxを使っている話`__
 ---------------------------------------------------------------------------------
-2014.12.6 at `版管理+自動組版`__
+2014.12.6. at `版管理+自動組版`__
 
 .. __: https://www.slideshare.net/shimizukawa/python2sphinx
 .. __: https://connpass.com/event/6724/
@@ -161,13 +161,13 @@ Easy contributable internationalization process with Sphinx
 
 `Welcome to Sphinx-1.3`__
 ------------------------------
-2014.10.26.at SphinxCon JP 2014
+2014.10.26. at SphinxCon JP 2014
 
 .. __: http://www.freia.jp/sphinxconjp2014-welcome-to-sphinx-1.3/index.html
 
 `PyCharm活用術`__
 ----------------------
-2014.9.13 at PyCon JP 2014
+2014.9.13. at PyCon JP 2014
 
 .. __: http://www.freia.jp/pyconjp2014-pycharm/index.html
 
@@ -178,19 +178,98 @@ Easy contributable internationalization process with Sphinx
 
 .. __: http://www.freia.jp/taka/slides/pyconapac2013-how-to-make-with-python2-to-3/index.html
 
-* `Introduction to Sphinx documentation generator <http://www.freia.jp/taka/slides/pycontw2013-sphinx-introduction/index.html>`__ (@ `PyCon Taiwan 2013 <http://tw.pycon.org/2013/ja/speaker/#speaker_id_11>`__ . 2013.5.25.)
-* `Chefの 環境別設定が 難しい話 <http://www.freia.jp/taka/slides/biglobe-tech-talk1-chef-lt/index.html>`__ (@ `Biglobe Tech Talk #1 <http://connpass.com/event/2486/>`__ . 2013.6.14.)
-* `Chefで構築するBP-Redmine環境 <http://www.freia.jp/taka/slides/bpstudy68-chef/index.html>`__  (@ `BPStudy#68 <http://connpass.com/event/2207/>`__ . 2013.4.26.)
-* `Pythonな会社でchefしてる例の紹介 <http://www.freia.jp/taka/slides/chef-casual-talk1/index.html>`__  (@ `Chef Casual Talk #1 <http://chef-meetup.doorkeeper.jp/events/3513>`__ 2013.4.15.)
-* `ドキュメントジェネレータSphinx <http://www.freia.jp/taka/slides/everyrb-6th/index.html>`__ (@ `万葉.rb <http://everyleaf.github.io/kaigi/>`__ 2013.4.6.)
-* `Sphinx 1.2 preview <http://www.freia.jp/taka/slides/sphinx120-preview/index.html>`__  (@ `SphinxCon JP 2013 Spring <http://connpass.com/event/1379/>`_ 2013.2.23.)
 
-* `Refactoring A Python Beginner's Code <http://www.freia.jp/taka/slides/refactoring-python-beginners-code/index.html>`__ (@ `PyCon JP 2012 <http://2012.pycon.jp/program/sessions.html#session-15-1455-room433-ja>`__ 2012.9.15.)
+`Introduction to Sphinx documentation generator`__
+-------------------------------------------------------
+2013.5.25. at `PyCon Taiwan 2013`__
 
-* `Sphinxからプレゼンテーションスライドを作ってみた(htmlslide) <http://www.freia.jp/taka/slides/pycon-mini-jp-2011-sphinx-presentation/htmlslide/index.html>`__ (@ `PyCon mini JP 2011 <https://sites.google.com/site/pyconminijp/reports/lt#TOC-Sphinx->`__ 2011.1.31.)
-* `Sphinxからプレゼンテーションスライドを作ってみた(s6) <http://www.freia.jp/taka/slides/pycon-mini-jp-2011-sphinx-presentation/s6/index.html>`__ (@ `PyCon mini JP 2011 <https://sites.google.com/site/pyconminijp/reports/lt#TOC-Sphinx->`__ 2011.1.31.)
+.. __: http://www.freia.jp/taka/slides/pycontw2013-sphinx-introduction/index.html
+.. __: http://tw.pycon.org/2013/ja/speaker/#speaker_id_11
 
-* `Pythonで アジャイル 開発サイクル 2011ver. <http://www.freia.jp/taka/slides/xpfest2010/index.html>`__ (@ `XP祭り2010 ～ アジャイル学園祭～ <http://kokucheese.com/event/index/2167/>`__ 2010.9.4.)
+
+`Chefの 環境別設定が難しい話`__
+----------------------------------
+2013.6.14. at `Biglobe Tech Talk #1`__
+
+.. __: http://www.freia.jp/taka/slides/biglobe-tech-talk1-chef-lt/index.html
+.. __: http://connpass.com/event/2486/
+
+
+`Chefで構築するBP-Redmine環境`__
+--------------------------------------
+2013.4.26. at `BPStudy#68`__
+
+.. __: http://www.freia.jp/taka/slides/bpstudy68-chef/index.html
+.. __: http://connpass.com/event/2207/
+
+
+`Pythonな会社でchefしてる例の紹介`__
+--------------------------------------
+2013.4.15. at `Chef Casual Talk #1`__
+
+.. __: http://www.freia.jp/taka/slides/chef-casual-talk1/index.html
+.. __: http://chef-meetup.doorkeeper.jp/events/3513
+
+
+`ドキュメントジェネレータSphinx`__
+--------------------------------------
+2013.4.6. at `万葉.rb`__
+
+.. __: http://www.freia.jp/taka/slides/everyrb-6th/index.html
+.. __: http://everyleaf.github.io/kaigi/
+
+
+`Sphinx 1.2 preview`__
+---------------------------
+2013.2.23. at `SphinxCon JP 2013 Spring`__
+
+.. __: http://www.freia.jp/taka/slides/sphinx120-preview/index.html
+.. __: http://connpass.com/event/1379/
+
+
+`Writing a book using sphinx`__
+-----------------------------------------------------
+2012.9.16. at `SphinxCon JP 2012`__
+
+.. __: https://www.slideshare.net/shimizukawa/writing-a-book-using-sphinx-sphinxconjp-2012
+.. __: http://sphinx-users.jp/event/20120916_sphinxconjp/
+
+
+`Refactoring A Python Beginner's Code`__
+----------------------------------------------
+2012.9.15. at `PyCon JP 2012`__
+
+.. __: http://www.freia.jp/taka/slides/refactoring-python-beginners-code/index.html
+.. __: http://2012.pycon.jp/program/sessions.html#session-15-1455-room433-ja
+
+
+`BPStudy#48 PyCon JP 2011 開催報告`__
+---------------------------------------
+2011.8.31. at `BPStudy#48`__
+
+.. __: https://www.slideshare.net/shimizukawa/bpstudy48-pyconjp2011
+.. __: https://bpstudy.connpass.com/event/809/
+
+
+`Sphinxからプレゼンテーションスライドを作ってみた`__
+------------------------------------------------------
+2011.1.31. at `PyCon mini JP 2011`__
+
+.. __: http://www.freia.jp/taka/slides/pycon-mini-jp-2011-sphinx-presentation/s6/index.html
+.. __: https://sites.google.com/site/pyconminijp/reports/lt#TOC-Sphinx-
+
+* `htmlslide版`__
+
+.. __: http://www.freia.jp/taka/slides/pycon-mini-jp-2011-sphinx-presentation/htmlslide/index.html
+
+
+`Pythonで アジャイル 開発サイクル 2011ver.`__
+------------------------------------------------
+2010.9.4. at `XP祭り2010 ～ アジャイル学園祭～`__
+
+.. __: http://www.freia.jp/taka/slides/xpfest2010/index.html
+.. __: http://kokucheese.com/event/index/2167/
+
 
 Books
 =====
@@ -339,7 +418,7 @@ PyCon JP 2016 開催前レポート
 
 `海外PyCon発表修行レポート2015`__
 -----------------------------------
-2015.6.15 - 2015.9.18 at gihyo.jp
+2015.6.15. - 2015.9.18. at gihyo.jp
 
 .. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015
 
