@@ -4,6 +4,8 @@ Articles
 
 .. contents::
    :local:
+   :depth: 1
+   :backlinks: none
 
 
 Talks
@@ -42,6 +44,14 @@ Talks
   .. raw:: html
 
      <iframe src="//www.slideshare.net/slideshow/embed_code/key/9iS8q5POhRi14T" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+`Forkwell キャリア談義 #2 feat. ビープラウド`__
+-------------------------------------------------
+2015.3.5 at Forkwell キャリア談義#2
+
+.. __: https://forkwell.connpass.com/event/11424/
+
+.. figure:: forkwell-carrier-2.png
 
 
 `Welcome to Sphinx-1.3`__
@@ -212,8 +222,51 @@ Software Design Sphinx連載
 * `Software Design 2016年9月号:【18】ドキュメントを自動生成するautodoc(清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2016/201609>`__
 * `Software Design 2017年1月号:【22】Sphinxで本を書こう(清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2017/201701>`__
 
+
 Articles
 ========
+
+PyCon JP 2016 開催後レポート
+----------------------------
+
+PyCon JP 2016 開催前レポート
+----------------------------
+
+`海外PyCon発表修行レポート2015`__
+-----------------------------------
+2015.6.15 - 2015.9.18 at gihyo.jp
+
+.. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015
+
+- `2015.6.15 第1回 PyCon APAC 2015 in TaiwanでのSphinxに関する発表`__
+- `2015.7.14 第2回 PyCon SG 2015参加レポートとSphinxに関する発表`__
+- `2015.8.10 第3回 EuroPython 2015参加レポートと，Sphinxに関する発表（前編）`__
+- `2015.8.12 第4回 EuroPython 2015参加レポートと，Sphinxに関する発表（後編）`__
+- `2015.9.07 第5回 PyCon Malaysia 2015参加レポートとSphinx発表`__
+- `2015.9.18 第6回 PyCon Korea 2015参加レポートとSphinx発表`__
+
+.. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0001
+.. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0002
+.. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0003
+.. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0004
+.. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0005
+.. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0006
+
+PyCon JP 2014 レポート
+----------------------------
+
+PyCon JP 2013 レポート
+----------------------------
+
+PyCon JP 2012 レポート
+----------------------------
+
+PyCon JP 2011 レポート
+----------------------------
+
+
+Local Site
+----------
 
 .. toctree::
    :maxdepth: 1
@@ -285,4 +338,29 @@ Articles
 .. * :doc:`misc/index`
 ..
 ..   以前書いたり翻訳したりしたドキュメントなど。
+
+
+Interview
+=========
+
+`清水川 貴之｜Special Contents｜Vantan`__
+-----------------------------------------------
+2016.11.14 / Vantan | インタビュー
+
+.. __: https://vantan.jp/special/kiji.php?e_id=4511
+
+
+`プログラム初心者でも問題なし！1日6時間 全3日間でPythonを武器にするPythonキャリアカレッジ`__
+-----------------------------------------------------------------------------------------------
+2016.10.26 / CGWORLD.jp | インタビュー
+
+.. __: https://cgworld.jp/interview/201610-python.html
+
+
+`OSSをHackしてキャリアが広がる～海外生まれのドキュメントツール『Sphinx』を開発・運営する日本人メンバーに聞く`__
+-----------------------------------------------------------------------------------------------------------------
+2014.10.21 / エンジニアtype
+
+.. __: http://type.jp/et/log/article/sphinx-hack
+
 
