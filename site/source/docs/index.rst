@@ -142,9 +142,9 @@ Easy contributable internationalization process with Sphinx
 .. __: http://aial.connpass.com/event/12900/
 
 
-`Forkwell キャリア談義 #2 feat. ビープラウド`__
--------------------------------------------------
-2015.3.5. at Forkwell キャリア談義#2
+Forkwell キャリア談義 #2 feat. ビープラウド
+---------------------------------------------
+2015.3.5. at `Forkwell キャリア談義#2`__
 
 .. __: https://forkwell.connpass.com/event/11424/
 
@@ -162,22 +162,25 @@ Easy contributable internationalization process with Sphinx
 
 `Welcome to Sphinx-1.3`__
 ------------------------------
-2014.10.26. at SphinxCon JP 2014
+2014.10.26. at `SphinxCon JP 2014`__
 
 .. __: http://www.freia.jp/taka/slides/sphinxconjp2014-welcome-to-sphinx-1.3/index.html
+.. __: http://sphinx-users.jp/event/20141026_sphinxconjp/
 
 `PyCharm活用術`__
 ----------------------
-2014.9.13. at PyCon JP 2014
+2014.9.13. at `PyCon JP 2014`__
 
 .. __: http://www.freia.jp/taka/slides/pyconjp2014-pycharm/index.html
+.. __: https://pycon.jp/2014/schedule/presentation/5/
 
 
 `Python 2.5 からPython 3.3 で動作するツールの作り方`__
 --------------------------------------------------------------------
-2013.9.15. at PyCon APAC 2013
+2013.9.15. at `PyCon APAC 2013`__
 
 .. __: http://www.freia.jp/taka/slides/pyconapac2013-how-to-make-with-python2-to-3/index.html
+.. __: https://apac-2013.pycon.jp/ja/program/sessions.html#session-15-1300-rooma0715-ja1-ja
 
 
 `Introduction to Sphinx documentation generator`__
