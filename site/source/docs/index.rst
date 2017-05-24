@@ -149,6 +149,7 @@ Easy contributable internationalization process with Sphinx
 .. __: https://forkwell.connpass.com/event/11424/
 
 .. figure:: images/forkwell-carrier-2.png
+   :target: https://forkwell.connpass.com/event/11424/
 
 
 `執筆中のPythonプロフェッショナルプログラミング第2版でsphinxを使っている話`__
@@ -368,6 +369,7 @@ Information
 * 2015年11月, 改版 & PDF版追加
 
 .. figure:: images/picture978-4-87311-648-8.gif
+   :target: https://www.oreilly.co.jp/books/9784873116488/
 
 Information
 
