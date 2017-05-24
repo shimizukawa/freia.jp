@@ -163,13 +163,13 @@ Easy contributable internationalization process with Sphinx
 ------------------------------
 2014.10.26. at SphinxCon JP 2014
 
-.. __: http://www.freia.jp/sphinxconjp2014-welcome-to-sphinx-1.3/index.html
+.. __: http://www.freia.jp/taka/slides/sphinxconjp2014-welcome-to-sphinx-1.3/index.html
 
 `PyCharm活用術`__
 ----------------------
 2014.9.13. at PyCon JP 2014
 
-.. __: http://www.freia.jp/pyconjp2014-pycharm/index.html
+.. __: http://www.freia.jp/taka/slides/pyconjp2014-pycharm/index.html
 
 
 `Python 2.5 からPython 3.3 で動作するツールの作り方`__
@@ -227,12 +227,19 @@ Easy contributable internationalization process with Sphinx
 .. __: http://connpass.com/event/1379/
 
 
-`Writing a book using sphinx`__
+`Writing a book using sphinx`_
 -----------------------------------------------------
 2012.9.16. at `SphinxCon JP 2012`__
 
-.. __: https://www.slideshare.net/shimizukawa/writing-a-book-using-sphinx-sphinxconjp-2012
+.. _Writing a book using sphinx: https://www.slideshare.net/shimizukawa/writing-a-book-using-sphinx-sphinxconjp-2012
 .. __: http://sphinx-users.jp/event/20120916_sphinxconjp/
+
+日本語と英語のスライドがあります
+
+- `Sphinxを使って本を書こう`__
+- `Writing a book using sphinx`_
+
+.. __: https://www.slideshare.net/shimizukawa/sphinx-pyconjp-2012
 
 
 `Refactoring A Python Beginner's Code`__
@@ -243,12 +250,37 @@ Easy contributable internationalization process with Sphinx
 .. __: http://2012.pycon.jp/program/sessions.html#session-15-1455-room433-ja
 
 
+`PYTHON PACKAGING`__
+--------------------------
+2012.3.17. at `Python Developers Festa 2012.03`__
+
+.. __: https://www.slideshare.net/shimizukawa/python-packaging-pyfes-201203
+.. __: http://voluntas.hatenablog.com/entry/20111015/1318682867
+
+`Pythonスタートアップ勉強会 Python入門`__
+-------------------------------------------
+2011.9.28. at リクルートエージェント Pythonスタートアップセミナー
+
+.. __: https://www.slideshare.net/shimizukawa/python201109-python
+
+* togetter: https://togetter.com/li/193984
+
+
 `BPStudy#48 PyCon JP 2011 開催報告`__
 ---------------------------------------
 2011.8.31. at `BPStudy#48`__
 
 .. __: https://www.slideshare.net/shimizukawa/bpstudy48-pyconjp2011
 .. __: https://bpstudy.connpass.com/event/809/
+
+
+`ドキュメンテーションを加速するストレスフリーの作図ツール『blockdiag』`__
+-----------------------------------------------------------------------------
+2011.6.18. at `日本UNIXユーザ会 2011年6月勉強会`__
+
+.. __: https://www.slideshare.net/shimizukawa/blockdiag-jus20116
+.. __: http://sphinx-users.jp/event/20110618_jus_benkyoukai/index.html
+
 
 
 `Sphinxからプレゼンテーションスライドを作ってみた`__
@@ -258,9 +290,21 @@ Easy contributable internationalization process with Sphinx
 .. __: http://www.freia.jp/taka/slides/pycon-mini-jp-2011-sphinx-presentation/s6/index.html
 .. __: https://sites.google.com/site/pyconminijp/reports/lt#TOC-Sphinx-
 
+2つのプレゼン用HTMLテーマでスライドを出力しました
+
+* `s6版`__
 * `htmlslide版`__
 
+.. __: http://www.freia.jp/taka/slides/pycon-mini-jp-2011-sphinx-presentation/s6/index.html
 .. __: http://www.freia.jp/taka/slides/pycon-mini-jp-2011-sphinx-presentation/htmlslide/index.html
+
+
+`ドキュメントを作りたくなってしまう魔法のツールSphinx`__
+------------------------------------------------------------
+2010.12.8. at `日本UNIXユーザ会 2010年12月勉強会`__
+
+.. __: https://www.slideshare.net/shimizukawa/sphinx-6084667
+.. __: http://sphinx-users.jp/event/20101203_jus_benkyoukai.html
 
 
 `Pythonで アジャイル 開発サイクル 2011ver.`__
@@ -269,6 +313,20 @@ Easy contributable internationalization process with Sphinx
 
 .. __: http://www.freia.jp/taka/slides/xpfest2010/index.html
 .. __: http://kokucheese.com/event/index/2167/
+
+
+  Pythonでアジャイル開発を効率よく行う例として、
+  分散バージョン管理、構成管理、ユニットテスト、継続的インテグレ―ションなどを
+  用いた開発サイクルについて、それぞれPythonのツール群(MercurialHG,buildout,
+  Buildbot, Noseなど)の活用方法をお話します。
+
+
+`テスト自動化 - Buildbot & Selenium`__
+-----------------------------------------
+2008.3.7 at `Python Developers Camp 松本`__
+
+.. __: https://www.slideshare.net/shimizukawa/python-autotest-pdc2008w
+.. __: http://www.freia.jp/taka/blog/549/index.html
 
 
 Books
@@ -391,30 +449,54 @@ Information
 Software Design Sphinx連載
 --------------------------
 
-* `Software Design 2015年7月号:【4】テーブルを使いこなそう(清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2015/201507>`__
-* `Software Design 2015年8月号:【5】目次，用語集，索引を付けよう-大きめのドキュメントを読みやすくするために(本文:川本 安武，短信:清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2015/201508>`__
-* `Software Design 2015年9月号:【6】Webサイトを作ろう（前編）(本文:山田 剛，短信:清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2015/201509>`__
-* `Software Design 2015年10月号:【7】Webサイトを作ろう（後編）(本文:山田 剛，短信:清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2015/201510>`__
-* `Software Design 2015年11月号:【8】HTMLテーマをカスタマイズしてみよう-ドキュメントの見た目を変える(本文:熊谷 章治，短信:清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2015/201511>`__
-* `Software Design 2015年12月号:【9】ドキュメントに図を入れよう-さまざまなグラフィックツールとの連携(本文:小宮 健，短信:清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2015/201512>`__
-* `Software Design 2016年1月号:【10】ドキュメントに図を入れよう-テキストマークアップから図を生成する(本文:小宮 健，短信:清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2015/201601>`__
-* `Software Design 2016年2月号:【11】HTMLドキュメントを検索しよう(本文:打田 智子，短信:清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2015/201602>`__
-* `Software Design 2016年3月号:【12】Sphinxで本を書こう-EPUBで出力する(本文:若山 史郎，短信:清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2015/201603>`__
-* `Software Design 2016年4月号:【13】MarkdownではじめるSphinx(清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2016/201604>`__
-* `Software Design 2016年5月号:【14】Sphinxで楽々ドキュメント翻訳(清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2016/201605>`__
-* `Software Design 2016年6月号:【15】ドキュメント翻訳フローの自動化(清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2016/201606>`__
-* `Software Design 2016年9月号:【18】ドキュメントを自動生成するautodoc(清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2016/201609>`__
-* `Software Design 2017年1月号:【22】Sphinxで本を書こう(清水川 貴之) <http://gihyo.jp/magazine/SD/archive/2017/201701>`__
+.. raw:: html
+
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00XU0UEJY/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51bIY8z4rhL._SL160_.jpg" alt="ソフトウェア デザイン 2015年 07 月号 [雑誌]" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00XU0UEJY/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">ソフトウェア デザイン 2015年 07 月号 [雑誌]</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 17.05.24</div></div><div class="amazlet-detail"><br />技術評論社 (2015-06-18)<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00XU0UEJY/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+
+
+* `Software Design 2015年7月号:【4】テーブルを使いこなそう(清水川 貴之)`__
+* `Software Design 2015年8月号:【5】目次，用語集，索引を付けよう-大きめのドキュメントを読みやすくするために(本文:川本 安武，短信:清水川 貴之)`__
+* `Software Design 2015年9月号:【6】Webサイトを作ろう（前編）(本文:山田 剛，短信:清水川 貴之)`__
+* `Software Design 2015年10月号:【7】Webサイトを作ろう（後編）(本文:山田 剛，短信:清水川 貴之)`__
+* `Software Design 2015年11月号:【8】HTMLテーマをカスタマイズしてみよう-ドキュメントの見た目を変える(本文:熊谷 章治，短信:清水川 貴之)`__
+* `Software Design 2015年12月号:【9】ドキュメントに図を入れよう-さまざまなグラフィックツールとの連携(本文:小宮 健，短信:清水川 貴之)`__
+* `Software Design 2016年1月号:【10】ドキュメントに図を入れよう-テキストマークアップから図を生成する(本文:小宮 健，短信:清水川 貴之)`__
+* `Software Design 2016年2月号:【11】HTMLドキュメントを検索しよう(本文:打田 智子，短信:清水川 貴之)`__
+* `Software Design 2016年3月号:【12】Sphinxで本を書こう-EPUBで出力する(本文:若山 史郎，短信:清水川 貴之)`__
+* `Software Design 2016年4月号:【13】MarkdownではじめるSphinx(清水川 貴之)`__
+* `Software Design 2016年5月号:【14】Sphinxで楽々ドキュメント翻訳(清水川 貴之)`__
+* `Software Design 2016年6月号:【15】ドキュメント翻訳フローの自動化(清水川 貴之)`__
+* `Software Design 2016年9月号:【18】ドキュメントを自動生成するautodoc(清水川 貴之)`__
+* `Software Design 2017年1月号:【22】Sphinxで本を書こう(清水川 貴之)`__
+
+.. __: http://gihyo.jp/magazine/SD/archive/2015/201507
+.. __: http://gihyo.jp/magazine/SD/archive/2015/201508
+.. __: http://gihyo.jp/magazine/SD/archive/2015/201509
+.. __: http://gihyo.jp/magazine/SD/archive/2015/201510
+.. __: http://gihyo.jp/magazine/SD/archive/2015/201511
+.. __: http://gihyo.jp/magazine/SD/archive/2015/201512
+.. __: http://gihyo.jp/magazine/SD/archive/2015/201601
+.. __: http://gihyo.jp/magazine/SD/archive/2015/201602
+.. __: http://gihyo.jp/magazine/SD/archive/2015/201603
+.. __: http://gihyo.jp/magazine/SD/archive/2016/201604
+.. __: http://gihyo.jp/magazine/SD/archive/2016/201605
+.. __: http://gihyo.jp/magazine/SD/archive/2016/201606
+.. __: http://gihyo.jp/magazine/SD/archive/2016/201609
+.. __: http://gihyo.jp/magazine/SD/archive/2017/201701
 
 
 Articles
 ========
 
-PyCon JP 2016 開催後レポート
+PyCon JP 2016 レポート
 ----------------------------
 
-PyCon JP 2016 開催前レポート
-----------------------------
+- `2016.12.06. PyCon JP 2016 開催後レポート　～第2回 プログラムチームのPyCon JP 2016`__
+- `2016.08.24. PyCon JP 2016 開催前レポート　～第2回 プログラムについて`__
+
+.. __: https://codezine.jp/article/detail/9828
+.. __: https://codezine.jp/article/detail/9600
+
 
 `海外PyCon発表修行レポート2015`__
 -----------------------------------
@@ -422,12 +504,12 @@ PyCon JP 2016 開催前レポート
 
 .. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015
 
-- `2015.6.15 第1回 PyCon APAC 2015 in TaiwanでのSphinxに関する発表`__
-- `2015.7.14 第2回 PyCon SG 2015参加レポートとSphinxに関する発表`__
-- `2015.8.10 第3回 EuroPython 2015参加レポートと，Sphinxに関する発表（前編）`__
-- `2015.8.12 第4回 EuroPython 2015参加レポートと，Sphinxに関する発表（後編）`__
-- `2015.9.07 第5回 PyCon Malaysia 2015参加レポートとSphinx発表`__
-- `2015.9.18 第6回 PyCon Korea 2015参加レポートとSphinx発表`__
+- `2015.06.15. 第1回 PyCon APAC 2015 in TaiwanでのSphinxに関する発表`__
+- `2015.07.14. 第2回 PyCon SG 2015参加レポートとSphinxに関する発表`__
+- `2015.08.10. 第3回 EuroPython 2015参加レポートと，Sphinxに関する発表（前編）`__
+- `2015.08.12. 第4回 EuroPython 2015参加レポートと，Sphinxに関する発表（後編）`__
+- `2015.09.07. 第5回 PyCon Malaysia 2015参加レポートとSphinx発表`__
+- `2015.09.18. 第6回 PyCon Korea 2015参加レポートとSphinx発表`__
 
 .. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0001
 .. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0002
@@ -436,17 +518,36 @@ PyCon JP 2016 開催前レポート
 .. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0005
 .. __: http://gihyo.jp/news/report/01/overseas-pycon-presentation-training-2015/0006
 
-PyCon JP 2014 レポート
+PyCon Taiwan 2013 レポート
 ----------------------------
 
-PyCon JP 2013 レポート
-----------------------------
+- `2013.07.19. PyCon Taiwan 2013レポート　～イベント前日`__
+- `2013.07.19. PyCon Taiwan 2013レポート　～初日`__
+- `2013.07.19. PyCon Taiwan 2013レポート　～二日目`__
+
+.. __: https://codezine.jp/article/detail/7236
+.. __: https://codezine.jp/article/detail/7237
+.. __: https://codezine.jp/article/detail/7238
+
 
 PyCon JP 2012 レポート
 ----------------------------
 
+- `2012.10.22. PyCon JP 2012 レポート　～第4回 総括`__
+- `2012.09.13. PyCon JP 2012 開催前レポート　～第5回 併設イベントの紹介`__
+- `2012.09.12. PyCon JP 2012 開催前レポート　～第4回 プログラム以外の諸々`__
+
+.. __: https://codezine.jp/article/detail/6834
+.. __: https://codezine.jp/article/detail/6765
+.. __: https://codezine.jp/article/detail/6761
+
+
 PyCon JP 2011 レポート
 ----------------------------
+
+- `2011.09.15. 運営スタッフが振り返る「PyCon JP 2011」の模様と今後の展望`__
+
+.. __: https://codezine.jp/article/detail/6151
 
 
 Local Site
@@ -461,7 +562,7 @@ Local Site
    pyhack5/index
    xdv/index
    Sencha Touch 2 Exercise <http://www.freia.jp/taka/slides/sencha-touch2-exercise/index.html>
-   [翻訳]Zope2関連ドキュメントと記事 <http://docs.zope.jp/zope2/>
+   [翻訳]Zope2関連ドキュメントと記事 <http://zope.jp/zope2/index.html>
    [翻訳]ユニットテスト <http://plone.jp/documentation/unit-testing>
    [翻訳] Pythonパッケージ ヒッチハイク・ガイド <http://www.freia.jp/taka/slides/python-distribute-ja/index.html>
 
@@ -484,14 +585,6 @@ Local Site
 ..   Python Hack-a-thon 5 ハンズオン中級コース用資料。
 ..   PythonのDocTestを使ってみよう。TDDをDocTestでやってみよう。
 ..   DocTest Driven Development などについて説明した実習型の資料です。
-..
-.. * `XP祭り2010: Pythonでアジャイル開発サイクル 2010ver <http://www.freia.jp/taka/docs/xpfest2010/>`_
-..
-..   http://www.freia.jp/taka/docs/xpfest2010/
-..   XP祭り2010で発表した内容です。Pythonでアジャイル開発を効率よく行う例として、
-..   分散バージョン管理、構成管理、ユニットテスト、継続的インテグレ―ションなどを
-..   用いた開発サイクルについて、それぞれPythonのツール群(MercurialHG,buildout,
-..   Buildbot, Noseなど)の活用方法をお話します。
 ..
 ..
 .. * :doc:`xdv/index`
@@ -518,10 +611,6 @@ Local Site
 ..
 ..   http://plone.jp/documentation/unit-testing
 ..   清水川が翻訳したPloneのユニットテストに関するドキュメントです。
-..
-.. * :doc:`misc/index`
-..
-..   以前書いたり翻訳したりしたドキュメントなど。
 
 
 Interview
@@ -546,5 +635,12 @@ Interview
 2014.10.21 / エンジニアtype
 
 .. __: http://type.jp/et/log/article/sphinx-hack
+
+.. figure:: images/engineer-type-sphinx-20141021.jpg
+   :target: http://type.jp/et/log/article/sphinx-hack
+
+   ムリせず自然体で3人それぞれが「できることをやる」
+
+   （写真左から）山田剛氏、清水川貴之氏、小宮健氏の3人
 
 
