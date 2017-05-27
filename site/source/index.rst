@@ -7,8 +7,9 @@
    :maxdepth: 1
 
    blog/index
-   repos/index
+   talks
    docs/index
+   repos/index
    アルバム <http://www.flickr.com/photos/shimizukawa/sets/>
 
 .. note::

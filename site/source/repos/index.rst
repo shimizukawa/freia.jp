@@ -1,5 +1,6 @@
-ソースコード
-==============
+Repso
+=====
+
 公開しているソースコードなど。
 
 * GitHub: https://github.com/shimizukawa/
