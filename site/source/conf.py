@@ -67,7 +67,6 @@ html_sidebars = {
 
 html_title = project
 html_static_path = ['_static']
-html_use_smartypants = False
 html_use_modindex = False
 html_search_options = {'type': 'sphinx.search.ja.JanomeSplitter'}
 
