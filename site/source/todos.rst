@@ -4,7 +4,6 @@
 
 * bootstrapに切替
 
-  * 高: 右にcol-md-2くらいでページ内情報(ページ内navi, next, prev,)を置く
   * 中: ヘッダーのデザインに前のを出来れば踏襲してbootstrapっぽさを無くす
 
 * 高: ogg-image 情報を入れる

@@ -39,7 +39,6 @@ intersphinx_mapping = {
 
 templates_path = ['_templates']
 source_suffix = '.rst'
-#source_encoding = 'utf-8'
 master_doc = 'index'
 project = u'清水川Web'
 copyright = u'Takayuki SHIMIZUKAWA'
@@ -47,14 +46,8 @@ version = release = ''
 language = 'ja'
 #today = ''
 #today_fmt = '%B %d, %Y'
-#unused_docs = []
 exclude_trees = []
-#default_role = None
-#add_function_parentheses = True
-#add_module_names = True
-#show_authors = False
 pygments_style = 'sphinx'
-#modindex_common_prefix = []
 exclude_patterns = [
     'blog',
     'docs/*/*'
@@ -71,18 +64,15 @@ html_theme_options = {
     'source_link_position': "footer",
     'bootswatch_theme': "flatly"  # "cosmo", # "flatly", 'sandstone'
 }
-#html_theme_path = ['_themes']
-html_title = project #If None, it defaults to "<project> v<release> documentation".
-#html_short_title = None
-#html_logo = None
-#html_favicon = None
+html_sidebars = {
+    'index': [],
+    '**': ['localtoc.html', 'relations.html',],
+}
+
+html_title = project
 html_static_path = ['_static']
-#html_last_updated_fmt = '%b %d, %Y'
 html_use_smartypants = False
 html_use_modindex = False
-#html_use_index = True
-#html_split_index = False
-#html_show_sourcelink = True
 html_search_options = {'type': 'sphinx.search.ja.JanomeSplitter'}
 
 # -- setup --
