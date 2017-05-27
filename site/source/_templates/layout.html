@@ -1,5 +1,17 @@
 {% extends "!layout.html" %}
 
+{% set site_url = 'http://www.freia.jp/taka' %}
+{% set css_files = css_files + ['_static/css/font-awesome.min.css', ] %}
+
+{%- block extrahead %}
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site_url }}/rss.xml">
+<link rel="canonical" href="{{ site_url }}/{{ pagename }}.html">
+{% endblock %}
+
 {% block navbartoc %}{% endblock %}
 
 {% block sidebar2 %}
