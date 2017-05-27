@@ -62,13 +62,14 @@ html_theme_options = {
 }
 html_sidebars = {
     'index': [],
-    '**': ['localtoc.html', 'relations.html',],
+    '**': ['books.html', 'localtoc.html', 'relations.html',],
 }
 
 html_title = project
 html_static_path = ['_static']
 html_use_modindex = False
 html_search_options = {'type': 'sphinx.search.ja.JanomeSplitter'}
+html_experimental_html5_writer = True
 
 # -- setup --
 
