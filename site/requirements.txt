@@ -1,6 +1,7 @@
-Sphinx
+https://github.com/sphinx-doc/sphinx/archive/stable.zip
 Pillow
 sphinxcontrib-blockdiag
 sphinxcontrib-seqdiag
 https://github.com/shimizukawa/sphinxcontrib-feed/archive/master.zip
 sphinx-bootstrap-theme
+janome

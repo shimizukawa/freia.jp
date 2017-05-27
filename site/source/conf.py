@@ -76,6 +76,7 @@ html_use_smartypants = False
 #html_show_sourcelink = True
 #html_use_opensearch = ''
 #html_file_suffix = ''
+html_search_options = {'type': 'sphinx.search.ja.JanomeSplitter'}
 
 # -- Options for LaTeX output --------------------------------------------------
 #latex_paper_size = 'letter' #('letter' or 'a4').
