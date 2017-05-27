@@ -40,18 +40,13 @@ intersphinx_mapping = {
 templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
-project = u'清水川Web'
-copyright = u'Takayuki SHIMIZUKAWA'
+project = '清水川Web'
+copyright = 'Takayuki SHIMIZUKAWA All Rights Reserved.'
 version = release = ''
 language = 'ja'
-#today = ''
-#today_fmt = '%B %d, %Y'
 exclude_trees = []
 pygments_style = 'sphinx'
-exclude_patterns = [
-    'blog',
-    'docs/*/*'
-]
+# exclude_patterns = ['blog/*/*']
 
 
 # -- Options for HTML output ---------------------------------------------------
@@ -61,8 +56,9 @@ html_theme_options = {
     'navbar_title': "清水川Web",
     'navbar_sidebarrel': False,
     'navbar_pagenav': False,
+    'navbar_fixed_top': "false",
     'source_link_position': "footer",
-    'bootswatch_theme': "flatly"  # "cosmo", # "flatly", 'sandstone'
+    'bootswatch_theme': "flatly",
 }
 html_sidebars = {
     'index': [],
@@ -93,7 +89,7 @@ def add_context(app, pagename, templatename, context, doctree):
 
 
 def setup(app):
-    app.add_stylesheet('freia.css')
+    app.add_stylesheet('css/freia.css')
     app.add_object_type('confval', 'confval',
                         objname='configuration value',
                         indextemplate='pair: %s; configuration value')

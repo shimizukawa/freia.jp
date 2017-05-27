@@ -1,4 +1,6 @@
+<div class="related">
 <div class="well">
+<h3>ナビゲーション</h3>
 {%- if prev %}
 <h4>{{ _('Previous topic') }}</h4>
 <p class="topless"><a href="{{ prev.link|e }}"
@@ -9,4 +11,5 @@
 <p class="topless"><a href="{{ next.link|e }}"
                       title="{{ _('next chapter') }}">{{ next.title }}</a></p>
 {%- endif %}
+</div>
 </div>
