@@ -6,13 +6,13 @@ sys.path.append(os.path.join(os.path.abspath('.'), '_ext'))
 # -- Extensions -----------------------------------------------------
 import sphinx_bootstrap_theme
 extensions = [
-        'sphinxcontrib.blockdiag',
-        'sphinxcontrib.seqdiag',
-        'sphinx.ext.todo',
-        'iframe',
-        'sphinxcontrib.feed',
-        'sphinx.ext.intersphinx',
-        ]
+    'sphinxcontrib.blockdiag',
+    'sphinxcontrib.seqdiag',
+    'sphinx.ext.todo',
+    'iframe',
+    'sphinxcontrib.feed',
+    'sphinx.ext.intersphinx',
+]
 
 # for sphinx.ext.todo plugin
 todo_include_todos = True
