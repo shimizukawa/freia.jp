@@ -28,6 +28,11 @@ a[href]:hover {
 
 /* content body */
 
+h1
+{
+    line-height:1.5em;
+}
+
 h2
 {
     color: #337733;
@@ -81,17 +86,18 @@ blockquote {
 div.bs-sidenav h3, div.bs-sidenav h4 {
     color: black;
     font-size: 100%;
-}
-
-div.related h3 {
     display: block;
 }
 
-div.related a {
+div.relations {
+    margin: 1em;
+}
+
+div.relations a {
     color: #355F7C;
 }
 
-div.related a:hover {
+div.relations a:hover {
     text-decoration: underline;
 }
 
