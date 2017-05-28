@@ -1,5 +1,5 @@
 ========
-Writings
+Articles
 ========
 
 .. contents::
