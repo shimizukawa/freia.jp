@@ -1,7 +1,15 @@
 /* top navigation bar */
-#navbar {
-    background: url(../img/top_bg.gif);
-    background-repeat: repeat-x;
+@media (min-width: 768px) {
+    #navbar {
+        background-image: url(../img/top_bg.gif);
+        background-repeat: repeat-x;
+    }
+}
+@media (max-width: 767px) {
+    #navbar .navbar-header {
+        background-image: url(../img/top_bg.gif);
+        background-repeat: repeat-x;
+    }
 }
 
 #navbar .navbar-brand {
