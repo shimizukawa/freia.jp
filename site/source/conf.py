@@ -4,14 +4,15 @@ import sys, os
 sys.path.append(os.path.join(os.path.abspath('.'), '_ext'))
 
 # -- Extensions -----------------------------------------------------
+import sphinx_bootstrap_theme
 extensions = [
-        'sphinxcontrib.blockdiag',
-        'sphinxcontrib.seqdiag',
-        'sphinx.ext.todo',
-        'iframe',
-        'sphinxcontrib.feed',
-        'sphinx.ext.intersphinx',
-        ]
+    'sphinxcontrib.blockdiag',
+    'sphinxcontrib.seqdiag',
+    'sphinx.ext.todo',
+    'iframe',
+    'sphinxcontrib.feed',
+    'sphinx.ext.intersphinx',
+]
 
 # for sphinx.ext.todo plugin
 todo_include_todos = True
@@ -38,79 +39,59 @@ intersphinx_mapping = {
 
 templates_path = ['_templates']
 source_suffix = '.rst'
-#source_encoding = 'utf-8'
 master_doc = 'index'
-project = u'清水川Web'
-copyright = u'Takayuki SHIMIZUKAWA'
-version = '1.0'
-release = '1.0'
+project = '清水川Web'
+copyright = 'Takayuki SHIMIZUKAWA'
+version = release = ''
 language = 'ja'
-#today = ''
-#today_fmt = '%B %d, %Y'
-#unused_docs = []
 exclude_trees = []
-#default_role = None
-#add_function_parentheses = True
-#add_module_names = True
-#show_authors = False
 pygments_style = 'sphinx'
-#modindex_common_prefix = []
+# exclude_patterns = ['blog/*/*']
 
 
 # -- Options for HTML output ---------------------------------------------------
-html_theme = 'LoadFoo'
-#html_theme_options = {}
-html_theme_path = ['_themes']
-html_title = project #If None, it defaults to "<project> v<release> documentation".
-#html_short_title = None
-#html_logo = None
-#html_favicon = None
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+html_theme_options = {
+    'navbar_title': "清水川Web",
+    'navbar_sidebarrel': False,
+    'navbar_pagenav': False,
+    'navbar_fixed_top': "false",
+    'source_link_position': "footer",
+    'bootswatch_theme': "flatly",
+}
+html_sidebars = {
+    'index': [],
+    '**': ['books.html', 'localtoc.html', 'relations.html',],
+}
+
+html_title = project
 html_static_path = ['_static']
-#html_last_updated_fmt = '%b %d, %Y'
-html_use_smartypants = False
-#html_sidebars = {}
-#html_additional_pages = {}
-#html_use_modindex = True
-#html_use_index = True
-#html_split_index = False
-#html_show_sourcelink = True
-#html_use_opensearch = ''
-#html_file_suffix = ''
+html_use_modindex = False
 html_search_options = {'type': 'sphinx.search.ja.JanomeSplitter'}
-
-# -- Options for LaTeX output --------------------------------------------------
-#latex_paper_size = 'letter' #('letter' or 'a4').
-#latex_font_size = '10pt' # The font size ('10pt', '11pt' or '12pt').
-latex_documents = [
-  ('index', 'shimizukawa-web.tex', u'Shimizukawa web',
-   u'Takayuki SHIMIZUKAWA', 'manual'),
-]
-#latex_logo = None
-#latex_use_parts = False
-#latex_preamble = ''
-#latex_appendices = []
-#latex_use_modindex = True
-
-
-# -- Options for Epub output ---------------------------------------------------
-epub_title = project
-epub_author = u'Takayuki SHIMIZUKAWA'
-epub_publisher = u'Takayuki SHIMIZUKAWA'
-epub_copyright = u'Takayuki SHIMIZUKAWA'
-epub_language = 'ja'
-#epub_scheme = ''
-#epub_identifier = ''
-#epub_uid = ''
-#epub_pre_files = []
-#epub_post_files = []
-#epub_exclude_files = []
-epub_tocdepth = 3
-
+html_experimental_html5_writer = True
 
 # -- setup --
 
+from sphinx.environment.adapters.toctree import TocTree
+
+
+def _get_local_toctree(app, docname, collapse=True, **kwds):
+    if 'includehidden' not in kwds:
+        kwds['includehidden'] = False
+    toctree = TocTree(app.env).get_toctree_for(docname, app.builder, collapse, **kwds)
+    return toctree
+
+
+def add_context(app, pagename, templatename, context, doctree):
+    context['toctree_node'] = lambda **kw: _get_local_toctree(app, pagename, **kw)
+    context['render_partial'] = app.builder.render_partial
+
+
 def setup(app):
-    app.add_stylesheet('freia.css')
+    app.add_stylesheet('css/freia.css')
     app.add_object_type('confval', 'confval',
                         objname='configuration value',
                         indextemplate='pair: %s; configuration value')
+
+    app.connect('html-page-context', add_context)

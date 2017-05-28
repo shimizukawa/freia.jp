@@ -1,97 +1,58 @@
 {% extends "!layout.html" %}
 
 {% set site_url = 'http://www.freia.jp/taka' %}
-
-{%- block htmltitle %}
-<title>{{ title|striptags|e }}{{ titlesuffix }}</title>
-<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site_url }}/rss.xml">
-<link rel="canonical" href="{{ site_url }}/{{ pagename }}.html">
-{%- endblock %}
+{% set css_files = css_files + ['_static/css/font-awesome.min.css', ] %}
 
 {%- block extrahead %}
-
-<script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
-<script type="text/javascript">
-Hatena.Star.Token = '453373e8033d23906b6c28b1973274117b66ab97';
-Hatena.Star.SiteConfig = {
-  entryNodes: {
-    'div.entryBox': {
-      uri: 'h1 a',
-      title: 'h1',
-      container: 'h1'
-    },
-    'div.documentbody': {
-      uri: 'h1 a',
-      title: 'h1',
-      container: 'h1'
-    }
-  }
-};
-</script>
-
-<script type="text/javascript" src="{{ pathto('_static/js/HatenaBookmark.js', 1) }}"></script>
-<script type="text/javascript">
-Hatena.xBookmark.SiteConfig = {
-  '.documentContent .summary a': {},
-  'div.entryBox h1 a': {},
-  'div.documentbody h1 a.headerlink': {},
-  'div.documentbody .toctree-wrapper a': {},
-  '#portlet-recententry dd a': {}
-};
-</script>
-
-<script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-769552-1']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-     })();
-</script>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site_url }}/rss.xml">
+<link rel="canonical" href="{{ site_url }}/{{ pagename }}.html">
 {% endblock %}
 
-{%- block headerlogo %}
-<div id="logo">
-<a href="{{ url_root }}index.html" accesskey="1" id="portal-logo">清水川Web</a>
-<a href="{{ url_root }}rss.xml" title="RSS Feed"><img src="{{ pathto('_static/feed.png', 1) }}" alt="RSS Feed" title="RSS Feed"></a>
-</div>
-{%- endblock %}
+{% block navbartoc %}{% endblock %}
 
-{%- block headermenu %}
-<div id="menu">
-    <ul>
-        <li class="plain" id="portaltab-index_html">
-            <a title="" href="{{ url_root }}index.html">ホーム</a>
-        </li>
-        <li class="plain" id="portaltab-blog">
-            <a title="Python, Sphinx, 開発, その他色々について。つまり日記か。" href="{{ url_root }}blog/index.html">清水川記</a>
-        </li>
-        <li id="portaltab-docs">
-            <a title="スライド" href="{{ url_root }}slides/index.html">スライド</a>
-        </li>
-        <li class="plain" id="portaltab-photo">
-            <a title="XP,Zope,食,旅行等の各種イベントの写真を置いています。" href="http://www.flickr.com/photos/shimizukawa/sets/">アルバム</a>
-        </li>
-        <li class="plain" id="portaltab-code">
-        <a title="公開しているソースコードなど" href="https://github.com/shimizukawa/">Github</a>
-        </li>
-    </ul>
-</div>
-{%- endblock %}
+{% block sidebar1 %}{% endblock %}
+{% block sidebar2 %}{{ bsidebar() }}{% endblock %}
 
-{%- block extrarightbox %}
-<div class="box hatena-widget">
-    <script language="javascript" type="text/javascript" src="http://b.hatena.ne.jp/js/widget.js" charset="utf-8"></script>
-    <script language="javascript" type="text/javascript">
-        Hatena.BookmarkWidget.url   = "{{ site_url }}";
-        Hatena.BookmarkWidget.title = "Popular Entries";
-        Hatena.BookmarkWidget.sort  = "hot";
-        Hatena.BookmarkWidget.width = 0;
-        Hatena.BookmarkWidget.num   = 5;
-        Hatena.BookmarkWidget.theme = "notheme";
-        Hatena.BookmarkWidget.load();
-    </script>
-</div>
-{% endblock %}
+{%- block footer %}
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      {% if theme_source_link_position == "footer" %}
+        <br/>
+        {% include "sourcelink.html" %}
+      {% endif %}
+    </p>
+    <p>
+    {%- if show_copyright %}
+      {%- if hasdoc('copyright') %}
+        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}<br/>
+      {%- else %}
+        {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}<br/>
+      {%- endif %}
+    {%- endif %}
+    <a title="form" href="https://github.com/shimizukawa/freia.jp/issues/new" target="_blank">Contact Form</a><br/>
+    {%- if last_updated %}
+      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}<br/>
+    {%- endif %}
+    {%- if show_sphinx %}
+      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}<br/>
+    {%- endif %}
+    </p>
+  </div>
+</footer>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-769552-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+{%- endblock %}
