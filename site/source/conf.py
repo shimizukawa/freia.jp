@@ -41,7 +41,7 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
 project = '清水川Web'
-copyright = 'Takayuki SHIMIZUKAWA All Rights Reserved.'
+copyright = 'Takayuki SHIMIZUKAWA'
 version = release = ''
 language = 'ja'
 exclude_trees = []
