@@ -46,7 +46,7 @@ version = release = ''
 language = 'ja'
 exclude_trees = []
 pygments_style = 'sphinx'
-# exclude_patterns = ['blog/*/*']
+# exclude_patterns = ['blog/*']
 
 
 # -- Options for HTML output ---------------------------------------------------
@@ -61,8 +61,8 @@ html_theme_options = {
     'bootswatch_theme': "flatly",
 }
 html_sidebars = {
-    'index': [],
-    '**': ['books.html', 'localtoc.html', 'relations.html',],
+    'index': ['relations.html', 'books.html'],
+    '**': ['relations.html', 'localtoc.html', 'books.html'],
 }
 
 html_title = project
