@@ -11,7 +11,10 @@
 `Python Boot Camp in 神戸`_ に行ってきました。
 講師として参加したメモなので、チュートリアル本体の様子なんかは（ずっとしゃべってたこともあり）ほとんど書きません。
 
-公式の開催レポートは別途書かれると思います。
+公式の開催レポートは別途書かれると思います。 -> `PyCon JP Blog: Python Boot Camp in 神戸を開催しました。`__
+
+.. __: http://pyconjp.blogspot.jp/2017/05/python-boot-camp-in-kobe.html
+
 
 .. note::
 
