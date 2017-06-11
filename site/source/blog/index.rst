@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxjp-hack-a-thon-20170611/index
    pyhack-20170527/index
    birthday42/index
    pycamp201705-kobe/index
