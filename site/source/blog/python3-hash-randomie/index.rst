@@ -246,6 +246,7 @@ Pythonコアデベロッパーが **"OrdereDictは死んだ"** って言って�
 キーワード引数の順序維持
 
 .. code-block:: python
+
    > docker run -it --rm python:3.5.2
    Python 3.5.2 (default, Aug 31 2016, 03:01:41)
    [GCC 4.9.2] on linux
