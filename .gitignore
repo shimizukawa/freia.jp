@@ -2,7 +2,6 @@
 .*.swp
 .*.orig
 .*~
-site/build/doctrees
-site/build/html
+site/build/
 site/source/blog/images
 site/source/blog/stuff
