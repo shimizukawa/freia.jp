@@ -27,6 +27,11 @@
 - 運動はぶっちゃけやってません
 
 
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">体重が2014年4月20日以来の下値更新。ダイエット開始から2ヶ月と4日目。75.2kg -&gt; 69.6kg うぇーい！</p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/874744791728128001">2017年6月13日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 .. _シリコンバレー式 自分を変える最強の食事: http://amzn.to/2qkPXec
 
 
