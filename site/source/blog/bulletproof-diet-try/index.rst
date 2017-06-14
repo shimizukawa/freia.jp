@@ -49,7 +49,7 @@ MCTオイルとかグラスフェッドバターって、どこで売ってる�
 .. csv-table::
    :stub-columns: 1
    :header-rows: 1
-   :cssclass: table-hover table-bordered
+   :class: table-hover table-bordered
 
    ,4/9,4/29,差分
    体重,75.2kg,70.8kg,-4.4kg
