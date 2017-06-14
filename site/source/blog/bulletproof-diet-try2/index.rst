@@ -43,6 +43,7 @@
 .. csv-table::
    :stub-columns: 1
    :header-rows: 1
+   :cssclass: table-hover table-bordered
 
    ,4/9,6/14,差分
    体重,75.2kg,69.6kg,-5.6kg
