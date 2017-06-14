@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   bulletproof-diet-try2/index
    sphinxjp-hack-a-thon-20170611/index
    pyhack-20170527/index
    birthday42/index
