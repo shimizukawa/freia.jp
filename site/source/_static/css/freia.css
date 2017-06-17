@@ -65,6 +65,12 @@ blockquote {
     padding: 10px;
 }
 
+/*** field ***/
+
+dl.field-list dd {
+    margin-left: 30px;
+}
+
 /**** image/figure ***/
 
 .figure {
