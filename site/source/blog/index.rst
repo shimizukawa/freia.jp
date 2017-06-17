@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinx-private-hosting-on-heroku/index
    disaster-prevention-manager-training/index
    bulletproof-diet-try2/index
    sphinxjp-hack-a-thon-20170611/index
