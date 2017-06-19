@@ -10,7 +10,7 @@
 
 `Whining Express`_ より:
 
-.. parsed-litearl::
+.. parsed-literal::
 
   ああん、<type 'str'> って入れたのに、まるごとサニタイズされちゃった。 [1]_
 
