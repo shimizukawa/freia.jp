@@ -75,6 +75,7 @@ reStructuredText
 
   遅れてますが、自分の担当範囲をもくもくと書きました。
 
+.. _Sphinx Tea Night 2017.06: https://sphinxjp.connpass.com/event/58349/
 .. _Sphinxをはじめよう: http://www.oreilly.co.jp/books/9784873116488/
 
 
