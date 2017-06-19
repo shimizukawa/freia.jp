@@ -54,7 +54,7 @@
 
 setup.py(diff差分):
 
-.. code-block:: python
+.. code-block:: diff
 
   @@ -16,3 +16,4 @@
          license='ZPL',
@@ -89,7 +89,7 @@ wsgi.ini, wsgi.py をPasteで作成する
 
 setup.py(diff差分):
 
-.. code-block:: python
+.. code-block:: diff
 
   @@ -20,9 +20,14 @@
          zip_safe=False,

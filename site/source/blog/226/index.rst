@@ -20,7 +20,7 @@ Windows2003なActiveDirectoryに格納されているユーザーの認証はう
 
 以下は最終的にとりあえず落ち着いている設定。
 
-.. code-block:: python
+.. code-block:: conf
 
   AuthName "Please enter your ID and password"
   AuthType Basic

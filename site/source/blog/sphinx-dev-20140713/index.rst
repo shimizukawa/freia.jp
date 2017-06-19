@@ -161,7 +161,7 @@ Issue #1503: `Default parameter with value an empty list ([]) parsed incorrectly
 
 .. __: https://bitbucket.org/birkenfeld/sphinx/issue/1503/default-parameter-with-value-an-empty-list
 
-先週、パッチをもらったけどテストを書いたらちょっと問題があることが分かったので、パッチの更新依頼をしていたやつ (:doc:`../sphinx-dev-20140705`)。昨日更新版パッチをもらったので適用したら期待した結果になったので即取り込んだ。
+先週、パッチをもらったけどテストを書いたらちょっと問題があることが分かったので、パッチの更新依頼をしていたやつ (:doc:`../sphinx-dev-20140705/index`)。昨日更新版パッチをもらったので適用したら期待した結果になったので即取り込んだ。
 
 
 

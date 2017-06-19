@@ -18,7 +18,7 @@
 
 :参加者: @tk0miya(会長), @usaturn, @shimizukawa(会計), @pashango2, @TudaRom, @yosuken900(副会長), nskgch
 
-参加者が7人。前回 :doc:`../sphinxjp-hack-a-thon-20170318` より1人減だけどまだまだ賑やかな人数です。
+参加者が7人。前回 :doc:`../sphinxjp-hack-a-thon-20170318/index` より1人減だけどまだまだ賑やかな人数です。
 
 みんながやったこと
 =====================
