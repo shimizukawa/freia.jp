@@ -8,7 +8,9 @@
 
 *Category: 'Zope'*
 
-`Whining Express`_ より::
+`Whining Express`_ より:
+
+.. parsed-litearl::
 
   ああん、<type 'str'> って入れたのに、まるごとサニタイズされちゃった。 [1]_
 
