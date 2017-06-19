@@ -42,7 +42,7 @@
 
   .. __: http://www.freia.jp/taka/file/Zope/messageboard_step02_silvercity.tgz
 
-.. class:: visualClear
+.. cssclass:: visualClear
 
 次回は8/7の予定です。‥‥近いな。
 

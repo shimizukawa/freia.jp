@@ -17,12 +17,12 @@ Senchaを使ってアプリっぽいものを作っています。
 
 jQuery Mobile と Sencha の比較検討についてはけっこうみんな気になるところなんでしょうね。
 
-* `jQuery Mobile と　jQTouch と Sencha Touch の事など - 牌語備忘録 - pygo <http://d.hatena.ne.jp/CortYuming/20110924/p1>`_
-* `Sencha Touch vs jQuery Mobile &#8212; a first look | Code for Concinnity <http://cfc.kizzx2.com/index.php/sencha-touch-vs-jquery-mobile-a-first-look/>`_
+* `jQuery Mobile と　jQTouch と Sencha Touch の事など - 牌語備忘録 - pygo <http://d.hatena.ne.jp/CortYuming/20110924/p1>`__
+* `Sencha Touch vs jQuery Mobile &#8212; a first look | Code for Concinnity <http://cfc.kizzx2.com/index.php/sencha-touch-vs-jquery-mobile-a-first-look/>`__
 
 Sencha Touch そのものの紹介などは自分はやらないので、以下の記事等を参考にすると良いと思います。
 
-* `Sencha Touch について調べました。 | ありえるえりあ <http://dev.ariel-networks.com/wp/archives/973>`_
+* `Sencha Touch について調べました。 | ありえるえりあ <http://dev.ariel-networks.com/wp/archives/973>`__
 
 
 Sencha Touch 2
@@ -31,8 +31,8 @@ Sencha Touch 2
 ところで自分がSenchaに着手したのは3月末くらいで、ちょうどその頃にSencha Touch 2がリリースされていました。
 Sencha Touch 1 を使ったことがないのですが紹介記事などを見ていると良さそうに思えます。
 
-* `HTML5ベースのモバイルアプリが作れる「Sencha Touch 2.0」公開。性能向上とiOS/Androidネイティブ変換機能が目玉 － Publickey <http://www.publickey1.jp/blog/12/html5sencha_touch_20iosandroid.html`_
-* `Sencha Touch 2 First Look :) | ありえるえりあ <http://dev.ariel-networks.com/wp/archives/1056>`_
+* `HTML5ベースのモバイルアプリが作れる「Sencha Touch 2.0」公開。性能向上とiOS/Androidネイティブ変換機能が目玉 － Publickey <http://www.publickey1.jp/blog/12/html5sencha_touch_20iosandroid.html>`__
+* `Sencha Touch 2 First Look :) | ありえるえりあ <http://dev.ariel-networks.com/wp/archives/1056>`__
 
 短期間で成果物を作ろうとしてるならリリース直後のものは避けますが、今回は新しい方が良い事情もあり、2の方を使うことになりました。
 
@@ -40,18 +40,18 @@ Sencha Touch 2はリリースされたばかりだし、 Sencha Touch 1とは異
 
 あ、公式ドキュメントの読み方（というか探検の仕方）に慣れるのにも多少かかりました。
 
-* `Sencha Docs Touch 2.0 <http://docs.sencha.com/touch/2-0/>`_
+* `Sencha Docs Touch 2.0 <http://docs.sencha.com/touch/2-0/>`__
 
 サンプルコードデモは実装したい動きに近いものを探してコードを読むには良いですね。これを読んでからドキュメントを読むと何となく使い方が分かる気がします。
 
-* `Kitchen Sink Example - Sencha Docs Touch 2.0 <http://docs.sencha.com/touch/2-0/#!/example/kitchen-sink>`_
+* `Kitchen Sink Example - Sencha Docs Touch 2.0 <http://docs.sencha.com/touch/2-0/#!/example/kitchen-sink>`__
 
 
 コード例
 ============
 とりあえずJavaScriptを書くつもりで構えない方が良い気がします。
 
-`Building your First App - Sencha Docs Touch 2.0 <http://docs.sencha.com/touch/2-0/#!/guide/first_app>`_ から一番小さいコードを引用します。
+`Building your First App - Sencha Docs Touch 2.0 <http://docs.sencha.com/touch/2-0/#!/guide/first_app>`__ から一番小さいコードを引用します。
 
 .. code-block:: javascript
 

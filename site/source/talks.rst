@@ -76,7 +76,7 @@ Sphinx autodoc: automated API documentation
 * 2015.8.29 PyCon Korea 2015 (page__, slide__)
 
   .. __: https://www.pycon.kr/2015/program/33
-.. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-pyconkr-2015
+  .. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-pyconkr-2015
 
 * 2015.8.22 PyCon Malaysia 2015 (slide__)
 
@@ -85,12 +85,12 @@ Sphinx autodoc: automated API documentation
 * 2015.7.20 EuroPython 2015 (page__, slide__)
 
   .. __: https://ep2015.europython.eu/conference/talks/sphinx-autodoc-automated-api-documentation
-.. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-europython-2015-in-bilbao
+  .. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-europython-2015-in-bilbao
 
 * 2015.6.7 PyCon APAC 2015 in Taiwan (page__, slide__)
 
   .. __: https://tw.pycon.org/2015apac/zh/program/69
-.. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-pyconapac2015
+  .. __: https://www.slideshare.net/shimizukawa/sphinx-autodoc-automated-api-documentation-pyconapac2015
 
 
 Easy contributable internationalization process with Sphinx
@@ -103,12 +103,12 @@ Easy contributable internationalization process with Sphinx
 * 2015.6.18 PyCon Singapore 2015 (page__, slide__)
 
   .. __: https://pycon.sg/static/archive/2015/schedule/presentation/49/index.html
-.. __: https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pyconsg2015
+  .. __: https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pyconsg2015
 
 * 2015.6.6 PyCon APAC 2015 in Taiwan (page__, slide__)
 
   .. __: https://tw.pycon.org/2015apac/zh/program/50
-.. __: https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pycon-apac-2015-in-taiwan-49057754
+  .. __: https://www.slideshare.net/shimizukawa/easy-contributable-internationalization-process-with-sphinx-pycon-apac-2015-in-taiwan-49057754
 
 `PyPro2の読みどころ紹介：Python開発の過去と現在`__
 ====================================================
@@ -139,8 +139,8 @@ Forkwell キャリア談義 #2 feat. ビープラウド
 
 .. __: https://forkwell.connpass.com/event/11424/
 
-.. figure:: images/forkwell-carrier-2.png
-:target: https://forkwell.connpass.com/event/11424/
+.. figure:: docs/images/forkwell-carrier-2.png
+   :target: https://forkwell.connpass.com/event/11424/
 
 
 `執筆中のPythonプロフェッショナルプログラミング第2版でsphinxを使っている話`__

@@ -58,6 +58,7 @@ Skypeのコマンド
 部屋のガイドラインを設定・表示:
    * 設定 ``/set guidelines 文字列``
    * 表示 ``/get guidelines``
+
    しかしこれ能動的に見に行かないと分からないので微妙
 新規参加者が参加前のログを見る:
    ``/set options +HISTORY_DISCLOSED``

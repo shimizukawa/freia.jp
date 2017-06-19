@@ -8,7 +8,7 @@
 
 *Category: 'python', 'Programming'*
 
-デバッグ版Python32_d.libは標準のパッケージ 1_ には同梱されていない。そしてpython.hをincludeすると内部的に以下のようにかかれているので、Debugだとpython23_d.libを自動的にリンクしようとして失敗してしまう。::
+デバッグ版Python32_d.libは標準のパッケージ [1]_ には同梱されていない。そしてpython.hをincludeすると内部的に以下のようにかかれているので、Debugだとpython23_d.libを自動的にリンクしようとして失敗してしまう。::
 
   #ifdef _DEBUG
       #pragma comment(lib,"python23_d.lib")

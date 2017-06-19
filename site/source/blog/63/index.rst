@@ -32,7 +32,7 @@
 
 上記の *Amazon License Key* と *Amazon Associate ID* はAmazonで `デベロッパー・トークンを申し込む`_ ことで入手することが出来ます。また、サンプルで使うためにここではidを *zamazon* とします。(タイトルとProxyはオプション)
 
-そして以下のような *DTML Document* を作成して使います 1_ ::
+そして以下のような *DTML Document* を作成して使います [1]_ ::
 
   ＜dtml-var standard_html_header＞
   ＜table border=1＞
@@ -65,7 +65,7 @@ searchByASINの部分を以下のように書き換えると::
 
   zamazon.searchByWishlist('3AEH19HYIMCTJ')
 
-自分のWishListを表示_ することが出来たりします 2_ 。
+自分のWishListを表示_ することが出来たりします [2]_ 。
 
 ZAmazon_ は今のままでもコードさえ書けばたいていのことは出来るのですが、micro-8さんのようにCOREblogで使えるようにするとか、辞書でProductNameを引くなどのコードを書かなくても任意の情報を取得できるようにするとかをしていかないと、一般の人への訴求力はかなり弱いですね。
 

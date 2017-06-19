@@ -82,7 +82,7 @@
   
   ‥‥大杉。今日だけでコメントスパム投稿数 **100件** って何？
 
-.. class:: visualClear
+.. cssclass:: visualClear
 
 .
 

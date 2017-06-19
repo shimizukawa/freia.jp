@@ -8,7 +8,7 @@
 
 *Category: 'Zope'*
 
-渋さんのblog__ [1] より。
+渋さんのblog__ [#]_ より。
 
 __ http://www.shibu.jp/blog/491
 

@@ -65,7 +65,6 @@
 .. toctree::
    :maxdepth: 1
 
-   2015-furikaeri/index
    pycon2015-malaysia/index
    europython2015-extra/index
    pycon2015-proposals/index

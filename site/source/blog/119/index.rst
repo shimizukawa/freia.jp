@@ -8,7 +8,7 @@
 
 *Category: 'WZ', 'python'*
 
-先日作った pygw 1_ を拡張して、 Python_ のprint文出力先をWZの任意の関数に接続できるようにしてみた。
+先日作った pygw [1]_ を拡張して、 Python_ のprint文出力先をWZの任意の関数に接続できるようにしてみた。
 
 WZマクロの例::
 
