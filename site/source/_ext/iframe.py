@@ -34,3 +34,8 @@ iframe.content = 1
 def setup(app=None):
     # Simply importing this module will make the directive available.
     docutils.parsers.rst.directives.register_directive( 'iframe', iframe )
+    return {
+        'version': '1.0',
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
+    }
