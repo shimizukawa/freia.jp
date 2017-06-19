@@ -26,7 +26,7 @@ build:
         code: |
           set -ex
           ls -laF site/build/*
-          sphinx-build -M html site/source site/build -N -T -j
+          sphinx-build -M html site/source site/build -N -T -j 4
     - script:
         name: echo status
         code: |
