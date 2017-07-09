@@ -153,3 +153,12 @@ div.amazlet-box {
     width: 80%;
 }
 
+/* sidebar book */
+a.book-pypro2 {
+    display: block;
+    width: 124px;
+    height: 160px;
+    margin: 4px auto;
+    background-image: url("https://images-fe.ssl-images-amazon.com/images/I/41jP7BdvluL._SL160_.jpg");
+}
+
