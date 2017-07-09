@@ -20,7 +20,7 @@ Windows2003なActiveDirectoryに格納されているユーザーの認証はう
 
 以下は最終的にとりあえず落ち着いている設定。
 
-.. code-block:: conf
+.. code-block:: apache
 
   AuthName "Please enter your ID and password"
   AuthType Basic
