@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   bulletproof-diet-try3/index
    sphinxjp-tea-night-201706/index
    pyhack-20170617/index
    sphinx-private-hosting-on-heroku/index
