@@ -19,7 +19,7 @@
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日のSphinx Tea Nightの様子です <a href="https://twitter.com/hashtag/sphinxjp?src=hash">#sphinxjp</a> (@ 喫茶室ルノアール 市ヶ谷駅前店 in 千代田区, 東京都) <a href="https://t.co/vH7dVzDZN4">https://t.co/vH7dVzDZN4</a> <a href="https://t.co/5900IPbY8V">pic.twitter.com/5900IPbY8V</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/884751697758875648">2017年7月11日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-.. _Sphinx Tea Night 2017.06: https://sphinxjp.connpass.com/event/61387/
+.. _Sphinx Tea Night 2017.07: https://sphinxjp.connpass.com/event/61387/
 
 自己紹介
 ========
@@ -28,7 +28,7 @@
 
 * dtzx（たかはし）さん. 最近時間ができたので、以前ドキュメントを作るツールとして見掛けたSphinxの勉強会があったので、参加してみました。
 
-* nskgch: Sphinxイベントに参加しはじめて1年たってない新参者です。Sphinxドキュメントの飜訳をちょっとやったりしてます。仕事でドキュメントの構造化や日本語英語の一元管理なんかが必要で、Sphinxをそこに使っています。
+* nskgch（さかぐちさん）: Sphinxイベントに参加しはじめて1年たってない新参者です。Sphinxドキュメントの飜訳をちょっとやったりしてます。仕事でドキュメントの構造化や日本語英語の一元管理なんかが必要で、Sphinxをそこに使っています。
 
 
 話したこと
