@@ -12,7 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
-
+   sphinxjp-tea-night-201707/index
    bulletproof-diet-try3/index
    sphinxjp-tea-night-201706/index
    pyhack-20170617/index
