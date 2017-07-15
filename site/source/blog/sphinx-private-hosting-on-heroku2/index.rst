@@ -6,9 +6,9 @@
 2017/07/15 SphinxドキュメントをHerokuに数クリックでホスティングしたい
 ======================================================================
 
-*Category: 'Python', 'pyhack', 'camp'*
+*Category: 'Python', 'Sphinx', 'Heroku', 'Hosting'*
 
-:doc:`../pyhack-20170714/index`` に参加しています。
+:doc:`../pyhack-20170714/index` に参加しています。
 
 
 先日、 :doc:`../sphinx-private-hosting-on-heroku/index` というBlogを書きました。今日は、これをもうちょっと楽に使えるようにカスタマイズしました。
@@ -49,7 +49,7 @@ Herokuのテンプレートを使って、数クリックでHerokuアプリを�
 
 短所
 
-* まだ色々。ドキュメントの再ビルドが出来ないのがクリティカル
+* まだ色々。ドキュメントの再ビルドが出来ないのがクリティカル。詳しくはこちら -> https://github.com/shimizukawa/heroku-sphinxbuild-template#limitations
 
 
 使い方
@@ -64,6 +64,7 @@ Herokuのテンプレートを使って、数クリックでHerokuアプリを�
 
 
 .. figure:: heroku-button.*
+   :target: https://github.com/shimizukawa/heroku-sphinxbuild-template#limitations
 
 
 .. figure:: sphinx-heroku-deploy.*
