@@ -55,7 +55,7 @@
 
 
 2日目(7/15土)早朝トレーニング
-=====================
+=============================
 
 安田さんと何人かとでトレーニングいきました。
 
@@ -103,6 +103,70 @@ BBQ!!!!
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿 BBQ!!! (@ マウンテンパパ ペンション in 須坂市, 長野県) <a href="https://t.co/fjQzXYg6v0">https://t.co/fjQzXYg6v0</a> <a href="https://t.co/F3OU4UCPie">pic.twitter.com/F3OU4UCPie</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886164521706037248">2017年7月15日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+2日目夜
+========
+
+また麻雀、東風戦で1回。オーラスで親満ツモって逆転勝利！！！！
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 麻雀、東風戦オーラス親満ツモって逆転勝利～ (@ マウンテンパパ ペンション in 須坂市, 長野県) <a href="https://t.co/QOSyzgW3M5">https://t.co/QOSyzgW3M5</a> <a href="https://t.co/2aI27leDjQ">pic.twitter.com/2aI27leDjQ</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886211411143270400">2017年7月15日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+3日目の朝
+==========
+
+朝ご飯。また低糖質パンいただきました。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿3日目 あさごはーん (@ マウンテンパパ ペンション in 須坂市, 長野県) <a href="https://t.co/Vhb5LVJcy3">https://t.co/Vhb5LVJcy3</a> <a href="https://t.co/Mf3LkBWmoj">pic.twitter.com/Mf3LkBWmoj</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886363573458436097">2017年7月15日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+そして、午前中のうちに3人くらい帰って行った。
+
+ドライゼロ1ケースは買いすぎだったかも。たくさん飲まなきゃ！
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">かんぱーい！チーカマが捗るぜー <a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> (@ マウンテンパパ ペンション in 須坂市, 長野県) <a href="https://t.co/TcGBPuHggZ">https://t.co/TcGBPuHggZ</a> <a href="https://t.co/WLpzuL18NB">pic.twitter.com/WLpzuL18NB</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886412022627405824">2017年7月16日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+3日目の昼
+==========
+
+昼ご飯。
+
+マウンテンパパの美味しいハヤシライス。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ランチのハヤシライス！ <a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿 (@ マウンテンパパ ペンション in 須坂市, 長野県) <a href="https://t.co/XwT6o06pwa">https://t.co/XwT6o06pwa</a> <a href="https://t.co/t19QkQPdLk">pic.twitter.com/t19QkQPdLk</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886428397668368384">2017年7月16日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ハヤシライスを横目に、美味しい糖質ゼロ麺をいただきました。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">またまた糖質ゼロ麺作ってもらった。大根おろしと大葉と梅肉でこんなに美味しく..ありがたい～ <a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿 (@ マウンテンパパ ペンション in 須坂市, 長野県) <a href="https://t.co/Ty1nZBVHvH">https://t.co/Ty1nZBVHvH</a> <a href="https://t.co/jUxrUfwMSR">pic.twitter.com/jUxrUfwMSR</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886429223317123073">2017年7月16日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+3日目の夜
+===========
+
+なんだか幾何学的な並びの夕食。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">幾何学的な夕食 <a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿 (@ マウンテンパパ ペンション in 須坂市, 長野県) <a href="https://t.co/uof40KP3xH">https://t.co/uof40KP3xH</a> <a href="https://t.co/no2P4xszqf">pic.twitter.com/no2P4xszqf</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886528120119070720">2017年7月16日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+どれもめっちゃ美味しかったし、この後出てきた天ぷらとロールキャベツも美味しかった。味噌汁と杏仁豆腐も美味しかった。
 
 
 ・・・続く。
