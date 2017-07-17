@@ -15,6 +15,11 @@
 
 7/14(金)から始まった ``#pyhack`` 夏山合宿です。
 
+.. figure:: group-photo.*
+
+   集合写真（3日目朝に撮影）
+
+
 1日目(7/14金) 到着
 ===================
 
@@ -108,7 +113,10 @@ BBQ!!!!
 2日目夜
 ========
 
-また麻雀、東風戦で1回。オーラスで親満ツモって逆転勝利！！！！
+（このあたりで成果発表会をやった。 @hirokiky の勤怠入力Slackコマンド, @shimizuakwa のSphinx Heroku Deployボタン, @yotchang4s のPythonのJava実装）
+
+
+そしてまた麻雀。東風戦で1回。オーラスで親満ツモって逆転勝利！！！！
 
 .. raw:: html
 
@@ -169,5 +177,67 @@ BBQ!!!!
 どれもめっちゃ美味しかったし、この後出てきた天ぷらとロールキャベツも美味しかった。味噌汁と杏仁豆腐も美味しかった。
 
 
-・・・続く。
+（このあたりで成果発表会をやった気がする）
+
+夜は雑談で盛り上がることもあまりなかったし、麻雀もしなかった。3泊4日あると最終日の夜は大分作業に集中できて良いね。
+
+
+4日目
+=========
+
+朝食
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿、初の4日目の朝ご飯！！ (@ マウンテンパパ ペンション in 須坂市, 長野県 w/ <a href="https://twitter.com/shidocchi">@shidocchi</a>) <a href="https://t.co/GwU6RdmR8t">https://t.co/GwU6RdmR8t</a> <a href="https://t.co/x3TeFWH0cF">pic.twitter.com/x3TeFWH0cF</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886730803773931520">2017年7月16日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+11頃には、みんなだいたい帰り始める予定
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿最終日。ギリギリまでhackする皆さん (@ マウンテンパパ ペンション in 須坂市, 長野県) <a href="https://t.co/xDd7SKjVxh">https://t.co/xDd7SKjVxh</a> <a href="https://t.co/gSJvZ6G2C9">pic.twitter.com/gSJvZ6G2C9</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886761351934337028">2017年7月17日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+ダック菅池で、毎回バスのキップとお土産を買ってみてる。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿、帰り道にお土産ゲット (@ 菅平レジャーセンター ダック菅池 in 上田市, 長野県) <a href="https://t.co/EPjFaa1O8K">https://t.co/EPjFaa1O8K</a> <a href="https://t.co/tUqkcK0Q9W">pic.twitter.com/tUqkcK0Q9W</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886766567526211585">2017年7月17日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+バス組は11時のバスに乗って暑い地上へ移動
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿おわり。帰る。25℃の高原 → 35℃酷暑の関東平野 (@ 菅平高原ダボス(上田バス) in 上田市, 長野県) <a href="https://t.co/QdtczrVxAV">https://t.co/QdtczrVxAV</a> <a href="https://t.co/mfNy6xOEJ9">pic.twitter.com/mfNy6xOEJ9</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886767181312249856">2017年7月17日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+上田駅前の竹風堂で、恒例の栗あんソフトクリーム！！
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">いつもの！ <a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿 (@ 竹風堂 上田店 in 上田市, 長野県) <a href="https://t.co/xYy5fPtMte">https://t.co/xYy5fPtMte</a> <a href="https://t.co/8x2gYrEYPv">pic.twitter.com/8x2gYrEYPv</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886784886937444353">2017年7月17日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+新幹線は3連休の最終日ということで、12:39 上田駅発の指定席は全滅。自由席は多少余裕があって、自分, aodag, yotchang4s の3人で横並びに座れた。その後すぐ、軽井沢あたりで通路が立ってる人で埋まった。
+
+シメのドライゼロ
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿 帰りの新幹線と言えば～ (@ 佐久平駅 新幹線ホーム in 佐久市, 長野県) <a href="https://t.co/LN7COmMRVL">https://t.co/LN7COmMRVL</a> <a href="https://t.co/B4BUHcswg5">pic.twitter.com/B4BUHcswg5</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886794509702631425">2017年7月17日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+東京着。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">え？サウナ？えっ？ /  <a href="https://twitter.com/hashtag/pyhack?src=hash">#pyhack</a> 夏山合宿から現実に帰ってきた (@ 東京駅 新幹線ホーム in 千代田区, 東京都) <a href="https://t.co/V9Qtc5wgMP">https://t.co/V9Qtc5wgMP</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/886816378002571264">2017年7月17日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+お疲れ様でした。
 
