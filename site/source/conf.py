@@ -23,6 +23,7 @@ todo_include_todos = True
 
 # site url
 og_site_url = 'http://www.freia.jp/taka/'
+og_twitter_site = '@shimizukawa'
 
 # for sphinxcontrib.feed plugin
 feed_title = u"清水川Web"
