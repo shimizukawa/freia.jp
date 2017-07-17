@@ -10,6 +10,7 @@ extensions = [
     'sphinxcontrib.seqdiag',
     'sphinx.ext.todo',
     'iframe',
+    'ogtag',
     'sphinxcontrib.feed',
     'sphinx.ext.intersphinx',
 ]
@@ -19,6 +20,9 @@ todo_include_todos = True
 
 # for tkinter.ext.disqus plugin
 #disqus_shortname = 'shimizukawa'
+
+# site url
+og_site_url = 'http://www.freia.jp/taka/'
 
 # for sphinxcontrib.feed plugin
 feed_title = u"清水川Web"
