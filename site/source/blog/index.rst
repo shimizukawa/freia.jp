@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index
    sphinx-ogp-support/index
    sphinx-private-hosting-on-heroku2/index
    pyhack-20170714/index
