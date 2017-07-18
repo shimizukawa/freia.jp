@@ -1,12 +1,12 @@
 :date: 2017-07-18 12:00
-:categories: ['PyCharm', 'Interview', 'Translation']
+:categories: ['Python', 'PyCharm', 'Interview', 'Translation']
 :body type: text/x-rst
 
 ========================================================================================
 2017/07/18 【PyCharm Blog 翻訳】インタビュー: “独学プログラマー” コーリー・アルソフ
 ========================================================================================
 
-*Category: 'PyCharm', 'Interview', 'Translation'*
+*Category: 'Python', 'PyCharm', 'Interview', 'Translation'*
 
 独学でゼロからプログラミングを学んでその体験を元に本を書いた、コーリー・アルソフさんのインタビュー記事（英語）がPyCharm Blogに掲載されて、非常に良い記事だったので `和訳の許可`__ をもらって和訳しました。
 
