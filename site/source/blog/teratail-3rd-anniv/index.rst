@@ -54,6 +54,10 @@
 
 "目grep" はこのあと会場で流行語になってたｗ
 
+このLTがきっかけで、回答が付いてない質問を繰り返す人の特徴、なんていう話題で参加者同士の話が膨らんで、どうして書いてあることを読まないのか、いや読まないから質問のレベルが上がらないんだろう、みたいな話で盛り上がってました。
+
+人のコードも文章も、しっかり読むのが脱初心者の近道ですよねー。
+
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/teratail?src=hash">#teratail</a> 大喜利！ ...ってなんだ <a href="https://t.co/aZckJsGfi1">pic.twitter.com/aZckJsGfi1</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/887994126557339652">2017年7月20日</a></blockquote>
