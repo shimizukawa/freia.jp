@@ -52,8 +52,25 @@
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/teratail?src=hash">#teratail</a> 「回答がついてる質問とそうじゃないやつの違いを調べました」あー特徴あるよねー。<br>「特徴抽出（目grep）、機械学習（my脳）、出力（メモ帳）」wwww <a href="https://t.co/8CdmR23ztE">pic.twitter.com/8CdmR23ztE</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/887991595060023297">2017年7月20日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+"目grep" はこのあと会場で流行語になってたｗ
+
+.. raw:: html
+
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/teratail?src=hash">#teratail</a> 大喜利！ ...ってなんだ <a href="https://t.co/aZckJsGfi1">pic.twitter.com/aZckJsGfi1</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/887994126557339652">2017年7月20日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+大喜利も面白かった。Twitterにネタを投稿して、それをいくつか取り上げて紹介するところが深夜ラジオっぽい独特の面白さがあって妙な盛り上がりをみせてました。あの空気感はなかなか出せない。
+
+お題とネタはTwitterで見れます。
+
+* https://twitter.com/search?q=%23ttogr1&src=typd
+* https://twitter.com/search?q=%23ttogr2&src=typd
+* https://twitter.com/search?q=%23ttogr3&src=typd
+
+「目grepの自動化」が味わい深い。
+
+
+.. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/teratail?src=hash">#teratail</a> 追加ビールきたーーー！！！ <a href="https://t.co/hynZ2a00QW">pic.twitter.com/hynZ2a00QW</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/887997233903222785">2017年7月20日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
