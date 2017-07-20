@@ -12,6 +12,7 @@
 .. toctree::
    :maxdepth: 1
 
+   teratail-3rd-anniv/index
    pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index
    sphinx-ogp-support/index
    sphinx-private-hosting-on-heroku2/index
