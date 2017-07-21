@@ -1,12 +1,12 @@
 :date: 2017-07-20 23:50
-:categories: ['Teratail', 'Party']
+:categories: ['teratail', 'Party']
 :body type: text/x-rst
 
 ======================================================================
-2017/07/20 #Teratail Meetup 集まっtail#7 - 3周年イベントに参加しました
+2017/07/20 #teratail Meetup 集まっtail#7 - 3周年イベントに参加しました
 ======================================================================
 
-*Category: 'Teratail', 'Party'*
+*Category: 'teratail', 'Party'*
 
 
 参加してきました。記念ケーキあり、LTあり、大喜利あり(!?)、ビールとピザあり、と盛りだくさんのイベントで、参加者はスタッフ合わせて50人くらいでかなり盛況な感じでした。Q&AサイトのMeetupなので、お互い技術分野が違う普段交流のない人達が集まったので、アウェイ感満載だったけど、質問したり答えたりに感心がある人達の共通の話題でけっこう盛り上がりました。
@@ -79,7 +79,7 @@
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/teratail?src=hash">#teratail</a> 追加ビールきたーーー！！！ <a href="https://t.co/hynZ2a00QW">pic.twitter.com/hynZ2a00QW</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/887997233903222785">2017年7月20日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-このあたりで、質問箱にTeratailへの要望などを書いて投函しました。自分が書いたのは以下。
+このあたりで、質問箱にteratailへの要望などを書いて投函しました。自分が書いたのは以下。
 
 * 質問者の投稿を編集できる機能がほしい
 * 上下キーでカーソル移動使いづらいです
