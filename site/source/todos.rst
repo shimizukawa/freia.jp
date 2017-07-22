@@ -29,6 +29,5 @@
 * 低: blogの画像復帰(dropbox等への外部リンク切れ分)
 * 低: 既存のblogコメントとtrackbackの表示
 * 低: blogのhatena URL調整
-* 低: reST以外で書いていたblogエントリの復帰
 * 低: coreblog以前の日記復帰
 
