@@ -4,8 +4,6 @@
 .. contents::
    :local:
 
-.. .. latest::
-
 2017年
 ------
 
@@ -169,8 +167,8 @@
    2012-03-24-python-packaging-pyfes-201203/index
    770/index
 
-2011年以前
------------
+2011年
+------
 
 .. toctree::
    :maxdepth: 1
@@ -199,6 +197,13 @@
    748/index
    747/index
    746/index
+
+2010年
+------
+
+.. toctree::
+   :maxdepth: 1
+
    745/index
    744/index
    743/index
@@ -232,6 +237,13 @@
    715/index
    714/index
    713/index
+
+2009年
+------
+
+.. toctree::
+   :maxdepth: 1
+
    712/index
    711/index
    710/index
@@ -333,6 +345,13 @@
    614/index
    613/index
    612/index
+
+2008年
+------
+
+.. toctree::
+   :maxdepth: 1
+
    611/index
    610/index
    609/index
@@ -433,6 +452,13 @@
    514/index
    513/index
    512/index
+
+2007年
+------
+
+.. toctree::
+   :maxdepth: 1
+
    511/index
    510/index
    509/index
@@ -552,6 +578,13 @@
    393/index
    392/index
    391/index
+
+2006年
+------
+
+.. toctree::
+   :maxdepth: 1
+
    390/index
    389/index
    388/index
@@ -649,6 +682,13 @@
    296/index
    295/index
    294/index
+
+2005年
+------
+
+.. toctree::
+   :maxdepth: 1
+
    293/index
    zope-setup-script/index
    4eca591c306f30e930bf30c830a530a430e6/index
@@ -841,6 +881,13 @@
    104/index
    103/index
    102/index
+
+2004年
+------
+
+.. toctree::
+   :maxdepth: 1
+
    101/index
    100/index
    99/index
