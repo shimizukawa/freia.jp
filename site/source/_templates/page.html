@@ -1,0 +1,22 @@
+{#
+    basic/page.html
+    ~~~~~~~~~~~~~~~
+
+    Master template for simple pages.
+
+    :copyright: Copyright 2007-2017 by the Sphinx team, see AUTHORS.
+    :license: BSD, see LICENSE for details.
+#}
+{%- extends "layout.html" %}
+{% block body %}
+  {% if meta.tags %}
+  <div class="tags">
+  <span class="tags-label">Tags: </span>
+  {% for tag in meta.tags %}
+  <span class="tag">{{ tag }}</span>{% if not loop.last %},{% endif %}
+  {% endfor %}
+  </div>
+  {% endif %}
+
+  {{ body }}
+{% endblock %}

@@ -15,7 +15,6 @@
   * 文面に直接書いているやつは、がんばって手で消す
   * ``og:description`` には出力しない
   * RSSの ``<description>`` には出力しない
-  * docinfo ``:categories:`` の内容をctxに持たせてtemplateでh1直後に出力する
 
 * 中: blogのコメント機能復帰(disqus)
 * 低: RSSの ``<category></category>`` に持たせる

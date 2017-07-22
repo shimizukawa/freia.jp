@@ -162,3 +162,9 @@ a.book-pypro2 {
     background-image: url("https://images-fe.ssl-images-amazon.com/images/I/41jP7BdvluL._SL160_.jpg");
 }
 
+/* blog tags */
+
+div.tags {
+    font-style: italic;
+}
+
