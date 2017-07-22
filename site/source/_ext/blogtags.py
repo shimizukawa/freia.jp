@@ -4,7 +4,7 @@ import csv
 
 def parse_meta_tags(tags):
     for tags in csv.reader(io.StringIO(tags), skipinitialspace=True):
-        return tags
+        return [t.lower() for t in tags]
 
 
 def html_page_context(app, pagename, templatename, context, doctree):
