@@ -1,12 +1,10 @@
 :date: 2014-01-19 13:10
-:categories: ['Windows', 'Bluetooth', 'Keyboard']
+:tags: Windows, Bluetooth, Keyboard
 :body type: text/x-rst
 
 =================================================================
 2014/01/19 Lenovo Bluetoothキーボードが頻繁に切断される問題の対処
 =================================================================
-
-*categories: 'Windows', 'Bluetooth', 'Keyboard'*
 
 問題
 ====

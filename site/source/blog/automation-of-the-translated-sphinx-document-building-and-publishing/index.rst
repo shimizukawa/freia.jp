@@ -1,13 +1,10 @@
 :date: 2014-01-26 17:00
-:categories: ['Sphinx', 'Translation', 'drone.io', 'AWS', 'S3', 'boto', 'Route53', 'IAM']
+:tags: Sphinx, Translation, drone.io, AWS, S3, boto, Route53, IAM
 :body type: text/x-rst
 
 ================================================================================
 2014/01/26 Sphinx翻訳ドキュメントのビルドと公開の自動化(transifex, drone.io, S3)
 ================================================================================
-
-*categories 'Sphinx', 'Translation', 'drone.io', 'AWS', 'S3', 'boto', 'Route53', 'IAM'*
-
 
 `Sphinx+翻訳 Hack-a-thon 2014.1`_ に参加しています。その成果です。
 
