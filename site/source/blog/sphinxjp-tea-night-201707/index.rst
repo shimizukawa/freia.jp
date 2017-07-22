@@ -6,8 +6,6 @@
 2017/07/11 Sphinx Tea Night 2017.07 #sphinxjp
 =============================================
 
-*Category: 'Sphinx'*
-
 :doc:`前回 <../sphinxjp-tea-night-201706/index>` に引き続き、 `Sphinx Tea Night 2017.07`_ に参加しました。
 
 場所は喫茶室ルノアール　市ヶ谷駅前店、です。

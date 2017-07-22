@@ -6,8 +6,6 @@
 2005/09/06 Ploneのワークフローでメール通知する
 ==============================================
 
-*Category: 'Plone'*
-
 `ryouseiさんの資料`_ を横目で見つつ、 `[zope-users:04900] [Q] customize workflow with script`_ を参考にしながら作ってみました。
 それにしても、スクリプトが受け取る引数の型がStateChangeInfoだとか、StateChangeInfo.objectが対象ページのインスタンスだとか、どうやって知るんだろう？自分は前述の資料とgrepで知りました。
 

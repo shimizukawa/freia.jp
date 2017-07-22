@@ -6,8 +6,6 @@
 2010/06/22 setuptoolsを使ったpluginサンプル
 ===========================================
 
-*Category: 'python'*
-
 Pythonでplugin的な仕組みを作るとしたら__import__やimpを使う方法が
 ありますが、今の流れ的にはsetuptools対応して簡単にパッケージング
 や配布、PyPIでの公開、buildoutへの対応など行うことも視野に入れて

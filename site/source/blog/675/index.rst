@@ -6,8 +6,6 @@
 2009/10/11 Zope2 ドキュメントを Sphinx でビルドする手順
 =======================================================
 
-*Category: 'Zope', 'python'*
-
 先週の日曜日に http://docs.zope.jp/ を公開しましたが、このサイトは http://docs.zope.org/ のソースコードを取得して翻訳したものを Sphinx でビルドして作っています。 Sphinx は reStructuredText で書かれたドキュメントをビルドして html や pdf, chm などを出力する仕組みで、詳しくは渋川さんが翻訳してくれた `Sphinxドキュメントの日本語訳`_ や `渋日記: Pythonって何？という人のためのSphinxチュートリアル`_ を参照してください。
 
 .. _`Sphinxドキュメントの日本語訳`: http://sphinx.shibu.jp/

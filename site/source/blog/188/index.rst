@@ -6,8 +6,6 @@
 2005/04/19 サーバー移行、成功
 =============================
 
-*Category: 'Zope'*
-
 昨日の問題は::
 
   member.getProperty('formtooltips', showdefault)

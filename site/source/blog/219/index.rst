@@ -6,8 +6,6 @@
 2005/06/01 plonified用Portlet実験中
 ===================================
 
-*Category: 'Plone', 'Zope'*
-
 Plone用COREBlogスキン ```plonified``` のためのportletを作ってみました。目的は
 
 - 最近のEntry をBlogページ以下で表示する意味は少ないかも？

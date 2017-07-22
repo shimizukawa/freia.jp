@@ -6,8 +6,6 @@
 2013/12/21 世界中のtoxテストがsetuptools-2.0リリース日(12月7日)以降Python-2.5のテストで失敗してる話
 ====================================================================================================
 
-*Category: 'Python', 'tox', 'virtualenv', 'setuptools'*
-
 .. figure:: sphinx-error.png
    :target: https://drone.io/bitbucket.org/birkenfeld/sphinx
 

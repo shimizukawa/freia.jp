@@ -6,8 +6,6 @@
 2015/03/10 Forkwellキャリア談義 #2 feat. ビープラウド に登壇してきました
 =========================================================================
 
-*Category: 'Python', 'Forkwell', 'BePROUD'*
-
 2015/3/5 木曜日開催の `Forkwellキャリア談義 #2 feat. ビープラウド「今ドキの Python 転職事情 〜Pythonista がこの先生きのこるには〜」`__ に、登壇してきました。
 
 .. __: http://forkwell.connpass.com/event/11424/

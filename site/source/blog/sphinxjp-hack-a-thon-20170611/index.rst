@@ -6,8 +6,6 @@
 2017/06/11 Sphinx+翻訳 hack-a-thon 2017.06 #sphinxjp
 =====================================================
 
-*Category: 'Sphinx'*
-
 `Sphinx+翻訳 hack-a-thon 2017.06`_ に参加しました。
 
 .. raw:: html

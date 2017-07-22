@@ -6,8 +6,6 @@
 2005/12/16 ZopeをApacheのSSLで動かすメモ
 ========================================
 
-*Category: 'Zope'*
-
 ポイントは、RewriteRuleのVurtualHostBaseの後ろにhttpsと書くこと。ここをhttpで書いてしまうと、Zope君がページを構築するときに同一サーバー内へのリンクをhttpで書いてしまう。
 
 ‥‥と、syd.jpの中の人に教わった。詳しくは http://wiki.zope.jp/VHMSetupSample2 を参照。

@@ -6,8 +6,6 @@
 2005/02/01 すしメモリ
 =====================
 
-*Category: 'misc'*
-
 `SushiDisk（すし型ＵＳＢメモリ）`_ 一人前欲しい。買う気にならない値段だけど。 ひとつくらいなら……
 
 .. _`SushiDisk（すし型ＵＳＢメモリ）`: http://sa-store.com/shop.php?category_id=25&item01_id=37

@@ -6,8 +6,6 @@
 2012/07/18 Sencha Touch 2 で小さなアプリを作る(step3 listenersのコード分割)
 ======================================================================================
 
-*Category: 'JavaScript', 'SenchaTouch2', 'ExtJS'*
-
 :doc:`../sencha-touch-2-step2/index` の続きです。
 
 前回は以下の分割を行いました。

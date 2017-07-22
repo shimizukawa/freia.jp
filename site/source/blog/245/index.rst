@@ -6,8 +6,6 @@
 2005/09/03 ZopeWeekend6に参加しました
 =====================================
 
-*Category: 'Zope', 'Plone'*
-
 `ZopeWeekend6`_ に参加しました。
 
 .. figure:: http://www.freia.jp/taka/photo/zw6/PICT0001.JPG?size=thumb

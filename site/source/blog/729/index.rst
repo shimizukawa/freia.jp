@@ -6,8 +6,6 @@
 2010/08/27 BPStudy#36 に参加しました Jiemamyとbeproud-bot君の紹介
 =================================================================
 
-*Category: 'Event'*
-
 BPStudy#36 に参加しました Jiemamyとbeproud-bot君の紹介
 
 `BPStudy#36`_ に参加してきました。

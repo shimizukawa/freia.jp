@@ -6,8 +6,6 @@
 2008/02/04 easy_installでPILをインストールするhack
 ==================================================
 
-*Category: 'python', 'Plone'*
-
 - `setuptoolsでPILをインストール - 三次元日誌`_
 - `Problems Installing (Easy_Install) Pil – martin-geber.com`_
 

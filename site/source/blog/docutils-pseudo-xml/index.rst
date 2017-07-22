@@ -6,8 +6,6 @@
 2012/04/09 Docutilsのnode-treeを疑似XMLで出力する
 ======================================================
 
-*Category: 'Python', 'docutils', 'development'*
-
 rst2textileを実装する過程でreStructuredTextのnode-treeを見たくなったので以下のようにして出力してみました。
 
 

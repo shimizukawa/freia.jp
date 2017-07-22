@@ -6,8 +6,6 @@
 2015/08/10 EuroPython に行ってきました（観光編）
 ====================================================
 
-*Category: 'Python', 'EuroPython', 'PyCon', 'Sphinx'*
-
 .. figure:: europython2015.png
    :target: https://ep2015.europython.eu/
 

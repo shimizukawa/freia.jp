@@ -6,8 +6,6 @@
 2005/10/15 mixiの新着情報をRSSで取得
 ====================================
 
-*Category: 'IT-PC'*
-
 昨日の `Googleの「Personalize your Google homepage」を使う`_ で、RSSをチェックしてると書きましたが、ついでにmixiの新着情報もRSSで取得しています。取得には `プチツール - mixipress`_ を使わせてもらいました。
 
 mixipressには ``WWW:Mixi`` と ``HTML:Template`` が同梱されていますが、LWP::Debugが見つからないとか言われてなんかうまく動かなかったので、portsの ``p5-WWW-Mixi-0.33`` と ``p5-HTML-Template-2.7_1`` を入れてそっちを使うようにしたところ、日記取得以外はうまく動いてくれたようです。

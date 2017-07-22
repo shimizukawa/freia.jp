@@ -6,8 +6,6 @@
 2011/11/21 11/24(木)に伊豆高原で挙式してきます
 ==============================================
 
-*Category: 'Event'*
-
 .. figure:: http://farm7.staticflickr.com/6110/6272182737_853e57fbbe.jpg
    :target: http://www.flickr.com/photos/shimizukawa/6272182737/
    :alt: ミッシェルガーデンコート、教会

@@ -6,8 +6,6 @@
 2016/09/12 Expert Python Programming Second Edition の目次の和訳
 =================================================================
 
-*Category: 'python'*
-
 Michał Jaworski, Tarek Ziadé 著の Expert Python Programming Second Edition の目次を和訳しました。Pythonの初心者向けではなく、何かの言語(Python, Ruby, Perl, ...)を理解している人がPythonを取り巻く開発環境、作法などを理解するのにとても良い本だと思います。
 
 本は以下から購入できます。

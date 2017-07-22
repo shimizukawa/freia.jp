@@ -6,9 +6,6 @@
 2015/01/18 BitbucketのIssueをGithubにマイグレーションする
 ==========================================================
 
-*Category: 'Python', 'bitbucket', 'github'*
-
-
 先日、某プロジェクト(Sphinx)をBitbucketからGithubに移行しました。
 
 その際 https://import.github.com/ を使いました。

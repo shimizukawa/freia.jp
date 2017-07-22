@@ -75,8 +75,7 @@ class FieldListProc(object):
                     '\n',
                 ])
             if entry.categories:
-                line += '*Category: %s*\n\n' % entry.categories
-            if value:
+                line += '            if value:
                 line += value
 
         if line is not None:

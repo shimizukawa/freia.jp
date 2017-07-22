@@ -6,8 +6,6 @@
 2011/04/23 Python-3.3 に標準搭載されるpackaging(Python3.3未満ではDistutils2)を試す
 ==================================================================================
 
-*Category: 'python'*
-
 `(第7回)Python mini Hack-a-thon 午前の部`_
 
 .. _`(第7回)Python mini Hack-a-thon 午前の部`: http://atnd.org/events/14178

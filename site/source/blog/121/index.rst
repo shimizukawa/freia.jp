@@ -6,8 +6,6 @@
 2005/01/24 Python UnitTestのドキュメント
 ========================================
 
-*Category: 'python', 'Memo'*
-
 `Python Unit Testing Framework (in Japanese)`_ を発見。これでテスト駆動を始めるきっかけをつかめそう。
 
 でも、ここ数日 pygw_ のためにCコードばっかり書いてる気がする。

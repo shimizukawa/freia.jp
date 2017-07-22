@@ -6,8 +6,6 @@
 2017/07/14 Python mini hack-a-thon 夏山合宿
 ===========================================
 
-*Category: 'Python', 'pyhack', 'camp'*
-
 `Python mini hack-a-thon 夏山合宿 2017`_ (``#pyhack``) に参加しました。
 
 .. _Python mini hack-a-thon 夏山合宿 2017: https://pyhack.connpass.com/event/55337/

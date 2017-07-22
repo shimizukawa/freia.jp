@@ -6,8 +6,6 @@
 2007/10/25 ソースコード探訪：turbogears.toolbox.shell.WebConsole
 ================================================================
 
-*Category: 'python', 'turbogears'*
-
 `turbogears.toolbox.shell.WebConsole`_ クラスのコードを読む。
 Web画面上でPython対話コンソール(InteractiveShell)を実現するためのサーバー側実装コードは100行無かった！こんなに短いとは‥‥。全ては code.InteractiveConsole クラスのお力か。
 

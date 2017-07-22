@@ -6,8 +6,6 @@
 2013/02/10 Vagrant+Chefで作るSphinx開発環境
 ====================================================================
 
-*category: 'Vagrant', 'Chef', 'Python', 'Sphinx'*
-
 一つ前のエントリ :doc:`../create-ubuntu-12.04-by-using-vagrant/index`
 でVirtualBox+Vagrantを使えるようになったので、次にVagrantの
 プロビジョニング環境を作ります。

@@ -6,8 +6,6 @@
 2007/12/01 AmazonのURLコピーするbookmarklet
 ===========================================
 
-*Category: 'javascript'*
-
 最近のAmazonはURLに日本語が含まれていて、IMで渡しにくいので、短いURLに変換するブックマークレットを作ってみた。
 
 promptをpopupする版(URLのみ)::

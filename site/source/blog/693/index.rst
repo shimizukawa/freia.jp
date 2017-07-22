@@ -6,8 +6,6 @@
 2009/12/07 Goドキュメント翻訳のSphinxテーマをカスタマイズ中
 ===========================================================
 
-*Category: 'web'*
-
 Goの翻訳サイトのデザインを変更しましょう、ということで、 `GoogleGroupsの方`_ で話が進んでいて、 http://www.oswd.org/ から渋川さんが探してきた Aqua デザインを適用作業中です。
 
 .. _`GoogleGroupsの方`: http://groups.google.co.jp/group/golang-docjp/browse_thread/thread/b981adb28f992451

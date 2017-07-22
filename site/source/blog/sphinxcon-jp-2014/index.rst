@@ -6,8 +6,6 @@
 2014/10/31 SphinxCon JP 2014 で発表してきました #sphinxjp
 ===========================================================
 
-*Category: 'Sphinx', 'SphinxCon'*
-
 .. figure:: sphinxconjp2014-logo.png
    :target: http://sphinx-users.jp/event/20141026_sphinxconjp/index.html
 

@@ -6,8 +6,6 @@
 2017/04/26 World Plone Day 2017 Tokyo に参加しました
 =====================================================
 
-*Category: 'Plone', 'Python', 'CMS'*
-
 `World Plone Day 2017 Tokyo`_ に参加しました。
 
 .. _World Plone Day 2017 Tokyo: https://plonejp.connpass.com/event/51340/

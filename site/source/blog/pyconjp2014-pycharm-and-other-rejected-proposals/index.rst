@@ -6,8 +6,6 @@
 2014/07/16 #pyconjp 2014 で "PyCharm活用術" の発表します  (＆落選プロポーザル)
 ================================================================================
 
-*Category: 'Python', 'PyCon', 'PyCharm', 'Sphinx'*
-
 .. figure:: pycon2014-logo.png
    :target: https://pycon.jp/2014/
 

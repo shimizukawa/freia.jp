@@ -6,8 +6,6 @@
 2005/03/22 iTunesのDRM技術を破る新アプリ「PyMusique」公開
 =========================================================
 
-*Category: 'misc', 'python'*
-
 ん……？Py？
 
 http://www.itmedia.co.jp/news/articles/0503/19/news013.html

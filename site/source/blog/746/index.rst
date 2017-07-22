@@ -6,8 +6,6 @@
 2011/01/13 "2011年は、Rails3を使おう！～masuidriveに学ぶ" に参加しました
 ========================================================================
 
-*Category: 'Event', 'ruby-on-rails', 'study'*
-
 `2011年は、Rails3を使おう！～masuidriveに学ぶ`_ に参加してきました。参加費1000円。
 
 .. _`2011年は、Rails3を使おう！～masuidriveに学ぶ`: http://atnd.org/events/11360

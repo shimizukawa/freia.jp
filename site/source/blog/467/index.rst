@@ -6,8 +6,6 @@
 2007/07/20 TurboGearsのVirtualHost化ではまりまくる
 ==================================================
 
-*Category: 'python', 'turbogears'*
-
 今日はTurboGearsのアプリをmod_proxyの陰で動かし、VirtualHostで任意のパス以下に配置しようとしてはまりまくってました。
 
 たとえば http://example.com/myapp/ がTurboGearsアプリのルートになる場合、TurboGearsのプログラム上やテンプレート上には"myapp"は書かずに、cfgに ``server.webpath="myapp"`` と書けばそれでOK！...と思ってました。それでは、はまり度の軽い方から並べてみます。

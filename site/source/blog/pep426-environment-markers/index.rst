@@ -6,8 +6,6 @@
 2014/07/10 PEP-0426 Environment Markers の調査
 ====================================================================
 
-*Category: 'Python', 'PEP-0426', 'metadata2.0', 'setuptools', 'pip', 'wheel'*
-
 .. contents::
    :local:
 

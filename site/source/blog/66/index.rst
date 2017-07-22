@@ -6,8 +6,6 @@
 2004/09/09 pyuiの練習
 =====================
 
-*Category: 'python', 'Programming'*
-
 今日はpyuiのmenuをいじってみました::
 
  import pyui

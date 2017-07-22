@@ -6,8 +6,6 @@
 2005/03/16 FreeBSDでEnhanced SpeedStep
 ======================================
 
-*Category: 'Unix'*
-
 PentiumM730の動的なクロック変更に成功。
 
 http://home.jp.freebsd.org/cgi-bin/showmail/FreeBSD-users-jp/83454

@@ -6,8 +6,6 @@
 2007/04/21 InstanceManagerでZope/Plone環境自動構築
 ==================================================
 
-*Category: 'Zope', 'Plone'*
-
 先日の `Zope Essentials 6`_ で仕入れたネタ InstanceManager を試してみました。
 InstanceManagerはeasy_installで一発インストールできますが、その後の設定がけっこうめんどくさかったです。しかし、設定さえ出来てしまえば、同じ環境をなんどでもコマンド一発で再構築することが出来ます。
 

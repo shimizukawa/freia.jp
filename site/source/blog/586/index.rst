@@ -6,8 +6,6 @@
 2008/06/27 Python温泉3, 1日目夜
 ===============================
 
-*Category: 'Event', 'python'*
-
 buildbot_ と trac_ を色々いじってます。buildbot-0.7.7のバグを見つけたかも...
 
 .. _buildbot: http://buildbot.net/

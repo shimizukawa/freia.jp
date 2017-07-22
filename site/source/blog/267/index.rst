@@ -6,8 +6,6 @@
 2005/11/03 先日のカレーにトマトを追加して熟成中
 ===============================================
 
-*Category: 'food'*
-
 .. figure:: 2005curry_in_oven
   :target: images/2005curry_in_oven
   :align: left

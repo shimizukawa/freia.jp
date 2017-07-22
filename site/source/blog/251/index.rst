@@ -6,8 +6,6 @@
 2005/10/04 FamiComBand
 ======================
 
-*Category: 'Event'*
-
 知り合いのバンド(FamiComBand)が今週末日曜日に演奏するそーなので、ご紹介。
 
 http://famicomband.org/live_7th

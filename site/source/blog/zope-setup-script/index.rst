@@ -6,8 +6,6 @@
 2005/12/26 Zopeインスタンス作成時の定型作業をスクリプトで自動化
 ===============================================================
 
-*Category: 'Zope'*
-
 Zopeのインスタンスをmkzopeinstanceで作った後、たいていの場合management_page_charsetを設定したり、Ploneインスタンスを作ったり、portal_catalogのZCTextIndexをejSplitterに置き換えたりします。そんな定型作業はスクリプト化してしまえ！ということでやってみました。
 
 この ZopeSetupScript_ スクリプトを以下のように使います。

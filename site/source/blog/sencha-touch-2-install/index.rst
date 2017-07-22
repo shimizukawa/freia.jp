@@ -6,8 +6,6 @@
 2012/07/05 Sencha Touch 2 のライセンスとインストール
 ======================================================
 
-*Category: 'JavaScript', 'SenchaTouch2', 'ExtJS'*
-
 :doc:`../sencha-touch-2-introduction/index` の続きです。ライセンスとインストールについて。
 
 

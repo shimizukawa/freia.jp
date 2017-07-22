@@ -6,8 +6,6 @@
 2007/04/08 TurboGearsのお手軽Controller
 =======================================
 
-*Category: 'turbogears'*
-
 TurboGearsを使っていて最初に不満に思ったのは、crudフォームとしてcatwalkが提供されているものの、あれをそのまま実運用で使うことは出来ない＆カスタマイズが難しい、ということでした。Ploneほどのcrud機能は無くても良いので、Model定義すしただけで項目の一覧表示、追加、削除、編集、バリデーションが出来ればいいなあ、と思っていました。
 
 色々調べて、DataGrid -> AjaxGrid -> TGFastData と順に使っていったのですが、TGFastDataでもまだ望む機能は満たされていませんでした（あとTGFastDataは0.9a6の時点からメンテナンスされていないようです）。そこで、TGFastDataをもうちょっと使いやすくした仕組みを作ってみました。名前は安直にtgdatacontroller。

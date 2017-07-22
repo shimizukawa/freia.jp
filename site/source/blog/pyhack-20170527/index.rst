@@ -6,8 +6,6 @@
 2017/05/27 Python mini hack-a-thon 76回
 =======================================
 
-*Category: 'Python', 'pyhack'*
-
 `Python mini hack-a-thon #76`_ (``#pyhack``) に参加しました。
 
 .. _Python mini hack-a-thon #76: https://pyhack.connpass.com/event/55335/

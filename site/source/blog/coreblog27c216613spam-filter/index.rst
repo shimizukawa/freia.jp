@@ -6,8 +6,6 @@
 2005/12/15 COREBlog2簡易spam-filter
 ===================================
 
-*Category: 'Plone'*
-
 コメント追加の許可設定の件を調べようと思ったら、コメント追加が可能になったとたんspamコメントが10件以上投稿されていた。ムカツク。とりあえず、COREBlog1のBuzzWordsチェック機構をCOREBlog2用に改造してチェックするようにしたので、これで様子見。
 
 .. :extend type: text/x-rst

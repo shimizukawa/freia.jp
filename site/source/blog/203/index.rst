@@ -6,8 +6,6 @@
 2005/05/09 COREBlogのRSS用metaタグを追加
 ========================================
 
-*Category: 'Plone'*
-
 COREBlog関連のポートレットやカスタマイズをぼちぼちやっていく予定ですが、とりあえず、 `takanory.net`_ さんのRSSフィードアイコン追加を参考に、「最近のBlogエントリ」にアイコンを追加しました。
 
 あと、RSSフィード用のmetaタグをheaderに仕込むために、plonified/index_html, entry_html 等の *fill-slot="main"* を持っているZPTファイルに以下のコードを追加しました。

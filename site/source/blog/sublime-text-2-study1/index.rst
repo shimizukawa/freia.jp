@@ -6,8 +6,6 @@
 2012/07/13 Sublime Text 2 Study #1 に参加しました
 ==================================================
 
-*Category: 'Editor', 'SublimeText2', 'Python', 'Ruby'*
-
 .. figure:: what-is-your-primary-text-editor-for-ruby-rails.png
 
 今日は `Sublime Text 2 Study #1`_ に参加しました。会場は `万葉さん`_ オフィス。久々に行ったらソファーとか増えてた。

@@ -6,9 +6,6 @@
 2017/04/19 Sphinx-1.6リリースに向けた開発 hack-a-thon #sphinxjp
 ===============================================================
 
-*Category: 'Sphinx'*
-
-
 Sphinx-1.6b1 のリリースに向けた開発作業をやってきました。
 
 今日の開発hack-a-thonに参加したのは @tk0miya, @shibu_jp, @shimizukawa です。

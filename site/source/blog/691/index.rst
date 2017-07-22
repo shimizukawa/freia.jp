@@ -6,8 +6,6 @@
 2009/12/05 distutils, setuptools, distribute, pip, virtualenv, buildout
 =======================================================================
 
-*Category: 'Zope', 'python', 'Plone'*
-
 今日は `(第6回)Zope/Plone開発勉強会`_ に参加しています。
 
 勉強会中に、結局eggって何？buildoutを使えるようになるにはどうすればいいの？最近たまに聞くpipって何？という質問が出たので、 distutils, setuptools, distribute, pip, virtualenv, buildout について、そろそろ整理しておこうかなーと思ってまとめてみました。

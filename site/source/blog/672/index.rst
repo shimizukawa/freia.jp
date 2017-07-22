@@ -6,8 +6,6 @@
 2009/09/23 reSTで書いたページをPlone3のPresentationモードで表示する
 ===================================================================
 
-*Category: 'Plone'*
-
 reStructuredText(reST)で書いたページを、 `Plone3に標準で組み込まれているPresentationモード`_ (Plone S5)で表示するのに色々はまったので、設定のポイントメモを書いておこうと思います。
 
 # PloneS5って何？ -> see `Plone S5 - takanory.net`_

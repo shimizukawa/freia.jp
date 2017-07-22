@@ -6,8 +6,6 @@
 2004/08/16 No module named ja
 =============================
 
-*Category: 'Zope', 'python'*
-
 reST表示でZopeがリブートする問題_ は解決しました。
 
 原因は、 StructuredText日本語問題_ に対応するために、DocumentClass.pyなど修正・コンパイルしたせいか、あるいはweather_pluginを入れるためにentry_bodyを修正したせいか、、、。

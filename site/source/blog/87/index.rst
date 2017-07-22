@@ -6,8 +6,6 @@
 2004/12/10 PythonCE for PocketPC
 ================================
 
-*Category: 'python', 'misc'*
-
 帰りの電車の中で、PocketPCにインストールしたPythonをいじっていて遭遇したネタ。
 
 Pytnonのコンソールを終了しようとして::

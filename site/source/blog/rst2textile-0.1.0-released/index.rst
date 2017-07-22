@@ -6,8 +6,6 @@
 2012/04/24 rst2textile-0.1.0 リリースと実装の裏話
 ======================================================
 
-*Category: 'Python', 'docutils', 'textile', 'rst2textile'*
-
 先日 `Sphinx + 翻訳 Hack-a-thon 2012.04`_ にて `rst2textile-0.1.0`_ をリリースしました。
 
 rst2textileの紹介

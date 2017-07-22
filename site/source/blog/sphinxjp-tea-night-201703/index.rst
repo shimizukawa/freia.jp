@@ -6,8 +6,6 @@
 2017/03/09 Sphinx Tea Night 2017.03 #sphinxjp
 =============================================
 
-*Category: 'Sphinx'*
-
 :doc:`前回 <../sphinxjp-tea-night-201702/index>` に引き続き、 `Sphinx Tea Night 2017.03`_ に参加しました。
 
 .. raw:: html

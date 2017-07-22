@@ -6,8 +6,6 @@
 2008/03/02 VistaでVMWare Serverが固まる
 =======================================
 
-*Category: 'IT-PC'*
-
 最近忙しくて2/18以来半月ぶりのblog更新です。
 
 来週のPythonキャンプに向けてbuildbot/SeleniumRC/Tracのデモ環境を用意しようとVMWareにWindowsXPとUbuntu7 Desktop, Server の３つのOSをセットアップしたのですが、HostであるVistaを再起動したあとに起動しようとしたらHDDにアクセスしっぱなしになり20分後くらいにWatchDocTimerか何かでOSがリブートしました（泣

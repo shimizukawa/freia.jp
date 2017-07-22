@@ -6,8 +6,6 @@
 2004/04/21 日本語の問題
 =======================
 
-*Category: 'Zope'*
-
 COREblogで、UTF8表示に設定しているのにHTTPレスポンスヘッダーに8859-1とか出しているっぽいので、しかたなく blog_header の先頭に以下を追加::
 
   dtml-call "RESPONSE.setHeader('Content-Type','text/html;charset=utf-8')"

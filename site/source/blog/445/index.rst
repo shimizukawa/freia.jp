@@ -6,8 +6,6 @@
 2007/04/15 tgdatacontrollerをegg化
 ==================================
 
-*Category: 'python', 'turbogears'*
-
 easy_install
 -------------
 

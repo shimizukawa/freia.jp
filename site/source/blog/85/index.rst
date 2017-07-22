@@ -6,8 +6,6 @@
 2004/12/07 ZopeのPython2.4動作
 ==============================
 
-*Category: 'Zope', 'python'*
-
 FreeBSDのportsで、Zopeが利用するPythonのバージョンが2.4から2.3に戻された。これ自体は良いとして、問題はPython2.4ベースで入れてしまった自宅サーバーのZopeの扱いをどうするか。
 
 1. make.conf(かpkgtools.conf？)にPython2.4を使うように設定してみる

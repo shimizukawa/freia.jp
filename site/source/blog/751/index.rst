@@ -6,8 +6,6 @@
 2011/04/12 CentOS-5.5(i386, x86_64)でblockdiagを使って日本語入り画像を生成する手順
 ==================================================================================
 
-*Category: 'python', 'sphinx'*
-
 大人気 blockdiag_ の環境構築にみんなはまっているようなので、CentOS-5.5で blockdiag_ 環境を構築する最短？っぽい手順をまとめてみました。
 
 .. _blockdiag: http://tk0miya.bitbucket.org/blockdiag/build/html/examples.html

@@ -6,8 +6,6 @@
 2004/12/11 COREBlogのコメント欄
 ===============================
 
-*Category: 'Zope'*
-
 `Whining Express`_ より:
 
 .. parsed-literal::

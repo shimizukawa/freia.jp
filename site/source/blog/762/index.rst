@@ -6,8 +6,6 @@
 2011/09/06 Rubyのrcov-0.9.8 for Windows のビルド
 ================================================
 
-*Category: 'Programming', 'Windows', 'ruby'*
-
 WindowsのRubyで rcov_ を使用するには一般的には http://rubyforge.org/frs/?group_id=1750&release_id=16551 にあるようなビルド済みバイナリを使用しますが、rcov-0.8.1.2以降はビルド済みのものが提供されていないので、自分でビルドする必要があります。Windowsではコンパイル環境があってもはまったので、バインディングビルド手順をメモしておきます(完成物はこちら:  :download:`rcov-0.9.10-x86-mswin32-60.gem`)。
 
 .. _rcov: http://mecab.sourceforge.net/

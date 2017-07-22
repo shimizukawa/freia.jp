@@ -6,8 +6,6 @@
 2008/01/27 ML115 Challenge! 1
 =============================
 
-*Category: 'Unix', 'IT-PC'*
-
 とりあえずメモリを標準搭載のDDR2-677-512MB-ECCからDDR2-800-4096MB-NonECCに変更してmemtest86は特に問題なし。
 
 VMWareのHostにするOSの選択に迷い、とりあえずUbuntu Server 7.10を入れてみたが、VMWareを動かすには色々と手動でパッケージを入れる必要があり(makeとかgccとか)、初めてさわるRedHat以外のLinuxなのであまり調査もせずに断念。

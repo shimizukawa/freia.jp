@@ -6,8 +6,6 @@
 2009/07/16 buildoutで開発2: buildoutで環境を整える
 ==================================================
 
-*Category: 'python', 'Programming', 'web'*
-
 `eggの作り方が分からない`_, `buildoutで開発1: WSGIアプリをeggで作る`_ の続き。buildoutでテストまで。
 
 現時点のファイル構成::

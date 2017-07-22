@@ -6,8 +6,6 @@
 2009/05/27 Zope-2.12.0b2 がWindowsでは壊れたrunzope.batを生成する問題
 =====================================================================
 
-*Category: 'Zope'*
-
 Zope-2.12.0b2 のバグレポを出してみました。
 
  * `Bug #380780 in Zope 2: “Zope2.12.0b2 generate broken runzope.bat on Windows.”`_

@@ -6,9 +6,6 @@
 2012/12/08 intersphinxを使おう - #sphinxjp アドベントカレンダー2012
 ====================================================================
 
-*Category: 'Python', 'Sphinx', 'intersphinx'*
-
-
 `Sphinx Advent Calendar 2012`_ 8日目担当の清水川です。昨日は `@takanory`_ の `Sphinx Advent Calendar 7日目: 異なった環境で Sphinx と blockdiag とかを使う`_ でした。
 
 おそらくみなさんはたくさんの人でリレーするこのアドベントカレンダーよりも `Sphinx Advent Calendar 2012 (全部俺)`_ の方が気になっていると思いますが、少しお付き合いください。

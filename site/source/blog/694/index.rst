@@ -6,8 +6,6 @@
 2009/12/08 sidebarとfooter付きLiquidページのHTML練習
 ====================================================
 
-*Category: 'web'*
-
 Sphinx_ のデザインを参考に、sidebarとfooterのあるLiquidなWebページを作る練習をしてみました。
 
 .. _Sphinx: http://sphinx.shibu.jp/

@@ -6,8 +6,6 @@
 2005/08/31 打ち上げ in 刀削麺荘
 ===============================
 
-*Category: 'food'*
-
 `刀削麺荘飯田橋店`_ でリリース打ち上げを開催。打ち上げ中に呼び戻されることもなく、無事に打ち上がりました。
 
 .. figure:: http://www.freia.jp/taka/photo/foods/toshomen-so/PICT0072.JPG?size=thumb

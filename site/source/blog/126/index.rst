@@ -6,8 +6,6 @@
 2005/01/26 笑えた
 =================
 
-*Category: 'misc'*
-
 `生きてま`_ より。爆笑！
 
 http://www.geocities.jp/navyfrog993/HibiZakkan/05/Jan05/Jan05.htm

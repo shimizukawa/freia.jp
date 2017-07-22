@@ -6,8 +6,6 @@
 2017/07/18 インタビュー: "独学プログラマー" コーリー・アルソフ 【PyCharm Blog 翻訳】
 ========================================================================================
 
-*Category: 'Python', 'PyCharm', 'Interview', 'Translation'*
-
 独学でゼロからプログラミングを学んでその体験を元に本を書いた、コーリー・アルソフさんのインタビュー記事（英語）がPyCharm Blogに掲載されて、非常に良い記事だったので `和訳の許可`__ をもらって和訳しました。
 
 .. __: https://blog.jetbrains.com/pycharm/2017/06/self-taught-programmer-interview-with-cory-althoff/#comment-308569

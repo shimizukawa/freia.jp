@@ -6,8 +6,6 @@
 2007/07/07 Plone2.5のRadius認証Plugin
 =====================================
 
-*Category: 'Zope', 'Plone'*
-
 PASRadius - Radius authentication plugin for PluggableAuthService ver 0.1 七夕リリース。
 
 - `PASRadius-0.1.tgz`_　

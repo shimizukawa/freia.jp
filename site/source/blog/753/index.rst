@@ -6,8 +6,6 @@
 2011/04/23 pyreadline を2to3でPython2/3両対応にするメモ
 =======================================================
 
-*Category: 'python'*
-
 `(第7回)Python mini Hack-a-thon`_ 午後の部の成果です。
 
 .. _`(第7回)Python mini Hack-a-thon`: http://atnd.org/events/14178

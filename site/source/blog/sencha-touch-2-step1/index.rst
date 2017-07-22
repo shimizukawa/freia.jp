@@ -6,8 +6,6 @@
 2012/07/06 Sencha Touch 2 で小さなアプリを作る(step1)
 ========================================================
 
-*Category: 'JavaScript', 'SenchaTouch2', 'ExtJS'*
-
 :doc:`../sencha-touch-2-install/index` の続きです。小さいアプリを作ります。
 
 目標

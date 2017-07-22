@@ -6,8 +6,6 @@
 2005/01/25 Pythonを利用するDLLのデバッグ
 ========================================
 
-*Category: 'python', 'Programming'*
-
 デバッグ版Python32_d.libは標準のパッケージ [1]_ には同梱されていない。そしてpython.hをincludeすると内部的に以下のようにかかれているので、Debugだとpython23_d.libを自動的にリンクしようとして失敗してしまう。::
 
   #ifdef _DEBUG

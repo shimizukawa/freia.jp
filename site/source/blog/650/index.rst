@@ -6,8 +6,6 @@
 2009/06/27 [pyspa5] Python温泉 旅館とかおやつとか食事とか
 =========================================================
 
-*Category: 'Event', 'pyspa'*
-
 `DropBoxに写真あげた -> Flickrに移動`_
 
 .. _`DropBoxに写真あげた -> Flickrに移動`: http://www.flickr.com/photos/shimizukawa/sets/72157632192128501/

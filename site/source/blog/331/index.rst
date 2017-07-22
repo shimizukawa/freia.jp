@@ -6,8 +6,6 @@
 2006/04/08 全ページにURLのQRコードを表示するZope3アダプタ
 =========================================================
 
-*Category: 'Zope'*
-
 先日、 `日本のZope情報`_ 経由で `python で QR コード`_ という記事を見て、早速Zopeで使えるようにZope3用プロダクトを作ってみました。
 
 :Zope.org: http://www.zope.org/Members/shimizukawa/

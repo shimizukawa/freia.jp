@@ -6,8 +6,6 @@
 2007/03/24 inspect.getmro
 =========================
 
-*Category: 'python'*
-
 Pythonでクラスにクラス変数を定義する。そのクラスを継承してそこでクラス変数をoverrideする。
 
 .. code-block:: python

@@ -6,8 +6,6 @@
 2009/01/22 VistaでVMWare Serverが固まる件はVMWare Server 2.0 にして解決
 =======================================================================
 
-*Category: 'IT-PC'*
-
 * `VistaでVMWare Serverが固まる`_
 * `VistaでVMWareが固まる件、とりあえずの回避策`_
 

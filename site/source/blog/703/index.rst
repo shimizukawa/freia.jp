@@ -6,8 +6,6 @@
 2009/12/17 Python Testing: Beginner's Guide の目次の和訳
 ========================================================
 
-*Category: 'python'*
-
 Daniel Arbuckle 著の Python Testing: Beginner's Guide の目次を和訳しました。と言ってもまだ発売前なので内容はよく分かりません。Twitterでなにやらプッシュされていたので、とりあえず目次等を訳してみました。
 
 発売日は2010年1月ですが、本は以下から予約購入できます。

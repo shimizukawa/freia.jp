@@ -6,8 +6,6 @@
 2005/06/09 Apacheの認証をLDAPでActiveDirectoryに問い合わせ
 ==========================================================
 
-*Category: 'Unix'*
-
 Apache2からWindows2003/ActiveDirectoryに対してLDAPで認証を行ってみた。試行錯誤の末、とりあえず目的の半分は達成した。
 
 Windows2003なActiveDirectoryに格納されているユーザーの認証はうまくいっているのに、どうやらWindows2000なActiveDirectoryへの問い合わせがうまくいかないらしい。この2台が同一ドメインの親子関係にあるため ＆ ActiveDirectoryの中身をよく知らなかったことで、問題の切り分けに手間取ってしまった。

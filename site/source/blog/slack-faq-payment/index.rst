@@ -6,8 +6,6 @@
 2014/07/04 【Slack FAQ 翻訳】支払いFAQ
 =======================================
 
-*Category: 'Slack', 'Chat', 'Translation'*
-
 Slack( https://slack.com/ )の支払いに関するFAQを翻訳しました。内容は2014/6/23時点のものです。
 
 

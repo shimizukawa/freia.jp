@@ -6,8 +6,6 @@
 2007/04/11 TypingMania3β
 =========================
 
-*Category: 'misc'*
-
 - `TypingMania3β - SightSeekerStudio.com`_
 
 via aihatena_ .

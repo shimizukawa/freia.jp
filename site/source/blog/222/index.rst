@@ -6,8 +6,6 @@
 2005/06/03 plonifiedなCOREBlogのトップページにRDFを埋め込む
 ===========================================================
 
-*Category: 'Plone', 'Zope'*
-
 `トップページに各記事の RDF がコメントされない２ - Feel Fine!`_ でplonifiedのindex_htmlにRDFが埋め込まれない問題について対策されていますが、別アプローチで対応してみました。以下ようにplonifiedのindex_html(19行目あたり)を修正する、というので合ってるかな？
 
 .. code-block:: xml

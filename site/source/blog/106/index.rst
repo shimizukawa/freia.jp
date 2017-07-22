@@ -6,8 +6,6 @@
 2005/01/11 Windows AntiSpyware 入れてみました
 =============================================
 
-*Category: 'misc'*
-
 Microsoft製の無料スパイウェアチェッカー、 `Windows AntiSpyware`_ を入れてみた。
 実行したら、早速、「WindowsMessenger」と「RealVNC」が引っかかった。
 

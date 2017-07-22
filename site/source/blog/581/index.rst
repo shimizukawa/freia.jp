@@ -6,8 +6,6 @@
 2008/06/22 Zope-2.11.0 がリリースされました
 ===========================================
 
-*Category: 'Zope'*
-
 zope-usersとplone-usersの日本のMLに流した文面をこちらにも掲載しておきます。
 
 - http://ml.zope.jp/pipermail/zope-users/2008-June/006121.html

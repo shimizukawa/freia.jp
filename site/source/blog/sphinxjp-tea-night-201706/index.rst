@@ -6,8 +6,6 @@
 2017/06/19 Sphinx Tea Night 2017.06 #sphinxjp
 =============================================
 
-*Category: 'Sphinx'*
-
 :doc:`前回 <../sphinxjp-tea-night-201704/index>` に引き続き、 `Sphinx Tea Night 2017.06`_ に参加しました（5月は開催されなかったみたい）。
 
 自己紹介

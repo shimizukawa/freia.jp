@@ -6,8 +6,6 @@
 2005/04/05 WZ
 =============
 
-*Category: 'WZ'*
-
 `WZが悪いんじゃない！Villagecenterが悪いんだ！`__
 
 .. __: http://www.villagecenter.co.jp/cgi-bin/wzold.cgi?L=146&X=1

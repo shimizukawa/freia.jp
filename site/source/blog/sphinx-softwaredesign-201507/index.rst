@@ -6,9 +6,6 @@
 2015/06/23 SoftwareDesignでSphinxの連載中
 ==========================================
 
-*Category: 'SoftwareDesign','Sphinx'*
-
-
 SoftwareDesign 2015年4月号から、Sphinxの連載が始まりました。
 1,2,3回目は `@togakushi`_ が執筆し、4回目の7月号には私が執筆しました。
 

@@ -6,8 +6,6 @@
 2012/04/07 Distutils2/packagingのpysetup createが長い
 ======================================================
 
-*Category: 'Python', 'Distutils2', 'packaging'*
-
 作りかけだったrst2textileを公開して欲しいという要望をもらったので、setup.py書かなきゃ。あ、それなら ``pysetup create`` でsetup.cfg作れば楽じゃね？ということでやってみた。
 
 

@@ -6,8 +6,6 @@
 2009/09/05 DeliveranceでOSWDのデザインをTwitter.comに適用してみた
 =================================================================
 
-*Category: 'web'*
-
 `Zope/Plone勉強会3`_ でDeliveranceを使ってデザイン適用をちょっと練習してみた。
 
 デザインは `Open Source Web Design`_ から取得した `SilverGlow`_ 。適用サイトは今回はTwitterにしてみました。

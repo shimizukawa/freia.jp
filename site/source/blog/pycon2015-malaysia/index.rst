@@ -6,8 +6,6 @@
 2015/08/29 マレーシアに行ってきました
 ======================================
 
-*Category: 'Python', 'PyCon', 'Malaysia', 'Sphinx'*
-
 .. figure:: pyconmy.*
    :width: 300
    :target: http://www.pycon.my/

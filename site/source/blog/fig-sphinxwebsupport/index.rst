@@ -6,8 +6,6 @@
 2015/02/14 Docker/figでSphinxのWebSupportを起動する
 ====================================================
 
-*Category: 'Sphinx', 'Docker', 'fig'*
-
 今日は `Python mini Hack-a-thon 51回目`_ でこのblogを書きました。
 
 Sphinx WebSupportとは

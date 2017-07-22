@@ -6,8 +6,6 @@
 2014/10/25 SphinxCon JP 2014 前日、イベント紹介します #sphinxjp
 =================================================================
 
-*Category: 'Sphinx', 'SphinxCon'*
-
 .. figure:: sphinxconjp2014-logo.png
    :target: http://sphinx-users.jp/event/20141026_sphinxconjp/index.html
 

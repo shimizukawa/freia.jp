@@ -6,8 +6,6 @@
 2014/06/17 自分が PyCon JP 2012 に提出した演題の内容
 ============================================================
 
-*Category: 'Python', 'PyCon'*
-
 .. figure:: pycon2014-logo.png
    :target: https://pycon.jp/2014/
 
