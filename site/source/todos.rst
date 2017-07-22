@@ -10,7 +10,19 @@
   * ページレンダリングでは、日付表示欄をタイトルの直後あたりに設けたい
   * RSS配信では日付を含めない
 
+* 高: blogカテゴリの設定
+
+  * 文面に直接書いているやつは、がんばって手で消す
+  * ``og:description`` には出力しない
+  * RSSの ``<description>`` には出力しない
+  * docinfo ``:categories:`` の内容をctxに持たせてtemplateでh1直後に出力する
+
 * 中: blogのコメント機能復帰(disqus)
+* 低: RSSの ``<category></category>`` に持たせる
+* 低: カテゴリ別インデックスページを持ちたい
+
+  * RSSを ``<category domain="インデックスページ">カテゴリ</category>`` にする
+
 * 低: about.me ページを作る(about.meの内容との棲み分けを考える)
 * 低: 最近の更新ページを表示(sphinxcontrib-feedを使って出来そう)
 * 低: リンク切れfile (/blog/stuff) の復帰
