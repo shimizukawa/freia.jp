@@ -11,7 +11,7 @@
 
 ちなみに現在29箱。11箱が本で、10箱がパソコン関係です。
 
-.. figure:: images/hikkoshi_box
+.. figure:: hikkoshi_box
    :alt: 詰め終わった箱を壁際に並べてみました
    :title: 詰め終わった箱を壁際に並べてみました
 

@@ -6,7 +6,6 @@
 =============================================================
 
 .. figure:: google_personal
-  :target: images/google_personal
   :align: right
 
   Googleの `Personalize your Google homepage`_ を試しています。きっかけは、自宅MainPC・ノートPC・会社とローカルなRSSリーダーを使っていると同期がめんどくさかったためです。

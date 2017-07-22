@@ -23,7 +23,6 @@
 とは言え、やっぱり京都はバスを中心に考えた方が良いのかもしれません。天一本店行くのに京都駅から徒歩or鉄道は難しいと思った一年間で一番暑い時期の日のこと。こんな日に京都の町をスーツで歩くもんじゃないですね...。
 
 .. figure:: kyoto_tenichi1
-  :target: images/kyoto_tenichi1
   :width: 240
   :height: 180
   :align: left
@@ -33,7 +32,6 @@
   ということで、道に迷ってナビウォークに案内されつつたどり着いた天下一品総本店。苦労してたどり着いただけあって感無量。というかやけに長い道のりだったような...。駅から1kmあるし...。
 
 .. figure:: kyoto_tenichi2
-  :target: images/kyoto_tenichi2
   :width: 240
   :height: 180
   :align: left
@@ -51,7 +49,6 @@
   総本店＞＞八幡山＞神田＞神楽坂＝歌舞伎町＞＞＞水道橋
 
 .. figure:: kyoto_inoda
-  :target: images/kyoto_inoda
   :width: 240
   :height: 180
   :align: left

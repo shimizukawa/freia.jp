@@ -21,7 +21,6 @@
 可能性がある場合は *要モデレート* 状態にします。
 
 .. image:: coreblog_buzzwords
-  :target: images/coreblog_buzzwords
   :align: right
 
 今回はとりあえずNGワードを含む投稿をチェックすることにします。
@@ -71,7 +70,6 @@
 
 
 .. figure:: coreblog_spams
-  :target: images/coreblog_spams
   :align: left
 
   結果、こんな感じでコメントスパムがフィルタリングされています。

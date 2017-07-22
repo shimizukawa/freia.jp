@@ -17,7 +17,6 @@
 * 手動で変速変えるのは苦手だ。
 
 .. image:: 20061112_tamagawa_susuki.jpg
-  :target: images/20061112_tamagawa_susuki.jpg
   :class: lightbox
 
 最近の旅行
@@ -34,7 +33,6 @@ Python温泉は技術修練の場です！
 * ラタトゥーユを大皿３つくらい作って1週間延々とそればっかり食べてた
 
 .. image:: 20090818_rata.jpg
-  :target: images/20090818_rata.jpg
   :class: lightbox
 
 * それ以来、毎日トマトを食べないと生きていけないカラダに。
@@ -42,7 +40,6 @@ Python温泉は技術修練の場です！
 * ホームベーカリーで月に何回かパン焼いてる。焼きたてパンならバターだけで1斤いける！
 
 .. image:: 20090308_bakery.jpg
-  :target: images/20090308_bakery.jpg
   :class: lightbox
 
 
@@ -66,7 +63,6 @@ Python温泉は技術修練の場です！
 * サマーウォーズ を２回観に行った！花札買うかな！
 
 .. image:: 20090925_summerwars.jpg
-  :target: images/20090925_summerwars.jpg
   :class: lightbox
 
 
@@ -79,7 +75,6 @@ Python温泉は技術修練の場です！
 * @koichiroo に誘われて `Tokyu.rb`_ に参加してきた。すき焼き食べ放題だった。
 
 .. image:: 20091002_tokyurb.jpg
-  :target: images/20091002_tokyurb.jpg
   :class: lightbox
 
 * 10月末にOSCでプレゼン予定。用意しなきゃ－。
@@ -100,7 +95,6 @@ Python温泉は技術修練の場です！
 * スタートレック
 
 .. image:: 20091010_startrek_boxes.jpg
-  :target: images/20091010_startrek_boxes.jpg
   :class: lightbox
 
 その他、色々。
@@ -113,7 +107,6 @@ Python温泉は技術修練の場です！
 * ドラクエ９。クリアしたら熱が冷めたヨ。
 
 .. image:: 20091010_dq9.jpg
-  :target: images/20091010_dq9.jpg
   :class: lightbox
 
 * メタルギアソリッド3が途中で止まってる。4はクリアした。

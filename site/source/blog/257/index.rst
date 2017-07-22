@@ -30,7 +30,6 @@ download: `COREBlogModerates-0.1`_ (for COREBlog1.2.1)
 作ったと言っても、とりあえず自分が必要そうな機能だけなので、COREBlogにパッチが必要だったり、インストールが面倒だったりします。あとかじりかけのJavaScriptなんかも使って遊んでます。
 
 .. figure:: coreblog_moderates01
-  :target: images/coreblog_moderates01
 
   画面はこんな感じ。これだとスパムの傾向を分析しにくい、というか出来ないですが、
   とりあえず一括削除くらいは出来ます。

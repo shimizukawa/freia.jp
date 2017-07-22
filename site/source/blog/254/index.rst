@@ -6,7 +6,6 @@
 ========================================
 
 .. figure:: applezope1
-  :target: images/applezope1/thumb?width=800
   :align: right
 
   今日はApple銀座でZopeイベントをやってます。
@@ -21,7 +20,6 @@
 ------
 
 .. figure:: ginzasuisan
-  :target: images/ginzasuisan
   :align: left
 
   その後、銀座の某所で晩ご飯を食べました。

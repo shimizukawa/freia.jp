@@ -11,7 +11,7 @@
 
 と言うことで、ほとんどの機能は問題なく使えるのですが、今換気機能を使うと室内の空気が室内にはき出されます（笑
 
-.. figure:: images/kanki_aircon
+.. figure:: kanki_aircon.png
    :title: 換気エアコンの排気が室内に
    :alt: 換気エアコンの排気が室内に
 

@@ -6,7 +6,6 @@
 ===========================
 
 .. figure:: 2005halloween_curry
-  :target: images/2005halloween_curry
   :align: right
 
   今日はハロウィンらしいのでカボチャカレーを作ってみた。
