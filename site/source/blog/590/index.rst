@@ -1,6 +1,5 @@
 :date: 2008-06-29 17:25:10
 :tags: Event, python
-:body type: text/x-rst
 
 ==================================
 2008/06/29 Python温泉3, 3日目 帰路

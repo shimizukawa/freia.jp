@@ -1,6 +1,5 @@
 :date: 2007-04-16 00:05:11
 :tags: Event, python
-:body type: text/x-rst
 
 =====================
 2007/04/16 Python温泉

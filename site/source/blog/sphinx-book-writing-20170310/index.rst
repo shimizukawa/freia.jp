@@ -1,6 +1,5 @@
 :date: 2017-03-10 22:30
 :tags: Sphinx
-:body type: text/x-rst
 
 ==========================
 2017/03/10 Sphinx本の執筆

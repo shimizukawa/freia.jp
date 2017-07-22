@@ -1,6 +1,5 @@
 :date: 2012-04-09 23:40:00
 :tags: Python, docutils, development
-:body type: text/x-rst
 
 ======================================================
 2012/04/09 Docutilsのnode-treeを疑似XMLで出力する

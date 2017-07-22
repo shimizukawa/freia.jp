@@ -1,6 +1,5 @@
 :date: 2005-02-23 21:20:54
 :tags: Zope, Programming
-:body type: text/x-rst
 
 =================================================================
 2005/02/23 COREblogのエントリを表示するportlet_recent_blogentries

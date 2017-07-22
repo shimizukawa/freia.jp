@@ -1,6 +1,5 @@
 :date: 2009-11-14 17:00:00
 :tags: python
-:body type: text/x-rst
 
 ======================================================================
 2009/11/14 Deliveranceをインストールする手順  in Python Hack-a-thon #2

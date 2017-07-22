@@ -1,6 +1,5 @@
 :date: 2009-06-28 21:38:09
 :tags: Zope, python, pyspa
-:body type: text/x-rst
 
 =======================================================
 2009/06/28 [pyspa5] Zope3を最小構成でmod_wsgi動作させる

@@ -1,6 +1,5 @@
 :date: 2007-04-18 21:05:09
 :tags: Event, Zope, Plone
-:body type: text/x-rst
 
 ==================================
 2007/04/18 ZopeEssentials6 参加log

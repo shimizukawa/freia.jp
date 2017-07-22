@@ -1,6 +1,5 @@
 :date: 2008-06-26 23:55:00
 :tags: Event, python
-:body type: text/x-rst
 
 ===========================
 2008/06/26 明日はPython温泉

@@ -1,6 +1,5 @@
 :date: 2017-06-17 23:59
 :tags: Python, pyhack
-:body type: text/x-rst
 
 =======================================
 2017/06/17 Python mini hack-a-thon 77回

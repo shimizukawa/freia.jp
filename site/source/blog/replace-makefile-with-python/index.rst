@@ -1,6 +1,5 @@
 :date: 2012-04-11 23:30:00
 :tags: Python, make, Makefile, Library
-:body type: text/x-rst
 
 =========================================
 2012/04/11 MakefileをPythonで置き換える

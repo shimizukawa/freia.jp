@@ -1,6 +1,5 @@
 :date: 2015-01-18 23:00
 :tags: Python, bitbucket, github
-:body type: text/x-rst
 
 ==========================================================
 2015/01/18 BitbucketのIssueをGithubにマイグレーションする

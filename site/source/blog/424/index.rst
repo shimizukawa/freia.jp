@@ -1,6 +1,5 @@
 :date: 2007-03-23 23:57:52
 :tags: Event, Programming
-:body type: text/x-rst
 
 =======================
 2007/03/23 開発合宿初日

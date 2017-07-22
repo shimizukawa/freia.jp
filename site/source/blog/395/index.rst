@@ -1,6 +1,5 @@
 :date: 2007-01-29 23:52:28
 :tags: Game
-:body type: text/x-rst
 
 ================================
 2007/01/29 Battle Line手に入らず

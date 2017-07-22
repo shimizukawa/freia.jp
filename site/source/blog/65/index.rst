@@ -1,6 +1,5 @@
 :date: 2004-09-06 23:13:48
 :tags: python, Programming
-:body type: text/x-rst
 
 =============================
 2004/09/06 pyuiをいじってみる

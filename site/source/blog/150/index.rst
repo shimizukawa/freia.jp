@@ -1,6 +1,5 @@
 :date: 2005-02-28 01:20:04
 :tags: Plone, Zope
-:body type: text/x-rst
 
 ===============================
 2005/02/28 ZPhotoSlides日本語化

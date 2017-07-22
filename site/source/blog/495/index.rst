@@ -1,6 +1,5 @@
 :date: 2007-12-01 22:37:00
 :tags: javascript
-:body type: text/x-rst
 
 ===========================================
 2007/12/01 AmazonのURLコピーするbookmarklet

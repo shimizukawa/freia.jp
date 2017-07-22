@@ -1,6 +1,5 @@
 :date: 2007-04-13 22:06:24
 :tags: javascript
-:body type: text/x-rst
 
 =================================================
 2007/04/13 FirefoxのCopyURL+をIEとOperaにも欲しい

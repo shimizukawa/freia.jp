@@ -1,6 +1,5 @@
 :date: 2017-03-18 23:55
 :tags: Sphinx
-:body type: text/x-rst
 
 ===================================================================================
 2017/03/18 sphinx-extcode を作りました at Sphinx+翻訳 hack-a-thon 2017.03 #sphinxjp

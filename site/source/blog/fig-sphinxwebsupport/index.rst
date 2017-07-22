@@ -1,6 +1,5 @@
 :date: 2015-02-14 14:00
 :tags: Sphinx, Docker, fig
-:body type: text/x-rst
 
 ====================================================
 2015/02/14 Docker/figでSphinxのWebSupportを起動する

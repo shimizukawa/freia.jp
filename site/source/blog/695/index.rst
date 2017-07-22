@@ -1,6 +1,5 @@
 :date: 2009-12-09 19:00:00
 :tags: Event, Plone
-:body type: text/x-rst
 
 ====================================
 2009/12/09 Plone Party 2009 に参加中

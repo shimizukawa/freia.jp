@@ -1,6 +1,5 @@
 :date: 2005-11-29 02:24:43
 :tags: Zope, Plone
-:body type: text/x-rst
 
 ====================================
 2005/11/29 Plone2.1, COREBlog2に移行

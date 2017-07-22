@@ -1,6 +1,5 @@
 :date: 2009-10-25 04:47:47
 :tags: python, pyspa
-:body type: text/x-rst
 
 =================================================
 2009/10/25 Expert Python Programming の目次の和訳

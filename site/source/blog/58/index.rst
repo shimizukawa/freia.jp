@@ -1,6 +1,5 @@
 :date: 2004-08-12 23:11:13
 :tags: Programming, python
-:body type: text/x-rst
 
 =========================
 2004/08/12 アクセス数計測

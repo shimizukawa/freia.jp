@@ -1,6 +1,5 @@
 :date: 2005-07-12 00:11:47
 :tags: Zope
-:body type: text/x-rst
 
 =====================================
 2005/07/12 Zope Essentials 2 本日開催

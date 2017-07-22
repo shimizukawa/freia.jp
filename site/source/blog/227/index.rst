@@ -1,6 +1,5 @@
 :date: 2005-06-13 23:24:13
 :tags: Unix
-:body type: text/x-rst
 
 ======================
 2005/06/13 今日のFreia

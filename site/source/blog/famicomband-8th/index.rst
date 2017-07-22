@@ -1,6 +1,5 @@
 :date: 2006-07-08 01:09:08
 :tags: Event
-:body type: text/x-rst
 
 ==========================
 2006/07/08 FamiComBand 8th

@@ -1,6 +1,5 @@
 :date: 2005-02-23 01:03:50
 :tags: Zope
-:body type: text/x-rst
 
 ============================================================
 2005/02/23 ZPhotoSliderの画像を表示するportlet_recent_images

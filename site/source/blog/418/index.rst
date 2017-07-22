@@ -1,6 +1,5 @@
 :date: 2007-03-16 21:17:57
 :tags: python, Programming
-:body type: text/x-rst
 
 ==============================================
 2007/03/16 PythonでHTML解析 with BeautifulSoup

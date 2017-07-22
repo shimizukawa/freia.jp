@@ -1,6 +1,5 @@
 :date: 2009-12-15 23:55:00
 :tags: ruby-on-rails
-:body type: text/x-rst
 
 ===========================
 2009/12/15 Rubyでメール送信

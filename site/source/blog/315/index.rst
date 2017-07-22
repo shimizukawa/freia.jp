@@ -1,6 +1,5 @@
 :date: 2006-02-22 01:30:00
 :tags: Zope, python
-:body type: text/x-rst
 
 ======================================
 2006/02/22 ZopeTestBrowserを使ってみる

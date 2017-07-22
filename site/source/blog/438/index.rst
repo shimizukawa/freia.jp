@@ -1,6 +1,5 @@
 :date: 2007-04-09 00:54:00
 :tags: turbogears
-:body type: text/x-rst
 
 ========================================
 2007/04/09 patchだらけのtgdatacontroller

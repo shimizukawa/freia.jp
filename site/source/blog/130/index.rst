@@ -1,6 +1,5 @@
 :date: 2005-01-27 21:38:57
 :tags: Zope, Memo
-:body type: text/x-rst
 
 ===============================
 2005/01/27 _SUPPRESS_ACCESSRULE

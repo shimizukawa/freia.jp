@@ -1,6 +1,5 @@
 :date: 2007-04-11 00:17:47
 :tags: misc
-:body type: text/x-rst
 
 =========================
 2007/04/11 TypingMania3β

@@ -1,6 +1,5 @@
 :date: 2009-12-21 23:55:00
 :tags: python
-:body type: text/x-rst
 
 ===================================
 2009/12/21 pyreadlineのパッチを修正

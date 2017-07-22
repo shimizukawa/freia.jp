@@ -1,6 +1,5 @@
 :date: 2012-07-13 23:50:00
 :tags: Editor, SublimeText2, Python, Ruby
-:body type: text/x-rst
 
 ==================================================
 2012/07/13 Sublime Text 2 Study #1 に参加しました

@@ -1,6 +1,5 @@
 :date: 2007-10-27 23:18:22
 :tags: Zope, Plone
-:body type: text/x-rst
 
 =============================================================
 2007/10/27 PASRadius-0.2 for PluggableAuthService(Zope/Plone)

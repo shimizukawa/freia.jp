@@ -1,6 +1,5 @@
 :date: 2009-02-04 01:06:19
 :tags: Programming, ruby-on-rails
-:body type: text/x-rst
 
 =========================================
 2009/02/04 RailsとCSVとストリーミングと。

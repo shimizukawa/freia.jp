@@ -1,6 +1,5 @@
 :date: 2008-01-28 23:27:57
 :tags: Windows
-:body type: text/x-rst
 
 ============================
 2008/01/28 ckwとnyacusとztop

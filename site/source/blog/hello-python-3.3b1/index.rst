@@ -1,6 +1,5 @@
 :date: 2012-07-24 23:58:00
 :tags: python, python3, namespace-package
-:body type: text/x-rst
 
 ==========================================================
 2012/07/24 Python 3.3b1 の名前空間パッケージを試してみた

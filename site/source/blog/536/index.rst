@@ -1,6 +1,5 @@
 :date: 2008-02-06 03:08:17
 :tags: work, cpp
-:body type: text/x-rst
 
 ========================================================
 2008/02/06 C++のtemplateでBREW用にshared_ptrを書いてみた

@@ -1,6 +1,5 @@
 :date: 2008-06-28 21:50:12
 :tags: Event, python
-:body type: text/x-rst
 
 =====================================
 2008/06/28 Python温泉3, 2日目 翻訳Day

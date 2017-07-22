@@ -1,6 +1,5 @@
 :date: 2008-10-26 16:48:18
 :tags: pyspa
-:body type: text/x-rst
 
 ==========================
 2008/10/26 第4回Python温泉

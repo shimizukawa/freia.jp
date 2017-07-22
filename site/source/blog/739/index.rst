@@ -1,6 +1,5 @@
 :date: 2010-09-30 19:40:00
 :tags: Event, python
-:body type: text/x-rst
 
 ====================================================
 2010/09/30 BPStudy#37 に参加しました 夜のDjango + LT

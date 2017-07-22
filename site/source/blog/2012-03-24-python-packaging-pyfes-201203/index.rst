@@ -1,6 +1,5 @@
 :date: 2012-03-24 17:05:00
 :tags: Event, Python, Python3, packaging
-:body type: text/x-rst
 
 ==============================================
 2012/03/24 PYTHON PACKAGING (PyFes 2012.03)

@@ -1,6 +1,5 @@
 :date: 2007-03-21 21:03:29
 :tags: Zope
-:body type: text/x-rst
 
 =======================
 2007/03/21 ZopeのHotfix

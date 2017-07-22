@@ -1,6 +1,5 @@
 :date: 2009-01-22 02:16:01
 :tags: Zope, Plone
-:body type: text/x-rst
 
 ==========================================
 2009/01/22 ATExtFlashをPlone3対応にする(1)

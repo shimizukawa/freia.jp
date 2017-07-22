@@ -1,6 +1,5 @@
 :date: 2005-04-11 23:48:07
 :tags: Zope, misc
-:body type: text/x-rst
 
 =================================
 2005/04/11 ZPhotoSlidesサイト復活

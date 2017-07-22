@@ -1,6 +1,5 @@
 :date: 2015-02-07 23:55
 :tags: Docker, fig
-:body type: text/x-rst
 
 ===========================================================
 2015/02/07 Python mini hack-a-thon 雪山合宿 / Docker + fig

@@ -1,6 +1,5 @@
 :date: 2012-07-06 23:00:00
 :tags: JavaScript, SenchaTouch2, ExtJS
-:body type: text/x-rst
 
 ========================================================
 2012/07/06 Sencha Touch 2 で小さなアプリを作る(step1)

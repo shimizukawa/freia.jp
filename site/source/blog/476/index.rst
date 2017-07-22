@@ -1,6 +1,5 @@
 :date: 2007-08-13 23:26:00
 :tags: python, django
-:body type: text/x-rst
 
 ===========================================
 2007/08/13 Django勉強会 Disk 4 に参加します

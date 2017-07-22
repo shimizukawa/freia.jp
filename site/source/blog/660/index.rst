@@ -1,6 +1,5 @@
 :date: 2009-07-16 23:45:00
 :tags: python, Programming, web
-:body type: text/x-rst
 
 ==================================================
 2009/07/16 buildoutで開発2: buildoutで環境を整える

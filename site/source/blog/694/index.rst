@@ -1,6 +1,5 @@
 :date: 2009-12-08 23:55:00
 :tags: web
-:body type: text/x-rst
 
 ====================================================
 2009/12/08 sidebarとfooter付きLiquidページのHTML練習

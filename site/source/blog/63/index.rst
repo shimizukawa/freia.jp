@@ -1,6 +1,5 @@
 :date: 2004-08-17 00:01:18
 :tags: Zope, python
-:body type: text/x-rst
 
 ================================
 2004/08/17 ZAmazonを改造してみる

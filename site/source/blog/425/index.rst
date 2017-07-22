@@ -1,6 +1,5 @@
 :date: 2007-03-24 11:43:07
 :tags: turbogears
-:body type: text/x-rst
 
 ==================================
 2007/03/24 kidのpy:extendsにはまる

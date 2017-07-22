@@ -1,6 +1,5 @@
 :date: 2012-07-18 17:10:00
 :tags: JavaScript, SenchaTouch2, ExtJS
-:body type: text/x-rst
 
 ======================================================================================
 2012/07/18 Sencha Touch 2 で小さなアプリを作る(step3 listenersのコード分割)

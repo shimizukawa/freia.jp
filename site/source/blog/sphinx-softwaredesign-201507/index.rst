@@ -1,6 +1,5 @@
 :date: 2015-6-23 23:00
 :tags: SoftwareDesign, Sphinx
-:body type: text/x-rst
 
 ==========================================
 2015/06/23 SoftwareDesignでSphinxの連載中

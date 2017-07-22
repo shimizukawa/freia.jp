@@ -1,6 +1,5 @@
 :date: 2006-05-09 01:51:21
 :tags: Zope, Plone
-:body type: text/x-rst
 
 ============================================
 2006/05/09 ATCTSmallSampleの英語版をリリース

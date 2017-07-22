@@ -1,6 +1,5 @@
 :date: 2005-02-01 12:59:17
 :tags: Pattern, Memo
-:body type: text/x-rst
 
 =======================
 2005/02/01 blogパターン

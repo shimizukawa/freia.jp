@@ -1,6 +1,5 @@
 :date: 2007-03-24 12:03:32
 :tags: python
-:body type: text/x-rst
 
 =========================
 2007/03/24 inspect.getmro

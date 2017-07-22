@@ -1,6 +1,5 @@
 :date: 2007-07-21 23:59:36
 :tags: misc
-:body type: text/x-rst
 
 ==================
 2007/07/21 AppleTV

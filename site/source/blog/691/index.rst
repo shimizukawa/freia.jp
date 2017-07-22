@@ -1,6 +1,5 @@
 :date: 2009-12-05 18:50:00
 :tags: Zope, python, Plone
-:body type: text/x-rst
 
 =======================================================================
 2009/12/05 distutils, setuptools, distribute, pip, virtualenv, buildout

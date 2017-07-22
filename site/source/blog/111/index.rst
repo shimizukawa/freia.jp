@@ -1,6 +1,5 @@
 :date: 2005-01-17 22:38:57
 :tags: WZ, python
-:body type: text/x-rst
 
 ================================
 2005/01/17 WZの色分け for python

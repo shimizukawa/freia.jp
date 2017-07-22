@@ -1,6 +1,5 @@
 :date: 2005-01-11 11:28:26
 :tags: misc
-:body type: text/x-rst
 
 =============================================
 2005/01/11 Windows AntiSpyware 入れてみました

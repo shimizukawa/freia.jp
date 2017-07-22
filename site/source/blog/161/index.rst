@@ -1,6 +1,5 @@
 :date: 2005-03-16 00:59:04
 :tags: Unix
-:body type: text/x-rst
 
 ======================================
 2005/03/16 FreeBSDでEnhanced SpeedStep

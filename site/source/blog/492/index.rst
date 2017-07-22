@@ -1,6 +1,5 @@
 :date: 2007-11-05 22:21:31
 :tags: Windows, web
-:body type: text/x-rst
 
 ============================
 2007/11/05 ASP.NETに触れた日

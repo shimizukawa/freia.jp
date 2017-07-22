@@ -1,6 +1,5 @@
 :date: 2008-04-22 14:51:21
 :tags: python
-:body type: text/x-rst
 
 =============================
 2008/04/22 Python riddle 1, 2

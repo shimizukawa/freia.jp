@@ -1,6 +1,5 @@
 :date: 2005-02-21 09:01:53
 :tags: Zope
-:body type: text/x-rst
 
 ====================================
 2005/02/21 COREblog in Ploneフォルダ

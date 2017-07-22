@@ -1,6 +1,5 @@
 :date: 2008-06-29 01:20:37
 :tags: Event, python, cpp
-:body type: text/x-rst
 
 =================================================
 2008/06/29 Python温泉3, 2日目深夜, shared_ptr大会

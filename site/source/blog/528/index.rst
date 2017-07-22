@@ -1,6 +1,5 @@
 :date: 2008-01-30 01:38:36
 :tags: Agile(XP), IT-PC
-:body type: text/x-rst
 
 =================================
 2008/01/30 Thinkpad X61s 7666-BH5

@@ -1,6 +1,5 @@
 :date: 2004-12-11 00:00:38
 :tags: misc
-:body type: text/x-rst
 
 ===============
 2004/12/11 mixi

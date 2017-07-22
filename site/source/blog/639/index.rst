@@ -1,6 +1,5 @@
 :date: 2009-05-30 23:54:21
 :tags: misc, startrek
-:body type: text/x-rst
 
 =====================================
 2009/05/30 映画 STARTREK みてきました

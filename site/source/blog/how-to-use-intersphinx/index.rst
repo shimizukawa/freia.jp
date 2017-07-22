@@ -1,6 +1,5 @@
 :date: 2012-12-08 18:30
 :tags: Python, Sphinx, intersphinx
-:body type: text/x-rst
 
 ====================================================================
 2012/12/08 intersphinxを使おう - #sphinxjp アドベントカレンダー2012

@@ -1,6 +1,5 @@
 :date: 2011-05-04 16:20:29
 :tags: python, Windows
-:body type: text/x-rst
 
 =========================================================
 2011/05/04 MeCab-0.98 python binding for Windows のビルド

@@ -1,6 +1,5 @@
 :date: 2017-07-17 22:00
 :tags: Python, Sphinx, ogp
-:body type: text/x-rst
 
 =====================================
 2017/07/17 SphinxでHTMLにOGPタグ出力

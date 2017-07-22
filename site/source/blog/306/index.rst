@@ -1,6 +1,5 @@
 :date: 2006-01-28 13:22:34
 :tags: Zope, Plone, IT-PC
-:body type: text/x-rst
 
 =================================
 2006/01/28 spamとの戦い（回顧編）

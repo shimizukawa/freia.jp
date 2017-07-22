@@ -1,6 +1,5 @@
 :date: 2009-08-09 19:20:47
 :tags: python, Programming, web
-:body type: text/x-rst
 
 ===================================================================
 2009/08/09 buildoutで開発5: ファイル構成の整理とpaster-template対応

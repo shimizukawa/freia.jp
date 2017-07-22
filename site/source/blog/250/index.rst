@@ -1,6 +1,5 @@
 :date: 2005-09-12 22:38:08
 :tags: python, Windows
-:body type: text/x-rst
 
 ==========================================================
 2005/09/12 WindowsでFreeなCモジュールビルド環境 for Python

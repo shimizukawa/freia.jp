@@ -1,6 +1,5 @@
 :date: 2007-04-21 23:55:00
 :tags: Zope, Plone
-:body type: text/x-rst
 
 ==================================================
 2007/04/21 InstanceManagerでZope/Plone環境自動構築

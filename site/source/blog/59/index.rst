@@ -1,6 +1,5 @@
 :date: 2004-08-13 00:19:26
 :tags: Programming, python
-:body type: text/x-rst
 
 ===========================
 2004/08/13 アクセス隙間検出

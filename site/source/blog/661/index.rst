@@ -1,6 +1,5 @@
 :date: 2009-07-30 17:29:57
 :tags: python, Programming, web
-:body type: text/x-rst
 
 =============================================================
 2009/07/30 buildoutで開発3: easy_install できるように公開する

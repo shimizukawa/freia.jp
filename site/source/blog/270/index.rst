@@ -1,6 +1,5 @@
 :date: 2005-11-15 00:26:08
 :tags: Zope
-:body type: text/x-rst
 
 ===========================================
 2005/11/15 COREBlogのrefererを外部RDBに保存

@@ -1,6 +1,5 @@
 :date: 2010-02-03 23:50:00
 :tags: web, security
-:body type: text/x-rst
 
 ========================================
 2010/02/03 www.freia.jpのSSL証明書を更新

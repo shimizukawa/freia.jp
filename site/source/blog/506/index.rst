@@ -1,6 +1,5 @@
 :date: 2007-12-27 08:28:56
 :tags: IT-PC
-:body type: text/x-rst
 
 ====================================
 2007/12/27 Thinkpad 15th Anniversary

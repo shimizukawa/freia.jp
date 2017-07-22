@@ -1,6 +1,5 @@
 :date: 2005-11-24 02:22:57
 :tags: Programming, Plone
-:body type: text/x-rst
 
 ================================
 2005/11/24 ATBookshelf実装な一日

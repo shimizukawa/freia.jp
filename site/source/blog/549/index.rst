@@ -1,6 +1,5 @@
 :date: 2008-03-11 23:55:00
 :tags: python
-:body type: text/x-rst
 
 ======================================================
 2008/03/11 Python Developers Camp 2008に行ってきました

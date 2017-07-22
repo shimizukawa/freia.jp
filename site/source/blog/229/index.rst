@@ -1,6 +1,5 @@
 :date: 2005-06-14 23:47:22
 :tags: Zope
-:body type: text/x-rst
 
 =================================
 2005/06/14 Zope Essentials 2 告知

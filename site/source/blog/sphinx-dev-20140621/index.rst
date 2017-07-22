@@ -1,6 +1,5 @@
 :date: 2014-6-21 19:00
 :tags: Python, Sphinx
-:body type: text/x-rst
 
 ====================================================
 2014/06/21 Sphinxメンテナ日記: autosummaryは便利だね

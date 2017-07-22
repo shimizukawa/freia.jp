@@ -1,6 +1,5 @@
 :date: 2004-08-11 00:47:03
 :tags: python
-:body type: text/x-rst
 
 =======================================
 2004/08/11 サーバー生存確認PythonScript

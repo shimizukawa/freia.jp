@@ -1,6 +1,5 @@
 :date: 2010-06-22 00:55:00
 :tags: python
-:body type: text/x-rst
 
 ===========================================
 2010/06/22 setuptoolsを使ったpluginサンプル

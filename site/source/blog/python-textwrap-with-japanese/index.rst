@@ -1,6 +1,5 @@
 :date: 2013-02-16 18:00
 :tags: Python, Sphinx, textwrap
-:body type: text/x-rst
 
 =======================================================
 2013/02/16 Pythonのtextwrap.wrap()が日本語で崩れる問題

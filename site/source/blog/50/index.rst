@@ -1,6 +1,5 @@
 :date: 2004-08-01 02:19:15
 :tags: Zope, Event
-:body type: text/x-rst
 
 ===================
 2004/08/01 資料公開

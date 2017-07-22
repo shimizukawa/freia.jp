@@ -1,6 +1,5 @@
 :date: 2011-01-23 18:00:49
 :tags: python, testing, gae
-:body type: text/x-rst
 
 ===========================================================================
 2011/01/23 GAE/py + NoseGAEでUnitTestするときにimportエラーになる場合の対策

@@ -1,6 +1,5 @@
 :date: 2012-04-07 10:20:00
 :tags: Python, Distutils2, packaging
-:body type: text/x-rst
 
 ======================================================
 2012/04/07 Distutils2/packagingのpysetup createが長い

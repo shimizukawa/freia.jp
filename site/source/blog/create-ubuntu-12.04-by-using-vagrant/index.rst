@@ -1,6 +1,5 @@
 :date: 2013-02-10 20:10
 :tags: Vagrant, Chef, Ubuntu
-:body type: text/x-rst
 
 =========================================
 2013/02/10 Vagrantで作るUbuntu-12.04環境

@@ -1,6 +1,5 @@
 :date: 2014-10-25 12:00
 :tags: Sphinx, SphinxCon
-:body type: text/x-rst
 
 =================================================================
 2014/10/25 SphinxCon JP 2014 前日、イベント紹介します #sphinxjp

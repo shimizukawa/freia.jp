@@ -1,6 +1,5 @@
 :date: 2005-10-04 21:27:56
 :tags: Event
-:body type: text/x-rst
 
 ======================
 2005/10/04 FamiComBand

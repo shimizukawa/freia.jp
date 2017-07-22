@@ -1,6 +1,5 @@
 :date: 2013-02-10 21:20
 :tags: Vagrant, Chef, Python, Sphinx
-:body type: text/x-rst
 
 ====================================================================
 2013/02/10 Vagrant+Chefで作るSphinx開発環境

@@ -1,6 +1,5 @@
 :date: 2004-08-05 02:27:37
 :tags: misc, Unix
-:body type: text/x-rst
 
 ===================
 2004/08/05 風邪気味

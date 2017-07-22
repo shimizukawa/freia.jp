@@ -1,6 +1,5 @@
 :date: 2009-12-16 23:55:00
 :tags: ruby-on-rails
-:body type: text/x-rst
 
 ======================================================
 2009/12/16 Rails + SQLServer で data型を扱うとハマる話

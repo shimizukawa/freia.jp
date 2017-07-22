@@ -1,6 +1,5 @@
 :date: 2009-06-19 23:55:00
 :tags: food
-:body type: text/x-rst
 
 ======================
 2009/06/19 今日のPAUKE

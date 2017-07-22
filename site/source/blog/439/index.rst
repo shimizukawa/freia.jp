@@ -1,6 +1,5 @@
 :date: 2007-04-10 00:43:41
 :tags: turbogears
-:body type: text/x-rst
 
 =======================
 2007/04/10 tgcrudを試す

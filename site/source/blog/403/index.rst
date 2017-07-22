@@ -1,6 +1,5 @@
 :date: 2007-02-25 11:10:00
 :tags: Plone
-:body type: text/x-rst
 
 =======================================
 2007/02/25 PloneのSMTP設定にGMailを指定

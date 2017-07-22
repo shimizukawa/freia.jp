@@ -1,6 +1,5 @@
 :date: 2009-01-22 01:25:18
 :tags: Zope
-:body type: text/x-rst
 
 ===============================================
 2009/01/22 和訳 [Zope-dev] Plans for Zope 2.12 

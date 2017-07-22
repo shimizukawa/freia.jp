@@ -1,6 +1,5 @@
 :date: 2008-02-15 01:37:00
 :tags: Event, python
-:body type: text/x-rst
 
 =========================================
 2008/02/15 Python Developers Camp 2008 冬

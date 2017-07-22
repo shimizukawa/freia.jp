@@ -1,6 +1,5 @@
 :date: 2007-07-20 03:13:05
 :tags: python, turbogears
-:body type: text/x-rst
 
 =============================================================
 2007/07/20 TurboGearsとCherryPyのリダイレクトについてもう少し

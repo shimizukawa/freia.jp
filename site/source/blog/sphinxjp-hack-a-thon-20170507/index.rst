@@ -1,6 +1,5 @@
 :date: 2017-05-07 19:00
 :tags: Sphinx
-:body type: text/x-rst
 
 =====================================================
 2017/05/07 Sphinx+翻訳 hack-a-thon 2017.05 #sphinxjp

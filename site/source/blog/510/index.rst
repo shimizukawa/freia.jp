@@ -1,6 +1,5 @@
 :date: 2007-12-31 14:57:16
 :tags: Memo, database
-:body type: text/x-rst
 
 =========================================
 2007/12/31 Oracle10gをWindowsに入れてみる

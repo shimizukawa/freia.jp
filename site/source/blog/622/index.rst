@@ -1,6 +1,5 @@
 :date: 2009-01-25 19:11:03
 :tags: Programming, boadgame, ruby-on-rails
-:body type: text/x-rst
 
 ===============================================================================
 2009/01/25 BattleLine RoR (3) serializeした独自クラスをYAMLからロード時に再読込

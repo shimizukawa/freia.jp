@@ -1,6 +1,5 @@
 :date: 2007-07-20 02:26:59
 :tags: python, turbogears
-:body type: text/x-rst
 
 ==================================================
 2007/07/20 TurboGearsのVirtualHost化ではまりまくる

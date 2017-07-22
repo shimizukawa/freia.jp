@@ -1,6 +1,5 @@
 :date: 2008-06-27 23:50:00
 :tags: Event, python
-:body type: text/x-rst
 
 ===============================
 2008/06/27 Python温泉3, 1日目夜

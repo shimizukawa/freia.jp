@@ -1,6 +1,5 @@
 :date: 2014-01-26 17:00
 :tags: Sphinx, Translation, drone.io, AWS, S3, boto, Route53, IAM
-:body type: text/x-rst
 
 ================================================================================
 2014/01/26 Sphinx翻訳ドキュメントのビルドと公開の自動化(transifex, drone.io, S3)

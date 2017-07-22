@@ -1,6 +1,5 @@
 :date: 2005-04-26 08:55:28
 :tags: Zope, Plone
-:body type: text/x-rst
 
 ===================================
 2005/04/26 COREBlog1.2+Plonified0.8

@@ -1,6 +1,5 @@
 :date: 2008-05-18 16:10:49
 :tags: misc
-:body type: text/x-rst
 
 =============================================
 2008/05/18 PLAYSTATION3とINFOBAR2を買ってきた

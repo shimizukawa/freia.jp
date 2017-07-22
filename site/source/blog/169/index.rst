@@ -1,6 +1,5 @@
 :date: 2005-03-23 12:48:47
 :tags: python, Programming
-:body type: text/x-rst
 
 ===========================
 2005/03/23 pythonでHTML解析

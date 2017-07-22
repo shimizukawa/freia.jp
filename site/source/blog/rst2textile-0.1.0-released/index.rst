@@ -1,6 +1,5 @@
 :date: 2012-04-24 23:00:00
 :tags: Python, docutils, textile, rst2textile
-:body type: text/x-rst
 
 ======================================================
 2012/04/24 rst2textile-0.1.0 リリースと実装の裏話

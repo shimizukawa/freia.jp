@@ -1,6 +1,5 @@
 :date: 2011-04-23 18:10:00
 :tags: python
-:body type: text/x-rst
 
 ======================================================
 2011/04/23 packaging (aka Distutils2) のcreateコマンド

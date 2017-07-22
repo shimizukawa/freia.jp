@@ -1,6 +1,5 @@
 :date: 2008-01-25 00:05:16
 :tags: python, WZ
-:body type: text/x-rst
 
 =====================================================
 2008/01/25 WZMailの*.mbxをThunderbirdにインポートする

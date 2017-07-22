@@ -1,6 +1,5 @@
 :date: 2017-07-15 19:15
 :tags: Python, pyhack, camp
-:body type: text/x-rst
 
 ===========================================
 2017/07/14 Python mini hack-a-thon 夏山合宿

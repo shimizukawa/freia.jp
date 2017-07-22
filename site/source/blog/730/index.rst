@@ -1,6 +1,5 @@
 :date: 2010-08-29 21:30:00
 :tags: Event, python, Programming, trip, web
-:body type: text/x-rst
 
 =====================================================
 2010/08/29 cmscomさん主催の開発合宿に参加してきました

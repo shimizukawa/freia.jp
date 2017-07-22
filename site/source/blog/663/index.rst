@@ -1,6 +1,5 @@
 :date: 2009-08-07 23:08:52
 :tags: Event, Zope, Plone, web
-:body type: text/x-rst
 
 ==============================================================
 2009/08/07 Zope Essentials 7 で Deliverance の紹介を聞いてきた

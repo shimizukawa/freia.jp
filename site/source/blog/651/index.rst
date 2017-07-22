@@ -1,6 +1,5 @@
 :date: 2009-06-28 21:32:31
 :tags: Zope, pyspa
-:body type: text/x-rst
 
 ==================================================
 2009/06/28 [pyspa5] Zope2でformlibベースのフォーム

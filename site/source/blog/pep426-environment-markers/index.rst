@@ -1,6 +1,5 @@
 :date: 2014-7-10 22:00
 :tags: Python, PEP-0426, metadata2.0, setuptools, pip, wheel
-:body type: text/x-rst
 
 ====================================================================
 2014/07/10 PEP-0426 Environment Markers の調査

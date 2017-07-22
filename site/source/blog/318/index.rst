@@ -1,6 +1,5 @@
 :date: 2006-03-05 01:11:12
 :tags: Event, Zope
-:body type: text/x-rst
 
 ==================================
 2006/03/05 ZopeDevelopersCamp2006w

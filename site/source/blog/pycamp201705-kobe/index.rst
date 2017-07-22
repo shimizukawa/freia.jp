@@ -1,6 +1,5 @@
 :date: 2017-05-20 23:55
 :tags: Python, PyCon, PyCon JP, PyCamp
-:body type: text/x-rst
 
 ===========================================================
 2017/05/20 Python Boot Camp in 神戸に行ってきました #pycamp

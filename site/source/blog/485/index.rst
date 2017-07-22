@@ -1,6 +1,5 @@
 :date: 2007-10-25 01:13:53
 :tags: python, turbogears
-:body type: text/x-rst
 
 ================================================================
 2007/10/25 ソースコード探訪：turbogears.toolbox.shell.WebConsole

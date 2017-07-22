@@ -1,6 +1,5 @@
 :date: 2004-08-15 01:46:00
 :tags: Zope
-:body type: text/x-rst
 
 =================================
 2004/08/15 reStructuredTextが‥‥

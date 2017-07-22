@@ -1,6 +1,5 @@
 :date: 2015-8-30 9:00
 :tags: Python, PyCon, Malaysia, Sphinx
-:body type: text/x-rst
 
 ======================================
 2015/08/29 マレーシアに行ってきました

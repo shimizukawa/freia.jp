@@ -1,6 +1,5 @@
 :date: 2005-12-23 23:42:55
 :tags: misc
-:body type: text/x-rst
 
 ================
 2005/12/23 X'mas

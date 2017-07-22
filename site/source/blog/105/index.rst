@@ -1,6 +1,5 @@
 :date: 2005-01-08 20:14:36
 :tags: Zope, python
-:body type: text/x-rst
 
 ==============================================
 2005/01/08 LDAPのアカウント管理をZopeProductで

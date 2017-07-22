@@ -1,6 +1,5 @@
 :date: 2008-04-10 00:48:38
 :tags: IT-PC
-:body type: text/x-rst
 
 =======================================
 2008/04/10 emobileのH11TでBluetooth接続

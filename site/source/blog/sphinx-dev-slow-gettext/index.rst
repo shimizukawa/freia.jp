@@ -1,6 +1,5 @@
 :date: 2014-3-21 16:50
 :tags: Python, Sphinx
-:body type: text/x-rst
 
 ====================================================================
 2014/03/21 Sphinxメンテナ日記: make gettextが超遅い話 (Issue #1426)

@@ -1,6 +1,5 @@
 :date: 2008-07-07 00:52:05
 :tags: misc, Programming
-:body type: text/x-rst
 
 ===================================================
 2008/07/07 Ruby on Rails 逆引きクイックリファレンス

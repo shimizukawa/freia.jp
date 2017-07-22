@@ -1,6 +1,5 @@
 :date: 2004-08-09 03:29:33
 :tags: Unix, Zope
-:body type: text/x-rst
 
 ==============================
 2004/08/09 mod_proxyはいずこ？

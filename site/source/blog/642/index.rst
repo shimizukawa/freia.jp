@@ -1,6 +1,5 @@
 :date: 2009-06-06 23:57:25
 :tags: Event, Zope, python, Programming, Plone
-:body type: text/x-rst
 
 ====================================================
 2009/06/06 (第0回)Zope/Plone開発勉強会は大盛況でした

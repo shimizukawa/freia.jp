@@ -1,6 +1,5 @@
 :date: 2009-02-05 23:59:39
 :tags: misc
-:body type: text/x-rst
 
 =====================================
 2009/02/05 STARTREK VOYAGER 4週目終了

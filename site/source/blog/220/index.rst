@@ -1,6 +1,5 @@
 :date: 2005-06-02 01:14:34
 :tags: python, Zope
-:body type: text/x-rst
 
 =========================
 2005/06/02 ZrstAmazon構想

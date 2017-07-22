@@ -1,6 +1,5 @@
 :date: 2005-05-29 23:59:31
 :tags: Agile(XP), Event
-:body type: text/x-rst
 
 =======================
 2005/05/29 XPユーザー会

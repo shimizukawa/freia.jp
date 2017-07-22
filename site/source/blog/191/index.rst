@@ -1,6 +1,5 @@
 :date: 2005-04-21 00:25:30
 :tags: Zope
-:body type: text/x-rst
 
 =======================================
 2005/04/21 Zope3勉強会 & ZopeEssentials

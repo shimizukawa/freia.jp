@@ -1,6 +1,5 @@
 :date: 2017-02-20 20:30
 :tags: Python, pynyumon
-:body type: text/x-rst
 
 ========================================================
 2017/02/20 Python入門者の集い#4 に参加しました #pynyumon

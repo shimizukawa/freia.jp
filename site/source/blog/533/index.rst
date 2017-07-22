@@ -1,6 +1,5 @@
 :date: 2008-02-03 23:31:13
 :tags: Unix, IT-PC
-:body type: text/x-rst
 
 =============================
 2008/02/03 ML115 Challenge! 2

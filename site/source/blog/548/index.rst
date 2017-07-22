@@ -1,6 +1,5 @@
 :date: 2008-03-07 00:15:26
 :tags: python, work
-:body type: text/x-rst
 
 =====================
 2008/03/07 プレ合宿２

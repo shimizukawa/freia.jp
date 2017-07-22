@@ -1,6 +1,5 @@
 :date: 2006-05-21 22:34:41
 :tags: python, Programming
-:body type: text/x-rst
 
 =====================================
 2006/05/21 PythonのDocTestでお手軽TDD

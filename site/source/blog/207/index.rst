@@ -1,6 +1,5 @@
 :date: 2005-05-17 03:26:26
 :tags: Plone, Programming
-:body type: text/x-rst
 
 =============================
 2005/05/17 SilverCityDocument

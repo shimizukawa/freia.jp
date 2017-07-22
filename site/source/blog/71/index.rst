@@ -1,6 +1,5 @@
 :date: 2004-09-29 23:48:54
 :tags: misc
-:body type: text/x-rst
 
 =================
 2004/09/29 ATOK17

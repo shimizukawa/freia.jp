@@ -1,6 +1,5 @@
 :date: 2009-01-23 01:24:07
 :tags: ruby-on-rails
-:body type: text/x-rst
 
 =============================
 2009/01/23 BattleLine RoR (1)

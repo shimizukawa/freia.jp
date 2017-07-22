@@ -1,6 +1,5 @@
 :date: 2007-03-12 23:59:31
 :tags: Event, python
-:body type: text/x-rst
 
 ============================================================
 2007/03/12 動画配信奮闘記3 in Python Developers Camp 2007 冬

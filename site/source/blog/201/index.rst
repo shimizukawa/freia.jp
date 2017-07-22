@@ -1,6 +1,5 @@
 :date: 2005-05-06 10:53:35
 :tags: work
-:body type: text/x-rst
 
 ======================================================
 2005/05/06 今日は会社でFreeBSD5.3 on DELL PowerEdge800

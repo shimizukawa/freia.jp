@@ -1,6 +1,5 @@
 :date: 2005-05-19 00:02:32
 :tags: Zope
-:body type: text/x-rst
 
 ====================================================
 2005/05/19 Drag & Drop Sortable Lists をZopeで使う案

@@ -1,6 +1,5 @@
 :date: 2015-6-22 9:10
 :tags: Python, PyCon, Sphinx
-:body type: text/x-rst
 
 ====================================================
 2015/06/22 PyCon SG 2015 でSphinxを紹介してきました

@@ -1,6 +1,5 @@
 :date: 2015-8-10 23:55
 :tags: Python, EuroPython, PyCon, Sphinx
-:body type: text/x-rst
 
 ====================================================
 2015/08/10 EuroPython に行ってきました（観光編）

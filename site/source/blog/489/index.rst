@@ -1,6 +1,5 @@
 :date: 2007-10-28 01:55:13
 :tags: python
-:body type: text/x-rst
 
 =============================================
 2007/10/28 OP25b回避にGMailを利用 (on python)

@@ -1,6 +1,5 @@
 :date: 2005-06-09 01:20:12
 :tags: Unix
-:body type: text/x-rst
 
 ==========================================================
 2005/06/09 Apacheの認証をLDAPでActiveDirectoryに問い合わせ

@@ -1,6 +1,5 @@
 :date: 2004-12-07 01:16:55
 :tags: Zope, python
-:body type: text/x-rst
 
 ==============================
 2004/12/07 ZopeのPython2.4動作

@@ -1,6 +1,5 @@
 :date: 2009-09-05 15:19:55
 :tags: python
-:body type: text/x-rst
 
 ==================================================================
 2009/09/05 buildoutで開発 番外編2: buildoutでDeliverance環境を作る

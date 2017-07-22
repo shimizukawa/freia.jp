@@ -1,6 +1,5 @@
 :date: 2009-06-25 23:47:13
 :tags: Windows
-:body type: text/x-rst
 
 =========================
 2009/06/25 Windows7 + SSD

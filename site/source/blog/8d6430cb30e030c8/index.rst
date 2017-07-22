@@ -1,6 +1,5 @@
 :date: 2008-03-23 00:44:43
 :tags: boadgame
-:body type: text/x-rst
 
 ===================
 2008/03/23 赤ニムト

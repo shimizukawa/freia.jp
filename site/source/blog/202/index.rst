@@ -1,6 +1,5 @@
 :date: 2005-05-09 00:31:26
 :tags: Plone, Zope
-:body type: text/x-rst
 
 ========================================
 2005/05/09 COREBlog1.2+plonifiedカスタム

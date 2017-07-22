@@ -1,6 +1,5 @@
 :date: 2005-02-21 13:05:43
 :tags: Zope, Event
-:body type: text/x-rst
 
 ==============================
 2005/02/21 Zope Weekend の感想

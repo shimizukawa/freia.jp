@@ -1,6 +1,5 @@
 :date: 2005-09-03 14:13:14
 :tags: Zope, Plone
-:body type: text/x-rst
 
 =====================================
 2005/09/03 ZopeWeekend6に参加しました

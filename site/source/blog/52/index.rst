@@ -1,6 +1,5 @@
 :date: 2004-08-03 00:42:38
 :tags: Zope, Event
-:body type: text/x-rst
 
 ====================
 2004/08/03 ZW4おまけ

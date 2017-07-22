@@ -1,6 +1,5 @@
 :date: 2008-03-02 23:01:35
 :tags: IT-PC
-:body type: text/x-rst
 
 =======================================
 2008/03/02 VistaでVMWare Serverが固まる

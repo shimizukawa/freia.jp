@@ -1,6 +1,5 @@
 :date: 2005-01-24 18:33:28
 :tags: python, Memo
-:body type: text/x-rst
 
 ========================================
 2005/01/24 Python UnitTestのドキュメント

@@ -1,6 +1,5 @@
 :date: 2007-04-15 22:07:13
 :tags: Pattern, python, turbogears
-:body type: text/x-rst
 
 =====================================
 2007/04/15 FormEncodeで複合validation

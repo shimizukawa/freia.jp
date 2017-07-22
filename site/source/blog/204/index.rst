@@ -1,6 +1,5 @@
 :date: 2005-05-11 03:05:29
 :tags: Zope, Event
-:body type: text/x-rst
 
 =========================================
 2005/05/11 Zope Essentials 1 終了しました

@@ -1,6 +1,5 @@
 :date: 2008-02-04 13:36:29
 :tags: python, Plone
-:body type: text/x-rst
 
 ==================================================
 2008/02/04 easy_installでPILをインストールするhack

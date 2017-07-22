@@ -1,6 +1,5 @@
 :date: 2005-12-15 02:48:46
 :tags: Plone
-:body type: text/x-rst
 
 ===================================
 2005/12/15 COREBlog2簡易spam-filter

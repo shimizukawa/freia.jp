@@ -1,6 +1,5 @@
 :date: 2012-07-05 23:50:00
 :tags: JavaScript, SenchaTouch2, ExtJS
-:body type: text/x-rst
 
 ======================================================
 2012/07/05 Sencha Touch 2 のライセンスとインストール

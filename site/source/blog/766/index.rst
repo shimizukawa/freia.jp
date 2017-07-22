@@ -1,6 +1,5 @@
 :date: 2011-11-15 13:05:16
 :tags: misc, Memo, python, Programming
-:body type: text/x-rst
 
 =======================================================
 2011/11/15 ANS-prog: pythonの-m指定で便利なモジュール類

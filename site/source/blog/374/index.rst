@@ -1,6 +1,5 @@
 :date: 2006-11-05 17:16:28
 :tags: Plone
-:body type: text/x-rst
 
 ==============================
 2006/11/05 trackback止めました

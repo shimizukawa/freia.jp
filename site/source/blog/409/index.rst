@@ -1,6 +1,5 @@
 :date: 2007-03-07 23:59:20
 :tags: Event, python, turbogears
-:body type: text/x-rst
 
 ============================================================
 2007/03/07 動画配信奮闘記2 in Python Developers Camp 2007 冬

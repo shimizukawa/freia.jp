@@ -1,6 +1,5 @@
 :date: 2016-09-12 18:20
 :tags: python
-:body type: text/x-rst
 
 =================================================================
 2016/09/12 Expert Python Programming Second Edition の目次の和訳

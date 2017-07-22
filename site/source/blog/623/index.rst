@@ -1,6 +1,5 @@
 :date: 2009-02-03 02:29:21
 :tags: Programming, boadgame, ruby-on-rails
-:body type: text/x-rst
 
 =============================
 2009/02/03 BattleLine RoR (4)

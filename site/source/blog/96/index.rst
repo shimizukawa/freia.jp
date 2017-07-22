@@ -1,6 +1,5 @@
 :date: 2004-12-28 00:55:14
 :tags: misc
-:body type: text/x-rst
 
 ======================
 2004/12/28 MovableType

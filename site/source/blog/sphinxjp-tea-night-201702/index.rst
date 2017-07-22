@@ -1,6 +1,5 @@
 :date: 2017-02-09 23:55
 :tags: Sphinx
-:body type: text/x-rst
 
 =============================================
 2017/02/09 Sphinx Tea Night 2017.02 #sphinxjp

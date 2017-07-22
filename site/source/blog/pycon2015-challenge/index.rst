@@ -1,6 +1,5 @@
 :date: 2015-5-22 08:30
 :tags: Python, PyCon, Sphinx
-:body type: text/x-rst
 
 =====================================
 2015/05/22 海外PyConで修行する

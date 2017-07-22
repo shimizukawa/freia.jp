@@ -1,6 +1,5 @@
 :date: 2017-04-26 22:00
 :tags: Plone, Python, CMS
-:body type: text/x-rst
 
 =====================================================
 2017/04/26 World Plone Day 2017 Tokyo に参加しました

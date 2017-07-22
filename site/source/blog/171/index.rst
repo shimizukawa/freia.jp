@@ -1,6 +1,5 @@
 :date: 2005-03-24 01:22:53
 :tags: Unix
-:body type: text/x-rst
 
 ==========================================================
 2005/03/24 vpopmail with LDAP認証 by FreeBSD ports (第2回)

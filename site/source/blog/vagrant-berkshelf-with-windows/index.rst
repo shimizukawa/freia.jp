@@ -1,6 +1,5 @@
 :date: 2013-10-23 00:30:00
 :tags: vagrant, berkshelf, Ruby
-:body type: text/x-rst
 
 ===============================================================
 2013/10/23 vagrant-berkshelf プラグインがWindowsでエラーになる

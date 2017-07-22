@@ -1,6 +1,5 @@
 :date: 2011-09-06 00:50:00
 :tags: Programming, Windows, ruby
-:body type: text/x-rst
 
 ================================================
 2011/09/06 Rubyのrcov-0.9.8 for Windows のビルド

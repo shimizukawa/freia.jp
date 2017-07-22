@@ -1,6 +1,5 @@
 :date: 2007-01-18 23:52:02
 :tags: python, Windows
-:body type: text/x-rst
 
 ===========================================================
 2007/01/18 WindowsでPython Imaging Library(PIL)をビルドする

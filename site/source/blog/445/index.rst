@@ -1,6 +1,5 @@
 :date: 2007-04-15 17:50:16
 :tags: python, turbogears
-:body type: text/x-rst
 
 ==================================
 2007/04/15 tgdatacontrollerをegg化

@@ -1,6 +1,5 @@
 :date: 2005-05-25 00:03:54
 :tags: Plone, python
-:body type: text/x-rst
 
 ================================================
 2005/05/25 COREBlogページだけportletを切り替える

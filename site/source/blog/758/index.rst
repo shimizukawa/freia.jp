@@ -1,6 +1,5 @@
 :date: 2011-05-04 15:40:00
 :tags: Windows, ruby
-:body type: text/x-rst
 
 =======================================================
 2011/05/04 MeCab-0.98 ruby binding for Windows のビルド

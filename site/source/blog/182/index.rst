@@ -1,6 +1,5 @@
 :date: 2005-04-05 22:02:23
 :tags: WZ
-:body type: text/x-rst
 
 =============
 2005/04/05 WZ

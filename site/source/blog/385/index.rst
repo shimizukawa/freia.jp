@@ -1,6 +1,5 @@
 :date: 2006-12-11 10:00:00
 :tags: misc, food
-:body type: text/x-rst
 
 ===============
 2006/12/11 ノロ

@@ -1,6 +1,5 @@
 :date: 2008-08-10 01:04:37
 :tags: IT-PC
-:body type: text/x-rst
 
 =================================================================
 2008/08/10 ThinkVantage Access Connections がfopen failedとか言う

@@ -1,6 +1,5 @@
 :date: 2009-12-17 03:06:47
 :tags: python
-:body type: text/x-rst
 
 ========================================================
 2009/12/17 Python Testing: Beginner's Guide の目次の和訳

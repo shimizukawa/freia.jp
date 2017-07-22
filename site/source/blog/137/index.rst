@@ -1,6 +1,5 @@
 :date: 2005-02-20 00:18:02
 :tags: Zope, Event
-:body type: text/x-rst
 
 ==============================
 2005/02/20 Zope Weekend 5 終了

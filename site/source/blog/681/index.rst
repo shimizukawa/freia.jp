@@ -1,6 +1,5 @@
 :date: 2009-11-01 01:30:00
 :tags: Event, Zope, python, Plone
-:body type: text/x-rst
 
 ====================================================================
 2009/11/01 Deliverance - オープンソースカンファレンス2009 Tokyo/Fall

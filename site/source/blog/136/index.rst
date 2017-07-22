@@ -1,6 +1,5 @@
 :date: 2005-02-19 10:23:41
 :tags: Zope, Event
-:body type: text/x-rst
 
 =========================
 2005/02/19 Zope Weekend 5

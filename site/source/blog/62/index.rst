@@ -1,6 +1,5 @@
 :date: 2004-08-16 12:09:23
 :tags: Zope, python
-:body type: text/x-rst
 
 =============================
 2004/08/16 No module named ja

@@ -1,6 +1,5 @@
 :date: 2010-12-21 20:00:00
 :tags: Event, python, study, gae
-:body type: text/x-rst
 
 ===========================================================
 2010/12/21 BPStudy#40 に参加しました Google Appengine 1.4.0

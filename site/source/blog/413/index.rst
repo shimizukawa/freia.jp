@@ -1,6 +1,5 @@
 :date: 2007-03-11 01:11:17
 :tags: IT-PC
-:body type: text/x-rst
 
 ==================================================
 2007/03/11 Google AnalyticsとAdWordsのリンクを解除

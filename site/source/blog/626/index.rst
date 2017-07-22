@@ -1,6 +1,5 @@
 :date: 2009-02-04 00:14:10
 :tags: food
-:body type: text/x-rst
 
 ==================================
 2009/02/04 THAI FRIED BASIL CHIKIN

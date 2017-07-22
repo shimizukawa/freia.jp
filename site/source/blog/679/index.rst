@@ -1,6 +1,5 @@
 :date: 2009-10-24 15:10:00
 :tags: Zope, python, Plone, pyspa
-:body type: text/x-rst
 
 ===================================================================
 2009/10/24 第6回 Python温泉 に参加中. buildbot と buildout のはなし

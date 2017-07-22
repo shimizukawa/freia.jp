@@ -1,6 +1,5 @@
 :date: 2005-06-01 23:48:58
 :tags: Plone, Zope
-:body type: text/x-rst
 
 ===================================
 2005/06/01 plonified用Portlet実験中

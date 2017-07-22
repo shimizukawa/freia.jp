@@ -1,6 +1,5 @@
 :date: 2017-03-01 23:40
 :tags: Sphinx, SoftwareDesign
-:body type: text/x-rst
 
 ============================================================
 2017/03/01 SoftwareDesign誌 Sphinx連載完了打ち上げ #sphinxjp

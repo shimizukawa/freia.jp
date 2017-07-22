@@ -1,6 +1,5 @@
 :date: 2007-11-07 23:59:15
 :tags: Programming, web
-:body type: text/x-rst
 
 ========================================
 2007/11/07 初めてのC#のコード in ASP.NET

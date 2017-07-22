@@ -1,6 +1,5 @@
 :date: 2007-04-08 23:57:32
 :tags: turbogears
-:body type: text/x-rst
 
 =======================================
 2007/04/08 TurboGearsのお手軽Controller

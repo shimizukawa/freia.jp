@@ -1,6 +1,5 @@
 :date: 2005-01-25 01:00:24
 :tags: python, Programming
-:body type: text/x-rst
 
 ========================================
 2005/01/25 Pythonを利用するDLLのデバッグ

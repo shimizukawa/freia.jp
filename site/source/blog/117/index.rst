@@ -1,6 +1,5 @@
 :date: 2005-01-20 23:00:39
 :tags: Zope, Memo
-:body type: text/x-rst
 
 ====================================
 2005/01/20 CSSのoverflowプロパティー

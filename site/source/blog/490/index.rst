@@ -1,6 +1,5 @@
 :date: 2007-10-28 09:09:46
 :tags: misc, python, Windows
-:body type: text/x-rst
 
 ============================================
 2007/10/28 WindowsXPのハードリンクは不安定？

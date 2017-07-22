@@ -1,6 +1,5 @@
 :date: 2007-03-13 12:44:08
 :tags: python
-:body type: text/x-rst
 
 ===========================
 2007/03/13 SilverCity-0.9.7

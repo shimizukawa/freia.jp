@@ -1,6 +1,5 @@
 :date: 2004-08-01 02:55:02
 :tags: Zope, Event
-:body type: text/x-rst
 
 ===============
 2004/08/01 感想

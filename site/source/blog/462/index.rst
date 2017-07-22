@@ -1,6 +1,5 @@
 :date: 2007-07-07 19:50:19
 :tags: Zope, Plone
-:body type: text/x-rst
 
 =====================================
 2007/07/07 Plone2.5のRadius認証Plugin

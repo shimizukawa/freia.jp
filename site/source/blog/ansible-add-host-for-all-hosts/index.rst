@@ -1,6 +1,5 @@
 :date: 2015-6-25 23:50
 :tags: Ansible, aws
-:body type: text/x-rst
 
 ====================================================
 2015/06/25 ansibleのadd_hostを全てのhostで実行する

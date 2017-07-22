@@ -1,6 +1,5 @@
 :date: 2006-05-17 02:27:48
 :tags: Plone
-:body type: text/x-rst
 
 =======================================================
 2006/05/17 COREBlog2用のCMFContentPanelsのViewletを作る

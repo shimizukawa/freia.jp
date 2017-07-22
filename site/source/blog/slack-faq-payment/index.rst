@@ -1,6 +1,5 @@
 :date: 2014-7-4 22:00
 :tags: Slack, Chat, Translation
-:body type: text/x-rst
 
 =======================================
 2014/07/04 【Slack FAQ 翻訳】支払いFAQ

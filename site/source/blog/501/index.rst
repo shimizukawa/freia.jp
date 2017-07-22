@@ -1,6 +1,5 @@
 :date: 2007-12-15 16:44:54
 :tags: Unix, ldap
-:body type: text/x-rst
 
 =====================
 2007/12/15 RADIUSって

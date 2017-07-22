@@ -1,6 +1,5 @@
 :date: 2005-10-14 01:54:37
 :tags: IT-PC
-:body type: text/x-rst
 
 =============================================================
 2005/10/14 Googleの「Personalize your Google homepage」を使う

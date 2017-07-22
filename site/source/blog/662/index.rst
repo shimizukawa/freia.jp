@@ -1,6 +1,5 @@
 :date: 2009-07-30 23:16:59
 :tags: python, Programming
-:body type: text/x-rst
 
 =============================================================
 2009/07/30 buildoutで開発 番外編: eggにrevision番号が付かない
