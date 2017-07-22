@@ -9,5 +9,6 @@ RUN mkdir -p /doc
 WORKDIR /doc
 COPY ./requirements.txt /doc/requirements.txt
 RUN pip install -r /doc/requirements.txt
+RUN pip install https://github.com/shimizukawa/sphinxcontrib-feed/archive/master.zip
 
 CMD bash
