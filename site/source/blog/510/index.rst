@@ -1,5 +1,5 @@
 :date: 2007-12-31 14:57:16
-:categories: ['Memo', 'database']
+:tags: Memo, database
 :body type: text/x-rst
 
 =========================================

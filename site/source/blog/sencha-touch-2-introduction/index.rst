@@ -1,5 +1,5 @@
 :date: 2012-07-04 12:00:00
-:categories: ['JavaScript', 'SenchaTouch2', 'ExtJS']
+:tags: JavaScript, SenchaTouch2, ExtJS
 :body type: text/x-rst
 
 ============================================

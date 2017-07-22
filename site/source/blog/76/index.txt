@@ -1,5 +1,5 @@
 :date: 2004-10-14 01:01:34
-:categories: ['food', 'misc']
+:tags: food, misc
 :body type: text/plain
 
 =============================================

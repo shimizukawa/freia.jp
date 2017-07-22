@@ -1,5 +1,5 @@
 :date: 2014-6-17 14:30
-:categories: ['Python', 'PyCon']
+:tags: Python, PyCon
 :body type: text/x-rst
 
 ===============================================================

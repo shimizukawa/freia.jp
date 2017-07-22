@@ -1,5 +1,5 @@
 :date: 2014-7-4 22:00
-:categories: ['Slack', 'Chat', 'Translation']
+:tags: Slack, Chat, Translation
 :body type: text/x-rst
 
 =======================================

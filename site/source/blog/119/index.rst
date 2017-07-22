@@ -1,5 +1,5 @@
 :date: 2005-01-22 01:43:18
-:categories: ['WZ', 'python']
+:tags: WZ, python
 :body type: text/x-rst
 
 ===============================================

@@ -1,5 +1,5 @@
 :date: 2007-02-26 23:33:26
-:categories: ['darts']
+:tags: darts
 :body type: text/x-rst
 
 =========================

@@ -1,5 +1,5 @@
 :date: 2006-04-17 07:09:08
-:categories: ['misc', 'work']
+:tags: misc, work
 :body type: text/x-rst
 
 =======================================

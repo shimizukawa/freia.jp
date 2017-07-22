@@ -1,5 +1,5 @@
 :date: 2005-01-23 00:23:29
-:categories: ['Memo', 'misc']
+:tags: Memo, misc
 :body type: text/x-rst
 
 =======================================

@@ -1,5 +1,5 @@
 :date: 2006-09-18 11:20:10
-:categories: ['Event']
+:tags: Event
 :body type: text/x-rst
 
 ==================================

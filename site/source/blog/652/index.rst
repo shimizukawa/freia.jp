@@ -1,5 +1,5 @@
 :date: 2009-06-28 21:38:09
-:categories: ['Zope', 'python', 'pyspa']
+:tags: Zope, python, pyspa
 :body type: text/x-rst
 
 =======================================================

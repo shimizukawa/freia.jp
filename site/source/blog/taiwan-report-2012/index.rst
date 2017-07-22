@@ -1,5 +1,5 @@
 :date: 2012-07-01 16:30:00
-:categories: ['Python', '台湾', '旅行']
+:tags: Python, 台湾, 旅行
 :body type: text/x-rst
 
 ========================================

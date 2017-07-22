@@ -1,5 +1,5 @@
 :date: 2005-09-03 10:50:25
-:categories: ['Zope']
+:tags: Zope
 :body type: text/x-rst
 
 =====================================

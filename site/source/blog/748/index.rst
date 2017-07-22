@@ -1,5 +1,5 @@
 :date: 2011-01-23 18:00:49
-:categories: ['python', 'testing', 'gae']
+:tags: python, testing, gae
 :body type: text/x-rst
 
 ===========================================================================

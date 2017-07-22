@@ -1,5 +1,5 @@
 :date: 2010-05-22 13:20:00
-:categories: ['misc', 'python']
+:tags: misc, python
 :body type: text/x-rst
 
 ===============================================================

@@ -1,5 +1,5 @@
 :date: 2007-03-06 23:58:00
-:categories: ['Event', 'IT-PC']
+:tags: Event, IT-PC
 :body type: text/x-rst
 
 ============================================

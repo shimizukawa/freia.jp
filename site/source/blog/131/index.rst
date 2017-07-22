@@ -1,5 +1,5 @@
 :date: 2005-02-01 12:59:17
-:categories: ['Pattern', 'Memo']
+:tags: Pattern, Memo
 :body type: text/x-rst
 
 =======================

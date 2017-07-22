@@ -1,5 +1,5 @@
 :date: 2007-12-01 22:37:00
-:categories: ['javascript']
+:tags: javascript
 :body type: text/x-rst
 
 ===========================================

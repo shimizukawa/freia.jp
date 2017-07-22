@@ -1,5 +1,5 @@
 :date: 2007-08-03 13:51:13
-:categories: ['web']
+:tags: web
 :body type: text/x-rst
 
 ==================================

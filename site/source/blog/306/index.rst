@@ -1,5 +1,5 @@
 :date: 2006-01-28 13:22:34
-:categories: ['Zope', 'Plone', 'IT-PC']
+:tags: Zope, Plone, IT-PC
 :body type: text/x-rst
 
 =================================

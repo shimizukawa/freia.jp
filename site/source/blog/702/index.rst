@@ -1,5 +1,5 @@
 :date: 2009-12-16 23:55:00
-:categories: ['ruby-on-rails']
+:tags: ruby-on-rails
 :body type: text/x-rst
 
 ======================================================

@@ -1,5 +1,5 @@
 :date: 2013-02-10 20:10
-:categories: ['Vagrant', 'Chef', 'Ubuntu']
+:tags: Vagrant, Chef, Ubuntu
 :body type: text/x-rst
 
 =========================================

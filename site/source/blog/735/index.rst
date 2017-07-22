@@ -1,5 +1,5 @@
 :date: 2010-09-20 17:00:00
-:categories: ['Event', 'python', 'Programming', 'epp']
+:tags: Event, python, Programming, epp
 :body type: text/x-rst
 
 ===========================================================

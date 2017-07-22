@@ -1,5 +1,5 @@
 :date: 2007-04-10 00:43:41
-:categories: ['turbogears']
+:tags: turbogears
 :body type: text/x-rst
 
 =======================

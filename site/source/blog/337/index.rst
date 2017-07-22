@@ -1,5 +1,5 @@
 :date: 2006-04-26 02:25:24
-:categories: ['Agile(XP)', 'Programming']
+:tags: Agile(XP), Programming
 :body type: text/x-rst
 
 ===============================================

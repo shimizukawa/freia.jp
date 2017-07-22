@@ -1,5 +1,5 @@
 :date: 2014-7-16 21:30
-:categories: ['Python', 'PyCon', 'PyCharm', 'Sphinx']
+:tags: Python, PyCon, PyCharm, Sphinx
 :body type: text/x-rst
 
 ================================================================================

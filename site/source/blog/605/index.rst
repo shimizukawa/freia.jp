@@ -1,5 +1,5 @@
 :date: 2008-07-28 23:55:00
-:categories: ['Event', 'ruby-on-rails']
+:tags: Event, ruby-on-rails
 :body type: text/x-rst
 
 ============================================================

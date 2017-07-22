@@ -1,5 +1,5 @@
 :date: 2008-03-17 05:15:53
-:categories: ['work']
+:tags: work
 :body type: text/x-rst
 
 ===========================

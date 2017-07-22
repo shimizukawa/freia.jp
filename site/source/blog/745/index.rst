@@ -1,5 +1,5 @@
 :date: 2010-12-21 20:00:00
-:categories: ['Event', 'python', 'study', 'gae']
+:tags: Event, python, study, gae
 :body type: text/x-rst
 
 ===========================================================

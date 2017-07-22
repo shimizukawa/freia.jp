@@ -1,5 +1,5 @@
 :date: 2012-03-27 19:00:00
-:categories: ['book', 'Python', 'beproud', 'work', 'sphinx']
+:tags: book, Python, beproud, work, sphinx
 :body type: text/x-rst
 
 ==============================================================================

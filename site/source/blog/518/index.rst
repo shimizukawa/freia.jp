@@ -1,5 +1,5 @@
 :date: 2008-01-23 00:18:04
-:categories: ['WZ', 'IT-PC']
+:tags: WZ, IT-PC
 :body type: text/x-rst
 
 =======================================

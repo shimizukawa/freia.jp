@@ -1,5 +1,5 @@
 :date: 2015-03-10 23:55
-:categories: ['Python', 'Forkwell', 'BePROUD']
+:tags: Python, Forkwell, BePROUD
 :body type: text/x-rst
 
 =========================================================================

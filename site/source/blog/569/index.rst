@@ -1,5 +1,5 @@
 :date: 2008-05-16 01:42:42
-:categories: ['Event', 'food', 'work']
+:tags: Event, food, work
 :body type: text/x-rst
 
 ===============================================

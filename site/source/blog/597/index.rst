@@ -1,5 +1,5 @@
 :date: 2008-07-07 00:52:05
-:categories: ['misc', 'Programming']
+:tags: misc, Programming
 :body type: text/x-rst
 
 ===================================================

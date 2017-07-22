@@ -1,5 +1,5 @@
 :date: 2015-02-14 14:00
-:categories: ['Sphinx', 'Docker', 'fig']
+:tags: Sphinx, Docker, fig
 :body type: text/x-rst
 
 ====================================================

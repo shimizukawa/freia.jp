@@ -1,5 +1,5 @@
 :date: 2012-04-07 10:20:00
-:categories: ['Python', 'Distutils2', 'packaging']
+:tags: Python, Distutils2, packaging
 :body type: text/x-rst
 
 ======================================================

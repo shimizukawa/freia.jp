@@ -1,5 +1,5 @@
 :date: 2004-08-09 03:29:33
-:categories: ['Unix', 'Zope']
+:tags: Unix, Zope
 :body type: text/x-rst
 
 ==============================

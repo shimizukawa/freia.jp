@@ -1,5 +1,5 @@
 :date: 2010-02-04 23:00:00
-:categories: ['Event', 'food']
+:tags: Event, food
 :body type: text/x-rst
 
 =====================================

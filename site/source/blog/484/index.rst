@@ -1,5 +1,5 @@
 :date: 2007-10-11 02:09:37
-:categories: ['misc', 'Memo', 'IT-PC']
+:tags: misc, Memo, IT-PC
 :body type: text/x-rst
 
 ========================================

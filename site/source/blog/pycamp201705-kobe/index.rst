@@ -1,5 +1,5 @@
 :date: 2017-05-20 23:55
-:categories: ['Python', 'PyCon', 'PyCon JP', 'PyCamp']
+:tags: Python, PyCon, PyCon JP, PyCamp
 :body type: text/x-rst
 
 ===========================================================

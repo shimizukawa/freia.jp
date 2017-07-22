@@ -1,5 +1,5 @@
 :date: 2017-06-17 23:59
-:categories: ['Python', 'pyhack']
+:tags: Python, pyhack
 :body type: text/x-rst
 
 =======================================

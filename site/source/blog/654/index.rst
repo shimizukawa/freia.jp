@@ -1,5 +1,5 @@
 :date: 2009-07-02 02:26:29
-:categories: ['misc', 'work', 'pyspa']
+:tags: misc, work, pyspa
 :body type: text/x-rst
 
 =========================================

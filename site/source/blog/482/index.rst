@@ -1,5 +1,5 @@
 :date: 2007-09-30 23:38:57
-:categories: ['misc', 'Windows']
+:tags: misc, Windows
 :body type: text/x-rst
 
 =======================================================

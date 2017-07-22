@@ -1,5 +1,5 @@
 :date: 2005-08-31 12:43:22
-:categories: ['work', 'Agile(XP)']
+:tags: work, Agile(XP)
 :body type: text/x-rst
 
 ===========================

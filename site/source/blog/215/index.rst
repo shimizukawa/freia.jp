@@ -1,5 +1,5 @@
 :date: 2005-05-26 02:22:22
-:categories: ['food', 'Event']
+:tags: food, Event
 :body type: text/x-rst
 
 ===============================

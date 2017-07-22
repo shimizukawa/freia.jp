@@ -1,5 +1,5 @@
 :date: 2010-09-20 17:00:00
-:categories: ['python', 'testing', 'epp']
+:tags: python, testing, epp
 :body type: text/x-rst
 
 =========================================================================

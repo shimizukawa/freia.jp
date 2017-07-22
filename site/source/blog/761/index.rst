@@ -1,5 +1,5 @@
 :date: 2011-08-28 23:00:00
-:categories: ['Event', 'misc']
+:tags: Event, misc
 :body type: text/x-rst
 
 ===============================

@@ -1,5 +1,5 @@
 :date: 2005-01-26 21:33:31
-:categories: ['Unix', 'work']
+:tags: Unix, work
 :body type: text/x-rst
 
 ================================================

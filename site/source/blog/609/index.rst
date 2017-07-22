@@ -1,5 +1,5 @@
 :date: 2008-10-26 16:48:18
-:categories: ['pyspa']
+:tags: pyspa
 :body type: text/x-rst
 
 ==========================

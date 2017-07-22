@@ -1,5 +1,5 @@
 :date: 2010-06-21 23:25:12
-:categories: ['Event', 'Zope', 'Plone']
+:tags: Event, Zope, Plone
 :body type: text/x-rst
 
 =======================================================

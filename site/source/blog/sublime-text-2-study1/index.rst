@@ -1,5 +1,5 @@
 :date: 2012-07-13 23:50:00
-:categories: ['Editor', 'SublimeText2', 'Python', 'Ruby']
+:tags: Editor, SublimeText2, Python, Ruby
 :body type: text/x-rst
 
 ==================================================

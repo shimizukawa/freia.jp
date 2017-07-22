@@ -1,5 +1,5 @@
 :date: 2007-11-07 23:59:15
-:categories: ['Programming', 'web']
+:tags: Programming, web
 :body type: text/x-rst
 
 ========================================

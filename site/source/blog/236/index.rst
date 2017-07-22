@@ -1,5 +1,5 @@
 :date: 2005-08-03 00:27:00
-:categories: ['misc']
+:tags: misc
 :body type: text/x-rst
 
 ======================

@@ -1,5 +1,5 @@
 :date: 2017-03-09 23:55
-:categories: ['Sphinx']
+:tags: Sphinx
 :body type: text/x-rst
 
 =============================================

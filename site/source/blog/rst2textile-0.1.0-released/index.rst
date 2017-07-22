@@ -1,5 +1,5 @@
 :date: 2012-04-24 23:00:00
-:categories: ['Python', 'docutils', 'textile', 'rst2textile']
+:tags: Python, docutils, textile, rst2textile
 :body type: text/x-rst
 
 ======================================================

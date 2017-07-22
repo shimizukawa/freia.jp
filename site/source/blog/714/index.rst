@@ -1,5 +1,5 @@
 :date: 2010-02-03 23:50:00
-:categories: ['web', 'security']
+:tags: web, security
 :body type: text/x-rst
 
 ========================================

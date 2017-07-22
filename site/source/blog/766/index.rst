@@ -1,5 +1,5 @@
 :date: 2011-11-15 13:05:16
-:categories: ['misc', 'Memo', 'python', 'Programming']
+:tags: misc, Memo, python, Programming
 :body type: text/x-rst
 
 =======================================================

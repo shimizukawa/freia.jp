@@ -1,5 +1,5 @@
 :date: 2009-08-08 16:45:24
-:categories: ['Event', 'Zope', 'python']
+:tags: Event, Zope, python
 :body type: text/x-rst
 
 ================================================================

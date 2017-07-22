@@ -1,5 +1,5 @@
 :date: 2005-08-04 20:46:38
-:categories: ['misc']
+:tags: misc
 :body type: text/plain
 
 =================

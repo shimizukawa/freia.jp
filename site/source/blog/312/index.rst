@@ -1,5 +1,5 @@
 :date: 2006-02-11 23:58:58
-:categories: ['Event', 'Zope']
+:tags: Event, Zope
 :body type: text/x-rst
 
 ====================================

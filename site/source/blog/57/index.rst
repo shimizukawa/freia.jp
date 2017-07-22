@@ -1,5 +1,5 @@
 :date: 2004-08-12 00:30:13
-:categories: ['WZ']
+:tags: WZ
 :body type: text/x-rst
 
 ===============================

@@ -1,5 +1,5 @@
 :date: 2007-03-07 23:59:20
-:categories: ['Event', 'python', 'turbogears']
+:tags: Event, python, turbogears
 :body type: text/x-rst
 
 ============================================================

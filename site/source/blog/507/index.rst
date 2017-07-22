@@ -1,5 +1,5 @@
 :date: 2007-12-28 15:42:34
-:categories: ['bicycle']
+:tags: bicycle
 :body type: text/x-rst
 
 =========================================================

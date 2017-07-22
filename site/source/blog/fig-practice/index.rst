@@ -1,5 +1,5 @@
 :date: 2015-02-07 23:55
-:categories: ['Docker', 'fig']
+:tags: Docker, fig
 :body type: text/x-rst
 
 ===========================================================

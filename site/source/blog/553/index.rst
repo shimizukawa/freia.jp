@@ -1,5 +1,5 @@
 :date: 2008-03-21 00:27:35
-:categories: ['misc', 'IT-PC']
+:tags: misc, IT-PC
 :body type: text/x-rst
 
 =================================================

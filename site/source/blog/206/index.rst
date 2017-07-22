@@ -1,5 +1,5 @@
 :date: 2005-05-17 01:30:05
-:categories: ['misc', 'Agile(XP)']
+:tags: misc, Agile(XP)
 :body type: text/x-rst
 
 ===============================

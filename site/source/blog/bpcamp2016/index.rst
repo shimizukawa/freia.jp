@@ -1,5 +1,5 @@
 :date: 2017-03-04 23:00
-:categories: ['bpcamp', 'beproud']
+:tags: bpcamp, beproud
 :body type: text/x-rst
 
 =================================================

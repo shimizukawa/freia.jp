@@ -1,5 +1,5 @@
 :date: 2017-02-20 20:30
-:categories: ['Python', 'pynyumon']
+:tags: Python, pynyumon
 :body type: text/x-rst
 
 ========================================================

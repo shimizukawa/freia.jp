@@ -1,5 +1,5 @@
 :date: 2008-05-20 16:31:29
-:categories: ['work', 'trip']
+:tags: work, trip
 :body type: text/x-rst
 
 ===========================================

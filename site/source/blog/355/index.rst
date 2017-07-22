@@ -1,5 +1,5 @@
 :date: 2006-07-23 16:18:08
-:categories: ['Game']
+:tags: Game
 :body type: text/x-rst
 
 =============================

@@ -1,5 +1,5 @@
 :date: 2017-07-15 19:15
-:categories: ['Python', 'pyhack', 'camp']
+:tags: Python, pyhack, camp
 :body type: text/x-rst
 
 ===========================================

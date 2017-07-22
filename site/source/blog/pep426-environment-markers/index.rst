@@ -1,5 +1,5 @@
 :date: 2014-7-10 22:00
-:categories: ['Python', 'PEP-0426', 'metadata2.0', 'setuptools', 'pip', 'wheel']
+:tags: Python, PEP-0426, metadata2.0, setuptools, pip, wheel
 :body type: text/x-rst
 
 ====================================================================

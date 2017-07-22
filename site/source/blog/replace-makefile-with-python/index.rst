@@ -1,5 +1,5 @@
 :date: 2012-04-11 23:30:00
-:categories: ['Python', 'make', 'Makefile', 'Library']
+:tags: Python, make, Makefile, Library
 :body type: text/x-rst
 
 =========================================

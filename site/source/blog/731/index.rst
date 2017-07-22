@@ -1,5 +1,5 @@
 :date: 2010-09-04 17:10:00
-:categories: ['Agile(XP)', 'Event', 'python']
+:tags: Agile(XP), Event, python
 :body type: text/x-rst
 
 ==============================================================================

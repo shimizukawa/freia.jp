@@ -1,5 +1,5 @@
 :date: 2015-8-30 9:00
-:categories: ['Python', 'PyCon', 'Malaysia', 'Sphinx']
+:tags: Python, PyCon, Malaysia, Sphinx
 :body type: text/x-rst
 
 ======================================

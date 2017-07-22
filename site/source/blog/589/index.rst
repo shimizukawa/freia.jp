@@ -1,5 +1,5 @@
 :date: 2008-06-29 01:20:37
-:categories: ['Event', 'python', 'cpp']
+:tags: Event, python, cpp
 :body type: text/x-rst
 
 =================================================

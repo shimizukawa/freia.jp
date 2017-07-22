@@ -1,5 +1,5 @@
 :date: 2012-07-09 17:30:00
-:categories: ['python', 'celery'']
+:tags: python, celery
 :body type: text/x-rst
 
 ==========================================================

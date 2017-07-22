@@ -1,5 +1,5 @@
 :date: 2008-03-23 00:44:43
-:categories: ['boadgame']
+:tags: boadgame
 :body type: text/x-rst
 
 ===================

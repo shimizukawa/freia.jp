@@ -1,5 +1,5 @@
 :date: 2008-12-31 23:09:06
-:categories: ['misc', 'food']
+:tags: misc, food
 :body type: text/x-rst
 
 =============================

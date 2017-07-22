@@ -1,5 +1,5 @@
 :date: 2006-06-08 09:51:44
-:categories: ['Event', 'work']
+:tags: Event, work
 :body type: text/x-rst
 
 =========================

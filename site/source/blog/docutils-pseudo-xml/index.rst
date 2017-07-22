@@ -1,5 +1,5 @@
 :date: 2012-04-09 23:40:00
-:categories: ['Python', 'docutils', 'development']
+:tags: Python, docutils, development
 :body type: text/x-rst
 
 ======================================================

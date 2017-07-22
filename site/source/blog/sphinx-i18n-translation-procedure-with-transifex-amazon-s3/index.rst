@@ -1,5 +1,5 @@
 :date: 2013-03-31 13:00
-:categories: ['Sphinx', 'i18n', 'translation', 'transifex', 'amazon-s3']
+:tags: Sphinx, i18n, translation, transifex, amazon-s3
 :body type: text/x-rst
 
 

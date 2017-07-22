@@ -1,5 +1,5 @@
 :date: 2017-06-17 23:55
-:categories: ['Sphinx', 'Heroku', 'Hosting']
+:tags: Sphinx, Heroku, Hosting
 :body type: text/x-rst
 
 =======================================================================

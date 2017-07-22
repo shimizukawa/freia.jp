@@ -1,5 +1,5 @@
 :date: 2008-02-06 03:08:17
-:categories: ['work', 'cpp']
+:tags: work, cpp
 :body type: text/x-rst
 
 ========================================================

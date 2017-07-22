@@ -1,5 +1,5 @@
 :date: 2012-12-08 18:00
-:categories: ['Python', 'PySpa']
+:tags: Python, PySpa
 :body type: text/x-rst
 
 ======================================================

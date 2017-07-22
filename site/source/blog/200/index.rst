@@ -1,5 +1,5 @@
 :date: 2005-05-05 03:11:53
-:categories: ['python', 'Game']
+:tags: python, Game
 :body type: text/x-rst
 
 =======================

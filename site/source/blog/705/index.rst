@@ -1,5 +1,5 @@
 :date: 2009-12-19 23:55:00
-:categories: ['Event']
+:tags: Event
 :body type: text/x-rst
 
 ============================

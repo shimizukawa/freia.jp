@@ -1,5 +1,5 @@
 :date: 2014-6-15 17:30
-:categories: ['Python', 'Sphinx']
+:tags: Python, Sphinx
 :body type: text/x-rst
 
 =============================================================

@@ -1,5 +1,5 @@
 :date: 2011-01-13 01:28:11
-:categories: ['Event', 'ruby-on-rails', 'study']
+:tags: Event, ruby-on-rails, study
 :body type: text/x-rst
 
 ========================================================================

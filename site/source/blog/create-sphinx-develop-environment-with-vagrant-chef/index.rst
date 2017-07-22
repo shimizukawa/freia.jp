@@ -1,5 +1,5 @@
 :date: 2013-02-10 21:20
-:categories: ['Vagrant', 'Chef', 'Python', 'Sphinx']
+:tags: Vagrant, Chef, Python, Sphinx
 :body type: text/x-rst
 
 ====================================================================

@@ -1,5 +1,5 @@
 :date: 2017-07-09 21:30
-:categories: ['Diet']
+:tags: Diet
 :body type: text/x-rst
 
 ==================================================

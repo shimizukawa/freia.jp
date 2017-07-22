@@ -1,5 +1,5 @@
 :date: 2009-01-25 19:11:03
-:categories: ['Programming', 'boadgame', 'ruby-on-rails']
+:tags: Programming, boadgame, ruby-on-rails
 :body type: text/x-rst
 
 ===============================================================================

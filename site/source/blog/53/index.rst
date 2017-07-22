@@ -1,5 +1,5 @@
 :date: 2004-08-05 02:20:27
-:categories: ['Pattern', 'OO']
+:tags: Pattern, OO
 :body type: text/x-rst
 
 =======================================================

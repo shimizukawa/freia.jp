@@ -1,5 +1,5 @@
 :date: 2006-10-09 20:00:00
-:categories: ['Event', 'bicycle']
+:tags: Event, bicycle
 :body type: text/x-rst
 
 ===============================

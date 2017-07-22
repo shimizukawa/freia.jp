@@ -1,5 +1,5 @@
 :date: 2008-01-30 01:38:36
-:categories: ['Agile(XP)', 'IT-PC']
+:tags: Agile(XP), IT-PC
 :body type: text/x-rst
 
 =================================

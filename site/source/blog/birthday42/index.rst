@@ -1,5 +1,5 @@
 :date: 2017-05-22 23:00
-:categories: ['birthday']
+:tags: birthday
 :body type: text/x-rst
 
 ====================================

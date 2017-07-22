@@ -1,5 +1,5 @@
 :date: 2009-02-08 06:35:43
-:categories: ['misc', 'food', 'trip']
+:tags: misc, food, trip
 :body type: text/x-rst
 
 ===================================

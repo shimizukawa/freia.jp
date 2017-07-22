@@ -1,5 +1,5 @@
 :date: 2011-01-26 23:47:11
-:categories: ['Agile(XP)', 'Programming', 'testing']
+:tags: Agile(XP), Programming, testing
 :body type: text/x-rst
 
 ==================================================================

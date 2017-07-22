@@ -1,5 +1,5 @@
 :date: 2012-07-24 23:58:00
-:categories: ['python', 'python3', 'namespace-package']
+:tags: python, python3, namespace-package
 :body type: text/x-rst
 
 ==========================================================

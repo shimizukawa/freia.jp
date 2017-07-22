@@ -1,5 +1,5 @@
 :date: 2013-10-23 00:30:00
-:categories: ['vagrant', 'berkshelf', 'Ruby']
+:tags: vagrant, berkshelf, Ruby
 :body type: text/x-rst
 
 ===============================================================

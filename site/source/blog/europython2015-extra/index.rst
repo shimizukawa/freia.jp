@@ -1,5 +1,5 @@
 :date: 2015-8-10 23:55
-:categories: ['Python', 'EuroPython', 'PyCon', 'Sphinx']
+:tags: Python, EuroPython, PyCon, Sphinx
 :body type: text/x-rst
 
 ====================================================

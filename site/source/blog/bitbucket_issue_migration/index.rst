@@ -1,5 +1,5 @@
 :date: 2015-01-18 23:00
-:categories: ['Python', 'bitbucket', 'github']
+:tags: Python, bitbucket, github
 :body type: text/x-rst
 
 ==========================================================

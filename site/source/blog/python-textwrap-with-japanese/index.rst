@@ -1,5 +1,5 @@
 :date: 2013-02-16 18:00
-:categories: ['Python', 'Sphinx', 'textwrap']
+:tags: Python, Sphinx, textwrap
 :body type: text/x-rst
 
 =======================================================

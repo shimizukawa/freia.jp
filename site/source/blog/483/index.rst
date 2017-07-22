@@ -1,5 +1,5 @@
 :date: 2007-10-01 00:09:56
-:categories: ['Programming', 'Windows']
+:tags: Programming, Windows
 :body type: text/x-rst
 
 ====================================================

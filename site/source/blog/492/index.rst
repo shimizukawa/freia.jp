@@ -1,5 +1,5 @@
 :date: 2007-11-05 22:21:31
-:categories: ['Windows', 'web']
+:tags: Windows, web
 :body type: text/x-rst
 
 ============================

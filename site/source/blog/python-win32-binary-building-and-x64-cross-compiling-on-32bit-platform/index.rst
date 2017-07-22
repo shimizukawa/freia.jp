@@ -1,5 +1,5 @@
 :date: 2013-02-24 18:40
-:categories: ['Python', 'Win32', "x64", "distutils", "VisualStudio 2008 Express", "MinGW32-x64"]
+:tags: Python, Win32, "x64", "distutils", "VisualStudio 2008 Express", "MinGW32-x64"
 :body type: text/x-rst
 
 

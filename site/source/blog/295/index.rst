@@ -1,5 +1,5 @@
 :date: 2006-01-04 16:00:00
-:categories: ['python']
+:tags: python
 :body type: text/x-rst
 
 =====================================================

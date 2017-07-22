@@ -1,5 +1,5 @@
 :date: 2010-07-18 12:51:53
-:categories: ['python', 'Windows']
+:tags: python, Windows
 :body type: text/x-rst
 
 ==================================================================================

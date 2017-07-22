@@ -1,5 +1,5 @@
 :date: 2013-12-21 15:00
-:categories: ['Python', 'tox', 'virtualenv', 'setuptools']
+:tags: Python, tox, virtualenv, setuptools
 :body type: text/x-rst
 
 ====================================================================================================

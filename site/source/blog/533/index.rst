@@ -1,5 +1,5 @@
 :date: 2008-02-03 23:31:13
-:categories: ['Unix', 'IT-PC']
+:tags: Unix, IT-PC
 :body type: text/x-rst
 
 =============================

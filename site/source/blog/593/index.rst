@@ -1,5 +1,5 @@
 :date: 2008-07-01 11:11:39
-:categories: ['Event', 'OO']
+:tags: Event, OO
 :body type: text/x-rst
 
 ===================================================

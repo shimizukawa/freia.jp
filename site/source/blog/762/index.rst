@@ -1,5 +1,5 @@
 :date: 2011-09-06 00:50:00
-:categories: ['Programming', 'Windows', 'ruby']
+:tags: Programming, Windows, ruby
 :body type: text/x-rst
 
 ================================================

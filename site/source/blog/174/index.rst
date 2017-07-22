@@ -1,5 +1,5 @@
 :date: 2005-03-27 16:29:18
-:categories: ['Event', 'Plone']
+:tags: Event, Plone
 :body type: text/x-rst
 
 =============================================

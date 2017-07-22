@@ -1,5 +1,5 @@
 :date: 2009-12-09 19:00:00
-:categories: ['Event', 'Plone']
+:tags: Event, Plone
 :body type: text/x-rst
 
 ====================================

@@ -1,5 +1,5 @@
 :date: 2007-03-25 16:43:55
-:categories: ['Event', 'Programming']
+:tags: Event, Programming
 :body type: text/x-rst
 
 ========================

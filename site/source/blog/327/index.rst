@@ -1,5 +1,5 @@
 :date: 2006-03-26 16:00:00
-:categories: ['food', 'bicycle']
+:tags: food, bicycle
 :body type: text/x-rst
 
 =====================================

@@ -1,5 +1,5 @@
 :date: 2015-02-25 7:20:00
-:categories: ['book', 'Python', 'beproud', 'work']
+:tags: book, Python, beproud, work
 :body type: text/x-rst
 
 ================================================================================

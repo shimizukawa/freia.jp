@@ -1,5 +1,5 @@
 :date: 2009-08-09 19:20:47
-:categories: ['python', 'Programming', 'web']
+:tags: python, Programming, web
 :body type: text/x-rst
 
 ===================================================================

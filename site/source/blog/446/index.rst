@@ -1,5 +1,5 @@
 :date: 2007-04-15 22:07:13
-:categories: ['Pattern', 'python', 'turbogears']
+:tags: Pattern, python, turbogears
 :body type: text/x-rst
 
 =====================================

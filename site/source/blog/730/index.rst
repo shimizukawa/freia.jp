@@ -1,5 +1,5 @@
 :date: 2010-08-29 21:30:00
-:categories: ['Event', 'python', 'Programming', 'trip', 'web']
+:tags: Event, python, Programming, trip, web
 :body type: text/x-rst
 
 =====================================================

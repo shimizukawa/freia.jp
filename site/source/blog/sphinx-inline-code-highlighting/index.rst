@@ -1,5 +1,5 @@
 :date: 2012-08-20 23:30:00
-:categories: ['python', 'sphinx', 'docutils']
+:tags: python, sphinx, docutils
 :body type: text/x-rst
 
 ========================================================================

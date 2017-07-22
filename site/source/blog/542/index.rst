@@ -1,5 +1,5 @@
 :date: 2008-02-15 01:37:00
-:categories: ['Event', 'python']
+:tags: Event, python
 :body type: text/x-rst
 
 =========================================

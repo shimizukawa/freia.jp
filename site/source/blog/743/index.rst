@@ -1,5 +1,5 @@
 :date: 2010-11-25 23:55:00
-:categories: ['python', 'testing']
+:tags: python, testing
 :body type: text/x-rst
 
 ====================================================================

@@ -1,5 +1,5 @@
 :date: 2005-05-29 23:59:31
-:categories: ['Agile(XP)', 'Event']
+:tags: Agile(XP), Event
 :body type: text/x-rst
 
 =======================

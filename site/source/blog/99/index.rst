@@ -1,5 +1,5 @@
 :date: 2004-12-29 13:13:29
-:categories: ['misc', 'Zope']
+:tags: misc, Zope
 :body type: text/x-rst
 
 =========================

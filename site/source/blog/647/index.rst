@@ -1,5 +1,5 @@
 :date: 2009-06-25 23:47:13
-:categories: ['Windows']
+:tags: Windows
 :body type: text/x-rst
 
 =========================

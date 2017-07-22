@@ -1,5 +1,5 @@
 :date: 2007-05-25 23:59:24
-:categories: ['trip']
+:tags: trip
 :body type: text/x-rst
 
 =========================================

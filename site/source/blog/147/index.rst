@@ -1,5 +1,5 @@
 :date: 2005-02-23 21:20:54
-:categories: ['Zope', 'Programming']
+:tags: Zope, Programming
 :body type: text/x-rst
 
 =================================================================

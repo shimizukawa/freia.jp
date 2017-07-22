@@ -1,5 +1,5 @@
 :date: 2009-09-22 00:08:08
-:categories: ['Event', 'food', 'python']
+:tags: Event, food, python
 :body type: text/x-rst
 
 =======================================================================================

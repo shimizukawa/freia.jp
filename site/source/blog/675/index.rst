@@ -1,5 +1,5 @@
 :date: 2009-10-11 00:04:25
-:categories: ['Zope', 'python']
+:tags: Zope, python
 :body type: text/x-rst
 
 =======================================================

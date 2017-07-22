@@ -1,5 +1,5 @@
 :date: 2009-06-27 19:49:21
-:categories: ['Event', 'pyspa']
+:tags: Event, pyspa
 :body type: text/x-rst
 
 =========================================================

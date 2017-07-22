@@ -1,5 +1,5 @@
 :date: 2017-03-01 23:40
-:categories: ['Sphinx', 'SoftwareDesign']
+:tags: Sphinx, SoftwareDesign
 :body type: text/x-rst
 
 ============================================================

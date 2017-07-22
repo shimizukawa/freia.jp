@@ -1,5 +1,5 @@
 :date: 2005-03-23 23:55:26
-:categories: ['food', 'work']
+:tags: food, work
 :body type: text/x-rst
 
 =============================

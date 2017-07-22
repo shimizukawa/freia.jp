@@ -1,5 +1,5 @@
 :date: 2007-12-15 16:44:54
-:categories: ['Unix', 'ldap']
+:tags: Unix, ldap
 :body type: text/x-rst
 
 =====================

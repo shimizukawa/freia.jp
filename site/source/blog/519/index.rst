@@ -1,5 +1,5 @@
 :date: 2008-01-24 00:18:23
-:categories: ['vim']
+:tags: vim
 :body type: text/x-rst
 
 ================================

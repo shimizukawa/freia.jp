@@ -1,5 +1,5 @@
 :date: 2004-10-06 21:54:41
-:categories: ['misc', 'Event']
+:tags: misc, Event
 :body type: text/x-rst
 
 =========================

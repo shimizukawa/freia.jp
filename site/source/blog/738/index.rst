@@ -1,5 +1,5 @@
 :date: 2010-09-30 19:33:50
-:categories: ['Event', 'Zope', 'python', 'Plone', 'sphinx', 'translation']
+:tags: Event, Zope, python, Plone, sphinx, translation
 :body type: text/x-rst
 
 =================================================================

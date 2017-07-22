@@ -1,5 +1,5 @@
 :date: 2005-02-12 17:13:28
-:categories: ['python', 'Memo']
+:tags: python, Memo
 :body type: text/x-rst
 
 ==================================

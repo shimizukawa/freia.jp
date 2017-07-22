@@ -1,5 +1,5 @@
 :date: 2017-04-26 22:00
-:categories: ['Plone', 'Python', 'CMS']
+:tags: Plone, Python, CMS
 :body type: text/x-rst
 
 =====================================================

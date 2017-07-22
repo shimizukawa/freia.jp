@@ -1,5 +1,5 @@
 :date: 2010-11-24 23:55:00
-:categories: ['Agile(XP)', 'python', 'testing']
+:tags: Agile(XP), python, testing
 :body type: text/x-rst
 
 ===============================================================

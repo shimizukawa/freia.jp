@@ -1,5 +1,5 @@
 :date: 2005-11-24 02:22:57
-:categories: ['Programming', 'Plone']
+:tags: Programming, Plone
 :body type: text/x-rst
 
 ================================

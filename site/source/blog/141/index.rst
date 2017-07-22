@@ -1,5 +1,5 @@
 :date: 2005-02-21 18:30:15
-:categories: ['work']
+:tags: work
 :body type: text/x-rst
 
 =====================

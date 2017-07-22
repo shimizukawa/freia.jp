@@ -1,5 +1,5 @@
 :date: 2005-12-23 17:13:41
-:categories: ['Plone']
+:tags: Plone
 :body type: text/x-rst
 
 =====================================================

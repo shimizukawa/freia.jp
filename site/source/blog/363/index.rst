@@ -1,5 +1,5 @@
 :date: 2006-08-25 01:29:45
-:categories: ['Programming']
+:tags: Programming
 :body type: text/x-rst
 
 =============================================

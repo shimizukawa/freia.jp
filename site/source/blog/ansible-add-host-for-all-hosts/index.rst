@@ -1,5 +1,5 @@
 :date: 2015-6-25 23:50
-:categories: ['Ansible', 'aws']
+:tags: Ansible, aws
 :body type: text/x-rst
 
 ====================================================

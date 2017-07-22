@@ -1,5 +1,5 @@
 :date: 2017-07-17 22:00
-:categories: ['Python', 'Sphinx', 'ogp']
+:tags: Python, Sphinx, ogp
 :body type: text/x-rst
 
 =====================================

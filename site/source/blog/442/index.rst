@@ -1,5 +1,5 @@
 :date: 2007-04-13 22:06:24
-:categories: ['javascript']
+:tags: javascript
 :body type: text/x-rst
 
 =================================================

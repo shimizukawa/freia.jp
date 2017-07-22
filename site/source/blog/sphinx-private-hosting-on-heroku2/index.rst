@@ -1,5 +1,5 @@
 :date: 2017-07-15 20:00
-:categories: ['Python', 'Sphinx', 'Heroku', 'Hosting']
+:tags: Python, Sphinx, Heroku, Hosting
 :body type: text/x-rst
 
 ======================================================================

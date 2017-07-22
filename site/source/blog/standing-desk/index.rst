@@ -1,5 +1,5 @@
 :date: 2015-6-14 20:00
-:categories: ['standing-desk']
+:tags: standing-desk
 :body type: text/x-rst
 
 ============================================

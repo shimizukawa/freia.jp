@@ -1,5 +1,5 @@
 :date: 2006-06-30 13:50:35
-:categories: ['food']
+:tags: food
 :body type: text/x-rst
 
 ===============================

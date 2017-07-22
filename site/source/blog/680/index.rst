@@ -1,5 +1,5 @@
 :date: 2009-10-25 04:47:47
-:categories: ['python', 'pyspa']
+:tags: python, pyspa
 :body type: text/x-rst
 
 =================================================

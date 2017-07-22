@@ -1,5 +1,5 @@
 :date: 2005-12-20 01:45:40
-:categories: ['Event']
+:tags: Event
 :body type: text/x-rst
 
 ============================================

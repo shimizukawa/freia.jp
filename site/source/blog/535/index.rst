@@ -1,5 +1,5 @@
 :date: 2008-02-04 13:36:29
-:categories: ['python', 'Plone']
+:tags: python, Plone
 :body type: text/x-rst
 
 ==================================================

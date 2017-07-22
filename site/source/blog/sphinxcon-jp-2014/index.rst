@@ -1,5 +1,5 @@
 :date: 2014-10-31 20:30
-:categories: ['Sphinx', 'SphinxCon']
+:tags: Sphinx, SphinxCon
 :body type: text/x-rst
 
 ===========================================================

@@ -1,5 +1,5 @@
 :date: 2005-02-28 01:20:04
-:categories: ['Plone', 'Zope']
+:tags: Plone, Zope
 :body type: text/x-rst
 
 ===============================

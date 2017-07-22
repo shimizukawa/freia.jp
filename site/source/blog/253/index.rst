@@ -1,5 +1,5 @@
 :date: 2005-10-04 22:54:43
-:categories: ['IT-PC']
+:tags: IT-PC
 :body type: text/x-rst
 
 ======================================

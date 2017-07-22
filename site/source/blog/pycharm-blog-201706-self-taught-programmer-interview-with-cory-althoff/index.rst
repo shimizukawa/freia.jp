@@ -1,5 +1,5 @@
 :date: 2017-07-18 12:00
-:categories: ['Python', 'PyCharm', 'Interview', 'Translation']
+:tags: Python, PyCharm, Interview, Translation
 :body type: text/x-rst
 
 ========================================================================================

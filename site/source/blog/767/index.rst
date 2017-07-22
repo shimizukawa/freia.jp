@@ -1,5 +1,5 @@
 :date: 2011-11-21 10:00:00
-:categories: ['Event']
+:tags: Event
 :body type: text/x-rst
 
 ==============================================

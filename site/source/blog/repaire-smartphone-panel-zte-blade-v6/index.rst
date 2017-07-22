@@ -1,5 +1,5 @@
 :date: 2017-03-20 17:50
-:categories: ['Repair', 'Smartphine', 'ZTE Blade V6']
+:tags: Repair, Smartphine, ZTE Blade V6
 :body type: text/x-rst
 
 =================================================================

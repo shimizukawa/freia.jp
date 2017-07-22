@@ -1,5 +1,5 @@
 :date: 2013-01-22 12:30
-:categories: ['Python', 'expertpython']
+:tags: Python, expertpython
 :body type: text/x-rst
 
 ====================================================================

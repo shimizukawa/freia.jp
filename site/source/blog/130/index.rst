@@ -1,5 +1,5 @@
 :date: 2005-01-27 21:38:57
-:categories: ['Zope', 'Memo']
+:tags: Zope, Memo
 :body type: text/x-rst
 
 ===============================

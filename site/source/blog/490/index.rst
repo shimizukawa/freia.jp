@@ -1,5 +1,5 @@
 :date: 2007-10-28 09:09:46
-:categories: ['misc', 'python', 'Windows']
+:tags: misc, python, Windows
 :body type: text/x-rst
 
 ============================================

@@ -1,5 +1,5 @@
 :date: 2007-07-20 03:13:05
-:categories: ['python', 'turbogears']
+:tags: python, turbogears
 :body type: text/x-rst
 
 =============================================================

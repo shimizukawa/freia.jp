@@ -1,5 +1,5 @@
 :date: 2007-08-26 02:02:30
-:categories: ['python', 'django']
+:tags: python, django
 :body type: text/x-rst
 
 ==========================================

@@ -1,5 +1,5 @@
 :date: 2006-05-21 22:34:41
-:categories: ['python', 'Programming']
+:tags: python, Programming
 :body type: text/x-rst
 
 =====================================

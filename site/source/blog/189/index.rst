@@ -1,5 +1,5 @@
 :date: 2005-04-20 23:03:45
-:categories: ['Unix']
+:tags: Unix
 :body type: text/x-rst
 
 ===================================
