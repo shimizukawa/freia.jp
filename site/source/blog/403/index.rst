@@ -91,3 +91,7 @@ SecureMailHostで発生したこのExceptionはキャッチされていないた
 
 エラーの種類見てないけど、quitの時のエラーだし、まあいいか。
 
+
+.. image:: 20070223_securemailhost.*
+   :width: 33%
+
