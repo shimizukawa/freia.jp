@@ -14,3 +14,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070729_dam.*
+   :width: 33%
+

@@ -39,3 +39,29 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20091209_liquid1.*
+   :width: 33%
+
+.. image:: 20091209_liquid2.*
+   :width: 33%
+
+.. image:: 20091209_plone4.*
+   :width: 33%
+
+.. image:: 20091209_plone_kanpai.*
+   :width: 33%
+
+.. image:: 20091209_plone_party_place.*
+   :width: 33%
+
+.. image:: 20091209_plone_spice.*
+   :width: 33%
+
+.. image:: 20091209_plone_spice2.*
+   :width: 33%
+
+.. image:: 20091209_plone_terada.*
+   :width: 33%
+

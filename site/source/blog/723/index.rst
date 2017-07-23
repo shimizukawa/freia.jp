@@ -49,3 +49,11 @@
 .. :body:
 .. 俺も今度秋葉原に行く途中でよってみようと思う。
 .. 
+
+
+.. image:: 20100622_butayarou.*
+   :width: 33%
+
+.. image:: 20100622_miura_hamburg.*
+   :width: 33%
+

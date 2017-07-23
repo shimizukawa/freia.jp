@@ -29,3 +29,11 @@ CMFContentsPanels-2.1はPlone2.1.2に最適化されていないので、これ�
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20060514_cpcb2_11.*
+   :width: 33%
+
+.. image:: 20060514_zopeupgrade.*
+   :width: 33%
+

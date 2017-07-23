@@ -40,3 +40,20 @@
 .. 電話は「IBMサポートセンター」からかかってきました。
 .. サポセンの対応が丁寧で分かりやすくていいですね。マシンは若干不安定な気がするのですが・・・(自分はX60s)。
 .. 
+
+
+.. image:: 20080405_broken_minipci.*
+   :width: 33%
+
+.. image:: 20080405_note_open.*
+   :width: 33%
+
+.. image:: 20080405_received_minipci.*
+   :width: 33%
+
+.. image:: 20080405_received_minipci_box.*
+   :width: 33%
+
+.. image:: 20080405_removed_minipci.*
+   :width: 33%
+

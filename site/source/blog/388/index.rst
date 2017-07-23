@@ -17,3 +17,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20061223_takeya_final.*
+   :width: 33%
+

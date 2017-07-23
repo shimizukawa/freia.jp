@@ -53,3 +53,8 @@
 
 .. _Sphinx+翻訳 hack-a-thon 2017.04: https://sphinxjp.connpass.com/event/53950/
 
+
+
+.. image:: members.*
+   :width: 33%
+

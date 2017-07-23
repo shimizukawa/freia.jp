@@ -57,3 +57,17 @@
 .. やばい。アジャンタ行きたくなってきた。
 .. 
 .. C&Cは...。調布駅前に出来て記念に行った他は...。カツカレー安くて新宿でいっつも惹かれるんですけどねｗ
+
+
+.. image:: 20090203_basil_chikin1.*
+   :width: 33%
+
+.. image:: 20090203_basil_chikin2.*
+   :width: 33%
+
+.. image:: 20090203_yakuzen_curry1.*
+   :width: 33%
+
+.. image:: 20090203_yakuzen_curry2.*
+   :width: 33%
+

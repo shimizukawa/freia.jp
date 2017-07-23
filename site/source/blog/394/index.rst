@@ -30,3 +30,17 @@ Limitもお手軽系だけど、この手の記憶系は苦手じゃないけど
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070128_ayaturi.*
+   :width: 33%
+
+.. image:: 20070128_battleline.*
+   :width: 33%
+
+.. image:: 20070128_catan.*
+   :width: 33%
+
+.. image:: 20070128_geschenkt.*
+   :width: 33%
+

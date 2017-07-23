@@ -12,3 +12,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080717_sasebo_burger.*
+   :width: 33%
+

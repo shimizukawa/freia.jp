@@ -545,3 +545,8 @@ PythonベースのWeb構築システム: Sphinx (@usaturn)
 
 感想: blogメモ書くのに疲れました。楽しかったです！
 
+
+
+.. image:: cheers.*
+   :width: 33%
+

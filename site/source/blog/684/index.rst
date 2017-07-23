@@ -101,3 +101,8 @@ http://atnd.org/events/1855
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20091121_zopeplonedev5_4.*
+   :width: 33%
+

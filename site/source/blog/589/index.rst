@@ -15,3 +15,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080629_pyspa3_day2_sharedptr.*
+   :width: 33%
+

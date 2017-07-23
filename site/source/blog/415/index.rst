@@ -29,3 +29,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070313_accesscount.*
+   :width: 33%
+

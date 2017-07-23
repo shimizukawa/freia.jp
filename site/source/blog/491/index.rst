@@ -18,3 +18,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20071031_sanukinoudonya.*
+   :width: 33%
+

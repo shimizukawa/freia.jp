@@ -341,3 +341,8 @@ CTC Ruby 教育コース
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080726_ror_book_sign.*
+   :width: 33%
+

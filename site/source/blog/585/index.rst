@@ -11,3 +11,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080627_izutaga.*
+   :width: 33%
+

@@ -15,3 +15,8 @@ Blogを見ているみなさま、今年もよろしくお願いいたします�
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070101_swan.*
+   :width: 33%
+

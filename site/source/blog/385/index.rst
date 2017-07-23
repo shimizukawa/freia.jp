@@ -13,3 +13,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20061211_noro.*
+   :width: 33%
+

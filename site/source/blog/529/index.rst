@@ -40,3 +40,8 @@
 .. :body:
 .. moblog にするといいかも。
 .. 
+
+
+.. image:: 20080131_natto-3hon.*
+   :width: 33%
+

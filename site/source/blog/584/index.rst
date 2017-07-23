@@ -15,3 +15,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080627_emobile_sim.*
+   :width: 33%
+

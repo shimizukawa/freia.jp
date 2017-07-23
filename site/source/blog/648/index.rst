@@ -20,3 +20,14 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20090626_plouf_entrance.*
+   :width: 33%
+
+.. image:: 20090626_plouf_muffin.*
+   :width: 33%
+
+.. image:: 20090626_plouf_pasta.*
+   :width: 33%
+

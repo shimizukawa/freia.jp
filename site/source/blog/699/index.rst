@@ -17,3 +17,8 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20091213_aroma.*
+   :width: 33%
+

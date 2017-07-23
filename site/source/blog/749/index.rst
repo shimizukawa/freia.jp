@@ -42,3 +42,14 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20110126_2shot.*
+   :width: 33%
+
+.. image:: 20110126_97kinoko-e-sign.*
+   :width: 33%
+
+.. image:: 20110126_finger_sign.*
+   :width: 33%
+

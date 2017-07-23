@@ -15,3 +15,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080409_kyouto_inari.*
+   :width: 33%
+

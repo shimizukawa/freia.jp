@@ -73,3 +73,20 @@
 .. ＞ガーリックトースト
 .. うーん、パンの方が手間がかかりそうな(^^;;でもおいしそう。
 .. 
+
+
+.. image:: pict0046.*
+   :width: 33%
+
+.. image:: pict0048.*
+   :width: 33%
+
+.. image:: pict0049.*
+   :width: 33%
+
+.. image:: pict0050.*
+   :width: 33%
+
+.. image:: pict0053.*
+   :width: 33%
+

@@ -26,3 +26,11 @@
 .. :body:
 .. oojijisunです,青春18切符で行きます お城巡りを準備中です、参考になります。
 .. 
+
+
+.. image:: 20070525_churaumi.*
+   :width: 33%
+
+.. image:: 20070525_syurijou.*
+   :width: 33%
+

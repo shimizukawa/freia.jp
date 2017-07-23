@@ -62,3 +62,8 @@ DeliveranceとSphinx生成ドキュメントってとっても親和性が高い
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: deliverance_20090905.*
+   :width: 33%
+

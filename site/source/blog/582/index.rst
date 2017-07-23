@@ -46,3 +46,8 @@ Ploneの特定のバージョンのサイトを、特定の環境のIE7で閲覧
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080626_plone_with_ie7.*
+   :width: 33%
+

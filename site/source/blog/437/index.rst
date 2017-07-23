@@ -57,3 +57,11 @@ Screen Castも作ってみました。7分。微妙。YouTubeだと文字が潰�
 .. tgdatacontrollerをegg化
 .. http://www.freia.jp/taka/blog/445
 .. 
+
+
+.. image:: 20070408_tgdatacontroller_edit.*
+   :width: 33%
+
+.. image:: 20070408_tgdatacontroller_list.*
+   :width: 33%
+

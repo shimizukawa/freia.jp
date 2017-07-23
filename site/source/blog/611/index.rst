@@ -11,3 +11,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20081231_soba.*
+   :width: 33%
+

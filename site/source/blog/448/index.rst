@@ -21,3 +21,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: spa200706.*
+   :width: 33%
+

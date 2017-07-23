@@ -19,3 +19,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: p1010381.*
+   :width: 33%
+

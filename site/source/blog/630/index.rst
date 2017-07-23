@@ -125,3 +125,32 @@
 .. うまそうだのー。
 .. うまやらしい。
 .. 
+
+
+.. image:: 20090208_charcoal.*
+   :width: 33%
+
+.. image:: 20090208_gyutan.*
+   :width: 33%
+
+.. image:: 20090208_kakifukuro.*
+   :width: 33%
+
+.. image:: 20090208_kakiuri.*
+   :width: 33%
+
+.. image:: 20090208_kiritanpo.*
+   :width: 33%
+
+.. image:: 20090208_kusi.*
+   :width: 33%
+
+.. image:: 20090208_sendai1.*
+   :width: 33%
+
+.. image:: 20090208_yaketa.*
+   :width: 33%
+
+.. image:: 20090208_yaki.*
+   :width: 33%
+

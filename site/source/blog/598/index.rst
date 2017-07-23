@@ -13,3 +13,14 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080713_nogawa_himawari.*
+   :width: 33%
+
+.. image:: 20080713_nogawa_kamo.*
+   :width: 33%
+
+.. image:: 20080713_nogawa_kouen_curve.*
+   :width: 33%
+

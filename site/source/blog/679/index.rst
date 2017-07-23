@@ -46,3 +46,8 @@ buildout
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20091024_pyspa.*
+   :width: 33%
+

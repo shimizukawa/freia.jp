@@ -40,3 +40,8 @@ Google AnalyticsとAdWordsのリンクを解除することは現時点では出
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070311_analytics.*
+   :width: 33%
+

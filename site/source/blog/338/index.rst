@@ -10,3 +10,8 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20060426_twin_cycle.*
+   :width: 33%
+

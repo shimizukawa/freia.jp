@@ -21,3 +21,8 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20091222_jr_home.*
+   :width: 33%
+

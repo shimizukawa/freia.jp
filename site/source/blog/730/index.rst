@@ -26,3 +26,11 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20100828_hotel.*
+   :width: 33%
+
+.. image:: 20100828_webmockbuilder.*
+   :width: 33%
+

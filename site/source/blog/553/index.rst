@@ -24,3 +24,8 @@ V700の方でいいなあ。
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080321_sonyphotoframe.*
+   :width: 33%
+

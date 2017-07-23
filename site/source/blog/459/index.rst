@@ -14,3 +14,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070525_haneda.*
+   :width: 33%
+

@@ -162,3 +162,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20090920_demekin.*
+   :width: 33%
+

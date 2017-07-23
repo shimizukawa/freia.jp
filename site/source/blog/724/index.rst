@@ -21,3 +21,8 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20100624_blogger_meishi.*
+   :width: 33%
+

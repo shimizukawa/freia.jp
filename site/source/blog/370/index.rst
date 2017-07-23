@@ -23,3 +23,11 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20061001_puertorico.*
+   :width: 33%
+
+.. image:: 20061001_sanktpetersburg.*
+   :width: 33%
+

@@ -48,3 +48,8 @@ Windowsのクリップボードに渡す版(タイトルとURL)::
 .. Gay line dancing
 .. <url>http://iggy-pop-gay.com/map-of-gay-world/|Map of gay world</url>
 .. 
+
+
+.. image:: 20071201_amazon_bookmarklet.*
+   :width: 33%
+

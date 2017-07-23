@@ -27,3 +27,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20060929_75km.*
+   :width: 33%
+

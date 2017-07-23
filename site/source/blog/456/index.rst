@@ -28,3 +28,11 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070430_fon.*
+   :width: 33%
+
+.. image:: 20070430_overheat.*
+   :width: 33%
+

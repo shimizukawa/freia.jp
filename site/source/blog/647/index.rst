@@ -24,3 +24,17 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20090625_cmark_hdd.*
+   :width: 33%
+
+.. image:: 20090625_cmark_ssd.*
+   :width: 33%
+
+.. image:: 20090625_cmark_ssd2.*
+   :width: 33%
+
+.. image:: 20090625_cmark_vhd_on_ssd.*
+   :width: 33%
+

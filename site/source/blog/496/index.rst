@@ -12,3 +12,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20071202_ldap_auth.*
+   :width: 33%
+

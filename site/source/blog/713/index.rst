@@ -18,3 +18,11 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20100129_develop.*
+   :width: 33%
+
+.. image:: 20100129_mountain_plone.*
+   :width: 33%
+

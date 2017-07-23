@@ -22,3 +22,11 @@ ckw + nyacus はとても便利なんですが、ckw上でpythonのインタラ�
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20091024_ckw_python_ng.*
+   :width: 33%
+
+.. image:: 20091024_ckw_python_ok.*
+   :width: 33%
+

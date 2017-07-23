@@ -39,3 +39,8 @@
 .. 
 .. 商品紹介：株式会社 豆狸
 .. http://www.mameda.co.jp/item/
+
+
+.. image:: 20080331_inari.*
+   :width: 33%
+

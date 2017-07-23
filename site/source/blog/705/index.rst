@@ -17,3 +17,8 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20091219_xmas.*
+   :width: 33%
+

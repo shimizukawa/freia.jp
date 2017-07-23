@@ -13,3 +13,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070328_python_books.*
+   :width: 33%
+

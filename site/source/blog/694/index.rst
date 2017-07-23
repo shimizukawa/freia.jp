@@ -108,3 +108,17 @@ CSS部分を見ると分かりますが、 ``margin-left: -100%;`` という怪�
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20091208_sphinx_go1.*
+   :width: 33%
+
+.. image:: 20091208_sphinx_go2.*
+   :width: 33%
+
+.. image:: 20091208_sphinx_go3.*
+   :width: 33%
+
+.. image:: 20091208_sphinx_go4.*
+   :width: 33%
+

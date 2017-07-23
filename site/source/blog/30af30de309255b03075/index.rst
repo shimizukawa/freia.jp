@@ -35,3 +35,14 @@
 .. :body:
 .. トドは無かった。エゾシカはあった。
 .. 
+
+
+.. image:: 20070225_kumacurry.*
+   :width: 33%
+
+.. image:: 20070225_kumafuta.*
+   :width: 33%
+
+.. image:: 20070225_kumakan.*
+   :width: 33%
+

@@ -245,3 +245,17 @@ jvm上で動くRubyっぽい性的過多漬け言語 Mirahを紹介
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 2010_09_30_bpstudy37_1.*
+   :width: 33%
+
+.. image:: 2010_09_30_bpstudy37_2.*
+   :width: 33%
+
+.. image:: 2010_09_30_bpstudy37_3.*
+   :width: 33%
+
+.. image:: 2010_09_30_bpstudy37_4.*
+   :width: 33%
+

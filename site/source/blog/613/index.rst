@@ -13,3 +13,11 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20090101_hatumoude.*
+   :width: 33%
+
+.. image:: 20090101_namahage.*
+   :width: 33%
+

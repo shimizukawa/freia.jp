@@ -107,3 +107,11 @@ InstanceManagerは、このほかにも以下のような機能があります�
 機能豊富です。ていうかGenericSetupまで入ってるし。
 
 しかし、内部のコードはsvn,tar,unzipなどをos.system等で呼び出していて、Windowsで動かすには障害が多そうな感じです。特にzopectlコマンドはWindowsでは使えないので、quickinstaller呼び出しやtestの実行はうまく動きません。今のところUnixでつかえ、という感じなのかな。
+
+
+.. image:: 20070422_iclicense.*
+   :width: 33%
+
+.. image:: 20070422_koinobori.*
+   :width: 33%
+

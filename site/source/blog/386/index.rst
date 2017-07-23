@@ -13,3 +13,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20061213_kayu.*
+   :width: 33%
+

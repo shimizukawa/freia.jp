@@ -101,3 +101,11 @@ Jiemamyサイトから引用:
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20100827_bpbot.*
+   :width: 33%
+
+.. image:: 20100827_jiemamydemo.*
+   :width: 33%
+

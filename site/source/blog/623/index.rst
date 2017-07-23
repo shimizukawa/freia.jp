@@ -25,3 +25,35 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: battleline_20090112a.*
+   :width: 33%
+
+.. image:: battleline_20090112b.*
+   :width: 33%
+
+.. image:: battleline_20090119.*
+   :width: 33%
+
+.. image:: battleline_20090120.*
+   :width: 33%
+
+.. image:: battleline_20090121a.*
+   :width: 33%
+
+.. image:: battleline_20090121b.*
+   :width: 33%
+
+.. image:: battleline_20090122a.*
+   :width: 33%
+
+.. image:: battleline_20090126.*
+   :width: 33%
+
+.. image:: battleline_20090128.*
+   :width: 33%
+
+.. image:: battleline_20090201.*
+   :width: 33%
+

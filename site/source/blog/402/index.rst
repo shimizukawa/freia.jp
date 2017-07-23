@@ -16,3 +16,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070218_demikatsu.*
+   :width: 33%
+

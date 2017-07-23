@@ -178,3 +178,8 @@ iPhoneアプリ開発ハンズオンを見る
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080628_pyspa3_day2_dinner.*
+   :width: 33%
+

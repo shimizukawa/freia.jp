@@ -27,3 +27,8 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20091225_x61s.*
+   :width: 33%
+

@@ -70,3 +70,8 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20100907_expert-python-reading-02.*
+   :width: 33%
+

@@ -66,3 +66,8 @@ Python Developers Camp 2008 冬 に参加します！
 .. :body:
 .. ... BuildBotを新たに作ったのかと勘違いしてました orz
 .. 
+
+
+.. image:: pydevcamp2008w_large.*
+   :width: 33%
+

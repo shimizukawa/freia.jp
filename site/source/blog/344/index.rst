@@ -287,3 +287,8 @@ Viewlet表示と言えば、カテゴリアイコンも表示したいとか、�
 .. 
 .. CMFContentPanelsのViewletを作る — JZUG
 .. http://zope.jp/documents/tutorial/make-cmfcontentpanels-viewlet
+
+
+.. image:: 20060517_cpcb_4.*
+   :width: 33%
+

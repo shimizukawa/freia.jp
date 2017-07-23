@@ -33,3 +33,8 @@ via aihatena_ .
 .. :body:
 .. 更新。ランク AA, スコア 170238
 .. 
+
+
+.. image:: 20070411_typingmania3.*
+   :width: 33%
+

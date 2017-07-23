@@ -14,3 +14,14 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20060503_sinkansen_akita.*
+   :width: 33%
+
+.. image:: 20060503_sinkansen_sakura.*
+   :width: 33%
+
+.. image:: 20060503_sinkansen_sendai.*
+   :width: 33%
+

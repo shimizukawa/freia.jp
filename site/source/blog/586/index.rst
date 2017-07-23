@@ -13,3 +13,11 @@ buildbot_ と trac_ を色々いじってます。buildbot-0.7.7のバグを見�
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080627_pyspa3_day1_dinner.*
+   :width: 33%
+
+.. image:: 20080627_pyspa3_day1_night.*
+   :width: 33%
+

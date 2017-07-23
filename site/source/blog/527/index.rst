@@ -15,3 +15,11 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080129_flets_hikari1.*
+   :width: 33%
+
+.. image:: 20080129_flets_hikari2.*
+   :width: 33%
+

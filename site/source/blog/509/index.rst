@@ -46,3 +46,8 @@ DIGAの短所(PSXとの比較):
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20071230_diga.*
+   :width: 33%
+

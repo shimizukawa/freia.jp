@@ -28,3 +28,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080216_flets.*
+   :width: 33%
+

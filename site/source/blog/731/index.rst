@@ -33,3 +33,11 @@ XP祭り2010に参加して「Pythonでアジャイル開発サイクル 2010ver
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20100904_xpfest2010_python.*
+   :width: 33%
+
+.. image:: 20100904_xpfest2010_shibu.*
+   :width: 33%
+

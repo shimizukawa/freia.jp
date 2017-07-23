@@ -476,3 +476,11 @@ ApacheのIPアドレス制限
 .. :body:
 ..  いつかこういう日が来るとは思っていましたが、突如、COREBlog2に対して膨大な量のコメントスパムがつけられるようになってしまいました。 そこでGoogle神に問い合わせますと、以下の清水川さんの記事に行き当たりました。  COREBlog2スパム対策...
 .. 
+
+
+.. image:: coreblog2security.*
+   :width: 33%
+
+.. image:: coreblog2spamfilter.*
+   :width: 33%
+

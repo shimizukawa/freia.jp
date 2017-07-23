@@ -12,3 +12,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20090205_voyager.*
+   :width: 33%
+

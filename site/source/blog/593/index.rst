@@ -103,3 +103,11 @@ http://www.yattom.jp/kpt/ やっとむ氏作のTurboGears製と見た。
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080701_objectclub_book_on_lisp.*
+   :width: 33%
+
+.. image:: 20080701_objectclub_eco.*
+   :width: 33%
+

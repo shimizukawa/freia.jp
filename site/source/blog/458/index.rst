@@ -19,3 +19,14 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070511_chanchan.*
+   :width: 33%
+
+.. image:: 20070511_miraidai.*
+   :width: 33%
+
+.. image:: 20070511_pikachu.*
+   :width: 33%
+

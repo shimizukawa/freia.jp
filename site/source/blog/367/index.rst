@@ -19,3 +19,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20060918_startrek40.*
+   :width: 33%
+

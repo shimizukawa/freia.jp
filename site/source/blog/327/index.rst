@@ -17,3 +17,11 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20060326_sutadon_nami.*
+   :width: 33%
+
+.. image:: 20060326_sutadon_small.*
+   :width: 33%
+

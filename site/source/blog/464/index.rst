@@ -30,3 +30,11 @@ Webで見つけた関連ページ:
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070718_soupcurry_udon1.*
+   :width: 33%
+
+.. image:: 20070718_soupcurry_udon2.*
+   :width: 33%
+

@@ -18,3 +18,8 @@ Twitterやメールでアドバイスをくれた皆さん、ありがとう！�
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20091223_broken_display_panel.*
+   :width: 33%
+

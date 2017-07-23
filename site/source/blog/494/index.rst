@@ -18,3 +18,8 @@ WindowsXPなどでファイルのプロパティーから ``内容を暗号化�
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20071109_encryption.*
+   :width: 33%
+

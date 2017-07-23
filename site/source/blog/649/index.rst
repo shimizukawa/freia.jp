@@ -27,3 +27,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20090626_windows7_amazon.*
+   :width: 33%
+

@@ -16,3 +16,20 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20090202_chair1.*
+   :width: 33%
+
+.. image:: 20090202_chair2.*
+   :width: 33%
+
+.. image:: 20090202_chair3.*
+   :width: 33%
+
+.. image:: 20090202_chair4.*
+   :width: 33%
+
+.. image:: 20090202_chair5.*
+   :width: 33%
+

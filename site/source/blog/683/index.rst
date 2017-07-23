@@ -34,3 +34,14 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: deliverance-sphinx.*
+   :width: 33%
+
+.. image:: deliverance-twitter.*
+   :width: 33%
+
+.. image:: design-merge.*
+   :width: 33%
+

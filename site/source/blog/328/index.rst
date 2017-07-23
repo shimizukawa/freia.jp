@@ -12,3 +12,8 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20060328_boueicho_sakura.*
+   :width: 33%
+

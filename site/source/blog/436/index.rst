@@ -49,3 +49,8 @@
 .. :body:
 .. It's mine!
 .. 
+
+
+.. image:: 20070406_charicommute.*
+   :width: 33%
+

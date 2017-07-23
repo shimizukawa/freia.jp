@@ -15,3 +15,11 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080323_akanimuto1.*
+   :width: 33%
+
+.. image:: 20080323_akanimuto2.*
+   :width: 33%
+

@@ -27,3 +27,11 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20081025_pyspa1.*
+   :width: 33%
+
+.. image:: 20081025_pyspa2.*
+   :width: 33%
+

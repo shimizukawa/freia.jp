@@ -20,3 +20,14 @@ PS3の `まいにちいっしょ`_ で紹介されていた ``釜焼きパンケ
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080531_curling1.*
+   :width: 33%
+
+.. image:: 20080531_curling2.*
+   :width: 33%
+
+.. image:: 20080531_curling3.*
+   :width: 33%
+

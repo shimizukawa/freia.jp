@@ -61,3 +61,8 @@
 .. _sphinx-dev › Fate of sphinx-testing?: https://groups.google.com/d/msg/sphinx-dev/8iiwt4Yr28E/yEJt01lmBAAJ
 
 .. _PR#3718: https://github.com/sphinx-doc/sphinx/pull/3718
+
+
+.. image:: members.*
+   :width: 33%
+

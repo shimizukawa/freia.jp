@@ -46,3 +46,14 @@
 .. :body:
 .. カードチャプター違う
 .. 
+
+
+.. image:: 20070204_battleline.*
+   :width: 33%
+
+.. image:: 20070204_battleline2.*
+   :width: 33%
+
+.. image:: 20070204_battleline3.*
+   :width: 33%
+

@@ -20,3 +20,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070415_noauthcategory.*
+   :width: 33%
+

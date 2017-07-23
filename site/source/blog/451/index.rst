@@ -61,3 +61,11 @@ InstanceManagerはeasy_installで一発インストールできますが、そ�
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070421_contact.*
+   :width: 33%
+
+.. image:: 20070421_instancemanager.*
+   :width: 33%
+

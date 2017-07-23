@@ -30,3 +30,8 @@ PluggableAuthServiceのコードはそれなりにzope3化されているので�
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070707_pasradius.*
+   :width: 33%
+

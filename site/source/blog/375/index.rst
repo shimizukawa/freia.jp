@@ -19,3 +19,11 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 061105_nibo1.*
+   :width: 33%
+
+.. image:: 061105_nibo2.*
+   :width: 33%
+

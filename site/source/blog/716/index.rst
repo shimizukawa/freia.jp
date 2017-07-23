@@ -13,3 +13,8 @@
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20100206_pre_kakimatsuri_.*
+   :width: 33%
+

@@ -13,3 +13,11 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080621_habugyouza.*
+   :width: 33%
+
+.. image:: 20080621_habutakoyaki.*
+   :width: 33%
+

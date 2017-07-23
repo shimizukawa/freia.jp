@@ -274,3 +274,32 @@ R14A
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20100630_bpstudy34_1.*
+   :width: 33%
+
+.. image:: 20100630_bpstudy34_2.*
+   :width: 33%
+
+.. image:: 20100630_bpstudy34_3.*
+   :width: 33%
+
+.. image:: 20100630_bpstudy34_4.*
+   :width: 33%
+
+.. image:: 20100630_bpstudy34_5.*
+   :width: 33%
+
+.. image:: 20100630_bpstudy34_6.*
+   :width: 33%
+
+.. image:: 20100630_bpstudy34_7.*
+   :width: 33%
+
+.. image:: 20100630_bpstudy34_8.*
+   :width: 33%
+
+.. image:: 20100630_bpstudy34_9.*
+   :width: 33%
+

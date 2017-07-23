@@ -81,3 +81,17 @@ PART 3 : 二次会
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20070418_ze6_jonasan.*
+   :width: 33%
+
+.. image:: 20070418_ze6_tim.*
+   :width: 33%
+
+.. image:: 20070418_ze6_tim2.*
+   :width: 33%
+
+.. image:: 20070419_inaniwa.*
+   :width: 33%
+

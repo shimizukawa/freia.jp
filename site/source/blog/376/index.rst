@@ -13,3 +13,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20061109_zuwaigani_bagel.*
+   :width: 33%
+

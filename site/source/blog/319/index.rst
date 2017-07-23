@@ -36,3 +36,11 @@
 .. :body:
 .. ついに、FINAL FANTASY グッズであるポーションを買ってみました。つい
 .. 
+
+
+.. image:: potion1.*
+   :width: 33%
+
+.. image:: potion2.*
+   :width: 33%
+

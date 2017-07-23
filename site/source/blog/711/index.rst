@@ -19,3 +19,14 @@ LTD121ECHB, 13N7091 でした。
 .. :extend type: text/x-rst
 .. :extend:
 
+
+
+.. image:: 20091226_x61s_ekishou1.*
+   :width: 33%
+
+.. image:: 20091226_x61s_ekishou2.*
+   :width: 33%
+
+.. image:: 20091226_x61s_ekishou3.*
+   :width: 33%
+

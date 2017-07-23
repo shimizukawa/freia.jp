@@ -17,3 +17,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20061201_hakodate_susi.*
+   :width: 33%
+

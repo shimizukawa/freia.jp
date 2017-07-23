@@ -482,3 +482,8 @@ Tarek自身による紹介文
 .. :body:
 .. 「エキスパートPythonプログラミング」2010/5/31発売です！ http://www.freia.jp/taka/blog/717
 .. 
+
+
+.. image:: 20091025_expert-python-programming.*
+   :width: 33%
+

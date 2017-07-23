@@ -134,3 +134,8 @@ WindowMessage処理の中でSleepして大丈夫だったっけ...？ま、い�
 .. :body:
 ..  Google Code: New: idjango これからに期待! :) videosoft Update: django-pantheon django-evolution deseb django-cms komercha clapton djangobrasil spini-portal django-generics Blog: [Django][django-registration] ユーザー認証をやってみる さくらインターネット
 .. 
+
+
+.. image:: 20071001-pfwd-balloon.*
+   :width: 33%
+

@@ -22,3 +22,8 @@
 .. :extend type: text/html
 .. :extend:
 
+
+
+.. image:: 20080214_hashigo.*
+   :width: 33%
+

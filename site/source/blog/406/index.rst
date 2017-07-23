@@ -143,3 +143,35 @@
 .. 本当にお疲れ様でしたー！
 .. っていうか撮影まかせっぱにしてすみませんでした…。
 .. 
+
+
+.. image:: 20070302_campbag.*
+   :width: 33%
+
+.. image:: 20070302_devices.*
+   :width: 33%
+
+.. image:: 20070302_time_alloc.*
+   :width: 33%
+
+.. image:: 20070303_midnight_plones.*
+   :width: 33%
+
+.. image:: 20070303_midnight_turbogears.*
+   :width: 33%
+
+.. image:: 20070303_presen_camera.*
+   :width: 33%
+
+.. image:: 20070303_presen_recording.*
+   :width: 33%
+
+.. image:: 20070304_ginrei.*
+   :width: 33%
+
+.. image:: 20070304_shigasky.*
+   :width: 33%
+
+.. image:: 20070304_shigaway.*
+   :width: 33%
+
