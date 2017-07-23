@@ -76,38 +76,12 @@ def toctree_resolve_patch(self, docname, builder, toctree, prune=True, maxdepth=
 TocTree.resolve = toctree_resolve_patch
 
 
-# ##########################
-# get article date meta data
-def cache_article_dates(env, docname):
-    """get date meta data from entry
-
-    :param env: sphinx env
-    :param docname: target docname
-    :return: None
-    """
-    if docname not in env.metadata:
-        return  # not a blog article
-
-    blog_domain = BlogDomain(env)
-    doc_metadata = env.metadata[docname]
-
-    if 'date' not in doc_metadata:
-        return  # don't index dateless articles
-
-    try:
-        pub_date = parse_date(doc_metadata['date'])
-        blog_domain.set_pub_date(docname, pub_date)
-    except ValueError as exc:
-        #probably a nonsensical date
-        env.warn('date parse error: ' + str(exc) + ' in ' + docname)
-
-
 class BlogDomain(Domain):
     """Blogで使うドメイン
     """
     name = 'blog'
     label = 'blog'
-    initial_data = {'pub_dates': {}}
+    initial_data = {'pub_dates': {}, 'docnames': []}
     data_version = 1
 
     def merge_domaindata(self, docnames, otherdata):
@@ -119,6 +93,9 @@ class BlogDomain(Domain):
     def generate(self, docnames=None):
         return []
 
+    def set_docnames(self, docnames):
+        self.data['docnames'] = docnames  # working memory
+
     def set_pub_date(self, docname, pub_date):
         logger.debug('set <- %s, %s', docname, pub_date)
         self.data['pub_dates'][docname] = pub_date
@@ -127,6 +104,31 @@ class BlogDomain(Domain):
         pub_date = self.data['pub_dates'].get(docname)
         logger.debug('get -> %s, %s', docname, pub_date)
         return pub_date
+
+    def cache_article_dates(self):
+        for docname in self.data['docnames']:
+            self.cache_article_date(docname)
+
+    def cache_article_date(self, docname):
+        """get date meta data from entry
+
+        :param docname: target docname
+        :return: None
+        """
+        if docname not in self.env.metadata:
+            return  # not a blog article
+
+        doc_metadata = self.env.metadata[docname]
+
+        if 'date' not in doc_metadata:
+            return  # don't index dateless articles
+
+        try:
+            pub_date = parse_date(doc_metadata['date'])
+            self.set_pub_date(docname, pub_date)
+        except ValueError as exc:
+            #probably a nonsensical date
+            logger.warning('date parse error: %s in %s', str(exc), docname)
 
 
 # ##################
@@ -158,22 +160,24 @@ def convert_tag_string_into_tags(context):
 # ##############
 # handlers
 
-def doctree_read(app, doctree):
-    docname = app.env.docname
-    cache_article_dates(app.builder.env, docname)
-
-
 def html_page_context(app, pagename, templatename, context, doctree):
-    if not doctree:
-        return
     convert_tag_string_into_tags(context)
+
+
+def env_before_read_docs(app, env, docnames):
+    BlogDomain(env).set_docnames(docnames)
+
+
+def env_updated(app, env):
+    BlogDomain(env).cache_article_dates()
 
 
 # ##############
 # setup
 
 def setup(app):
-    app.connect('doctree-read', doctree_read)
+    app.connect('env-before-read-docs', env_before_read_docs)
+    app.connect('env-updated', env_updated)
     app.connect('html-page-context', html_page_context)
     app.add_domain(BlogDomain)
     return {
