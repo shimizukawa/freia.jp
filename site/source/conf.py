@@ -11,8 +11,7 @@ extensions = [
     'sphinx.ext.todo',
     'iframe',
     'ogtag',
-    'blogtags',
-    'toctree_with_date',
+    'blogdomain',
     'sphinxcontrib.feed',
     'sphinx.ext.intersphinx',
 ]
