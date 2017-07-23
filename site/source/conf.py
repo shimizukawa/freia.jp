@@ -52,7 +52,7 @@ version = release = ''
 language = 'ja'
 exclude_trees = []
 pygments_style = 'sphinx'
-# exclude_patterns = ['docs/*', 'blog/[1-9a-su-z]*']
+# exclude_patterns = ['docs/*', 'blog/[1-9a-hj-su-z]*']
 
 
 # -- Options for HTML output ---------------------------------------------------

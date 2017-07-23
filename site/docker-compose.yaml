@@ -7,4 +7,4 @@ services:
       - .:/doc
     environment:
       PYTHONDONTWRITEBYTECODE: 1
-    command: sphinx-build -M html /doc/source /doc/build -N -T
+    command: sphinx-build -M html /doc/source /doc/build -N -T -j 4
