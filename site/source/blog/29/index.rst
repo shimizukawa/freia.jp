@@ -13,7 +13,8 @@
 
 .. figure:: hikkoshi_box.*
    :alt: 詰め終わった箱を壁際に並べてみました
-   :title: 詰め終わった箱を壁際に並べてみました
+
+   詰め終わった箱を壁際に並べてみました
 
 
 .. :extend type: text/plain
