@@ -9,6 +9,13 @@
 #}
 {%- extends "layout.html" %}
 {% block body %}
+  {% if meta.date %}
+  <div class="date">
+    <span class="date-label">Date: </span>
+    <span class="date">{{ meta.date.split()[0] }}</span>
+  </div>
+  {% endif %}
+
   {% if meta.tags %}
   <div class="tags">
   <span class="tags-label">Tags: </span>

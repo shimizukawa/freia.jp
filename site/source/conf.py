@@ -12,6 +12,7 @@ extensions = [
     'iframe',
     'ogtag',
     'blogtags',
+    'toctree_with_date',
     'sphinxcontrib.feed',
     'sphinx.ext.intersphinx',
 ]
