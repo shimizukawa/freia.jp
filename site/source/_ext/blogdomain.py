@@ -23,7 +23,7 @@ def modify_toctree(env, pagename, doctree):
     """
     1. compact_paragraph ノードの toctree=True を探す
     2. その子要素の compact_paragraph を探す
-    3. compact_paragraph 内の reference の直後に日付を入れる
+    3. compact_paragraph 内の reference の直前に日付を入れる
 
     <compound classes="toctree-wrapper">
         <compact_paragraph toctree="True">
@@ -57,7 +57,7 @@ def modify_toctree(env, pagename, doctree):
                 stringdate = date.strftime('%Y/%m/%d')
                 date_wrapper = nodes.emphasis(classes=['blog-article-date'])
                 date_wrapper += nodes.Text(stringdate, stringdate)
-                refnode.parent.append(date_wrapper)
+                refnode.parent.insert(refnode.parent.index(refnode), date_wrapper)
 
 
 def toctree_resolve_patch(self, docname, builder, toctree, prune=True, maxdepth=0,

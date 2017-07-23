@@ -164,11 +164,14 @@ a.book-pypro2 {
 
 /* blog relates */
 
-div.tags {
+div.blog-tags,
+div.blog-date {
     font-style: italic;
 }
 
 em.blog-article-date {
-    margin: 0 1em;
     color: gray;
+}
+em.blog-article-date::after {
+    content: ": "
 }

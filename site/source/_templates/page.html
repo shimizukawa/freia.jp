@@ -10,17 +10,17 @@
 {%- extends "layout.html" %}
 {% block body %}
   {% if meta.date %}
-  <div class="date">
-    <span class="date-label">Date: </span>
-    <span class="date">{{ meta.date.split()[0] }}</span>
+  <div class="blog-date">
+    <span class="blog-date-label">Date: </span>
+    <span class="blog-date">{{ meta.date.split()[0] }}</span>
   </div>
   {% endif %}
 
   {% if meta.tags %}
-  <div class="tags">
-  <span class="tags-label">Tags: </span>
+  <div class="blog-tags">
+  <span class="blog-tags-label">Tags: </span>
   {% for tag in meta.tags %}
-  <span class="tag">{{ tag }}</span>{% if not loop.last %},{% endif %}
+  <span class="blog-tag">{{ tag }}</span>{% if not loop.last %},{% endif %}
   {% endfor %}
   </div>
   {% endif %}
