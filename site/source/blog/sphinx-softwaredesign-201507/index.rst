@@ -2,7 +2,7 @@
 :tags: SoftwareDesign, Sphinx
 
 ==========================================
-2015/06/23 SoftwareDesignでSphinxの連載中
+SoftwareDesignでSphinxの連載中
 ==========================================
 
 SoftwareDesign 2015年4月号から、Sphinxの連載が始まりました。

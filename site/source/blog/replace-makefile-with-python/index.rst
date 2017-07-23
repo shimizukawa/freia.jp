@@ -2,7 +2,7 @@
 :tags: Python, make, Makefile, Library
 
 =========================================
-2012/04/11 MakefileをPythonで置き換える
+MakefileをPythonで置き換える
 =========================================
 
 仕事でMakefileを書いていたのですが、ちょと複雑なことをしようとすると書き方を調べるのにやたらと時間を取られます。Pythonばっかり書いてるせいか、Makefileやshell scriptの書き方は毎回忘れますね。

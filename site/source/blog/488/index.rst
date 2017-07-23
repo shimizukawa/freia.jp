@@ -2,7 +2,7 @@
 :tags: Zope, Plone
 
 =============================================================
-2007/10/27 PASRadius-0.2 for PluggableAuthService(Zope/Plone)
+PASRadius-0.2 for PluggableAuthService(Zope/Plone)
 =============================================================
 
 PASRadius - Radius authentication plugin for PluggableAuthService ver 0.2 Python温泉リリース。

@@ -2,7 +2,7 @@
 :tags: python, turbogears
 
 ================================================================
-2007/10/25 ソースコード探訪：turbogears.toolbox.shell.WebConsole
+ソースコード探訪：turbogears.toolbox.shell.WebConsole
 ================================================================
 
 `turbogears.toolbox.shell.WebConsole`_ クラスのコードを読む。

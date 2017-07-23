@@ -3,7 +3,7 @@
 
 
 ==================================================================================
-2013/02/24 Python Win32 binary building and x64 cross compiling on 32bit platform
+Python Win32 binary building and x64 cross compiling on 32bit platform
 ==================================================================================
 
 Preparing Windows build environment

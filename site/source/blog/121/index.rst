@@ -2,7 +2,7 @@
 :tags: python, Memo
 
 ========================================
-2005/01/24 Python UnitTestのドキュメント
+Python UnitTestのドキュメント
 ========================================
 
 `Python Unit Testing Framework (in Japanese)`_ を発見。これでテスト駆動を始めるきっかけをつかめそう。

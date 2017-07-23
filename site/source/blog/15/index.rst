@@ -2,7 +2,7 @@
 :tags: Zope, misc
 
 ===================================
-2004/06/05 COREblogのリファラadd-in
+COREblogのリファラadd-in
 ===================================
 
 先日、久々に `regnessem <http://regnessem.sourceforge.jp/>`__ のホームページをチェックした際に `RSS Reader plug-in <http://d.hatena.ne.jp/Sapphire/20030102>`__  というのがあったので早速ゲット。regnessemって、ホント便利ですね。

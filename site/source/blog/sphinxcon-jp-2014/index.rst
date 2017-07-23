@@ -2,7 +2,7 @@
 :tags: Sphinx, SphinxCon
 
 ===========================================================
-2014/10/31 SphinxCon JP 2014 で発表してきました #sphinxjp
+SphinxCon JP 2014 で発表してきました #sphinxjp
 ===========================================================
 
 .. figure:: sphinxconjp2014-logo.png

@@ -2,7 +2,7 @@
 :tags: Pattern, Event
 
 =========================
-2004/04/20 パターン勉強会
+パターン勉強会
 =========================
 
 http://patterns-wg.fuka.info.waseda.ac.jp/ps2004.html

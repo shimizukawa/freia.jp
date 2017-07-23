@@ -2,7 +2,7 @@
 :tags: web
 
 ====================================================
-2009/12/08 sidebarとfooter付きLiquidページのHTML練習
+sidebarとfooter付きLiquidページのHTML練習
 ====================================================
 
 Sphinx_ のデザインを参考に、sidebarとfooterのあるLiquidなWebページを作る練習をしてみました。

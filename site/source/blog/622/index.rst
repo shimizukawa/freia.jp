@@ -2,7 +2,7 @@
 :tags: Programming, boadgame, ruby-on-rails
 
 ===============================================================================
-2009/01/25 BattleLine RoR (3) serializeした独自クラスをYAMLからロード時に再読込
+BattleLine RoR (3) serializeした独自クラスをYAMLからロード時に再読込
 ===============================================================================
 
 注）ここで記載しているBattleLineは、GoogleでたくさんヒットするBattleLine Onlineとは別物です。

@@ -2,7 +2,7 @@
 :tags: Unix, IT-PC
 
 =============================
-2008/02/03 ML115 Challenge! 2
+ML115 Challenge! 2
 =============================
 
 `ML115 Challenge! 1`_ で色々ハマりつつ構築したVMWare用環境も、Hostに debian 4.0r2 amd64 (debian-40r2-amd64-netinst.isoからインストール)して今のところ安定動作中。解像度を1024x768にできない問題も `コンセプトの壺 - システム開発のFAQ`_ を見てxorg.confの色深度を24から16に落としたら解決しました。

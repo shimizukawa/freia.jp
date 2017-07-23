@@ -2,7 +2,7 @@
 :tags: Zope
 
 ==============================
-2004/05/16 ZWikiでIssueTracker
+ZWikiでIssueTracker
 ==============================
 
 ZWikiのIssueTrackerは使いにくいと思います。でもZopeの他のプロタクトに比べるといくらかましかもしれません。

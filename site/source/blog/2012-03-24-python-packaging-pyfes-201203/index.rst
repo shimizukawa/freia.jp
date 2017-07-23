@@ -2,7 +2,7 @@
 :tags: Event, Python, Python3, packaging
 
 ==============================================
-2012/03/24 PYTHON PACKAGING (PyFes 2012.03)
+PYTHON PACKAGING (PyFes 2012.03)
 ==============================================
 
 3/17に `Python Developers Festa 2012.03 <http://d.hatena.ne.jp/Voluntas/20111015/1318682867>`_ で発表してきました。

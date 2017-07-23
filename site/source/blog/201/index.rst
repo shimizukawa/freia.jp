@@ -2,7 +2,7 @@
 :tags: work
 
 ======================================================
-2005/05/06 今日は会社でFreeBSD5.3 on DELL PowerEdge800
+今日は会社でFreeBSD5.3 on DELL PowerEdge800
 ======================================================
 
 社内サーバー用に購入した `DELL PowerEdge800`_ にFreeBSD5.3で環境構築中。Broadcom 5721用のドライバが無かったので、 `FreeBSD5-stableのソースを取ってきてdiffして`_ if_bgeにパッチしました。

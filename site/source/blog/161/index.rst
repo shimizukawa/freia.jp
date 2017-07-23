@@ -2,7 +2,7 @@
 :tags: Unix
 
 ======================================
-2005/03/16 FreeBSDでEnhanced SpeedStep
+FreeBSDでEnhanced SpeedStep
 ======================================
 
 PentiumM730の動的なクロック変更に成功。

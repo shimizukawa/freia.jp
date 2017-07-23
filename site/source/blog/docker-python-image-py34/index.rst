@@ -2,7 +2,7 @@
 :tags:
 
 ========================================================================
-2014/05/10 Python全部入りDocker ImageのOpenSSL更新してPython3.4追加した
+Python全部入りDocker ImageのOpenSSL更新してPython3.4追加した
 ========================================================================
 
 :doc:`DockerのPython全部入りコンテナを作ってました <../docker-python-image/index>` が、HeartBleed対策してPython3.4追加したものを4月12日に公開してました。

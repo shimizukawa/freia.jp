@@ -2,7 +2,7 @@
 :tags: Editor, SublimeText2, Python, Ruby
 
 ==================================================
-2012/07/13 Sublime Text 2 Study #1 に参加しました
+Sublime Text 2 Study #1 に参加しました
 ==================================================
 
 .. figure:: what-is-your-primary-text-editor-for-ruby-rails.png

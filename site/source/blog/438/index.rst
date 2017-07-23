@@ -2,7 +2,7 @@
 :tags: turbogears
 
 ========================================
-2007/04/09 patchだらけのtgdatacontroller
+patchだらけのtgdatacontroller
 ========================================
 
 `TurboGearsのお手軽Controller`_ として作成したtgdatacontrollerですが、利用するためにはSQLObjectやtgfastdataにpatchを手動で当てる必要があります。いちおうそれぞれtrackerに報告はしたのですが、本流に取り込まれるまでは、パッチ当て面倒＆動作保証が怪しい気がする、と、startupはあまりスムーズじゃない気がします。しかもtgfastdataについては0.9a6から更新が無くて、修正してくれるのかどうか怪しい感じ。

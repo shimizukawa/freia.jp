@@ -2,7 +2,7 @@
 :tags: python, Programming
 
 =====================================
-2006/05/21 PythonのDocTestでお手軽TDD
+PythonのDocTestでお手軽TDD
 =====================================
 
 .. epigraph::

@@ -2,7 +2,7 @@
 :tags: Unix
 
 ==================================================
-2005/03/23 vpopmail with LDAP認証 by FreeBSD ports
+vpopmail with LDAP認証 by FreeBSD ports
 ==================================================
 
 vpopmailでldap認証を使うには::

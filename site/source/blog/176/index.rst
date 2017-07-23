@@ -2,7 +2,7 @@
 :tags: Game
 
 =================================
-2005/03/29 YetiSportsおもしろすぎ
+YetiSportsおもしろすぎ
 =================================
 
 http://cabin.jp/yuukan/1-game-simple15.html

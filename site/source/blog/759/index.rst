@@ -2,7 +2,7 @@
 :tags: python, Windows
 
 =========================================================
-2011/05/04 MeCab-0.98 python binding for Windows のビルド
+MeCab-0.98 python binding for Windows のビルド
 =========================================================
 
 Pythonで MeCab_ を使用するには `MecCab-pythonバインディング`_ を使用しますが、バンディングはビルド済みのものが提供されていないので、自分でビルドする必要があります。Linuxや*BSDならそれほどはまらないと思いますが、Windowsではコンパイル環境があってもはまったので、バインディングビルド手順をメモしておきます(完成物はこちら: :download:`mecab-python-0.98-win32-binary-20110504.zip` )。

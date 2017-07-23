@@ -2,7 +2,7 @@
 :tags: Python, Sphinx, intersphinx
 
 ====================================================================
-2012/12/08 intersphinxを使おう - #sphinxjp アドベントカレンダー2012
+intersphinxを使おう - #sphinxjp アドベントカレンダー2012
 ====================================================================
 
 `Sphinx Advent Calendar 2012`_ 8日目担当の清水川です。昨日は `@takanory`_ の `Sphinx Advent Calendar 7日目: 異なった環境で Sphinx と blockdiag とかを使う`_ でした。

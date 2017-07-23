@@ -2,7 +2,7 @@
 :tags: python, Programming
 
 ===========================
-2005/03/23 pythonでHTML解析
+pythonでHTML解析
 ===========================
 
 会社の同僚が

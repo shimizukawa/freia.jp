@@ -2,7 +2,7 @@
 :tags: security
 
 ===================================================
-2008/05/21 RapidSSLからDebianの例の件でメールが来た
+RapidSSLからDebianの例の件でメールが来た
 ===================================================
 
 ``Urgent SSL security update from RapidSSL for Debian users`` というタイトルで例の件（何？）の脆弱性関連のメールがRapidSSLから届いた。内容は::

@@ -2,7 +2,7 @@
 :tags: Zope, Memo
 
 ===============================
-2005/01/27 _SUPPRESS_ACCESSRULE
+_SUPPRESS_ACCESSRULE
 ===============================
 
 Zope上で設定や開発をしていてよくはまった罠が二つある。

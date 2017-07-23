@@ -2,7 +2,7 @@
 :tags: Python, bitbucket, github
 
 ==========================================================
-2015/01/18 BitbucketのIssueをGithubにマイグレーションする
+BitbucketのIssueをGithubにマイグレーションする
 ==========================================================
 
 先日、某プロジェクト(Sphinx)をBitbucketからGithubに移行しました。

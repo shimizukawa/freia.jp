@@ -2,7 +2,7 @@
 :tags: misc
 
 =============================================
-2005/01/11 Windows AntiSpyware 入れてみました
+Windows AntiSpyware 入れてみました
 =============================================
 
 Microsoft製の無料スパイウェアチェッカー、 `Windows AntiSpyware`_ を入れてみた。

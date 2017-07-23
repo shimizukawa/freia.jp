@@ -2,7 +2,7 @@
 :tags: Python, pyhack, camp
 
 ===========================================
-2017/07/14 Python mini hack-a-thon 夏山合宿
+Python mini hack-a-thon 夏山合宿
 ===========================================
 
 `Python mini hack-a-thon 夏山合宿 2017`_ (``#pyhack``) に参加しました。

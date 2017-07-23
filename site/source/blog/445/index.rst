@@ -2,7 +2,7 @@
 :tags: python, turbogears
 
 ==================================
-2007/04/15 tgdatacontrollerをegg化
+tgdatacontrollerをegg化
 ==================================
 
 easy_install

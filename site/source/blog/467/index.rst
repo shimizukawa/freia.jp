@@ -2,7 +2,7 @@
 :tags: python, turbogears
 
 ==================================================
-2007/07/20 TurboGearsのVirtualHost化ではまりまくる
+TurboGearsのVirtualHost化ではまりまくる
 ==================================================
 
 今日はTurboGearsのアプリをmod_proxyの陰で動かし、VirtualHostで任意のパス以下に配置しようとしてはまりまくってました。

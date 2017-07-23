@@ -2,7 +2,7 @@
 :tags: IT-PC
 
 =============================================================
-2005/10/14 Googleの「Personalize your Google homepage」を使う
+Googleの「Personalize your Google homepage」を使う
 =============================================================
 
 .. figure:: google_personal

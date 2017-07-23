@@ -2,7 +2,7 @@
 :tags: misc
 
 =========================
-2007/04/11 TypingMania3β
+TypingMania3β
 =========================
 
 - `TypingMania3β - SightSeekerStudio.com`_

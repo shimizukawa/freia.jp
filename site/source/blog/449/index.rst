@@ -2,7 +2,7 @@
 :tags: Event, Zope, Plone
 
 ==================================
-2007/04/18 ZopeEssentials6 参加log
+ZopeEssentials6 参加log
 ==================================
 
 今日は `Zope Essentials 6`_ に参加してきました。

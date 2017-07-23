@@ -2,7 +2,7 @@
 :tags: python, misc
 
 ================================
-2004/12/10 PythonCE for PocketPC
+PythonCE for PocketPC
 ================================
 
 帰りの電車の中で、PocketPCにインストールしたPythonをいじっていて遭遇したネタ。

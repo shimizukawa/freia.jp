@@ -2,7 +2,7 @@
 :tags: Zope, Plone
 
 ====================================================
-2007/04/22 InstanceManagerでZope/Plone環境自動構築 2
+InstanceManagerでZope/Plone環境自動構築 2
 ====================================================
 
 コマンド一発でZopeのインスタンスを作り、Ploneのtgzを展開し、svnからソースコード取ってきて、zopeを起動してploneのインスタンスを作ってプロダクトの追加までやってくれる便利なライブラリ、instance managerの設定についてのメモです。インストールについては `InstanceManagerでZope/Plone環境自動構築`_ を見てください。

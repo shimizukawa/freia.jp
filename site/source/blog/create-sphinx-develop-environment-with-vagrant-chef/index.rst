@@ -2,7 +2,7 @@
 :tags: Vagrant, Chef, Python, Sphinx
 
 ====================================================================
-2013/02/10 Vagrant+Chefで作るSphinx開発環境
+Vagrant+Chefで作るSphinx開発環境
 ====================================================================
 
 一つ前のエントリ :doc:`../create-ubuntu-12.04-by-using-vagrant/index`

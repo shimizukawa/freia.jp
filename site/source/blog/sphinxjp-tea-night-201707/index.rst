@@ -2,7 +2,7 @@
 :tags: Sphinx
 
 =============================================
-2017/07/11 Sphinx Tea Night 2017.07 #sphinxjp
+Sphinx Tea Night 2017.07 #sphinxjp
 =============================================
 
 :doc:`前回 <../sphinxjp-tea-night-201706/index>` に引き続き、 `Sphinx Tea Night 2017.07`_ に参加しました。

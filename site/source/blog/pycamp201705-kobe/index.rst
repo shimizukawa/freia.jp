@@ -2,7 +2,7 @@
 :tags: Python, PyCon, PyCon JP, PyCamp
 
 ===========================================================
-2017/05/20 Python Boot Camp in 神戸に行ってきました #pycamp
+Python Boot Camp in 神戸に行ってきました #pycamp
 ===========================================================
 
 `Python Boot Camp in 神戸`_ に行ってきました。

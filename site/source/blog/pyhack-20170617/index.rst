@@ -2,7 +2,7 @@
 :tags: Python, pyhack
 
 =======================================
-2017/06/17 Python mini hack-a-thon 77回
+Python mini hack-a-thon 77回
 =======================================
 
 `Python mini hack-a-thon #77`_ (``#pyhack``) に参加しました。

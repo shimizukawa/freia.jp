@@ -2,7 +2,7 @@
 :tags: python, Zope
 
 =========================
-2005/06/02 ZrstAmazon構想
+ZrstAmazon構想
 =========================
 
 TRIVIAL TECHNOLOGIESで公開されている `ZopeでSyntax Coloring`_ を元ネタに SilverCityDocument_ というPlone用のプロダクトを先日作ってみました。さっそくたかのりさんが `使用レポート`_ を書いてくれています。

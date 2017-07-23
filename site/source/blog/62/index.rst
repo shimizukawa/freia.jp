@@ -2,7 +2,7 @@
 :tags: Zope, python
 
 =============================
-2004/08/16 No module named ja
+No module named ja
 =============================
 
 reST表示でZopeがリブートする問題_ は解決しました。

@@ -2,7 +2,7 @@
 :tags: Sphinx, Docker, fig
 
 ====================================================
-2015/02/14 Docker/figでSphinxのWebSupportを起動する
+Docker/figでSphinxのWebSupportを起動する
 ====================================================
 
 今日は `Python mini Hack-a-thon 51回目`_ でこのblogを書きました。

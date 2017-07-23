@@ -2,7 +2,7 @@
 :tags: Zope, misc
 
 ===================================
-2004/04/20 COREBlogのStructuredText
+COREBlogのStructuredText
 ===================================
 
 ところで、COREBlogのStructuredTextがよく分かりません。URLリンクの指定の仕方とか、普通のStructuredTextと違うんでしょうか？

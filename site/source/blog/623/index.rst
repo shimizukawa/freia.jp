@@ -2,7 +2,7 @@
 :tags: Programming, boadgame, ruby-on-rails
 
 =============================
-2009/02/03 BattleLine RoR (4)
+BattleLine RoR (4)
 =============================
 
 *注）ここで記載しているBattleLineは、GoogleでたくさんヒットするBattleLine Onlineとは別物です。*

@@ -2,7 +2,7 @@
 :tags: Zope, python, Plone
 
 =======================================================================
-2009/12/05 distutils, setuptools, distribute, pip, virtualenv, buildout
+distutils, setuptools, distribute, pip, virtualenv, buildout
 =======================================================================
 
 今日は `(第6回)Zope/Plone開発勉強会`_ に参加しています。

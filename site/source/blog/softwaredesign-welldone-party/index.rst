@@ -2,7 +2,7 @@
 :tags: Sphinx, SoftwareDesign
 
 ============================================================
-2017/03/01 SoftwareDesign誌 Sphinx連載完了打ち上げ #sphinxjp
+SoftwareDesign誌 Sphinx連載完了打ち上げ #sphinxjp
 ============================================================
 
 `SoftwareDesign 2015年4月号`_ から、 **Sphinxで始めるドキュメント作成術** という連載を行っていました。

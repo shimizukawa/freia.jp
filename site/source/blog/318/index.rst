@@ -2,7 +2,7 @@
 :tags: Event, Zope
 
 ==================================
-2006/03/05 ZopeDevelopersCamp2006w
+ZopeDevelopersCamp2006w
 ==================================
 
 `ZopeDevelopersCamp2006w`_ に初参加中！ 初日は10時から4時過ぎまで滑ってました。

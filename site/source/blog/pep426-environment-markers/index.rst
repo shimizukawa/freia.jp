@@ -2,7 +2,7 @@
 :tags: Python, PEP-0426, metadata2.0, setuptools, pip, wheel
 
 ====================================================================
-2014/07/10 PEP-0426 Environment Markers の調査
+PEP-0426 Environment Markers の調査
 ====================================================================
 
 .. contents::

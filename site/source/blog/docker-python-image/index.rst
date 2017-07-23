@@ -2,7 +2,7 @@
 :tags:
 
 ==============================================
-2014/01/20 Python7つ入りのDocker Imageを作った
+Python7つ入りのDocker Imageを作った
 ==============================================
 
 :doc:`../create-docker-trusted-build-image-on-the-docker-official-repository/index` で作った `shimizukawa/python-all`_ イメージは Python-2.5, 2.6, 2.7, 3.1, 3.2, 3.3, pypy を使えるようにするものでした。

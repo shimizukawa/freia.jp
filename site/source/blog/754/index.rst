@@ -2,7 +2,7 @@
 :tags: python
 
 ======================================================
-2011/04/23 packaging (aka Distutils2) のcreateコマンド
+packaging (aka Distutils2) のcreateコマンド
 ======================================================
 
 `(第7回)Python mini Hack-a-thon`_ 夕方の部

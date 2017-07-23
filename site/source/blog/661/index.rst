@@ -2,7 +2,7 @@
 :tags: python, Programming, web
 
 =============================================================
-2009/07/30 buildoutで開発3: easy_install できるように公開する
+buildoutで開発3: easy_install できるように公開する
 =============================================================
 
 `eggの作り方が分からない`_, `buildoutで開発1: WSGIアプリをeggで作る`_, `buildoutで開発2: buildoutで環境を整える`_ の続き。buildoutというよりsetuptoolsネタ。

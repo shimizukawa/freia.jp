@@ -2,7 +2,7 @@
 :tags: Zope, Programming
 
 =================================================================
-2005/02/23 COREblogのエントリを表示するportlet_recent_blogentries
+COREblogのエントリを表示するportlet_recent_blogentries
 =================================================================
 
 `portlet_recent_images`_ の次に COREblog_ の最近追加されたエントリ表示をPloneのスロット行う、portlet_recent_blogentriesを作ってみた。 http://www.freia.jp/taka のページで左の柱に表示されていると思う。

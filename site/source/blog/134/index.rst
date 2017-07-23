@@ -2,7 +2,7 @@
 :tags: python, Memo
 
 ==================================
-2005/02/12 Python Performance Tips
+Python Performance Tips
 ==================================
 
 メモ。 `Python Performance Tips`_ 。今後コードを書くときにちょっとした指標になるかも？

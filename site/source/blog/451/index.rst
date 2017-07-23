@@ -2,7 +2,7 @@
 :tags: Zope, Plone
 
 ==================================================
-2007/04/21 InstanceManagerでZope/Plone環境自動構築
+InstanceManagerでZope/Plone環境自動構築
 ==================================================
 
 先日の `Zope Essentials 6`_ で仕入れたネタ InstanceManager を試してみました。

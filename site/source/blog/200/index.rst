@@ -2,7 +2,7 @@
 :tags: python, Game
 
 =======================
-2005/05/05 Pythonパズル
+Pythonパズル
 =======================
 
 `日本のZope情報`_ に掲載された `Python Challenge`_ に挑戦中です。

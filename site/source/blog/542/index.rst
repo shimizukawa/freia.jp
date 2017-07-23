@@ -2,7 +2,7 @@
 :tags: Event, python
 
 =========================================
-2008/02/15 Python Developers Camp 2008 冬
+Python Developers Camp 2008 冬
 =========================================
 
 Python Developers Camp 2008 冬 に参加します！
