@@ -45,7 +45,7 @@ def modify_toctree(env, pagename, doctree):
     def find_reference(node):
         return isinstance(node, nodes.reference) and node.get('internal')
 
-    blog_domain = BlogDomain(env)
+    blog_domain = env.get_domain('blog')
 
     for toctree in doctree.traverse(find_toctree, include_self=True):
         for refnode in toctree.traverse(find_reference):
@@ -81,8 +81,11 @@ class BlogDomain(Domain):
     """
     name = 'blog'
     label = 'blog'
-    initial_data = {'pub_dates': {}, 'docnames': []}
+    initial_data = {'pub_dates': {}}
     data_version = 1
+
+    # working memory
+    docnames = []
 
     def merge_domaindata(self, docnames, otherdata):
         pass
@@ -94,7 +97,7 @@ class BlogDomain(Domain):
         return []
 
     def set_docnames(self, docnames):
-        self.data['docnames'] = docnames  # working memory
+        self.docnames = docnames[:]
 
     def set_pub_date(self, docname, pub_date):
         logger.debug('set <- %s, %s', docname, pub_date)
@@ -106,7 +109,7 @@ class BlogDomain(Domain):
         return pub_date
 
     def cache_article_dates(self):
-        for docname in self.data['docnames']:
+        for docname in self.docnames:
             self.cache_article_date(docname)
 
     def cache_article_date(self, docname):
@@ -165,11 +168,11 @@ def html_page_context(app, pagename, templatename, context, doctree):
 
 
 def env_before_read_docs(app, env, docnames):
-    BlogDomain(env).set_docnames(docnames)
+    env.get_domain('blog').set_docnames(docnames)
 
 
 def env_updated(app, env):
-    BlogDomain(env).cache_article_dates()
+    env.get_domain('blog').cache_article_dates()
 
 
 # ##############
