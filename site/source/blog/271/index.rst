@@ -20,11 +20,13 @@ COREBlog2スゲぇ！まだ自分の環境をPlone2.1に移行できていない
 
 自己紹介の場で、ATBookshelfというCOREBlog2と連携出来る本棚ツールをちょろっと紹介させて頂きました。ATBookshelfについて詳しくは http://www.freia.jp/taka/memo/plone/atbookshelf を参照してください。
 
-.. figure:: coreblog2_and_atbookshelf001
+.. figure:: coreblog2_and_atbookshelf001.*
 
   COREBlog2でのインライン表示。
   COREBlog2のIInlineObjectインターフェースに対応している
   ため、Plone2の関連づけ機能でblogエントリと関連づけられた
   アイテムをインラインで表示させることが出来ます。
 
+.. image:: atbookshelf001.*
+   :width: 33%
 

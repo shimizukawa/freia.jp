@@ -35,4 +35,9 @@ Zope3用が一段落したので、めんどくさいZope2用の作成をしよ�
 .. :url: 
 .. :body:
 .. おお、すばらしい
-.. 
+..
+
+
+.. image:: z3qrcodeadapter.*
+   :width: 33%
+

@@ -58,3 +58,6 @@
 .. image:: pls5usbw.*
    :width: 33%
 
+.. image:: iarm.*
+   :width: 33%
+

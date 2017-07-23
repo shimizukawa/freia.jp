@@ -16,7 +16,7 @@
 
 ▼台所にPCとサーバー
 
-  .. figure:: kitchen_server
+  .. figure:: kitchen_server.*
      :alt: 台所にPCとサーバー
      :title: 台所にPCとサーバー
      :width: 400
@@ -24,7 +24,7 @@
 
 ▼４畳半部屋（ウォークインクローゼットと名付けてみる）
 
-  .. figure:: walkin_nando
+  .. figure:: walkin_nando.*
      :alt: どちらかというと納戸と呼んだ方が良いかも
      :title: どちらかというと納戸と呼んだ方が良いかも
      :width: 400
