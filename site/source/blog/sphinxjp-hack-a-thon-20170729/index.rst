@@ -11,7 +11,7 @@ Sphinx + 翻訳 hack-a-thon 2017.07 #sphinxjp
 :参加者: @tk0miya(会長), @shimizukawa(会計), @usaturn, nskgch, @dtzx
 :会場: タイムインターメディア社（曙橋）
 
-.. _Sphinx+翻訳 hack-a-thon 2017.06: https://sphinxjp.connpass.com/event/62396/
+.. _Sphinx+翻訳 hack-a-thon 2017.07: https://sphinxjp.connpass.com/event/62396/
 
 .. raw:: html
 
