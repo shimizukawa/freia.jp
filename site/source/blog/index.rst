@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxjp-hack-a-thon-20170729/index
    teratail-3rd-anniv/index
    pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index
    sphinx-ogp-support/index
