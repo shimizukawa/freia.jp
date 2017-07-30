@@ -91,13 +91,15 @@ Sphinx + 翻訳 hack-a-thon 2017.07 #sphinxjp
 
   * apidocの明示的な名前空間パッケージ利用が動作しない問題
 
-    * https://sphinxjp.connpass.com/event/62396/
+    * https://github.com/sphinx-doc/sphinx/issues/3962
     * 以前名前空間パッケージ対応したときに、一部考慮が足りてなかった
     * もらったパッチのままだとまずそうなので、対応方法を検討
     * https://github.com/sphinx-doc/sphinx/pull/3966
 
 
-写真とられてた！
+おまけ
+
+いつのまにか写真とられてた！
 
 .. raw:: html
 
