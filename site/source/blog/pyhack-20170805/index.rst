@@ -13,7 +13,7 @@ Python mini hack-a-thon 79回 #pyhack
 :会場: BeProud社（新宿）
 
 
-.. _Python mini hack-a-thon #77: https://pyhack.connpass.com/event/57770/
+.. _Python mini hack-a-thon #79: https://pyhack.connpass.com/event/60269/
 .. _#pyhack: https://twitter.com/hashtag/pyhack?f=tweets&vertical=default&src=hash
 
 今日やったこと
