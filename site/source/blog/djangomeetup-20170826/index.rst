@@ -13,7 +13,7 @@ django-redshift-backend_ は、Djangoから `Amazon Redshift`_ を操作する�
 
 今日の作業で対応された新機能、バグはこんな感じです。
 
-* `#15`_,`#21`_: Redshiftに無いCHECK制約を使わないように修正
+* `#15`_, `#21`_: Redshiftに無いCHECK制約を使わないように修正
 * `#20`_: CREATE TABLEのsortkey対応
 * `#18`_: Django 1.9 から内部実装が変わってて動作しなくなっていたmigrateの修正
 
@@ -25,7 +25,7 @@ django-redshift-backend_ は、Djangoから `Amazon Redshift`_ を操作する�
 
 そして進行中がもうすこし。
 
-* `#10`_,`#23`_: Redshift TIMEZONEサポート
+* `#10`_, `#23`_: Redshift TIMEZONEサポート
 * `#24`_: UUIDField サポート
 
 .. _#10: https://github.com/shimizukawa/django-redshift-backend/issues/10
@@ -39,7 +39,7 @@ Django的には問題なさそうなんだけど、DataTimeFieldで作ったDB�
 
 ----------
 
-昨年、PyCon JP 2016 で `仕事で使うちょっとしたコードをOSSとして開発メンテしていく - Django Redshift Backend の開発`_ という発表をしてから、あまりまとまった時間が取れてませんでした。色々申し訳なくなってきたタイミングで Django Meetup Tokyo を開催してくれた `@horikiky`_ に感謝！
+昨年、PyCon JP 2016 で `仕事で使うちょっとしたコードをOSSとして開発メンテしていく - Django Redshift Backend の開発`_ という発表をしてから、あまりまとまった時間が取れてませんでした。こんなニッチなプロダクトにIssueやPRをくれた人たちに色々申し訳なくなってきたタイミングで Django Meetup Tokyo を開催してくれた `@hirokiky`_ に感謝！
 
 .. _仕事で使うちょっとしたコードをOSSとして開発メンテしていく - Django Redshift Backend の開発: http://www.freia.jp/taka/talks.html#oss-django-redshift-backend
 .. _@hirokiky: https://twitter.com/hirokiky
