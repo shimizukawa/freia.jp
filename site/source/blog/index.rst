@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxjp-hack-a-thon-20170827/index
    djangomeetup-20170826/index
    pyhack-20170805/index
    sphinxjp-hack-a-thon-20170729/index
