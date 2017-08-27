@@ -24,7 +24,9 @@ Sphinx + 翻訳 hack-a-thon 2017.08 #sphinxjp
 - usaturn: 書籍やりました
 - shimizukawa: 書籍やりました
 
-次回は `PyCon JP 2017 Sprint`_ （参加費無料）内での開催かもしれません。
+次回は `Sphinx+翻訳 Hack-a-thon 2017.9 in PyCon JP 2017`_ というタイトルで、  `PyCon JP 2017 Sprint`_ （参加費無料）内で開催します。
+
+.. _Sphinx+翻訳 Hack-a-thon 2017.9 in PyCon JP 2017: https://sphinxjp.connpass.com/event/65584/preview/
 
 .. _PyCon JP 2017 Sprint: https://pyconjp.connpass.com/event/62858/
 
