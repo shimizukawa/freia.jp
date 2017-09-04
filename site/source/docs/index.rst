@@ -305,8 +305,6 @@ Interview
 .. figure:: images/codezine-jp-article-detail-10391.*
    :target: http://codezine.jp/article/detail/10391
 
-   ダメで当たり前なのでどんどんやる。アウトプットしていこう
-
 
 `Pythonエンジニア列伝 Vol.1 清水川貴之氏（後編）`__
 -----------------------------------------------------
