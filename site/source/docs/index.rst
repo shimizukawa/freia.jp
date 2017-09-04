@@ -296,6 +296,42 @@ Local Site
 Interview
 =========
 
+`PyCon JP 2017開催直前、緊急座談会　～採択倍率4倍を潜り抜けた登壇者たちが、発表の裏側やイベントの楽しみ方を徹底紹介`__
+-----------------------------------------------------------------------------------------------------------------------
+2017.9.1 / CodeZine（コードジン）
+
+.. __: http://codezine.jp/article/detail/10391
+
+.. figure:: images/codezine-jp-article-detail-10391.*
+   :target: http://codezine.jp/article/detail/10391
+
+   ダメで当たり前なのでどんどんやる。アウトプットしていこう
+
+
+`Pythonエンジニア列伝 Vol.1 清水川貴之氏（後編）`__
+-----------------------------------------------------
+2017.8.31 / PyQオフィシャルブログ
+
+.. __: http://blog.pyq.jp/entry/lives_of_engineer_001_2
+
+.. figure:: images/pyq-blog-lives-of-engineer-001-2.*
+   :target: http://blog.pyq.jp/entry/lives_of_engineer_001_2
+
+   ダメで当たり前なのでどんどんやる。アウトプットしていこう
+
+
+`Pythonエンジニア列伝 Vol.1 清水川貴之氏（前編）`__
+-----------------------------------------------------
+2017.8.29 / PyQオフィシャルブログ
+
+.. __: http://blog.pyq.jp/entry/lives_of_engineer_001_1
+
+.. figure:: images/pyq-blog-lives-of-engineer-001-1.*
+   :target: http://blog.pyq.jp/entry/lives_of_engineer_001_1
+
+   手をいつでもあげられるように素振りをしよう
+
+
 `清水川 貴之｜Special Contents｜Vantan`__
 -----------------------------------------------
 2016.11.14 / Vantan | インタビュー
