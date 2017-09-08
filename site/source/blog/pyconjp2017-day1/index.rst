@@ -364,6 +364,20 @@ LT
 
 * 「手違いでTシャツを配れていない人が。受付に来て下さい」あらあら..
 
+明日の企画
+
+* `キーノートは堀越真映さん`_ です
+* 3Fで `オープンスペース`_ やります。1Fのホワイトボードにサインアップしてください
+* `ポスターセッション`_ は1Fで行います
+* `Youth Coder Workshop`_ もやります
+* 明日もLTやります。1Fのホワイトボードにサインアップしてください
+* ベストトークアワードをやります。1票よろしくおねがいします
+
+.. _オープンスペース`: https://pycon.jp/2017/ja/events/openspace/
+.. _キーノートは堀越真映さん: https://pycon.jp/2017/ja/talks/keynote/
+.. _ポスターセッション: https://pycon.jp/2017/ja/schedule/posters/list/
+.. _Youth Coder Workshop: https://pycon.jp/2017/ja/events/youth-ws/
+
 
 あああ、ノートPCの電池が切れる...
 
