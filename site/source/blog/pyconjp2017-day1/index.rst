@@ -107,6 +107,10 @@ Q&A
 
 * 12:10-13:00
 * https://pycon.jp/2017/ja/events/media-meeting/
+* Togetter: https://togetter.com/li/1148594
+
+.. figure:: media-meetup.*
+   :width: 80%
 
 ----------------
 
@@ -282,8 +286,8 @@ len()関数がオブジェクトの長さを手にいれる仕組み
 =====================================================
 
 * 英語タイトル: How does python get length with the len() function?
-* #pyconjp_203
-* 14:05～
+* 14:05～ #pyconjp_203
+* Togetter: https://togetter.com/li/1148634
 * 発表資料 https://goo.gl/8R6Bn2
 * アジェンダ: https://pycon.jp/2017/ja/schedule/presentation/22/
 * 動画: https://www.youtube.com/watch?v=aich6wqftkA
@@ -301,6 +305,8 @@ len()関数がオブジェクトの長さを手にいれる仕組み
 
    <iframe src="//www.slideshare.net/slideshow/embed_code/key/aM9Yf35L5nu2e1" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/how-does-python-get-the-length-with-the-len-function" title="Pythonはどうやってlen関数で長さを手にいれているの？" target="_blank">Pythonはどうやってlen関数で長さを手にいれているの？</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
 
+.. figure:: shimizukawa-and-atendees.*
+   :width: 80%
 
 .. raw:: html
 

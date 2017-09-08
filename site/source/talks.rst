@@ -14,7 +14,7 @@ Talks
      <iframe src="//www.slideshare.net/slideshow/embed_code/key/aM9Yf35L5nu2e1" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
 * 動画: https://www.youtube.com/watch?v=aich6wqftkA
-* Togetter: 
+* Togetter: https://togetter.com/li/1148634
 
 
 `仕事で使うちょっとしたコードをOSSとして開発メンテしていく - Django Redshift Backend の開発`__
