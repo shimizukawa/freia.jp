@@ -34,7 +34,7 @@ PyCon JP 2017 1日目 参加ログ #pyconjp
 レジストレーション
 ===================
 
-.. figure:: registratoin.*
+.. figure:: registration.*
    :width: 80%
 
    受付。今年は **パトロン & スピーカー** だ！
