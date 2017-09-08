@@ -379,6 +379,14 @@ LT
 .. _Youth Coder Workshop: https://pycon.jp/2017/ja/events/youth-ws/
 
 
-あああ、ノートPCの電池が切れる...
+Party
+===========
+
+今日は全体パーティー！
+
+
+
+
+.. note:: 内容は随時更新していきます
 
 
