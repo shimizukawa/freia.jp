@@ -262,3 +262,18 @@ Q&A
 
 （司会）以上で終わりになります。みなさんありがとうございました。
 
+
+len()関数がオブジェクトの長さを手にいれる仕組み
+=====================================================
+
+* 英語タイトル: How does python get length with the len() function?
+* #pyconjp_203
+* 14:05～
+* 発表資料 https://goo.gl/8R6Bn2
+* アジェンダ: https://pycon.jp/2017/ja/schedule/presentation/22/
+* 動画: https://www.youtube.com/watch?v=aich6wqftkA
+
+自分の発表です。
+
+よろしくおねがいします！
+
