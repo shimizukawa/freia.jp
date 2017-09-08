@@ -23,6 +23,9 @@ PyCon JP 2017 1日目 参加ログ #pyconjp
 .. _#pyconjp: https://twitter.com/search?f=tweets&vertical=default&q=%23pyconjp&src=typd
 .. _len()関数がオブジェクトの長さを手にいれる仕組み: https://pycon.jp/2017/ja/schedule/presentation/22/
 
+.. contents::
+   :local:
+
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> きたー。今年はスタッフじゃないぜー (@ 早稲田大学 西早稲田キャンパス 63号館1F 情報ギャラリー - <a href="https://twitter.com/waseda_univ">@waseda_univ</a> in 新宿区, 東京都) <a href="https://t.co/l7opmPgKNv">https://t.co/l7opmPgKNv</a> <a href="https://t.co/IzLtWXuCjw">pic.twitter.com/IzLtWXuCjw</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/905952696540258305">2017年9月8日</a></blockquote>
@@ -136,7 +139,7 @@ Q&A
   * （緑川）技術評論社さんの「Pythonスタートブック」じゃないですかね..
   * （高屋）10万部は行ってない・・・かな
   * （司会）オライリーさんの「ゼロから作るDeep Learning」はどのくらいでしょう？
-  * （緑川）表に出てる数字だと、5万部ですかね
+  * （緑川）表に出てる数字だと、5万部ですかね。そのくらいいくと家が建ちます
 
 * 著者が増えた気がする
 
