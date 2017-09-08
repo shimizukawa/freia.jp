@@ -277,3 +277,21 @@ len()関数がオブジェクトの長さを手にいれる仕組み
 
 よろしくおねがいします！
 
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> <a href="https://twitter.com/hashtag/pyconjp_203?src=hash">#pyconjp_203</a> 発表を聞きに来てくれたみなさんです。ありがとー <a href="https://t.co/WuZomOEzIR">pic.twitter.com/WuZomOEzIR</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906020640284540929">2017年9月8日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+.. raw:: html
+
+   <iframe src="//www.slideshare.net/slideshow/embed_code/key/aM9Yf35L5nu2e1" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/how-does-python-get-the-length-with-the-len-function" title="Pythonはどうやってlen関数で長さを手にいれているの？" target="_blank">Pythonはどうやってlen関数で長さを手にいれているの？</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
+
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">おかげさまで、「len()の仕組み」トーク、無事おわりました！参加されたみなさん、ありがとうございました！！！ <a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> <a href="https://twitter.com/hashtag/pyconjp_203?src=hash">#pyconjp_203</a><a href="https://t.co/4R97XhXkQO">https://t.co/4R97XhXkQO</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906033954070839297">2017年9月8日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ありがとうございました～～！
+
+
