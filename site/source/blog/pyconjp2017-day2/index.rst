@@ -156,7 +156,91 @@ Pythonで実現する4コマ漫画の分析・評論 2017
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-Q&Aは時間切れで個別。「11:30からOpenSpaceでやります」
+Q&Aは時間切れで個別。「11:30からOpen Spaceでやります」
+
+Open Space でProtocol話
+===========================
+
+昨日の私の資料を肴に、4人くらいでプロトコルについて話してました。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">11:30 からオープンスペース3F room F で、Pythonのプロトコルのやつやりまーす！ 場所分かりづらいけど、3階で看板探して来てくださーい <a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> <a href="https://t.co/OQUBqBNK7y">pic.twitter.com/OQUBqBNK7y</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906345492962877440">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> オープンスペースでlen()の話やってまーす。今は__str__と__repr__とprint()の話 <a href="https://t.co/d4J8tMwPlo">pic.twitter.com/d4J8tMwPlo</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906349253152301056">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+* ``print(obj)`` もAdapter?
+
+  * それは単に関数
+  * printの中では、文字列の表示用に ``str(obj)`` するけど、これはAdapterと言って良さそう
+  * ``str(obj)`` は ``obj.__str__`` を呼び出す。もしなければ ``obj.__repr__()`` にフォールバックする
+  * ``obj.__repr__()`` はオブジェクトのrepresentationで、対話シェルに値を表示するために ``repr(obj)`` したときに呼ばれる。これはAdapter
+
+* Swiftには適合(adopt)というのがある
+
+  * ``CustomStringConvertible`` を適合(adopt)させると、 ``description`` プロパティの実装を強制されて、これで ``obj.__str__`` 相当のことをやる
+  * Pythonだと ``abc`` で抽象仮想クラスを継承するような感じだね。Pythonだと適合みたいな文法はないけど、継承で実現する
+  * PythonってTraitsないの？ -> 継承で
+  * PythonってMixInないの？ -> 継承で
+  * Pythonって適合ないの？ -> 継承で
+  * そういえば `Zope Component Architecture (ZCA)`_ では ``interface.implements`` というのがあるなあ
+
+* Pythonというか、プログラミング言語一般で共通した「プロトコル」っていう概念がある？
+
+  * 一般的にはないかも
+  * 通信用語だと、通信プロトコルとしてよく登場するよね
+  * オブジェクト指向の文脈で、メッセージパッシングがあるけど、あれはオブジェクト間の通信仕様だと思うので、プロトコルなのかも
+
+* Python公式リファレンスにそんな情報が書いてあるなんて全然しらなかった
+
+  * 公式リファレンス、とりあえず一通り読んだりしないの？
+  * 難しくて最初からアレを読むのは無理では...
+  * まあ公式ドキュメントは教科書ではないのでしょうがないよね。それにしてもPythonの公式ドキュメントは入門者に易しくないｗ
+  * 他の本でPythonを勉強して、公式リファレンスを一通り読めるようになったらもう初心者卒業って言えそう
+
+* それにしてもPython公式リファレンス、Protocolの話が少なすぎる
+
+  * ドキュメントのソースコメントに、 `talk about protocols?`_ って書いてあるよｗ
+  * プロトコルのドキュメントを書こう！
+  * よーし、プロトコルハッカソンだ～
+
+.. _Zope Component Architecture (ZCA): https://docs.zope.org/zope.component/narr.html
+.. _talk about protocols?: https://github.com/python/cpython/blame/0264e46caa854803a5318d75ae7893e9174f3f70/Doc/faq/design.rst#L225
+
+
+書籍販売コーナー
+====================
+
+`PythonユーザのためのJupyter[実践]入門`_ 、買おうかどうしようかと思ってたけど、  `@chezou`_ さんの以下のツイートを見て買いました！イベント価格で税込み3,000円！
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">.<a href="https://twitter.com/iktakahiro">@iktakahiro</a> さんからご恵贈いただきましたJupyter本、PyConJPの基調講演でもあったpandasの基礎からmatplotlibの詳細Bokehまであり分析入門に良いです。具体的な分析例や日本語フォント紹介も <a href="https://t.co/o2ud1sSNRl">https://t.co/o2ud1sSNRl</a> <a href="https://t.co/RgkdrCJyHK">pic.twitter.com/RgkdrCJyHK</a></p>&mdash; chezou (@chezou) <a href="https://twitter.com/chezou/status/906328774274301952">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+.. _PythonユーザのためのJupyter[実践]入門: http://amzn.to/2vM4OO2
+.. _@chezou: https://twitter.com/chezou
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/PyConJP?src=hash">#PyConJP</a> で &quot;Jupyter実践入門&quot; 買ってサインもらった！やったー！！ <a href="https://t.co/X0l1A3OclK">pic.twitter.com/X0l1A3OclK</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906356511621836801">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+サイン～
+
+
+ランチ
+==========
+
+チキン～
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> ランチ弁当～ <a href="https://t.co/YW60MjR6tP">pic.twitter.com/YW60MjR6tP</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906358894452023296">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 休憩
 ==========
