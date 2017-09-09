@@ -5,7 +5,7 @@
 PyCon JP 2017 2日目 参加ログ #pyconjp
 =====================================
 
-`#PyConJP`_ 2017 in Tokyo に参加しました。:doc:`../pyconjp2017-day7/index` に引き続きの参加です。
+`#PyConJP`_ 2017 in Tokyo に参加しました。:doc:`../pyconjp2017-day1/index` に引き続きの参加です。
 
 今日は名札あれば受付不要なので直接キーノート会場へ。
 
@@ -307,7 +307,7 @@ LT
 
 落とし物コーナー
 
-* `@ojiidotch`
+* `@ojiidotch`_
 
 クロージング
 
@@ -316,9 +316,9 @@ LT
 
 ベストトークアワード
 
-* 優秀賞: グラハムさん
-* 優秀賞: `@yuzutas0`
-* 最優秀賞: Greg Price
+* 優秀賞: グラハムさん（クロージングに居なかった）
+* 優秀賞: `@yuzutas0`_
+* 最優秀賞: Greg Price（クロージングに居なかった）
 
 .. _@yuzutas0: https://twitter.com/yuzutas0
 
@@ -335,10 +335,9 @@ SQUEESE社
 
 PyCon JP 2018
 
-* 2018/9/ (月祝), 9/ (火)
-* 
+* 2018/9/17 (月祝), 9/18 (火)
 
-おわりー
+おわりー。最後グダグダだったなー。
 
 .. _@ojiidotch: https://twitter.com/ojiidotch
 
