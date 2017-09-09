@@ -133,8 +133,34 @@ Q&A
 .. _@shimizukawa: https://twitter.com/shimizukawa
 .. _airspeed velocity(asv): http://asv.readthedocs.io/en/latest/
 
+Pythonで実現する4コマ漫画の分析・評論 2017
+===============================================
+
+* SHINJI KITAGAWA (`@esuji`_)
+* https://pycon.jp/2017/ja/schedule/presentation/27/
+* 動画: https://www.youtube.com/watch?v=S70KqdRYJzo
+
+.. _@esuji: https://twitter.com/esuji
+
+* 情熱駆動開発
+* 自分が欲しいものをだれかが作ってくれる、ということはない
+* Pythonならライブラリたくさんあるからなんとかなるかな、と思った
+* **情熱があれば作れる**
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">BPPRです。<a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> <a href="https://twitter.com/hashtag/pyconjp_201?src=hash">#pyconjp_201</a> <a href="https://t.co/Co5VEQNeug">pic.twitter.com/Co5VEQNeug</a></p>&mdash; 佐藤治夫 (@haru860) <a href="https://twitter.com/haru860/status/906335711355211776">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">BPPR: 弊社 <a href="https://twitter.com/hashtag/BeProud?src=hash">#BeProud</a> の制度。カンファレンスで会社紹介すると代休もらえて参加費が出る(要約) <a href="https://twitter.com/hashtag/PyConJP?src=hash">#PyConJP</a><a href="https://t.co/2331mVAAdr">https://t.co/2331mVAAdr</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906337449248354304">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+Q&Aは時間切れで個別。「11:30からOpenSpaceでやります」
+
 休憩
 ==========
+
 
 .. note:: 内容は随時更新していきます
 
