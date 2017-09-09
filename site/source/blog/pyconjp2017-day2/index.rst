@@ -298,11 +298,64 @@ Python におけるドメイン駆動設計(戦術面)の勘どころ
 
 * 議事録は後日公開予定です: https://www.pycon.jp/committee/meeting/index.html
 
-
 クロージング
 ===============
 
+LT
 
-.. note:: 内容は随時更新していきます
+* LTやってました。ちゃんと聞けなかったので感想略。
 
+落とし物コーナー
+
+* `@ojiidotch`
+
+クロージング
+
+* 参加者数: 690人強
+* さんかした方、アンケートに回答してね: http://bit.ly/pyconjp_survey
+
+ベストトークアワード
+
+* 優秀賞: グラハムさん
+* 優秀賞: `@yuzutas0`
+* 最優秀賞: Greg Price
+
+.. _@yuzutas0: https://twitter.com/yuzutas0
+
+SQUEESE社
+
+* 宿泊券5万円！
+* じゃんけん勝ち抜けで1名！
+* （自分は最終集団まで残ったけど、最後負けた...！）
+
+プレゼント抽選
+
+* スポンサーのみなさんからのプレゼントをビンゴで～
+* はずれたー
+
+PyCon JP 2018
+
+* 2018/9/ (月祝), 9/ (火)
+* 
+
+おわりー
+
+.. _@ojiidotch: https://twitter.com/ojiidotch
+
+招待Party
+===============
+
+スピーカーとしてパーティーに招待されました。
+
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> @tokibiro のフリー素材です <a href="https://t.co/zgrR9jX7bs">pic.twitter.com/zgrR9jX7bs</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906465234369445889">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/PyConJP?src=hash">#PyConJP</a> Patron Speakers!! うぇーい！！ <a href="https://t.co/uUBnMfOAl5">pic.twitter.com/uUBnMfOAl5</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906496672103931905">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+おしまい
 
