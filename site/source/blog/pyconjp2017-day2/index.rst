@@ -74,6 +74,8 @@ PyCon JP 2017 2日目 参加ログ #pyconjp
   .. figure:: pandas-issue-tags.*
      :target: https://github.com/pandas-dev/pandas/issues
 
+     pandas-dev の難易度タグ
+
 * プルリクエストでバグ修正した場合
 
   * 意図が伝わらなければコードを書く
@@ -142,11 +144,6 @@ Pythonで実現する4コマ漫画の分析・評論 2017
 
 .. _@esuji: https://twitter.com/esuji
 
-* 情熱駆動開発
-* 自分が欲しいものをだれかが作ってくれる、ということはない
-* Pythonならライブラリたくさんあるからなんとかなるかな、と思った
-* **情熱があれば作れる**
-
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">BPPRです。<a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> <a href="https://twitter.com/hashtag/pyconjp_201?src=hash">#pyconjp_201</a> <a href="https://t.co/Co5VEQNeug">pic.twitter.com/Co5VEQNeug</a></p>&mdash; 佐藤治夫 (@haru860) <a href="https://twitter.com/haru860/status/906335711355211776">2017年9月9日</a></blockquote>
@@ -155,6 +152,11 @@ Pythonで実現する4コマ漫画の分析・評論 2017
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">BPPR: 弊社 <a href="https://twitter.com/hashtag/BeProud?src=hash">#BeProud</a> の制度。カンファレンスで会社紹介すると代休もらえて参加費が出る(要約) <a href="https://twitter.com/hashtag/PyConJP?src=hash">#PyConJP</a><a href="https://t.co/2331mVAAdr">https://t.co/2331mVAAdr</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906337449248354304">2017年9月9日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+* 情熱駆動開発
+* 自分が欲しいものをだれかが作ってくれる、ということはない
+* Pythonならライブラリたくさんあるからなんとかなるかな、と思った
+* **情熱があれば作れる**
 
 Q&Aは時間切れで個別。「11:30からOpen Spaceでやります」
 
@@ -285,9 +287,20 @@ Python におけるドメイン駆動設計(戦術面)の勘どころ
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ヘキサゴナルアーキテクチャのリポジトリでORMを使う話。ORMのモデルインスタンスをリポジトリの外に出したくなっちゃうんだよね。リポジトリに閉じ込める場合、ORMが提供する便利な機能を活用できなくなるので、開発メンバーの納得感が下がるんだよー <a href="https://twitter.com/hashtag/pyconjp_201?src=hash">#pyconjp_201</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906380220688502784">2017年9月9日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+一般社団法人PyCon JP ミーティング
+======================================
 
-休憩
-==========
+一社の会計理事として参加してきました。
+
+参加は、理事4名、PyCon JPスタッフ3名、興味ある参加者3名、合計10名でした。
+
+* 議題です: https://docs.google.com/presentation/d/108NACaC4WGxvao-aVLM4114lOjO2R4I9dwLsQVOXG3c/present?token=AC4w5Vg3QLPhwqZHKgFEraUy44LknaSumQ%3A1504939156274&includes_info_params=1#slide=id.p
+
+* 議事録は後日公開予定です: https://www.pycon.jp/committee/meeting/index.html
+
+
+クロージング
+===============
 
 
 .. note:: 内容は随時更新していきます
