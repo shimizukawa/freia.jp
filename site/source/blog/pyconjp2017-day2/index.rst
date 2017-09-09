@@ -228,7 +228,18 @@ Open Space でProtocol話
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/PyConJP?src=hash">#PyConJP</a> で &quot;Jupyter実践入門&quot; 買ってサインもらった！やったー！！ <a href="https://t.co/X0l1A3OclK">pic.twitter.com/X0l1A3OclK</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906356511621836801">2017年9月9日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-サイン～
+
+`Pythonエンジニア ファーストブック`_ も販売してた。おれも本売りたかったなあ...
+
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">モノタロウ侍も推薦！！「Pythonエンジニア ファーストブック」と「Jupyter実践入門」 <a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> <a href="https://twitter.com/hashtag/pyfirst?src=hash">#pyfirst</a> (@ 早稲田大学 63号館 in 新宿区, 東京都) <a href="https://t.co/162uhnyhfd">https://t.co/162uhnyhfd</a> <a href="https://t.co/QORl9jRlkM">pic.twitter.com/QORl9jRlkM</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/906375620380254209">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+いいなあぁ...
+
+.. _Pythonエンジニア ファーストブック: http://amzn.to/2wNWX6y
 
 
 ランチ
@@ -239,6 +250,39 @@ Open Space でProtocol話
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> ランチ弁当～ <a href="https://t.co/YW60MjR6tP">pic.twitter.com/YW60MjR6tP</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906358894452023296">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ポスターセッション
+===================
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Python Boot Camp のポスター！日本地図に開催実績塗って、希望地に付箋貼ってもらっている。付箋多く貼られたら開催が早まる....かも? <a href="https://twitter.com/hashtag/PyConJP?src=hash">#PyConJP</a> <a href="https://twitter.com/hashtag/pycamp?src=hash">#pycamp</a> <a href="https://t.co/STy2mGrx1Z">pic.twitter.com/STy2mGrx1Z</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906373732809113600">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Python Boot Camp の講師、スタッフ、各地域の現地スタッフが勢ぞろい！！広がってる感すごい <a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> <a href="https://twitter.com/hashtag/pycamp?src=hash">#pycamp</a> <a href="https://t.co/oLhJZiBgTU">pic.twitter.com/oLhJZiBgTU</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/906369461514420224">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+`Python Boot Camp`_ から始めて、将来的に地域PyCon、っていう流れもありだと思います！誘致に興味ある方は `Python Boot Camp`_ を見てくださーい。よろしくー
+
+
+.. _Python Boot Camp: https://peraichi.com/landing_pages/view/pycamp
+
+
+Python におけるドメイン駆動設計(戦術面)の勘どころ
+===================================================
+
+* Junya Hayashi
+* https://pycon.jp/2017/ja/schedule/presentation/31/
+* 動画: https://www.youtube.com/watch?v=SWUq335On5Y
+* 資料: https://www.slideshare.net/ledmonster/python-79561227
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「リポジトリとの接続にDIコンテナを使う。今は <a href="https://t.co/OhcWR98VTS">https://t.co/OhcWR98VTS</a> を使っている。DIを使わずにヘキサゴナルアーキテクチャで実装すると破綻する」 <a href="https://twitter.com/hashtag/pyconjp_201?src=hash">#pyconjp_201</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906380689020354560">2017年9月9日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ヘキサゴナルアーキテクチャのリポジトリでORMを使う話。ORMのモデルインスタンスをリポジトリの外に出したくなっちゃうんだよね。リポジトリに閉じ込める場合、ORMが提供する便利な機能を活用できなくなるので、開発メンバーの納得感が下がるんだよー <a href="https://twitter.com/hashtag/pyconjp_201?src=hash">#pyconjp_201</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906380220688502784">2017年9月9日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
