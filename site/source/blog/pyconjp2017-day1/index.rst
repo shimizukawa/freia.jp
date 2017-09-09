@@ -16,9 +16,6 @@ PyCon JP 2017 1日目 参加ログ #pyconjp
 :会場: 早稲田大学 西早稲田キャンパス63号館
 
 
-.. note:: 内容は随時更新していきます
-
-
 .. _PyCon JP 2017: https://pyconjp.connpass.com/event/59412/
 .. _#pyconjp: https://twitter.com/search?f=tweets&vertical=default&q=%23pyconjp&src=typd
 .. _len()関数がオブジェクトの長さを手にいれる仕組み: https://pycon.jp/2017/ja/schedule/presentation/22/
@@ -111,6 +108,8 @@ Q&A
 
 .. figure:: media-meetup.*
    :width: 80%
+
+   登壇されたみなさん（左から敬称略）高屋、緑川、大津、原（司会）、岩崎、杉谷
 
 ----------------
 
@@ -308,6 +307,8 @@ len()関数がオブジェクトの長さを手にいれる仕組み
 .. figure:: shimizukawa-and-atendees.*
    :width: 80%
 
+   参加されたみなさん（150人くらい？）
+
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">おかげさまで、「len()の仕組み」トーク、無事おわりました！参加されたみなさん、ありがとうございました！！！ <a href="https://twitter.com/hashtag/pyconjp?src=hash">#pyconjp</a> <a href="https://twitter.com/hashtag/pyconjp_203?src=hash">#pyconjp_203</a><a href="https://t.co/4R97XhXkQO">https://t.co/4R97XhXkQO</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/906033954070839297">2017年9月8日</a></blockquote>
@@ -391,8 +392,5 @@ Party
 今日は全体パーティー！
 
 
-
-
-.. note:: 内容は随時更新していきます
 
 
