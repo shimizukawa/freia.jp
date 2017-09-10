@@ -48,7 +48,7 @@ Sphinx + 翻訳 Hack-a-thon 2017.09 in PyCon JP 2017 Sprints #pyconjp #sphinxjp
 
 * nskgchi: Sphinxマニュアルの翻訳を進めました
 
-* @kashew_nuts: （不在）
+* @kashew_nuts: Djangoドキュメントの翻訳やりました
 
 
 雑談など
