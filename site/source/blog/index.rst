@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pyconjp2017-sprint-sphinxjp-hack-a-thon/index
    pyconjp2017-day2/index
    pyconjp2017-day1/index
    sphinxjp-hack-a-thon-20170827/index
