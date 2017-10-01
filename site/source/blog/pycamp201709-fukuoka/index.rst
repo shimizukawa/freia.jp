@@ -5,7 +5,7 @@
 Python Boot Camp in 福岡で講師してきました #pycamp
 ==================================================
 
-`Python Boot Camp in 福岡`_ に行ってきました。 :doc:`../pycamp201705-kobe/index <神戸>` 以来、2回目の講師です。
+`Python Boot Camp in 福岡`_ に行ってきました。 :doc:`神戸 <../pycamp201705-kobe/index>` 以来、2回目の講師です。
 福岡は参加申込みペースが早かったという話を聞きました。参加者30数名、TA・スタッフ・講師9名、合計40名くらいが参加しました。
 
 .. figure:: attendees.*
@@ -23,10 +23,6 @@ Python Boot Camp in 福岡で講師してきました #pycamp
 
    現地スタッフになってくれる人がいれば、講師に行きますので、 `申込みフォーム`_ からひご連絡ください！
 
-雑感
-=====
-
-講師をしていると、参加者の力量に合わせた講義をしたいところだけど、なかなか難しいですね。参加者のフォローはTA（ティーチングアシスタント）のみなさんがやってくれたので、
 
 移動
 =====
@@ -67,7 +63,7 @@ Python Boot Camp 本編
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> おやつタイム！！ Pyの実が！！ (@ Nulab Inc. - <a href="https://twitter.com/nulabjp?ref_src=twsrc%5Etfw">@nulabjp</a> in Fukuoka, 福岡県) <a href="https://t.co/wfIHuKV8c3">https://t.co/wfIHuKV8c3</a> <a href="https://t.co/xrOuFGvG9I">pic.twitter.com/xrOuFGvG9I</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/914013265688178689?ref_src=twsrc%5Etfw">2017年9月30日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-イベント自体は、進捗が少しずつ遅れながら進みました。4時間のイベントだとテキストをこなすのがなかなか厳しい、というのが前回の :doc:`../pycamp201705-kobe/index <神戸>` と同様でした。教え方のスタイルとして、手を動かしてもらいながら進めるというのをやってることもあり、どうしても時間が厳しいですね。結局、終了時刻の17時を少しオーバーしました。7章のスクレイピングは今回もスキップ。
+イベント自体は、進捗が少しずつ遅れながら進みました。4時間のイベントだとテキストをこなすのがなかなか厳しい、というのが前回の :doc:`神戸 <../pycamp201705-kobe/index>` と同様でした。教え方のスタイルとして、手を動かしてもらいながら進めるというのをやってることもあり、どうしても時間が厳しいですね。結局、終了時刻の17時を少しオーバーしました。7章のスクレイピングは今回もスキップ。
 
 イベントの開始時に http://pyconjp-fellow.herokuapp.com/ からSlackに参加してもらって、チャットで質問を書いてもらいました。講義中も質問を見ながら、あとで回答したり、他の参加者やTAが答えてくれたり、テキストが進んだときに回答になるような説明を含めたり、と言った調整ができるし、チャットに質問内容が残って後で読み返せるし、ということで、とても良い方法なんじゃないかなーと思ってます。Slack慣れてない人にはハードルがちょっと高いと思うので、当日じゃなくもうちょっと前に参加してもらうと良いかも。
 
@@ -80,6 +76,15 @@ Python Boot Camp 本編
 
 .. _11/4(土) 鹿児島: https://pyconjp.connpass.com/event/67709/
 .. _11/18(土) 静岡: https://pyconjp.connpass.com/event/67533/
+
+雑感
+------
+
+講師をしていると、参加者の力量に合わせた講義をしたいところだけど、時間の都合もあり、ここまではちゃんと伝えたいっていうのもあり、なかなか難しいですね。
+
+力量を測るのが難しいところの一つに、分かった人は質問してこないし、分からない人は質問以前の状態にあって質問できない、というのがありそう。pip installコマンドやvenvの話で、だれも「うまくいかない」という反応がなかったけど、本当に大丈夫だったかなー？各人の画面を後ろから覗き込んで確認していくしかないのかなと思う（仕事の講師では4倍くらい時間取ってるのでやれてるけど..）。
+
+参加者の個別フォローはTA（ティーチングアシスタント）のみなさんがやってくれたので、自分はチャットでのフォローと講義で伝える方に集中できました。みなさん、ありがとうございます！後で聞いたら、TAじゃっかん余裕だったっぽいので、みなさん、もっとTAに質問してくれていいのよ。
 
 
 チャットメモ
