@@ -76,6 +76,12 @@ Python Boot Camp 本編
    Slackチャットでの質問の様子
 
 
+次は、 `11/4(土) 鹿児島`_, `11/18(土) 静岡`_ で講師してくるので、チャット工夫してみようかな。
+
+.. _11/4(土) 鹿児島: https://pyconjp.connpass.com/event/67709/
+.. _11/18(土) 静岡: https://pyconjp.connpass.com/event/67533/
+
+
 チャットメモ
 -----------------
 
