@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pycamp201709-fukuoka/index
    bpstudy-20170926/index
    pyconjp2017-sprint-sphinxjp-hack-a-thon/index
    pyconjp2017-day2/index
