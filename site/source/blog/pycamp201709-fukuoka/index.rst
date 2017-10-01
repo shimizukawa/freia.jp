@@ -253,6 +253,31 @@ Python Boot Camp 本編
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">屋台～ (@ 中洲 in 福岡市, 福岡県) <a href="https://t.co/U0lt1iLvmc">https://t.co/U0lt1iLvmc</a> <a href="https://t.co/VIxl6KDqN1">pic.twitter.com/VIxl6KDqN1</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/914132028945256450?ref_src=twsrc%5Etfw">2017年9月30日</a></blockquote>
    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+翌日
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ホテルオークラ福岡の地下でビールめっちゃ醸造してる (@ オークラ ブルワリー in 福岡市, 福岡県) <a href="https://t.co/RSEsKljAQ3">https://t.co/RSEsKljAQ3</a> <a href="https://t.co/xBJzVHZNWc">pic.twitter.com/xBJzVHZNWc</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/914317894045110272?ref_src=twsrc%5Etfw">2017年10月1日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">左から、アルス、シェーンアルト、デュンケルヴァイツェンの3種。それぞれハーフパイント (@ オークラ ブルワリー in 福岡市, 福岡県) <a href="https://t.co/t3kI1mTCzX">https://t.co/t3kI1mTCzX</a> <a href="https://t.co/eS8KcdF8K0">pic.twitter.com/eS8KcdF8K0</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/914319079095316480?ref_src=twsrc%5Etfw">2017年10月1日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">あちこち改装中で、ラーメンが一蘭しかない。そして15人くらい並んでいる。予定と違う！ (@ 福岡空港 in 福岡市, 福岡県) <a href="https://t.co/2KEzWdYyW8">https://t.co/2KEzWdYyW8</a> <a href="https://t.co/OW66HDBzcW">pic.twitter.com/OW66HDBzcW</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/914342762983645184?ref_src=twsrc%5Etfw">2017年10月1日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+一蘭には並ばなかったよ...
+
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ふくや明太もち美味しい（ランチ） (@ 福岡空港 in 福岡市, 福岡県) <a href="https://t.co/u7Vpwjk17J">https://t.co/u7Vpwjk17J</a> <a href="https://t.co/YqklCUomty">pic.twitter.com/YqklCUomty</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/914344553343279104?ref_src=twsrc%5Etfw">2017年10月1日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+次来たらラーメン食べる、と誓いつつ、予定の14時の便で東京へ。
+
+
+
 
 .. _12回目: https://www.pycon.jp/support/bootcamp.html#id5
 .. _Python Boot Camp in 福岡: https://pyconjp.connpass.com/event/62769/
