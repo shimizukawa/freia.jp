@@ -13,7 +13,9 @@ Python Boot Camp in 福岡で講師してきました #pycamp
 
    参加者のみなさん（開始時）
 
-このblogは講師からみた参加レポートです。チュートリアル本体の様子なんかは、公式の開催レポートは別途書かれると思います。
+このblogは講師からみた参加レポートです。チュートリアル本体の様子なんかは、公式の開催レポートは別途書かれると思います。 -> `Python Boot Camp in 福岡を開催しました`_
+
+.. _Python Boot Camp in 福岡を開催しました: http://pyconjp.blogspot.jp/2017/10/python-boot-camp-in.html
 
 .. note::
 
