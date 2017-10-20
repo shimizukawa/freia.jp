@@ -1,4 +1,4 @@
-:date: 2017-06-26 21:00
+:date: 2017-09-26 21:00
 :tags: BPStudy, 機械学習
 
 =========================================================================
@@ -25,7 +25,7 @@
 * 西尾泰和 氏
 * サイボウズ・ラボ所属、BeProud技術顧問
 * Twitter: `@nishio`_
-* 資料: *TBD*
+* 資料: https://www.slideshare.net/nishio/if-80195170
 
 .. _@nishio: https://twitter.com/nishio
 
@@ -157,7 +157,7 @@ Q&A
 
 * 辻 真吾 氏
 * Twitter: `@tsjshg`_
-* 資料: *TBD*
+* 資料: http://www.tsjshg.info/BPStudy_Tsuji_20170926_pub.pdf
 
 .. _@tsjshg: https://twitter.com/tsjshg
 
