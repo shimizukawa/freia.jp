@@ -306,6 +306,11 @@ Q&A
 .. _@okusama27: https://twitter.com/okusama27
 .. _@hirokiky: https://twitter.com/hirokiky
 
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ｷｬｰ <a href="https://twitter.com/okusama27?ref_src=twsrc%5Etfw">@okusama27</a> <a href="https://twitter.com/hirokiky?ref_src=twsrc%5Etfw">@hirokiky</a> ~ <a href="https://twitter.com/hashtag/bpstudy?src=hash&amp;ref_src=twsrc%5Etfw">#bpstudy</a> (@ 代々木研修室 国際英語学校代々木教会ビル会場 in 渋谷区, 東京都) <a href="https://t.co/lVokVAgg2M">https://t.co/lVokVAgg2M</a> <a href="https://t.co/eQdwvtxdTB">pic.twitter.com/eQdwvtxdTB</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/921340396252299265?ref_src=twsrc%5Etfw">2017年10月20日</a></blockquote>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ---------------
 
