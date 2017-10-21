@@ -183,6 +183,13 @@ a.book-pypro2 {
     margin: 4px auto;
     background-image: url("https://images-fe.ssl-images-amazon.com/images/I/41jP7BdvluL._SL160_.jpg");
 }
+a.book-sphinx2 {
+    display: block;
+    width: 124px;
+    height: 160px;
+    margin: 4px auto;
+    background-image: url("http://www.freia.jp/taka/_images/picture978-4-87311-819-2.jpg");
+}
 
 /* blog relates */
 
