@@ -11,6 +11,29 @@ Articles
 Books
 =====
 
+`Sphinxをはじめよう 第2版`__
+-----------------------------
+2017.10, O'Reilly Japan
+
+.. __: https://www.oreilly.co.jp/books/9784873118192/
+
+.. figure:: images/picture978-4-87311-819-2.jpg
+   :target: https://www.oreilly.co.jp/books/9784873118192/
+   :width: 200
+
+Information
+
+:対象読者: Sphinxに初めて触れる方, ドキュメントをテキストで書きたい方
+:Format: Print PDF ePub mobi
+:Price: 1,800円+税
+:ISBN-13: 978-4-87311-819-2
+:概要: Sphinxの概要からインストール、基本的な利用法について。またSphinxからLaTeXを経由してPDFを作成したり、EPUBフォーマットの電子書籍を作成する方法を紹介。第1版からの更新として、最新のバージョンに対応し、画像埋め込みの章とMarkdownを利用する手順をまとめた付録を追加。付録の "reStructuredTextリファレンス" を拡充。
+:著者: 清水川貴之, 小宮健, 山田剛, 若山史郎
+:執筆範囲:
+   * 1章 Sphinxとは
+   * 3章 議事録を書いてみよう（HTMLへの変換）
+   * 付録A reStructuredTextリファレンス
+
 `Pythonプロフェッショナルプログラミング第2版`__
 -------------------------------------------------
 2015.2.27, 秀和システム
@@ -44,10 +67,11 @@ Information
 
 .. __: https://www.oreilly.co.jp/books/9784873116488/
 
-* 2015年11月, 改版 & PDF版追加
+* 2015年11月, 更新 & PDF版追加
 
-.. figure:: images/picture978-4-87311-648-8.gif
+.. figure:: images/picture978-4-87311-648-8.jpg
    :target: https://www.oreilly.co.jp/books/9784873116488/
+   :width: 200
 
 Information
 
