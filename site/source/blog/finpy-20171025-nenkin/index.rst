@@ -125,6 +125,7 @@ LT
 * @shinyorke:
 
   * 野球選手の年俸と得点への貢献を散布図で描いてみた
+  * `プロ野球におけるお金とセイバーメトリクスの話(横浜優勝記念) <https://speakerdeck.com/shinyorke/puroye-qiu-niokeruojin-toseibametorikusufalsehua-heng-bang-you-sheng-ji-nian>`_
 
 * @2casa:
 
