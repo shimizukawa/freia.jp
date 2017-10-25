@@ -224,6 +224,8 @@ LT
 
 @driller さん、 fin-py study 開催ありがとう！
 
+「次回が開催されるかはみなさんがアンケートに答えてくれるかにかかっています」ってことなので、アンケート書こう！（書いた）
+
 
 .. _fin-py: https://fin-py.connpass.com/
 .. _fin-pyもくもく会#9: https://fin-py.connpass.com/event/69193/
