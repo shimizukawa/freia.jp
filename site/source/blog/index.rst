@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   finpy-20171025-nenkin/index
    sphinxjp-hack-a-thon-20171021/index
    bpstudy-20171020/index
    pycamp201709-fukuoka/index
