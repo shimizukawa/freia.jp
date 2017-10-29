@@ -24,7 +24,7 @@ Zenfone 2 Laser を Zenfone 3 に買い換えた
 
 スペック比較
 
-.. csv-table:: 
+.. csv-table::
   :header-rows: 1
   :stub-clumns: 1
 
