@@ -26,7 +26,7 @@ Zenfone 2 Laser を Zenfone 3 に買い換えた
 
 .. csv-table::
   :header-rows: 1
-  :stub-clumns: 1
+  :stub-columns: 1
 
   Name, Zenfone 2 Laser, Zenfone 3
   OS, Android 5.0.2, Android 6.0.1
