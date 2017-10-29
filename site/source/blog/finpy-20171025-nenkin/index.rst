@@ -25,7 +25,7 @@ fin-py study #1 年金最適化入門 #finpy
 
 * driller 氏
 * Twitter: `@patraqushe`_
-* 資料: TBD
+* 資料: https://github.com/drillan/finpy-study01
 
 
 .. _@patraqushe: https://twitter.com/patraqushe
@@ -53,10 +53,10 @@ Pythonではじめる年金最適化
 ==============================
 
 * yoshi 氏
-* Twitter: ???
-* 資料: TBD
+* Twitter: `@ryoshi81`_
+* 資料: https://qiita.com/ryoshi81/items/ea2c6113fe312fb1b52f
 
-..
+.. _@ryoshi81: https://twitter.com/ryoshi81
 
 * 年金の仕組み, 3階建て
 
@@ -193,7 +193,7 @@ LT
 
 * @mainya
 
-  * BitMech探索的トレーディングシステム
+  * `BitMech探索的トレーディングシステム <https://www.slideshare.net/mainya/bitmech-finpy-study-1>`_
   * データサイエンティスト
   * BitCoin = ハイリスクハイリターン、金融商品じゃないからクレカで買える
   * 取引手数料0.01%, 入金は100円くらいから。取引約定まで10分くらいかかって個人も安心
