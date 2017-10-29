@@ -28,13 +28,13 @@ Zenfone 2 Laser を Zenfone 3 に買い換えた
   :header-rows: 1
   :stub-clumns: 1
 
-Name, Zenfone 2 Laser, Zenfone 3
-OS, Android 5.0.2, Android 6.0.1
-CPU, Snapdragon 410 1.2GHz, Snapdragon 625 2.0GHz
-RAM, 2GB, 3GB
-Storage, 16GB, 32GB
-Display: 1280x720 / 5inc, 1920x1080 / 5.2inch
-USB: microUSB, USB Type-C
+  Name, Zenfone 2 Laser, Zenfone 3
+  OS, Android 5.0.2, Android 6.0.1
+  CPU, Snapdragon 410 1.2GHz, Snapdragon 625 2.0GHz
+  RAM, 2GB, 3GB
+  Storage, 16GB, 32GB
+  Display, 1280x720 / 5inc, 1920x1080 / 5.2inch
+  USB, microUSB, USB Type-C
 
 我が家にUSB Type-Cがやってきたぞ！（既存のUSBケーブル使いまわせない・・・）
 
