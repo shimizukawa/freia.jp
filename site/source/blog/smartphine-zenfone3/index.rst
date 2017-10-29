@@ -5,7 +5,9 @@
 Zenfone 2 Laser を Zenfone 3 に買い換えた
 =========================================
 
-`ASUS Zenfone 3 (ZE520KL)`_ に買い換えました。アプリもサクサク動くし、カメラ写りも綺麗になったので非常に快適です。
+`ASUS Zenfone 3 (ZE520KL)`_ に買い換えました。アプリもサクサク動くし、カメラ写りも綺麗になったので非常に快適です。 `ビックカメラで34,340円`_ でした。
+
+.. _ビックカメラで34,340円: https://www.biccamera.com/bc/item/3499791/
 
 この2年間は同じASUSの `Zenfone 2 Laser`_ を使っていましたが、RAM 2GB, ストレージ 16GB ではもっさり感が厳しくて、、、。買った当初はそこまでひどくなかったので、OSをAndroid 5.0 -> 6.0 に上げたり、各アプリがメモリを使うようになったのが原因かなあ。iPhone 5s から乗り換えたときに、2年は使おう！と思って買ったけど、2ヶ月フライングで買い換えました。
 
@@ -16,11 +18,11 @@ Zenfone 2 Laser を Zenfone 3 に買い換えた
 
 .. figure:: zenfone3.jpg
 
-   Zenfone3 の箱
+   Zenfone 3 の箱
 
 .. figure:: zenfone3-accessory.jpg
 
-   Zenfone3 の箱の中身
+   Zenfone 3 の箱の中身
 
 スペック比較
 
