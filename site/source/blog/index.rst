@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   smartphine-zenfone3/index
    finpy-20171025-nenkin/index
    sphinxjp-hack-a-thon-20171021/index
    bpstudy-20171020/index
