@@ -80,17 +80,20 @@ JAL機内の無料WiFiを使うつもりでいたら、50分のフライトで�
 
 今回はフライトに間に合ったので、事前ミーティングにちゃんと参加できました。
 
-.. raw:: html
+.. figure:: lunch-meeting-shop.*
 
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">かんぱちヅケ丼ダブル！！ご飯の下にまたかんぱちが！ <a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> (@ づけ丼屋 桜勘 in 鹿児島市, 鹿児島県) <a href="https://t.co/4Yk7gQtWco">https://t.co/4Yk7gQtWco</a> <a href="https://t.co/VX1sNHPTOJ">pic.twitter.com/VX1sNHPTOJ</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926640504305053696?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+   ランチミーティングで行ったお店
 
 スタッフミーティングでは、ご飯を食べながら自己紹介したり。鹿児島中央駅はできてまだ10年経ってない話を聞いたりしました。
 
 イベント準備として個人的に気にしていたのは、TAスタッフの顔と名前を一致させること。チャットではやりとりしてたけど、実際に会うのは初めてなので。あと人の名前と顔と覚えるの苦手なので。
 
 あと、前回の福岡では、チャットでの質問にできるだけ回答しようとしてしまったので、今回はTAのみなさんに、チャットでの質問に回答できそうなものは回答してもらうようお願いしました。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">かんぱちヅケ丼ダブル！！ご飯の下にまたかんぱちが！ <a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> (@ づけ丼屋 桜勘 in 鹿児島市, 鹿児島県) <a href="https://t.co/4Yk7gQtWco">https://t.co/4Yk7gQtWco</a> <a href="https://t.co/VX1sNHPTOJ">pic.twitter.com/VX1sNHPTOJ</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926640504305053696?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 Python Boot Camp 本編
@@ -184,6 +187,11 @@ Python Boot Camp 本編
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">しろくま！！ (@ 天文館むじゃき in 鹿児島市, 鹿児島県) <a href="https://t.co/ZScjHIHtUL">https://t.co/ZScjHIHtUL</a> <a href="https://t.co/YUN8Ms6h5Y">pic.twitter.com/YUN8Ms6h5Y</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926773999773896705?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+宿泊は `法華クラブ鹿児島`_ 。鹿児島中央駅にも、天文館通りにも歩いて行ける場所で、交通の便も良いし、大浴場きれいでゆったりできたし、朝ご飯のビュッフェに並んだ鹿児島料理がめっちゃうまかったです。鶏皮とか豚軟骨煮とかまじうまかった。
+
+.. _法華クラブ鹿児島: https://www.hokke.co.jp/kagoshima/
 
 2日目
 
