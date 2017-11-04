@@ -32,7 +32,11 @@ Python Boot Camp in 鹿児島で講師してきました #pycamp
 
 参加申込みペースはゆっくりでしたが、開催数日前にちょうど満席になる感じでした。
 
-今回は学生枠が多い感じです。専門学校の先生にアナウンス協力してもらい、そこの生徒さんたちが多く参加されたみたいです。学生以外の参加者については、アナウンスする先が見つからなかったということであまり広報できていなかったみたいだけど、想定の倍の参加者になったそうです。主催者のmasakuraさんは「どうして人が来たのか分からない」とか言ってましたが、それって潜在需要結構あるということじゃないかな。 `CodeZineのイベント告知記事`_ を読んで参加したという人もいました。
+今回は学生枠が多い感じです。 `鹿児島キャリアデザイン専門学校`_ の先生にアナウンス協力してもらい、そこの生徒さんたちが10名参加されました（先生自身も受講生として参加してくれました）。他の学校などにも協力を仰いだけど、反応がなかったそう。学校内でPyCampだけ紹介するわけにもいかないのかな。しょうがないのかなー。
+
+学生以外の参加者については、アナウンスする先が見つからなかったということであまり広報できていなかったみたいだけど、想定の倍の参加者になったそうです。主催者のmasakuraさんは「どうして人が来たのか分からない」とか言ってましたが、それって潜在需要結構あるということじゃないかな。 `CodeZineのイベント告知記事`_ を読んで参加したという人もいました。
+
+.. _鹿児島キャリアデザイン専門学校: https://www.harada-gakuen.ac.jp/career/
 
 
 .. figure:: connpass-stats.*
@@ -111,7 +115,30 @@ Python Boot Camp 本編
 
 福岡に続いて、今回もfizzbuzzを実際に参加者と一緒にやりました。後々、このゲームのシーンを引用して「人間同様に、全ての手順をコンピューターに伝える必要がある」「人間は遅いけどコンピューターは速い」と紹介できたのは良かったんじゃないかな。
 
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">人力 FizzBuzz <a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> <a href="https://t.co/TREn1sdald">pic.twitter.com/TREn1sdald</a></p>&mdash; まー (@tomo_masakura) <a href="https://twitter.com/tomo_masakura/status/926674399213711360?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 環境まわりでは、ほとんどはまることがなかったけど、2つひっかかったところがありました。1つはpipコマンドをPython対話シェル上で実行してしまった人が多かったこと。これは言い方が悪かったかなー。もう1つは、Ubuntu環境の人がpip使えなかったり、venv使えなかったりしたこと。 ``sudo apt install python3-pip python3-venv`` してもらって解決。python3-venvを入れずに ``python3 -m venv <env>`` すると、ディレクトリはできるけど ``<env>/bin/activate`` が生成されないという不思議な動作になってて、最初は何がおきてるのかよく分からなかった。解決してよかった。
+
+本編中、いくつか質問をもらいました。
+
+* Q リストと辞書の違い、使い分けがよくわかりません。もう一度教えてください。
+
+  * A 辞書は、英語の辞書みたいに、取得したい単語（キー）を指定して内容（バリュー）を取り出します。リストはそういうキーがなくて、何番目のデータを取り出す、といった感じで、順番でデータにアクセスします。迷ったら、キーで扱いたいか、順番で扱いたいか、で使い分けを考えると良いです。
+
+* Q WebSocketを使ったサーバーをTornadeで作ってるんですが、サーバー構築とか正しく出来てるのかよくわかりません、どうやって学んだら良いですか
+
+  * A うーん、すぐに「このサイト、本を読むと良いよ！」と言えるものがないんですが、今回使った pyconjp-fellow Slack で聞いたり、質問サイトで同様の疑問を持っている人のQ&Aを読んだりするのが良いと思います。できるだけ、具体的に質問を重ねて、単に解決方法を知るのではなく、なぜそれが良いのかを突き詰めていくのをオススメします。
+
+本編の最後には、ジャンケン大会に勝ち残った学生さんに Pythonプロフェッショナルプログラミング 本がプレゼントされました！清水川がこの本の著者の1人ということで、masakuraさんが自費で用意してくれました。ありがたいありがたい。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日はジャンケン大会に勝ち残った学生さんにPythonの本が送られました！　<a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> <a href="https://twitter.com/hashtag/%E9%B9%BF%E5%85%90%E5%B3%B6?src=hash&amp;ref_src=twsrc%5Etfw">#鹿児島</a> <a href="https://t.co/9nqYapvMuV">pic.twitter.com/9nqYapvMuV</a></p>&mdash; Katsuhiro Morishita (@KatsuhiroKU) <a href="https://twitter.com/KatsuhiroKU/status/926779644224815111?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 .. チャットメモ
 .. -----------------
