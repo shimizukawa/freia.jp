@@ -80,18 +80,27 @@ JAL機内の無料WiFiを使うつもりでいたら、50分のフライトで�
 
 今回はフライトに間に合ったので、事前ミーティングにちゃんと参加できました。
 
-気をつけたのは2点です。
+.. raw:: html
 
-- TAスタッフの顔と名前を一致させる
-- TAのみなさんに、チャットでの質問に回答できそうなものは回答してもらうようお願いする
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">かんぱちヅケ丼ダブル！！ご飯の下にまたかんぱちが！ <a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> (@ づけ丼屋 桜勘 in 鹿児島市, 鹿児島県) <a href="https://t.co/4Yk7gQtWco">https://t.co/4Yk7gQtWco</a> <a href="https://t.co/VX1sNHPTOJ">pic.twitter.com/VX1sNHPTOJ</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926640504305053696?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-.. figure:: lunch-meating.*
-   :width: 400
 
+スタッフミーティングでは、ご飯を食べながら自己紹介したり。鹿児島中央駅はできてまだ10年経ってない話を聞いたりしました。
+
+イベント準備として個人的に気にしていたのは、TAスタッフの顔と名前を一致させること。チャットではやりとりしてたけど、実際に会うのは初めてなので。あと人の名前と顔と覚えるの苦手なので。
+
+あと、前回の福岡では、チャットでの質問にできるだけ回答しようとしてしまったので、今回はTAのみなさんに、チャットでの質問に回答できそうなものは回答してもらうようお願いしました。
 
 
 Python Boot Camp 本編
 ========================
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Python Boot Camp 鹿児島、本日13時から！ <a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> <a href="https://twitter.com/hashtag/pyconjp?src=hash&amp;ref_src=twsrc%5Etfw">#pyconjp</a> <a href="https://twitter.com/hashtag/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%85%A5%E9%96%80?src=hash&amp;ref_src=twsrc%5Etfw">#プログラミング入門</a> <a href="https://twitter.com/hashtag/python%E5%85%A5%E9%96%80?src=hash&amp;ref_src=twsrc%5Etfw">#python入門</a> <a href="https://t.co/MblKdRMLlj">https://t.co/MblKdRMLlj</a> <a href="https://t.co/dBM5MXHNbm">pic.twitter.com/dBM5MXHNbm</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926656707736014848?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 イベントの開始時に http://pyconjp-fellow.herokuapp.com/ からSlackに参加してもらって、チャットで質問を書いてもらいました。講義中も質問を見ながら、あとで回答したり、他の参加者やTAが答えてくれたり、テキストが進んだときに回答になるような説明を含めたり、と言った調整ができるし、チャットに質問内容が残って後で読み返せるし、ということで、とても良い方法なんじゃないかなーと思ってます。Slack慣れてない人にはハードルがちょっと高いと思うので、当日じゃなくもうちょっと前に参加してもらうと良いかも。
 
@@ -99,6 +108,7 @@ Python Boot Camp 本編
 
 福岡に続いて、今回もfizzbuzzを実際に参加者と一緒にやりました。後々、このゲームのシーンを引用して「人間同様に、全ての手順をコンピューターに伝える必要がある」「人間は遅いけどコンピューターは速い」と紹介できたのは良かったんじゃないかな。
 
+環境まわりでは、ほとんどはまることがなかったけど、2つひっかかったところがありました。1つはpipコマンドをPython対話シェル上で実行してしまった人が多かったこと。これは言い方が悪かったかなー。もう1つは、Ubuntu環境の人がpip使えなかったり、venv使えなかったりしたこと。 ``sudo apt install python3-pip python3-venv`` してもらって解決。python3-venvを入れずに ``python3 -m venv <env>`` すると、ディレクトリはできるけど ``<env>/bin/activate`` が生成されないという不思議な動作になってて、最初は何がおきてるのかよく分からなかった。解決してよかった。
 
 .. チャットメモ
 .. -----------------
@@ -126,24 +136,61 @@ Python Boot Camp 本編
    懇親会の様子
 
 
-おまけ
--------
+4人で2次会へ。私の希望で、天文館通りにある BeerReise_ というお店にいきました。ビールうまかったし、フィッシュ&チップスのポテトがめっちゃうまかった。
 
-1日目
+.. _BeerReise: https://www.facebook.com/%E3%83%93%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BC-Beer-Reise-522883527804967/
+
+.. figure:: beer.*
+
+   ギネスの泡にハートマークが！
 
 .. raw:: html
 
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">羽田空港の床になんかいた。おもしろいw 人の部分の反射をもう少し抑えられればきれいに見えそう <a href="https://t.co/qYcdNUNm4R">pic.twitter.com/qYcdNUNm4R</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926569846548004864?ref_src=twsrc%5Etfw">2017年11月3日</a></blockquote>
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ビール、ビール！！ (@ BeerReise in Kagoshima) <a href="https://t.co/J1wuqrUGkg">https://t.co/J1wuqrUGkg</a> <a href="https://t.co/DyLTTZzRZ1">pic.twitter.com/DyLTTZzRZ1</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926780061176553472?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">しろくま！！ (@ 天文館むじゃき in 鹿児島市, 鹿児島県) <a href="https://t.co/ZScjHIHtUL">https://t.co/ZScjHIHtUL</a> <a href="https://t.co/YUN8Ms6h5Y">pic.twitter.com/YUN8Ms6h5Y</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926773999773896705?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">富士桜高原麦酒 ミュンヘンラガー（山梨）ちょっと甘めで美味しい <a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> (@ BeerReise in Kagoshima) <a href="https://t.co/pWFVcz1sYg">https://t.co/pWFVcz1sYg</a> <a href="https://t.co/KaQ24YAY3A">pic.twitter.com/KaQ24YAY3A</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926786233983950848?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-.. 2日目
+
+おまけ
+-------
+
+1日目（朝の移動）
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">フライトの1時間以上前に空港ついた。8:10発はまだ出発便一覧表示ないわ (@ 羽田空港 第1旅客ターミナル in 大田区, 東京都) <a href="https://t.co/sBPgoz5wBb">https://t.co/sBPgoz5wBb</a> <a href="https://t.co/f6geAVkZ94">pic.twitter.com/f6geAVkZ94</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926567797529997313?ref_src=twsrc%5Etfw">2017年11月3日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">羽田空港の床になんかいた。おもしろいw 人の部分の反射をもう少し抑えられればきれいに見えそう <a href="https://t.co/qYcdNUNm4R">pic.twitter.com/qYcdNUNm4R</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926569846548004864?ref_src=twsrc%5Etfw">2017年11月3日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">空港に足湯が！！ <a href="https://t.co/Dlji25MnE4">pic.twitter.com/Dlji25MnE4</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926621259508596736?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">駅に観覧車が！？ (@ 鹿児島中央駅 - <a href="https://twitter.com/JR_kagoshima?ref_src=twsrc%5Etfw">@jr_kagoshima</a> in 鹿児島市, 鹿児島県) <a href="https://t.co/AYyf52sDle">https://t.co/AYyf52sDle</a> <a href="https://t.co/HBb4CzyHcz">pic.twitter.com/HBb4CzyHcz</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926632658423156737?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+1日目（夜の懇親会）
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> 懇親会！おつかれ！黒さつま鶏！！ (@ 地鶏の鶏膳 in 鹿児島市, 鹿児島県) <a href="https://t.co/DWca1V9yme">https://t.co/DWca1V9yme</a> <a href="https://t.co/PPLOHCbmVW">pic.twitter.com/PPLOHCbmVW</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926734801004060672?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">しろくま！！ (@ 天文館むじゃき in 鹿児島市, 鹿児島県) <a href="https://t.co/ZScjHIHtUL">https://t.co/ZScjHIHtUL</a> <a href="https://t.co/YUN8Ms6h5Y">pic.twitter.com/YUN8Ms6h5Y</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926773999773896705?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+2日目
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">炭水化物少なめチョイス（多分 (@ ホテル法華クラブ鹿児島 in 鹿児島市, 鹿児島県) <a href="https://t.co/dzJ9wEJFMh">https://t.co/dzJ9wEJFMh</a> <a href="https://t.co/0re9b2HR79">pic.twitter.com/0re9b2HR79</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926936079583862786?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
