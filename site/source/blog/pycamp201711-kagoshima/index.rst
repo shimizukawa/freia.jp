@@ -227,7 +227,43 @@ Python Boot Camp 本編
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">炭水化物少なめチョイス（多分 (@ ホテル法華クラブ鹿児島 in 鹿児島市, 鹿児島県) <a href="https://t.co/dzJ9wEJFMh">https://t.co/dzJ9wEJFMh</a> <a href="https://t.co/0re9b2HR79">pic.twitter.com/0re9b2HR79</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926936079583862786?ref_src=twsrc%5Etfw">2017年11月4日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">鹿児島の銭湯はほとんどが温泉だ、と聞いて来てみた。 (@ 霧島温泉 in Kagoshima) <a href="https://t.co/OmlsJlZhH9">https://t.co/OmlsJlZhH9</a> <a href="https://t.co/xh5tUGNvEc">pic.twitter.com/xh5tUGNvEc</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926971831483068416?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">鹿児島の温泉で温まった。お湯は熱め、飲用に柄杓置いてたので一杯やってきた。タオル貸してくれて値段変わらず390円。番台の渋いおっちゃんもステキ (@ 霧島温泉 in Kagoshima) <a href="https://t.co/kLkx6dNonz">https://t.co/kLkx6dNonz</a> <a href="https://t.co/5ZHASSN155">pic.twitter.com/5ZHASSN155</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926976911217168384?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">大久保利道様 (@ 大久保利通像 in 鹿児島市, 鹿児島県) <a href="https://t.co/FHam2Q6ia8">https://t.co/FHam2Q6ia8</a> <a href="https://t.co/3JIPkPZqTF">pic.twitter.com/3JIPkPZqTF</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926977834412924928?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">鹿児島中央駅にくっついてる観覧車。遠くからも目指しやすい。一周何分かな (@ アミュプラザ鹿児島 - <a href="https://twitter.com/amukagoshima?ref_src=twsrc%5Etfw">@amukagoshima</a> in 鹿児島市, 鹿児島県) <a href="https://t.co/8pMeDa2fJp">https://t.co/8pMeDa2fJp</a> <a href="https://t.co/qOV7UKzEP3">pic.twitter.com/qOV7UKzEP3</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926978974588252160?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">霧島温泉で熱々になったので、しろくま食べに来た (@ 天文館むじゃき アミュプラザ店 in 鹿児島市, 鹿児島県) <a href="https://t.co/f8ujfi8HWU">https://t.co/f8ujfi8HWU</a> <a href="https://t.co/4jZ3quKskD">pic.twitter.com/4jZ3quKskD</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926981222034788352?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">しろくま(M)でか！フワフワでうまいー！ (@ 天文館むじゃき アミュプラザ店 in 鹿児島市, 鹿児島県) <a href="https://t.co/eFsamek9QP">https://t.co/eFsamek9QP</a> <a href="https://t.co/G1ik3WViRE">pic.twitter.com/G1ik3WViRE</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926983117394644993?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">あっ、上から見て「しろくま」に見えるか確認するの忘れてた！ (@ 天文館むじゃき アミュプラザ店 in 鹿児島市, 鹿児島県) <a href="https://t.co/a0fY4VnnOO">https://t.co/a0fY4VnnOO</a> <a href="https://t.co/hX61zVcaTv">pic.twitter.com/hX61zVcaTv</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926987569128075264?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">空港に向かう。時間なくて観光無理と思ってたけど、思いのほか鹿児島満喫した！温泉は素晴らしい (@ 南国交通バスターミナル in 鹿児島市, 鹿児島県) <a href="https://t.co/AfBMASZwJ5">https://t.co/AfBMASZwJ5</a> <a href="https://t.co/sQFf6NSiDQ">pic.twitter.com/sQFf6NSiDQ</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/926993776308088832?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">空港で焼酎イベントやってるー (@ 鹿児島空港 in 霧島市, 鹿児島県) <a href="https://t.co/lgeolITLBB">https://t.co/lgeolITLBB</a> <a href="https://t.co/JgsPdEl7LA">pic.twitter.com/JgsPdEl7LA</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/927007025464266752?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">温めの足湯 (@ 天然温泉足湯 おやっとさぁ in 霧島市, 鹿児島県) <a href="https://t.co/JXU0Yb6OWI">https://t.co/JXU0Yb6OWI</a> <a href="https://t.co/JtA7SbzZYQ">pic.twitter.com/JtA7SbzZYQ</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/927007890342318080?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">芋きんつば、作ってるところ初めて見た。美しい (@ 鹿児島空港 in 霧島市, 鹿児島県) <a href="https://t.co/5LCUXRksoM">https://t.co/5LCUXRksoM</a> <a href="https://t.co/Oq0sxh2tWl">pic.twitter.com/Oq0sxh2tWl</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/927019873896681472?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">浜松沖上空で１人翻訳ハッカソン中。 <a href="https://t.co/24Dr55nEVX">pic.twitter.com/24Dr55nEVX</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/927037298117459968?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+鹿児島は温泉県だった。今度は観光しに来よう。
 
 
 ..  .. _Python Boot Camp in 鹿児島を開催しました: http://pyconjp.blogspot.jp/...
