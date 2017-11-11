@@ -55,6 +55,10 @@ Python mini hack-a-thon 79回 #pyhack
 .. _はじめのいっぽ: http://ippo.jp/
 .. _山喜旅館: http://www.ito-yamaki.jp/
 
+----
+
+脚注
+
 .. [#books]
    * `Sphinxをはじめよう 第2版 <https://www.oreilly.co.jp/books/9784873116488/>`_
    * `エキスパートPythonプログラミング 第2版 <https://www.packtpub.com/application-development/expert-python-programming-second-edition>`_
