@@ -23,7 +23,7 @@ Pythonのインポート処理周りで、普段知られていないネタを�
 ==========================
 
 .. code-block:: python
-   :caption: a1.py
+   :caption: a.py
 
    import a
    a.foo = 1
