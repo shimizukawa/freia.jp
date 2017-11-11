@@ -52,8 +52,8 @@ Python mini hack-a-thon 79回 #pyhack
 .. _@nobolis_: https://twitter.com/nobolis_
 .. _国立女性教育会館: https://www.nwec-bs.jp/
 .. _梁山泊: http://www.rzp.co.jp/
-.. _はじめのいっぽ: 
-.. _山喜旅館: 
+.. _はじめのいっぽ: http://ippo.jp/
+.. _山喜旅館: http://www.ito-yamaki.jp/
 
 .. [#books]
    * `Sphinxをはじめよう 第2版 <https://www.oreilly.co.jp/books/9784873116488/>`_
