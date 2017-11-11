@@ -9,16 +9,27 @@ Pythonのインポート処理周りで、普段知られていないネタを�
 
 なお、ここで紹介するネタは知っておいて損はないけど、使うと危険です。使ってしまっても責任は持てません。
 
+使った環境:
+
+.. code-block:: bash
+
+   [taka ~/py]$ python3
+   Python 3.5.2 (default, Sep 14 2017, 22:51:06)
+   [GCC 5.4.0 20160609] on linux
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>>
 
 ケース1: aがimport aする
 ==========================
 
 .. code-block:: python
+   :caption: a1.py
 
-   [taka ~/py]$ cat a.py
    import a
    a.foo = 1
    print('foo =', foo)
+
+.. code-block:: pycon
 
    [taka ~/py]$ python3 -q
    >>> import a
@@ -35,24 +46,25 @@ Pythonのインポート処理周りで、普段知られていないネタを�
 ``b1`` が ``b2`` をimportする。 ``b2`` が ``b1`` をimportしたあと何かのエラーでraiseする。
 
 .. code-block:: python
+   :caption: b1.py
 
-   [taka ~/py]$ cat b1.py
    import sys
    print('b1 in sys.modules?', 'b1' in sys.modules)
    import b2
 
 
-   [taka ~/py]$ cat b2.py
+.. code-block:: python
+   :caption: b2.py
+
    import sys
    print('b1 in sys.modules?', 'b1' in sys.modules)
    import b1
    raise ImportError('hoge')
 
 
-   [taka ~/py]$ python3
-   Python 3.5.2 (default, Sep 14 2017, 22:51:06)
-   [GCC 5.4.0 20160609] on linux
-   Type "help", "copyright", "credits" or "license" for more information.
+.. code-block:: pycon
+
+   [taka ~/py]$ python3 -q
    >>> import sys
    >>> import b1
    b1 in sys.modules? True
@@ -78,10 +90,13 @@ Pythonのインポート処理周りで、普段知られていないネタを�
 
 ``sys.modules`` ってなんなの？
 
+.. code-block:: python
+   :caption: aodag.py
+
+   print('しゅーくりーむたべたいです')
+
 .. code-block:: pycon
 
-   [taka ~/py]$ cat aodag.py
-   print('しゅーくりーむたべたいです')
    [taka ~/py]$ python3 -q
    >>> import sys
    >>> sys.modules['aodag'] = 'わんわん'
@@ -97,8 +112,8 @@ Pythonのインポート処理周りで、普段知られていないネタを�
 ``d.py`` は ``d1.d2`` をインポートする。 ``d1/__init__.py`` は ``d2`` をインポートした後で例外を起こす。
 
 .. code-block:: python
+   :caption: d.py
 
-   [taka ~/py]$ cat d.py
    import sys
    print('Hello d:', [m for m in sys.modules if m.startswith('d1')])
    try:
@@ -115,8 +130,9 @@ Pythonのインポート処理周りで、普段知られていないネタを�
        pass
    print('Goodbye d:', [m for m in sys.modules if m.startswith('d1')])
 
+.. code-block:: python
+   :caption: d1/__init__.py
 
-   [taka ~/py]$ cat d1/__init__.py
    import sys
    print('Hello d1:', [m for m in sys.modules if m.startswith('d1')])
    from . import d2
@@ -124,10 +140,13 @@ Pythonのインポート処理周りで、普段知られていないネタを�
    print('Goodbye d1:', [m for m in sys.modules if m.startswith('d1')])
 
 
-   [taka ~/py]$ cat d1/d2.py
+.. code-block:: python
+   :caption: d1/d2.py
+
    import sys
    print('Hello d2', [m for m in sys.modules if m.startswith('d1')])
 
+.. code-block:: bash
 
    [taka ~/py]$ python3 d.py
    Hello d: []
@@ -148,8 +167,8 @@ Pythonのインポート処理周りで、普段知られていないネタを�
 ``e1`` が ``e2`` をインポートし、 ``e2`` が ``e1`` をインポートしてすぐに ``e1.VALUE`` にアクセスする。
 
 .. code-block:: python
+   :caption: e1.py
 
-   [taka ~/py]$ cat e1.py
    print('start e1')
    import e2
    print('e1 define VALUE')
@@ -157,12 +176,15 @@ Pythonのインポート処理周りで、普段知られていないネタを�
    print('e1 finished')
 
 
-   [taka ~/py]$ cat e2.py
+.. code-block:: python
+   :caption: e2.py
+
    print('e2 start')
    print('e2 imports e1')
    import e1
    print('e2 prints e1.VALUE =', e1.VALUE)
 
+.. code-block:: pycon
 
    [taka ~/py]$ python3 -q
    >>> import e1
