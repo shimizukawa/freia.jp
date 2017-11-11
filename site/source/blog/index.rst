@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pyhack-20171111/index
    pycamp201711-kagoshima/index
    smartphine-zenfone3/index
    finpy-20171025-nenkin/index
