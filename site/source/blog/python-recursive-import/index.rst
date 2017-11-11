@@ -29,6 +29,8 @@ Pythonのインポート処理周りで、普段知られていないネタを�
    a.foo = 1
    print('foo =', foo)
 
+実行
+
 .. code-block:: pycon
 
    [taka ~/py]$ python3 -q
@@ -61,6 +63,7 @@ Pythonのインポート処理周りで、普段知られていないネタを�
    import b1
    raise ImportError('hoge')
 
+実行
 
 .. code-block:: pycon
 
@@ -94,6 +97,8 @@ Pythonのインポート処理周りで、普段知られていないネタを�
    :caption: aodag.py
 
    print('しゅーくりーむたべたいです')
+
+実行
 
 .. code-block:: pycon
 
@@ -146,6 +151,8 @@ Pythonのインポート処理周りで、普段知られていないネタを�
    import sys
    print('Hello d2', [m for m in sys.modules if m.startswith('d1')])
 
+実行
+
 .. code-block:: bash
 
    [taka ~/py]$ python3 d.py
@@ -183,6 +190,8 @@ Pythonのインポート処理周りで、普段知られていないネタを�
    print('e2 imports e1')
    import e1
    print('e2 prints e1.VALUE =', e1.VALUE)
+
+実行
 
 .. code-block:: pycon
 
