@@ -2,7 +2,7 @@
 :tags: Python, pyhack, hack-a-thon
 
 ====================================
-Python mini hack-a-thon 79回 #pyhack
+Python mini hack-a-thon 82回 #pyhack
 ====================================
 
 `#pyhack`_ 黙々ガヤガヤイベントに参加しました。今日は用事があったので、15時くらいからの参加です。

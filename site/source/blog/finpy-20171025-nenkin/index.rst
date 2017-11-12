@@ -27,7 +27,6 @@ fin-py study #1 年金最適化入門 #finpy
 * Twitter: `@patraqushe`_
 * 資料: https://github.com/drillan/finpy-study01
 
-
 .. _@patraqushe: https://twitter.com/patraqushe
 
 
