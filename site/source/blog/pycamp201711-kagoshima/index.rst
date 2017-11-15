@@ -14,9 +14,7 @@ Python Boot Camp in 鹿児島で講師してきました #pycamp
 
    参加者のみなさん（開始時）
 
-このblogは講師からみた参加レポートです。チュートリアル本体の様子なんかは、公式の開催レポートは別途書かれると思います。
-
-.. todo: -> `Python Boot Camp in 鹿児島を開催しました`_
+このblogは講師からみた参加レポートです。チュートリアル本体の様子なんかは、公式の開催レポートは別途書かれると思います。 -> `Python Boot Camp in 鹿児島を開催しました`_
 
 
 .. note::
@@ -266,8 +264,7 @@ Python Boot Camp 本編
 鹿児島は温泉県だった。今度は観光しに来よう。
 
 
-..  .. _Python Boot Camp in 鹿児島を開催しました: http://pyconjp.blogspot.jp/...
-
+.. _Python Boot Camp in 鹿児島を開催しました: http://pyconjp.blogspot.jp/2017/11/pycamp-in-kagoshima-report.html
 .. _Python Boot Camp in 鹿児島: https://pyconjp.connpass.com/event/67709/
 .. _懇親会: https://pyconjp.connpass.com/event/67710/
 .. _14回目: https://www.pycon.jp/support/bootcamp.html#id5
