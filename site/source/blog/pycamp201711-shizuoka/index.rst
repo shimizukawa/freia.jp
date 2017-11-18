@@ -50,12 +50,14 @@ Python Boot Camp in 静岡で講師してきました #pycamp
 
 今日は、結果的には17時に講義を終えることが出来ました。入門ハンズオンは前半の理解が重要だと思うので、どうしても前半時間がかかってしまい、データ型は飛ばし気味になってしまいました。伝えたい事は前半の「Pythonをはじめよう(FizzBuzz)」と「スクレイピング」のところにあるので、データ型が飛ばし気味になるのはしょうがないのかなー。
 
-今回はSlackでの質問がゼロ件でした。前回の鹿児島でも質問が少なかったけど、短かい時間のなかで疑問を質問にして書くのも難易度が高いのかな。口頭で質問があった内容については、TAの @kashew_nuts さんがSlackにまとめて書いてくれました。他の参加者やこれまでのPyCamp参加者の参考になるので、とても助かりました。質問することで他の参加者の助けになったりもするので、今日参加したみなさん後からでも疑問に思ったことがあれば、ぜひ質問を書いてみてください。
+今回はSlackでの質問がゼロ件でした。前回の鹿児島でも質問が少なかったけど、短かい時間のなかで疑問を質問にして書くのも難易度が高いのかな。口頭で質問があった内容については、TAの `@kashew_nuts` さんがSlackにまとめて書いてくれました。他の参加者やこれまでのPyCamp参加者の参考になるので、とても助かりました。質問することで他の参加者の助けになったりもするので、今日参加したみなさん後からでも疑問に思ったことがあれば、ぜひ質問を書いてみてください。
 
 .. 懇親会で、「名古屋のときは、自己紹介に1人1分くらい、オヤツ休憩も30分くらい取ってたけど、スクレイピングで自由課題を各自やる時間があった」という話を聞いたので、やりようでもっと速くできるのかとびっくりした。
 
 
 これまで、 :doc:`神戸 <../pycamp201705-kobe/index>`, :doc:`福岡 <../pycamp201709-fukuoka/index>` , :doc:`鹿児島 <../pycamp201711-kagoshima/index>` で講師をして、今回の静岡が4回目でした。今年の講師担当分はこれで終わりです。来年はどうなるかなー。
+
+.. _@kashew_nuts: https://twitter.com/kashew_nuts
 
 
 移動
@@ -90,7 +92,9 @@ Python Boot Camp in 静岡で講師してきました #pycamp
 
 スタッフランチミーティングでは、ご飯を食べながら自己紹介したりしました。今回の現地スタッフの塚本さんはPythonを始めてまだ間がなく、今年7月のPyCamp愛知の受講生だったとのこと。懇親会で、隣に座った講師のtakanoryさんから勧められて、今回の静岡開催のスタッフになったということでした。Pythonの勉強をしながらのスタッフ業、おつかれさまです。
 
-今回TAの三浦さんは、そのPyCamp愛知のスタッフだったということで、愛知（名古屋）と静岡（浜松）近くて交流が活発なのかと思ったら、実際はそこまで近くなかった。そういえば九州でも隣県から駆けつけて～っていうパターンは聞きました。
+今回TAの `@mursts`_ さんは、そのPyCamp愛知のスタッフだったということで、愛知（名古屋）と静岡（浜松）近くて交流が活発なのかと思ったら、実際はそこまで近くなかった。そういえば九州でも隣県から駆けつけて～っていうパターンは聞きました。
+
+.. _@mursts: https://twitter.com/mursts
 
 
 Python Boot Camp 本編
@@ -132,8 +136,15 @@ Python Boot Camp 本編
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> 静岡、懇親会！郷土料理！ <a href="https://t.co/61JH1tWa1N">pic.twitter.com/61JH1tWa1N</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/931815473032806400?ref_src=twsrc%5Etfw">2017年11月18日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+.. raw:: html
+
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> 静岡懇親会～ <a href="https://t.co/R9oMT6Xb0a">pic.twitter.com/R9oMT6Xb0a</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/931825540553568257?ref_src=twsrc%5Etfw">2017年11月18日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+↑写真左端に、東京から懇親会だけに参加しにきた `@aodag`_ さん。実は `Python東海`_ のファウンダーだけど、もう参加者に知り合いがほぼいないので「初心者です」と冗談で挨拶すると本当にそう思われちゃう、と言う話で盛り上がってました。
+
+.. _@aodag: https://twitter.com/aodag
+.. _Python東海: https://connpass.com/series/292/
 
 
 飲み放題ビールが「のどごし生」だったので、クラフトビールを求めて二次会へ...。
