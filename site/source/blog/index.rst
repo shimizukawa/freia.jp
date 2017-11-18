@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pycamp201711-shizuoka/index
    python-recursive-import/index
    pyhack-20171111/index
    pycamp201711-kagoshima/index
