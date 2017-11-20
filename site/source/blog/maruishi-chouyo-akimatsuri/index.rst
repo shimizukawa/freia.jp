@@ -10,7 +10,7 @@
 .. _長誉祭り: http://www.014.co.jp/?mode=f5
 .. _丸石醸造: http://www.014.co.jp/
 
-.. fiture:: maruishi-chouyo-matsuri.*
+.. figure:: maruishi-chouyo-matsuri.*
 
    丸石醸造 長誉祭り
 
