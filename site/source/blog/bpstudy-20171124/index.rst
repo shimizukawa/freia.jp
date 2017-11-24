@@ -165,7 +165,7 @@ Q&A
 =======================================================
 
 * 株式会社SQUEEZE 岩崎 圭 氏（Twitter: `@laugh_k`_ ）
-* 資料: TBD
+* 資料: https://docs.google.com/presentation/d/e/2PACX-1vT5zXdtBJhEJ1-OFSAN2sxqPgFp_C3IdVUGjhqSs6WtnRavdr2d_QHZHOMWwL1lG5gtftJ79V9qgOPv/pub?start=false&loop=false&delayms=3000&slide=id.p
 * 著書: `スラスラわかるPython`_
 
 .. _スラスラわかるPython: http://amzn.to/2B9cwUK
