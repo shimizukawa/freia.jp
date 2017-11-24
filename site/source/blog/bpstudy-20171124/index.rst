@@ -104,7 +104,7 @@ Q&A
 ================================================================================================
 
 * 株式会社slideship 池内孝啓 氏（Twitter: `@iktakahiro`_ ）
-* 資料: TBD
+* 資料: https://slideship.com/users/@iktakahiro/presentations/2017/10/LyBUi24iLsQ4yXn9FwJYyh/
 * 著書: `PythonユーザのためのJupyter[実践]入門`_
 
 .. _PythonユーザのためのJupyter[実践]入門: http://amzn.to/2A4W7E8
@@ -179,9 +179,9 @@ Q&A
 
 * 執筆者になった理由
 
-   * 声を掛けられた
-   * `#pyhack`_ への参加とblog書きを両方継続していたところがポイントだったらしい
-   * 「こいつならやれそう」と思ってもらえたらしい
+  * 声を掛けられた
+  * `#pyhack`_ への参加とblog書きを両方継続していたところがポイントだったらしい
+  * 「こいつならやれそう」と思ってもらえたらしい
 
 * 序盤
 
@@ -244,6 +244,7 @@ Q&A
 
 * `@patraqushe`_: 本当にあった怖い話
 
+  * スライド: https://slideship.com/users/@driller/presentations/2017/11/MwvuhqpyccTpSskM5xmpwh/
   * 原稿を入稿したときに、最後のコミットをpushし忘れてた!
 
     * コードと画像が全然あってない！
@@ -257,4 +258,57 @@ Q&A
 
 .. _@patraqushe: https://twitter.com/patraqushe
 
+* `@koseki48724805`_: 偵察に来た
+
+  * スライド: TBD
+  * 編集は、我流
+  * 合う人とは合う。合わない人とは合わない。
+  * 本は書きたいと主張している人にしか声が掛からない
+  * 出版社は新規の著者を信用していない
+
+    * 新規の著者は逃げる確率が非常に高い！！
+    * 著者の紹介は受け入れるが、紹介者がケツもってね
+
+.. _@koseki48724805: https://twitter.com/koseki48724805
+
+* `@CardinalXaro`_: 技術書査読、構成の現場から
+
+  * スライド: https://speakerdeck.com/hayaosuzuki/ji-shu-shu-cha-du-xiao-zheng-falsexian-chang-kara
+  * （実際にあった本の間違いをみんなに考えてもらうスライド）
+  * （面白いｗ）
+  * （実際、しれっと間違ったことを書いてる本は、ある）
+
+.. _@CardinalXaro: https://twitter.com/CardinalXaro
+
+* `@ken_takasaki`_: 一流のエンジニア／経営者になるため基礎力を磨け
+
+  * スライド: TBD
+  * （効果音とBGMのあるLT）
+  * 一流になるには
+  * 習慣化する: イチロー。努力と習慣化。
+  * 原点を軸にして外に広げていく
+
+.. _@ken_takasaki: https://twitter.com/ken_takasaki
+
+
+* KanakoUbukata: 技術書の原稿はWordで書いちゃダメゼッタイという話
+
+  * スライド: TBD
+
+  * 執筆フォーマット
+
+    * プレーンテキスト
+    * Markdown
+    * Word
+
+  * Word
+
+    * 版組 -> 印刷用データになる
+    * Wordから変換したらソースの半角が全て全角に...!
+    * Word原稿のアップデートを行っていなかった!!
+
+  * diffで見易いテキストフォーマットをお勧めします.
+  * これからやる方は、私の屍を超えていって下さい
+
+  * （最後、闇だった。Amazonレビューつらいなあ）
 
