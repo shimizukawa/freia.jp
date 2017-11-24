@@ -205,8 +205,14 @@ Q&A
 
   * 執筆関係者のみ？ゲストレビュアー含む？ 本によって色々
   * 本格的なレビューは原稿が完成してから
-  * プロレビューアーのみなさんに手伝ってもらった
   * DropboxでPDFにコメントするレビュ－はよかったけど、ESCキーでファイル一覧にもどっちゃうのがつらかった。Vimmerなんで。（笑）
+  * プロレビューアーのみなさんに手伝ってもらった
+
+    .. raw:: html
+
+       <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">プロレビュワーとは、Python書籍に対して最初から最後までいい感じでレビューをしてくれる(某)なかがみさんと(某)すーぎーさんのことである <a href="https://twitter.com/hashtag/bpstudy?src=hash&amp;ref_src=twsrc%5Etfw">#bpstudy</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/934017164390031360?ref_src=twsrc%5Etfw">2017年11月24日</a></blockquote>
+       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 * 実際に執筆してみて
 
@@ -311,4 +317,16 @@ Q&A
   * これからやる方は、私の屍を超えていって下さい
 
   * （最後、闇だった。Amazonレビューつらいなあ）
+
+
+おまけ
+======
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">はー <a href="https://twitter.com/hashtag/bpstudy?src=hash&amp;ref_src=twsrc%5Etfw">#bpstudy</a> 技術書執筆のノウハウ、の懇親会行きたかったな。今やってる技術書の締め切りがひとつ今夜24時にあるのだよな...</p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/934033339886866432?ref_src=twsrc%5Etfw">2017年11月24日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">DropboxにおいたPDFにWebブラウザでコメントできるのは、Dropboxの独自実装だと思うんだけど、Adobeは関係あったのだろうか。逆方向（Acrobat ReaderでDropbox上のファイルを編集したりするの）ではプレスリリースされてた記憶あるけど <a href="https://t.co/7OECLrzROI">https://t.co/7OECLrzROI</a></p>&mdash; keiichiro shikano λ♪ (@golden_lucky) <a href="https://twitter.com/golden_lucky/status/934034202869112832?ref_src=twsrc%5Etfw">2017年11月24日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
