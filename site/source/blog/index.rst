@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   bpstudy-20171124/index
    maruishi-chouyo-akimatsuri/index
    pycamp201711-shizuoka/index
    python-recursive-import/index
