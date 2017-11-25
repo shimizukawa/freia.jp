@@ -289,7 +289,7 @@ Q&A
 
 * `@ken_takasaki`_: 一流のエンジニア／経営者になるため基礎力を磨け
 
-  * スライド: TBD
+  * スライド: https://www.slideshare.net/takasakikentaro/ss-82721257
   * （効果音とBGMのあるLT）
   * 一流になるには
   * 習慣化する: イチロー。努力と習慣化。
