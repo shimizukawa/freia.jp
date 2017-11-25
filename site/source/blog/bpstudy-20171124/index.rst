@@ -18,7 +18,7 @@
 
 * 株式会社ビープラウド 鈴木たかのり 氏（Twitter: `@takanory`_ ）
 * 株式会社ビープラウド 清原 弘貴 氏（Twitter: `@hirokiky`_ ）
-* 資料: TBD
+* 資料: https://gitpitch.com/takanory/slides?p=20171124bpstudy#/
 * 著書: `Pythonエンジニアファーストブック`_
 
 .. _@takanory: https://twitter.com/takanory
@@ -297,7 +297,7 @@ Q&A
 .. _@ken_takasaki: https://twitter.com/ken_takasaki
 
 
-* KanakoUbukata: 技術書の原稿はWordで書いちゃダメゼッタイという話
+* `@kanako_ubukata`_: 技術書の原稿はWordで書いちゃダメゼッタイという話
 
   * スライド: TBD
 
@@ -317,6 +317,8 @@ Q&A
   * これからやる方は、私の屍を超えていって下さい
 
   * （最後、闇だった。Amazonレビューつらいなあ）
+
+.. _@kanako_ubukata: https://twitter.com/kanako_ubukata
 
 
 おまけ
