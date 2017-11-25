@@ -248,9 +248,10 @@ Q&A
 第4部 LT大会
 ============
 
-* `@patraqushe`_: 本当にあった怖い話
+* `@patraqushe`_: Jupyter Publishing
 
   * スライド: https://slideship.com/users/@driller/presentations/2017/11/MwvuhqpyccTpSskM5xmpwh/
+  * 本当にあった怖い話
   * 原稿を入稿したときに、最後のコミットをpushし忘れてた!
 
     * コードと画像が全然あってない！
@@ -277,7 +278,7 @@ Q&A
 
 .. _@koseki48724805: https://twitter.com/koseki48724805
 
-* `@CardinalXaro`_: 技術書査読、構成の現場から
+* `@CardinalXaro`_: 技術書査読・校正の現場から
 
   * スライド: https://speakerdeck.com/hayaosuzuki/ji-shu-shu-cha-du-xiao-zheng-falsexian-chang-kara
   * （実際にあった本の間違いをみんなに考えてもらうスライド）
