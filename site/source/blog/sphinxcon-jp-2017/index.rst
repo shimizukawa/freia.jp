@@ -44,7 +44,7 @@ SphinxCon JP 2017 に参加しました。
 =================================
 
 * 発表者: `@cocoatomo`_
-* 資料: TBD
+* 資料: https://www.slideshare.net/cocoatomo/sphinx-82894476
 
 .. _@cocoatomo: https://twitter.com/cocoatomo
 
@@ -330,7 +330,7 @@ Q&A
 ============================
 
 * 発表者: 渋川よしき (`@shibu_jp`_)
-* 資料: TBD
+* 資料: https://shibukawa.github.io/sphinxcon2017_htmltemplate/
 
 .. _@shibu_jp: https://twitter.com/shibu_jp
 
@@ -398,7 +398,7 @@ Q&A
 LT
 =======
 
-* 木製人がSphinxで幸せになる方法 ( `どりらん`_ )
+* 木星人がSphinxで幸せになる方法 ( `どりらん`_ )
 
   * 資料: https://slideship.com/users/@driller/presentations/2017/11/GX5q8tJTPHuctnT1LeAZZd/
 
@@ -432,8 +432,29 @@ LT
   * Sphinx合宿やります
   * イベント関連、詳しくはこちら!: https://sphinxjp.connpass.com/
 
+  * tk0miya さんがGoogleに表彰されました
+
+  .. raw:: html
+
+     <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Googleに標章されたメンテナの <a href="https://twitter.com/tk0miya?ref_src=twsrc%5Etfw">@tk0miya</a> 氏 <a href="https://t.co/B3RdIvStuD">https://t.co/B3RdIvStuD</a> <a href="https://twitter.com/hashtag/sphinxjp?src=hash&amp;ref_src=twsrc%5Etfw">#sphinxjp</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/935491146981154817?ref_src=twsrc%5Etfw">2017年11月28日</a></blockquote>
+     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 .. _PythonユーザのためのJupyter[実践]入門: http://amzn.to/2zwhbQc
 .. _nbsphinx: https://pypi.python.org/pypi/nbsphinx/
 .. _どりらん: https://twitter.com/patraqushe
 .. _@usaturn: https://twitter.com/usaturn
+
+
+おまけ
+==========
+
+* Tgetter
+
+  * https://togetter.com/li/1176350
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">解散しました。司会の <a href="https://twitter.com/usaturn?ref_src=twsrc%5Etfw">@usaturn</a> ありがとう、会場提供&amp;ケータリング提供のDeNAさんありがとうございましたー！ <a href="https://twitter.com/hashtag/sphinxjp?src=hash&amp;ref_src=twsrc%5Etfw">#sphinxjp</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/935495583497838592?ref_src=twsrc%5Etfw">2017年11月28日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
