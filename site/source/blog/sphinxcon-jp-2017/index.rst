@@ -265,6 +265,11 @@ Q&A
 .. _sphinxcontrib-reviewbuilder: https://pypi.python.org/pypi/sphinxcontrib-reviewbuilder
 .. _PyPI: https://pypi.python.org/pypi
 
+感想
+------
+
+* r_rudi さん、完全にbuilder職人になってる。すごい。
+* 発表にはなかったかもだけど、 https://github.com/shirou/sphinxcontrib-indesignbuilder も作ってる
 
 4. 社内のマニュアルをSphinxで作ってみた
 ========================================
@@ -277,6 +282,47 @@ Q&A
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/sphinxjp?src=hash&amp;ref_src=twsrc%5Etfw">#sphinxjp</a> トーク3人目、タカクラさん！ <a href="https://t.co/xQeruanuI8">pic.twitter.com/xQeruanuI8</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/935478912468918272?ref_src=twsrc%5Etfw">2017年11月28日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+* 今日はドキュメントの技術的負債の話をします
+
+  * 技術ドキュメントを残していく必要性がでてきた
+
+  * 社内ではExcel方眼紙が跳梁跋扈している！
+
+  * PCへのインストールは制限されている！
+
+  * でもMacは管轄外だったのでSphinxいれちゃった
+
+* ドキュメントのメンテナンスは手間が掛かる
+
+  * reSTやMarkdownは学習コストが掛かる
+
+  * メンバーの作業コストが高くなりドキュメントが放置された
+
+  * この負債を解消するために、ドキュメントが素のHTMLで書き直されつつある
+
+* まとめ
+
+  * 独断でいれたツールはうまくいかないことが多い
+  * 理解の難しい技術は、残されたメンバーが扱えなくなる
+  * 中心メンバーが抜けた後の運用も考える必要が
+  * 運用コストを考えると最終的にExcelが選択されることに..
+
+  * 技術的負債とどう向き合うか
+
+    * 技術レベルに合わない技術は爆死しやすい
+    * 枯れすぎた技術を選んでも爆死する
+    * 技術の学び方だけでなく、メンバーへの教え方も磨いていく必要がある
+
+  * メンテナンスしやすいドキュメントの作り方
+
+    * 何で作るかにこだわらず、誰でも編集出来ることが大事
+    * 必要最低限のドキュメントだけ作る
+    * 定期的にメンテナンスする機会を設ける
+
+感想
+------
+
+* メンテしやすいの部分、必要最低限、よりは必要十分な方を狙って行きたいね。
 
 .. _@huideyeren: https://twitter.com/huideyeren
 
@@ -287,4 +333,107 @@ Q&A
 * 資料: TBD
 
 .. _@shibu_jp: https://twitter.com/shibu_jp
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/sphinxjp?src=hash&amp;ref_src=twsrc%5Etfw">#sphinxjp</a> トーク5人目、 <a href="https://twitter.com/shibu_jp?ref_src=twsrc%5Etfw">@shibu_jp</a> ！！ <a href="https://t.co/juAI7QAY7A">pic.twitter.com/juAI7QAY7A</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/935482850748481537?ref_src=twsrc%5Etfw">2017年11月28日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+* DeNA退職時に引き継ぎ資料をSphinxで書いた
+
+  * ``make singlehtml`` で作ってHTMLをブラウザで全コピしてWordに貼ればOK
+  * Word上でコードブロックもキレイに維持されて美味しい
+  * medium.com の編集画面にも同じように貼れば良い感じになってくれる
+
+* SphinxのHTML5
+
+  * HTML5リリースから9年遅れ
+  * Sphinxは docutils_ の上で作られている
+  * docutilsのHTML5対応が必要だった
+
+* Sphinx 2.0 に向けて
+
+  * HTMLテンプレートの簡易化: 構造化よりコピーして使いやすい方がいい
+
+  * 検索機能の向上: 検索インデックスの構造を変えて検索しやすく
+
+  * Open Graph Protocol: Sphinxで標準対応したい
+
+  * Offline Mode: Service Workerを使って
+
+* まとめ
+
+  * 未来に向かっていこう
+
+  * カスタマイズしやすいようにしよう
+
+  * 共有しやすく
+
+  * パフォーマンスよく
+
+.. _docutils: https://pypi.python.org/pypi/docutils/0.14
+
+Q&A
+----
+
+* Q: (jbking) HTMLテンプレートをカスタマイズしやすくしよう、について具体的なProposalってありますか？
+
+  * A: (shibu_jp) 今のところないです。こまかく分割されてしまっているのを1つにまとめる事を考えています。後方互換性は気にしてるけど、新しい仕組みを選択できるようにしようと思ってます。
+
+* Q: (r_rudi) 検索の部分をなんとかしたいという話ですが、 Oktavia_ の開発は続けるんですか？
+
+  * A: (shibu_jp) Oktavia_ はFM-Indexというのを使ってるんですが、検索エンジンとしてはそこまで良いものではない。ので、もういいんじゃないかなと思ってます。昔と違っていまは色々できるようになってきたので。
+
+* Q: (?): Sphinxは使ったことがなくて今日初めて色々聞いたんですが、さきほどのHTML5サポートはどうやって出力するんですか？
+
+  * A: (shibu_jp) たぶん今はデフォルトなのかな。利用者からはそんなに劇的に使いやすくなったとかはないです
+
+    * （※ HTML5はまだオプションです: http://www.sphinx-doc.org/en/stable/config.html#confval-html_experimental_html5_writer ）
+
+  * A: (shibu_jp) epubチェッカーにかけるとHTML4ベースだとエラーが数万でてしまうのを解消したかった
+
+.. _Oktavia: http://oktavia.info/ja/
+
+
+LT
+=======
+
+* 木製人はnbsphinxを使ってみよう ( `どりらん`_ )
+
+  * 資料: https://slideship.com/users/@driller/presentations/2017/11/GX5q8tJTPHuctnT1LeAZZd/
+
+  * FinTech関係のLT&忘年会やります: https://fin-py.connpass.com/event/73241/
+
+  * Sphinx、先日某 `PythonユーザのためのJupyter[実践]入門`_ で使う事になって慌てて勉強し始めた
+
+  * Sphinx経験: よくSphinx、reStructuredTextを打ち間違える
+
+  * Jupyter使ってる方？ -> けっこういますねーじゃあ知ってる前提で続けます
+
+  * Jupyterあるある1: Untitled1, Untitled2 とか色々あって見失う
+
+  * Jupyterあるある2: GitHubのNotebookにStar付けても埋もれて見失う
+
+  * 検索したい！Notebookを検索したい！
+
+  * nbsphinx_ を使えばnotebookをSphinxに食わせてまとめられる
+
+  * Jupyter Notebook で実はMarkdownだけじゃなくreSTも書ける（ことに先日気づいた）
+
+* Sphinxユーザー会の紹介 ( `@usaturn`_ )
+
+  * http://sphinx-users.jp/
+  * `Sphinxをはじめよう 第2版`_
+  * 「買ってないかた、ここにいらっしゃいますか？これから始める方は是非買った方が良いですよ」
+
+  * Sphinxハンズオンやってます
+  * Sphinx Tea Night を平日の夜に月イチでやってます
+  * Sphinx + 翻訳 hacka-thon を週末日中に月イチでやってます
+  * Sphinx合宿やります
+  * イベント関連、詳しくはこちら!: https://sphinxjp.connpass.com/
+
+.. _PythonユーザのためのJupyter[実践]入門: http://amzn.to/2zwhbQc
+.. _nbsphinx: https://pypi.python.org/pypi/nbsphinx/
+.. _どりらん: https://twitter.com/patraqushe
+.. _@usaturn: https://twitter.com/usaturn
 
