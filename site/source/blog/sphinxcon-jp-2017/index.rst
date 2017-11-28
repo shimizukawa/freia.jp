@@ -200,7 +200,7 @@ Q&A
 ================================
 
 * 発表者: `@r_rudi`_
-* 資料: TBD
+* 資料: http://tdoc.info/presentations/sphinxcon2017/
 
 .. raw:: html
 
@@ -275,11 +275,11 @@ Q&A
 ========================================
 
 * 発表者: Iosif Takakura (`@huideyeren`_)
-* 資料: TBD
+* 資料: https://www.slideshare.net/iosiftakakurayusuke/sphinx-82892226
 
 .. raw:: html
 
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/sphinxjp?src=hash&amp;ref_src=twsrc%5Etfw">#sphinxjp</a> トーク3人目、タカクラさん！ <a href="https://t.co/xQeruanuI8">pic.twitter.com/xQeruanuI8</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/935478912468918272?ref_src=twsrc%5Etfw">2017年11月28日</a></blockquote>
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/sphinxjp?src=hash&amp;ref_src=twsrc%5Etfw">#sphinxjp</a> トーク4人目、タカクラさん！ <a href="https://t.co/xQeruanuI8">pic.twitter.com/xQeruanuI8</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/935478912468918272?ref_src=twsrc%5Etfw">2017年11月28日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 * 今日はドキュメントの技術的負債の話をします
@@ -398,7 +398,7 @@ Q&A
 LT
 =======
 
-* 木製人はnbsphinxを使ってみよう ( `どりらん`_ )
+* 木製人がSphinxで幸せになる方法 ( `どりらん`_ )
 
   * 資料: https://slideship.com/users/@driller/presentations/2017/11/GX5q8tJTPHuctnT1LeAZZd/
 
