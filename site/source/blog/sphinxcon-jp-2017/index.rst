@@ -116,7 +116,7 @@ Q&A
 ===================================
 
 * 発表者: 鹿野桂一郎(`@golden_lucky`_)
-* 資料: TBD
+* 資料: https://www.slideshare.net/k16shikano/sphinx-82905169
 
 .. _@golden_lucky: https://twitter.com/golden_lucky
 
