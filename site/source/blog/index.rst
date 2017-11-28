@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxcon-jp-2017/index
    bpstudy-20171124/index
    maruishi-chouyo-akimatsuri/index
    pycamp201711-shizuoka/index
