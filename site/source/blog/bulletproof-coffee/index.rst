@@ -188,5 +188,5 @@ MCTオイルをココナツオイルに変えると、風味が変わります�
 
 .. raw:: html
 
-   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/gp/shimizukawa/Qx0HD9" title="2017/12/03 バターコーヒー作り"><img src="https://farm5.staticflickr.com/4520/24921972358_b521286063_z.jpg" width="640" height="360" alt="2017/12/03 バターコーヒー作り"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   <div id="flickrembed"></div><div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;"><a href="http://www.queensawards.org.uk/vouchers/tui.co.uk">TUI promo codes for the UK</a></div><script src='https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=www.flickr.com/photos/shimizukawa/albums/72157690436625785&sort=5&by=album&theme=default&scale=fill&limit=30&skin=default&autoplay=true'></script><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
 
