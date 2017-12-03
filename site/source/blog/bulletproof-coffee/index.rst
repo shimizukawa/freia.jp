@@ -21,15 +21,6 @@
    * コーヒーメーカー
    * ブレンダー
 
-過去blog:
-
-   バターコーヒーでのダイエットについては、以下の3つのblogにまとめてあるので、そちらを参照してください。
-
-   * :doc:`../bulletproof-diet-try/index`
-   * :doc:`../bulletproof-diet-try2/index`
-   * :doc:`../bulletproof-diet-try3/index`
-
-
 .. contents:: もくじ
    :local:
 
@@ -189,4 +180,14 @@ MCTオイルをココナツオイルに変えると、風味が変わります�
 .. raw:: html
 
    <div id="flickrembed"></div><div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;"><a href="http://www.queensawards.org.uk/vouchers/tui.co.uk">TUI promo codes for the UK</a></div><script src='https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=www.flickr.com/photos/shimizukawa/albums/72157690436625785&sort=5&by=album&theme=default&scale=fill&limit=30&skin=default&autoplay=true'></script><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+
+関連blog
+========
+
+バターコーヒーでのダイエットについては、以下の3つのblogにまとめてあるので、そちらを参照してください。
+
+* :doc:`../bulletproof-diet-try/index`
+* :doc:`../bulletproof-diet-try2/index`
+* :doc:`../bulletproof-diet-try3/index`
 

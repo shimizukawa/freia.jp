@@ -119,3 +119,11 @@
 
 今週末またやろうかな..  そろそろ何かしないと、脂肪の代わりに筋肉落ちていきそう。
 
+
+関連blog
+========
+
+* :doc:`../bulletproof-diet-try1/index`
+* :doc:`../bulletproof-diet-try3/index`
+* :doc:`../bulletproof-coffee/index`
+

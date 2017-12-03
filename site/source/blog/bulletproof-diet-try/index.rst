@@ -245,6 +245,15 @@ MCTオイル
 
 コーヒー以外の食事についてはまた機会があれば書きますが、牛肉、豚肉、羊肉、鯖、等と、サラダや蒸し野菜をたくさん食べてます。
 
+
+関連blog
+--------
+
+* :doc:`../bulletproof-diet-try2/index`
+* :doc:`../bulletproof-diet-try3/index`
+* :doc:`../bulletproof-coffee/index`
+
+
 参考にしたサイト等
 -----------------------
 

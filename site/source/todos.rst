@@ -4,6 +4,7 @@
 清水川WebのTODO
 ===============
 
+* 高: Twitter-Cardのように別ページへの参照を表示するdirective
 * 中: blogのコメント機能復帰(disqus)
 * 低: RSSの ``<category></category>`` に持たせる
 * 低: カテゴリ別インデックスページを持ちたい
