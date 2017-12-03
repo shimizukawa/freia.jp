@@ -5,7 +5,7 @@
 バターコーヒーの作り方
 =======================
 
-先日、他の人が作ったバターコーヒーを飲む機会がありました。今の自分は、だいぶ濃いめに作ってるみたいです。良い機会だったので、自分のレシピをまとめてみました。
+先日、他の人が作ったバターコーヒーを飲む機会がありました。味を比べてみると、今の自分はだいぶ濃いめに作ってるみたいです。良い機会だったので、自分のレシピをまとめてみました。
 
 .. figure:: butter-coffee-set.*
    :width: 80%
@@ -21,11 +21,13 @@
    * コーヒーメーカー
    * ブレンダー
 
-バターコーヒーでのダイエットについては、以下の3つのblogにまとめてあるので、そちらを参照してください。
+過去blog:
 
-* :doc:`../bulletproof-diet-try/index`
-* :doc:`../bulletproof-diet-try2/index`
-* :doc:`../bulletproof-diet-try3/index`
+   バターコーヒーでのダイエットについては、以下の3つのblogにまとめてあるので、そちらを参照してください。
+
+   * :doc:`../bulletproof-diet-try/index`
+   * :doc:`../bulletproof-diet-try2/index`
+   * :doc:`../bulletproof-diet-try3/index`
 
 
 .. contents::
@@ -182,5 +184,6 @@ MCTオイルをココナツオイルに変えると、風味が変わります�
 
 .. raw:: html
 
-   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/gp/shimizukawa/h3dGpx" title="2017/12/03 バターコーヒー作り"><img src="https://farm5.staticflickr.com/4520/24921972358_b521286063_z.jpg" width="640" height="360" alt="2017/12/03 バターコーヒー作り"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   <iframe align="center" src="http://flickrslidr.com/slideshow/view.php?g=m1Jeek" frameBorder="0" width="640" height="500" scrolling="no"></iframe><br/><small>Created with <a href="http://www.admarket.se" title="Admarket.se">Admarket's</a> <a href="http://flickrslidr.com" title="flickrSLiDR">flickrSLiDR</a>.</small>
+
 
