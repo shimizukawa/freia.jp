@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   bulletproof-coffee/index
    sphinxcon-jp-2017/index
    bpstudy-20171124/index
    maruishi-chouyo-akimatsuri/index
