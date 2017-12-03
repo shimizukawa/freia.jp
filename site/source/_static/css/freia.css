@@ -204,3 +204,19 @@ em.blog-article-date {
 em.blog-article-date::after {
     content: ": "
 }
+
+/* footnote */
+
+dl.footnote.brackets {
+    display: flex;
+    border: 1px solid gray;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+dl.footnote.brackets dt.label {
+    flex-basis: 2em;
+}
+dl.footnote.brackets dd.label {
+    flex-basis: auto;
+}
+
