@@ -183,8 +183,10 @@ MCTオイルをココナツオイルに変えると、風味が変わります�
 
 .. [#yoyogi-coffee] `代々木駅前にバターコーヒーの店 <http://www.buttercoffee.shop/>`_ がオープンして、1回行きました。味は薄め（普段がだいぶ濃いので...）。会社から徒歩10分はちょっと遠い。
 
+
+その他の写真
+
 .. raw:: html
 
-   <iframe align="center" src="http://flickrslidr.com/slideshow/view.php?g=m1Jeek" frameBorder="0" width="640" height="500" scrolling="no"></iframe><br/><small>Created with <a href="http://www.admarket.se" title="Admarket.se">Admarket's</a> <a href="http://flickrslidr.com" title="flickrSLiDR">flickrSLiDR</a>.</small>
-
+   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/gp/shimizukawa/Qx0HD9" title="2017/12/03 バターコーヒー作り"><img src="https://farm5.staticflickr.com/4520/24921972358_b521286063_z.jpg" width="640" height="360" alt="2017/12/03 バターコーヒー作り"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
