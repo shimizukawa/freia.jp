@@ -13,6 +13,11 @@
 
 インタビュー記事はこちら: `バターコーヒーダイエットに成功した人にお話を聞いてみた！ | ienomistyle おウチで飲む、食べる`_
 
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">★NEW★<br>バターコーヒーダイエットに成功した人にお話を聞いてみた！ <a href="https://t.co/3o265nnQii">https://t.co/3o265nnQii</a> <a href="https://t.co/z4WbQMOrk6">pic.twitter.com/z4WbQMOrk6</a></p>&mdash; イエノミスタイル (@ienomistyle) <a href="https://twitter.com/ienomistyle/status/942987741771583488?ref_src=twsrc%5Etfw">2017年12月19日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 .. _バターコーヒーダイエットに成功した人にお話を聞いてみた！ | ienomistyle おウチで飲む、食べる: https://www.ienomistyle.com/article/7178
 
