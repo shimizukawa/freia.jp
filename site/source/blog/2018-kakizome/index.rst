@@ -17,10 +17,10 @@ TL;DR
 * 2017年は3月に引っ越して生活がだいぶ変わりました。
 * 本と引っ越しにがっつり時間を使ったので予定の目標達成率は低いです
 
-ということで、 :doc:`../2017-kakizome/index` の振り返りと、2018年の目標について。
+ということで、2017年の :doc:`../2017-kakizome/index` の振り返りと、2018年の目標について。
 
-2017年の目標と反省
-===================
+2017年の振り返り
+=================
 
 以下が、2017年の目標と、成果です。
 
@@ -33,22 +33,6 @@ TL;DR
     そして各イベントでそれぞれ印象深い話や技術やなにかがあった気もしますが、だいたい覚えていません。これは、記録に残していないから覚えていないというよりも、本気で向き合ってなかったからじゃないかと思っています。
 
   2017年に参加したイベントは、必死にメモしたおかげで、どの内容もかなりハッキリ覚えてます。ただ、こうやって振り返ると、ちょっとイベント参加多すぎかな。
-
-  .. - :doc:`../maruishi-chouyo-akimatsuri/index`
-  .. - :doc:`../python-recursive-import/index`
-  .. - :doc:`../smartphine-zenfone3/index`
-  .. - :doc:`../pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index`
-  .. - :doc:`../sphinx-ogp-support/index`
-  .. - :doc:`../sphinx-private-hosting-on-heroku2/index`
-  .. - :doc:`../sphinx-private-hosting-on-heroku/index`
-  .. - :doc:`../disaster-prevention-manager-training/index`
-  .. - :doc:`../birthday42/index`
-  .. - :doc:`../repaire-smartphone-panel-zte-blade-v6/index`
-  .. - :doc:`../python3-hash-randomie/index`
-  .. - :doc:`../mynumber-age`
-  .. - :doc:`../kakutei-shinkoku-201702/index`
-  .. - :doc:`../python-qanda/index`
-  .. - :doc:`../2017-kakizome/index`
 
   - :doc:`../sphinxcon-jp-2017/index`
   - :doc:`../bpstudy-20171124/index`
@@ -100,6 +84,22 @@ TL;DR
 * × 英語のリスニングビデオを書き取る
 
   -> 何もしませんでした
+
+
+  .. - :doc:`../maruishi-chouyo-akimatsuri/index`
+  .. - :doc:`../python-recursive-import/index`
+  .. - :doc:`../smartphine-zenfone3/index`
+  .. - :doc:`../sphinx-ogp-support/index`
+  .. - :doc:`../sphinx-private-hosting-on-heroku2/index`
+  .. - :doc:`../sphinx-private-hosting-on-heroku/index`
+  .. - :doc:`../disaster-prevention-manager-training/index`
+  .. - :doc:`../birthday42/index`
+  .. - :doc:`../repaire-smartphone-panel-zte-blade-v6/index`
+  .. - :doc:`../python3-hash-randomie/index`
+  .. - :doc:`../mynumber-age`
+  .. - :doc:`../kakutei-shinkoku-201702/index`
+  .. - :doc:`../python-qanda/index`
+  .. - :doc:`../2017-kakizome/index`
 
 2017年にやっていたこととか
 ============================
