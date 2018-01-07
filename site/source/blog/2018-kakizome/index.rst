@@ -109,11 +109,16 @@ TL;DR
 Sphinxをはじめよう の改訂
 -------------------------
 
-`Sphinxをはじめよう 第2版`_ を10月に無事リリースしました。
+`Sphinxをはじめよう 第2版`_ を10月に無事リリースしました。著者は第1版と同じ4人です。
 
 .. figure:: ../../docs/images/picture978-4-87311-819-2.jpg
    :target: https://www.oreilly.co.jp/books/9784873118192/
    :width: 200
+
+あわせて読みたい: `「Sphinxをはじめよう 第二版」が出ます - Hack like a rolling stone`_
+
+.. _「Sphinxをはじめよう 第二版」が出ます - Hack like a rolling stone: http://tk0miya.hatenablog.com/entry/2017/10/18/011012
+
 
 .. _Sphinxをはじめよう 第2版: https://www.oreilly.co.jp/books/9784873118192/
 
@@ -141,7 +146,7 @@ Sphinxをはじめよう の改訂
 多くのPython入門本があるなかで、なぜまた新しい入門本をわざわざ翻訳したのか。この本はPython入門本ではなく、プログラミングの学び方を身に付けることに注力してしています。「プログラムを書いて作りたいものがある」「プログラミングを覚えて、面接を受けて、仕事を得て、チームで働きたい」といった、プロのプログラマーになるための学習に興味がある人に、何を学べば良いのかの全体像を伝えることが本書の目的です。ここに魅力を感じたので、翻訳を手掛けました。
 
 
-合わせて読みたい: :doc:`../pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index`
+あわせて読みたい: :doc:`../pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index`
 
 .. _The Self Taught Programmer: https://www.theselftaughtprogrammer.io/
 
