@@ -97,7 +97,7 @@ TL;DR
   - :doc:`../foundit-project-pydata-study/index`
 
 
-2. 英語のリスニングビデオを書き取る
+* × 英語のリスニングビデオを書き取る
 
   -> 何もしませんでした
 
