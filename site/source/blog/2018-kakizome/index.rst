@@ -127,6 +127,7 @@ Sphinxをはじめよう の改訂
 
 第1版から大幅に書き換わっていて、内容は相変わらず濃くて、翻訳するのもレビューするのも、がっつり取り組みました。年末に1回レビューを終えていて、あともう1,2回レビューを回したら、春までには出版されるんじゃないかなーと思います。
 
+- :doc:`../expert-python-programming-2nd/index`
 
 .. _Expert Python Programming 2nd Edition: https://www.packtpub.com/application-development/expert-python-programming-second-edition
 
@@ -190,7 +191,7 @@ Sphinxをはじめよう の改訂
 やります。
 もくもくとやります。
 
-半年くらいかけてIssueをトリアージしていく予定です。多すぎる気がかかり(Issue)を削減して、新機能とかにも手を出せるようにしていきたいお気持ち。
+半年くらいかけてIssueをトリアージしていく予定です。Issueが多すぎるという気がかかりを削減して、新機能とかにも手を出せるようにしていきたいお気持ち。
 
 そのための起爆剤として、 `Sphinx + 翻訳 Hack-a-thon 開発合宿`_ を開催しました。イベント終了後に改めて成果をblogにまとめます。
 
