@@ -14,10 +14,7 @@ Python Boot Camp in 静岡で講師してきました #pycamp
 
    参加者のみなさん（開始時）
 
-このblogは講師からみた参加レポートです。チュートリアル本体の様子なんかは、公式の開催レポートは別途書かれると思います。
-
-.. todo: -> `Python Boot Camp in 静岡を開催しました`_
-
+このblogは講師からみた参加レポートです。チュートリアル本体の様子なんかは、公式の開催レポート `「Python Boot Camp in 静岡」を開催しました！`_ を参照してください。
 
 .. note::
 
@@ -169,7 +166,7 @@ Python Boot Camp 本編
 
 
 
-..  .. _Python Boot Camp in 静岡を開催しました: http://pyconjp.blogspot.jp/...
+.. _「Python Boot Camp in 静岡」を開催しました！: https://pyconjp.blogspot.jp/2017/12/pycamp-in-shizuoka-report.html
 
 .. _Python Boot Camp in 静岡: https://pyconjp.connpass.com/event/67533/
 .. _懇親会: https://pyconjp.connpass.com/event/67534/
