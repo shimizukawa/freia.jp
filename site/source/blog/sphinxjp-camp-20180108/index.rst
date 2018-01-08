@@ -99,3 +99,8 @@ Sphinx開発合宿やってよかった
 - @shimizukawa: Sphinx-2.0に向けての計画をしました。今日はもらってるPRレビューします。後はIssueのトリアージをしつつ、もらうIssueをコミッター以外の協力者が確認したり対応しやすくするためのルール整備をします。
 
 
+おまけ
+======
+
+夜中に、ドメイン登録料の話で盛り上がって、その流れで @tk0miya が ``usaturn.club`` を80円弱で取得。 http://www.usaturn.club/ をgithub pages使って公開。さっきそこに http://www.usaturn.club/ にogタグを指定するPR出したら速攻マージされた。今回の合宿の成果だ！
+
