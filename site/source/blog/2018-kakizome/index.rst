@@ -198,7 +198,7 @@ Sphinxをはじめよう の改訂
 
 半年くらいかけてIssueをトリアージしていく予定です。Issueが多すぎるという気がかかりを削減して、新機能とかにも手を出せるようにしていきたいお気持ち。
 
-そのための起爆剤として、 `Sphinx + 翻訳 Hack-a-thon 開発合宿`_ を開催しました。イベント終了後に改めて成果をblogにまとめます。
+そのための起爆剤として、 `Sphinx + 翻訳 Hack-a-thon 開発合宿`_ を開催しました。イベント終了後に改めて成果をblogにまとめます。 -> :doc:`../sphinxjp-camp-20180108/index`
 
 .. _Sphinx + 翻訳 Hack-a-thon 開発合宿: https://sphinxjp.connpass.com/event/72062/
 

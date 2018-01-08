@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxjp-camp-20180108/index
    2018-kakizome/index
 
 2017年
