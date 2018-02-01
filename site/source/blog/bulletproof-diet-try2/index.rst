@@ -123,7 +123,7 @@
 関連blog
 ========
 
-* :doc:`../bulletproof-diet-try1/index`
+* :doc:`../bulletproof-diet-try/index`
 * :doc:`../bulletproof-diet-try3/index`
 * :doc:`../bulletproof-coffee/index`
 
