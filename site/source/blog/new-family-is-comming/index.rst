@@ -12,6 +12,7 @@
 4日間病院で過ごして、母子ともに健康な状態で、2月4日に自宅に帰ってきました。現在、未知の生活3日目です。おむつ換え中おしっこかけられ体験は1日目に積みました。
 
 .. figure:: baby-and-python.jpg
+   :width: 80%
 
    自宅初日
 
@@ -24,38 +25,35 @@
 ログ
 =======
 
-1/30 23:13
+1/30 23時に病院へ
 
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">夜の外出～</p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/958342529195286529?ref_src=twsrc%5Etfw">2018年1月30日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-1/30 23:52
-
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">朝4時に起きた日の23時に外出イベント発生するとはなー</p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/958352212299673600?ref_src=twsrc%5Etfw">2018年1月30日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-1/31 3:20
+1/31 3時ちょうどに産まれました
 
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">done</p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/958404636032909312?ref_src=twsrc%5Etfw">2018年1月30日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-1/31 5:48
-
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">よし、帰ろー</p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/958441777198858241?ref_src=twsrc%5Etfw">2018年1月30日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-1/31 10:25
+7時くらいから仮眠
 
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">むくり</p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/958511630660247553?ref_src=twsrc%5Etfw">2018年1月31日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
