@@ -190,6 +190,20 @@ a.book-sphinx2 {
     margin: 4px auto;
     background-image: url("http://www.freia.jp/taka/_static/img/book-sphinx2.jpg");
 }
+a.book-epp2 {
+    display: block;
+    width: 125px;
+    height: 164px;
+    margin: 4px auto;
+    background-image: url("http://www.freia.jp/taka/_static/img/book-epp2.jpg");
+}
+a.book-tstp {
+    display: block;
+    width: 125px;
+    height: 177px;
+    margin: 4px auto;
+    background-image: url("http://www.freia.jp/taka/_static/img/book-tstp.jpg");
+}
 
 /* blog relates */
 
