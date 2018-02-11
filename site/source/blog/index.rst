@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxjp-hack-a-thon-20180211/index
    new-family-is-comming/index
    sphinxjp-camp-20180108/index
    2018-kakizome/index
