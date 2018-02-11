@@ -41,9 +41,9 @@ Sphinx + 翻訳 hack-a-thon 2018.02 #sphinxjp
 
   * `Issue #4520: Subpackage not in toc <https://github.com/sphinx-doc/sphinx/issues/4520>`__
 
-* @shimizukawa: Sphinxのタグとブランチのルールを変えることになったので、 `#4586 <https://github.com/sphinx-doc/sphinx/issues/4586>`__ で実作業を進めました。あと、@tk0miyaリーダーの悩みを聞いてうなずく係をしました。
+* @shimizukawa: Sphinxのタグとブランチのルールを変えることになったので、実作業を進めました。あと、@tk0miyaリーダーの悩みを聞いてうなずく係をしました。
 
-  * http://www.sphinx-doc.org/ のURL（ドキュメントのバージョン）が、 ``http://www.sphinx-doc.org/en/1.6.5/`` のようにバージョン3桁目まで含んでいたのが、新しいルールになったおかげで ``http://www.sphinx-doc.org/en/1.6/`` で維持されるようになりました。これでリンク切れされなくなる！
+  *  `Issue #4586: Replace old release tags to vX.Y.Z format <https://github.com/sphinx-doc/sphinx/issues/4586>`__ タグの付け替え作業。これで、 http://www.sphinx-doc.org/ のURL（ドキュメントのバージョン）が、 ``http://www.sphinx-doc.org/en/1.6.5/`` のようにバージョン3桁目まで含んでいたのが、新しいルールになったおかげで ``http://www.sphinx-doc.org/en/1.6/`` で維持されるようになりました。これでSphinxのバグ修正リリースごとにドキュメントURLが変わらなくなる！
 
 * crohaco: #pyhack 雪山合宿で、blogをSphinxにしようというのを始めたので、それを進めました。Sphinxだとblog向け機能がなくて困ってましたが、途中で miyadaiku_ に切り替えてほとんどの課題が解決しました。
 
