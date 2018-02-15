@@ -12,12 +12,12 @@
 
 :タイトル: `独学プログラマー`_ Python言語の基本から仕事のやり方まで
 :原題: `The Self-Taught Programmer`_: The Definitive Guide to Programming Professionally
-:出版社: 日経BP社
-:Price: 2,200円+税
-:ISBN-13: 978-4-82229-227-0
 :著者: コーリー・アルソフ(Cory Althoff)
 :監訳: 清水川貴之
 :翻訳: 清水川貴之、新木雅也
+:出版社: 日経BP社
+:Price: 2,200円+税
+:ISBN-13: 978-4-82229-227-0
 
 
 .. _`独学プログラマー`: http://ec.nikkeibp.co.jp/item/books/C92270.html
