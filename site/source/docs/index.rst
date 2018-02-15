@@ -60,7 +60,9 @@ Information
 :著者: コーリー・アルソフ(Cory Althoff)
 :監訳: 清水川貴之
 :翻訳: 清水川貴之、新木雅也
-:関連記事: :doc:`../blog/pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index`
+:関連記事:
+   - :doc:`../blog/pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index`
+   - :doc:`../blog/the-self-taught-programmer-intro/index`
 
 
 `Sphinxをはじめよう 第2版`__
