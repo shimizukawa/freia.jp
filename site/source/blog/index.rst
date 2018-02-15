@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   the-self-taught-programmer-intro/index
    domain-registrar/index
    sphinxjp-hack-a-thon-20180211/index
    new-family-is-comming/index
