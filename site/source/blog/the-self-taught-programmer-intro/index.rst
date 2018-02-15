@@ -8,7 +8,7 @@
 清水川が監訳した `独学プログラマー`_ (原題 `The Self-Taught Programmer`_) が2018/2/23に日経BP社さんより発売されます！
 
 .. figure:: the-self-taught-programmer-cover.*
-   :width: 50%
+   :width: 100%
 
 :タイトル: `独学プログラマー`_ Python言語の基本から仕事のやり方まで
 :原題: `The Self-Taught Programmer`_: The Definitive Guide to Programming Professionally
