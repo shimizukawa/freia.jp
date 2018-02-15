@@ -118,7 +118,7 @@
 
 2017年7月に、PyCharmのblogに掲載されたインタビューを翻訳したので参考にどうぞ。
 
-* :doc:`../blog/pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index`
+* :doc:`../pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index`
 
 
 また、Forbesにもインタビュー記事があります。
