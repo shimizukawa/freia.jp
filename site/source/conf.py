@@ -67,8 +67,8 @@ html_theme_options = {
     'bootswatch_theme': "flatly",
 }
 html_sidebars = {
-    'index': ['relations.html', 'pyq.html', 'books.html'],
-    '**': ['relations.html', 'localtoc.html', 'pyq.html', 'books.html'],
+    'index': ['relations.html', 'books.html', 'pyq.html'],
+    '**': ['relations.html', 'localtoc.html', 'books.html', 'pyq.html'],
 }
 
 html_title = project
