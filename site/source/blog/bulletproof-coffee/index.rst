@@ -59,7 +59,7 @@ MCTオイルとコーヒーを用意します
 
 .. raw:: html
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/24921972648/in/album-72157690436625785/" title="バターコーヒーの材料と道具"><img src="https://farm5.staticflickr.com/4576/24921972648_f08cfb07fc_z.jpg" width="640" height="360" alt="バターコーヒーの材料と道具"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   <a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/shimizukawa/24944432148/in/album-72157690436625785/" title="バターコーヒーの材料と道具"><img src="https://farm5.staticflickr.com/4528/24944432148_5811b6bafb_z.jpg" width="640" height="360" alt="バターコーヒーの材料と道具"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 MCTオイルは、豊洲のアオキで買ってます。Amazonにもうすこし安いのもあります。
 
@@ -183,6 +183,8 @@ MCTオイルをココナツオイルに変えると、風味が変わります�
 .. raw:: html
 
    <div id="flickrembed"></div><div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;"><a href="http://www.queensawards.org.uk/vouchers/tui.co.uk">TUI promo codes for the UK</a></div><script src='https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=www.flickr.com/photos/shimizukawa/albums/72157690436625785&sort=5&by=album&theme=default&scale=fill&limit=30&skin=default&autoplay=true'></script><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+`show on flickr <https://www.flickr.com/photos/shimizukawa/albums/72157690436625785/with/24944432148/>`__
 
 
 関連blog
