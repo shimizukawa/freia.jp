@@ -1,5 +1,5 @@
 :date: 2018-02-15 23:50
-:tags: python, tstp
+:tags: python, 独プロ
 
 ======================================================
 『独学プログラマー』 The Self-Taught Programmer の紹介
