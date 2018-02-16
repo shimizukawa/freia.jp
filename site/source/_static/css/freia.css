@@ -85,12 +85,15 @@ blockquote {
     background: #F7FDE3;
     color: #606060;
     padding: 10px;
+    font-size: inherit;
 }
 
 /*** field ***/
 
 dl.field-list dd {
     margin-left: 30px;
+    margin-top: 3px;
+    margin-bottom: 5px;
 }
 
 /**** image/figure ***/
@@ -176,6 +179,10 @@ div.amazlet-box {
 }
 
 /* sidebar book */
+div.books {
+    border-bottom: 1px solid gray;
+}
+
 a.book-pypro2 {
     display: block;
     width: 124px;
