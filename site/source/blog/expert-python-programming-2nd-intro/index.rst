@@ -20,7 +20,7 @@
 :ISBN-13: 978-404-8930611
 :購入: Amazon_, `カドカワストア`_
 
-.. _`エキスパートPythonプログラミング`: https://www.kadokawa.co.jp/product/301801000262/
+.. _`エキスパートPythonプログラミング 改訂2版`: https://www.kadokawa.co.jp/product/301801000262/
 .. _`Expert Python Programming - Second Edition`: https://www.packtpub.com/application-development/expert-python-programming-second-edition
 .. _`Amazon`: http://amzn.to/2o5JRvZ
 .. _カドカワストア: https://store.kadokawa.co.jp/shop/g/g301801000262/
@@ -63,8 +63,7 @@
 
 1版からの変更がない部分に **(変更無し)** 等のマークを入れてありますが、変更無しとした箇所についても、1版で誤訳していた部分や、読みづらかった部分など、翻訳自体の見直しは行っています。
 
-.. literal-block::
-   :language: rst
+.. parsed-literal::
 
   * 序文
 
