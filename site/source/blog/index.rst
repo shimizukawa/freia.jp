@@ -31,6 +31,7 @@
    python-recursive-import/index
    pyhack-20171111/index
    pycamp201711-kagoshima/index
+   google-home/index
    smartphine-zenfone3/index
    finpy-20171025-nenkin/index
    sphinxjp-hack-a-thon-20171021/index
