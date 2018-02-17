@@ -8,7 +8,6 @@
 清水川が監訳した `独学プログラマー`_ (原題 `The Self-Taught Programmer`_) が2018/2/23に日経BP社さんより発売されます！
 
 .. figure:: the-self-taught-programmer-cover.*
-   :width: 100%
 
 :タイトル: `独学プログラマー`_ Python言語の基本から仕事のやり方まで
 :原題: `The Self-Taught Programmer`_: The Definitive Guide to Programming Professionally
@@ -18,10 +17,13 @@
 :出版社: 日経BP社
 :Price: 2,200円+税
 :ISBN-13: 978-4-82229-227-0
+:購入: Amazon_, `日経BP書店`_, `楽天ブックス`_
 
-
-.. _`独学プログラマー`: http://ec.nikkeibp.co.jp/item/books/C92270.html
-.. _`The Self-Taught Programmer`: https://www.theselftaughtprogrammer.io/
+.. _独学プログラマー: http://ec.nikkeibp.co.jp/item/books/C92270.html
+.. _The Self-Taught Programmer: https://www.theselftaughtprogrammer.io/
+.. _Amazon: http://amzn.to/2EwY6Ea
+.. _楽天ブックス: https://books.rakuten.co.jp/rb/15362804/
+.. _日経BP書店: http://ec.nikkeibp.co.jp/item/books/C92270.html
 
 
 どんな本？
@@ -151,5 +153,5 @@
 
 .. raw:: html
 
-   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4822292274/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51dx2ttFeOL._SL160_.jpg" alt="独学プログラマー Python言語の基本から仕事のやり方まで" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4822292274/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">独学プログラマー Python言語の基本から仕事のやり方まで</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 18.02.11</div></div><div class="amazlet-detail">コーリー・アルソフ <br />日経BP社 <br />売り上げランキング: 1,763<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4822292274/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4822292274/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51dx2ttFeOL._SL160_.jpg" alt="独学プログラマー Python言語の基本から仕事のやり方まで" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4822292274/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">独学プログラマー Python言語の基本から仕事のやり方まで</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 18.02.11</div></div><div class="amazlet-detail">コーリー・アルソフ <br />日経BP社 <br />売り上げランキング: 536<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4822292274/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
