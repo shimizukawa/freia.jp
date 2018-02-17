@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   expert-python-programming-2nd-intro/index
    the-self-taught-programmer-sample/index
    the-self-taught-programmer-intro/index
    domain-registrar/index
