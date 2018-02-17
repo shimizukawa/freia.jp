@@ -54,18 +54,30 @@ Python mini hack-a-thon 85回 #pyhack
 やったこと発表
 ==============
 
-.. .. figure:: todo.*
-.. 
-..    みんなの「今日やること」
+.. figure:: todo.*
+
+   みんなの「今日やること」
 
 初発表の人は5分、それ以外の人は3分で、今日やったことを紹介していきましょう。という時間。30人弱いると2時間以上かかっちゃう。
-
-発表内容は `#pyhack`_ ハッシュタグで見れると思います。
 
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pyhack?src=hash&amp;ref_src=twsrc%5Etfw">#pyhack</a> やったこと発表タイム (@ 株式会社ビープラウド - <a href="https://twitter.com/beproud_jp?ref_src=twsrc%5Etfw">@beproud_jp</a> in 渋谷区, 東京都) <a href="https://t.co/lBTKhNtmS9">https://t.co/lBTKhNtmS9</a> <a href="https://t.co/LyDdOsQphK">pic.twitter.com/LyDdOsQphK</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/964787921055309824?ref_src=twsrc%5Etfw">2018年2月17日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+自分の成果発表で、 :doc:`『独学プログラマー』 <../the-self-taught-programmer-intro/index>` を1冊プレゼントしました。
+
+.. figure:: book-present1.jpg
+   :width: 60%
+
+   希望者のジャンケン対決！
+
+.. figure:: book-present2.jpg
+   :width: 90%
+
+   勝ち抜けたのは @yotchang4s でした。おめでとうございます～
+
+発表内容は `#pyhack`_ ハッシュタグで見れると思います。
 
 お疲れ様でしたー
 
