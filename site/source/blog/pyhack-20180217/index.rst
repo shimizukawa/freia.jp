@@ -68,9 +68,9 @@ Python mini hack-a-thon 85回 #pyhack
 自分の成果発表で、 :doc:`『独学プログラマー』 <../the-self-taught-programmer-intro/index>` を1冊プレゼントしました。
 
 .. figure:: book-present1.jpg
+   :width: 90%
 
    希望者のジャンケン対決！
-   :width: 90%
 
 .. figure:: book-present2.jpg
    :width: 60%
