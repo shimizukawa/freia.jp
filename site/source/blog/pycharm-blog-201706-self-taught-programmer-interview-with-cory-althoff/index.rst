@@ -5,6 +5,10 @@
 インタビュー: "独学プログラマー" コーリー・アルソフ 【PyCharm Blog 翻訳】
 ========================================================================================
 
+.. note::
+
+   2018/2/26: `邦訳書籍へのリンクを追加 <>`__
+
 独学でゼロからプログラミングを学んでその体験を元に本を書いた、コーリー・アルソフさんのインタビュー記事（英語）がPyCharm Blogに掲載されて、非常に良い記事だったので `和訳の許可`__ をもらって和訳しました。
 
 .. __: https://blog.jetbrains.com/pycharm/2017/06/self-taught-programmer-interview-with-cory-althoff/#comment-308569
@@ -50,7 +54,9 @@ Posted on 2017/6/27 by `Dmitry Filippov`_
 
 .. _`The Self-Taught Programmer: The Definitive Guide to Programming Professionally`: https://www.amazon.com/dp/B01M01YDQA
 
-この記事は、政治学の学位を取得後にソフトウェア開発の世界に飛び込み、本当に独学でプログラミングを学んだ コーリー・アルソフ（Cory Althoff）氏へのインタビューです。彼は、プロの開発者になるのに非常に苦労しましたが、1年間独学でプログラミングを学び、eBayのソフトウェアエンジニアとして仕事をするのに十分なスキルを身に付けました。いま彼は新しい人生を楽しんでいます。そして、いまからちょうど半年前、彼と同様にプログラミングで仕事したい人たちに向けた本 `The Self-Taught Programmer: The Definitive Guide to Programming Professionally`_ を出版しました。この本は多くの人を引きつけ、GoodreadsやAmazonなどの複数の書籍レビュープラットフォームで多くの肯定的なレビュー投稿を得ました。彼の経験とビジョンについて紹介します。
+.. _『独学プログラマー Python言語の基本から仕事のやり方まで』: http://amzn.to/2orjnF8
+
+この記事は、政治学の学位を取得後にソフトウェア開発の世界に飛び込み、本当に独学でプログラミングを学んだ コーリー・アルソフ（Cory Althoff）氏へのインタビューです。彼は、プロの開発者になるのに非常に苦労しましたが、1年間独学でプログラミングを学び、eBayのソフトウェアエンジニアとして仕事をするのに十分なスキルを身に付けました。いま彼は新しい人生を楽しんでいます。そして、いまからちょうど半年前、彼と同様にプログラミングで仕事したい人たちに向けた本 `The Self-Taught Programmer: The Definitive Guide to Programming Professionally`_ （邦訳 `『独学プログラマー Python言語の基本から仕事のやり方まで』`_ ）を出版しました。この本は多くの人を引きつけ、GoodreadsやAmazonなどの複数の書籍レビュープラットフォームで多くの肯定的なレビュー投稿を得ました。彼の経験とビジョンについて紹介します。
 
 ---------
 
