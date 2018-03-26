@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   the-self-taught-programmer-misc/index
    pyhack-20180217/index
    expert-python-programming-2nd-intro/index
    the-self-taught-programmer-sample/index
