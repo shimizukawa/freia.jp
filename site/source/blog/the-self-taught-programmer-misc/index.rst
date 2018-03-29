@@ -30,6 +30,8 @@
 
 修正内容はこちら: http://public-errata.appspot.com/errata/book/9784822292270/
 
+.. note:: 3/29 追記. さらに増刷が決定しました。3刷り！
+
 
 読者の反応
 ===========
