@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxjp-hack-a-thon-20180401/index
    windows-native-ssh-client/index
    the-self-taught-programmer-misc/index
    pyhack-20180217/index
