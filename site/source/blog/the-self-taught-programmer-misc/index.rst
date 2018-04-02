@@ -42,40 +42,10 @@
 
 .. _Amazonでの評価: http://amzn.to/2BUSS3e
 
-Twitterでの反応をいくつか。
-
-.. raw:: html
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』を読んで「号泣」いただき、大変ありがとうございます。補章には、訳者のPythonに対する思いが込められていると思います。 <a href="https://t.co/nOHtyWdZ7L">https://t.co/nOHtyWdZ7L</a></p>&mdash; 日経ソフトウエア (@nikkei_software) <a href="https://twitter.com/nikkei_software/status/967960518735491072?ref_src=twsrc%5Etfw">2018年2月26日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">秋葉原のゆうりんどうで独学プログラマー買いました。今日は4章の途中まで読んだ、するする読める…「わかっているひと（訳者）の頭フィルター」を通して出てきた文章はわかりやすいなあ… <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a></p>&mdash; 32imuf (@32imuf) <a href="https://twitter.com/32imuf/status/968516921183252480?ref_src=twsrc%5Etfw">2018年2月27日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">とりあえず、4時間程度かけてざっと完読。これ、実況中継シリーズ(まだあるのかな？)的に手を動かせられる構成だけど、本当に何も分かってない人がどの程度読めるのか試してみて欲しいなw<br><br>独学プログラマー Python言語の基本から仕事のやり方まで 日経BP社 <a href="https://t.co/Tf6ewv8hZ3">https://t.co/Tf6ewv8hZ3</a></p>&mdash; りぼ (@rebornsite) <a href="https://twitter.com/rebornsite/status/968742363710611457?ref_src=twsrc%5Etfw">2018年2月28日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">正直、独学プログラマーとか読んでる暇があるならプロダクト作りながら学べよとしか思わない。</p>&mdash; tdual@情報幾何女子 (@tdualdir) <a href="https://twitter.com/tdualdir/status/971187769736290305?ref_src=twsrc%5Etfw">2018年3月7日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">昨日買った本、独学プログラマーと言うのですが、さらっと全体漁った感じ物凄く良さみが深い。Python 基礎からアルゴリズムその他までおせえてくれるのほんとにありがたい…。</p>&mdash; ぺんた@東京農業大に行く (@Pentab_seijin) <a href="https://twitter.com/Pentab_seijin/status/972115498824482816?ref_src=twsrc%5Etfw">2018年3月9日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">独学プログラマー今日、コンビニで回収して速読でまず読んでみた。読みやすくて、内容がわかりやすい。ちょっとやってみようかなと思えてくるのが不思議。本のサイズもビジネス書程度で電車の中でも読めそう。本屋においてあるようなプログラミングの入門書とはちょっとテイストが違う本でした。 <a href="https://t.co/S3K80Y6w0M">https://t.co/S3K80Y6w0M</a></p>&mdash; ysk (@yskMg30) <a href="https://twitter.com/yskMg30/status/973931794599788549?ref_src=twsrc%5Etfw">2018年3月14日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">またしてもPythonの本です。<br><br>そもそもプログラムとは何なのか？というレベルから、初心者向けに非常に丁寧に説明してくれている優れた本です。また最後の方に、この前ツイートした本も紹介されてます！<br><br>プログラム独学プログラマー Python言語の基本から仕事のやり方まで <a href="https://t.co/LMFm4hodb0">https://t.co/LMFm4hodb0</a> <a href="https://t.co/gPbUtJXd7O">pic.twitter.com/gPbUtJXd7O</a></p>&mdash; ころんぼ (@fritoris) <a href="https://twitter.com/fritoris/status/974665518987661312?ref_src=twsrc%5Etfw">2018年3月16日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』読んでるけどかなりいい、文系出身プログラマーでコードなんとなく書けるけど背景わかんねえわみたいな人、読むと嬉しい気分になると思う</p>&mdash; 右肩ゲロまみれ (@subwaypkpk) <a href="https://twitter.com/subwaypkpk/status/975205309894475776?ref_src=twsrc%5Etfw">2018年3月18日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Twitterでの反応をTogetterでまとめました。
 
 
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">みんなのpythonとかその他何冊かの本でクラスを勉強していたけど、一番わかりやすかったのは<br>独学プログラマー<br>だと思った</p>&mdash; ありま　かいと (@kaeruarc) <a href="https://twitter.com/kaeruarc/status/976382613144219649?ref_src=twsrc%5Etfw">2018年3月21日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">独学プログラマー読み終わったから感想書いた。<a href="https://t.co/a6tJaftdI6">https://t.co/a6tJaftdI6</a></p>&mdash; 無糖 (@nsnonsugar) <a href="https://twitter.com/nsnonsugar/status/976703691930480640?ref_src=twsrc%5Etfw">2018年3月22日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+- `『独学プログラマー』感想、反応まとめ - Togetter <https://togetter.com/li/1214526>`_
 
 
 見掛けたblogをいくつか
@@ -89,6 +59,8 @@ Twitterでの反応をいくつか。
 - `『独学プログラマー』でPythonを0から学んでみる（１） - たかくんの成長 <http://karia68.hatenablog.com/entry/2018/03/24/181541>`_
 - `『独学プログラマー』でPythonを0から学んでみる（２） - たかくんの成長 <http://karia68.hatenablog.com/entry/2018/03/25/151439>`_
 - `『独学プログラマー』でPythonを0から学んでみる（３） - たかくんの成長 <http://karia68.hatenablog.com/entry/2018/03/26/173820>`_
+
+- `独学プログラマーのやつ - 噂によると俺でもAIエンジニアになれるらしい <https://kaein.hatenablog.com/entry/2018/03/31/%E7%8B%AC%E5%AD%A6%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E3%81%AE%E3%82%84%E3%81%A4>`_
 
 
 Python入門者向けに活動している知り合いに書評をお願いしました。ダメなところも書いて欲しい、と依頼したその結果は・・・
@@ -105,6 +77,7 @@ Python入門者向けに活動している知り合いに書評をお願いし�
 
 - `独学プログラマーが発売されるってよ！ <http://kamekokamekame.net/book/2018/02/17/article.html>`_
 - `書籍「独学プログラマー Python言語の基本から仕事のやり方まで」発売！ | QUALIA SYSTEMS <https://staff.qualias.jp/news/python_book_review/>`_
+- `独学プログラマー Python言語の基本から仕事のやり方まで - terapyon-books - Scrapbox <https://scrapbox.io/terapyon-books/%E7%8B%AC%E5%AD%A6%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC_Python%E8%A8%80%E8%AA%9E%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%81%8B%E3%82%89%E4%BB%95%E4%BA%8B%E3%81%AE%E3%82%84%E3%82%8A%E6%96%B9%E3%81%BE%E3%81%A7>`_
 
 
 書店巡り
@@ -126,39 +99,10 @@ Python入門者向けに活動している知り合いに書評をお願いし�
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』POP置かせてもらった！よろしくお願いしますー <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ 三省堂書店 神保町本店 - <a href="https://twitter.com/honten_sanseido?ref_src=twsrc%5Etfw">@honten_sanseido</a> in 千代田区, 東京都) <a href="https://t.co/AdSCYcRP1N">https://t.co/AdSCYcRP1N</a> <a href="https://t.co/V8qCW1UQdT">pic.twitter.com/V8qCW1UQdT</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/971972228983111680?ref_src=twsrc%5Etfw">2018年3月9日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">駅構内の本屋にも『独学プログラマー』置いてた！ <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ book express in 台東区, 東京都) <a href="https://t.co/WG867plk4p">https://t.co/WG867plk4p</a> <a href="https://t.co/vZiIHwhRC4">pic.twitter.com/vZiIHwhRC4</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/971984694421045251?ref_src=twsrc%5Etfw">2018年3月9日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』ダブルだ！POPは預けたので後で置いてもらえる（と思う） <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ 明正堂書店 - <a href="https://twitter.com/K92style?ref_src=twsrc%5Etfw">@k92style</a> in 台東区, 東京都) <a href="https://t.co/hX9ByiwVDP">https://t.co/hX9ByiwVDP</a> <a href="https://t.co/3GEmfgzUB3">pic.twitter.com/3GEmfgzUB3</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/971989092694028288?ref_src=twsrc%5Etfw">2018年3月9日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+その他ツイートはTogetterにまとめました
 
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』1冊、『エキスパートPythonプログラミング 改訂2版』2冊、あったー (@ 有隣堂 - <a href="https://twitter.com/yurindo_akb?ref_src=twsrc%5Etfw">@yurindo_akb</a> in 千代田区, 東京都) <a href="https://t.co/ab9jPPShGe">https://t.co/ab9jPPShGe</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/971996535872397313?ref_src=twsrc%5Etfw">2018年3月9日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』『エキスパートPythonプログラミング 改訂2版』両方平置き！ <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> <a href="https://twitter.com/hashtag/expertpython?src=hash&amp;ref_src=twsrc%5Etfw">#expertpython</a> (@ 書泉ブックタワー - <a href="https://twitter.com/shosen_bt?ref_src=twsrc%5Etfw">@shosen_bt</a> in 千代田区, 東京都) <a href="https://t.co/zwtcWpD1ss">https://t.co/zwtcWpD1ss</a> <a href="https://t.co/RrRbXxUHpl">pic.twitter.com/RrRbXxUHpl</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/971999692765609984?ref_src=twsrc%5Etfw">2018年3月9日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』、POP置いてもらえるやったー！ <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ 紀伊國屋書店 大手町ビル店 in 千代田区, 東京都) <a href="https://t.co/2IC4Hdb2AH">https://t.co/2IC4Hdb2AH</a> <a href="https://t.co/XNlDUqRdD3">pic.twitter.com/XNlDUqRdD3</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/972019662656606208?ref_src=twsrc%5Etfw">2018年3月9日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』POP置いてきた！8冊くらい平積みされてた。写真のSNS公開は上に確認が要るらしいので面倒で断念.. <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ ブックファースト 新宿店 in 新宿区, 東京都) <a href="https://t.co/6Kk7rqaMb8">https://t.co/6Kk7rqaMb8</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/972333377192853504?ref_src=twsrc%5Etfw">2018年3月10日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』が週間ランキングで5位になってた！！POPもお願いしてきました <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ 紀伊國屋書店 新宿本店 - <a href="https://twitter.com/KinoShinjuku?ref_src=twsrc%5Etfw">@kinoshinjuku</a> in 新宿区, 東京都) <a href="https://t.co/CVFpih70NQ">https://t.co/CVFpih70NQ</a> <a href="https://t.co/G3rk2QMGxl">pic.twitter.com/G3rk2QMGxl</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/972336864458878977?ref_src=twsrc%5Etfw">2018年3月10日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』2冊発見～ <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ 文教堂書店 東陽町駅前店 in 江東区, 東京都) <a href="https://t.co/x5fAl8msB8">https://t.co/x5fAl8msB8</a> <a href="https://t.co/DZIMCxUA6H">pic.twitter.com/DZIMCxUA6H</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/973101481464418305?ref_src=twsrc%5Etfw">2018年3月12日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』のPOP置かせてもらった！あとでラミネート加工するらしい。数えたら3つのコーナーに合計33冊あった。すげー <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ ジュンク堂書店 池袋本店 - <a href="https://twitter.com/junkudo_ike?ref_src=twsrc%5Etfw">@junkudo_ike</a> in 豊島区, 東京都) <a href="https://t.co/U64pr2W5Il">https://t.co/U64pr2W5Il</a> <a href="https://t.co/MpZ0UqdT3O">pic.twitter.com/MpZ0UqdT3O</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/973771017515683842?ref_src=twsrc%5Etfw">2018年3月14日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">お知らせ：日経BP社『独学プログラマー　Python言語の基本から仕事のやり方まで』の監訳者、清水川貴之さんから直筆POPをいただきました！ぜひ店頭でご覧ください。 <a href="https://t.co/bXzqJeopMa">pic.twitter.com/bXzqJeopMa</a></p>&mdash; ジュンク堂書店池袋本店/PC書 (@junkudo_ike_pc) <a href="https://twitter.com/junkudo_ike_pc/status/974264527909928960?ref_src=twsrc%5Etfw">2018年3月15日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』POP置いてもらった～ <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ 三省堂書店 池袋本店 - <a href="https://twitter.com/ikehon_sanseido?ref_src=twsrc%5Etfw">@ikehon_sanseido</a> in 豊島区, 東京都) <a href="https://t.co/whSyvKpcl4">https://t.co/whSyvKpcl4</a> <a href="https://t.co/Vkygpg5Dxs">pic.twitter.com/Vkygpg5Dxs</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/973775173227827200?ref_src=twsrc%5Etfw">2018年3月14日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+- `『独学プログラマー』書店まわり - Togetter <https://togetter.com/li/1214549>`_
 
 打ち上げ
 ========
@@ -217,4 +161,17 @@ Python入門者向けに活動している知り合いに書評をお願いし�
 
 .. _著名Pythonista清水川貴之氏が語る「独学プログラマー」が陥る落とし穴の回避法 - エンジニアtype | 転職＠type: https://type.jp/et/feature/6678
 
+
+日経新聞の1面に広告掲載
+========================
+
+日経新聞の1面に自分の名前が載るとは..びっくり！
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">大好評の新刊『独学プログラマー Python言語の基本から仕事のやり方まで』が本日の日経新聞朝刊に掲載されました。Pythonプログラミングに興味のある方に届けばいいなと思います。よろしくお願いいたします。<a href="https://t.co/cZQWNUphtG">https://t.co/cZQWNUphtG</a> <a href="https://t.co/lIq1rNojPh">pic.twitter.com/lIq1rNojPh</a></p>&mdash; 日経ソフトウエア (@nikkei_software) <a href="https://twitter.com/nikkei_software/status/979928300633047040?ref_src=twsrc%5Etfw">2018年3月31日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">日経新聞の1面に『独学プログラマー』の広告載ったらしい～。監訳がんばったので多くの人に価値を届けられると嬉しいなー <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a>  <a href="https://t.co/7Y556MliSP">https://t.co/7Y556MliSP</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/979931043997171712?ref_src=twsrc%5Etfw">2018年3月31日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
