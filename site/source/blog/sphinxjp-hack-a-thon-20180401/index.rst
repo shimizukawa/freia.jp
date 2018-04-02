@@ -14,7 +14,7 @@ SphinxのHack-a-thonイベントに参加してきました。
 自分は、乳児の沐浴があるので17時で撤収しました。
 
 :イベント: `Sphinx+翻訳 hack-a-thon 2018.04`_
-:参加者: @tk0miya, @shimizukawa, @KenOnodera1988, nskgch, @takuan_osho, @naru0ga
+:参加者: @tk0miya, @shimizukawa, @KenOnodera1988, nskgch, @takuan_osho, @naru0ga, @cocoatomo, @usaturn
 :会場: タイムインターメディア社（曙橋）
 
 .. _Sphinx+翻訳 hack-a-thon 2018.04: https://sphinxjp.connpass.com/event/81858/
