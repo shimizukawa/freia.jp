@@ -7,6 +7,8 @@
 .. toctree::
    :maxdepth: 1
 
+   transfer-django-redshift-backend-to-jazzband/index
+   pyhack-20180407/index
    sphinxjp-hack-a-thon-20180401/index
    windows-native-ssh-client/index
    the-self-taught-programmer-misc/index
