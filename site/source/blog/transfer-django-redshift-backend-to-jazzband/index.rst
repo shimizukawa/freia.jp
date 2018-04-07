@@ -1,33 +1,44 @@
-.. :date: 2018-04-07 22:00
-.. :tags: Python, Django, Redshift
+:date: 2018-04-07 23:30
+:tags: Python, Django, Redshift
 
-==========================================
-Django Redshift Backend プロジェクトの移譲
-==========================================
+================================================
+Jazzband - PythonのOSSを保守する共同コミュニティ
+================================================
+
+`Django Redshift Backend`_ プロジェクトの移譲先を検討していて調べた、 Jazzband_ というコミュニティについて。
+
+.. _Django Redshift Backend: https://pypi.org/project/django-redshift-backend/
 
 .. contents::
    :local:
 
-動機
-====
+プロジェクト移譲の動機
+======================
 
-* 自分が使わなくなってしまったのと、生活が変わって時間がとれなくなってしまったため、プロジェクト存続の道を模索しました
-* `How to become a hacker`_ か何かにも、OSSプロジェクトの引き継ぎの話があった気がする
+なぜ、 `Django Redshift Backend`_ プロジェクトを移譲しようと思ったのか。
 
-.. _How to become a hacker: https://cruel.org/freeware/hacker.html
+* 自分が使わなくなってしまった
+* 生活が変わって時間がとれなくなってしまった
+* 利用者がそれなりにいるため、プロジェクト存続の道を模索した
+* `伽藍とバザール`_ に **「5. あるソフトに興味をなくしたら、最後の仕事としてそれを有能な後継者に引き渡すこと。」** とあるので
+
+.. _伽藍とバザール: https://cruel.org/freeware/cathedral.html
 
 
 移譲先の検討
 ============
 
-* Djangoのプロジェクトを多人数でメンテナンスする仕組み
+* OSSのプロジェクトを多人数でメンテナンスする仕組みがあれば、そこに移譲したい
+* 移譲先として適切な仕組み（組織）がなかったら、引き継いでくれる個人が現れるのを待つ
 * Ploneには Collective_ というのがある
 * Djangoには Jazzband_ というのがある
 
   - Jazzband is a collaborative community to share the responsibility of maintaining Python-based projects.
   - Jazzband は、Pythonベースのプロジェクトの保守更新についての責務を共有する共同コミュニティです。
 
-  JazzbandはDjangoに特化したコミュニティ、ではないっぽいですね（コミュニティ名はジャンゴ・ラインハルト Django Reinhardt にちなんでそうなのでDjango用かと思ってた）。
+  JazzbandはDjangoに特化したコミュニティ、ではないっぽいですね（コミュニティ名がDjango Reinhardt にちなんでそうなのでDjango用かと思ってた）。
+
+調べてみて、Jazzbandはガイドラインがしっかり書かれていて、やるべきことが明確だったので、第一候補として進めることにしました。Jazzbandのガイドライン（後述）は、Jazzbandに参加しないとしてもOSSプロジェクトを作るときには参考にすると役立つことが多いと思います。
 
 .. _Collective: https://collective.github.io/
 .. _Jazzband: https://jazzband.co/
@@ -35,7 +46,7 @@ Django Redshift Backend プロジェクトの移譲
 Jazzbandとは
 ============
 
-各リンクの内容を読んで、重要そうだと思ったところをメモしました。
+https://jazzband.co/ の各リンクの内容を読んで、重要そうだと思ったところをメモしました。
 
 - About: https://jazzband.co/about
 
@@ -62,14 +73,22 @@ Jazzbandとは
   - 新しいプロジェクトを始めたり、転送する場合、以下のガイドラインに従うこと。
   - 特にプロジェクトを転送する前に慎重に検討してください。ガイドラインを遵守してないプロジェクトはRoadiesによって躊躇なく削除されます。
 
-Jazzbandへの参加でやったこと
-============================
+  1. 存続可能性: プロジェクトはコードスニペットや一発モノのオモチャではいけない。
+  2. ドキュメント: 利用者向け **と** コントリビューター向け。インラインのコードコメントが推奨される。
+  3. テスト: CIでの自動テスト
+  4. 規範: プロジェクトはJazzbandの行動規範に則っていること。
+  5. コントリビュートガイドライン: Jazzbandの情報をCONTRIBUTING.mdのヘッダに持たせる。
+  6. バッヂ: Jazzbandのバッヂを掲載してもよい(オプション)
 
-- Django Redshift BackendのIssueに、移行しますチケットを立てた: https://github.com/shimizukawa/django-redshift-backend/issues/30
+Jazzbandにプロジェクトを転送する準備としてやったこと
+====================================================
+
+- Django Redshift BackendのIssueに、移行しますチケットを立てた: `Issue#30 consider transferring ownership of this repository to Jazzband community <https://github.com/shimizukawa/django-redshift-backend/issues/30>`_
 - About: https://jazzband.co/about を一通り読んだ
 - Code of Conduct https://jazzband.co/about/conduct  を一通り読んだ
-- https://jazzband.co/account/login から参加登録
+- Jazzbandに参加:
 
+  - https://jazzband.co/account/login から参加登録
   - Jazzband-botがGitHub OAuthの認可を求めてくるので、許可する
   - 数分後に招待メールが来るので、 ``Join Jazzband`` のリンクをクリックして承認する
 
@@ -78,8 +97,18 @@ Jazzbandへの参加でやったこと
 
        347番目のJazzbandメンバーになりました
 
-- Guidelines: https://jazzband.co/about/guidelines を読み中
+- Guidelines: https://jazzband.co/about/guidelines を一通り読んだ
+- `Issue#30: consider transferring ownership of this repository to Jazzband community`_ で、共同開発者を募った。過去にPRをくれた人にメンション。
+- `Issue#30: consider transferring ownership of this repository to Jazzband community`_ に、現状 Jazzband Guidelines を満たしているかどうかを確認してコメントした。
 
+  1. 存続可能性: 可能だけど、もうすこし開発者が必要
+  2. ドキュメント: 不足している。README.rstしかない。
+  3. テスト: ある。
+  4. 規範: 今はないがJazzbandのCoCを採用可能
+  5. コントリビュートガイドライン: CONTRIBUTING.mdがない
+  6. バッヂ: すぐ可能
 
-（以下、更新中）
+現状、Jazzband Organizationに転送する前に、いくつかの準備が必要そう。ドキュメントの不足を補うことと、Jazzbandへの転送後にプロジェクトを生かし続けるには、いまのうちに共同開発者が必要。
+
+まずは、一人でできることを準備しつつ、共同開発者を待つことにします。
 
