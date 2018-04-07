@@ -30,7 +30,7 @@ Python mini hack-a-thon 87回 #pyhack
 `Django Redshift Backend`_ のプロジェクト移譲を進めました。
 自分が使わなくなってしまったのと、生活が変わって時間がとれなくなってしまったため、プロジェクト存続の未知を模索した感じです。
 
-詳細は :doc:`transfer-django-redshift-backend-to-jazzband/index` にまとめます。
+詳細は :doc:`../transfer-django-redshift-backend-to-jazzband/index` にまとめます。
 
 やったこと発表
 ==============
