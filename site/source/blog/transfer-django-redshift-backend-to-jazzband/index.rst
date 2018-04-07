@@ -7,6 +7,9 @@ Jazzband - PythonのOSSを保守する共同コミュニティ
 
 `Django Redshift Backend`_ プロジェクトの移譲先を検討していて調べた、 Jazzband_ というコミュニティについて。
 
+.. image:: jazzband.*
+   :width: 80%
+
 .. _Django Redshift Backend: https://pypi.org/project/django-redshift-backend/
 
 .. contents::
@@ -83,7 +86,7 @@ https://jazzband.co/ の各リンクの内容を読んで、重要そうだと�
 Jazzbandにプロジェクトを転送する準備としてやったこと
 ====================================================
 
-- Django Redshift BackendのIssueに、移行しますチケットを立てた: `Issue#30 consider transferring ownership of this repository to Jazzband community <https://github.com/shimizukawa/django-redshift-backend/issues/30>`_
+- Django Redshift BackendのIssueに、移行しますチケットを立てた: `Issue#30: consider transferring ownership of this repository to Jazzband community <https://github.com/shimizukawa/django-redshift-backend/issues/30>`_
 - About: https://jazzband.co/about を一通り読んだ
 - Code of Conduct https://jazzband.co/about/conduct  を一通り読んだ
 - Jazzbandに参加:
