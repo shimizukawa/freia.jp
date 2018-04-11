@@ -32,6 +32,8 @@ Python mini hack-a-thon 87回 #pyhack
 
 詳細は :doc:`../transfer-django-redshift-backend-to-jazzband/index` にまとめます。
 
+.. _Django Redshift Backend: https://pypi.org/project/django-redshift-backend/
+
 やったこと発表
 ==============
 
