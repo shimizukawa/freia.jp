@@ -212,6 +212,15 @@ a.book-tstp {
     background-image: url("http://www.freia.jp/taka/_static/img/book-tstp.jpg");
 }
 
+/* sidebar badge */
+a.psf-badge {
+    display: block;
+    width: 125px;
+    height: 125px;
+    margin: 4px auto;
+    background-image: url("http://www.freia.jp/taka/_static/img/psf-badge.png");
+}
+
 /* blog relates */
 
 div.blog-tags,
