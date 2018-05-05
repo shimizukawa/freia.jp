@@ -7,6 +7,8 @@ Netlify - 静的サイトホスティングを試してみた
 
 `Netlify`_ で静的サイトを自動ビルドしてホスティングできるというのを聞いたので、やってみました。
 
+.. _Netlify: https://www.netlify.com/
+
 
 .. raw:: html
 
