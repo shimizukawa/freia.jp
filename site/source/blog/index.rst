@@ -7,6 +7,8 @@
 .. toctree::
    :maxdepth: 1
 
+   netlify-trying/index
+   pyhack-20180505/index
    transfer-django-redshift-backend-to-jazzband/index
    pyhack-20180407/index
    sphinxjp-hack-a-thon-20180401/index
