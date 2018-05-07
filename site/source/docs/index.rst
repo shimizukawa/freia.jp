@@ -65,6 +65,9 @@ Information
 :関連記事:
    - :doc:`../blog/pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index`
    - :doc:`../blog/the-self-taught-programmer-intro/index`
+   - :doc:`../blog/the-self-taught-programmer-sample/index`
+   - :doc:`../blog/the-self-taught-programmer-misc/index`
+   - :doc:`../blog/the-self-taught-programmer-10k/index`
 
 
 `Sphinxをはじめよう 第2版`__
@@ -247,6 +250,18 @@ Software Design Sphinx連載
 
 Articles
 ========
+
+`独学プログラマーのススメ`__
+-----------------------------
+2018.04.27. - 日経トレンディネット
+
+.. __: http://trendy.nikkeibp.co.jp/atcl/pickup/15/1003590/042501673/?rt=nocnt
+
+.. figure:: images/trendy-nikkeibp.*
+   :target: http://trendy.nikkeibp.co.jp/atcl/pickup/15/1003590/042501673/?rt=nocnt
+
+* 過去の体験を元に、独学に対して思うメリットと落とし穴について寄稿しました
+* 「今日から始められるよ」
 
 PyCon JP 2016 レポート
 ----------------------------

@@ -47,6 +47,10 @@ Twitterでの反応をTogetterでまとめました。
 
 - `『独学プログラマー』感想、反応まとめ - Togetter <https://togetter.com/li/1214526>`_
 
+読書メーターでの感想
+
+- `独学プログラマー Python言語の基本から仕事のやり方まで 感想 コーリー・アルソフ - 読書メーター <https://bookmeter.com/books/12669037>`_
+
 
 見掛けたblogをいくつか
 
@@ -61,6 +65,10 @@ Twitterでの反応をTogetterでまとめました。
 - `『独学プログラマー』でPythonを0から学んでみる（３） - たかくんの成長 <http://karia68.hatenablog.com/entry/2018/03/26/173820>`_
 
 - `独学プログラマーのやつ - 噂によると俺でもAIエンジニアになれるらしい <https://kaein.hatenablog.com/entry/2018/03/31/%E7%8B%AC%E5%AD%A6%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E3%81%AE%E3%82%84%E3%81%A4>`_
+
+- `独学プログラマーを読んでみた - ぬまやんブログ <https://keinumata.hatenablog.com/entry/2018/04/22/112534>`_
+
+- `独学プログラマーを読んだ - くろのて <http://note.crohaco.net/2018/review-dokugaku-programmer/>`_
 
 
 Python入門者向けに活動している知り合いに書評をお願いしました。ダメなところも書いて欲しい、と依頼したその結果は・・・
