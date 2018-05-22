@@ -70,6 +70,19 @@
    >>> sympy.solve(sympy.Eq(f,0.01))
    [157.525252525253]
 
-158日目だと分かりました。 Sympy_ 便利。
+158日目だと分かりました。
+
+日齢比をyとした式で定義して、変形してみます。
+
+.. code-block:: pycon
+
+   >>> y = sympy.Symbol('y')
+   >>> f2 = sympy.Eq(x/(x+15595), y)
+   >>> sympy.solve(f2)
+   [{x: -15595*y/(y - 1)}]
+
+はい、これでy（日齢比）に好きな値を入れれば、日齢何日目にその比率になるか計算できますね。
+
+Sympy_ 便利。
 
 .. _Sympy: http://www.sympy.org/
