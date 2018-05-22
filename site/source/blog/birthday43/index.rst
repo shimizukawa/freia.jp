@@ -65,6 +65,6 @@
    >>> sympy.solve(sympy.Eq(f,0.01))
    [157.525252525253]
 
-158日目だと分かりました。
+158日目だと分かりました。 Sympy_ 便利。
 
 .. _Sympy: http://www.sympy.org/
