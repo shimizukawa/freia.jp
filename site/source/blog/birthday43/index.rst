@@ -36,6 +36,8 @@
 
 答えは画像のあとで！
 
+----------
+
 .. figure:: happybirthday.*
    :width: 80%
 
@@ -43,6 +45,7 @@
 
 .. _Nokia Body Cardio: https://health.nokia.com/jp/ja/body-cardio
 
+----------
 
 では回答です。2つ書いてみたけど、他にも書き方はたくさんあると思います。
 
