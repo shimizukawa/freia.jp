@@ -77,7 +77,7 @@
 .. code-block:: pycon
 
    >>> y = sympy.Symbol('y')
-   >>> f2 = sympy.Eq(x/(x+15595), y)
+   >>> f2 = sympy.Eq(f, y)
    >>> sympy.solve(f2, x)
    [-15595*y/(y - 1)]
 
