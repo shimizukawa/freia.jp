@@ -39,7 +39,9 @@
 .. figure:: happybirthday.*
    :width: 80%
 
-   体重計にお祝いされた
+   体重計（ `Nokia Body Cardio`_ ）にお祝いされた
+
+.. _Nokia Body Cardio: https://health.nokia.com/jp/ja/body-cardio
 
 
 では回答です。2つ書いてみたけど、他にも書き方はたくさんあると思います。
