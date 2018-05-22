@@ -78,10 +78,17 @@
 
    >>> y = sympy.Symbol('y')
    >>> f2 = sympy.Eq(x/(x+15595), y)
-   >>> sympy.solve(f2)
-   [{x: -15595*y/(y - 1)}]
+   >>> sympy.solve(f2, x)
+   [-15595*y/(y - 1)]
 
 はい、これでy（日齢比）に好きな値を入れれば、日齢何日目にその比率になるか計算できますね。
+
+``y=0.1`` だとxはいくつになる？
+
+.. code-block:: pycon
+
+   >>> sympy.solve(f2, x)[0].subs(y, 0.1)
+   1732.77777777778
 
 Sympy_ 便利。
 
