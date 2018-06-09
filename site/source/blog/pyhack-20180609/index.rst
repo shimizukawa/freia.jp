@@ -8,10 +8,12 @@ Python mini hack-a-thon 89回 #pyhack
 毎月恒例の `#pyhack`_ 黙々ガヤガヤイベントに参加しました。
 
 .. figure:: members.*
+   :width: 90%
 
    hack中のみなさん1
 
-.. figure:: members.*
+.. figure:: members2.*
+   :width: 90%
 
    hack中のみなさん2
 
@@ -30,11 +32,15 @@ Python mini hack-a-thon 89回 #pyhack
 今日やったこと
 ==============
 
-* ある執筆中の本とPyCon JP 2018のトークのネタを考えました。
+ネタだし
+----------
 
-PSF寄付
+ある執筆中の本とPyCon JP 2018のトークのネタを考えました。
 
-* PSF(Python Software Foundation)に寄付したこともり、PSFコントリビューションメンバーの @terapyon から、寄付した人シールをもらいました。
+PSF寄付のシール受取り
+------------------------
+
+PSF(Python Software Foundation)に寄付したこともり、PSFコントリビューションメンバーの @terapyon から、寄付した人シールをもらいました。
 
 .. raw:: html
 
@@ -42,9 +48,10 @@ PSF寄付
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-PyPro3
+それPyPro3に書いてあるよ
+-------------------------
 
-* パッケージング周りの質問がことごとくPyPro3（Pythonプロフェッショナルプログラミング第3版）に書いている内容だったので、「それPyPro3に載ってるよ」という合いの手を入れてました。
+パッケージング周りの質問がことごとくPyPro3（ `Pythonプロフェッショナルプログラミング第3版 <https://amzn.to/2sIBhFM>`_ ）に書いている内容だったので、「それPyPro3に載ってるよ」という合いの手を入れてました。
 
 .. raw:: html
 
@@ -55,6 +62,29 @@ PyPro3
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">どうも、パッケージ周りの著者です <a href="https://twitter.com/hashtag/pypro3?src=hash&amp;ref_src=twsrc%5Etfw">#pypro3</a> 『Pythonプロフェッショナルプログラミング 第3版』 <a href="https://t.co/lwrPmSykCr">https://t.co/lwrPmSykCr</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/1005367851354447872?ref_src=twsrc%5Etfw">2018年6月9日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+独学プログラマー
+------------------
+
+自分が帰った後に、独学プログラマーを読んだ話が出たらしい。その場に居たかったなあ。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">.<a href="https://twitter.com/yoshizirou?ref_src=twsrc%5Etfw">@yoshizirou</a> IoTの部署に決まったのでみんなのIoTを読んでいる。Javaの研修なのでPythonを忘れたので独学プログラマーを読んでいる。Jupyterで不快指数を出す <a href="https://twitter.com/hashtag/pyhack?src=hash&amp;ref_src=twsrc%5Etfw">#pyhack</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/1005370509255536645?ref_src=twsrc%5Etfw">2018年6月9日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「独学プログラマーの言葉にガツンときた」すごい <a href="https://twitter.com/hashtag/pyhack?src=hash&amp;ref_src=twsrc%5Etfw">#pyhack</a></p>&mdash; かしゅー (@kashew_nuts) <a href="https://twitter.com/kashew_nuts/status/1005370291541835776?ref_src=twsrc%5Etfw">2018年6月9日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「口ではなんとでも言える コードを見せなさい」 <a href="https://twitter.com/hashtag/pyhack?src=hash&amp;ref_src=twsrc%5Etfw">#pyhack</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/1005371217086279680?ref_src=twsrc%5Etfw">2018年6月9日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">あと「スキルが上達しているように感じないのは継続して学習していないからだ」っていう言葉にも心に来るものがあったらしいです。</p>&mdash; かしゅー (@kashew_nuts) <a href="https://twitter.com/kashew_nuts/status/1005372239968006144?ref_src=twsrc%5Etfw">2018年6月9日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">なるほどー。たぶんこれかな「&quot;練習をしても完璧にはなれない。練習が末梢神経を作り、末梢神経が完璧を作る&quot; -- ダニエル・コイル」</p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/1005374087810519040?ref_src=twsrc%5Etfw">2018年6月9日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
