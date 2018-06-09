@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pyhack-20180609/index
    birthday43/index
    the-self-taught-programmer-10k/index
    netlify-trying/index
