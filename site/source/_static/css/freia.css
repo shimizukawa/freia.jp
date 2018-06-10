@@ -183,12 +183,12 @@ div.books {
     border-bottom: 1px solid gray;
 }
 
-a.book-pypro2 {
+a.book-pypro3 {
     display: block;
-    width: 124px;
-    height: 160px;
+    width: 125px;
+    height: 142px;
     margin: 4px auto;
-    background-image: url("https://images-fe.ssl-images-amazon.com/images/I/41jP7BdvluL._SL160_.jpg");
+    background-image: url("http://www.freia.jp/taka/_static/img/book-pypro3.png");
 }
 a.book-sphinx2 {
     display: block;

@@ -11,6 +11,29 @@ Articles
 Books
 =====
 
+`Pythonプロフェッショナルプログラミング第3版`__
+-----------------------------------------------
+2018.6.12, 秀和システム
+
+.. __: https://amzn.to/2LE5DjK
+
+.. raw:: html
+
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798053821/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51nKA4MQvQL._SL160_.jpg" alt="Pythonプロフェッショナルプログラミング 第3版" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798053821/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Pythonプロフェッショナルプログラミング 第3版</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 18.06.10</div></div><div class="amazlet-detail">株式会社ビープラウド <br />秀和システム <br />売り上げランキング: 22,183<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798053821/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+
+Information
+
+:対象読者: Pythonを読み書きできて、実際の業務、特にWeb開発と機械学習の開発手法を学びたい人
+:Format: 紙, 電子版
+:Price: 2,800円+税
+:ISBN-13: 978-4-7980-5382-0
+:概要: Pythonのシステム開発技法はどんどん進化しています。また、テキストで学んだことと開発現場では違ったノウハウも求められます。そのため、新人はまず実践知識を学ばなくてはなりません。本書は、Pythonでの開発経験豊富なシステム開発会社員が、今まで培ってきた技術や知識、ノウハウをもとに、新人がスムーズに開発に参加するために必要なPython開発の知識を解説します。GitおよびGitHubによるソースコード管理もわかります。（2版からの改定部分）バージョン管理システムはMercurialからGit/GitHubに変更。CI(継続的インテグレーション)ツールはJenkinsからCircleCIに変更。Pythonライブラリ紹介を削除し、機械学習プロジェクトの開発ノウハウの章を新設。
+:著者: ビープラウド(鈴木たかのり, 清水川貴之, tell-k, 清原弘貴, James Van Dyne, 的場達也, 吉田花春, 新木雅也, altnight, 川村愛美, 石上晋)
+:執筆範囲:
+   * 3章 Python プロジェクトの構成とパッケージ作成
+   * 9章 Python パッケージングと運用への活用
+
+
 `エキスパートPythonプログラミング 改訂2版`__
 ----------------------------------------------
 2018.02, アスキードワンゴ
@@ -28,7 +51,7 @@ Books
 Information
 
 :対象読者: 卓越したPythonプログラマになりたい方
-:Format: 紙
+:Format: 紙, Kindle, PDF, 他
 :Price: 3,600円+税
 :ISBN-13: 978-404893-061-1
 :概要: Pythonを使って仕事をしている開発者が普段どのようなツールやテクニックを用いて仕事をしているのか、また開発者が実際に現場で用いているベストプラクティスについて解説した書籍です。本書を読むことで、先進的なPythonプログラマが日常的に使用している開発ノウハウを学ぶことができます。
@@ -55,7 +78,7 @@ Information
 Information
 
 :対象読者: プログラミングを覚えて、面接を受けて、仕事を得て、チームで働きたいといった、プロのプログラマーになるための学習に興味がある方
-:Format: 紙
+:Format: 紙, 電子版
 :Price: 2,200円+税
 :ISBN-13: 978-4-82229-227-0
 :概要: 本書は「Pythonだけ」を学ぶ本ではありません。Pythonを使ってプログラミングを紹介していますが、伝えたい内容はPythonに限らない「プログラミング全般」の知識です。本書の著者、コーリー・アルソフは、「独学プログラマー」です。本書は、彼が独学で、ゼロからプログラミングを学んだ体験に基づいて書かれました。プログラミングを独学で身に付けるために、著者がPythonを通して学んだエッセンスが書かれています。彼の独学プログラマーとしての学び方は、Amazon.comでの本書の評価を見るとわかるように、多くの人に支持されています。
