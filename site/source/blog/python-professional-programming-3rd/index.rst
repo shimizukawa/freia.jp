@@ -58,6 +58,22 @@ Pythonプロフェッショナルプログラミングの第3版が2018年6月12
 SNSでの状況
 ============
 
+見本が届いた!
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Pythonプロフェッショナル プログラミング 第3版の見本、届きました。6月12日くらいから発売開始です(さっき、写真付け忘れた) <a href="https://twitter.com/hashtag/pypro3?src=hash&amp;ref_src=twsrc%5Etfw">#pypro3</a> (@ 株式会社ビープラウド - <a href="https://twitter.com/beproud_jp?ref_src=twsrc%5Etfw">@beproud_jp</a> in 渋谷区, 東京都 w/ <a href="https://twitter.com/shimizukawa?ref_src=twsrc%5Etfw">@shimizukawa</a>) <a href="https://t.co/rBmYPLtI1q">https://t.co/rBmYPLtI1q</a> <a href="https://t.co/SoU8Jyz7CX">pic.twitter.com/SoU8Jyz7CX</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/1004173999864188930?ref_src=twsrc%5Etfw">2018年6月6日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+早くも読書会開催が計画されてます
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">【Python】【Web】【機械学習】「Pythonプロフェッショナルプログラミング 第3版」読書会 を公開しました！ <a href="https://t.co/ya4fR6VUga">https://t.co/ya4fR6VUga</a></p>&mdash; susumuis (@susumuis) <a href="https://twitter.com/susumuis/status/1004697874968424449?ref_src=twsrc%5Etfw">2018年6月7日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 書泉ブックタワーでの先行販売
 
 .. raw:: html
