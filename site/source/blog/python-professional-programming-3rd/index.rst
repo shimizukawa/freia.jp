@@ -49,7 +49,6 @@ Pythonプロフェッショナルプログラミング、第3版が2018年6月12
 これだけだと差異が把握しづらいので、ちょっと図にまとめてみました。
 
 .. figure:: pypro-rev-changes.png
-   :target: pypro-rev-changes.png
 
    Pythonプロフェッショナルプログラミングの改訂差分
 
