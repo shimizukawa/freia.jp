@@ -27,7 +27,14 @@ Pythonプロフェッショナルプログラミングの第3版が2018年6月12
 3版での改定部分
 ================
 
-全体的にバージョンを更新し、現在のトレンドに合わせて書き直しました。また、BPの社内標準の現状にあわせて更新しています。
+全体的にバージョンを更新し、現在のトレンドに合わせて書き直しました。また、BPの社内標準の現状にあわせて更新しています。改版毎の差異を図にまとめてみました。
+
+.. figure:: pypro-rev-changes.png
+   :width: 99%
+
+   Pythonプロフェッショナルプログラミングの改訂差分
+
+   画像の元データ: https://docs.google.com/drawings/d/1R6WAnEH6C_k5bRNZQrgTOUBok3YsTApw64VLMp6a4c4/edit
 
 * 全体: Ubuntu 16.04, Python 3.6.4 をベースに更新
 * 全体: virtualenv -> venv に変更
@@ -37,26 +44,15 @@ Pythonプロフェッショナルプログラミングの第3版が2018年6月12
 * 10章: （書き下ろし）CI(継続的インテグレーション)ツールはJenkinsからCircleCIに変更
 * 第4部: 部タイトルを「実践プロフェッショナル開発」に変更
 * 13章: テストの見積りについて追加
-* 14章: （書き下ろし）Djangoの章を再構成、なぜDjangoか、Django開発の流れ
+* 14章: （大幅改訂）Djangoの章を再構成、なぜDjangoか、Django開発の流れ
 * 15章: （書き下ろし）機械学習プロジェクトの開発ノウハウの章を新設
-* Appendix: （書き下ろし）環境構築方法をVagrantベースで再構成
+* Appendix: （大幅改訂）環境構築方法をVagrantベースで再構成
 
-これだけだと差異が把握しづらいので、ちょっと図にまとめてみました。
-
-.. figure:: pypro-rev-changes.png
-   :width: 99%
-
-   Pythonプロフェッショナルプログラミングの改訂差分
-
-   画像の元データ: https://docs.google.com/drawings/d/1R6WAnEH6C_k5bRNZQrgTOUBok3YsTApw64VLMp6a4c4/edit
-
-
-「便利なPythonモジュールを使おう」でいくつかのライブラリを紹介していましたが、今後は、書籍  `Python ライブラリ厳選レシピ <https://amzn.to/2JxyqWo>`_ を参照してもらえればと思います。
+第2版では「15章: 便利なPythonモジュールを使おう」でいくつかのライブラリを紹介していましたが、今後は、書籍  `Python ライブラリ厳選レシピ <https://amzn.to/2JxyqWo>`_ を参照してもらえればと思います。
 
 .. raw:: html
 
    <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774177075/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51OBnv7J7mL._SL160_.jpg" alt="Python ライブラリ厳選レシピ" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774177075/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Python ライブラリ厳選レシピ</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 18.06.10</div></div><div class="amazlet-detail">池内 孝啓 鈴木 たかのり 石本 敦夫 小坂 健二郎 真嘉比 愛 <br />技術評論社 <br />売り上げランキング: 60,484<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774177075/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
-
 
 
 SNSでの状況
