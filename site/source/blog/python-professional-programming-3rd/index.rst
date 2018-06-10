@@ -15,7 +15,7 @@ Pythonプロフェッショナルプログラミング、第3版が2018年6月12
    * 金額: 2,800円（+税）
    * ページ: 488ページ
    * 発売日: 2018/6/12(火)
-   * 出版社: `秀和システム <http://www.shuwasystem.co.jp/>`__
+   * 出版社: `秀和システム <http://www.shuwasystem.co.jp/products/7980html/5382.html>`__
    * Format: 紙, 電子版
    * ISBN-13: 978-4-7980-5382-0
    * Amazon:
@@ -34,19 +34,26 @@ Pythonプロフェッショナルプログラミング、第3版が2018年6月12
 
 全体的にバージョンを更新し、現在のトレンドに合わせて書き直しました。また、BPの社内標準の現状にあわせて更新しています。
 
-* Ubuntu 16.04, Python 3.6.4 をベースに更新
-* バージョン管理システムはMercurialからGit/GitHubに変更
-* CI(継続的インテグレーション)ツールはJenkinsからCircleCIに変更
-* Djangoの章を再構成
-* 機械学習プロジェクトの開発ノウハウの章を新設
-
+* 全体: Ubuntu 16.04, Python 3.6.4 をベースに更新
+* 全体: virtualenv -> venv に変更
+* 全体: Mercurial HG -> Git に変更
+* 6章: （書き下ろし）バージョン管理システムはMercurialからGit/GitHubに変更
+* 9章: manylinux wheelの作成を追加、これにDockerを利用
+* 10章: （書き下ろし）CI(継続的インテグレーション)ツールはJenkinsからCircleCIに変更
+* 第4部: 部タイトルを「実践プロフェッショナル開発」に変更
+* 13章: テストの見積りについて追加
+* 14章: （書き下ろし）Djangoの章を再構成、なぜDjangoか、Django開発の流れ
+* 15章: （書き下ろし）機械学習プロジェクトの開発ノウハウの章を新設
+* Appendix: （書き下ろし）環境構築方法をVagrantベースで再構成
 
 これだけだと差異が把握しづらいので、ちょっと図にまとめてみました。
 
-.. figure:: pypro-rev-changes.*
+.. figure:: pypro-rev-changes.png
+   :target: pypro-rev-changes.png
 
    Pythonプロフェッショナルプログラミングの改訂差分
 
+画像の元データ: https://docs.google.com/drawings/d/1R6WAnEH6C_k5bRNZQrgTOUBok3YsTApw64VLMp6a4c4/edit
 
 SNSでの状況
 ============
