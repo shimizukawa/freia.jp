@@ -53,7 +53,7 @@ Pythonプロフェッショナルプログラミング、第3版が2018年6月12
 
    Pythonプロフェッショナルプログラミングの改訂差分
 
-画像の元データ: https://docs.google.com/drawings/d/1R6WAnEH6C_k5bRNZQrgTOUBok3YsTApw64VLMp6a4c4/edit
+   画像の元データ: https://docs.google.com/drawings/d/1R6WAnEH6C_k5bRNZQrgTOUBok3YsTApw64VLMp6a4c4/edit
 
 SNSでの状況
 ============
@@ -86,11 +86,12 @@ SNSでの状況
 まとめ
 ========
 
-Pythonプロフェッショナルプログラミング 第3版は、開発現場で必要とされる実践的な知識をまとめた本です。全てのページが2018年に即した内容に更新されました。
-その内容はBeProudのメンバーだけでなく多くの人の役に立つはずです。
-
+Pythonプロフェッショナルプログラミング 第3版は、開発現場で必要とされる実践的な知識をまとめた本です。全てのページが2018年に即した内容に更新されました。すでに2版を持っている人も、ぜひ一度手に取って見てみてください。その内容はBeProudのメンバーだけでなく多くの人の役に立つはずです。
 
 ハッシュタグは `#pypro3`_ です。
 
 .. _#pypro3: https://twitter.com/hashtag/pypro3?f=realtime&src=hash
 
+.. raw:: html
+
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798053821/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51nKA4MQvQL._SL160_.jpg" alt="Pythonプロフェッショナルプログラミング 第3版" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798053821/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Pythonプロフェッショナルプログラミング 第3版</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 18.06.10</div></div><div class="amazlet-detail">株式会社ビープラウド <br />秀和システム <br />売り上げランキング: 22,183<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798053821/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
