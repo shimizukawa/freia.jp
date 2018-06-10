@@ -39,14 +39,16 @@ Pythonプロフェッショナルプログラミングの第3版が2018年6月12
 * 全体: Ubuntu 16.04, Python 3.6.4 をベースに更新
 * 全体: virtualenv -> venv に変更
 * 全体: Mercurial HG -> Git に変更
-* 6章: （書き下ろし）バージョン管理システムはMercurialからGit/GitHubに変更
-* 9章: manylinux wheelの作成を追加、これにDockerを利用
-* 10章: （書き下ろし）CI(継続的インテグレーション)ツールはJenkinsからCircleCIに変更
+* 6章: **(NEW)** バージョン管理システムはMercurialからGit/GitHubに変更
+* 9章: (NEW) manylinux wheelの作成を追加、これにDockerを利用
+* 10章: **(NEW)** CI(継続的インテグレーション)ツールはJenkinsからCircleCIに変更
 * 第4部: 部タイトルを「実践プロフェッショナル開発」に変更
-* 13章: テストの見積りについて追加
+* 13章: (NEW) テストの見積りについて追加
 * 14章: （大幅改訂）Djangoの章を再構成、なぜDjangoか、Django開発の流れ
-* 15章: （書き下ろし）機械学習プロジェクトの開発ノウハウの章を新設
+* 15章: **(NEW)** 機械学習プロジェクトの開発ノウハウの章を新設
 * Appendix: （大幅改訂）環境構築方法をVagrantベースで再構成
+
+機械学習について扱った15章は、 `ビープラウドでの機械学習案件 <https://www.beproud.jp/business/results/>`_ を行った経験を元に、「機械学習プロジェクトに参加するWebアプリ開発者」に伝えたいことをまとめています。
 
 第2版では「15章: 便利なPythonモジュールを使おう」でいくつかのライブラリを紹介していましたが、今後は、書籍  `Python ライブラリ厳選レシピ <https://amzn.to/2JxyqWo>`_ を参照してもらえればと思います。
 
