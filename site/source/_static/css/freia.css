@@ -144,6 +144,13 @@ a.reference.external {
     text-decoration: underline;
 }
 
+/* twitter-tweet format */
+.twitter-tweet {
+    margin: auto;
+    padding: 1em;
+    background-color: #F7FDE3;
+}
+
 /* twilog div-p format */
 .tl-tweet {
     background-color: #eee;
