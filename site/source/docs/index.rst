@@ -32,6 +32,8 @@ Information
 :執筆範囲:
    * 3章 Python プロジェクトの構成とパッケージ作成
    * 9章 Python パッケージングと運用への活用
+:関連記事:
+   * :doc:`../blog/python-professional-programming-3rd/index`
 
 
 `エキスパートPythonプログラミング 改訂2版`__
@@ -141,7 +143,10 @@ Information
    * 7章 ドキュメントの基盤を整える
    * 9章 Python パッケージングと運用への活用
 
-
+:関連記事:
+   * :doc:`../blog/python-professional-programming-2nd/index`
+   * :doc:`../blog/python-professional-programming-2nd-mihon/index`
+   * :doc:`../blog/python-professional-programming-2nd-ebook/index`
 
 `Sphinxをはじめよう`__
 -----------------------------
@@ -191,6 +196,8 @@ Information
 :執筆範囲:
    * 4章 ドキュメントの基盤を整える
    * 7章 パッケージングと環境セットアップの自動化
+:関連記事:
+   * :doc:`../blog/2012-03-27-python-professional-programming/index`
 
 
 `エキスパートPythonプログラミング`__
