@@ -40,7 +40,7 @@ Python mini hack-a-thon 89回 #pyhack
 PSF寄付のシール受取り
 ------------------------
 
-PSF(Python Software Foundation)に寄付したこともり、PSFコントリビューションメンバーの @terapyon から、寄付した人シールをもらいました。
+PSF(Python Software Foundation)に寄付したこともあり、PSFコントリビューションメンバーの @terapyon から、寄付した人シールをもらいました。
 
 .. raw:: html
 
