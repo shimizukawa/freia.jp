@@ -7,10 +7,12 @@
 
 Pythonプロフェッショナルプログラミング、第3版が2018年6月12日に発売されます！
 
-.. figure:: pypro3-cover.png
-   :width: 60%
+.. .. figure:: pypro3-cover.png
+..    :width: 60%
+.. 
+..    書影: Pythonプロフェッショナルプログラミング 第3版
 
-   書影: Pythonプロフェッショナルプログラミング 第3版
+Pythonプロフェッショナルプログラミング 第3版
 
    * 金額: 2,800円（+税）
    * ページ: 488ページ
@@ -54,6 +56,15 @@ Pythonプロフェッショナルプログラミング、第3版が2018年6月12
    Pythonプロフェッショナルプログラミングの改訂差分
 
    画像の元データ: https://docs.google.com/drawings/d/1R6WAnEH6C_k5bRNZQrgTOUBok3YsTApw64VLMp6a4c4/edit
+
+
+「便利なPythonモジュールを使おう」でいくつかのライブラリを紹介していましたが、今後は、書籍  `Python ライブラリ厳選レシピ <https://amzn.to/2JxyqWo>`_ を参照してもらえればと思います。
+
+.. raw:: html
+
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774177075/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51OBnv7J7mL._SL160_.jpg" alt="Python ライブラリ厳選レシピ" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774177075/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Python ライブラリ厳選レシピ</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 18.06.10</div></div><div class="amazlet-detail">池内 孝啓 鈴木 たかのり 石本 敦夫 小坂 健二郎 真嘉比 愛 <br />技術評論社 <br />売り上げランキング: 60,484<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774177075/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+
+
 
 SNSでの状況
 ============
