@@ -37,7 +37,7 @@ Cory来日イベント！『独学プログラマー』 1万5000部突破！！
 
 `1万部を突破した <../the-self-taught-programmer-10k/index>`_ のがちょうど1ヶ月前。日経BPさん、だいぶ攻めてますね。
 
-.. figure:: the-self-taught-programmer-book-and-pop.jpg.*
+.. figure:: the-self-taught-programmer-book-and-pop.*
    :width: 80%
    :target: http://amzn.to/2BUSS3e
 
