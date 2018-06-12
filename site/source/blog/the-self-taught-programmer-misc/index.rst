@@ -30,7 +30,11 @@
 
 修正内容はこちら: http://public-errata.appspot.com/errata/book/9784822292270/
 
-.. note:: 3/29 追記. さらに増刷が決定しました。3刷り！
+.. note:: 追記
+
+   - 3/29 に増刷が決定しました。3刷り！
+   - 5/7 に増刷が決定しました。4刷り！ -> :doc:`../the-self-taught-programmer-10k/index`
+   - 6/10 に増刷が決定しました。5刷り！ -> :doc:`../the-self-taught-programmer-15k-cory-event/index`
 
 
 読者の反応
@@ -38,7 +42,7 @@
 
 .. 一番低い評価が「英語版を読んだけどそれほどの内容ではない」というものでした。日本語版を是非読んで欲しいと思いつつ、翻訳版が原著を超えて良い内容にできるか、というのは難しい問題ですね。
 
-`Amazonでの評価`_ は今のところ、7件のレビューで★4.3です。期待した内容とちょっと違ったという方が多い感じ。入門本は裾野が広いので "完全に自分に合う本" に出会える確率も低いと思っていて、もっと低い評価も付く想定でいたこともあって、4.3ならだいぶ良い方な気がします。
+`Amazonでの評価`_ は3/26時点で、7件のレビューで★4.3です。期待した内容とちょっと違ったという方が多い感じ。入門本は裾野が広いので "完全に自分に合う本" に出会える確率も低いと思っていて、もっと低い評価も付く想定でいたこともあって、4.3ならだいぶ良い方な気がします。
 
 .. _Amazonでの評価: http://amzn.to/2BUSS3e
 
@@ -112,32 +116,6 @@ Python入門者向けに活動している知り合いに書評をお願いし�
 
 - `『独学プログラマー』書店まわり - Togetter <https://togetter.com/li/1214549>`_
 
-打ち上げ
-========
-
-`エイジング・ビーフ TOKYO 新宿3丁目店`_ で打ち上げ！
-
-翻訳レビューに参加してくれたTakumi氏が焼肉店員スキルを持っていたので、肉焼きをほぼ任せてしまいました。熟成肉、めっちゃ美味かったです。
-
-.. _エイジング・ビーフ TOKYO 新宿3丁目店: http://agingbeef.jp/gab_tokyo
-
-.. raw:: html
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』の打ち上げ！！熟成肉きたー！！ <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ エイジング・ビーフ TOKYO 新宿3丁目店 in 新宿区, 東京都) <a href="https://t.co/rfh3IgoIpO">https://t.co/rfh3IgoIpO</a> <a href="https://t.co/orlQduNAiw">pic.twitter.com/orlQduNAiw</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/976056478825091073?ref_src=twsrc%5Etfw">2018年3月20日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』の打ち上げはまだまだ肉肉 <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ エイジング・ビーフ TOKYO 新宿3丁目店 in 新宿区, 東京都) <a href="https://t.co/QHOCnzebsW">https://t.co/QHOCnzebsW</a> <a href="https://t.co/X5zNjYRLVC">pic.twitter.com/X5zNjYRLVC</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/976072101537951744?ref_src=twsrc%5Etfw">2018年3月20日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』の打ち上げ、モツに突入しました <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ エイジング・ビーフ TOKYO 新宿3丁目店 in 新宿区, 東京都) <a href="https://t.co/mGeAm15Hhi">https://t.co/mGeAm15Hhi</a> <a href="https://t.co/X6JutDGekG">pic.twitter.com/X6JutDGekG</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/976079176037027840?ref_src=twsrc%5Etfw">2018年3月20日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』の打ち上げしてる間にKindle版が出てた <a href="https://t.co/oKGJOy17Nc">https://t.co/oKGJOy17Nc</a> <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/976108951996477440?ref_src=twsrc%5Etfw">2018年3月20日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-打ち上げしている間に、電子版の販売が始まっていました。
-
-
 インタビュー
 ============
 
@@ -182,4 +160,30 @@ Python入門者向けに活動している知り合いに書評をお願いし�
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">日経新聞の1面に『独学プログラマー』の広告載ったらしい～。監訳がんばったので多くの人に価値を届けられると嬉しいなー <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a>  <a href="https://t.co/7Y556MliSP">https://t.co/7Y556MliSP</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/979931043997171712?ref_src=twsrc%5Etfw">2018年3月31日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+打ち上げ
+========
+
+`エイジング・ビーフ TOKYO 新宿3丁目店`_ で打ち上げ！
+
+翻訳レビューに参加してくれたTakumi氏が焼肉店員スキルを持っていたので、肉焼きをほぼ任せてしまいました。熟成肉、めっちゃ美味かったです。
+
+.. _エイジング・ビーフ TOKYO 新宿3丁目店: http://agingbeef.jp/gab_tokyo
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』の打ち上げ！！熟成肉きたー！！ <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ エイジング・ビーフ TOKYO 新宿3丁目店 in 新宿区, 東京都) <a href="https://t.co/rfh3IgoIpO">https://t.co/rfh3IgoIpO</a> <a href="https://t.co/orlQduNAiw">pic.twitter.com/orlQduNAiw</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/976056478825091073?ref_src=twsrc%5Etfw">2018年3月20日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』の打ち上げはまだまだ肉肉 <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ エイジング・ビーフ TOKYO 新宿3丁目店 in 新宿区, 東京都) <a href="https://t.co/QHOCnzebsW">https://t.co/QHOCnzebsW</a> <a href="https://t.co/X5zNjYRLVC">pic.twitter.com/X5zNjYRLVC</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/976072101537951744?ref_src=twsrc%5Etfw">2018年3月20日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』の打ち上げ、モツに突入しました <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a> (@ エイジング・ビーフ TOKYO 新宿3丁目店 in 新宿区, 東京都) <a href="https://t.co/mGeAm15Hhi">https://t.co/mGeAm15Hhi</a> <a href="https://t.co/X6JutDGekG">pic.twitter.com/X6JutDGekG</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/976079176037027840?ref_src=twsrc%5Etfw">2018年3月20日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">『独学プログラマー』の打ち上げしてる間にKindle版が出てた <a href="https://t.co/oKGJOy17Nc">https://t.co/oKGJOy17Nc</a> <a href="https://twitter.com/hashtag/%E7%8B%AC%E3%83%97%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#独プロ</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/976108951996477440?ref_src=twsrc%5Etfw">2018年3月20日</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+打ち上げしている間に、電子版の販売が始まっていました。
+
 
