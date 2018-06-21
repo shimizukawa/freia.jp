@@ -7,6 +7,8 @@
 
 `BPStudy #130` **カイゼンジャーニー〜たった1人からはじめて、「越境」するチームをつくるまで** に参加しました。
 
+以下の本の著者お二人が今回の発表者です。
+
 .. raw:: html
 
    <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798153346/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51A0paY-AJL._SL160_.jpg" alt="カイゼン・ジャーニー たった1人からはじめて、「越境」するチームをつくるまで" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798153346/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">カイゼン・ジャーニー たった1人からはじめて、「越境」するチームをつくるまで</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 18.06.21</div></div><div class="amazlet-detail">市谷 聡啓 新井 剛 <br />翔泳社 <br />売り上げランキング: 4,156<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798153346/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
@@ -20,7 +22,7 @@
 第1部 組織をアジャイルへ変えるボクのカイゼン・ジャーニー
 ========================================================
 
-* ヴァル研究所 新井 剛 氏（Twitter: `@araratakeshi` ）
+* ヴァル研究所 新井 剛 氏（Twitter: `@araratakeshi`_ ）
 * 資料: *TBD*
 
 .. _@araratakeshi: https://twitter.com/araratakeshi
@@ -284,3 +286,12 @@ Q&A
 
 .. _@haru860: https://twitter.com/haru860
 
+
+感想
+=====
+
+* 越境する
+* コンフォートゾーンを越える
+* 離見の見（りけんのけん）
+
+色んなところで、いろんな言われ方をしていることを見ても、境界を越えることは大事だということだなあ
