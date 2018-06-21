@@ -290,8 +290,17 @@ Q&A
 感想
 =====
 
+実は、カイゼン・ジャーニーは買ったものの読むのを後回しにしつづけてまだ読み終わってなかったのでした。
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">カイゼン・ジャーニーの読書してから出社するー (@ Starbucks Coffee - <a href="https://twitter.com/Starbucks_J?ref_src=twsrc%5Etfw">@starbucks_j</a> in 新宿区, 東京都) <a href="https://t.co/75zTeCSKqr">https://t.co/75zTeCSKqr</a> <a href="https://t.co/5LaNEijTg8">pic.twitter.com/5LaNEijTg8</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/1009587751312863232?ref_src=twsrc%5Etfw">June 21, 2018</a></blockquote>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 * 越境する
 * コンフォートゾーンを越える
 * 離見の見（りけんのけん）
 
-色んなところで、いろんな言われ方をしていることを見ても、境界を越えることは大事だということだなあ
+色んなところで、いろんな言われ方をしているのを見ても、境界を越えることは大事だということだなあ。
+
