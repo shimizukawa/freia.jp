@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   bpstudy-20180621/index
    the-self-taught-programmer-15k-cory-event/index
    python-professional-programming-3rd/index
    pyhack-20180609/index
