@@ -112,7 +112,7 @@ Q&A
 =======================================
 
 * ギルドワークス 市谷 聡啓 氏（Twitter: `@papanda`_ ）
-* 資料: **TBD**
+* 資料: https://www.slideshare.net/papanda/ss-102532145
 
 .. _@papanda: https://twitter.com/papanda
 
