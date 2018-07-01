@@ -5,7 +5,10 @@
 Python3.6のdictキー順維持と、hash randomizeによるDoS回避の関係について
 ===================================================================================
 
-.. note::  `3/20 修正`_ で、DDoS -> DoS に修正しました
+.. note::
+
+   - `2017/3/20 修正`_: DDoS -> DoS
+   - `2018/7/1 追記`_: Python-3.7でdictキー順維持が言語仕様化
 
 
 Python-3.3で導入された、Hash Randomizeについて間違って理解していたようなので、考えを整理してそれの理解が正しいかTeratailに質問をしたところ、的確な回答をもらえて解決できました。
@@ -219,7 +222,7 @@ Pythonコアデベロッパーが **"OrdereDictは死んだ"** って言って�
 .. _Why is the order in dictionaries and sets arbitrary?: http://stackoverflow.com/questions/15479928/why-is-the-order-in-dictionaries-and-sets-arbitrary
 
 
-3/20 修正
+2017/3/20 修正
 ==============
 
 @methane からツッコミをもらいました。ありがとうございます！
@@ -322,4 +325,19 @@ Pythonコアデベロッパーが **"OrdereDictは死んだ"** って言って�
    > docker run -it --rm python:3.6 python -c "import os; print(list(os.__dict__.keys())[-5:])"
    ['popen', '_wrap_close', 'fdopen', '_fspath', 'PathLike']
 
+
+2018/7/1 追記
+=============
+
+Python-3.7.0 （2018/6/27リリース）で、dictキーの順番維持が言語仕様化されました。
+
+公式ドキュメントのリリースノートに以下の様に記載されています。
+
+  What’s New In Python 3.7
+  
+  the insertion-order preservation nature of dict objects has been declared to be an official part of the Python language spec.
+  
+  -- https://docs.python.org/3/whatsnew/3.7.html
+
+これで、Python-3.7以降を実装する全てのPython実装系で、辞書のキー順序維持が保障されることになります。
 
