@@ -1,9 +1,9 @@
 :date: 2018-07-14 10:00
 :tags: python, 独プロ
 
-===========================================================
-ジュンク堂池袋『独学プログラマー』 トークセッション & 6刷！
-===========================================================
+======================================================================
+『独学プログラマー』ジュンク堂池袋トークセッション & #stapy LT & 6刷！
+======================================================================
 
 6/18（月）に『独学プログラマー』の著者コーリー・アルソフと、翻訳者2名でトークイベントを行いました。
 
@@ -23,12 +23,12 @@
 .. contents::
    :local:
 
-Cory来日対談
-=============
+6/15(金) Cory来日対談
+=====================
 
-5月22日、自分の誕生日に、Coryから「誕生日おめでとう！ところで日本に遊びに行くから飲みに行こう」というFacebookの投稿をもらってから、色々調整してたら、対談+ジュンク堂イベント、という流れが実現出来ました（調整は、ほんとど共同翻訳者のmasaya（新木さん）と出版社の田島さんがやってくれた）。
+来日の3週間前の5月22日、自分の誕生日にCoryから「誕生日おめでとう！ところで日本に遊びに行くから飲みに行こう」というFacebookの投稿をもらいました。それから、飲み会を色々調整してたら、対談+ジュンク堂イベント、という流れに（調整は、ほんとど共同翻訳者のmasaya（新木さん）と出版社の田島さんがやってくれた）。
 
-対談は、トークセッションの予行を兼ねて、6/15（金）に2時間弱の時間で行いました。
+対談は6/15（金）に2時間弱の時間で、トークセッションの予行を兼ねて行いました。
 そのときの話が日経トレンディネットで記事になっています。
 
 .. figure:: talk-meeting.*
@@ -39,9 +39,9 @@ Cory来日対談
 
 .. _独学プログラマーになるために必要なこと - 日経トレンディネット: http://trendy.nikkeibp.co.jp/atcl/pickup/15/1003590/070301740/
 
-そのあと、芝公園の `とうふ屋うかい`_ で懇親会してきました。お店は編集者の田島さんが「日本庭園や日本料理を紹介したい」ということで選んだんですが、コーリーも、コーリーの友人もとても楽しんでくれたようです。
+対談のあと、芝公園の `とうふ屋うかい`_ で懇親会してきました。お店は編集者の田島さんが「日本庭園や日本料理を紹介したい」ということで選んだんですが、コーリーも、コーリーの友人ディビッドもとても楽しんでくれたようです。
 
-懇親会には、コーリーの友人も一緒に参加しました。彼は、コーリーが実施している The Self-Taught Programmer BootCamp 2回目の生徒で、BootCamp終了後にY-Combinatorの支援を受けて起業したらしいです（すごい！）。
+懇親会に参加したディビッドはコーリーが実施している The Self-Taught Programmer BootCamp 2回目の生徒で、BootCamp終了後にY-Combinatorの支援を受けて起業したらしいです（すごい！）。
 
 .. figure:: ukai.*
    :width: 80%
@@ -50,7 +50,7 @@ Cory来日対談
 
    - 右前: 清水川（監訳者）
    - 右中: コーリー（著者）
-   - 右奥: コーリーの友達
+   - 右奥: ディビッド（コーリーの友人）
    - 左前: kame-chan（レビューアー）
    - 左中: 新木masaya（訳者）
    - 左奥: 田島（編集者）
@@ -67,7 +67,7 @@ Cory来日対談
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-以前のblogで予告したとおり（ :doc:`../the-self-taught-programmer-15k-cory-event/index` ）、6/18（月）に『独学プログラマー』の著者コーリー・アルソフと、翻訳者2名でトークイベントを行いました。当日は雨の中25名くらいの参加者に来て頂きました。当日参加を決めた方もいたようで、席はほとんど埋まってました。
+6/18（月）には、『独学プログラマー』の著者コーリー・アルソフと、翻訳者2名でトークイベントを行いました（以前のblogでの予告 :doc:`../the-self-taught-programmer-15k-cory-event/index` ）。当日は雨の中25名くらいの参加者に来て頂きました。当日参加を決めた方もいたようで、席はほとんど埋まってました。
 
 .. figure:: talk-session.*
    :width: 80%
@@ -87,14 +87,14 @@ Cory来日対談
 
    トークセッション前、店頭POPを3人で書いてるところ
 
-お母さん、トークセッション中は後ろの方でずっと息子の動画を撮ったり写真をとったりしてました。
+お母さん、トークセッション中は後ろの方でずっと息子（コーリー）の動画を撮ったり写真をとったりしてました。
 
 .. raw:: html
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Signing some books! <a href="https://t.co/KfHGYOaRtn">pic.twitter.com/KfHGYOaRtn</a></p>&mdash; Cory Althoff (@coryealthoff) <a href="https://twitter.com/coryealthoff/status/1010190947492290570?ref_src=twsrc%5Etfw">2018年6月22日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-打ち上げは「山ちゃん」。ジャパニーズスタイル居酒屋、ということで選んだんだけど、コーリーのお母さんが手羽先で大喜び。
+打ち上げは「山ちゃん」。ジャパニーズスタイル居酒屋、ということで選んだんだけど、コーリーのお母さんが手羽先で大喜び。話をしていたら、コーリーのお父さんはコンピューターの技術者で、1980年前後にはプログラムを書く仕事をしていて・・みたいな話がでてきたりしました（詳細忘れちゃった）。
 
 .. figure:: yamachan.*
    :width: 80%
@@ -112,7 +112,7 @@ Cory来日対談
 みんなのPython勉強会でLT
 ========================
 
-7/11（水）には、 `みんなのPython勉強会#37`_ に参加し、本の紹介LTをさせてもらいました。LTでは、書籍の紹介とトークセッションの報告、コーリーのサイン入り書籍を3冊プレゼント！
+先日の対談時にコーリーにサインしてもらった本を持って、7/11（水）の `みんなのPython勉強会#37`_ に参加しました。テーマも「Pythonの上手な学び方」だったので、本をプレゼントするのにちょうど良いタイミングでした。
 
 .. raw:: html
 
@@ -135,7 +135,7 @@ LTでは、トークセッションにも参加してくれた `@nikie <https://
 
    `独学プログラマー著者イベントから共有したい3つのこと <https://gitpitch.com/ftnext/2018_LTSlides/master?p=stapy_July_self_taught#/>`_
 
-自分のLTでは、自分がこの本を翻訳したいと思ったポイントの紹介と、トークセッションの報告をしました。
+自分もLTで「独学プログラマー」を紹介して、自分がこの本を翻訳したいと思ったポイントと、トークセッションの報告をしました。
 
 翻訳したいと思ったポイントは以下にまとめています:
 
@@ -145,7 +145,7 @@ LTでは、トークセッションにも参加してくれた `@nikie <https://
 
 .. raw:: html
 
-   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRygYfyRNNAU3M1W5jUacfILSauURs0xFNooh68o8HlWJf-sWGN-7vc-htW7FpBVhya0MOTyaNMDkQ2/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRygYfyRNNAU3M1W5jUacfILSauURs0xFNooh68o8HlWJf-sWGN-7vc-htW7FpBVhya0MOTyaNMDkQ2/embed?start=false&loop=false&delayms=60000" frameborder="0" width="99%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 LTの様子、撮られてた！
 
@@ -153,6 +153,9 @@ LTの様子、撮られてた！
 
    <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/stapy?src=hash&amp;ref_src=twsrc%5Etfw">#stapy</a> 清水川さんのLT始まりました <a href="https://t.co/IcMyBWLXaI">pic.twitter.com/IcMyBWLXaI</a></p>&mdash; すーぎー@革カブ (@soogie) <a href="https://twitter.com/soogie/status/1017023537075273729?ref_src=twsrc%5Etfw">2018年7月11日</a></blockquote>
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+.. この日のイベントでは、独学プログラマーのレビューをしてくれた寺田さん(@terapyon)がスピーカーとして参加しているのはわかってたんですが、個人的に懐かしい方と再会できたのが驚きでした。エクストリームプログラミングを学び始めた当初、イベントでよく顔を合わせていた天野さん(@amapyon)
 
 
 第6刷
