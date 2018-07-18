@@ -145,7 +145,7 @@ LTでは、トークセッションにも参加してくれた `@nikie <https://
 
 .. raw:: html
 
-   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRygYfyRNNAU3M1W5jUacfILSauURs0xFNooh68o8HlWJf-sWGN-7vc-htW7FpBVhya0MOTyaNMDkQ2/embed?start=false&loop=false&delayms=60000" frameborder="0" width="99%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRygYfyRNNAU3M1W5jUacfILSauURs0xFNooh68o8HlWJf-sWGN-7vc-htW7FpBVhya0MOTyaNMDkQ2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 LTの様子、撮られてた！
 
