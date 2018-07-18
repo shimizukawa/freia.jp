@@ -19,6 +19,6 @@
    清水川が所属しているBePROUDでは、Pythonエンジニアを募集しています。
    興味のある方はご連絡くださいー。
 
-   http://jobs.beproud.jp/
+   https://www.beproud.jp/careers/
 
 - :doc:`todos`
