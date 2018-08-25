@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   sphinxjp-hack-a-thon-20180819/index
    the-self-taught-programmer-events/index
    bpstudy-20180621/index
    the-self-taught-programmer-15k-cory-event/index
