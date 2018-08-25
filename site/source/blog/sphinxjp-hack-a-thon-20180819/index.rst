@@ -47,37 +47,30 @@ SphinxのHack-a-thonイベントに参加してきました。
    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-.. 1. http://www.sphinx-doc.org/en/stable/ を再ビルドしてcanonical hrefにmasterを指定
-.. 
-..    Sphinxプロジェクトは ``stable`` ブランチを廃止しました。
-.. 
-..    - master: 開発中最新メジャーバージョン（未リリース）
-..    - stable: 以前は、リリース済み最新メジャーバージョン（廃止）
-..    - 1.7: リリース済みメジャーバージョン（新規）
-..    - 1.6: リリース済みメジャーバージョン（新規）
-..    - ...
-.. 
-..    上記のように、stableを廃止して、リリース済みバージョンはバージョン番号でドキュメントを持つようにしました。この結果、URLが以下の様に変わりました。
-.. 
-..    - 旧: http://www.sphinx-doc.org/en/stable/
-..    - 新: http://www.sphinx-doc.org/en/1.7/
-.. 
-..    変わったんですが、以前からリンクしているサイトなどは ``/stable/`` を指していてGoogleのクローラーもやってくることもあり、Sphinxの何かをGoogle検索すると ``/stable/`` にたどり着いてしまう状態でした。
-.. 
-..    ということで、Google検索の結果を ``/master/`` に向けるために、ReadTheDocsの設定を変えて、 `Sphinxドキュメントのヘッダにもテンプレートで設定 <https://github.com/sphinx-doc/sphinx/commit/d8c107a61b30bdf8d9f3e4e8b183c8e34ef7fb23>`_ して、stableドキュメントを再ビルドしました。
-.. 
-..    とは言え、 ``/stable/`` はもう廃止したURLなので、ReadTheDocsのリンクでアクセスされないように、設定で非公開にして、 http://www.sphinx-doc.org 上ではリンクを提供しないように変更しました。（本当は ``/stable/*`` にアクセスされたときに ``/master/*`` にリダイレクトしたかったけど、ReadTheDocsではできなかったのでしょうがない）
-.. 
-..    .. figure:: hide-stable.*
-..       :width: 80%
-.. 
-.. 2. PRをいくつかレビューして、Issue見ました
-.. 
-..    * https://github.com/sphinx-doc/sphinx/pull/4773
-.. 
-..    * https://github.com/sphinx-doc/sphinx/pull/4798
-.. 
-..    * https://github.com/sphinx-doc/sphinx/pull/4804
-.. 
-..    * https://github.com/sphinx-doc/sphinx/issues/4778
+PRをいくつかレビューして、Issue見ました
+
+* https://github.com/python-doc-ja/python-doc-ja/issues/792
+
+* https://github.com/sphinx-doc/sphinx/pull/5312
+
+  ``sphinx-quickstart`` コマンドをPowerShellで使うと、質問文の文字色が背景色と同じで読めない、という問題への対処。 ``purple`` をやめて ``bold`` にするPRを実際にWindows PowerShell で動作検証した。
+
+  結局、 ``bold`` っていってもコンソール上ではフォントを変えて文字を太くできるわけではないので、デフォルトの文字色をちょっとくすんだ色にして、 ``bold`` 指定が来たらハッキリした色で表示するように、ターミナルのカラースキーマが設定されています。
+
+  この確認のために、purpleとは何か、boldとは何か、みたいなのを把握する必要がありました。
+  ANSIのエスケープコードを使って文字色を変えるんだけど、黒なら ``30m`` 、白なら ``37m`` 、白のボールドなら ``1;37m`` で白の標準色なら ``0;37m`` みたいに指定する。各エスケープコードで実際にどんな色を表示するかはターミナルのカラースキーム設定に依存しているので、PowerShellでの出力を把握するために `Windows Console Colortool <https://scrapbox.io/shimizukawa/Windows_Console_Colortool>`_ を使ってみました。
+
+  .. figure:: ansi-escape-code-color.png
+     :width: 80%
+
+     Sphinxの文字出力と `Windows Console Colortool`_
+
+
+  残念ながらPowerShellでは実際のANSIエスケープコードでの表示色とは異なる色を提示しているみたい。cmd.exe向けなのかな。
+
+  このときの結論としては、PowerShellでboldというと黄色で出力される。背景色とかぶらない方がよいので、Windowsでは質問文をpurpleではなくboldで表示する、ということにしました。
+
+* https://github.com/sphinx-doc/sphinx/pull/5315
+
+* https://github.com/sphinx-doc/sphinx/pull/5297
 
