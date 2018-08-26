@@ -124,22 +124,18 @@ Python Boot Camp 本編
 
 おやつタイム
 
-.. raw:: html
-
-   <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/pycamp?src=hash&amp;ref_src=twsrc%5Etfw">#pycamp</a> 京都、おやつ！ (@ 株式会社 はてな in 京都市中京区, 京都府) <a href="https://t.co/H6LZcUcow7">https://t.co/H6LZcUcow7</a> <a href="https://t.co/ytyZ7Oglvj">pic.twitter.com/ytyZ7Oglvj</a></p>&mdash; Takayuki Shimizukawa (@shimizukawa) <a href="https://twitter.com/shimizukawa/status/1033243302336888834?ref_src=twsrc%5Etfw">2018年8月25日</a></blockquote>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 .. figure:: snack-time.jpg
    :width: 80%
 
-   `抹茶コルネッタ <http://jouvencelle.jp/chocolate/korunetta-2>`_
+   `抹茶コルネッタ <http://jouvencelle.jp/chocolate/korunetta-2>`_ 、京都っぽい。
 
 集合写真
 
 .. figure:: gathering.*
    :width: 80%
 
-   集合写真
+   集合写真～～ みなさんお疲れ様！
 
 
 懇親会！
