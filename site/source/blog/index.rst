@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pycamp201808-kyoto/index
    sphinxjp-hack-a-thon-20180819/index
    the-self-taught-programmer-events/index
    bpstudy-20180621/index
