@@ -2,6 +2,21 @@
 Talks
 =====
 
+`Webアプリケーションの仕組み`__
+================================
+2017.9.18. at `PyCon JP 2018`__
+
+.. __: https://goo.gl/3vBMzZ
+.. __: https://pycon.jp/2018/event/sessions
+
+  .. figure:: /_static/img/pyconjp2018-talk-web-application-mechanism.png
+     :target: https://goo.gl/3vBMzZ
+     :width: 80%
+
+* 動画: https://www.youtube.com/watch?v=L7j2zgtpV9c
+* Togetter: TBD
+
+
 `len()関数がオブジェクトの長さを手にいれる仕組み`__
 =====================================================
 2017.9.8. at `PyCon JP 2017`__
