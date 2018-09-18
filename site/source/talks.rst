@@ -14,7 +14,7 @@ Talks
      :width: 80%
 
 * 動画: https://www.youtube.com/watch?v=L7j2zgtpV9c
-* Togetter: TBD
+* Togetter: https://togetter.com/li/1268167
 
 
 `len()関数がオブジェクトの長さを手にいれる仕組み`__
