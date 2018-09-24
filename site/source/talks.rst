@@ -172,6 +172,8 @@ Forkwell キャリア談義 #2 feat. ビープラウド
 .. figure:: docs/images/forkwell-carrier-2.png
    :target: https://forkwell.connpass.com/event/11424/
 
+登壇blogを書きました: :doc:`./forkwell-python-event/index`
+
 
 `執筆中のPythonプロフェッショナルプログラミング第2版でsphinxを使っている話`__
 =================================================================================
