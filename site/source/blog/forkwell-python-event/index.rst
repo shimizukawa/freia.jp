@@ -68,5 +68,5 @@ Forkwellの大岡さんとは `Python mini hack-a-thon 第7回`__ あたりか�
 
 そういえば、いままでharuとイベントで同じ壇上に登壇したことなかった。
 
-そんなBePROUDでは、Pythonエンジニアを募集しています。興味のある方はご連絡くださいー。 http://jobs.beproud.jp/
+そんなBePROUDでは、Pythonエンジニアを募集しています。興味のある方はご連絡くださいー。 https://www.beproud.jp/careers/
 
