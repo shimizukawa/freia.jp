@@ -15,9 +15,9 @@ Python Boot Camp in 京都で講師してきました #pycamp
 
    参加者のみなさん（開始時）
 
-.. 公式の開催レポートは `「Python Boot Camp in 京都」を開催しました！`_ を参照してください。
-.. 
-.. .. _「Python Boot Camp in 京都」を開催しました！: https://pyconjp.blogspot.jp/2018/08/pycamp-in-kyoto-report.html
+公式の開催レポートは `「Python Boot Camp in 京都」を開催しました！`_ を参照してください。
+
+.. _「Python Boot Camp in 京都」を開催しました！: https://pyconjp.blogspot.com/2018/09/pycamp-in-kyoto-report.html
 
 
 参加した感想、雑感など
