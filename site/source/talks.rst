@@ -16,6 +16,17 @@ Talks
 * 動画: https://www.youtube.com/watch?v=L7j2zgtpV9c
 * Togetter: https://togetter.com/li/1268167
 
+ログミーTech記事
+
+.. figure:: images/logmi-webfw1.*
+   :target: https://logmi.jp/314757
+
+* 2018.09.25. `【PyCon JP 2018】仕組みから理解するWebアプリケーション　フレームワークを使わずに原理を学ぶ`__
+* 2018.09.26. `なぜフレームワークが必要なのか？　Webアプリ開発を支える基礎技術を身につける方法`__
+
+.. __: https://logmi.jp/314757
+.. __: https://logmi.jp/314918
+
 
 `len()関数がオブジェクトの長さを手にいれる仕組み`__
 =====================================================
