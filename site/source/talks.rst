@@ -18,7 +18,7 @@ Talks
 
 ログミーTech記事
 
-.. figure:: images/logmi-webfw1.*
+.. figure:: docs/images/logmi-webfw1.*
    :target: https://logmi.jp/314757
 
 * 2018.09.25. `【PyCon JP 2018】仕組みから理解するWebアプリケーション　フレームワークを使わずに原理を学ぶ`__
