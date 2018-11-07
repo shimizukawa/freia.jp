@@ -2,9 +2,21 @@
 Talks
 =====
 
+`Sphinx customization for OGP support`__
+========================================
+2018.11.07. at `Plone Conference 2018`__
+
+.. __: https://docs.google.com/presentation/d/e/2PACX-1vRUIL9NzNqF-boVgrIQYSqsndVIeNAm_F6zj4j-H6LWYe4ACLJw3C0No52P1k9ftGChIbnwIA29BW9k/pub
+.. __: https://2018.ploneconf.org/talks/python-web-day/sphinx-customization-for-ogp-support
+
+  .. figure:: /_static/img/ploneconf2018-talk-sphinx-customization-for-ogp-support.png
+     :target: https://docs.google.com/presentation/d/e/2PACX-1vRUIL9NzNqF-boVgrIQYSqsndVIeNAm_F6zj4j-H6LWYe4ACLJw3C0No52P1k9ftGChIbnwIA29BW9k/pub
+     :width: 80%
+
+
 `Webアプリケーションの仕組み`__
 ================================
-2017.9.18. at `PyCon JP 2018`__
+2018.9.18. at `PyCon JP 2018`__
 
 .. __: https://goo.gl/3vBMzZ
 .. __: https://pycon.jp/2018/event/sessions
