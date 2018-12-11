@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   python-unix-domain-socket-abstract-name-space/index
    pycamp201808-kyoto/index
    sphinxjp-hack-a-thon-20180819/index
    the-self-taught-programmer-events/index
