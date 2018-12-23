@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   about-beproud-2018/index
    python-unix-domain-socket-abstract-name-space/index
    pycamp201808-kyoto/index
    sphinxjp-hack-a-thon-20180819/index
