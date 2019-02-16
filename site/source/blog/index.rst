@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   time-is/index
    2019-kakizome/index
 
 
