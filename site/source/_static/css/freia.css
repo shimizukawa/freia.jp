@@ -190,6 +190,13 @@ div.books {
     border-bottom: 1px solid gray;
 }
 
+a.book-tspp {
+    display: block;
+    width: 125px;
+    height: 157px;
+    margin: 4px auto;
+    background-image: url("http://www.freia.jp/taka/_static/img/book-tspp.png");
+}
 a.book-pypro3 {
     display: block;
     width: 125px;
