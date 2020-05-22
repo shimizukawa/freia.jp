@@ -185,6 +185,15 @@ div.amazon-box {
     margin: 0.5em auto;
     width: 80%;
 }
+div.amazon-box {
+    display: flex;
+}
+div.amazon-box div.amazon-image {
+    width: 30%;
+}
+div.amazon-box div.amazon-info{
+    width: 49%;
+}
 
 /* sidebar book */
 div.books {
