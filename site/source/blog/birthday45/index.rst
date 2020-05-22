@@ -38,8 +38,12 @@
 .. raw:: html
 
    <div class="amazon-box">
-   <a href="https://www.amazon.co.jp/dp/B07NPJGVRY/?tag=freiaweb-22" target="_blank"><img src="https://m.media-amazon.com/images/I/41eqC12e59L._SL200_.jpg" alt="B07NPJGVRY" border="0" /></a><br />
+   <div class="amazon-image">
+   <a href="https://www.amazon.co.jp/dp/B07NPJGVRY/?tag=freiaweb-22" target="_blank"><img src="https://m.media-amazon.com/images/I/41eqC12e59L._SL200_.jpg" alt="B07NPJGVRY" border="0" /></a>
+   </div>
+   <div class="amazon-info">
    <a href="https://www.amazon.co.jp/dp/B07NPJGVRY/?tag=freiaweb-22" target="_blank">Tello Boost コンボ (損害賠償保険付) + PGY TELLO用 キャリングケース</a>
+   </div>
    </div>
 
 ドローン、楽しい。小学生の頃にラジコン走らせるのが楽しかった感覚で部屋の中で毎日飛ばしてます。
@@ -53,17 +57,23 @@
 .. raw:: html
 
    <div class="amazon-box">
+   <div class="amazon-image">
    <a href="https://www.amazon.co.jp/dp/B07979Q4YS/?tag=freiaweb-22" target="_blank"><img src="https://m.media-amazon.com/images/I/41J94IEHxsL._SL200_.jpg" alt="B07979Q4YS" border="0" /></a>
-   <br />
+   </div>
+   <div class="amazon-info">
    <a href="https://www.amazon.co.jp/dp/B07979Q4YS/?tag=freiaweb-22" target="_blank">【国内正規品】 Ryze トイドローン Tello Powered by DJI</a>
+   </div>
    </div>
 
 .. raw:: html
 
    <div class="amazon-box">
+   <div class="amazon-image">
    <a href="https://www.amazon.co.jp/dp/B07CNC396H/?tag=freiaweb-22" target="_blank"><img src="https://m.media-amazon.com/images/I/41GkrT1MqyL._SL200_.jpg" alt="B07CNC396H" border="0" /></a>
-   <br />
+   </div>
+   <div class="amazon-info">
    <a href="https://www.amazon.co.jp/dp/B07CNC396H/?tag=freiaweb-22" target="_blank">Ryze Technology GameSir T1d Controller CP.PT.00000220.01</a>
+   </div>
    </div>
 
 購入のきっかけは、妻がドローンに興味をもって去年参加したドローンジョプラスのイベントに付いていったのと、5/16（買った翌日）にちょっと高いところを撮影したくなったことです。イベントに参加した直後は、私「ドローン買おうか」妻「いやいや、まだちょっと」とか言ってて、その後半年くらいほとんど会話にも出なかったのに、「明日ドローンあるとよさそう？じゃあ買おう」と勢いで購入。
@@ -82,9 +92,12 @@
 .. raw:: html
 
    <div class="amazon-box">
+   <div class="amazon-image">
    <a href="https://www.amazon.co.jp/dp/B07ZPSND42/?tag=freiaweb-22" target="_blank"><img src="https://m.media-amazon.com/images/I/31IDp4i81vL._SL200_.jpg" alt="B07ZPSND42" border="0" /></a>
-   <br />
+   </div>
+   <div class="amazon-info">
    <a href="https://www.amazon.co.jp/dp/B07ZPSND42/?tag=freiaweb-22" target="_blank">【国内正規品】DJI Mavic Mini CP.MA.00000122.01</a>
+   </div>
    </div>
 
 Mavic Mini, Wishlistにそっと入れておきました http://amzn.to/36rHzMG
