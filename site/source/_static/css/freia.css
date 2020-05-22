@@ -176,8 +176,9 @@ a.reference.external {
     border: 2px solid lightblue;
 }
 
-/* amazon amazlet */
-div.amazlet-box {
+/* amazon */
+div.amazlet-box,
+div.amazon-box {
     border: 1px solid gray;
     border-radius: 5px;
     padding: 0.5em;
