@@ -80,9 +80,6 @@
 ただ、Telloはカメラが下を向かないので、上から下を撮影するのには向かず、高さを合わせて横から撮るくらししかできなかったのは残念なところ。地上で手を振るひとを空撮、とかやれたら楽しいんだろうなあ。
 買って使ってみて、次買うとき気にするポイントが分かってきたかも。トイドローンを買うなら次は `DJI Mavic Mini`_ がよさそうかな。
 
-Mavic Mini, Wishlistにそっと入れておきました http://amzn.to/36rHzMG
-
-.. _DJI Mavic Mini: https://amzn.to/2ATKxha
 
 .. raw:: html
 
@@ -92,3 +89,6 @@ Mavic Mini, Wishlistにそっと入れておきました http://amzn.to/36rHzMG
    <a href="https://www.amazon.co.jp/dp/B07ZPSND42/?tag=freiaweb-22" target="_blank">【国内正規品】DJI Mavic Mini CP.MA.00000122.01</a>
    </div>
 
+Mavic Mini, Wishlistにそっと入れておきました http://amzn.to/36rHzMG
+
+.. _DJI Mavic Mini: https://amzn.to/2ATKxha
