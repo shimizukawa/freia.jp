@@ -177,8 +177,7 @@ a.reference.external {
 }
 
 /* amazon */
-div.amazlet-box,
-div.amazon-box {
+div.amazlet-box {
     border: 1px solid gray;
     border-radius: 5px;
     padding: 0.5em;
@@ -187,12 +186,18 @@ div.amazon-box {
 }
 div.amazon-box {
     display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0.5em auto;
+    width: 80%;
 }
 div.amazon-box div.amazon-image {
     width: 30%;
+    margin: 0.5em;
 }
 div.amazon-box div.amazon-info{
     width: 49%;
+    margin: 0.5em;
 }
 
 /* sidebar book */
