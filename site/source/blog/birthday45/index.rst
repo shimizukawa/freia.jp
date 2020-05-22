@@ -19,10 +19,10 @@
 
 リモートワークは2014年頃 [bprd]_ [bprd2]_ からやっていて、1ヶ月の物理出社が4日だけということもあったけど、そんなストレスは無かったと思う。今と何が違うのかな。
 
-.. [bprd] 2014年4月,リモートワーク制度開始（週1回） `BPRD（BeProud Remote Day：ビー・ピー・アール・ディ） - ビープラウド社長のブログ`_
-.. [bprd2] 2015年6月,リモートワーク（無制限） `BPRD2.0(BePROUD Remote Day 2.0) - ビープラウド社長のブログ`_
+   .. [bprd] 2014年4月,リモートワーク制度開始（週1回） `BPRD（BeProud Remote Day：ビー・ピー・アール・ディ） - ビープラウド社長のブログ`_
+   .. [bprd2] 2015年6月,リモートワーク（無制限） `BPRD2.0(BePROUD Remote Day 2.0) - ビープラウド社長のブログ`_
 
-.. _BPRD（BeProud Remote Day：ビー・ピー・アール・ディ） - ビープラウド社長のブログ: https://shacho.beproud.jp/entry/2014/04/07/105655
+   .. _BPRD（BeProud Remote Day：ビー・ピー・アール・ディ） - ビープラウド社長のブログ: https://shacho.beproud.jp/entry/2014/04/07/105655
 .. _BPRD2.0(BePROUD Remote Day 2.0) - ビープラウド社長のブログ: https://shacho.beproud.jp/entry/2015/05/31/203943
 
 そんなワケで、4月以降、無駄にいろんな電子機器を買いたくなってますが、今のところ3つ買いました。意外と買ってなかった。
