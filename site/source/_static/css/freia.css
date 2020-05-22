@@ -264,3 +264,16 @@ dl.footnote.brackets dd.label {
     flex-basis: auto;
 }
 
+/* cite */
+dl.citation {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid black;
+}
+dl.citation dt {
+    width: 9%;
+}
+dl.citation dd {
+    width: 90%;
+    margin: 0;
+}
