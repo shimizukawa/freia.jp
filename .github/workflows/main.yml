@@ -13,8 +13,8 @@ jobs:
         run: |
           python3 -m pip install -U pip setuptools
           pip3 install -r site/requirements.txt
-          echo "python version $(python --version) running"
-          echo "pip version $(pip --version) running"
+          echo "python version $(python3 --version) running"
+          echo "pip version $(pip3 --version) running"
           echo "sphinx-build version $(/home/runner/.local/bin/sphinx-build --version) running"
           /home/runner/.local/bin/sphinx-build -M html site/source site/build -N -T -j 4
       - name: upload build
