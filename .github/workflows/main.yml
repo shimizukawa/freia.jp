@@ -12,14 +12,16 @@ jobs:
       - name: build html
         run: |
           pip3 install -U pip setuptools
-          cd site
-          pip3 install -r requirements.txt
-          /home/runner/.local/bin/sphinx-build -M html source build -N -T
+          pip3 install -r site/requirements.txt
+          echo "python version $(python --version) running"
+          echo "pip version $(pip --version) running"
+          echo "sphinx-build version $(/home/runner/.local/bin/sphinx-build --version) running"
+          /home/runner/.local/bin/sphinx-build -M html site/source site/build -N -T -j 4
       - name: upload build
         uses: actions/upload-artifact@v1
         with:
           name: build
-          path: build
+          path: site/build
   release:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/master' }}
