@@ -1,4 +1,4 @@
-name: shimizukkawa/freia.jp
+name: shimizukawa/freia.jp
 on:
   push:
     branches: [ master ]
