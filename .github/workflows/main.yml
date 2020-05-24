@@ -22,22 +22,26 @@ jobs:
         with:
           name: build
           path: site/build
+      - name: upload static
+        uses: actions/upload-artifact@v1
+        with:
+          name: static
+          path: root/static
   release:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/master' }}
     needs: build
     steps:
-      - name: download build
-        uses: actions/download-artifact@v1
-        with:
-          name: build
+      - uses: actions/download-artifact@v1
       - name: environment
         run: |
           echo "Upload to ${AWS_REGION} ${AWS_S3_BUCKET}"
+          ls -laF build/
+          ls -laF static/
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_REGION: "ap-northeast-1"
-      - name: s3sync
+      - name: s3sync-taka-html
         uses: jakejarvis/s3-sync-action@master
         with:
           args: "--acl public-read"
@@ -48,3 +52,14 @@ jobs:
           AWS_REGION: "ap-northeast-1"
           SOURCE_DIR: "build/html"
           DEST_DIR: "taka"
+      - name: s3sync-root-static
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: "--acl public-read"
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: "ap-northeast-1"
+          SOURCE_DIR: "static"
+
