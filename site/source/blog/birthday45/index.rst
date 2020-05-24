@@ -43,6 +43,7 @@
    </div>
    <div class="amazon-info">
    <a href="https://www.amazon.co.jp/dp/B07NPJGVRY/?tag=freiaweb-22" target="_blank">Tello Boost コンボ (損害賠償保険付) + PGY TELLO用 キャリングケース</a>
+   ￥20,350 (2020/05/22時点)<br />
    </div>
    </div>
 
@@ -62,6 +63,7 @@
    </div>
    <div class="amazon-info">
    <a href="https://www.amazon.co.jp/dp/B07979Q4YS/?tag=freiaweb-22" target="_blank">【国内正規品】 Ryze トイドローン Tello Powered by DJI</a>
+   ￥12,619 (2020/05/22時点)
    </div>
    </div>
 
@@ -73,6 +75,7 @@
    </div>
    <div class="amazon-info">
    <a href="https://www.amazon.co.jp/dp/B07CNC396H/?tag=freiaweb-22" target="_blank">Ryze Technology GameSir T1d Controller CP.PT.00000220.01</a>
+   ￥5,500 (2020/05/22時点)
    </div>
    </div>
 
@@ -97,6 +100,7 @@
    </div>
    <div class="amazon-info">
    <a href="https://www.amazon.co.jp/dp/B07ZPSND42/?tag=freiaweb-22" target="_blank">【国内正規品】DJI Mavic Mini CP.MA.00000122.01</a>
+   ￥46,200 (2020/05/22時点)
    </div>
    </div>
 
