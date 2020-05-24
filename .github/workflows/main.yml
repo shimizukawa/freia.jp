@@ -9,12 +9,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: build html
+      - uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('site/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: setup
         run: |
-          python3 -m pip install -U pip setuptools
-          pip3 install -r site/requirements.txt
           echo "python version $(python3 --version) running"
           echo "pip version $(pip3 --version) running"
+          python3 -m pip install -U pip setuptools
+          pip3 install -r site/requirements.txt -U
+          pip3 freeze
+      - name: build html
+        run: |
           echo "sphinx-build version $(/home/runner/.local/bin/sphinx-build --version) running"
           /home/runner/.local/bin/sphinx-build -M html site/source site/build -N -T -j 4
       - name: upload build
@@ -27,12 +36,13 @@ jobs:
         with:
           name: static
           path: root/static
+
   release:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/master' }}
     needs: build
     steps:
-      - uses: actions/download-artifact@v1
+      - uses: actions/download-artifact@v2
       - name: environment
         run: |
           echo "Upload to ${AWS_REGION} ${AWS_S3_BUCKET}"
