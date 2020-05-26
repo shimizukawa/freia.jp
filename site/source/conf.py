@@ -36,9 +36,9 @@ feed_limit = 10
 # for intersphinx
 intersphinx_mapping = {
    'sphinx': ('http://www.sphinx-doc.org/ja/stable', None),
-   'py': ('http://docs.python.jp/2/', None),
-   'py2': ('http://docs.python.jp/2/', None),
-   'py3': ('http://docs.python.jp/3/', None),
+   'py': ('https://docs.python.org/ja/2.7/', None),
+   'py2': ('https://docs.python.org/ja/2.7/', None),
+   'py3': ('http://docs.python.org/ja/3/', None),
 }
 
 # -- General configuration -----------------------------------------------------
@@ -95,7 +95,7 @@ def add_context(app, pagename, templatename, context, doctree):
 
 
 def setup(app):
-    app.add_stylesheet('css/freia.css')
+    app.add_css_file('css/freia.css')
     app.add_object_type('confval', 'confval',
                         objname='configuration value',
                         indextemplate='pair: %s; configuration value')
