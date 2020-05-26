@@ -378,7 +378,7 @@ LT
 * 明日もLTやります。1Fのホワイトボードにサインアップしてください
 * ベストトークアワードをやります。1票よろしくおねがいします
 
-.. _オープンスペース`: https://pycon.jp/2017/ja/events/openspace/
+.. _オープンスペース: https://pycon.jp/2017/ja/events/openspace/
 .. _キーノートは堀越真映さん: https://pycon.jp/2017/ja/talks/keynote/
 .. _ポスターセッション: https://pycon.jp/2017/ja/schedule/posters/list/
 .. _Youth Coder Workshop: https://pycon.jp/2017/ja/events/youth-ws/

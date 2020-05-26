@@ -151,7 +151,7 @@
 関連blog
 ========
 
-* :doc:`../bulletproof-diet-try1/index`
+* :doc:`../bulletproof-diet-try/index`
 * :doc:`../bulletproof-diet-try2/index`
 * :doc:`../bulletproof-coffee/index`
 
