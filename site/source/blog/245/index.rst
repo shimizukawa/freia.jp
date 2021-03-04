@@ -7,15 +7,17 @@ ZopeWeekend6に参加しました
 
 `ZopeWeekend6`_ に参加しました。
 
-.. figure:: http://www.freia.jp/taka/photo/zw6/PICT0001.JPG?size=thumb
-  :target: http://www.freia.jp/taka/photo/zw6/PICT0001.JPG/zphoto_view
+.. figure:: ./PICT0001.JPG
+  :target: https://m.flickr.com/photos/shimizukawa/13657143324/in/album-72157643490540304/
   :align: left
+  :width: 400px
 
   一応運営側なんですが、今回は `仕事の方でリリース`_ があったり、個人的に色々と忙しかったりと、ほとんど準備に参加できませんでした。次は発表できるネタとか用意したいと思います。
 
-.. figure:: http://www.freia.jp/taka/photo/zw6/PICT0006.JPG?size=thumb
-  :target: http://www.freia.jp/taka/photo/zw6/PICT0006.JPG/zphoto_view
+.. figure:: ./PICT0006.JPG
+  :target: https://m.flickr.com/photos/shimizukawa/13656815093/in/album-72157643490540304/
   :align: right
+  :width: 400px
 
   今回の参加者数はスタッフを合わせて50人弱でした。やはり同日開催のXP祭りの影響が少なからず出てしまったようです。
 
@@ -59,9 +61,10 @@ JZUG本多さんのCMS紹介。クラッシュコースというのは日本語�
 
 事例紹介:文際アートカレッジ週間bAC
 ----------------------------------
-.. figure:: http://www.freia.jp/taka/photo/zw6/PICT0007.JPG?size=thumb
-  :target: http://www.freia.jp/taka/photo/zw6/PICT0007.JPG/zphoto_view
+.. figure:: ./PICT0007.JPG
+  :target: https://m.flickr.com/photos/shimizukawa/13656795595/in/album-72157643490540304/
   :align: left
+  :width: 400px
 
   前回ZopeEssentials2でも発表された永井さんの事例紹介。epozのカスタマイズやArchGenXMLを利用したコンテンツタイプ作成の紹介等、一歩踏み込んだPloneのカスタマイズをされているようです。
 
@@ -91,9 +94,10 @@ Zoep3勉強会で分かったことは「Zope3はZope2よりも下位レイヤ�
 
 PloneをSNS風味にカスタマイズ
 -----------------------------
-.. figure:: http://www.freia.jp/taka/photo/zw6/PICT0009.JPG?size=thumb
-  :target: http://www.freia.jp/taka/photo/zw6/PICT0009.JPG/zphoto_view
+.. figure:: ./PICT0009.JPG
+  :target: https://m.flickr.com/photos/shimizukawa/13656815403/in/album-72157643490540304/
   :align: right
+  :width: 400px
 
 `COREBlogオフ会`_ でお会いした `鈴木たかのりさん`_ の発表。 `Plone S5`_ での発表でした。やー、PloneのプレゼンをPloneでやる。いいですね～ :-)
 
