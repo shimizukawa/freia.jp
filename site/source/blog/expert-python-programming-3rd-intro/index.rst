@@ -9,7 +9,7 @@
 
 `エキスパートPythonプログラミング 改訂3版`_ (原題 `Expert Python Programming - Third Edition`_) が2021/7/30にアスキードワンゴさんより発売されました！
 
-清水川も `1版`_ 、 `2版`_ に引き続き翻訳に参加しました。
+清水川も :doc:`1版 <../717/index>`_ 、 :doc:`2版 <../expert-python-programming-2nd-intro/index>`_ に引き続き翻訳に参加しました。
 
 .. figure:: expert-python-programming-3rd-en-ja-cover.*
 
@@ -29,9 +29,6 @@
 .. _`Amazon`: https://amzn.to/3rJeKpD
 .. _カドカワストア: https://store.kadokawa.co.jp/shop/g/g302105001236/
 
-
-.. _1版: ../717/index
-.. _2版: ../expert-python-programming-2nd-intro/index
 
 どんな本?
 ==========
@@ -66,7 +63,7 @@
 
 * 1章: CPython以外の処理系としてGraal.Pythonを追加
 * 2章: 3.7で追加されたbreakpoint()関数を追加
-* 2章: DockerのベースイメージとしてAlpine Linuxを利用する際の注意点、マルチステージビルドを使ったイメージサイズ削減方法を追加
+* 2章: DockerでAlpine利用時の注意点を追加、マルチステージビルドを使ったイメージサイズ削減方法を追加
 * 3章: 原著初版で紹介され、2,3版で削除されたジェネレーター式を追加
 * 3章: ``itertools`` を追加
 * 3章: Python 3.8で追加されたセイウチ演算子（walrus operator）を追加
@@ -74,8 +71,9 @@
 * 4章: Python 3.6で追加された ``__set_name__`` メソッドを追加
 * 4章: 辞書オブジェクトを集合オブジェクトの代わりに使うテクニックを削除
 * 4章: 旧スタイルクラスに関する説明は、Python 2がEOLを迎えたため削除
-* 5章: Python 2でメタクラスを指定する方法や、 ``__prepare__`` メソッドを使ってクラスの属性の順番を保持するテクニックを削除
-* 7章: ``setuptools-svn`` や ``setuptools-hg`` 、 ``setuptools-git`` に関する記述を削除し、 ``setuptools-scm`` を追加
+* 5章: Python 2でメタクラスを指定する方法を削除
+* 5章: ``__prepare__`` メソッドでクラスの属性の順番を保持するテクニックを削除
+* 7章: ``setuptools-svn`` や ``setuptools-hg`` 、 ``setuptools-git`` を削除し、 ``setuptools-scm`` を追加
 * 10章: GitLab CI を削除し、GitHub Actionsを追加
 * 11章: API Blueprintを削除
 * 12章: ``nose`` を削除し、 ``pytest`` の説明を加筆
