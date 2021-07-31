@@ -15,14 +15,16 @@
 
    エキスパートPythonプログラミング Third Edition / 改訂3版
 
-:タイトル: `エキスパートPythonプログラミング 改訂3版`_
-:原題: `Expert Python Programming - Third Edition`_
-:著者: Michał Jaworski, Tarek Ziadé
-:翻訳: 稲田直哉、芝田将、渋川よしき、清水川貴之、森本哲也
-:出版社: KADOKAWA（アスキードワンゴ）
-:Price: 3,800円+税
-:ISBN-13: 978-404-8930840
-:購入: Amazon_, `カドカワストア`_
+.. csv-table::
+
+   タイトル, `エキスパートPythonプログラミング 改訂3版`_
+   原題, `Expert Python Programming - Third Edition`_
+   著者, Michał Jaworski、Tarek Ziadé
+   翻訳, 稲田直哉、芝田将、渋川よしき、清水川貴之、森本哲也
+   出版社, KADOKAWA（アスキードワンゴ）
+   Price, 3,800円+税
+   ISBN-13, 978-404-8930840
+   購入, Amazon_, `カドカワストア`_
 
 .. _`エキスパートPythonプログラミング 改訂3版`: https://www.kadokawa.co.jp/product/301801000262/
 .. _`Expert Python Programming - Third Edition`: https://www.packtpub.com/product/expert-python-programming-third-edition/9781789808896
