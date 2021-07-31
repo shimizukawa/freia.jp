@@ -11,7 +11,7 @@
 
 清水川も `1版`_ 、 `2版`_ に引き続き翻訳に参加しました。
 
-.. figure:: expert-python-programming-3rd-en-ja-cover.jpg.*
+.. figure:: expert-python-programming-3rd-en-ja-cover.*
 
    エキスパートPythonプログラミング Third Edition / 改訂3版
 
