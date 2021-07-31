@@ -96,6 +96,27 @@ dl.field-list dd {
     margin-bottom: 5px;
 }
 
+/*** table ***/
+
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th {
+    background-color: lightblue;
+}
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td,
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th {
+    padding: 1px 0.5em;
+    border-top: 1px solid #ecf0f1
+}
+.table td p,
+.table th p {
+    margin: 0;
+}
+
 /**** image/figure ***/
 
 .figure {
@@ -103,10 +124,6 @@ dl.field-list dd {
     margin: 10px;
     background-color: #eee;
     padding: 0.5em 1em;
-}
-
-.figure img {
-    margin: 5px;
 }
 
 .figure p.caption {
