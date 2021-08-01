@@ -34,7 +34,7 @@ Books
    概要: Pythonを使って仕事をしている開発者が普段どのようなツールやテクニックを用いて仕事をしているのか、また開発者が実際に現場で用いているベストプラクティスについて解説した書籍です。本書を読むことで、先進的なPythonプログラマが日常的に使用している開発ノウハウを学ぶことができます。
    著者: Michal Jaworski、Tarek Ziade
    翻訳: 稲田 直哉、芝田 将、渋川 よしき、清水川 貴之、森本 哲也
-   関連記事: - :doc:`../blog/expert-python-programming-3rd-intro/index`
+   関連記事: ":doc:`../blog/expert-python-programming-3rd-intro/index`"
 
 `自走プログラマー`__
 -----------------------------------------------
