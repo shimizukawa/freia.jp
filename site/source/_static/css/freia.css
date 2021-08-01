@@ -59,6 +59,10 @@ h3
     line-height:1.5em;
 }
 
+div.content {
+    font-size: 17px;
+}
+
 @media screen and (max-width: 767px) {
     h1{
         font-size:30px;
@@ -101,7 +105,7 @@ dl.field-list dd {
 .table>thead>tr>th,
 .table>tbody>tr>th,
 .table>tfoot>tr>th {
-    background-color: lightblue;
+    background-color: #F7FDE3;
 }
 .table>thead>tr>td,
 .table>tbody>tr>td,
