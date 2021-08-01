@@ -7,7 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
-   expert-python-programming-3nd-intro/index
+   expert-python-programming-3rd-intro/index
 
 2020年
 ------

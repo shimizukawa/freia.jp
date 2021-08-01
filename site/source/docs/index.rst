@@ -19,7 +19,7 @@ Books
 
 .. raw:: html
 
-   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048930842/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://m.media-amazon.com/images/I/51sXhCedXnL._SL200_.jpg" alt="エキスパートPythonプログラミング改訂3版" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048930842/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">エキスパートPythonプログラミング改訂3版</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 18.02.11</div></div><div class="amazlet-detail">Michal Jaworski Tarek Ziade <br />KADOKAWA (2021-07-30)<br />売り上げランキング: 7,873<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048930842/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048930842/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://m.media-amazon.com/images/I/51sXhCedXnL._SL200_.jpg" alt="エキスパートPythonプログラミング改訂3版" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048930842/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">エキスパートPythonプログラミング改訂3版</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted at 21.08.02</div></div><div class="amazlet-detail">Michal Jaworski Tarek Ziade <br />KADOKAWA (2021-07-30)<br />売り上げランキング: 7,873<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048930842/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
 
 Information
@@ -32,7 +32,7 @@ Information
 :著者: Michal Jaworski、Tarek Ziade
 :翻訳: 稲田 直哉、芝田 将、渋川 よしき、清水川 貴之、森本 哲也
 :関連記事:
-   - :doc:`../blog/expert-python-programming-3nd-intro/index`
+   - :doc:`../blog/expert-python-programming-3rd-intro/index`
 
 `自走プログラマー`__
 -----------------------------------------------
