@@ -85,6 +85,13 @@ div.content {
     }
 }
 
+div.content p {
+    margin-bottom: 1.5em;
+}
+div.content li p {
+    margin-bottom: 0.5em;
+}
+
 blockquote {
     background: #F7FDE3;
     color: #606060;

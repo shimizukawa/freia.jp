@@ -60,8 +60,8 @@ Books
    著者: 清水川 貴之  (著), 清原 弘貴  (著), tell-k  (著), 株式会社ビープラウド (監修)
    執筆範囲: * 49トピック
    関連記事: "
-* `10年以上のノウハウを詰め込んだ「自走プログラマー」を執筆しました - Make組ブログ <https://blog.hirokiky.org/entry/2020/02/20/105341>`_
-* `「自走プログラマー」は中級以上のPythonプログラマーになりたい人のための豊富なレシピ集 - ビープラウド社長のブログ <https://shacho.beproud.jp/entry/self-propelled-programmer>`_ "
+   * `10年以上のノウハウを詰め込んだ「自走プログラマー」を執筆しました - Make組ブログ <https://blog.hirokiky.org/entry/2020/02/20/105341>`_
+   * `「自走プログラマー」は中級以上のPythonプログラマーになりたい人のための豊富なレシピ集 - ビープラウド社長のブログ <https://shacho.beproud.jp/entry/self-propelled-programmer>`_ "
 
 
 `Pythonプロフェッショナルプログラミング第3版`__
