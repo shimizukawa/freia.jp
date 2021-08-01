@@ -22,17 +22,19 @@ Books
    <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048930842/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://m.media-amazon.com/images/I/51sXhCedXnL._SL200_.jpg" alt="エキスパートPythonプログラミング改訂3版" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048930842/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">エキスパートPythonプログラミング改訂3版</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted at 21.08.02</div></div><div class="amazlet-detail">Michal Jaworski Tarek Ziade <br />KADOKAWA (2021-07-30)<br />売り上げランキング: 7,873<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048930842/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
 
-Information
+.. csv-table:: Information
+   :widths: 1,7
+   :stub-columns: 1
+   :delim: :
 
-:対象読者: 卓越したPythonプログラマになりたい方
-:Format: 紙, Kindle, PDF, 他
-:Price: 3,800円+税
-:ISBN-13: 978-404-893084-0
-:概要: Pythonを使って仕事をしている開発者が普段どのようなツールやテクニックを用いて仕事をしているのか、また開発者が実際に現場で用いているベストプラクティスについて解説した書籍です。本書を読むことで、先進的なPythonプログラマが日常的に使用している開発ノウハウを学ぶことができます。
-:著者: Michal Jaworski、Tarek Ziade
-:翻訳: 稲田 直哉、芝田 将、渋川 よしき、清水川 貴之、森本 哲也
-:関連記事:
-   - :doc:`../blog/expert-python-programming-3rd-intro/index`
+   対象読者: 卓越したPythonプログラマになりたい方
+   Format: 紙, Kindle, PDF, 他
+   Price: 3,800円+税
+   ISBN-13: 978-404-893084-0
+   概要: Pythonを使って仕事をしている開発者が普段どのようなツールやテクニックを用いて仕事をしているのか、また開発者が実際に現場で用いているベストプラクティスについて解説した書籍です。本書を読むことで、先進的なPythonプログラマが日常的に使用している開発ノウハウを学ぶことができます。
+   著者: Michal Jaworski、Tarek Ziade
+   翻訳: 稲田 直哉、芝田 将、渋川 よしき、清水川 貴之、森本 哲也
+   関連記事: - :doc:`../blog/expert-python-programming-3rd-intro/index`
 
 `自走プログラマー`__
 -----------------------------------------------
@@ -45,19 +47,21 @@ Information
    <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4297111977/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/410FSLNj5lL._SL160_.jpg" alt="自走プログラマー ~Pythonの先輩が教えるプロジェクト開発のベストプラクティス120" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4297111977/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">自走プログラマー ~Pythonの先輩が教えるプロジェクト開発のベストプラクティス120</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 20.03.09</div></div><div class="amazlet-detail">清水川 貴之 清原 弘貴 tell-k <br />技術評論社 <br />売り上げランキング: 10,445<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4297111977/freiaweb-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
 
-Information
+.. csv-table:: Information
+   :widths: 1,7
+   :stub-columns: 1
+   :delim: :
 
-:対象読者:  Python入門者から中級者になりたい人、技術的な選択を迷わずにできるようになりたい人
-:Format: 紙, 電子版
-:Price: 2,980円+税
-:ISBN-13: 978-4297111977
-:概要: 本書は、「プログラミング入門者が中級者にランクアップ」するのに必要な知識をお伝えする本です。扱っている120のトピックは、実際の現場で起こった問題とその解決方法を元に執筆しています。このため、扱っているプロジェクトの規模や、失敗パターンのレベル感もさまざまです。各トピックでは具体的な問題とベストプラクティス、なぜそれがベストなのかを解説します。
-:著者: 清水川 貴之  (著), 清原 弘貴  (著), tell-k  (著), 株式会社ビープラウド (監修)
-:執筆範囲:
-   * 49トピック
-:関連記事:
-   * `10年以上のノウハウを詰め込んだ「自走プログラマー」を執筆しました - Make組ブログ <https://blog.hirokiky.org/entry/2020/02/20/105341>`_
-   * `「自走プログラマー」は中級以上のPythonプログラマーになりたい人のための豊富なレシピ集 - ビープラウド社長のブログ <https://shacho.beproud.jp/entry/self-propelled-programmer>`_
+   対象読者:  Python入門者から中級者になりたい人、技術的な選択を迷わずにできるようになりたい人
+   Format: 紙, 電子版
+   Price: 2,980円+税
+   ISBN-13: 978-4297111977
+   概要: 本書は、「プログラミング入門者が中級者にランクアップ」するのに必要な知識をお伝えする本です。扱っている120のトピックは、実際の現場で起こった問題とその解決方法を元に執筆しています。このため、扱っているプロジェクトの規模や、失敗パターンのレベル感もさまざまです。各トピックでは具体的な問題とベストプラクティス、なぜそれがベストなのかを解説します。
+   著者: 清水川 貴之  (著), 清原 弘貴  (著), tell-k  (著), 株式会社ビープラウド (監修)
+   執筆範囲: * 49トピック
+   関連記事: "
+      * `10年以上のノウハウを詰め込んだ「自走プログラマー」を執筆しました - Make組ブログ <https://blog.hirokiky.org/entry/2020/02/20/105341>`_
+      * `「自走プログラマー」は中級以上のPythonプログラマーになりたい人のための豊富なレシピ集 - ビープラウド社長のブログ <https://shacho.beproud.jp/entry/self-propelled-programmer>`_ "
 
 
 `Pythonプロフェッショナルプログラミング第3版`__
