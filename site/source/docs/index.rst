@@ -28,7 +28,7 @@ Books
    :delim: :
 
    対象読者: 卓越したPythonプログラマになりたい方
-   Format: 紙, Kindle, PDF, 他
+   Format: `紙 <https://amzn.to/3rJeKpD>`_, `Kindle <https://amzn.to/3rJeKpD>`_, `PDF <https://tatsu-zine.com/books/expert-python-programming-3ed>`_, `EPUB <https://tatsu-zine.com/books/expert-python-programming-3ed>`_, `他 <https://tatsu-zine.com/books/expert-python-programming-3ed>`_
    Price: 3,800円+税
    ISBN-13: 978-404-893084-0
    概要: Pythonを使って仕事をしている開発者が普段どのようなツールやテクニックを用いて仕事をしているのか、また開発者が実際に現場で用いているベストプラクティスについて解説した書籍です。本書を読むことで、先進的なPythonプログラマが日常的に使用している開発ノウハウを学ぶことができます。

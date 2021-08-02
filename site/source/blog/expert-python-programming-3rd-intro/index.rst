@@ -5,7 +5,7 @@
 『エキスパートPythonプログラミング 改訂3版』の紹介
 ==================================================
 
-`エキスパートPythonプログラミング 改訂3版`_ (原題 `Expert Python Programming - Third Edition`_) が2021/7/30にアスキードワンゴさんより発売されました！
+`エキスパートPythonプログラミング 改訂3版`_ (原題 `Expert Python Programming - Third Edition`_) が2021/7/30にアスキードワンゴさんより発売されました！（追記）紙版の他、PDF版、EPUB版、そしてKindle等の各社電子書籍版があります。
 
 清水川もこの **「エキPy 3版」** の翻訳に、 :doc:`1版 <../717/index>` 、 :doc:`2版 <../expert-python-programming-2nd-intro/index>` に引き続き参加しました。
 
@@ -25,12 +25,13 @@
    出版社: KADOKAWA（アスキードワンゴ）
    Price: 3,800円+税
    ISBN-13: 978-404-8930840
-   購入: Amazon_, `カドカワストア`_
+   購入: Amazon_ (Kindle), `達人出版会`_ (PDF,EPUB), `カドカワストア`_
 
 .. _`エキスパートPythonプログラミング 改訂3版`: https://www.kadokawa.co.jp/product/302105001236/
 .. _`Expert Python Programming - Third Edition`: https://www.packtpub.com/product/expert-python-programming-third-edition/9781789808896
 .. _`Amazon`: https://amzn.to/3rJeKpD
 .. _カドカワストア: https://store.kadokawa.co.jp/shop/g/g302105001236/
+.. _達人出版会: https://tatsu-zine.com/books/expert-python-programming-3ed
 
 
 エキPyは、どんな本?
