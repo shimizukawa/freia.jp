@@ -1,7 +1,7 @@
 My Site
 =======
 
-* http://www.freia.jp/
+* https://www.freia.jp/
 
 .. image:: https://app.wercker.com/status/3f15f68c7d91105cf218c00117027645/s/master
    :alt: Wercker status
