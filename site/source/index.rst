@@ -8,7 +8,7 @@
    talks
    docs/index
    repos
-   アルバム <http://www.flickr.com/photos/shimizukawa/sets/>
+   アルバム <https://www.flickr.com/photos/shimizukawa/sets/>
 
 .. raw:: html
 
