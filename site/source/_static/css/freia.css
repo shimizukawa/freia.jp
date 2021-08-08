@@ -59,6 +59,11 @@ h3
     line-height:1.5em;
 }
 
+div.body {
+    min-width: 450px;
+    max-width: 878px;
+}
+
 div.content {
     font-size: 17px;
 }
@@ -108,44 +113,36 @@ dl.field-list dd {
 }
 
 /*** table ***/
-
-.table>thead>tr>th,
-.table>tbody>tr>th,
-.table>tfoot>tr>th {
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 21px;
+}
+table.docutils th {
     background-color: #F7FDE3;
 }
-.table>thead>tr>td,
-.table>tbody>tr>td,
-.table>tfoot>tr>td,
-.table>thead>tr>th,
-.table>tbody>tr>th,
-.table>tfoot>tr>th {
+table.docutils td,
+table.docutils th {
     padding: 1px 0.5em;
-    border-top: 1px solid #ecf0f1
+    border-bottom: 1px solid #ecf0f1
 }
-.table td p,
-.table th p {
+div.content table td p,
+div.content table th p {
     margin: 0;
 }
 
 /**** image/figure ***/
 
-.figure {
-    text-align: center;
-    margin: 10px;
+figure {
     background-color: #eee;
-    padding: 0.5em 1em;
+    padding-bottom: 0;
 }
-
-.figure p.caption {
-    margin: 0 5px;
-    font-weight: bold;
-    text-align: center;
-    padding: 0;
-}
-
-.figure div {
+figure div {
     text-align: left;
+}
+div.content figcaption p {
+    margin: 0em;
+    font-weight: bold;
 }
 
 /* sidebar */
