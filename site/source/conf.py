@@ -35,10 +35,10 @@ feed_limit = 10
 
 # for intersphinx
 intersphinx_mapping = {
-   'sphinx': ('http://www.sphinx-doc.org/ja/stable', None),
+   'sphinx': ('https://www.sphinx-doc.org/ja/stable', None),
    'py': ('https://docs.python.org/ja/2.7/', None),
    'py2': ('https://docs.python.org/ja/2.7/', None),
-   'py3': ('http://docs.python.org/ja/3/', None),
+   'py3': ('https://docs.python.org/ja/3/', None),
 }
 
 # -- General configuration -----------------------------------------------------
