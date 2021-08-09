@@ -78,7 +78,7 @@ app/models/round.rb:
 そうしたところ、画面表示にエラーが出るようになってしまったので、script/console で原因を確認したところ、保存してあったRoundレコードを読み込んだときにtroopsが正しくロードされなくなってしまっていた！
 
 
-.. code-block:: ruby
+.. code-block::
 
   $ ruby script/console
   >> round = Round.last
@@ -130,7 +130,7 @@ lib/foo.rb:
   end
   Foo.unloadable
 
-.. code-block:: ruby
+.. code-block::
 
   $ ruby script\console
   Loading development environment (Rails 2.1.0)

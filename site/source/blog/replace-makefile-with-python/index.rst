@@ -43,7 +43,7 @@ MakefileをPythonで置き換える
 
 `make all` に比べると多少入力文字数が多くなりましたが、既存の手順を維持したいなら以下のようなMakefileを用意しておけば良いですね。
 
-.. code-block:: make
+.. code-block::
 
    all:
        python make.py all

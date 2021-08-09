@@ -60,7 +60,8 @@ singlehtmlのリンクターゲット重複問題
 
 以下のコードをconf.pyに書いて使う。
 
-.. code-block:: conf.py
+.. code-block:: python
+   :caption: conf.py
 
    current_docname = ''
 

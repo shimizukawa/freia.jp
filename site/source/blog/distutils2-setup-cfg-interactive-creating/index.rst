@@ -8,7 +8,7 @@ Distutils2/packagingのpysetup createが長い
 作りかけだったrst2textileを公開して欲しいという要望をもらったので、setup.py書かなきゃ。あ、それなら ``pysetup create`` でsetup.cfg作れば楽じゃね？ということでやってみた。
 
 
-.. code-block:: bash
+.. code-block::
 
    $ pysetup create
    Project name [rst2textile]:

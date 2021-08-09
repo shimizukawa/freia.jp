@@ -35,7 +35,7 @@ TurboGearsのVirtualHost化ではまりまくる
 
 - httpd_tg.conf
 
-.. code-block:: xml
+.. code-block:: apache
 
   <VirtualHost *:80>
     ServerName example.com

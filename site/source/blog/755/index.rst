@@ -22,7 +22,7 @@ Python3対応メモ
 
 例によって、とりあえず2to3変換してみます。 ``python32 c:\Develop\Python32\Tools\Scripts\2to3.py bucho`` という感じでオプション無しで実行して、まずは変換差分を確認。
 
-.. code-block:: python
+.. code-block:: diff
 
     --- bucho/__init__.py	(original)
     +++ bucho/__init__.py	(refactored)

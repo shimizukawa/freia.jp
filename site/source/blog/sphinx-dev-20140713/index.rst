@@ -73,7 +73,7 @@ Sphinxでは ``:ref:`link-label`` や ``:doc:`../other``` のように別のフ�
 
 この仕組みはSphinx拡張でも当然使えるものなので、それを紹介しておいた。無事使えたかどうかは分からないけど。
 
-参考: :ref:`exttut` の "ビルド・フェーズ" のあたり。
+参考: :ref:`extension-tutorials-index` の "ビルド・フェーズ" のあたり。
 
 
 IRCより::

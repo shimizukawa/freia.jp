@@ -187,7 +187,7 @@ paster-template をeggに含める
 
 ところで、今の状態で ``python setup.py bdist_egg`` しても、pythonパッケージとして認識されないpaster-templateディレクトリはeggに含まれない。これが含まれるようにするため、setup.pyを以下のように修正する。
 
-.. code-block:: python
+.. code-block:: diff
 
   @@ -18,2 +18,3 @@
          package_dir={'': 'src'},

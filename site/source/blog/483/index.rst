@@ -16,7 +16,7 @@ Puttyごった煮版のpfwdを改造して自動再接続
 
 最後に以下の修正を行ってビルド。
 
-.. code-block:: cpp
+.. code-block:: diff
 
 	--- putty58/windows/pfwd.c.orig	Sun Sep 30 23:50:28 2007
 	+++ putty58/windows/pfwd.c	Sun Sep 30 23:46:45 2007
@@ -43,7 +43,7 @@ WindowMessage処理の中でSleepして大丈夫だったっけ...？ま、い�
 
 ついでに、切断時と接続時にバルーン表示するようにしてみたところ、激しく目障りだったのでバルーンは使わないようにしよう...。
 
-.. code-block:: cpp
+.. code-block:: diff
 
 	--- putty58/windows/pfwd.c.orig	Sun Sep 30 23:50:28 2007
 	+++ putty58/windows/pfwd.c	Sun Sep 30 23:56:39 2007

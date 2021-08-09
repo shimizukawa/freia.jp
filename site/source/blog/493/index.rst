@@ -7,7 +7,7 @@
 
 先日のエントリ `ASP.NETに触れた日`_ で実際に以下のようなコードを書いた。
 
-.. code-block:: xml
+.. code-block::
 
   <%@ PAGE LANGUAGE="C#" %>
   <html>

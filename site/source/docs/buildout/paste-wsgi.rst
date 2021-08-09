@@ -29,7 +29,7 @@ bin/buildout を実行してbucho環境を構築します。
 Pythonインタプリタを起動して、以下のようにして実際にサーバー起動させます
 (以下のコードはPython-2.5以降で動作します)。
 
-.. code-block:: python
+.. code-block:: pycon
 
     $ bin/py
 
@@ -193,7 +193,7 @@ cat versions.cfg
 
 $ cat etc/apache-vhost.conf
 
-.. code-block:: html
+.. code-block:: apache
 
     <Directory c:\Project\freia\buildout\source\code\paste-wsgi/parts/wsgiapp>
         Order deny,allow

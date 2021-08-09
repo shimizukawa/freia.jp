@@ -13,7 +13,7 @@ GETで配列指定してるんだけど、PHPだとこういう事が出来る�
 
 ZopeだとDTMLで
 
-.. code-block:: xml
+.. code-block::
 
   <input name="hoge:list" ...>
   <input name="hoge:list" ...>

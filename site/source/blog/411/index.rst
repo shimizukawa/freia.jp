@@ -25,7 +25,7 @@ Trackback禁止エントリでTrackback通知メールを送信しない
 
 とりあえず自分で使うのに不便なので実装してデフォルト値対応してみた。
 
-.. code-block:: python
+.. code-block:: diff
 
     --- COREBlog2/content/coreblogentry.py.orig	Sun Feb 25 03:02:45 2007
     +++ COREBlog2/content/coreblogentry.py	Fri Mar 09 00:12:52 2007

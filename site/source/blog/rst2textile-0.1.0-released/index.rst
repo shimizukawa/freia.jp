@@ -27,7 +27,6 @@ rst2textileは ``reStructuredText`` 形式のテキストを ``textile`` 形式�
 出力されたsample.txtファイル:
 
 .. literalinclude:: sample.txt
-   :language: textile
 
 
 このrst2textileパッケージは内部にdocutils_textileというdocutilsのwriter実装を持っています。rstファイルをパースして中間形式のノードツリーにするところまではdocutilsがやってくれるので、docutils_textileが実装するべきことはそれほど難しくありません。 :doc:`../docutils-pseudo-xml/index` で紹介した方法でノードツリーの構造を確認しながら実装を進めていきます。ただこれがけっこう時間がかかります。textileのフォーマットに一つずつ対応していくので、ひたすら手がかかります。
