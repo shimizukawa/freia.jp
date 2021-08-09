@@ -1,7 +1,4 @@
-.*.pyc
-.*.swp
-.*.orig
-.*~
+#### this repository
 site/build/
 site/source/blog/images
 site/source/blog/stuff
