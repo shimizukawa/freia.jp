@@ -96,6 +96,7 @@ def add_context(app, pagename, templatename, context, doctree):
 
 def setup(app):
     app.add_css_file('css/freia.css')
+    app.add_css_file('css/font-awesome.min.css')
     app.add_object_type('confval', 'confval',
                         objname='configuration value',
                         indextemplate='pair: %s; configuration value')

@@ -60,7 +60,7 @@ h3
 }
 
 div.body {
-    min-width: 450px;
+    min-width: 400px;
     max-width: 878px;
 }
 
@@ -135,10 +135,12 @@ div.content table th p {
 
 figure {
     background-color: #eee;
-    padding-bottom: 0;
 }
 figure div {
     text-align: left;
+}
+figcaption {
+    padding-bottom: 0;
 }
 div.content figcaption p {
     margin: 0em;
