@@ -418,7 +418,7 @@ ApacheのIPアドレス制限
 -----------------------
 ログの出力を標準のアクセスと別にしたり、アクセス時にZopeにアクセスに行かないように設定したりしてます。httpd.confの書き方を全然調査してないので冗長な感じです。あと本当はエラーページじゃなくて403を返すように設定したい。
 
-.. code-block:: python
+.. code-block:: apache
 
     SetEnvIf Remote_addr "(24\.244\.170\.180|81\.177\.8\.26)" spam1
     CustomLog /var/log/httpd/www.freia.jp-access.log combined env=!spam1

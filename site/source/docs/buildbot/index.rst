@@ -12,8 +12,6 @@ WebUIのみの提供でPythonが動作するプラットフォームであれば
    centos-setup
    buildbot-on-virtualenv
 
-.. buildbot-on-buildout
-
 
 参考文献
 ---------

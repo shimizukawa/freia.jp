@@ -21,7 +21,7 @@ RoR: 命名規約に沿っていないクラスをserializeすると復元出来
 
 app/models/round.rb:
 
-.. code-block:: ruby
+.. code-block::
 
   class Round < ActiveRecord::Base
     serialize :troops, Array
@@ -91,7 +91,7 @@ app/models/round.rb:
 
 round.rb で require 'card' してあげたらちゃんとロード出来るようになった。
 
-.. code-block:: ruby
+.. code-block::
 
   $ ruby script/console
   >> round = Round.last

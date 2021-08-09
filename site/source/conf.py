@@ -35,7 +35,7 @@ feed_limit = 10
 
 # for intersphinx
 intersphinx_mapping = {
-   'sphinx': ('https://www.sphinx-doc.org/ja/stable', None),
+   'sphinx': ('https://www.sphinx-doc.org/ja/master/', None),
    'py': ('https://docs.python.org/ja/2.7/', None),
    'py2': ('https://docs.python.org/ja/2.7/', None),
    'py3': ('https://docs.python.org/ja/3/', None),
@@ -52,6 +52,12 @@ version = release = ''
 language = 'ja'
 exclude_trees = []
 pygments_style = 'sphinx'
+exclude_patterns = [
+    'blog/rst2textile-0.1.0-released/sample.rst',
+    'docs/pyhack4/sample',
+    # 'docs/*',
+    # 'blog/[1-9a-dj-ru-z]*',
+]
 # exclude_patterns = ['docs/*', 'blog/[1-9a-dj-ru-z]*']
 
 

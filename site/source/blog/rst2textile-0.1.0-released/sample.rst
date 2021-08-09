@@ -48,6 +48,4 @@ Links
 
 Images
 
-    .. image:: imageurl
-
-
+    .. image:: image.png

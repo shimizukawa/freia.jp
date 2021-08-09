@@ -51,7 +51,7 @@ lib/foo.rb:
   end
 
 
-.. code-block:: ruby
+.. code-block::
 
   $ ruby script\console
   Loading development environment (Rails 2.1.0)
@@ -88,7 +88,7 @@ RoR: serializeした独自クラスをYAMLからロード時に再読込
 
 まず、独自のクラスをYAML化する機能は、以下のように特に何もしなくても提供される。
 
-.. code-block:: ruby
+.. code-block::
 
   $ ruby script/console
   >> class MyClass
@@ -123,7 +123,7 @@ ruby script/console:
 
 最後に、YAMLのloading機構に登録する。 ``add_domain_type`` の使い方は `YAML::add_domain_type Method`_ を参照。
 
-.. code-block:: ruby
+.. code-block::
 
   $ ruby script/console
   >> YAML::add_domain_type( "freia.jp,2009", "console" ) do |type, val|
@@ -140,7 +140,7 @@ ruby script/console:
 
 これでシリアライズされたインスタンスをYAMLから戻すときに任意の処理が出来るようになった。さらに継承したクラスについても一括で処理出来るようにもう一工夫。
 
-.. code-block:: ruby
+.. code-block::
 
   $ ruby script/console
   >> YAML::add_domain_type( "freia.jp,2009", "console" ) do |type, val|
@@ -178,7 +178,7 @@ my_class.rb:
     klass.new val['name']
   end
 
-.. code-block:: ruby
+.. code-block::
 
   $ ruby script/console
   >> o1 = MyClass.new 'abc'

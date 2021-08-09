@@ -37,4 +37,4 @@ Links
 bq. "link text":link_address
 Images
 
-!imageurl!
+!image.png!

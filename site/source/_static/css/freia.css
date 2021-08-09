@@ -59,6 +59,9 @@ h3
     line-height:1.5em;
 }
 
+body {
+    min-width: 400px;
+}
 div.body {
     min-width: 400px;
     max-width: 878px;

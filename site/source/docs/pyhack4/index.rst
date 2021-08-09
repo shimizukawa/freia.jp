@@ -34,4 +34,4 @@ Python Hack-a-thon 4 ハンズオン 中級コース
    pypi/index
    buildout/index
    environments
-
+   bibliography
