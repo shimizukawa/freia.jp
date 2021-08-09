@@ -11,7 +11,7 @@
 
 .. figure:: expert-python-programming-3rd-en-ja-cover.*
 
-   エキスパートPythonプログラミング Third Edition / 改訂3版
+   エキスパートPythonプログラミング 改訂3版 / Third Edition
 
 .. csv-table::
    :widths: 1,7
