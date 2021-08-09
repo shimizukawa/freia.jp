@@ -30,7 +30,7 @@ example.rst::
 
    例1: 詳しくは :py:mod:`sphinx:sphinx.ext.intersphinx` を参照して下さい。
 
-   例2: 例えば :ref:`sphinx:domains` にもリンクできます。
+   例2: 例えば :term:`sphinx:domain` にもリンクできます。
 
 conf.py::
 
@@ -45,7 +45,7 @@ conf.py::
 
    例1: 詳しくは :py:mod:`sphinx:sphinx.ext.intersphinx` を参照して下さい。
 
-   例2: 例えば :ref:`sphinx:domains` にもリンクできます。
+   例2: 例えば :term:`sphinx:domain` にもリンクできます。
 
 
 ローカルドキュメントにリンクするかのように、外部サイトにリンクしてタイトルも正しく表示出来ましたね。
@@ -129,7 +129,7 @@ conf.py::
 
 .. note::
 
-   ``domainname:type`` の部分は ``:ref:`` でリンクしたい場合は std:label にします。 ``:py:func`` でリンクしたい場合は ``py:function`` にします。このあたりはドメインの話なので、詳しくは :ref:`sphinx:domains` を参照して下さい。
+   ``domainname:type`` の部分は ``:ref:`` でリンクしたい場合は std:label にします。 ``:py:func`` でリンクしたい場合は ``py:function`` にします。このあたりはドメインの話なので、詳しくは :term:`sphinx:domain` を参照して下さい。
 
 
 

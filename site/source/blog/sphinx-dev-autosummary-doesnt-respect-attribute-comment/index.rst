@@ -27,7 +27,7 @@ autodocとautosummaryはPythonコードから自動的にドキュメントを�
 .. literalinclude:: index_sample.txt
    :language: rst
 
-この中で、 :rst:dir:`py:module` は :ref:`domains` が提供するディレクティブです。
+この中で、 :rst:dir:`py:module` は :term:`sphinx:domain` が提供するディレクティブです。
 :rst:dir:`autoclass` は :mod:`sphinx.ext.autodoc` 拡張が提供するディレクティブです。
 :rst:dir:`autosummary` は :mod:`sphinx.ext.autodoc` 拡張が提供するディレクティブです。
 
