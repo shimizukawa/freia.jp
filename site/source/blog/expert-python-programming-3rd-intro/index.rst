@@ -47,13 +47,14 @@
 
 .. topic:: 他のオススメ書籍（上級者向け）
 
-   10年前とは異なり、今では書店に行くとPythonの書籍が溢れています。読み手の選択肢が広がり、より自分に合った書籍を選べるようになりました。『 `Effective Python 第2版`_ 』や『 `Fluent Python`_ 』といったPython言語そのものを深く濃く学べる書籍も登場しました。『 `実践 Python 3`_ 』はデザインパターンをPythonに適用する考え方について詳しく紹介している書籍です。エキPyに近い内容を扱っている最近の書籍としては『 `Pythonハッカーガイドブック`_ 』もオススメです。
+   10年前とは異なり、今では書店に行くとPythonの書籍が溢れています。読み手の選択肢が広がり、より自分に合った書籍を選べるようになりました。『 `Effective Python 第2版`_ 』や『 `Fluent Python`_ 』といったPython言語そのものを深く濃く学べる書籍も登場しました。『 `実践 Python 3`_ 』はデザインパターンをPythonに適用する考え方について詳しく紹介している書籍です。エキPyに近い内容を扱っている最近の書籍としては『 `Pythonハッカーガイドブック`_ 』と『 `Python実践入門`_ 』もオススメです。
 
 
 .. _Effective Python 第2版: https://amzn.to/3C2xiWp
 .. _Fluent Python: https://amzn.to/2VniDED
 .. _実践 Python 3: https://amzn.to/3zYZnfz
 .. _Pythonハッカーガイドブック: https://amzn.to/3lliigG
+.. _Python実践入門: https://amzn.to/2TyLBye
 
 
 改訂2版からの変更点
