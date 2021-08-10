@@ -17,7 +17,7 @@ virtual-python の後継という位置づけのようです。
     だれか成功している人は shimizukawa at gmail.com までご連絡下さい。
 
     筆者のお勧めはvirtualenvではなくbuildoutを使うことです。
-    詳しくは :doc:`/buildout/gae` を参照
+    詳しくは :doc:`/docs/buildout/gae` を参照
 
 
 virtualenvをゲット
