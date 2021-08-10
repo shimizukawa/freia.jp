@@ -419,7 +419,7 @@ Party2
 
 Python Start Club の人達に混ざって2次会に参加しました
 
-.. figure:: party2-chikin.*
+.. figure:: party-chikin.*
    :width: 50%
 
    鶏の唐揚げ
