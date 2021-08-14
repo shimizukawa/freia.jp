@@ -2,6 +2,71 @@
 Talks
 =====
 
+`エキスパートPythonプログラミング改訂3版の読みどころ`__
+===================================================
+2021.08.11. at `みんなのPython勉強会#72`__
+
+.. __: https://www.slideshare.net/shimizukawa/expert-python-programming-3rd-ja-stapy72-249960680
+.. __: https://startpython.connpass.com/event/219206/
+
+  .. raw:: html
+
+     <iframe src="//www.slideshare.net/slideshow/embed_code/key/4yCBh3Lxhzdwoq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/expert-python-programming-3rd-ja-stapy72-249960680" title="エキスパートPythonプログラミング改訂3版の読みどころ" target="_blank">エキスパートPythonプログラミング改訂3版の読みどころ</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
+
+* 動画: https://youtu.be/rrRB2FeEqEU?t=4795
+
+`RLSを用いたマルチテナント実装 for Django`__
+==========================================
+2021.07.03. at `DjangoCongress JP 2021`__
+
+.. __: https://www.slideshare.net/shimizukawa/a-multitenant-implementation-using-rls-for-django
+.. __: https://django.connpass.com/event/214451/
+
+  .. raw:: html
+
+     <iframe src="//www.slideshare.net/slideshow/embed_code/key/i1RvLY0SMKY2B1" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/a-multitenant-implementation-using-rls-for-django" title="RLSを用いたマルチテナント実装 for Django" target="_blank">RLSを用いたマルチテナント実装 for Django</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
+
+* 動画: https://www.youtube.com/watch?v=BLfO79jJO2c&t=3133s
+
+`独学プログラマーのその後`__
+==========================
+2021.05.12. at `みんなのPython勉強会#69`__
+
+.. __: https://www.slideshare.net/shimizukawa/the-selftaughtprogrammerandbeyond20210512
+.. __: https://startpython.connpass.com/event/201615/
+
+  .. raw:: html
+
+     <iframe src="//www.slideshare.net/slideshow/embed_code/key/gf0spw8HvGiw5E" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/the-selftaughtprogrammerandbeyond20210512" title="独学プログラマーのその後" target="_blank">独学プログラマーのその後</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
+
+* 動画: https://youtu.be/zXctQwofKVA?t=2391
+
+`Django + SQLAlchemy: シンプルWay`__
+====================================
+2020.8.28. at `PyCon JP 2020`__
+
+.. __: https://www.slideshare.net/shimizukawa/simple-way-with-django-sqlalchemy-20200828-updated-version
+.. __: https://pycon.jp/2020/timetable/?id=203756
+
+  .. raw:: html
+
+     <iframe src="//www.slideshare.net/slideshow/embed_code/key/gAObV6I7ku7lWC" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/simple-way-with-django-sqlalchemy-20200828-updated-version" title="【修正版】Django + SQLAlchemy: シンプルWay" target="_blank">【修正版】Django + SQLAlchemy: シンプルWay</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
+
+* 動画: https://www.youtube.com/watch?v=DyAnzE7r-3M
+
+`『自走プログラマー』 が我々に必要だった理由`__
+============================================
+2020.2.28. at `BPStudy#150`__
+
+.. __: https://www.slideshare.net/shimizukawa/the-reason-we-needed-the-selfpropelled-programmer-book
+.. __: https://bpstudy.connpass.com/event/166409/
+
+  .. raw:: html
+
+     <iframe src="//www.slideshare.net/slideshow/embed_code/key/onq4w2GvIwOrff" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/the-reason-we-needed-the-selfpropelled-programmer-book" title="『自走プログラマー』 が我々に必要だった理由" target="_blank">『自走プログラマー』 が我々に必要だった理由</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
+
+* 動画: https://www.youtube.com/watch?v=DyAnzE7r-3M
+
 `Sphinx customization for OGP support`__
 ========================================
 2018.11.28. at `SphinxCon JP 2018`__
