@@ -65,8 +65,6 @@ Talks
 
      <iframe src="//www.slideshare.net/slideshow/embed_code/key/onq4w2GvIwOrff" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/the-reason-we-needed-the-selfpropelled-programmer-book" title="『自走プログラマー』 が我々に必要だった理由" target="_blank">『自走プログラマー』 が我々に必要だった理由</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
 
-* 動画: https://www.youtube.com/watch?v=DyAnzE7r-3M
-
 `Sphinx customization for OGP support`__
 ========================================
 2018.11.28. at `SphinxCon JP 2018`__
