@@ -3,7 +3,7 @@ Talks
 =====
 
 `エキスパートPythonプログラミング改訂3版の読みどころ`__
-===================================================
+=======================================================
 2021.08.11. at `みんなのPython勉強会#72`__
 
 .. __: https://www.slideshare.net/shimizukawa/expert-python-programming-3rd-ja-stapy72-249960680
@@ -16,7 +16,7 @@ Talks
 * 動画: https://youtu.be/rrRB2FeEqEU?t=4795
 
 `RLSを用いたマルチテナント実装 for Django`__
-==========================================
+============================================
 2021.07.03. at `DjangoCongress JP 2021`__
 
 .. __: https://www.slideshare.net/shimizukawa/a-multitenant-implementation-using-rls-for-django
@@ -29,7 +29,7 @@ Talks
 * 動画: https://www.youtube.com/watch?v=BLfO79jJO2c&t=3133s
 
 `独学プログラマーのその後`__
-==========================
+=============================
 2021.05.12. at `みんなのPython勉強会#69`__
 
 .. __: https://www.slideshare.net/shimizukawa/the-selftaughtprogrammerandbeyond20210512
@@ -55,7 +55,7 @@ Talks
 * 動画: https://www.youtube.com/watch?v=DyAnzE7r-3M
 
 `『自走プログラマー』 が我々に必要だった理由`__
-============================================
+=================================================
 2020.2.28. at `BPStudy#150`__
 
 .. __: https://www.slideshare.net/shimizukawa/the-reason-we-needed-the-selfpropelled-programmer-book
