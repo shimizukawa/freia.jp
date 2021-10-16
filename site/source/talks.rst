@@ -3,7 +3,7 @@ Talks
 =====
 
 `Webアプリを並行開発する際のマイグレーション戦略`__
-============================================
+======================================================
 2021.10.16. at `PyCon JP 2021`__
 
 .. __: https://www.slideshare.net/shimizukawa/migration-strategies-for-parallel-development-of-web-applications
