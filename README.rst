@@ -3,7 +3,6 @@ My Site
 
 * https://www.freia.jp/
 
-.. image:: https://app.wercker.com/status/3f15f68c7d91105cf218c00117027645/s/master
-   :alt: Wercker status
-   :target: https://app.wercker.com/project/byKey/3f15f68c7d91105cf218c00117027645
-
+.. image:: https://github.com/shimizukawa/freia.jp/actions/workflows/main.yml/badge.svg
+   :alt: GitHub Actions
+   :target: https://github.com/shimizukawa/freia.jp/actions
