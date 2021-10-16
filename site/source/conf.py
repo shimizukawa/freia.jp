@@ -45,7 +45,7 @@ intersphinx_mapping = {
 
 templates_path = ['_templates']
 source_suffix = '.rst'
-master_doc = 'index'
+root_doc = 'index'
 project = '清水川Web'
 copyright = 'Takayuki SHIMIZUKAWA'
 version = release = ''
