@@ -2,6 +2,20 @@
 Talks
 =====
 
+`Webアプリを並行開発する際のマイグレーション戦略`__
+============================================
+2021.10.16. at `PyCon JP 2021`__
+
+.. __: https://www.slideshare.net/shimizukawa/migration-strategies-for-parallel-development-of-web-applications
+.. __: https://2021.pycon.jp/time-table/?id=273396
+
+  .. raw:: html
+
+     <iframe src="//www.slideshare.net/slideshow/embed_code/key/4jSEzkZ3ee9spl" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/migration-strategies-for-parallel-development-of-web-applications" title="Webアプリを並行開発する際のマイグレーション戦略" target="_blank">Webアプリを並行開発する際のマイグレーション戦略</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
+
+* 動画: ＜公開予定＞
+
+
 `エキスパートPythonプログラミング改訂3版の読みどころ`__
 =======================================================
 2021.08.11. at `みんなのPython勉強会#72`__
