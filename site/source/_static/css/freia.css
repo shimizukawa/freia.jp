@@ -264,6 +264,13 @@ a.book-sphinx2 {
     margin: 4px auto;
     background-image: url("https://www.freia.jp/taka/_static/img/book-sphinx2.jpg");
 }
+a.book-sphinx3 {
+    display: block;
+    width: 125px;
+    height: 177px;
+    margin: 4px auto;
+    background-image: url("https://www.freia.jp/taka/_static/img/book-sphinx3.jpg");
+}
 a.book-epp3 {
     display: block;
     width: 125px;
