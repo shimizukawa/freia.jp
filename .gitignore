@@ -2,3 +2,6 @@
 site/build/
 site/source/blog/images
 site/source/blog/stuff
+.idea/
+**/.venv
+**/*.pyc
