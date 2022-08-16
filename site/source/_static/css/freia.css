@@ -285,6 +285,13 @@ a.book-tstp {
     margin: 4px auto;
     background-image: url("https://www.freia.jp/taka/_static/img/book-tstp.jpg");
 }
+a.book-tstcs {
+    display: block;
+    width: 125px;
+    height: 178px;
+    margin: 4px auto;
+    background-image: url("https://www.freia.jp/taka/_static/img/book-tstcs.jpg");
+}
 
 /* sidebar badge */
 a.psf-badge {
