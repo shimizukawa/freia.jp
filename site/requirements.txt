@@ -6,3 +6,4 @@ https://github.com/shimizukawa/sphinxcontrib-feed/archive/master.zip
 sphinx-bootstrap-theme
 janome
 funcparserlib>=1.0.0a0
+sphinxext-opengraph

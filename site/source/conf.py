@@ -10,7 +10,7 @@ extensions = [
     'sphinxcontrib.seqdiag',
     'sphinx.ext.todo',
     'iframe',
-    'ogtag',
+    'sphinxext.opengraph',
     'blogdomain',
     'sphinxcontrib.feed',
     'sphinx.ext.intersphinx',
@@ -21,10 +21,6 @@ todo_include_todos = True
 
 # for tkinter.ext.disqus plugin
 #disqus_shortname = 'shimizukawa'
-
-# site url
-og_site_url = 'https://www.freia.jp/taka/'
-og_twitter_site = '@shimizukawa'
 
 # for sphinxcontrib.feed plugin
 feed_title = u"清水川Web"
@@ -82,6 +78,16 @@ html_static_path = ['_static']
 html_use_modindex = False
 #html_search_options = {'type': 'sphinx.search.ja.JanomeSplitter'}
 html_experimental_html5_writer = True
+
+# OGP
+ogp_site_url = 'https://www.freia.jp/taka/'
+ogp_site_name = project
+ogp_type = 'article'
+ogp_use_first_image = True
+ogp_custom_meta_tags = [
+    '<meta name="twitter:card" content="summary_large_image" />',
+    '<meta name="twitter:site" content="@shimizukawa" />',
+]
 
 # -- setup --
 
