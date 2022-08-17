@@ -17,13 +17,14 @@
 :出版社: 日経BP社
 :Price: 2,200円+税
 :ISBN-13: 978-4-82229-227-0
-:購入: Amazon_, `日経BP書店`_, `楽天ブックス`_
+:購入: Amazon_, `楽天ブックス`_, honto_, `紀伊國屋書店`_
 
-.. _独学プログラマー: http://ec.nikkeibp.co.jp/item/books/C92270.html
+.. _独学プログラマー: https://bookplus.nikkei.com/atcl/catalog/18/C92270/
 .. _The Self-Taught Programmer: https://www.theselftaughtprogrammer.io/
 .. _Amazon: http://amzn.to/2EwY6Ea
 .. _楽天ブックス: https://books.rakuten.co.jp/rb/15362804/
-.. _日経BP書店: http://ec.nikkeibp.co.jp/item/books/C92270.html
+.. _honto: https://honto.jp/netstore/pd-book_28926695.html
+.. _紀伊國屋書店: https://www.kinokuniya.co.jp/f/dsg-01-9784822292270
 
 
 どんな本？
