@@ -153,6 +153,9 @@ def convert_tag_string_into_tags(context):
     :return: None
     """
     try:
+        meta = context['meta']
+        if meta is None:  # blog content ではない
+            raise KeyError('meta')
         tags = context['meta']['tags']
     except KeyError:
         pass
