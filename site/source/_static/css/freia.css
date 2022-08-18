@@ -93,12 +93,14 @@ div.content {
     }
 }
 
+/* 下マージンが大きすぎて間延びしているためコメントアウト
 div.content p {
     margin-bottom: 1.5em;
 }
 div.content li p {
     margin-bottom: 0.5em;
 }
+*/
 
 blockquote {
     background: #F7FDE3;
@@ -138,6 +140,7 @@ div.content table th p {
 
 figure {
     background-color: #eee;
+    margin-bottom: 1em;
 }
 figure div {
     text-align: left;
