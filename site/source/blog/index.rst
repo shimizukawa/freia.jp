@@ -1,6 +1,14 @@
 清水川記
 ==============
 
+2022年
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   the-self-taught-computer-scientist-intro/index
+
 2021年
 ------
 
