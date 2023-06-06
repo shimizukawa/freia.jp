@@ -21,7 +21,7 @@ TL;DR
 
    The C compiler used in the build process is the compiler that is the default for your operating system. For a Linux-based system or macOS, this would be ``gcc`` or ``clang`` respectively. For Windows, Microsoft Visual C++ can be used (there's a free command-line version available). The open-source project MinGW can be used as well. The compiler choice can also be configured through ``setuptools``.
 
-しかし、2023年時点でMinGWはPython拡張ビルドのお勧めの方法とは言えません。確かに、 ``setuptools`` （というか ``distutils`` ）はMinGWをサポートしていますが、配布可能な、一般的なWindowsで動作するバイナリ配布物をMinGWで作成できないと思います。自分も2013年頃にトライして諦めた記録がありました `please add 64bit windows binaries to pypi downloads · Issue #28 · python-pillow/Pillow`_（できた方は、ぜひ情報をご提供ください）。
+しかし、2023年時点でMinGWはPython拡張ビルドのお勧めの方法とは言えません。確かに、 ``setuptools`` （というか ``distutils`` ）はMinGWをサポートしていますが、配布可能な、一般的なWindowsで動作するバイナリ配布物をMinGWで作成できないと思います。自分も2013年頃にトライしましたが、セグフォなどで安定せず諦めた記憶（ `記録`_ ）があります。（できた方は、ぜひ情報をご提供ください）。
 
 2023年現在の一番良い選択肢は `Build Tools for Visual Studio 2022`_ です。有り難いことに、MicrosoftはVisual Studioのコマンドライン版を200x年以降ライセンスフリーで利用可能としてくれています。2014年には「Microsoft Visual C++ Compiler for Python 2.7」という、Pythonをツール名に冠したバージョンもありました。
 
@@ -314,4 +314,4 @@ Python3 C拡張の実行
 
 .. _Expert-Python-Programming-Fourth-Edition/Chapter 9/02 - Pure C extensions at main · PacktPublishing/Expert-Python-Programming-Fourth-Edition · GitHub: https://github.com/PacktPublishing/Expert-Python-Programming-Fourth-Edition/tree/main/Chapter%209/02%20-%20Pure%20C%20extensions
 
-.. _please add 64bit windows binaries to pypi downloads · Issue #28 · python-pillow/Pillow: https://github.com/python-pillow/Pillow/issues/28#issuecomment-12700551
+.. _記録: https://github.com/python-pillow/Pillow/issues/28#issuecomment-12700551
