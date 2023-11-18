@@ -2,6 +2,19 @@
 
 {% set site_url = 'https://www.freia.jp/taka' %}
 
+{%- block scripts %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4DKC2PES0J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4DKC2PES0J');
+</script>
+{{- script() }}
+{%- endblock %}
+
 {%- block extrahead %}
 {{ super() }}
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site_url }}/rss.xml">
@@ -41,13 +54,4 @@
     </p>
   </div>
 </footer>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-769552-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-769552-1');
-</script>
 {%- endblock %}
