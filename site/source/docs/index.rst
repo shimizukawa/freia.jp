@@ -11,6 +11,86 @@ Articles
 Books
 =====
 
+`エキスパートPythonプログラミング 改訂4版`__
+----------------------------------------------
+2023.07, アスキードワンゴ
+
+.. __: https://amzn.to/3G5FCYI
+
+.. raw:: html
+
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="https://www.amazon.co.jp/dp/4048931113/?tag=freiaweb-22" name="amazletlink" target="_blank"><img src="https://m.media-amazon.com/images/I/519PR6aq4HL._SL200_.jpg" alt="エキスパートPythonプログラミング 改訂4版" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="https://www.amazon.co.jp/dp/4048931113/?tag=freiaweb-22" name="amazletlink" target="_blank">エキスパートPythonプログラミング 改訂4版</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">generated with AmaQuick at 2023/11/18</div></div><div class="amazlet-detail">Michal Jaworski(著), Tarek Ziade(著), 新井 正貴(翻訳), 稲田 直哉(翻訳), 渋川 よしき(翻訳), 清水川 貴之(翻訳), 福田 隼也(翻訳) <br />KADOKAWA <br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="https://www.amazon.co.jp/dp/4048931113/?tag=freiaweb-22" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+
+.. csv-table:: Information
+   :widths: 1,7
+   :stub-columns: 1
+   :delim: :
+
+   対象読者: 先進的なPythonプログラマが日常的に使用している開発ノウハウを学びたい方
+   Format: "`紙 <https://amzn.to/3G5FCYI>`__, `電子 <https://bookwalker.jp/de3bb32953-c8a4-4033-813f-69488cc31084/?adpcnt=7qM_Nkp>`__"
+   Price: 3,900円+税
+   ISBN-13: 978-4048931113
+   概要: Pythonを使って仕事をしている開発者が普段どのようなツールやテクニックを用いて仕事をしているのか、また開発者が実際に現場で用いているベストプラクティスについて解説した書籍です。本書を読むことで、先進的なPythonプログラマが日常的に使用している開発ノウハウを学ぶことができます。
+   著者: Michal Jaworski、Tarek Ziade
+   翻訳: 新井 正貴、稲田 直哉、渋川 よしき、清水川 貴之、福田 隼也
+   関連記事: "
+   - :doc:`../blog/building-python3-c-extensions-with-build-tools-for-visual-studio-2022/index`
+   - `エキスパートPythonプログラミング改訂4版が発売されました | フューチャー技術ブログ <https://future-architect.github.io/articles/20230727a/>`__
+   - `書籍レビュアーとして参加した、エキスパートPythonプログラミング 改訂4版 が発売されました - メモ的な思考的な <https://thinkami.hatenablog.com/entry/2023/09/01/082831>`__
+   "
+
+
+`独学コンピューターサイエンティスト`__
+-----------------------------------------
+2022.08, 日経BP社
+
+.. __: https://amzn.to/3BFaEpt
+
+.. raw:: html
+
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="https://www.amazon.co.jp/dp/4296070347/?tag=freiaweb-22" name="amazletlink" target="_blank"><img src="https://m.media-amazon.com/images/I/513IPCO9oML._SL200_.jpg" alt="独学コンピューターサイエンティスト Pythonで学ぶアルゴリズムとデータ構造" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="https://www.amazon.co.jp/dp/4296070347/?tag=freiaweb-22" name="amazletlink" target="_blank">独学コンピューターサイエンティスト Pythonで学ぶアルゴリズムとデータ構造</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">generated with AmaQuick at 2023/11/18</div></div><div class="amazlet-detail">コーリー・アルソフ(著), 清水川 貴之(翻訳), 新木 雅也(翻訳), 大村 和子(翻訳), tell-k(翻訳) <br />日経BP <br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="https://www.amazon.co.jp/dp/4296070347/?tag=freiaweb-22" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>   
+
+.. csv-table:: Information
+   :widths: 1,7
+   :stub-columns: 1
+   :delim: :
+
+   対象読者: プログラムを書いて作りたいものがある人、プログラミングを覚えて日々の面倒ごとをスマートに解決したいという人、コンピューターサイエンスを学んだことがない初学者、他のデータ構造やアルゴリズムの書籍を読んで難しいと感じる方
+   Format: 紙, 電子版
+   Price: 2,300円+税
+   ISBN-13: 978-4296070343
+   概要: 本書の著者、コーリー・アルソフは、「独学プログラマー」です。コーリー自身が学びの途中にあり、対象読者と同じ視点でアルゴリズムとデータ構造というコンピューターサイエンスの必須知識を説明してくれていることに価値があります。本書は、難しい内容であるアルゴリズムとデータ構造について、要点を絞って分かりやすく伝えています。これらを学ぶ1冊目としてちょうど良い難易度になっています。
+   著者: コーリー・アルソフ(Cory Althoff)
+   監訳: 清水川貴之
+   翻訳: 清水川貴之、新木雅也、大村和子、tell-k
+   関連記事: "- :doc:`../blog/the-self-taught-computer-scientist-intro/index`"
+
+`Sphinxをはじめよう 第3版`__
+-----------------------------
+2022.03, O'Reilly Japan
+
+.. __: https://amzn.to/3QNqpRa
+
+.. raw:: html
+
+   <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="https://www.amazon.co.jp/dp/4873119839/?tag=freiaweb-22" name="amazletlink" target="_blank"><img src="https://m.media-amazon.com/images/I/41UQT-rnFpL._SL200_.jpg" alt="Sphinxをはじめよう 第3版" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="https://www.amazon.co.jp/dp/4873119839/?tag=freiaweb-22" name="amazletlink" target="_blank">Sphinxをはじめよう 第3版</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">generated with AmaQuick at 2023/11/18</div></div><div class="amazlet-detail">清水川 貴之(著), 小宮 健(著), 山田 剛(著), 若山 史郎(著) <br />オライリージャパン <br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="https://www.amazon.co.jp/dp/4873119839/?tag=freiaweb-22" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+
+.. csv-table:: Information
+   :widths: 1,7
+   :stub-columns: 1
+   :delim: :
+
+   対象読者: Sphinxに初めて触れる方, ドキュメントをテキストで書きたい方
+   Format: "`紙 <https://amzn.to/3QNqpRa>`__ 、 `PDF、ePub <https://www.oreilly.co.jp/books/9784873119830/>`__"
+   Price: 紙 2,200円+税、電子 1,760円+税
+   ISBN-13: 978-4-87311-983-0
+   概要: 本書はPythonの公式ドキュメント作成ツールとして誕生し、Python製の各種ソフトウェアやLinuxカーネルなどのドキュメント作成にも採用されているドキュメント変換ツールSphinxの、開発者自身による入門書です。Windows、macOS、Linux（Ubuntu）を例に、Sphinxの概要からインストール、基本的な利用方法について、またSphinxからLaTeXを経由してPDFを作成したり、EPUBフォーマットの電子書籍を作成する方法を、初めて触れる方にもわかりやすく紹介しています。Sphinxのバージョン4.3.1以降に対応。
+   著者: 清水川貴之, 小宮健, 山田剛, 若山史郎
+   執筆範囲: "
+   * 1章 Sphinxとは
+   * 3章 議事録を書いてみよう（HTMLへの変換）
+   * 付録A reStructuredTextリファレンス"
+
 `エキスパートPythonプログラミング 改訂3版`__
 ----------------------------------------------
 2021.07, アスキードワンゴ

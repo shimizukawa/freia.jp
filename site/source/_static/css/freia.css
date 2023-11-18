@@ -281,6 +281,13 @@ a.book-epp3 {
     margin: 4px auto;
     background-image: url("https://www.freia.jp/taka/_static/img/book-epp3.png");
 }
+a.book-epp4 {
+    display: block;
+    width: 125px;
+    height: 164px;
+    margin: 4px auto;
+    background-image: url("https://www.freia.jp/taka/_static/img/book-epp4.png");
+}
 a.book-tstp {
     display: block;
     width: 125px;
