@@ -15,6 +15,29 @@ Talks
 
 * 動画: ＜公開待ち＞
 
+`Navigating Python: Milestones from Essential Reads`__
+===========================================================
+2023.09.27. at `Python PH 2023.09`__
+
+.. __: https://www.slideshare.net/shimizukawa/pythonph-202309
+.. __: https://www.meetup.com/ja-JP/pythonph/events/296081160/
+
+  .. raw:: html
+
+     <iframe src="https://www.slideshare.net/slideshow/embed_code/key/iGt9RXhVSyy3dp?startSlide=1" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;max-width: 100%;" allowfullscreen></iframe><div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/shimizukawa/pythonph-202309" title="Navigating Python: Milestones from Essential Reads" target="_blank">Navigating Python: Milestones from Essential Reads</a></strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong></div>
+
+
+`IKEv2-VPN`__
+=======================
+2023.06.17. at `PyHackCon 2023`__
+
+.. __: https://www.slideshare.net/shimizukawa/ikev2vpn-pyhackcon2023
+.. __: https://pyhack.connpass.com/event/282942/
+
+  .. raw:: html
+
+     <iframe src="https://www.slideshare.net/slideshow/embed_code/key/5e97DPE8rOincK?startSlide=1" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;max-width: 100%;" allowfullscreen></iframe><div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/shimizukawa/ikev2vpn-pyhackcon2023" title="IKEv2-VPN PyHackCon2023" target="_blank">IKEv2-VPN PyHackCon2023</a></strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong></div>
+
 
 `OpenTelemetryでWebシステムの処理を追跡しよう`__
 ==============================================================
