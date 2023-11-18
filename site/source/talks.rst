@@ -2,6 +2,59 @@
 Talks
 =====
 
+`Django ORM道場：クエリの基本を押さえ，より良い形を身に付けよう`__
+==========================================================================
+2023.10.27. at `PyCon APAC 2023`__
+
+.. __: https://www.slideshare.net/shimizukawa/pycon-apac-2023-django-orm-dojo
+.. __: https://2023-apac.pycon.jp/timetable?id=GJJGPS
+
+  .. raw:: html
+
+     <iframe src="https://www.slideshare.net/slideshow/embed_code/key/m1itZ84rs0cKVc?startSlide=1" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;max-width: 100%;" allowfullscreen></iframe><div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/shimizukawa/pycon-apac-2023-django-orm-dojo" title="Django ORM道場：クエリの基本を押さえ，より良い形を身に付けよう" target="_blank">Django ORM道場：クエリの基本を押さえ，より良い形を身に付けよう</a></strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong></div>
+
+* 動画: ＜公開待ち＞
+
+
+`OpenTelemetryでWebシステムの処理を追跡しよう`__
+==============================================================
+2022.11.12. at `DjangoCongress JP 2022`__
+
+.. __: https://www.slideshare.net/shimizukawa/lets-trace-web-system-processes-with-opentelemetry-djangocongress-jp-2022
+.. __: https://djangocongress.jp/2022.html#talk-10
+
+  .. raw:: html
+
+     <iframe src="https://www.slideshare.net/slideshow/embed_code/key/b8bKTLj1VIMx2e?startSlide=1" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;max-width: 100%;" allowfullscreen></iframe><div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/shimizukawa/lets-trace-web-system-processes-with-opentelemetry-djangocongress-jp-2022" title="OpenTelemetryでWebシステムの処理を追跡しよう - DjangoCongress JP 2022" target="_blank">OpenTelemetryでWebシステムの処理を追跡しよう - DjangoCongress JP 2022</a></strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong></div>
+
+* 動画: https://youtu.be/Z5LbchdhvAY
+
+`プログラマーとの出会い - Hello, Programmer!`__
+==============================================================
+2022.01.22. at `PyCon Kyushu 2022`__
+
+.. __: https://www.slideshare.net/shimizukawa/20220122-hello-programmer-at-pycon-kyushu-2022
+.. __: https://kyushu.pycon.jp/2022/#keynote
+
+  .. raw:: html
+
+     <iframe src="https://www.slideshare.net/slideshow/embed_code/key/sTysLknbjnekJj?startSlide=1" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;max-width: 100%;" allowfullscreen></iframe><div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/shimizukawa/20220122-hello-programmer-at-pycon-kyushu-2022" title="プログラマーとの出会い - Hello, Programmer! at PyCon Kyushu 2022" target="_blank">プログラマーとの出会い - Hello, Programmer! at PyCon Kyushu 2022</a></strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong></div>
+
+* 動画: https://youtu.be/Avp5FLZG99Q
+
+
+`VS Code Web & GitHub Codespaces でローカル環境を持たずに開発しよう`__
+===========================================================================
+2021.11.29. at `#BPStudy 171`__
+
+.. __: https://www.slideshare.net/shimizukawa/github-codespaces-20211129-bpstudy
+.. __: https://bpstudy.connpass.com/event/230981/
+
+  .. raw:: html
+
+     <iframe src="https://www.slideshare.net/slideshow/embed_code/key/rRkSB5dnJdfawL?startSlide=1" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;max-width: 100%;" allowfullscreen></iframe><div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/shimizukawa/github-codespaces-20211129-bpstudy" title="VS Code Web & GitHub Codespaces でローカル環境を持たずに開発しよう 2021/11/29 #BPStudy" target="_blank">VS Code Web & GitHub Codespaces でローカル環境を持たずに開発しよう 2021/11/29 #BPStudy</a></strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong></div>
+
+
 `Webアプリを並行開発する際のマイグレーション戦略`__
 ======================================================
 2021.10.16. at `PyCon JP 2021`__
@@ -13,7 +66,7 @@ Talks
 
      <iframe src="//www.slideshare.net/slideshow/embed_code/key/4jSEzkZ3ee9spl" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/shimizukawa/migration-strategies-for-parallel-development-of-web-applications" title="Webアプリを並行開発する際のマイグレーション戦略" target="_blank">Webアプリを並行開発する際のマイグレーション戦略</a> </strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong> </div>
 
-* 動画: ＜公開予定＞
+* 動画: https://youtu.be/9b4F14EsTG0
 
 
 `エキスパートPythonプログラミング改訂3版の読みどころ`__
