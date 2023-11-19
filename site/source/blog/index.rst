@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   vue-md-editor-vdom/index
    building-python3-c-extensions-with-build-tools-for-visual-studio-2022/index
 
 2022年
