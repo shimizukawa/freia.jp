@@ -7,16 +7,16 @@ from dateutil.parser import parse as parse_date
 from docutils import nodes
 from sphinx import addnodes
 from sphinx.domains import Domain
-from sphinx.environment.adapters.toctree import TocTree
+from sphinx.environment.adapters import toctree
 from sphinx.util import logging
 
 logger = logging.getLogger(__name__)
 
 
 # ######################
-# patch to TocTree.resolve
+# patch to toctree._resolve_toctree
 
-toctree_resolve_orig = TocTree.resolve
+resolve_toctree_orig = toctree._resolve_toctree
 
 
 def modify_toctree(env, pagename, doctree):
@@ -60,20 +60,23 @@ def modify_toctree(env, pagename, doctree):
                 refnode.parent.insert(refnode.parent.index(refnode), date_wrapper)
 
 
-def toctree_resolve_patch(self, docname, builder, toctree, prune=True, maxdepth=0,
-                          titles_only=False, collapse=False, includehidden=False):
-    doctree = toctree_resolve_orig(
-        self, docname, builder, toctree,
+def resolve_toctree_patch(
+    env, docname: str, builder, toctree, *,
+    prune: bool = True, maxdepth: int = 0, titles_only: bool = False,
+    collapse: bool = False, includehidden: bool = False,
+):
+    doctree = resolve_toctree_orig(
+        env, docname, builder, toctree,
         prune=prune, maxdepth=maxdepth, titles_only=titles_only,
         collapse=collapse, includehidden=includehidden)
 
     if doctree:
         # patch
-        modify_toctree(self.env, docname, doctree)
+        modify_toctree(env, docname, doctree)
 
     return doctree
 
-TocTree.resolve = toctree_resolve_patch
+toctree._resolve_toctree = resolve_toctree_patch
 
 
 class BlogDomain(Domain):
