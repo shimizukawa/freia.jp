@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   vue-md-editor-vdom-reused/index
    sphinx-video-player/index
    vue-md-editor-vdom-mermaid/index
    vue-md-editor-vdom/index
