@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   phiippines-202312/index
    vue-md-editor-vdom-reused/index
    sphinx-video-player/index
    vue-md-editor-vdom-mermaid/index
