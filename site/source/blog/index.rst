@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   pyconph2024/index
    phiippines-202401/index
 
 2023年
