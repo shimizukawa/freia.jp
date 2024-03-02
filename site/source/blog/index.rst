@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   markdown-it-customize/index
    pyconph2024/index
    phiippines-202401/index
 
