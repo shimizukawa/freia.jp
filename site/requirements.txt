@@ -8,3 +8,4 @@ sphinx-bootstrap-theme
 janome
 funcparserlib>=1.0.0a0
 sphinxext-opengraph
+sphinx-reredirects

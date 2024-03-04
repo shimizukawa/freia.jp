@@ -34,7 +34,7 @@ Books
    著者: Michal Jaworski、Tarek Ziade
    翻訳: 新井 正貴、稲田 直哉、渋川 よしき、清水川 貴之、福田 隼也
    関連記事: "
-   - :doc:`../blog/building-python3-c-extensions-with-build-tools-for-visual-studio-2022/index`
+   - :doc:`/blog/2023/06/building-python3-c-extensions-with-build-tools-for-visual-studio-2022/index`
    - `エキスパートPythonプログラミング改訂4版が発売されました | フューチャー技術ブログ <https://future-architect.github.io/articles/20230727a/>`__
    - `書籍レビュアーとして参加した、エキスパートPythonプログラミング 改訂4版 が発売されました - メモ的な思考的な <https://thinkami.hatenablog.com/entry/2023/09/01/082831>`__
    "
@@ -63,7 +63,7 @@ Books
    著者: コーリー・アルソフ(Cory Althoff)
    監訳: 清水川貴之
    翻訳: 清水川貴之、新木雅也、大村和子、tell-k
-   関連記事: "- :doc:`../blog/the-self-taught-computer-scientist-intro/index`"
+   関連記事: "- :doc:`/blog/2022/08/the-self-taught-computer-scientist-intro/index`"
 
 `Sphinxをはじめよう 第3版`__
 -----------------------------
@@ -114,7 +114,7 @@ Books
    概要: Pythonを使って仕事をしている開発者が普段どのようなツールやテクニックを用いて仕事をしているのか、また開発者が実際に現場で用いているベストプラクティスについて解説した書籍です。本書を読むことで、先進的なPythonプログラマが日常的に使用している開発ノウハウを学ぶことができます。
    著者: Michal Jaworski、Tarek Ziade
    翻訳: 稲田 直哉、芝田 将、渋川 よしき、清水川 貴之、森本 哲也
-   関連記事: ":doc:`../blog/expert-python-programming-3rd-intro/index`"
+   関連記事: ":doc:`/blog/2021/08/expert-python-programming-3rd-intro/index`"
 
 `自走プログラマー`__
 -----------------------------------------------
@@ -166,7 +166,7 @@ Information
    * 3章 Python プロジェクトの構成とパッケージ作成
    * 9章 Python パッケージングと運用への活用
 :関連記事:
-   * :doc:`../blog/python-professional-programming-3rd/index`
+   * :doc:`/blog/2018/06/python-professional-programming-3rd/index`
 
 
 `エキスパートPythonプログラミング 改訂2版`__
@@ -193,8 +193,8 @@ Information
 :著者: Michal Jaworski、Tarek Ziade
 :翻訳: 稲田 直哉、芝田 将、渋川 よしき、清水川 貴之、森本 哲也
 :関連記事:
-   - :doc:`../blog/expert-python-programming-2nd/index`
-   - :doc:`../blog/expert-python-programming-2nd-intro/index`
+   - :doc:`/blog/2016/09/expert-python-programming-2nd/index`
+   - :doc:`/blog/2018/02/expert-python-programming-2nd-intro/index`
 
 `独学プログラマー`__
 ----------------------
@@ -221,11 +221,11 @@ Information
 :監訳: 清水川貴之
 :翻訳: 清水川貴之、新木雅也
 :関連記事:
-   - :doc:`../blog/pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index`
-   - :doc:`../blog/the-self-taught-programmer-intro/index`
-   - :doc:`../blog/the-self-taught-programmer-sample/index`
-   - :doc:`../blog/the-self-taught-programmer-misc/index`
-   - :doc:`../blog/the-self-taught-programmer-10k/index`
+   - :doc:`/blog/2017/07/pycharm-blog-201706-self-taught-programmer-interview-with-cory-althoff/index`
+   - :doc:`/blog/2018/02/the-self-taught-programmer-intro/index`
+   - :doc:`/blog/2018/02/the-self-taught-programmer-sample/index`
+   - :doc:`/blog/2018/03/the-self-taught-programmer-misc/index`
+   - :doc:`/blog/2018/05/the-self-taught-programmer-10k/index`
 
 
 `Sphinxをはじめよう 第2版`__
@@ -277,9 +277,9 @@ Information
    * 9章 Python パッケージングと運用への活用
 
 :関連記事:
-   * :doc:`../blog/python-professional-programming-2nd/index`
-   * :doc:`../blog/python-professional-programming-2nd-mihon/index`
-   * :doc:`../blog/python-professional-programming-2nd-ebook/index`
+   * :doc:`/blog/2015/02/python-professional-programming-2nd/index`
+   * :doc:`/blog/2015/02/python-professional-programming-2nd-mihon/index`
+   * :doc:`/blog/2015/05/python-professional-programming-2nd-ebook/index`
 
 `Sphinxをはじめよう`__
 -----------------------------
@@ -330,7 +330,7 @@ Information
    * 4章 ドキュメントの基盤を整える
    * 7章 パッケージングと環境セットアップの自動化
 :関連記事:
-   * :doc:`../blog/2012-03-27-python-professional-programming/index`
+   * :doc:`/blog/2012/03/python-professional-programming/index`
 
 
 `エキスパートPythonプログラミング`__
