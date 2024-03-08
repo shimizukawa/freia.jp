@@ -555,6 +555,15 @@ Local Site
 Interview
 =========
 
+`『エキスパート Pythonプログラミング』翻訳者・清水川貴之さんインタビュー　「好きなこと」と徹底的に向き合ったキャリアとは`__
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2024.03. / Findy Engineer Lab
+
+.. __: https://findy-code.io/engineer-lab/shimizukawa
+
+.. figure:: images/findy-interview.*
+   :target: https://findy-code.io/engineer-lab/shimizukawa
+
 
 `特集 『The Self-Taught Programmer: The Definitive Guide to Programming Professionally』（独学プログラマー）の監訳者　清水川貴之さんから学ぶ`__
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------

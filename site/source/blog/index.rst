@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   2024/03/findy-interview/index
    2024/03/markdown-it-customize/index
    2024/02/pyconph2024/index
    2024/01/2024-kakizome/index
