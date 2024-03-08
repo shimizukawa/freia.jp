@@ -2,6 +2,19 @@
 Talks
 =====
 
+`How does Python get the length with the len function`__
+=========================================================
+2024.2.26. at `PyCon Philippines 2024`__
+
+.. __: https://docs.google.com/presentation/d/e/2PACX-1vRBodXX9LU8fQ8bLLkqUUjATpfBLqRaCJZVrWG892A4GqcAWkAtv3a2uQohGnh5IOfdPCvqQp_vQ6rf/pub
+.. __: https://pycon-2024.python.ph/
+
+  .. raw:: html
+
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBodXX9LU8fQ8bLLkqUUjATpfBLqRaCJZVrWG892A4GqcAWkAtv3a2uQohGnh5IOfdPCvqQp_vQ6rf/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+* 動画: ＜公開待ち＞
+
 `Django ORM道場：クエリの基本を押さえ，より良い形を身に付けよう`__
 ==========================================================================
 2023.10.27. at `PyCon APAC 2023`__
@@ -13,7 +26,7 @@ Talks
 
      <iframe src="https://www.slideshare.net/slideshow/embed_code/key/m1itZ84rs0cKVc?startSlide=1" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;max-width: 100%;" allowfullscreen></iframe><div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/shimizukawa/pycon-apac-2023-django-orm-dojo" title="Django ORM道場：クエリの基本を押さえ，より良い形を身に付けよう" target="_blank">Django ORM道場：クエリの基本を押さえ，より良い形を身に付けよう</a></strong> from <strong><a href="https://www.slideshare.net/shimizukawa" target="_blank">Takayuki Shimizukawa</a></strong></div>
 
-* 動画: ＜公開待ち＞
+* 動画: https://youtu.be/5N5Mr3UJhLw
 
 `Navigating Python: Milestones from Essential Reads`__
 ===========================================================
