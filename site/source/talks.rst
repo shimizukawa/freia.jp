@@ -13,7 +13,7 @@ Talks
 
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBodXX9LU8fQ8bLLkqUUjATpfBLqRaCJZVrWG892A4GqcAWkAtv3a2uQohGnh5IOfdPCvqQp_vQ6rf/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-* 動画: ＜公開待ち＞
+* 動画: https://youtu.be/a8nhzdes2es
 
 `Django ORM道場：クエリの基本を押さえ，より良い形を身に付けよう`__
 ==========================================================================
