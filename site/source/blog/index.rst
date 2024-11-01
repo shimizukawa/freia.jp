@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   2024/10/pyconapac2024/index
    2024/05/floating-ui-vue/index
    2024/03/terapyon-channel/index
    2024/03/hidden-valley/index
