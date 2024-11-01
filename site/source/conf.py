@@ -33,7 +33,6 @@ feed_limit = 10
 # for intersphinx
 intersphinx_mapping = {
    'sphinx': ('https://www.sphinx-doc.org/ja/master/', None),
-   'py': ('https://docs.python.org/ja/2.7/', None),
    'py2': ('https://docs.python.org/ja/2.7/', None),
    'py3': ('https://docs.python.org/ja/3/', None),
 }
