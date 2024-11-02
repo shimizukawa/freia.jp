@@ -1,2 +1,2 @@
 uv self update
-uv sync
+(cd site && uv sync)
