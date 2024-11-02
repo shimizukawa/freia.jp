@@ -1,4 +1,5 @@
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+# https://containers.dev/guide/dependabot
 
 version: 2
 updates:
@@ -12,3 +13,8 @@ updates:
           # Group all updates together
           patterns:
             - "*"
+
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: weekly
