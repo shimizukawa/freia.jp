@@ -1,0 +1,13 @@
+{
+	"name": "Default Linux Universal",
+	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+
+	// "features": {},
+	// "customizations": {},
+	// "remoteUser": "root"
+	"containerEnv": {
+		"UV_PROJECT_ENVIRONMENT": "~/.local"
+	},
+	"onCreateCommand": "bash .devcontainer/on_create_command.sh",
+	"postStartCommand": "bash .devcontainer/post_start_command.sh"
+}

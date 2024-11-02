@@ -27,33 +27,30 @@ jobs:
         run: |
           chmod +x ./.github/git-set-file-times.py
           ./.github/git-set-file-times.py
-      - name: CACHE pip
-        id: cache-pip
-        uses: actions/cache@v4
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v3
         with:
-          path: |
-            ~/.cache/pip
-            ~/.local/
-          key: ${{ runner.os }}-pip-${{ hashFiles('site/requirements.txt') }}-${{ steps.get-date.outputs.yyyymm }}
+          version: "latest"
+          enable-cache: true
       - name: CACHE sphinx build
         id: cache-sphinx-build
         uses: actions/cache@v4
         with:
           path: site/build
           key: ${{ runner.os }}-sphinx-build-${{ github.ref }}-${{ steps.get-date.outputs.yyyymm }}
-      - name: pip install
+      - name: install packages
+        working-directory: site
         run: |
-          echo "python version $(python3 --version) running"
-          echo "pip version $(pip3 --version) running"
-          python3 -m pip install -U pip setuptools
-          echo "pip version $(pip3 --version) running"
-          python3 -m site
-          pip3 install -r site/requirements.txt -U
-          pip3 freeze
+          echo "python version $(uv run python --version) running"
+          echo "uv version $(uv --version) running"
+          uv sync
+          uv run python -m site
+          uv pip freeze
       - name: build html
+        working-directory: site
         run: |
-          echo "sphinx-build version $(/home/runner/.local/bin/sphinx-build --version) running"
-          /home/runner/.local/bin/sphinx-build -M html site/source site/build -N -T -j 4
+          echo "sphinx-build version $(uv run sphinx-build --version) running"
+          uv run sphinx-build -M html source build -N -T -j 4
       - name: s3sync
         run: |
           echo "Upload to ${AWS_DEFAULT_REGION} ${AWS_S3_BUCKET}"

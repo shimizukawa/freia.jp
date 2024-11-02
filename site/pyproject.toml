@@ -1,0 +1,20 @@
+[project]
+name = "freia.jp"
+version = "0"
+requires-python = ">=3.12"
+dependencies = [
+    "docutils>=0.17",
+    "funcparserlib>=1.0.0a0",
+    "janome>=0.5.0",
+    "pillow>=11.0.0",
+    "sphinx-bootstrap-theme>=0.8.1",
+    "sphinx-reredirects>=0.1.5",
+    "sphinx>=7.2.6",
+    "sphinxcontrib-blockdiag>=3.0.0",
+    "sphinxcontrib-seqdiag>=3.0.0",
+    "sphinxext-opengraph>=0.9.1",
+    "feed",
+]
+
+[tool.uv.sources]
+feed = { url = "https://github.com/shimizukawa/sphinxcontrib-feed/archive/master.zip" }
