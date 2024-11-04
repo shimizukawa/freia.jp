@@ -6,7 +6,7 @@
 	// "customizations": {},
 	// "remoteUser": "root"
 	"containerEnv": {
-		"UV_PROJECT_ENVIRONMENT": "~/.local"
+		"UV_PROJECT_ENVIRONMENT": "/home/codespace/.local"
 	},
 	"onCreateCommand": "bash .devcontainer/on_create_command.sh",
 	"postStartCommand": "bash .devcontainer/post_start_command.sh"
