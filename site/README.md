@@ -1,4 +1,3 @@
 cd site
 uv sync
-source .venv
-make html
+uv run make html
