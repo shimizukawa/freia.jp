@@ -2,6 +2,43 @@
 Talks
 =====
 
+`len()関数がオブジェクトの長さを手にいれる仕組み`__
+==================================================
+2024.11.16. at `PyCon mini 東海 2024`__
+
+.. __: https://docs.google.com/presentation/d/19P5E-Zr0dnE_RcZzpUzunPaVmhwG8He_/edit
+.. __: https://tokai.pycon.jp/2024/
+
+  .. raw:: html
+
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSAuhRXpGiY4cJ1CaMnAGu1A1b1li7ljZuWoi_gN-pTTAF2xxkEzCNRi5zI9VEzxQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+`Structlog in Practice`__
+============================
+2024.10.26. at `PyCon APAC 2024 in Indonesia`__
+
+.. __: https://docs.google.com/presentation/d/e/2PACX-1vQMp6ObhP3qjNCC93ancesKkhsgH6Uj5Isgv-JkWfiknPhyQXapZxKg9c6Fn_-67V0_5fQIYJKbAjbO/pub
+.. __: https://2024-apac.pycon.id/
+
+  .. raw:: html
+
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQMp6ObhP3qjNCC93ancesKkhsgH6Uj5Isgv-JkWfiknPhyQXapZxKg9c6Fn_-67V0_5fQIYJKbAjbO/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+* 動画: 後日公開予定
+
+`実践 structlog`__
+===================
+2024.09.27. at `PyCon JP 2024`__
+
+.. __: https://docs.google.com/presentation/d/1aST5f0rpdS4jS4pmKC4hbWydHkGCpYpuLwKrZ6u3nb0/pub
+.. __: https://2024.pycon.jp/
+
+  .. raw:: html
+
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVaUM-c0crLRCnaudH6y4ud5LDDkyLY-GvzMKf_ORCFYoB-ptzZHUDmekjyaIWh-VWvTtO6KTe7k0U/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+* 動画: 後日公開予定
+
 `How does Python get the length with the len function`__
 =========================================================
 2024.2.26. at `PyCon Philippines 2024`__

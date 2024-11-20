@@ -414,6 +414,32 @@ Software Design Sphinx連載
 Articles
 ========
 
+`基礎の学び直しから実践へ。『エキスパートPythonプログラミング』翻訳者が推薦するPython本3冊`__
+----------------------------------------------------------------------------------------------
+2024.11.19. - レバテックラボ（レバテックLAB）
+
+.. __: https://levtech.jp/media/article/column/detail_560/
+
+.. figure:: images/levtech-560.*
+   :target: https://levtech.jp/media/article/column/detail_560/
+
+* 入門者向けに伝えていることを、本の紹介にかけてまとめてみました。
+* 「技術を身に付けるには実践が必要です。」
+* 「まずは1冊を徹底的に読み込んでコードを書いて動かしてみてください。」
+
+`「あなたのキャリアのなかで、特に印象に残るPull Requestは何ですか？」著名エンジニアの方々に聞いた`__
+-------------------------------------------------------------------------------------------------------
+2024.09.25. - Findy Engineer Lab
+
+.. __: https://findy-code.io/engineer-lab/pullrequest-memory
+
+.. figure:: images/findy-pullreq.*
+   :target: https://findy-code.io/engineer-lab/pullrequest-memory
+
+* 清水川貴之が紹介『support multibyte filename handling.』
+* Sphinxで日本語ファイル名を扱えるようにする修正が、最初の頃のコントリビュートでした
+* https://github.com/sphinx-doc/sphinx/commit/1bb4923
+
 
 `独学プログラマーのススメ`__
 -----------------------------
