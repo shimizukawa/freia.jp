@@ -2,8 +2,20 @@
 Talks
 =====
 
-`len()関数がオブジェクトの長さを手にいれる仕組み`__
+`海外カンファレンスの行き方 エクストリーム編`__
 ==================================================
+2024.12.11. at `PyCon APAC 2024 参加報告会`__
+
+.. __: https://docs.google.com/presentation/d/e/2PACX-1vSJhLpF4FRbUgtSx-ruMew9A3zlecO37vVPuMlE3wUq2wcvwuZF-FxMtJfBlZR5ILakOv6X2C2yyeXR/pub
+.. __: https://churadata.connpass.com/event/333786/
+
+  .. raw:: html
+
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSJhLpF4FRbUgtSx-ruMew9A3zlecO37vVPuMlE3wUq2wcvwuZF-FxMtJfBlZR5ILakOv6X2C2yyeXR/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+`len()関数がオブジェクトの長さを手にいれる仕組み`__
+====================================================
 2024.11.16. at `PyCon mini 東海 2024`__
 
 .. __: https://docs.google.com/presentation/d/19P5E-Zr0dnE_RcZzpUzunPaVmhwG8He_/edit
