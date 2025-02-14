@@ -13,6 +13,8 @@ PyCon mini Shizuoka での、現地初開催のイベントです。
 .. figure:: group-photo.*
    :width: 80%
 
+   Photo by sano hiroshi
+
 参加人数はconnpass上で52名（スタッフ含む？）、キーノート + パネル、2トラックで10トーク、LT、と盛りだくさんなイベントでした。
 
 
