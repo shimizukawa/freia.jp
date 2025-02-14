@@ -79,6 +79,7 @@ QRコード受付は手軽で良いですね。
 
    - Photo by https://x.com/takanory/status/1888042097909055682
    - スライド: https://freia.jp/taka/slides/pyconshizu2024/
+   - おまけのRevealJS版: https://freia.jp/taka/slides/pyconshizu2024/r/
 
 キーノートは「未知との出会い」と題して、未知と出会えるプログラミング、そしてイベント参加は楽しいよ、という話をさせて頂きました。参加いただいたみなさん、ありがとうございました！
 
