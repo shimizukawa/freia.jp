@@ -10,7 +10,7 @@ PyCon mini Shizuoka での、現地初開催のイベントです。
 
 現地開催の企画が2回あり、2020年はコロナ禍でオンラインに切り替え、2024年8月には台風で延期となり、ついに今回 **2024 Continue** として開催されました。私も現地でキーノート発表させていただき、感慨深いイベントとなりました。
 
-.. figure:: opening0.*
+.. figure:: group-photo.*
    :width: 80%
 
 参加人数はconnpass上で52名（スタッフ含む？）、キーノート + パネル、2トラックで10トーク、LT、と盛りだくさんなイベントでした。
@@ -21,6 +21,7 @@ PyCon mini Shizuoka での、現地初開催のイベントです。
 
 :イベント名: PyCon mini Shizuoka 2024 Continue
 :公式ウェブサイト: https://shizuoka.pycon.jp/2024-continue/
+:発表資料: https://pycon-shizu.connpass.com/event/337283/presentation/
 :日付: 2025年2月8日(土)
 :場所: 静岡市コ・クリエーションスペース & B-nest
 :参加費: 無料
