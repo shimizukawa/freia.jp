@@ -165,6 +165,8 @@ QRコード受付は手軽で良いですね。
 
 .. figure:: wcb.*
 
-   WCBにて
+   2022年9月23日。塚本さんと `12 - twelve`_ にて。
 
+   静岡駅前のWest Coast Breawing直営店でビールを飲んでたら、たまたま塚本さんが近くにいてお店に来てくれて、ここでキーノートの打診を頂きました。それから2年半。フィリピンに転居したり、台風に狙い撃ちされたり、色々ありました。
 
+.. _`12 - twelve`: https://www.westcoastbrewing.jp/location/12-twelve/
