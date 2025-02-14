@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   2025/02/pyconshizuoka2024/index
    2025/01/100-days-challenge/index
    2025/01/2025-kakizome/index
 
