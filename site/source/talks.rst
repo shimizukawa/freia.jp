@@ -2,6 +2,18 @@
 Talks
 =====
 
+`Structlog in Practice`__
+============================
+2025.03.01. at `PyCon APAC 2025 in Philippines`__
+
+.. __: https://docs.google.com/presentation/d/1lBd0d2z6urUl0bqpGZmM1KJ1eEzaDVmrSJXMTy-ywuQ/edit
+.. __: https://pycon-apac.python.ph/
+
+  .. raw:: html
+
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQkEe97w7bH2X_8-xx6EzZHMVHXx10AqxWfzIbA_qF88J4LFz70KXU39VWzejF0Oeh1m7fwbgDXUZhI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
 `海外カンファレンスの行き方 エクストリーム編`__
 ==================================================
 2024.12.11. at `PyCon APAC 2024 参加報告会`__
@@ -36,7 +48,7 @@ Talks
 
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQMp6ObhP3qjNCC93ancesKkhsgH6Uj5Isgv-JkWfiknPhyQXapZxKg9c6Fn_-67V0_5fQIYJKbAjbO/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-* 動画: 後日公開予定
+* 動画: `Day 3 Class #3 - 4C Session 2 - Pycon APAC 2024 - YouTube <https://www.youtube.com/watch?v=mDkZc2PHdug>`_
 
 `実践 structlog`__
 ===================

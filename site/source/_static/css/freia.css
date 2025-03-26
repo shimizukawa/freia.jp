@@ -142,8 +142,10 @@ figure {
     background-color: #eee;
     margin-bottom: 1em;
 }
-figure div {
+figure .legend {
     text-align: left;
+    margin: 1em auto 0 auto;
+    width: 90%;
 }
 figcaption {
     padding-bottom: 0;

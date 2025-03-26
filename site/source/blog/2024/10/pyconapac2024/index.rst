@@ -49,7 +49,7 @@ PyCon APAC 2024は、おだやかな雰囲気の中で情熱を持った人た�
 
   - 10月27日（日） 11:30 - 12:00
   - Class #3 - 4C
-  - Video: 準備中
+  - Video: `Day 3 Class #3 - 4C Session 2 - Pycon APAC 2024 - YouTube <https://www.youtube.com/watch?v=mDkZc2PHdug>`_
   - Slide: `"Structlog in Practice" <https://docs.google.com/presentation/d/e/2PACX-1vQMp6ObhP3qjNCC93ancesKkhsgH6Uj5Isgv-JkWfiknPhyQXapZxKg9c6Fn_-67V0_5fQIYJKbAjbO/pub>`_
 
 - "Structlog in Practice"
