@@ -38,7 +38,7 @@ PyCon APAC 2025 in Philippines に参加しました
 
 - https://scrapbox.io/shimizukawa/PyCon_APAC_2025
 
-イベントレポートが公開されています（池田さん執筆）。
+イベントレポートが公開されています（参加した池田さん執筆）。
 
 - `PyCon APAC 2025参加レポート | gihyo.jp <https://gihyo.jp/article/2025/03/pycon-apac-2025>`_
 
