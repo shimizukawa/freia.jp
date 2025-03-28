@@ -13,6 +13,7 @@ Talks
 
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQkEe97w7bH2X_8-xx6EzZHMVHXx10AqxWfzIbA_qF88J4LFz70KXU39VWzejF0Oeh1m7fwbgDXUZhI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+* 動画: 後日公開？
 
 `海外カンファレンスの行き方 エクストリーム編`__
 ==================================================
@@ -61,7 +62,7 @@ Talks
 
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVaUM-c0crLRCnaudH6y4ud5LDDkyLY-GvzMKf_ORCFYoB-ptzZHUDmekjyaIWh-VWvTtO6KTe7k0U/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-* 動画: 後日公開予定
+* 動画: https://youtu.be/M4Onkx0btiA
 
 `How does Python get the length with the len function`__
 =========================================================
