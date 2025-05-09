@@ -14,6 +14,7 @@ dependencies = [
     "sphinxcontrib-seqdiag>=3.0.0",
     "sphinxext-opengraph>=0.9.1",
     "feed",
+    "sphinxcontrib-mermaid>=1.0.0",
 ]
 
 [tool.uv.sources]

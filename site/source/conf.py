@@ -14,7 +14,8 @@ extensions = [
     'blogdomain',
     'sphinxcontrib.feed',
     'sphinx.ext.intersphinx',
-    'sphinx_reredirects'
+    'sphinx_reredirects',
+    'sphinxcontrib.mermaid',
 ]
 
 # for sphinx.ext.todo plugin
