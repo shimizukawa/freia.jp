@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   2025/05/birthday50/index
    2025/05/nuxt-scroll-restoration/index
    2025/03/pyconapac2025/index
    2025/02/pyconshizuoka2024/index
