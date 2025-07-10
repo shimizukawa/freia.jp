@@ -2,6 +2,18 @@
 Talks
 =====
 
+`はじめてのPyCon US`__
+==================================================
+2025.07.10. at `PyCon US 2025 参加報告会`__
+
+.. __: https://docs.google.com/presentation/d/e/2PACX-1vR1tSG3NwDy3-Tkmgu3zQo7N8aT6I4K8rZcqiSBKGboPUV1woTtkXaEKCjfuT8xDFNAXvYpHJUfxIwO/pub
+.. __: https://pyconjp.connpass.com/event/357582/
+
+  .. raw:: html
+
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1tSG3NwDy3-Tkmgu3zQo7N8aT6I4K8rZcqiSBKGboPUV1woTtkXaEKCjfuT8xDFNAXvYpHJUfxIwO/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
 `Structlog in Practice`__
 ============================
 2025.03.01. at `PyCon APAC 2025 in Philippines`__
