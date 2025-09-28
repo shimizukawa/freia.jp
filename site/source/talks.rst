@@ -2,6 +2,19 @@
 Talks
 =====
 
+`pytestを爆速にする10の方法`__
+==============================
+2025.09.27. at `PyCon JP 2025`__
+
+.. __: https://docs.google.com/presentation/d/e/2PACX-1vQa-xILa3uDHCdQH1li9_p7g48gYsUb8DfBRy-VetNAQtY-rGfMFsx9AVMPctpLIbGw9o09C0sv-SGA/pub
+.. __: https://2025.pycon.jp/ja/timetable/talk/ZFYREY
+
+  .. raw:: html
+
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQa-xILa3uDHCdQH1li9_p7g48gYsUb8DfBRy-VetNAQtY-rGfMFsx9AVMPctpLIbGw9o09C0sv-SGA/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+* 動画: TBD
+
 `はじめてのPyCon US`__
 ==================================================
 2025.07.10. at `PyCon US 2025 参加報告会`__
