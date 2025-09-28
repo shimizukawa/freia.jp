@@ -49,7 +49,10 @@ PyCon US 2025 in Pittsburg に参加しました
 =========
 
 * ピッツバーグからシカゴまで交代で運転したのも楽しかった
+
   * `PyCon US 2025帰りのドライブ中に振り返り - YouTube <https://www.youtube.com/watch?v=rDjYzlPW7hM&t=1367s>`_
+
 * 帰りの飛行機内で誕生日を迎えました
+
   * :doc:`/blog/2025/05/birthday50/index` 
 
