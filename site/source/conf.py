@@ -1,10 +1,11 @@
-# -*- coding: utf-8 -*-
+import sys
+import os
 
-import sys, os
+import sphinx_bootstrap_theme
+
 sys.path.append(os.path.join(os.path.abspath('.'), '_ext'))
 
 # -- Extensions -----------------------------------------------------
-import sphinx_bootstrap_theme
 extensions = [
     'sphinxcontrib.blockdiag',
     'sphinxcontrib.seqdiag',
@@ -16,6 +17,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_reredirects',
     'sphinxcontrib.mermaid',
+    "myst_parser",
 ]
 
 # for sphinx.ext.todo plugin
@@ -38,10 +40,19 @@ intersphinx_mapping = {
    'py3': ('https://docs.python.org/ja/3/', None),
 }
 
+# Parser
+myst_enable_extensions = [
+    "deflist",
+    "linkify",
+]
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
+}
+
 # -- General configuration -----------------------------------------------------
 
 templates_path = ['_templates']
-source_suffix = '.rst'
 root_doc = 'index'
 project = '清水川Web'
 copyright = 'Takayuki SHIMIZUKAWA'

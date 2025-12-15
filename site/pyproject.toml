@@ -15,6 +15,7 @@ dependencies = [
     "sphinxext-opengraph>=0.9.1",
     "feed",
     "sphinxcontrib-mermaid>=1.0.0",
+    "myst-parser[linkify]>=4.0.0",
 ]
 
 [tool.uv.sources]
