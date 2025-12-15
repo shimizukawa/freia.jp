@@ -12,7 +12,8 @@ Pyxel版での表示をご利用ください。
 ```{figure} assets/slide-pyxel.*
 :target: https://shimizukawa.github.io/pyxel-slide-2025/
 
-Pyxelで作るレトロプレゼンスライド、で作ったスライド
+Pyxelで作るレトロプレゼンスライド、で作ったスライド <br>
+https://shimizukawa.github.io/pyxel-slide-2025/
 ```
 
 同じ内容の Sphinx-revealjs 版スライドもあります。
@@ -20,7 +21,8 @@ Pyxelで作るレトロプレゼンスライド、で作ったスライド
 ```{figure} assets/slide-revealjs.*
 :target: https://shimizukawa.github.io/pyxel-slide-2025/revealjs/slide-ja.html
 
-Pyxelで作るレトロプレゼンスライド、のSphinx-revealjsビルド版
+Pyxelで作るレトロプレゼンスライド、のSphinx-revealjsビルド版 <br>
+https://shimizukawa.github.io/pyxel-slide-2025/revealjs/slide-ja.html
 ```
 
 ### この記事/スライドは？
