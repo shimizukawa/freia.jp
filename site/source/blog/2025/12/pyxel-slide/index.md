@@ -120,6 +120,14 @@ pyxel.blt(new_x, new_y, new_img, 0, 0, WIDTH, HEIGHT, 7)
 pyxel.dither(1)
 ```
 
+こんな感じで動きます。
+
+```{figure} assets/pyxel-slide-dither.mp4
+:class: controls
+
+Pyxelのdither関数を使ったスライド切替アニメーション
+```
+
 ### Pyxelアプリをスライド内に埋め込み 1/2
 
 マウスを子アプリにフォーカスして、子アプリに制御を渡します。
