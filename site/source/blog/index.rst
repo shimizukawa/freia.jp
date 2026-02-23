@@ -7,6 +7,14 @@
 .. toctree::
    :maxdepth: 1
 
+   2026/02/pyconshizuoka2026/index
+
+2025年
+------
+
+.. toctree::
+   :maxdepth: 1
+
    2025/12/pyxel-slide/index
    2025/11/pycontokai2025/index
    2025/09/pyconjp2025/index
