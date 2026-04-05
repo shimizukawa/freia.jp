@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
+   2026/04/pythonasia2026/index
    2026/02/pyconshizuoka2026/index
 
 2025年
