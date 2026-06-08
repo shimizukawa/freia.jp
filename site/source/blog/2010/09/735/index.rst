@@ -50,6 +50,7 @@
 
 * `エキスパートPythonプログラミング読書会02に参加しました - forest book`_
 * `リスト内包表記とジェネレータの比較 - yanolabの日記`_
+* :doc:`/docs/expertpython/reading/index`
 
 .. _`エキスパートPythonプログラミング読書会02に参加しました - forest book`: http://d.hatena.ne.jp/t2y-1979/20100908/1283948456
 .. _`リスト内包表記とジェネレータの比較 - yanolabの日記`: http://d.hatena.ne.jp/yanolab/20100909/1284007840

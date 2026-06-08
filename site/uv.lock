@@ -103,7 +103,7 @@ wheels = [
 
 [[package]]
 name = "feed"
-version = "0.3a0.dev20250928"
+version = "0.3a0.dev20260607"
 source = { url = "https://github.com/shimizukawa/sphinxcontrib-feed/archive/master.zip" }
 dependencies = [
     { name = "html5lib" },

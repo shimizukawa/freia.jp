@@ -157,6 +157,9 @@ div.content figcaption p {
 figure video {
     width: 100%;
 }
+img.hidden {
+    display: none;
+}
 
 /* sidebar */
 

@@ -13,9 +13,9 @@
 .. note::
    :class: alert-info
 
-   清水川が所属しているBePROUDでは、 **自走出来る** Pythonエンジニアを募集しています。
-   興味のある方はご連絡くださいー。
+   清水川が所属している BePROUD および Flying Duck では、 **自走出来る** Pythonエンジニアを募集しています。興味のある方はご連絡くださいー。
 
-   https://www.beproud.jp/careers/
+   - https://www.beproud.jp/careers/
+   - https://www.flying-duck.co.jp/recruit
 
 - :doc:`todos`
