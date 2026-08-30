@@ -18,6 +18,7 @@ extensions = [
     'sphinx_reredirects',
     'sphinxcontrib.mermaid',
     "myst_parser",
+    'logger_filter',
 ]
 
 # for sphinx.ext.todo plugin
