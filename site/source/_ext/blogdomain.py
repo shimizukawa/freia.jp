@@ -2,6 +2,7 @@ import os
 import posixpath
 import io
 import csv
+from typing import TYPE_CHECKING
 
 from dateutil.parser import parse as parse_date
 from docutils import nodes
@@ -9,6 +10,13 @@ from sphinx import addnodes
 from sphinx.domains import Domain
 from sphinx.environment.adapters import toctree
 from sphinx.util import logging
+
+if TYPE_CHECKING:
+    from docutils.nodes import Element
+    from sphinx.builders import Builder
+    from sphinx.environment import BuildEnvironment
+    from sphinx.util.tags import Tags
+
 
 logger = logging.getLogger(__name__)
 
@@ -61,14 +69,22 @@ def modify_toctree(env, pagename, doctree):
 
 
 def resolve_toctree_patch(
-    env, docname: str, builder, toctree, *,
-    prune: bool = True, maxdepth: int = 0, titles_only: bool = False,
-    collapse: bool = False, includehidden: bool = False,
-):
+    env: BuildEnvironment,
+    docname: str,
+    builder: Builder,
+    toctree: addnodes.toctree,
+    *,
+    prune: bool = True,
+    maxdepth: int = 0,
+    titles_only: bool = False,
+    collapse: bool = False,
+    includehidden: bool = False,
+    tags: Tags,
+) -> Element | None:
     doctree = resolve_toctree_orig(
         env, docname, builder, toctree,
         prune=prune, maxdepth=maxdepth, titles_only=titles_only,
-        collapse=collapse, includehidden=includehidden)
+        collapse=collapse, includehidden=includehidden, tags=tags)
 
     if doctree:
         # patch
