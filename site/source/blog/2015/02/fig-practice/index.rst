@@ -16,10 +16,12 @@ Python mini hack-a-thon 雪山合宿 / Docker + fig
 合宿の写真
 ============
 
-.. raw:: html
+.. figure:: 15800616264.*
+   :width: 640
+   :height: 480
+   :target: https://photos.app.goo.gl/hQwY828YPH91qNRc6
 
-   <iframe src="https://www.flickr.com/photos/shimizukawa/15800616264/in/set-72157648274677233/player/" width="640" height="480" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
+   `合宿の写真 <https://photos.app.goo.gl/hQwY828YPH91qNRc6>`_
 
 .. __: https://github.com/shimizukawa/fig-practices/tree/fig-app-nginx-fluentd-es-kibana4#fig-practice-python-flaskapp--nginx--fluentd--elasticsearch--kibana4-beta3
 

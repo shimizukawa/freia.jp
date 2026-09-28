@@ -8,7 +8,6 @@
    talks
    docs/index
    repos
-   アルバム <https://www.flickr.com/photos/shimizukawa/sets/>
 
 .. note::
    :class: alert-info

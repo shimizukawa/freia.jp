@@ -22,10 +22,12 @@ SphinxCon JP 2014 を、先日10/26(日)に開催しました。
 
 午前中の参加者は30名ほど。ハンズオンに20名、ハッカソンに10名という感じで参加していました。午後のプレゼン時間には43名くらいまであつまりました。
 
-.. raw:: html
+.. figure:: 15455199869.*
+   :width: 500
+   :height: 334
+   :alt: SphinxCon JP 2014
 
-   <a href="https://www.flickr.com/photos/shimizukawa/15455199869" title="SphinxCon JP 2014 by Takayuki Shimizukawa, on Flickr"><img src="https://farm6.staticflickr.com/5609/15455199869_505413d607.jpg" width="500" height="334" alt="SphinxCon JP 2014"></a>
-
+   SphinxCon JP 2014
 
 
 このイベントを企画したきっかけは、Sphinx関連の情報を発表する場が欲しかったけど `PyCon JP 2014`_ ではSphinx関連の発表がまったく無かったため（ `自分もPyCharmの紹介の方が採用された`_ ）、そういう場を作りたかったという感じでした。人数は30名前後集まればいいかな、と思っていたところ、もっと大きなキャパシティーの会場をVOYAGE GROUPさんでお借りすることが出来た感じです。募集人数50人に対して一時はキャンセル待ちも発生しましたが、43名なら想定以上のあつまりだったかな、というところです。
@@ -74,18 +76,21 @@ SphinxCon JP 2014 を、先日10/26(日)に開催しました。
 
 .. raw:: html
 
-   <iframe width="560" height="420" src="http://shimizukawa.bitbucket.org/sphinxconjp2014-welcome-to-sphinx-1.3/index.html" frameborder="0"></iframe></div>
+   <iframe width="560" height="420" src="https://www.freia.jp/taka/slides/sphinxconjp2014-welcome-to-sphinx-1.3/index.html" frameborder="0"></iframe>
 
 
-例によって、 `sphinxjp.themes.s6`_ で書きました。ソースコードはbitbucketの `/shimizukawa/sphinxconjp2014-welcome-to-sphinx-1.3`_ にあります。
+例によって、 `sphinxjp.themes.s6`_ で書きました。ソースコードはbitbucketの `/shimizukawa/sphinxconjp2014-welcome-to-sphinx-1.3` にあります （ `GitHubに移動 <https://github.com/shimizukawa/sphinxconjp2014-welcome-to-sphinx-1.3>`__ しました）。
 
 
 LTについて
 ==============
 
-.. raw:: html
+.. figure:: 15455204079.*
+   :width: 500
+   :height: 334
+   :alt: SphinxCon JP 2014
 
-   <a href="https://www.flickr.com/photos/shimizukawa/15455204079" title="SphinxCon JP 2014 by Takayuki Shimizukawa, on Flickr"><img src="https://farm4.staticflickr.com/3939/15455204079_38c7da93ba.jpg" width="500" height="334" alt="SphinxCon JP 2014"></a>
+   SphinxCon JP 2014
 
 VOYAGE GROUPさん提供でビアバッシュをしながら、ライトニングトーク大会をしました。だれか話してくれるんだろうか、と思っていましたが、10個くらいのトークが行われて安心しました。
 
@@ -102,9 +107,12 @@ VOYAGE GROUPさん提供でビアバッシュをしながら、ライトニン�
 
 またやろう！
 
-.. raw:: html
+.. figure:: 15456294240.*
+   :width: 500
+   :height: 334
+   :alt: SphinxCon JP 2014
 
-   <a href="https://www.flickr.com/photos/shimizukawa/15456294240" title="SphinxCon JP 2014 by Takayuki Shimizukawa, on Flickr"><img src="https://farm4.staticflickr.com/3938/15456294240_7165b33424.jpg" width="500" height="334" alt="SphinxCon JP 2014"></a>
+   SphinxCon JP 2014
 
 
 
@@ -116,7 +124,7 @@ VOYAGE GROUPさん提供でビアバッシュをしながら、ライトニン�
 
 .. _sphinxjp.themes.s6: https://pypi.python.org/pypi/sphinxjp.themes.s6
 
-.. _/shimizukawa/sphinxconjp2014-welcome-to-sphinx-1.3: https://bitbucket.org/shimizukawa/sphinxconjp2014-welcome-to-sphinx-1.3
+.. .. _/shimizukawa/sphinxconjp2014-welcome-to-sphinx-1.3: https://bitbucket.org/shimizukawa/sphinxconjp2014-welcome-to-sphinx-1.3
 
 .. _@usaturn: https://twitter.com/usaturn
 

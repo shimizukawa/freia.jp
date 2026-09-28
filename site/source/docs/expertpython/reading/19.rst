@@ -9,7 +9,7 @@
 
 エキスパートPythonプログラミングの読書会19回目。
 
-**日本語版翻訳メンバー(稲田さん)による描き下ろし！！**
+**日本語版翻訳メンバー(稲田さん)による書き下ろし！！**
 
 
 会場の様子
@@ -21,11 +21,12 @@
 .. 
 .. .. image:: images/15-2.jpg
 
-`2011/9/20 エキスパートPythonプログラミング読書会#19 - a set on Flickr <http://www.flickr.com/photos/shimizukawa/sets/72157627594239717/>`_
+.. figure:: images/6168022775.*
+   :width: 600
+   :target: https://photos.app.goo.gl/aXER5gcMaVPB2rcW8
+   :alt: 2011/9/20 エキスパートPythonプログラミング読書会#19
 
-.. raw:: html
-
-   <object width="400" height="300"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627594239717%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627594239717%2F&set_id=72157627594239717&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=107931"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=107931" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627594239717%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627594239717%2F&set_id=72157627594239717&jump_to=" width="400" height="300"></embed></object>
+   `2011/9/20 エキスパートPythonプログラミング読書会#19 - Google Photo Album <https://photos.app.goo.gl/aXER5gcMaVPB2rcW8>`_
 
 質疑応答（覚えてる範囲）
 ==========================

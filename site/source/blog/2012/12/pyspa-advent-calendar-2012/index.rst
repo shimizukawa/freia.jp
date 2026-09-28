@@ -86,10 +86,7 @@ PySpa 第3回目 2008/6/27 - 29
 PySpa 第4回目 2008/10/26 - 28
 =============================
 
-.. raw:: html
-
-   <object width="600" height="450"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157632196296330%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157632196296330%2F&set_id=72157632196296330&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=122138"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=122138" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157632196296330%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157632196296330%2F&set_id=72157632196296330&jump_to=" width="600" height="450"></embed></object>
-
+* 写真: `2008/10/26-28 pyspa4 Python温泉4 <https://photos.app.goo.gl/x7GkyAZroMRNoJzt7>`_
 * :doc:`/blog/2008/10/609/index`
 
 この頃はたしか仕事でRailsを使って開発していた頃です。Rails-2.1が出たばっかりの頃で、100日連続出勤とか馬鹿なことしていたのも良い思い出です。色々まずいよね。このときPythonではなくRailsでがんばっちゃったために、仕事でPythonではなくRailsを使うことが多少増えたりしました。Pythonにしておけば良かったと何度か思ったこともありましたが、その後Railsのおかげで新しい縁が出来たりとかもしていて、これはこれで得がたいものになりました。
@@ -98,9 +95,7 @@ PySpa 第4回目 2008/10/26 - 28
 PySpa 第5回目 2009/6/26 - 28
 =============================
 
-.. raw:: html
-
-   <object width="600" height="450"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157632192128501%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157632192128501%2F&set_id=72157632192128501&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=122138"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=122138" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157632192128501%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157632192128501%2F&set_id=72157632192128501&jump_to=" width="600" height="450"></embed></object>
+* 写真: `2009/06/26 pyspa5 Python温泉5 <https://photos.app.goo.gl/1mGA2pHs2n2rhqAC7>`_
 
 渋川さん(`@shibukawa`_)の車で熱海まで行った回。このとき同乗したのは **イアンさん** と **東さん** でした。イアンさんと東さんとはそれまで話したことが無かった（あったかも？）のであまり車の中でも話をしなかったかもしれません。その後イアン(`@IanMLewis`_)と `@feiz`_ (東)とはBeProudで同僚になるわけですが。
 
@@ -124,9 +119,8 @@ PySpaとは別件ですが、Plone関連で知り合いだった寺田さん、�
 
 PySpa 第6回目 2009/10/23 - 25
 ================================
-.. raw:: html
 
-   <object width="600" height="450"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627558403883%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627558403883%2F&set_id=72157627558403883&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=122138"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=122138" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627558403883%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627558403883%2F&set_id=72157627558403883&jump_to=" width="600" height="450"></embed></object>
+* 写真: `2009/10/23-25 pyspa6 <https://photos.app.goo.gl/E2NpMyimZnYtAAD5A>`_
 
 非常に印象深い回。
 
@@ -147,9 +141,7 @@ PySpa 第6回目 2009/10/23 - 25
 PySpa 第7回目 2010/06/25 - 27
 ================================
 
-.. raw:: html
-
-   <object width="600" height="450"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627550201881%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627550201881%2F&set_id=72157627550201881&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=122138"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=122138" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627550201881%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157627550201881%2F&set_id=72157627550201881&jump_to=" width="600" height="450"></embed></object>
+* 写真: `2009/10/23-25 pyspa6 <https://photos.app.goo.gl/E2NpMyimZnYtAAD5A>`_
 
 2010年4月末に `タイムインターメディア`_ を退職して、5月に :doc:`エキスパートPythonプログラミングが発売 </blog/2010/05/717/index>` されて、6月からフリーランスとして活動し始めた頃の回。写真はあるけど、当日なにをやっていたかはblog書いてなかったので覚えてません。最近もあまりblog書けてないのでまずいなあ。当時、フィンランドの某社から声をかけられていたり、個人的にも色々あり4末で退職したのですが、その話がなくなっちゃったんですね。以前からPySpaで個人事業主とかフリーランスとか色々単語が飛び交っていたので、じゃあ自分もちょっとだけやってみるかと思って始めてみました。普段のhack-a-thonや勉強会ではあんまりフリーランスについての話とか聞かないので、そういう意味ではここにもPySpa効果が出てるのかもしれません。
 
@@ -159,10 +151,7 @@ PySpa 第7回目 2010/06/25 - 27
 PySpa 第10回目 最終回 2011/11/18 - 20
 =======================================
 
-.. raw:: html
-
-   <object width="600" height="450"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157628046164641%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157628046164641%2F&set_id=72157628046164641&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=122138"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=122138" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157628046164641%2Fshow%2F&page_show_back_url=%2Fphotos%2Fshimizukawa%2Fsets%2F72157628046164641%2F&set_id=72157628046164641&jump_to=" width="600" height="450"></embed></object>
-
+* 写真: `2011/11/18-20 PySpa#final <https://photos.app.goo.gl/uDL9pRcgFieYfSQbA>`_
 
 PySpa最終回、この回の4日後に来宮から25kmくらい南の伊豆高原のあたりで :doc:`結婚式してきました </blog/2011/11/767/index>` 。 :doc:`11月1日に結婚した </blog/2011/11/764/index>` のですが、結婚したらしばらくはイベント参加を減らそうと思っていた事もあり、PySpa最終回だったこともあり、この回だけはどうしても参加したかったんですよね。
 

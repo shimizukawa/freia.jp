@@ -26,8 +26,8 @@ PyCon台湾については上記を読んで下さい。
 * 吉野家、ファミリーマート、セブンイレブン、ケンタッキー、マクドナルド・・などなど、日本でよく見るお店が多かった。
 * 看板が漢字で書かれているので何となく意味が分かる
 
-.. figure:: http://farm8.staticflickr.com/7223/7353041398_e8beefcbf0_n.jpg
-   :target: http://www.flickr.com/photos/shimizukawa/7353041398/
+.. figure:: 7353041398.*
+   :target: https://photos.app.goo.gl/ahH6RHsm9aa3NcG3A
    :width: 320
    :height: 214
    :alt: タクシーから見た台北の街の看板
@@ -37,8 +37,8 @@ PyCon台湾については上記を読んで下さい。
 * アニメ・漫画・ゲームの店で、ポスターとか日本語のままだった。
 * 台北駅地下街の12周年ポスターがアニメ調
 
-.. figure:: http://farm8.staticflickr.com/7093/7353043252_cb46ffea96_n.jpg
-   :target: http://www.flickr.com/photos/shimizukawa/7353043252/
+.. figure:: 7353043252.*
+   :target: https://photos.app.goo.gl/ahH6RHsm9aa3NcG3A
    :width: 320
    :height: 214
    :alt: 台北駅地下街の12周年ポスター
@@ -55,8 +55,8 @@ PyCon台湾については上記を読んで下さい。
 * 利用した空港は「松山空港」だけど発音は「まつやま」じゃない。
 * 鉄道=鐵路, 駅=站, 空港=機場, ビール=啤酒, 辛い=辣
 
-.. figure:: http://farm8.staticflickr.com/7220/7167831325_0971eeace4_n.jpg
-   :target: http://www.flickr.com/photos/shimizukawa/7167831325
+.. figure:: 7167831325.*
+   :target: https://photos.app.goo.gl/ahH6RHsm9aa3NcG3A
    :width: 320
    :height: 214
    :alt: 看板もなんとなく読める
@@ -82,16 +82,16 @@ PyCon台湾については上記を読んで下さい。
 * 麺類はちょっと厳しかった(自分は)。ビーフン麺を出汁の薄いスープで食べるのは厳しかった。
 * 漢字からチャーハンっぽいものを期待してフライドライスとステュードライスを間違えるなど
 
-.. figure:: http://farm8.staticflickr.com/7101/7167832923_9107b878e5_n.jpg
-   :target: http://www.flickr.com/photos/shimizukawa/7167832923/
+.. figure:: 7167832923.*
+   :target: https://photos.app.goo.gl/ahH6RHsm9aa3NcG3A
    :width: 320
    :height: 214
    :alt: 紅焼牛肉麺
 
    台北駅地下街で食べた、紅焼牛肉麺(牛スープとビーフン麺)。あんまりおいしくない。
 
-.. figure:: http://farm9.staticflickr.com/8024/7167833189_a617224484_n.jpg
-   :target: http://www.flickr.com/photos/shimizukawa/7167833189
+.. figure:: 7167833189.*
+   :target: https://photos.app.goo.gl/ahH6RHsm9aa3NcG3A
    :width: 320
    :height: 214
    :alt: ステュードライス(ホワイトソースかけ)と排骨
@@ -100,8 +100,8 @@ PyCon台湾については上記を読んで下さい。
 
 * 小籠包などはだいたい美味しかった。良い店のはとても美味しいらしい
 
-.. figure:: http://farm8.staticflickr.com/7103/7353071618_e7a525642d_n.jpg
-   :target: http://www.flickr.com/photos/shimizukawa/7353071618/
+.. figure:: 7353071618.*
+   :target: https://photos.app.goo.gl/ahH6RHsm9aa3NcG3A
    :width: 320
    :height: 214
    :alt: 鼎泰豐のチャーハンと小籠包
@@ -111,8 +111,8 @@ PyCon台湾については上記を読んで下さい。
 * 中央研究院の食堂(作り置き以外も注文できた)で注文した料理はどれもうまかった
 * ビールはアジアのビールという感じ。
 
-.. figure:: http://farm9.staticflickr.com/8156/7354114910_e6985d6582_n.jpg
-   :target: http://www.flickr.com/photos/shimizukawa/7354114910/
+.. figure:: 7354114910.*
+   :target: https://photos.app.goo.gl/ahH6RHsm9aa3NcG3A
    :width: 320
    :height: 214
    :alt: 中央研究院の食堂でシュウマイ
@@ -125,8 +125,8 @@ PyConTW
 
 PyConTWは今年1回目の開催ということで、Pythonユーザー会なども無い状況下で開催されたそうです。その割に参加者も多く(250名)、運営もすばらしかったと思います。発表者の多くは中央研究院の研究者だったのか、NumPy,SciPyに関連するものが多かった気がします。
 
-.. figure:: http://farm8.staticflickr.com/7223/7353108164_b44997567f_n.jpg
-   :target: http://www.flickr.com/photos/shimizukawa/7353108164/
+.. figure:: 7353108164.*
+   :target: https://photos.app.goo.gl/ahH6RHsm9aa3NcG3A
    :width: 320
    :height: 214
    :alt: 中央研究院の国際会議場

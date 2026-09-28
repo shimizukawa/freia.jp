@@ -47,9 +47,11 @@
 バターを用意します
 --------------------
 
-.. raw:: html
+.. figure:: 38079093014.*
+   :width: 640
+   :alt: フォンテラ社グラスフェッドバター 業務用5kg
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/38079093014/in/album-72157690436625785/" title="フォンテラ社グラスフェッドバター 業務用5kg"><img src="https://farm5.staticflickr.com/4529/38079093014_47a9ed62b4_z.jpg" width="640" height="360" alt="フォンテラ社グラスフェッドバター 業務用5kg"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   フォンテラ社グラスフェッドバター 業務用5kg
 
 業務用5kgじゃないグラスフェッドバターは単価が高すぎるので、5kg買って冷凍庫のスペースを空けて保存しました。
 
@@ -57,9 +59,11 @@
 MCTオイルとコーヒーを用意します
 --------------------------------
 
-.. raw:: html
+.. figure:: 24944432148.*
+   :width: 640
+   :alt: バターコーヒーの材料と道具
 
-   <a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/shimizukawa/24944432148/in/album-72157690436625785/" title="バターコーヒーの材料と道具"><img src="https://farm5.staticflickr.com/4528/24944432148_5811b6bafb_z.jpg" width="640" height="360" alt="バターコーヒーの材料と道具"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   バターコーヒーの材料と道具
 
 MCTオイルは、豊洲のアオキで買ってます。Amazonにもうすこし安いのもあります。
 
@@ -69,9 +73,11 @@ MCTオイルは、豊洲のアオキで買ってます。Amazonにもうすこ�
 豆を中細挽きにします
 ---------------------
 
-.. raw:: html
+.. figure:: 38078925024.*
+   :width: 640
+   :alt: コーヒー豆を挽く
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/38078925024/in/album-72157690436625785/" title="コーヒー豆を挽く"><img src="https://farm5.staticflickr.com/4554/38078925024_b8ee2813ac_z.jpg" width="640" height="360" alt="コーヒー豆を挽く"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   コーヒー豆を挽く
 
 挽き加減は好みで。苦くて濃いのを作るために細挽きか、中細挽きにしてます。
 
@@ -79,9 +85,11 @@ MCTオイルは、豊洲のアオキで買ってます。Amazonにもうすこ�
 金属フィルターでドリップ
 ------------------------
 
-.. raw:: html
+.. figure:: 38078924064.*
+   :width: 640
+   :alt: 金属フィルター
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/38078924064/in/album-72157690436625785/" title="金属フィルター"><img src="https://farm5.staticflickr.com/4555/38078924064_b8c8f44328_z.jpg" width="640" height="360" alt="金属フィルター"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   金属フィルター
 
 
 紙フィルターはコーヒーオイルを漉してしまう、ということで、金属フィルターにしました。
@@ -90,17 +98,21 @@ MCTオイルは、豊洲のアオキで買ってます。Amazonにもうすこ�
 水の量は2カップ分でドリップ
 ----------------------------
 
-.. raw:: html
+.. figure:: 24921970998.*
+   :width: 640
+   :alt: コーヒーメーカーで2カップ分淹れる
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/24921970998/in/album-72157690436625785/" title="コーヒーメーカーで2カップ分淹れる"><img src="https://farm5.staticflickr.com/4558/24921970998_c490bcd95b_z.jpg" width="640" height="360" alt="コーヒーメーカーで2カップ分淹れる"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   コーヒーメーカーで2カップ分淹れる
 
 
 グラスフェッドバター大さじ2杯
 ------------------------------
 
-.. raw:: html
+.. figure:: 38078923584.*
+   :width: 640
+   :alt: バター大さじ2杯
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/38078923584/in/album-72157690436625785/" title="バター大さじ2杯"><img src="https://farm5.staticflickr.com/4528/38078923584_2908e9a985_z.jpg" width="640" height="360" alt="バター大さじ2杯"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   バター大さじ2杯
 
 2カップ分に対してバター大さじ2は多いと思う。
 
@@ -110,9 +122,12 @@ MCTオイルは、豊洲のアオキで買ってます。Amazonにもうすこ�
 MCTオイル大さじ2杯
 -------------------
 
-.. raw:: html
+.. figure:: 38078920184.*
+   :width: 640
+   :alt: MCTオイル 大さじ2杯
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/38078920184/in/album-72157690436625785/" title="MCTオイル 大さじ2杯"><img src="https://farm5.staticflickr.com/4518/38078920184_3b80a378d9_z.jpg" width="640" height="360" alt="MCTオイル 大さじ2杯"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   MCTオイル 大さじ2杯
+
 
 こちらもバターと同量の大さじ2杯。
 
@@ -121,20 +136,28 @@ MCTオイル大さじ2杯
 湯煎してあたため
 -------------------
 
-.. raw:: html
+.. figure:: 24921970328.*
+   :width: 640
+   :alt: オイルの湯煎とカップ温め
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/24921970328/in/album-72157690436625785/" title="オイルの湯煎とカップ温め"><img src="https://farm5.staticflickr.com/4540/24921970328_124c9e0cbb_z.jpg" width="640" height="360" alt="オイルの湯煎とカップ温め"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   オイルの湯煎とカップ温め
 
 出来上がりを熱々にするために、オイル、カップ、ブレンダーを湯煎します。バターが溶けるくらいでコーヒーを入れます。
 
 ブレンダーでブレンド
 --------------------
 
-.. raw:: html
+.. figure:: 24921968948.*
+   :width: 640
+   :alt: 湯煎したバターにコーヒーを注ぐ
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/24921968948/in/album-72157690436625785/" title="湯煎したバターにコーヒーを注ぐ"><img src="https://farm5.staticflickr.com/4585/24921968948_42d604bd29_z.jpg" width="640" height="360" alt="湯煎したバターにコーヒーを注ぐ"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   湯煎したバターにコーヒーを注ぐ
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/38078921944/in/album-72157690436625785/" title="ブレンディング"><img src="https://farm5.staticflickr.com/4561/38078921944_5f0d24a618_z.jpg" width="640" height="360" alt="ブレンディング"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+.. figure:: 38078921944.*
+   :width: 640
+   :alt: ブレンディング
+
+   ブレンディング
 
 
 ブレンダーで泡立てるように混ぜます。20秒くらい。
@@ -143,11 +166,17 @@ MCTオイル大さじ2杯
 完成
 -----
 
-.. raw:: html
+.. figure:: 38078921284.*
+   :width: 640
+   :alt: カップにバターコーヒーを注ぐ
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/38078921284/in/album-72157690436625785/" title="カップにバターコーヒーを注ぐ"><img src="https://farm5.staticflickr.com/4579/38078921284_48f7e13b8a_z.jpg" width="640" height="360" alt="カップにバターコーヒーを注ぐ"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   カップにバターコーヒーを注ぐ
 
-   <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/24921967548/in/album-72157690436625785/" title="バターコーヒー完成！"><img src="https://farm5.staticflickr.com/4582/24921967548_8c7443b0de_z.jpg" width="640" height="360" alt="バターコーヒー完成！"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+.. figure:: 24921967548.*
+   :width: 640
+   :alt: バターコーヒー完成！
+
+   バターコーヒー完成！
 
 
 単価
@@ -180,11 +209,12 @@ MCTオイルをココナツオイルに変えると、風味が変わります�
 
 その他の写真
 
-.. raw:: html
-
-   <div id="flickrembed"></div><div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;"><a href="http://www.queensawards.org.uk/vouchers/tui.co.uk">TUI promo codes for the UK</a></div><script src='https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=www.flickr.com/photos/shimizukawa/albums/72157690436625785&sort=5&by=album&theme=default&scale=fill&limit=30&skin=default&autoplay=true'></script><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
-
-`show on flickr <https://www.flickr.com/photos/shimizukawa/albums/72157690436625785/with/24944432148/>`__
+.. figure:: 38078926024.*
+   :width: 640
+   :alt: その他の写真
+   :target: https://photos.app.goo.gl/Rn8fCGjuT6oy1v4t5
+   
+   `その他の写真 <https://photos.app.goo.gl/Rn8fCGjuT6oy1v4t5>`_
 
 
 関連blog

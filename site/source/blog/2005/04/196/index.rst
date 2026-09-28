@@ -13,22 +13,32 @@
 
 ▼ かまたま
 
-.. raw:: html
+.. figure:: 13657080344.*
+   :width: 640
+   :height: 480
+   :alt: かまたま
 
-   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/13657080344/in/album-72157643490543434/" title="かまたま"><img src="https://c1.staticflickr.com/8/7223/13657080344_8b39a89366_z.jpg" width="640" height="480" alt="かまたま"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   かまたま
 
 
 ▼ ぶっかけ
 
-.. raw:: html
+.. figure:: 13656734375.*
+   :width: 640
+   :height: 480
+   :alt: ぶっかけ
 
-   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/13656734375/in/album-72157643490543434/" title="ぶっかけ"><img src="https://c1.staticflickr.com/8/7015/13656734375_55d623386a_z.jpg" width="640" height="480" alt="ぶっかけ"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   ぶっかけ
+
 
 ▼ 生じょうゆ
 
-.. raw:: html
+.. figure:: 13657080264.*
+   :width: 640
+   :height: 480
+   :alt: 生じょうゆ
 
-   <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/shimizukawa/13657080264/in/album-72157643490543434/" title="生しょうゆ"><img src="https://c1.staticflickr.com/6/5492/13657080264_13f5f133f9_z.jpg" width="640" height="480" alt="生しょうゆ"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   生じょうゆ
 
 
 しかしこのお店、おっちゃんの喋りがおもしろすぎ。

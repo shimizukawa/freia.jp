@@ -5,15 +5,14 @@
 11/24(木)に伊豆高原で挙式してきます
 ==============================================
 
-.. figure:: http://farm7.staticflickr.com/6110/6272182737_853e57fbbe.jpg
-   :target: http://www.flickr.com/photos/shimizukawa/6272182737/
+.. figure:: 6272182737.jpg
    :alt: ミッシェルガーデンコート、教会
 
    ミッシェルガーデンコート、教会
 
 熱海(来宮)で開催された `PySpa Final(写真)`_ から帰ってきた清水川です。おはようございます。PySpaでは温泉に3回入って、あとはほとんど InternetWeek2011_ で発表するSphinxの資料を書いてました。PySpaは原稿書くのには向いてないですね！
 
-.. _`PySpa Final(写真)`: http://www.flickr.com/photos/shimizukawa/sets/72157628046164641/
+.. _`PySpa Final(写真)`: https://photos.app.goo.gl/uDL9pRcgFieYfSQbA
 .. _InternetWeek2011: https://internetweek.jp/program/t3/
 
 ということで、挙式することになりました。両親兄弟のみで平日やることにしましたが、いろんな人への紹介や親戚挨拶回りとか考えると全然楽な選択じゃない気がしますね！
