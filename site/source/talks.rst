@@ -2,6 +2,19 @@
 Talks
 =====
 
+
+
+`AI時代のクリティカル・ライティング 〜 AIが書いた文章を、自分の成果物にする`__
+=================================================================================
+2026.11.06. at `TechLead Conference 2026 Autumn`__
+
+.. __: https://docs.google.com/presentation/d/e/2PACX-1vTgR-OsVY2GD74fk5ecl8BVXjZKPPGLAbR0hUq9BsqPwDvWLYIk4ldeBeHWD8dc817H8oezYISTU8tr/pub
+.. __: https://2025.pycon.jp/ja/timetable/talk/ZFYREY
+
+  .. raw:: html
+
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTgR-OsVY2GD74fk5ecl8BVXjZKPPGLAbR0hUq9BsqPwDvWLYIk4ldeBeHWD8dc817H8oezYISTU8tr/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="300" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 `pytestを爆速にする10の方法`__
 ==============================
 2025.09.27. at `PyCon JP 2025`__
